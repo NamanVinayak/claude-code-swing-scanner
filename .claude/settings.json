@@ -1,1 +1,48 @@
-{}
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python:*)",
+      "Bash(.venv/bin/pip:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(python3.14:*)",
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "Bash(/Users/naman/.turso/turso:*)",
+      "Bash(turso:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(mkdir:*)",
+      "Bash(rm:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(echo:*)",
+      "Bash(printf:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(date:*)",
+      "Bash(jq:*)",
+      "Bash(curl:*)",
+      "Bash(test:*)",
+      "Bash(true)",
+      "Read(./**)",
+      "Write(./**)",
+      "Edit(./**)",
+      "Read(/Users/naman/Downloads/new-artist/**)",
+      "Write(/Users/naman/Downloads/new-artist/**)",
+      "Edit(/Users/naman/Downloads/new-artist/**)",
+      "Agent",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": [
+      "Bash(rm -rf /:*)",
+      "Bash(sudo:*)",
+      "Write(/Users/naman/Downloads/artist/**)",
+      "Edit(/Users/naman/Downloads/artist/**)"
+    ]
+  }
+}

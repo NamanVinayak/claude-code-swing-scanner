@@ -598,7 +598,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
             <a class="nav-link " href="closed.html">History</a>
             <a class="nav-link active" href="runs.html">All Runs</a>
         </div>
-        <div class="nav-meta">05:14 AM PT · NEXT TX <span id="countdown">--:--</span></div>
+        <div class="nav-meta">06:05 AM PT · NEXT TX <span id="countdown">--:--</span></div>
     </div>
 </nav>
 
@@ -610,11 +610,30 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
 </div>
 
 
-<div class="empty">
-    <div class="empty-icon">📂</div>
-    <h2>No runs found</h2>
-    <p>Run the hedge fund pipeline first — results will appear here as run folders populate.</p>
+
+<div class="run-accordion" id="run-1">
+    <div class="run-accordion-header" onclick="toggleRun('run-1')">
+        <span class="run-date">May 3, 2026 · 10:58 PM PT</span>
+        <span class="run-mode-badge mode-b_swing">b_swing</span>
+        <div class="run-ticker-pills">
+            
+        </div>
+        <div class="run-decision-count">
+            0 decisions
+            <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6,4 10,8 6,12"></polyline>
+            </svg>
+        </div>
+    </div>
+
+    <div class="run-accordion-body">
+        
+        <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
+        
+    </div>
 </div>
+
+
 
 
 </div>

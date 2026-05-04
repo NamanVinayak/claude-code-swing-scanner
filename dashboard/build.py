@@ -405,7 +405,9 @@ def main():
     with open(os.path.join(args.output, "runs.html"), "w") as f:
         f.write(runs_html)
 
-    # Per-ticker pages
+    # Per-ticker pages: union of (watchlist tickers + every ticker ever traded in Turso).
+    # System B's watchlist is empty by design — discovery is dynamic — so per-ticker pages
+    # exist only for tickers actually traded.
     all_tickers = set()
     try:
         with open("tracker/watchlist.json") as f:
@@ -414,6 +416,10 @@ def main():
                 all_tickers.update(schedule.get("tickers", []))
     except:
         pass
+    for t in all_trades:
+        tk = t.get("ticker")
+        if tk:
+            all_tickers.add(tk)
 
     ticker_template = env.get_template("ticker.html")
     

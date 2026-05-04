@@ -1,14 +1,13 @@
 {
   "schedules": [
-    {"mode": "swing", "tickers": ["TSLA", "AAPL", "NVDA", "AMD", "META", "MSFT", "GOOG", "AMZN", "JPM", "BAC", "GS", "UNH", "JNJ", "NKE", "DIS", "SNDK", "STX", "WDC", "MU"], "days": "mon,tue,wed,thu,fri"},
-    {"mode": "daytrade", "tickers": ["SPY", "QQQ", "IWM"], "days": "mon,tue,wed,thu,fri"}
+    {"mode": "b_swing", "tickers": [], "days": "mon,tue,wed,thu,fri"}
   ],
   "settings": {
-    "max_position_size_usd": 6250,
-    "max_concurrent_trades": 8,
+    "max_position_size_usd": 3750,
+    "max_concurrent_trades": 5,
     "paper_account_size": 25000,
     "swing_budget": 25000,
-    "daytrade_budget": 12500,
-    "wiki_enabled": true
+    "wiki_enabled": true,
+    "system_label": "System B (claude-code-swing-scanner)"
   }
 }

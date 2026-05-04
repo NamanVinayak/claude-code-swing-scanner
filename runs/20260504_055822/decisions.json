@@ -1,0 +1,10 @@
+{
+  "decisions": {},
+  "analyst_signals": {},
+  "metadata": {
+    "mode": "b_swing",
+    "stage": "stage3",
+    "skipped": true,
+    "skip_reason": "no_stage2_output_available_first_decide_open_after_wipe"
+  }
+}

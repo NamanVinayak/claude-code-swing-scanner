@@ -58,6 +58,18 @@ def _get_target_price(dec: dict) -> float | None:
     return None
 
 
+def _get_target_price_2(dec: dict) -> float | None:
+    """Stage 3's two-target trailing setup: simulator promotes stop to entry
+    after target_price hits and resumes toward target_price_2."""
+    v = dec.get("target_price_2")
+    if v is None:
+        return None
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
 def _get_stop_loss(dec: dict) -> float | None:
     for key in ("stop_loss", "stop"):
         v = dec.get(key)
@@ -196,6 +208,7 @@ def main() -> None:
 
             direction = "long" if action == "buy" else "short"
             target_price = _get_target_price(dec)
+            target_price_2 = _get_target_price_2(dec)
             stop_loss = _get_stop_loss(dec)
             timeframe = _get_timeframe(dec)
             confidence = dec.get("confidence")
@@ -229,7 +242,7 @@ def main() -> None:
                     "entry_price": entry_price,
                     "entry_tolerance_pct": entry_tolerance_pct,
                     "target_price": target_price,
-                    "target_price_2": None,
+                    "target_price_2": target_price_2,
                     "stop_loss": stop_loss,
                     "confidence": confidence,
                     "account_risk_pct": account_risk_pct,

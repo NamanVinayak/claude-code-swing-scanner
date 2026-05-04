@@ -1,6 +1,10 @@
-# AI Hedge Fund — Claude Code Skill Collection
+# claude-code-swing-scanner — System B (experimental)
+
+> ⚠️ **Experimental fork.** This is System B — a swing-trader-style brain that runs in parallel with the production [`claude-code-hedge-fund`](https://github.com/NamanVinayak/claude-code-hedge-fund) (System A). The two systems share no live code, no DB, and no dashboard. See `CLAUDE.md` and `HANDOFF.md` for status.
 
 Analyze stocks using ~28 AI agents — legendary investor personas, swing trade strategies, and intraday day-trade systems. Built as a collection of Claude Code slash commands. Runs entirely on a Claude Code subscription — no paid LLM APIs.
+
+System B replaces the production fixed-watchlist analysis with a **universe scanner**: TradingView MCP + Capitol Trades + Finnhub feed Stage 1, candidates funnel through a multi-stage adversarial pipeline (2 bull + 2 bear + judge per ticker, fresh context, parallel), and Stage 4 journals lessons into a wiki memory layer.
 
 ## Install
 

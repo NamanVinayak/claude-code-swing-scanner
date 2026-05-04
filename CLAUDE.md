@@ -1,140 +1,162 @@
-# CLAUDE.md
+# CLAUDE.md — System B (new-artist)
 
-Guidance for Claude Code (claude.ai/code) when working in this repository. **Keep this file slim** — subsystem detail lives in per-folder `CLAUDE.md` files and historical context in `ARCHITECTURE.md`.
+Guidance for Claude Code when working in **this** repository (System B, experimental). **Keep this file slim.**
 
 ## What this project is
 
-A zero-cost re-implementation of [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund). Instead of paid LLM APIs and a paid data API, it uses:
-- **Claude Code subagents** as the LLM (each persona = one Agent tool call)
-- **yfinance** + **SEC EDGAR companyfacts** + **Finnhub free tier** for all financial data
+**This is System B — an experimental swing-trader-style fork of the production hedge-fund system.** It runs in parallel with, and entirely separate from, System A.
 
-Reference upstream lives at `reference/ai-hedge-fund/` (read-only). Do NOT assume any function in this repo is verbatim from upstream — see `ARCHITECTURE.md` for the rule.
+| | System A (production) | System B (this folder) |
+|---|---|---|
+| Folder | `/Users/naman/Downloads/artist/` | `/Users/naman/Downloads/new-artist/` |
+| GitHub | `NamanVinayak/claude-code-hedge-fund` | `NamanVinayak/claude-code-swing-scanner` |
+| Turso DB | `hedge-fund-namanvinayak` | `hedge-fund-experimental` |
+| Dashboard | https://namanvinayak.github.io/claude-code-hedge-fund/ | https://namanvinayak.github.io/claude-code-swing-scanner/ |
+| Decision producer | 14 Cloud Routines, fixed watchlist | Local Desktop Scheduled Tasks, universe scanner (TBD) |
+| Status | Live since 2026-04-30 | Scaffolded 2026-05-03; brain not yet built |
+
+**Production is untouched.** Treat `~/Downloads/artist/` as read-only reference. Do not import from it. Do not push to its remote. Do not modify its files.
+
+## Why System B exists
+
+System A is built around a fixed watchlist (19 tickers, hardcoded). It analyzes each name on a schedule. **It is not how real swing traders work** — they scan the whole market for setups daily, then pick the cleanest 1–3.
+
+System B replicates the back-end (data layer, simulator, dashboard, wiki memory) but replaces the front-end with a **swing-trader-style brain**:
+- Universe scanner (TradingView MCP + Capitol Trades + Finnhub) finds candidates from ~1000 names
+- Adversarial bull/bear/judge debate decides which to actually trade (per-ticker, parallel, fresh context — Lopez-Lira / AlphaAgents inspired)
+- Capital allocation rules (1% per-trade risk, 4% total open risk, 60% deployment cap, scaling phase) enforced by the judge
+- Wiki memory layer carries learnings forward (per-ticker thesis + setup history + lessons + budget state)
+
+After 2–3 weeks of parallel paper trading, comparison dashboard shows which brain produces better outcomes.
+
+## Architecture — current vs planned
+
+### Inherited from System A (unchanged in this fork)
+- `ai_hedge/data/` — yfinance, SEC EDGAR, Finnhub, indicators, cache
+- `ai_hedge/personas/` — facts builders, helper functions, persona prompts (System A's; not used by System B's brain yet)
+- `ai_hedge/wiki/` — memory layer (inject, loader, manifest, templates, lint)
+- `tracker/` — Turso client, simulator, ingester, watchlist config, dashboard
+- `dashboard/` — Jinja2 dashboard renderer
+- `scripts/` — wiki bootstrap, compactor, drift checks, etc.
+
+### To be built (System B's brain)
+- `ai_hedge/data/tradingview.py` — TradingView MCP wrapper + screener helpers (Task 2)
+- `ai_hedge/data/capitol_trades.py` — congressional disclosure scraper (Task 3)
+- Wiki layer for System B with new pages: `setup_history`, `scanner_state`, `setup_patterns`, `budget_state` (Task 6.5)
+- Stage 1 — Sunset Scanner (Task 4)
+- Stage 2 — Pre-market Reviewer (Task 5)
+- Stage 3 — Adversarial Decision (4 prompts: 2 bull + 2 bear + judge) (Task 6)
+- Stage 4 — End-of-Day Journal (Task 7)
+- Desktop Scheduled Tasks setup (Task 8)
+- Cross-system comparison dashboard (Task 9)
+
+See `HANDOFF.md` for the live build status.
+
+## The four-stage pipeline (planned, not yet built)
+
+```
+Stage 1 — Sunset Scanner             ~2:00 PM PT  (mostly mechanical, 1 LLM synthesizer)
+  → mechanical screen of Russell 1000 / S&P via TradingView MCP signals
+  → cross-reference with Capitol Trades + Finnhub earnings
+  → outputs tomorrow_watchlist.json (30–50 candidates)
+
+Stage 2 — Pre-market Reviewer        ~5:30 AM PT  (10–15 parallel mini-agents)
+  → narrow yesterday's candidates by overnight news + pre-market action
+  → per-ticker mini-agent: "setup still valid? watch level? invalidation level?"
+  → outputs today_watchlist.json (top 5–10)
+
+Stage 3 — Adversarial Decision       ~7:00 AM PT  AND  ~11:30 AM PT
+  → for each surviving candidate (max 5):
+      2 Bull agents (parallel) + 2 Bear agents (parallel)  — fresh context each, 7-day news cutoff
+      1 Judge agent: reads all 4, applies budget rules, decides go/no-go
+  → max 3 trade decisions per fire (max 6 per day)
+  → outputs runs/<id>/decisions.json (same schema as System A — flows into simulator)
+
+Stage 4 — End-of-Day Journal         ~1:30 PM PT  (1 agent)
+  → reads today's filled / missed / fizzled
+  → updates per-ticker wiki, meta/lessons, meta/setup_patterns, meta/budget_state
+  → auto-bootstraps wiki pages for new tickers
+```
+
+All times Pacific. Active-day compute: ~65–70 LLM dispatches. Quiet days: 2–3.
+
+## Capital allocation framework (planned, lives in `wiki/meta/budget_state.md`)
+
+```
+Starting paper capital:     $25,000
+Risk per trade (max):       1.0% of account
+Total open risk (cap):      4.0% of account
+Max simultaneous positions: 5
+Max % deployed:             60% (40% cash floor)
+Single-position cap:        15% of account
+
+Daily loss stop:            -2% account → pause for the day
+Weekly loss stop:           -5% account → system review
+
+Scaling (paper too):
+  Week 1–2:  max 1 open, 0.5% risk per trade
+  Week 3–4:  max 3 open, 0.75% risk per trade
+  Month 2+:  full framework
+
+Volatility adjustment:
+  VIX > 25  → cut size 50%
+  VIX > 30  → no new entries
+```
+
+Read by every Stage 3 judge before approving. Updated nightly by Stage 4.
 
 ## Where detail lives
 
 | Need | Read |
 |---|---|
-| Pipeline internals (data flow, key modules, indicators, wiki, web research) | `ai_hedge/CLAUDE.md` |
-| Persona helpers + prompt rename map | `ai_hedge/personas/CLAUDE.md` |
-| Cloud DB (Turso) + simulator + ingester + dashboard | `tracker/CLAUDE.md` |
-| Architectural audit + dashboard ship notes | `ARCHITECTURE.md` |
-| Resume-from-here after compaction | `HANDOFF.md` (gitignored — local personal notes only; not used by routines) |
-| Run instructions step-by-step | `RUN_PLAYBOOK.md` |
-| Trading journal (every trade, position, lesson) | `tracker/TRADING_LOG.md` |
-
-**Live dashboard (autonomous)**: https://namanvinayak.github.io/claude-code-hedge-fund/ — rebuilds every 5 min via GitHub Actions cron, reads Turso cloud DB. No Mac dependency.
-
-## Running the hedge fund
-
-When the user says "run the hedge fund on AAPL, MSFT", follow `RUN_PLAYBOOK.md`. Slash command shortcut: `/swing TSLA`, `/invest AAPL,MSFT`, `/daytrade SPY`, `/research NVDA`.
-
-Quick reference:
-```bash
-python -m ai_hedge.runner.prepare --tickers AAPL,MSFT --run-id $(date +%Y%m%d_%H%M%S) --mode invest
-# Step 2: dispatch persona subagents in parallel (varies by mode)
-python -m ai_hedge.runner.aggregate --run-id <id> --tickers AAPL,MSFT
-# Step 4: dispatch final agent (PM / head trader / research writer)
-# Step 4.5: dispatch explainer agent
-# Step 4.6 (optional): dispatch wiki curator (gated on settings.wiki_enabled — currently TRUE)
-python -m ai_hedge.runner.finalize --run-id <id>
-```
-
-Venv: `.venv/`. Use `.venv/bin/python` or `source .venv/bin/activate`.
-
-## Modes
-
-| Mode | Purpose | Agents | Final Agent | Output |
-|---|---|---|---|---|
-| `invest` | Long-term portfolio | 14 investor personas | Portfolio Manager | Buy/sell/hold + holding period |
-| `swing` | 2–20 day setups | 5 swing strategies | Swing PM | Entry/target/stop/RR |
-| `daytrade` | Intraday plans | 9 day-trade strategies | DT PM | Setup + time window |
-| `research` | Comprehensive | All 30+ agents | Research Writer | Bull/bear, no recommendation |
-
-Universal pattern: **multiple diverse opinions → synthesis → decision**. Each mode dispatches its agents in parallel, head trader synthesizes (swing/daytrade), then PM decides.
-
-> **Model policy:** All Agent dispatches pin `model: sonnet`. Orchestrator model is set per-routine at claude.ai. Do NOT use `model: haiku` anywhere in this project (Sin #20 fix).
-
-## Pipeline
-
-```
-Claude Code (orchestrator)
-├── prepare.py                       → fetches data + builds facts bundles
-├── Agent × N (mode-dependent)       → reads facts + prompt, writes signal JSON
-├── [Agent × 1 Head Trader]          → swing/daytrade only
-├── aggregate.py                     → deterministic agents + risk manager
-├── Agent × 1 (final agent)          → PM / Head Trader PM / Research Writer
-├── Agent × 1 (explainer)            → educational narrative
-├── [Agent × 1 wiki curator]         → optional, gated on settings.wiki_enabled
-└── finalize.py                      → prints + writes summary.json
-```
-
-Detail in `ai_hedge/CLAUDE.md`.
-
-## Slash commands
-
-| Command | Purpose |
-|---|---|
-| `/invest AAPL,MSFT` | Long-term portfolio decisions |
-| `/swing TSLA,NVDA` | Swing trade setups (2–20 days) |
-| `/daytrade SPY` | Intraday trade plan |
-| `/research NVDA` | Comprehensive research report |
-| `/autorun` | Daily routine (monitor → model → execute → dashboard) |
-| `/wiki-maintenance` | Sunday wiki compactor (one of 15 Anthropic Routines) |
-
-## Crypto status
-
-Crypto code is **QUARANTINED** at `.archive/crypto/` (Apr 2026). Swing-stock only focus. To restore see `.archive/crypto/README.md`.
+| Build status, what's delegated, what's next | `HANDOFF.md` |
+| External setup steps (GitHub repo, Turso DB, secrets, gh-pages) | `SETUP_NOTES.md` |
+| Inherited pipeline internals | `ai_hedge/CLAUDE.md` |
+| Inherited wiki / simulator / dashboard | `tracker/CLAUDE.md` |
+| Original (System A) architecture | `ARCHITECTURE.md` (inherited, not yet diverged) |
+| Original (System A) run instructions | `RUN_PLAYBOOK.md` (inherited; System B will replace with its own) |
 
 ## Environment
 
 - Python 3.14, venv at `.venv/`
-- Package installed editable: `import ai_hedge` works from any directory
-- `.env` holds `FINNHUB_API_KEY` (optional)
-- SQLite cache at `ai_hedge/data/cache.py` — speeds up repeated API calls
+- `import ai_hedge` works from anywhere (editable install)
+- `.env.example` is the template; user creates `.env` with second Turso DB credentials
+- Same data layer as System A — yfinance, SEC EDGAR, Finnhub free tier
+- New: TradingView MCP (server installed by user; wrapper in Task 2)
 
-## Smoke tests
+## Smoke tests (verify scaffold)
 
 ```bash
-.venv/bin/python -c "from ai_hedge.data.api import get_prices; print(get_prices('AAPL', '2024-01-01', '2024-03-01'))"
-.venv/bin/python -m ai_hedge.runner.prepare --tickers AAPL --run-id test --mode swing
+.venv/bin/python -c "from ai_hedge.data.api import get_prices; print(len(get_prices('AAPL', '2024-01-01', '2024-03-01')), 'bars')"
 .venv/bin/python -c "from ai_hedge.wiki.inject import is_wiki_enabled; print('wiki:', is_wiki_enabled())"
-.venv/bin/python scripts/check_docs_drift.py
+.venv/bin/python -m ai_hedge.runner.prepare --tickers AAPL --run-id smoke_test --mode swing && rm -rf runs/smoke_test
 ```
 
-## Daily Accuracy Check (session start)
+## Git remote (single)
 
-When the user opens a new session, run the swing backtest and report a plain-English portfolio summary:
+This folder has exactly **one** remote: `origin` → `NamanVinayak/claude-code-swing-scanner` (placeholder until user creates the GitHub repo per `SETUP_NOTES.md` step 1).
 
 ```bash
-.venv/bin/python tracker/backtest.py
+git remote -v   # should show ONLY origin pointing at claude-code-swing-scanner
 ```
 
-One short paragraph: open trades, net P&L, entry hit rate, win rate. Wealthsimple-style: "You're up $X / down $X across N open trades. Win rate Y%, entry hit rate Z%."
+If any other remote shows up, something pulled it back in by mistake.
 
-## Git remote (single — clean as of 2026-05-02)
+## Boundary rule
 
-This folder has exactly **one** GitHub remote: **`hedge-remote`** → `NamanVinayak/claude-code-hedge-fund`. That's production — Anthropic Routines clone it on every fire; auto-merge workflow + dashboard cron live there. All pushes go to `hedge-remote main`.
-
-The legacy fork (`NamanVinayak/ai-hedge-fund`) was disconnected from this folder on 2026-05-02 to eliminate two-remote confusion. A standalone clone of the legacy repo lives at `~/Downloads/oldartist/` for backup; it has its own `origin` and is unrelated to this project. Don't touch it from here.
-
-**Verification any time:**
-```bash
-git remote -v   # should show ONLY hedge-remote
-git ls-remote hedge-remote refs/heads/main   # SHA matches `git rev-parse main` after a push
-```
-
-If `git remote -v` ever shows a remote other than `hedge-remote` in this folder, something pulled it back in by mistake — investigate before pushing.
+- Do **not** import from `/Users/naman/Downloads/artist/` in any code in this project.
+- Bug fixes can flow forward via periodic `git fetch` + manual cherry-pick from System A.
+- No live shared modules. No shared DB. No shared dashboard.
+- The two systems must remain independent in production state — a bug in System B must not be able to corrupt System A's track record.
 
 ## Conventions
 
-- **`.agents/` is for OpenCode** — Claude Code does NOT auto-load it. Treat it as out-of-scope; do not read or modify files there unless the user explicitly requests it.
-- **graphify is no longer used** — do not run rebuild scripts, do not read `graphify-out/`. The dir is gitignored and will be deleted in a later cleanup.
-- All Agent dispatches: `model: sonnet`
-- Run `.venv/bin/python scripts/check_docs_drift.py` after structural changes
-- Wiki feature flag is currently ON. Routines clone the repo per run, so config changes must be pushed to `hedge-remote/main` (see "Git remotes" above).
-- **After every Playwright worker**: delete `.playwright-mcp/storageState*.json` to prevent session tokens from leaking into next session's context.
-- **Routine push flow**: routines push to `claude/*` feature branches on `hedge-remote`; the `auto-merge-routine-branches.yml` workflow fast-forwards them to `main` automatically.
+- All Agent dispatches: `model: sonnet`. Do NOT use `model: haiku`.
+- `.agents/` is for OpenCode — Claude Code does NOT auto-load it.
+- `graphify-out/` is gitignored and unused.
+- After every Playwright worker, delete `.playwright-mcp/storageState*.json` (token leak prevention).
+- System B's "decision producer" runs as **macOS Desktop Scheduled Tasks** (not Cloud Routines). Mac must be on during the trading window (5:30 AM – 2:30 PM Pacific).
 
 ---
 
-_Last updated: 2026-05-02. Disconnected legacy `origin` remote (NamanVinayak/ai-hedge-fund); folder now single-remote (hedge-remote = production). Legacy backup clone at `~/Downloads/oldartist/`._
+_Last updated: 2026-05-03 — initial scaffold. Brain not yet built. See HANDOFF.md for next steps._

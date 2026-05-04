@@ -1,15 +1,17 @@
-"""Per-agent wiki reading manifest.
+"""Per-stage wiki reading manifest for System B (four-stage pipeline).
 
-Each entry says: for this agent, what pages does it read, and in what mode
-(`tldr` = only the TL;DR section; `full` = entire page).
+Each entry says: for this pipeline stage, what pages does it read, and in
+what mode (`tldr` = only the TL;DR section; `full` = entire page).
 
-Pages are referenced as a (category, basename) pair. Per-ticker pages use
-category `"ticker"`; macro pages use `"macro"`; meta pages use `"meta"`.
+Pages are referenced as a (category, basename, mode) triple. Per-ticker
+pages use category `"ticker"`; macro pages use `"macro"`; meta pages use
+`"meta"`.
 
 The injector walks this manifest and assembles a `wiki_context` dict per
-(agent, ticker) which gets merged into the existing facts bundle.
+(stage, ticker) which gets merged into the existing facts bundle.
 
-See scripts/wiki_memory_plan.md §3 for rationale.
+System B stages: b_scanner, b_premarket, b_bull_a, b_bull_b, b_bear_a,
+  b_bear_b, b_judge, b_journal.
 """
 
 from __future__ import annotations
@@ -19,42 +21,65 @@ from __future__ import annotations
 #  basename: filename without .md
 #  mode: "tldr" or "full"
 AGENT_MANIFEST: dict[str, list[tuple[str, str, str]]] = {
-    "swing_trend_momentum": [
-        ("ticker", "technicals", "tldr"),
-        ("macro", "regime", "tldr"),
-        ("meta", "lessons", "full"),
-    ],
-    "swing_mean_reversion": [
-        ("ticker", "technicals", "tldr"),
-        ("ticker", "recent", "tldr"),
-        ("meta", "lessons", "full"),
-    ],
-    "swing_breakout": [
-        ("ticker", "technicals", "full"),
-        ("meta", "lessons", "full"),
-    ],
-    "swing_catalyst_news": [
-        ("ticker", "catalysts", "full"),
-        ("macro", "calendar", "full"),
-        ("meta", "lessons", "full"),
-    ],
-    "swing_macro_context": [
+    # Stage 1 — Sunset Scanner. Mostly mechanical; the LLM synthesizer at
+    # the end reads market-wide context to write a paragraph for the watchlist.
+    "b_scanner": [
         ("macro", "regime", "full"),
-        ("macro", "sectors", "full"),
-        ("ticker", "thesis", "tldr"),
-        ("meta", "lessons", "full"),
+        ("macro", "scanner_state", "full"),
+        ("meta", "setup_patterns", "full"),
     ],
-    # Head trader: NOT listed here intentionally. The head trader has no
-    # facts file (it reads strategy signals via a prompt template), so the
-    # injector cannot deliver wiki_context to it the same way. Instead, the
-    # head trader reads wiki/meta/lessons.md and wiki/tickers/<T>/trades.md
-    # directly. See:
-    #   - .agents/skills/swing/SKILL.md Step 4 (dispatch instructions)
-    #   - ai_hedge/personas/prompts/swing_head_trader.md "Wiki Memory" section
-    "swing_portfolio_manager": [
+
+    # Stage 2 — Pre-market Reviewer. Per-ticker mini-agents (one per candidate)
+    # check whether yesterday's setup is still valid given overnight news.
+    "b_premarket": [
+        ("ticker", "setup_history", "tldr"),
+        ("ticker", "recent", "tldr"),  # `recent.md` is inherited from System A's templates
+        ("macro", "regime", "tldr"),
+    ],
+
+    # Stage 3 — Adversarial Decision: 2 bull + 2 bear agents per surviving candidate.
+    # All four read the same per-ticker context; they differ only in adversarial framing
+    # via their prompt (not via what they read).
+    "b_bull_a": [
+        ("ticker", "thesis", "full"),
+        ("ticker", "catalysts", "full"),
+        ("ticker", "technicals", "full"),
+    ],
+    "b_bull_b": [
+        ("ticker", "thesis", "full"),
+        ("ticker", "catalysts", "full"),
+        ("ticker", "technicals", "full"),
+    ],
+    "b_bear_a": [
+        ("ticker", "thesis", "full"),
+        ("ticker", "catalysts", "full"),
+        ("ticker", "technicals", "full"),
+    ],
+    "b_bear_b": [
+        ("ticker", "thesis", "full"),
+        ("ticker", "catalysts", "full"),
+        ("ticker", "technicals", "full"),
+    ],
+
+    # Stage 3 — Judge. Reads the four perspectives + the global discipline pages.
+    # The judge is the gate that enforces capital allocation rules.
+    "b_judge": [
         ("ticker", "thesis", "tldr"),
         ("ticker", "trades", "full"),
         ("meta", "lessons", "full"),
+        ("meta", "setup_patterns", "full"),
+        ("meta", "budget_state", "full"),
+        ("meta", "open_positions", "full"),
+    ],
+
+    # Stage 4 — End-of-Day Journal. Reads everything for today's tickers and
+    # writes lessons + updates per-ticker pages + updates budget_state.
+    "b_journal": [
+        ("ticker", "trades", "full"),
+        ("ticker", "setup_history", "full"),
+        ("meta", "lessons", "full"),
+        ("meta", "setup_patterns", "full"),
+        ("meta", "budget_state", "full"),
         ("meta", "open_positions", "full"),
     ],
 }

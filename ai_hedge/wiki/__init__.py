@@ -7,7 +7,7 @@ See scripts/wiki_memory_plan.md for the full design.
 """
 
 from ai_hedge.wiki.manifest import AGENT_MANIFEST, pages_for
-from ai_hedge.wiki.inject import inject_context, touch_index, is_wiki_enabled
+from ai_hedge.wiki.inject import inject_context, touch_index, is_wiki_enabled, is_system_b_stage
 from ai_hedge.wiki.loader import read_tldr, read_full, parse_front_matter
 from ai_hedge.wiki import lint, templates
 
@@ -17,6 +17,7 @@ __all__ = [
     "inject_context",
     "touch_index",
     "is_wiki_enabled",
+    "is_system_b_stage",
     "read_tldr",
     "read_full",
     "parse_front_matter",

@@ -105,8 +105,8 @@ def inject_context(run_id: str, tickers: list[str], mode: str = "swing") -> dict
     if not is_wiki_enabled():
         return {"skipped": True, "reason": "wiki_enabled=false"}
 
-    if mode != "swing":
-        # Phase 1 is swing-only.
+    # Accept System A's swing mode OR any System B pipeline stage (b_*).
+    if mode != "swing" and not mode.startswith("b_"):
         return {"skipped": True, "reason": f"mode={mode} not supported in Phase 1"}
 
     facts_dir = Path("runs") / run_id / "facts"
@@ -178,9 +178,15 @@ def touch_index(run_id: str) -> None:
     index_path.write_text("\n".join(lines) + "\n")
 
 
+def is_system_b_stage(agent: str) -> bool:
+    """True if the agent is one of System B's pipeline stages."""
+    return agent.startswith("b_")
+
+
 __all__ = [
     "build_wiki_context",
     "inject_context",
     "is_wiki_enabled",
+    "is_system_b_stage",
     "touch_index",
 ]

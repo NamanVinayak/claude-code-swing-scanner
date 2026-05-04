@@ -103,6 +103,10 @@ A single JSON object. No prose around it. No code fences. No commentary.
 8. The "why" sentence should be honest about losses — System B improves by
    recording what failed, not by sugar-coating.
 
+### Staleness handling
+
+If you encounter a `[STALE — last updated YYYY-MM-DD, threshold N days exceeded. Verify via web search before relying on these claims.]` marker on any wiki section in your facts bundle, treat that section as untrusted historical context only. Do NOT propagate stale claims into the lessons or thesis updates you write today. If a lesson depends on facts that the marker says are stale, either verify the underlying claim via web search or omit it from your output. Mark any propagated content as "context-only" if you must reference it.
+
 ## Output budget
 
 Total output ≤ 1500 tokens. Strip whitespace. Be concise.

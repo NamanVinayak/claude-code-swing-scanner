@@ -56,12 +56,22 @@ def _slice_for(category: str, basename: str, mode: str, ticker: str | None) -> d
         return {}
     fm = parse_front_matter(path)
     text = read_tldr(path) if mode == "tldr" else read_full(path)
+    stale = is_stale(fm)
+    if stale:
+        last_updated = fm.get("last_updated", "unknown")
+        threshold_days = fm.get("stale_after_days", "?")
+        marker = (
+            f"[STALE — last updated {last_updated}, "
+            f"threshold {threshold_days} days exceeded. "
+            f"Verify via web search before relying on these claims.]\n\n"
+        )
+        text = marker + text
     return {
         "path": str(path),
         "mode": mode,
         "content": text,
         "last_updated": fm.get("last_updated"),
-        "stale": is_stale(fm),
+        "stale": stale,
     }
 
 

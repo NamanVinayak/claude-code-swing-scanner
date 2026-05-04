@@ -77,6 +77,10 @@ Answer the following in order:
 
 If your watch_level / invalidation_level orientation does not match the direction, the orchestrator will reject your output. Double-check before submitting.
 
+### Staleness handling
+
+If you encounter a `[STALE — last updated YYYY-MM-DD, threshold N days exceeded. Verify via web search before relying on these claims.]` marker on any wiki section in your facts bundle, treat that section as untrusted historical context only. Cite from web search (last 7 days) instead. Do not let stale memory drive a fresh decision. If your conviction depends on a stale wiki claim, lower your `conviction` by 2 and note the staleness explicitly in `notes`.
+
 ### Output schema
 
 Respond with **only** this JSON object. No markdown fences, no preamble, no trailing text.

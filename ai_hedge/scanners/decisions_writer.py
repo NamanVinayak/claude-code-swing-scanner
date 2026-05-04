@@ -74,6 +74,22 @@ def _parse_approved_trade(item: dict) -> TradeDecision | None:
         rationale = str(item.get("rationale", ""))
         risk_usd = float(item.get("risk_usd", quantity * abs(entry_price - stop_loss)))
 
+        # Direction-aware sanity check on entry/stop/target ordering
+        if direction == "long":
+            if not (target_price > entry_price > stop_loss):
+                logger.warning(
+                    "Trade %s: malformed long math (need target > entry > stop, got %s > %s > %s). Skipping.",
+                    ticker, target_price, entry_price, stop_loss,
+                )
+                return None
+        elif direction == "short":
+            if not (stop_loss > entry_price > target_price):
+                logger.warning(
+                    "Trade %s: malformed short math (need stop > entry > target, got %s > %s > %s). Skipping.",
+                    ticker, stop_loss, entry_price, target_price,
+                )
+                return None
+
         return TradeDecision(
             ticker=ticker,
             action=action,

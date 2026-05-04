@@ -43,6 +43,7 @@
       "Bash(sudo:*)",
       "Write(/Users/naman/Downloads/artist/**)",
       "Edit(/Users/naman/Downloads/artist/**)"
-    ]
+    ],
+    "defaultMode": "bypassPermissions"
   }
 }

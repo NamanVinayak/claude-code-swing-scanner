@@ -649,3 +649,70 @@ def get_recommendation(symbol: str, *, timeframe: Timeframe = "1d") -> Recommend
     """Convenience: just the TA recommendation for one ticker. Uses get_snapshot."""
     snap = get_snapshot(symbol, timeframe=timeframe)
     return snap.recommendation
+
+
+def lookup_metadata(
+    symbols: list[str],
+    *,
+    market: Literal["america"] = "america",
+    cache_ttl_sec: int = 60,
+) -> dict[str, dict]:
+    """Batch-fetch last_close, volume, change_pct, market_cap, avg_volume_10d, exchange
+    for many tickers in ONE scanner POST.
+
+    Returns dict keyed by upper-cased symbol → row dict. Row dicts have None values
+    dropped (so callers should use .get() and not assume keys are present).
+
+    Symbols not found in the scanner response are simply absent from the returned
+    dict — caller must handle missing keys.
+    """
+    if not symbols:
+        return {}
+
+    syms = sorted({s.upper().strip() for s in symbols if s and s.strip()})
+    if not syms:
+        return {}
+
+    cache_key = f"meta:{market}:{','.join(syms)}"
+    cached = _cache_get(cache_key, cache_ttl_sec)
+    if cached is not None:
+        return cached
+
+    logger.info("cache miss: lookup_metadata(%d symbols)", len(syms))
+
+    columns = ["name", "close", "volume", "change", "market_cap_basic", "average_volume_10d_calc", "exchange"]
+    payload = {
+        "filter": [
+            {"left": "name", "operation": "in_range", "right": syms},
+        ],
+        "columns": columns,
+        "range": [0, len(syms)],
+        "options": {"lang": "en"},
+    }
+
+    result = _scanner_post_with_retry(market, payload)
+    rows = result.get("data") or []
+
+    output: dict[str, dict] = {}
+    for row in rows:
+        d = row.get("d", [])
+        if len(d) < len(columns):
+            continue
+        sym = d[0]
+        if not sym:
+            continue
+        sym = str(sym).upper()
+        entry_full = {
+            "symbol":          sym,
+            "last_close":      d[1],
+            "volume":          d[2],
+            "change_pct":      d[3],
+            "market_cap":      d[4],
+            "avg_volume_10d":  d[5],
+            "exchange":        d[6],
+        }
+        entry = {k: v for k, v in entry_full.items() if v is not None}
+        output[sym] = entry
+
+    _cache_set(cache_key, output)
+    return output

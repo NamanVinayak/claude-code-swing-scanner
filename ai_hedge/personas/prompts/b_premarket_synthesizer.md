@@ -20,6 +20,7 @@ The orchestrator passes you:
    ```json
    {
      "ticker": "STX",
+     "direction": "long",
      "setup_valid": "yes",
      "setup_type": "breakout",
      "watch_level": 731.50,
@@ -51,6 +52,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
   "today_watchlist": [
     {
       "ticker": "STX",
+      "direction": "long",
       "setup_type": "breakout",
       "setup_valid": "yes",
       "watch_level": 731.50,
@@ -73,6 +75,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
 Fields:
 - `today_watchlist` — array of kept tickers, ranked. Each object:
   - `ticker` — string
+  - `direction` — `"long"` or `"short"`. Carry through from mini-agent output verbatim. Do NOT change it.
   - `setup_type` — string (from mini-agent)
   - `setup_valid` — `"yes"` or `"partial"` (never `"no"` — those are dropped)
   - `watch_level` — float or `null`
@@ -92,6 +95,7 @@ Fields:
 - Do NOT modify conviction scores from the mini-agents. You rank by them; you do not judge them.
 - Do NOT add tickers not in the mini-agent outputs array.
 - Do NOT invent watch or invalidation levels. Carry them through verbatim.
+- Do NOT change `direction` from the mini-agent output. Carry it through verbatim.
 - `ranking_rationale` must be traceable to the data. If setup_patterns data was absent or empty, say so.
 - If `today_watchlist` is empty (all `setup_valid == "no"`), that is a valid result. The meta object still must be populated accurately.
 

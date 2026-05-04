@@ -145,10 +145,12 @@ def write_decisions(
 
     # Defensive budget re-check
     budget_snapshot = None
+    budget_failure_reason: str | None = None
     try:
         budget_snapshot = compute_risk_budget()
     except Exception as exc:
-        logger.warning("Could not compute budget for double-check: %s", exc)
+        budget_failure_reason = f"{type(exc).__name__}: {exc}"
+        logger.error("Could not compute budget for double-check: %s", budget_failure_reason)
 
     final_approved: list[TradeDecision] = []
     if budget_snapshot is not None:
@@ -169,8 +171,19 @@ def write_decisions(
                 )
                 rejected_raw.append({"ticker": td.ticker, "reason": reason_str})
     else:
-        # No budget snapshot — pass all through (can't verify)
-        final_approved = trades
+        # Fail-EMPTY: budget snapshot unavailable — reject ALL trades for this run.
+        # Safer than fail-open (silently approving unverified trades touches real capital).
+        logger.error(
+            "Budget snapshot unavailable — rejecting all %d approved trades. Reason: %s",
+            len(trades),
+            budget_failure_reason,
+        )
+        for td in trades:
+            rejected_raw.append({
+                "ticker": td.ticker,
+                "reason": f"budget_unavailable: {budget_failure_reason}",
+            })
+        final_approved = []
 
     # Hard cap: max 3 per fire — sort by conviction descending then take top 3
     if len(final_approved) > 3:

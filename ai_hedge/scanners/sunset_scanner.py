@@ -1,12 +1,17 @@
-"""Stage 1 Sunset Scanner — System B's universe → candidates funnel.
+"""Stage 1 Sunset Scanner — System B's signal-first, direction-aware funnel.
 
-Runs late afternoon Pacific (after market close). Combines TradingView
-signal screens with Capitol Trades disclosures. Pure-Python — no LLM
-calls in this module. The orchestrator (Desktop Scheduled Task) is
-responsible for dispatching the synthesizer agent that turns the diagnostic
-output into `wiki/macro/scanner_state.md` content.
+Runs late afternoon Pacific (after market close). Pulls TradingView signal
+screens FIRST (the union of unique tickers that hit any signal IS the candidate
+pool — no upfront market-cap-rank cap), enriches with Capitol Trades disclosures,
+then applies per-ticker sanity filters via a single batch metadata lookup.
 
-All public functions are pure-data and idempotent (within their cache TTL).
+Direction-aware: long signals (strong_buy, breakout_up, trending_up, oversold)
+and short signals (strong_sell, breakout_down, trending_down, overbought) are
+tracked separately. Capitol buys go into long reasons (politicians buying =
+bullish). A candidate must clear `min_reasons_to_advance` in a SINGLE direction;
+having reasons in BOTH directions is treated as "conflicted" and dropped.
+
+Pure-Python — no LLM calls in this module.
 """
 from __future__ import annotations
 
@@ -15,26 +20,32 @@ import time
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Sequence
+from typing import Literal
 from zoneinfo import ZoneInfo
 
 from ai_hedge.data.capitol_trades import get_recent_trades
-from ai_hedge.data.tradingview import find_signals, screen_universe
+from ai_hedge.data.tradingview import find_signals, lookup_metadata
 
 logger = logging.getLogger(__name__)
 
 _PT = ZoneInfo("America/Los_Angeles")
 
 
+# --- Direction taxonomy ----------------------------------------------------
+# RSI < 30 = oversold = bullish (long); RSI > 70 = overbought = bearish (short).
+
+LONG_SIGNALS: set[str] = {"strong_buy", "breakout_up", "trending_up", "oversold"}
+SHORT_SIGNALS: set[str] = {"strong_sell", "breakout_down", "trending_down", "overbought"}
+
+
 # --- Public types -----------------------------------------------------------
 
 @dataclass(frozen=True)
 class ScanConfig:
-    # Universe filters
+    # Per-ticker sanity filters (applied AFTER signal-pool union, via batch metadata)
     min_price: float = 5.0
     min_avg_volume: int = 500_000
     min_market_cap_usd: float = 1_000_000_000
-    max_universe_size: int = 500  # cap the base universe pull from TradingView
 
     # Signal universe (which find_signals kinds to query)
     signals: tuple[str, ...] = (
@@ -47,7 +58,11 @@ class ScanConfig:
         "trending_up",
         "trending_down",
     )
-    signals_max_per_kind: int = 50
+    signals_max_per_kind: int = 400
+
+    # Which directions to scan for. Default both on. Setting to ("long",) skips
+    # short signal kinds entirely (and vice versa).
+    directions_enabled: tuple[str, ...] = ("long", "short")
 
     # Capitol Trades filters
     capitol_trades_enabled: bool = True
@@ -67,14 +82,18 @@ class Candidate:
     market_cap_usd: float | None
     volume: int | None
     change_pct_today: float | None
+    long_reasons: list[str] = field(default_factory=list)
+    short_reasons: list[str] = field(default_factory=list)
+    direction: Literal["long", "short"] | None = None
+    # Back-compat: downstream (premarket_reviewer.py) reads `reasons`. Populated
+    # with whichever directional list met the advancement threshold.
     reasons: list[str] = field(default_factory=list)
-    tradingview_recommendation: str | None = None
-    capitol_buys_30d: int = 0  # how many distinct politicians bought in last 30d
+    capitol_buys_30d: int = 0
     capitol_buys_politicians: list[str] = field(default_factory=list)
 
     @property
     def score(self) -> int:
-        """Number of distinct reason codes."""
+        """Number of distinct reason codes in the advancing direction."""
         return len(self.reasons)
 
 
@@ -83,9 +102,9 @@ class ScanResult:
     run_id: str
     scan_timestamp_pt: str  # ISO-8601 with PT offset
     config: ScanConfig
-    universe_size: int
+    universe_size: int  # unique tickers with any signal hit (pre-sanity-filter)
     candidates: list[Candidate]
-    signal_counts: dict[str, int]  # raw counts per signal kind + capitol_buys
+    signal_counts: dict[str, int]  # raw counts per signal kind + capitol_buys + telemetry
     errors: list[str] = field(default_factory=list)
     elapsed_seconds: float = 0.0
 
@@ -100,18 +119,23 @@ def run_sunset_scan(
     """Run the Stage 1 scan end-to-end and return the result.
 
     Steps (in order):
-        1. Pull base universe from tradingview.screen_universe()
-        2. For each signal kind, pull tradingview.find_signals() and tag candidates
-        3. If config.capitol_trades_enabled: pull capitol_trades.get_recent_trades(direction='buy')
-           and tag candidates with capitol_buys_30d count + politician names
-        4. Filter to candidates with reasons >= config.min_reasons_to_advance
-        5. Rank by (-reason_count, -market_cap)
-        6. Truncate to config.max_candidates
+        1. For each enabled signal kind, pull tradingview.find_signals().
+           Tag each ticker's reason into long_reasons or short_reasons depending
+           on the signal kind's direction. Union of all hits = candidate pool.
+        2. If config.capitol_trades_enabled: pull capitol_trades.get_recent_trades(direction='buy')
+           and add capitol_buys_2plus / capitol_buys_5plus to long_reasons for any
+           pool ticker.
+        3. Batch metadata lookup for the entire pool in ONE scanner POST.
+        4. Per-ticker sanity filter: min_price, min_avg_volume, min_market_cap_usd.
+        5. Direction resolution:
+             - reasons in BOTH directions → drop as "conflicted"
+             - 1 reason in single direction → drop as "directional singleton"
+             - long_reasons >= min_reasons_to_advance → advance as direction="long"
+             - short_reasons >= min_reasons_to_advance → advance as direction="short"
+        6. Rank by (-score, -market_cap), truncate to max_candidates.
 
     On any single source failure (e.g., Capitol Trades site down), log a warning
     and continue with degraded data — record the error in result.errors.
-
-    If run_id is None, generate one as `datetime.now().strftime("%Y%m%d_%H%M%S")`.
 
     Does NOT write any files. The runner (write_scan_outputs) handles I/O.
     """
@@ -126,54 +150,28 @@ def run_sunset_scan(
 
     scan_timestamp_pt = datetime.now(timezone.utc).astimezone(_PT).isoformat(timespec="seconds")
 
-    # Step 1: Pull base universe
-    logger.info("Stage 1: pulling base universe (max=%d)", config.max_universe_size)
-    try:
-        universe_rows = screen_universe(
-            min_price=config.min_price,
-            min_avg_volume=config.min_avg_volume,
-            min_market_cap_usd=config.min_market_cap_usd,
-            max_results=config.max_universe_size,
-        )
-    except Exception as exc:
-        err = f"screen_universe failed: {exc}"
-        logger.warning(err)
-        errors.append(err)
-        universe_rows = []
+    # Step 1: Pull signal hits and partition by direction
+    long_reasons_map: dict[str, list[str]] = {}
+    short_reasons_map: dict[str, list[str]] = {}
+    signal_hits_total = 0
+    long_enabled = "long" in config.directions_enabled
+    short_enabled = "short" in config.directions_enabled
 
-    # Authoritative source of last_close, market_cap_usd, exchange
-    universe: dict[str, dict] = {}
-    for row in universe_rows:
-        sym = (row.get("symbol") or "").upper().strip()
-        if sym:
-            universe[sym] = row
-    logger.info("Universe: %d tickers", len(universe))
-
-    # candidates_map accumulates reason codes per ticker (only in-universe tickers)
-    candidates_map: dict[str, Candidate] = {}
-
-    def _get_or_create(ticker: str) -> Candidate | None:
-        if ticker not in universe:
-            return None
-        if ticker not in candidates_map:
-            row = universe[ticker]
-            mc = row.get("market_cap")
-            vol = row.get("volume")
-            chg = row.get("change_pct")
-            candidates_map[ticker] = Candidate(
-                ticker=ticker,
-                exchange=str(row.get("exchange") or ""),
-                last_close=float(row.get("last_close") or 0.0),
-                market_cap_usd=float(mc) if mc is not None else None,
-                volume=int(vol) if vol is not None else None,
-                change_pct_today=float(chg) if chg is not None else None,
-            )
-        return candidates_map[ticker]
-
-    # Step 2: Tag candidates via TradingView signal screens
-    total_skipped = 0
     for signal in config.signals:
-        logger.info("Scanning signal: %s", signal)
+        is_long = signal in LONG_SIGNALS
+        is_short = signal in SHORT_SIGNALS
+        if is_long and not long_enabled:
+            signal_counts[f"tv_{signal}"] = 0
+            continue
+        if is_short and not short_enabled:
+            signal_counts[f"tv_{signal}"] = 0
+            continue
+        if not (is_long or is_short):
+            logger.warning("Signal %s not classified as long or short — skipping", signal)
+            signal_counts[f"tv_{signal}"] = 0
+            continue
+
+        logger.info("Scanning signal: %s (%s)", signal, "long" if is_long else "short")
         try:
             hits = find_signals(signal, max_results=config.signals_max_per_kind)
         except Exception as exc:
@@ -183,34 +181,22 @@ def run_sunset_scan(
             signal_counts[f"tv_{signal}"] = 0
             continue
 
-        in_uni = 0
-        skipped = 0
+        target_map = long_reasons_map if is_long else short_reasons_map
         reason = f"tv_{signal}"
+        kind_count = 0
         for entry in hits:
             sym = (entry.get("symbol") or "").upper().strip()
             if not sym:
                 continue
-            c = _get_or_create(sym)
-            if c is None:
-                skipped += 1
-                total_skipped += 1
-                continue
-            if reason not in c.reasons:
-                c.reasons.append(reason)
-            # Capture TradingView TA recommendation from the directional signals
-            if signal == "strong_buy" and c.tradingview_recommendation is None:
-                c.tradingview_recommendation = "STRONG_BUY"
-            elif signal == "strong_sell" and c.tradingview_recommendation is None:
-                c.tradingview_recommendation = "STRONG_SELL"
-            in_uni += 1
+            signal_hits_total += 1
+            bucket = target_map.setdefault(sym, [])
+            if reason not in bucket:
+                bucket.append(reason)
+            kind_count += 1
+        signal_counts[f"tv_{signal}"] = kind_count
 
-        signal_counts[f"tv_{signal}"] = in_uni
-        if skipped:
-            logger.debug("%s: %d hits not in universe (skipped)", signal, skipped)
-
-    signal_counts["skipped_not_in_universe"] = total_skipped
-
-    # Step 3: Tag candidates via Capitol Trades congressional buys
+    # Step 2: Capitol Trades enrichment (long-side only — buys are bullish)
+    capitol_pool_ticker_count = 0
     if config.capitol_trades_enabled:
         logger.info(
             "Fetching Capitol Trades buys (days_back=%d, max_pages=%d)",
@@ -223,7 +209,6 @@ def run_sunset_scan(
                 days_back=config.capitol_trades_days_back,
                 max_pages=config.capitol_trades_max_pages,
             )
-            # Group by ticker: distinct politician IDs and unique politician names
             ticker_pol_ids: dict[str, set[str]] = {}
             ticker_pol_names: dict[str, list[str]] = {}
             for trade in buy_trades:
@@ -236,45 +221,152 @@ def run_sunset_scan(
                 if trade.politician_name not in ticker_pol_names[sym]:
                     ticker_pol_names[sym].append(trade.politician_name)
 
-            capitol_in_uni = 0
+            pool_tickers_now = set(long_reasons_map.keys()) | set(short_reasons_map.keys())
+            capitol_meta: dict[str, tuple[int, list[str]]] = {}
             for sym, pol_ids in ticker_pol_ids.items():
-                n = len(pol_ids)
-                c = _get_or_create(sym)
-                if c is None:
+                if sym not in pool_tickers_now:
                     continue
-                capitol_in_uni += 1
-                c.capitol_buys_30d = n
-                c.capitol_buys_politicians = ticker_pol_names.get(sym, [])
-                # Two distinct tiers: 2+ is a signal; 5+ is a high-conviction bonus reason
-                if n >= 2 and "capitol_buys_2plus" not in c.reasons:
-                    c.reasons.append("capitol_buys_2plus")
-                if n >= 5 and "capitol_buys_5plus" not in c.reasons:
-                    c.reasons.append("capitol_buys_5plus")
-
-            signal_counts["capitol_buys"] = capitol_in_uni
+                n = len(pol_ids)
+                capitol_meta[sym] = (n, ticker_pol_names.get(sym, []))
+                if n >= 2:
+                    bucket = long_reasons_map.setdefault(sym, [])
+                    if "capitol_buys_2plus" not in bucket:
+                        bucket.append("capitol_buys_2plus")
+                if n >= 5:
+                    bucket = long_reasons_map.setdefault(sym, [])
+                    if "capitol_buys_5plus" not in bucket:
+                        bucket.append("capitol_buys_5plus")
+            capitol_pool_ticker_count = len(capitol_meta)
+            signal_counts["capitol_buys"] = capitol_pool_ticker_count
             logger.info(
-                "Capitol Trades: %d tickers in universe had congressional buys",
-                capitol_in_uni,
+                "Capitol Trades: %d pool tickers had congressional buys",
+                capitol_pool_ticker_count,
             )
         except Exception as exc:
             err = f"Capitol Trades fetch failed: {exc}"
             logger.warning(err)
             errors.append(err)
+            capitol_meta = {}
+    else:
+        capitol_meta = {}
 
-    # Step 4: Filter to min_reasons_to_advance
-    advanced = [c for c in candidates_map.values() if c.score >= config.min_reasons_to_advance]
+    # Step 3: Pool union + batch metadata lookup
+    pool_tickers = sorted(set(long_reasons_map.keys()) | set(short_reasons_map.keys()))
+    unique_tickers_with_any_signal = len(pool_tickers)
 
-    # Step 5: Sort by (-score, -market_cap_usd); stable sort, larger market cap breaks ties
-    advanced.sort(key=lambda c: (-c.score, -(c.market_cap_usd or 0.0)))
+    metadata: dict[str, dict] = {}
+    if pool_tickers:
+        logger.info("Batch metadata lookup for %d pool tickers", len(pool_tickers))
+        try:
+            metadata = lookup_metadata(pool_tickers)
+        except Exception as exc:
+            err = f"lookup_metadata failed: {exc}"
+            logger.warning(err)
+            errors.append(err)
+            metadata = {}
 
-    # Step 6: Truncate
-    candidates = advanced[: config.max_candidates]
+    # Step 4: Sanity filter + Step 5: direction resolution
+    dropped_min_price = 0
+    dropped_min_volume = 0
+    dropped_min_market_cap = 0
+    dropped_no_metadata = 0
+    conflicted_drops = 0
+    directional_singletons_long = 0
+    directional_singletons_short = 0
+    below_threshold_drops = 0
+
+    candidates_built: list[Candidate] = []
+
+    for sym in pool_tickers:
+        meta = metadata.get(sym)
+        if meta is None:
+            dropped_no_metadata += 1
+            continue
+
+        last_close = meta.get("last_close")
+        market_cap = meta.get("market_cap")
+        avg_vol = meta.get("avg_volume_10d")
+
+        if last_close is None or float(last_close) < config.min_price:
+            dropped_min_price += 1
+            continue
+        if market_cap is None or float(market_cap) < config.min_market_cap_usd:
+            dropped_min_market_cap += 1
+            continue
+        if avg_vol is None or float(avg_vol) < config.min_avg_volume:
+            dropped_min_volume += 1
+            continue
+
+        long_r = list(long_reasons_map.get(sym, []))
+        short_r = list(short_reasons_map.get(sym, []))
+        long_n = len(long_r)
+        short_n = len(short_r)
+
+        if long_n > 0 and short_n > 0:
+            conflicted_drops += 1
+            continue
+        if long_n + short_n == 1:
+            if long_n == 1:
+                directional_singletons_long += 1
+            else:
+                directional_singletons_short += 1
+            continue
+
+        direction: Literal["long", "short"] | None = None
+        chosen_reasons: list[str] = []
+        if long_n >= config.min_reasons_to_advance:
+            direction = "long"
+            chosen_reasons = long_r
+        elif short_n >= config.min_reasons_to_advance:
+            direction = "short"
+            chosen_reasons = short_r
+        else:
+            below_threshold_drops += 1
+            continue
+
+        cap_n, cap_pols = capitol_meta.get(sym, (0, []))
+        vol_raw = meta.get("volume")
+        chg_raw = meta.get("change_pct")
+        candidates_built.append(
+            Candidate(
+                ticker=sym,
+                exchange=str(meta.get("exchange") or ""),
+                last_close=float(last_close),
+                market_cap_usd=float(market_cap) if market_cap is not None else None,
+                volume=int(vol_raw) if vol_raw is not None else None,
+                change_pct_today=float(chg_raw) if chg_raw is not None else None,
+                long_reasons=long_r,
+                short_reasons=short_r,
+                direction=direction,
+                reasons=chosen_reasons,
+                capitol_buys_30d=cap_n,
+                capitol_buys_politicians=cap_pols,
+            )
+        )
+
+    # Step 6: Sort + truncate
+    candidates_built.sort(key=lambda c: (-c.score, -(c.market_cap_usd or 0.0)))
+    candidates = candidates_built[: config.max_candidates]
+
+    # Telemetry
+    signal_counts["signal_hits_total"] = signal_hits_total
+    signal_counts["unique_tickers_with_any_signal"] = unique_tickers_with_any_signal
+    signal_counts["dropped_min_price"] = dropped_min_price
+    signal_counts["dropped_min_volume"] = dropped_min_volume
+    signal_counts["dropped_min_market_cap"] = dropped_min_market_cap
+    signal_counts["dropped_no_metadata"] = dropped_no_metadata
+    signal_counts["conflicted_drops"] = conflicted_drops
+    signal_counts["directional_singletons_long"] = directional_singletons_long
+    signal_counts["directional_singletons_short"] = directional_singletons_short
+    signal_counts["below_threshold_drops"] = below_threshold_drops
 
     elapsed = time.monotonic() - t_start
     logger.info(
-        "Scan complete: universe=%d, candidates=%d, elapsed=%.1fs, errors=%d",
-        len(universe),
+        "Scan complete: pool=%d, candidates=%d (long=%d, short=%d), elapsed=%.1fs, errors=%d",
+        unique_tickers_with_any_signal,
         len(candidates),
+        sum(1 for c in candidates if c.direction == "long"),
+        sum(1 for c in candidates if c.direction == "short"),
         elapsed,
         len(errors),
     )
@@ -283,7 +375,7 @@ def run_sunset_scan(
         run_id=run_id,
         scan_timestamp_pt=scan_timestamp_pt,
         config=config,
-        universe_size=len(universe),
+        universe_size=unique_tickers_with_any_signal,
         candidates=candidates,
         signal_counts=signal_counts,
         errors=errors,
@@ -300,8 +392,10 @@ def _candidate_to_dict(c: Candidate) -> dict:
         "volume": c.volume,
         "change_pct_today": c.change_pct_today,
         "score": c.score,
+        "direction": c.direction,
         "reasons": c.reasons,
-        "tradingview_recommendation": c.tradingview_recommendation,
+        "long_reasons": c.long_reasons,
+        "short_reasons": c.short_reasons,
         "capitol_buys_30d": c.capitol_buys_30d,
         "capitol_buys_politicians": c.capitol_buys_politicians,
     }
@@ -340,9 +434,9 @@ def write_scan_outputs(result: ScanResult, runs_dir: str = "runs") -> dict[str, 
             "min_price": result.config.min_price,
             "min_avg_volume": result.config.min_avg_volume,
             "min_market_cap_usd": result.config.min_market_cap_usd,
-            "max_universe_size": result.config.max_universe_size,
             "signals": list(result.config.signals),
             "signals_max_per_kind": result.config.signals_max_per_kind,
+            "directions_enabled": list(result.config.directions_enabled),
             "capitol_trades_enabled": result.config.capitol_trades_enabled,
             "capitol_trades_days_back": result.config.capitol_trades_days_back,
             "capitol_trades_max_pages": result.config.capitol_trades_max_pages,

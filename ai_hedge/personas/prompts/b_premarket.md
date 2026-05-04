@@ -18,9 +18,9 @@ The orchestrator passes you one JSON facts bundle with the following keys:
 
 - **`ticker`** — the symbol
 - **`exchange`** — listing exchange
+- **`direction`** — `"long"` or `"short"` — the trade side Stage 1 chose for this ticker. ALL of your watch_level / invalidation_level / setup_type / gap interpretation must be consistent with this direction.
 - **`stage1_score`** — number of distinct signal reasons from Stage 1
 - **`stage1_reasons`** — list of Stage 1 reason codes (e.g., `tv_breakout_up`, `tv_strong_buy`)
-- **`stage1_recommendation`** — TradingView summary recommendation (e.g., `STRONG_BUY`, `STRONG_SELL`, or null)
 - **`last_regular_close`** — yesterday's closing price (regular session)
 - **`premarket`** — object with:
   - `last_price` — latest premarket price (null if unavailable)
@@ -62,6 +62,21 @@ Answer the following in order:
    - 7–9: clean setup, good premarket confirmation
    - 10: exceptional clarity (rare)
 
+### Direction-aware conventions
+
+**For `direction: "long"`:**
+- `watch_level` is ABOVE current price (breakout above resistance, gap-and-go entry, pullback bottom that triggers up).
+- `invalidation_level` is BELOW current price (support break, swing low taken out).
+- A premarket gap UP that already cleared resistance = setup played out → consider `setup_valid: "no"` or `"partial"`.
+
+**For `direction: "short"`:**
+- `watch_level` is BELOW current price (breakdown below support, rejection from resistance triggers down).
+- `invalidation_level` is ABOVE current price (rally through resistance, swing high taken out).
+- A premarket gap DOWN that already broke support = setup played out → consider `setup_valid: "no"` or `"partial"`.
+- A premarket gap UP that breaks the bearish thesis = `setup_valid: "no"`.
+
+If your watch_level / invalidation_level orientation does not match the direction, the orchestrator will reject your output. Double-check before submitting.
+
 ### Output schema
 
 Respond with **only** this JSON object. No markdown fences, no preamble, no trailing text.
@@ -70,6 +85,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
 {
   "ticker": "STX",
   "setup_valid": "yes",
+  "direction": "long",
   "setup_type": "breakout",
   "watch_level": 731.50,
   "invalidation_level": 718.00,
@@ -82,6 +98,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
 Fields:
 - `ticker` — string, the ticker symbol
 - `setup_valid` — `"yes"` | `"no"` | `"partial"`
+- `direction` — `"long"` or `"short"`. Echo the direction from the facts bundle. Do NOT change it. The orchestrator validates this matches your watch/invalidation orientation.
 - `setup_type` — one of: `"breakout"`, `"pullback_to_support"`, `"gap_and_go"`, `"mean_reversion"`, `"range_break"`, `"catalyst"`. Set to `null` if `setup_valid` is `"no"`
 - `watch_level` — float or `null`
 - `invalidation_level` — float or `null`
@@ -94,8 +111,8 @@ Fields:
 - **`premarket.last_price` is null** — you have no fresh price data. Return `setup_valid: "no"`, conviction ≤ 3, and state the data gap in `notes`. Do not invent watch levels.
 - **`wiki_context` is empty or `new_ticker: true`** — no setup history. State this in `notes`. Rely solely on Stage 1 signals and premarket data. Do not invent history.
 - **`earnings.days_since_last` ≤ 0.5** — earnings reported in last 12 hours. The thesis may be stale. If the reported results invalidate the Stage 1 setup, return `setup_valid: "no"`.
-- **Gapped > 5% up** — the breakout may have already happened. If the setup was a breakout, it has likely played out. Return `setup_valid: "no"` or `"partial"` with reduced conviction.
-- **Gapped > 5% down** — bull setup is broken. Return `setup_valid: "no"`.
+- **Gapped > 5% in setup-direction (longs gap up; shorts gap down)** — the move may have already played out. If the setup was breakout/breakdown momentum, return `setup_valid: "no"` or `"partial"` with reduced conviction.
+- **Gapped > 5% AGAINST setup-direction (longs gap down; shorts gap up)** — thesis broken. Return `setup_valid: "no"`.
 
 ### Style constraints
 

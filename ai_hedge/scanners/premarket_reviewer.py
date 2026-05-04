@@ -32,8 +32,10 @@ _ET = ZoneInfo("America/New_York")
 # --- Public types -----------------------------------------------------------
 
 DropReason = Literal[
-    "gap_up_exhausted",        # overnight gap > +5% — already moved past watch
-    "gap_down_setup_broken",   # overnight gap < -5% — bull setup broken
+    "gap_up_exhausted",        # LONG: overnight gap > +5% — already moved past watch
+    "gap_down_setup_broken",   # LONG: overnight gap < -5% — bull setup broken
+    "gap_up_setup_broken",     # SHORT: overnight gap > +5% — bear thesis steamrolled
+    "gap_down_exhausted",      # SHORT: overnight gap < -5% — breakdown already played out
     "premarket_volume_vacuum", # premarket volume < 50% of 10d avg premarket — no interest
     "earnings_just_reported",  # earnings reported in last 12h — thesis stale
     "stage1_too_old",          # tomorrow_watchlist.json older than 24h
@@ -288,6 +290,7 @@ def evaluate_candidate(
     earnings_recency_hours: float = 12.0,
     snapshot: PreMarketSnapshot | None = None,
     earnings_recent_days: float | None = None,
+    direction: Literal["long", "short"] = "long",
 ) -> FilterDecision:
     """Apply the pre-filter to one ticker. Pure function once data is fetched.
 
@@ -317,12 +320,20 @@ def evaluate_candidate(
             earnings_recent_days=earnings_recent_days,
         )
 
-    # Gap filter — only fires when we have actual premarket data
+    # Gap filter — direction-aware. Only fires when we have actual premarket data.
     if snapshot.overnight_gap_pct is not None:
-        if snapshot.overnight_gap_pct > gap_threshold_pct:
-            drop_reasons.append("gap_up_exhausted")
-        elif snapshot.overnight_gap_pct < -gap_threshold_pct:
-            drop_reasons.append("gap_down_setup_broken")
+        if direction == "short":
+            # Bearish thesis: gap UP breaks the thesis; gap DOWN means breakdown already played out.
+            if snapshot.overnight_gap_pct > gap_threshold_pct:
+                drop_reasons.append("gap_up_setup_broken")
+            elif snapshot.overnight_gap_pct < -gap_threshold_pct:
+                drop_reasons.append("gap_down_exhausted")
+        else:
+            # Bullish thesis (default): gap UP means breakout already played out; gap DOWN breaks it.
+            if snapshot.overnight_gap_pct > gap_threshold_pct:
+                drop_reasons.append("gap_up_exhausted")
+            elif snapshot.overnight_gap_pct < -gap_threshold_pct:
+                drop_reasons.append("gap_down_setup_broken")
 
     # Volume vacuum — only fires when both values are available
     if (
@@ -456,6 +467,9 @@ def review_premarket(
         if not ticker:
             continue
 
+        direction_raw = str(cand.get("direction", "long")).lower()
+        direction: Literal["long", "short"] = "short" if direction_raw == "short" else "long"
+
         try:
             snap = fetch_premarket_snapshot(ticker)
         except Exception as exc:
@@ -486,6 +500,7 @@ def review_premarket(
                 earnings_recency_hours=earnings_recency_hours,
                 snapshot=snap,
                 earnings_recent_days=days_since,
+                direction=direction,
             )
             decisions.append(decision)
 
@@ -569,9 +584,9 @@ def _build_facts_bundle(
     return {
         "ticker": ticker,
         "exchange": candidate_data.get("exchange", ""),
+        "direction": candidate_data.get("direction", "long"),
         "stage1_score": candidate_data.get("score", 0),
         "stage1_reasons": candidate_data.get("reasons", []),
-        "stage1_recommendation": candidate_data.get("tradingview_recommendation"),
         "last_regular_close": last_close,
         "premarket": premarket_block,
         "earnings": {

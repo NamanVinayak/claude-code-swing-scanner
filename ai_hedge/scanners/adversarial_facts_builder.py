@@ -38,6 +38,7 @@ class TodayWatchlistEntry:
     catalyst_note: str
     conviction: int          # 1-10 from Stage 2
     source_reasons: list[str]
+    direction: str = "long"  # "long" or "short" — defaults to long for back-compat with old runs
 
 
 # ---------------------------------------------------------------------------
@@ -66,6 +67,13 @@ def load_today_watchlist(run_id: str, runs_dir: str = "runs") -> list[TodayWatch
             continue
         wl = item.get("watch_level")
         inv = item.get("invalidation_level")
+        direction = str(item.get("direction", "long")).lower()
+        if direction not in ("long", "short"):
+            logger.warning(
+                "Invalid direction %r for %s in today_watchlist; defaulting to 'long'",
+                direction, ticker,
+            )
+            direction = "long"
         entries.append(TodayWatchlistEntry(
             ticker=ticker,
             setup_type=str(item.get("setup_type", "unknown")),
@@ -74,6 +82,7 @@ def load_today_watchlist(run_id: str, runs_dir: str = "runs") -> list[TodayWatch
             catalyst_note=str(item.get("catalyst_note", "")),
             conviction=int(item.get("conviction", 5)),
             source_reasons=list(item.get("source_reasons", [])),
+            direction=direction,
         ))
 
     return entries
@@ -88,7 +97,38 @@ def _entry_to_dict(entry: TodayWatchlistEntry) -> dict[str, Any]:
         "catalyst_note": entry.catalyst_note,
         "conviction": entry.conviction,
         "source_reasons": entry.source_reasons,
+        "direction": entry.direction,
     }
+
+
+def _fetch_recent_news_7d(ticker: str, *, max_items: int = 10) -> list[dict]:
+    """Fetch the last 7 days of company news for a ticker.
+
+    Returns a list of dicts with: title, source, date, url, sentiment.
+    Empty list on any failure (no API key, network error, no news).
+    Cap at max_items most recent.
+    """
+    from datetime import datetime, timedelta
+    from ai_hedge.data.api import get_company_news
+
+    try:
+        today_str = datetime.now().strftime("%Y-%m-%d")
+        start_str = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+        news = get_company_news(ticker, end_date=today_str, start_date=start_str, limit=max_items)
+    except Exception as exc:
+        logger.warning("recent_news_7d fetch failed for %s: %s", ticker, exc)
+        return []
+
+    result = []
+    for n in news[:max_items]:
+        result.append({
+            "title": n.title,
+            "source": n.source,
+            "date": n.date,
+            "url": n.url,
+            "sentiment": n.sentiment,
+        })
+    return result
 
 
 def build_perspective_facts(
@@ -113,12 +153,14 @@ def build_perspective_facts(
 
     bundle = {
         "ticker": entry.ticker,
+        "direction": entry.direction,
         "setup_type": entry.setup_type,
         "watch_level": entry.watch_level,
         "invalidation_level": entry.invalidation_level,
         "catalyst_note": entry.catalyst_note,
         "conviction": entry.conviction,
         "source_reasons": entry.source_reasons,
+        "recent_news_7d": _fetch_recent_news_7d(entry.ticker),
         "wiki_context": {},
     }
     content = json.dumps(bundle, indent=2, default=str)
@@ -176,6 +218,7 @@ def build_judge_facts(
 
         bundle = {
             "ticker": entry.ticker,
+            "direction": entry.direction,
             "candidates": candidates_list,
             "perspectives": perspectives_stub,
             "risk_budget": risk_budget_dict,

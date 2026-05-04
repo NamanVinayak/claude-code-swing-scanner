@@ -12,8 +12,8 @@ Guidance for Claude Code when working in **this** repository (System B, experime
 | GitHub | `NamanVinayak/claude-code-hedge-fund` | `NamanVinayak/claude-code-swing-scanner` |
 | Turso DB | `hedge-fund-namanvinayak` | `hedge-fund-experimental` |
 | Dashboard | https://namanvinayak.github.io/claude-code-hedge-fund/ | https://namanvinayak.github.io/claude-code-swing-scanner/ |
-| Decision producer | 14 Cloud Routines, fixed watchlist | Local Desktop Scheduled Tasks, universe scanner (TBD) |
-| Status | Live since 2026-04-30 | Scaffolded 2026-05-03; brain not yet built |
+| Decision producer | 14 Cloud Routines, fixed watchlist | 5 Local Desktop Scheduled Routines, universe scanner |
+| Status | Live since 2026-04-30 | **LIVE since 2026-05-04** |
 
 **Production is untouched.** Treat `~/Downloads/artist/` as read-only reference. Do not import from it. Do not push to its remote. Do not modify its files.
 
@@ -27,32 +27,35 @@ System B replicates the back-end (data layer, simulator, dashboard, wiki memory)
 - Capital allocation rules (1% per-trade risk, 4% total open risk, 60% deployment cap, scaling phase) enforced by the judge
 - Wiki memory layer carries learnings forward (per-ticker thesis + setup history + lessons + budget state)
 
-After 2–3 weeks of parallel paper trading, comparison dashboard shows which brain produces better outcomes.
+After 2–3 weeks of parallel paper trading, the user compares the two systems' dashboards side-by-side (no third unified dashboard — comparison-by-flipping-tabs is the architecture).
 
-## Architecture — current vs planned
+## Architecture — fully built and live
 
 ### Inherited from System A (unchanged in this fork)
 - `ai_hedge/data/` — yfinance, SEC EDGAR, Finnhub, indicators, cache
-- `ai_hedge/personas/` — facts builders, helper functions, persona prompts (System A's; not used by System B's brain yet)
-- `ai_hedge/wiki/` — memory layer (inject, loader, manifest, templates, lint)
-- `tracker/` — Turso client, simulator, ingester, watchlist config, dashboard
-- `dashboard/` — Jinja2 dashboard renderer
-- `scripts/` — wiki bootstrap, compactor, drift checks, etc.
+- `ai_hedge/personas/` — facts builders, helper functions (System A's persona prompts present but not used by System B; safe to ignore)
+- `ai_hedge/wiki/` — memory layer (inject, loader, manifest, templates, lint) — **adapted**: AGENT_MANIFEST replaced with System B's 8 stage keys; 4 new page templates added.
+- `tracker/` — Turso client, simulator, ingester (with ingester fixed to pass `target_price_2`)
+- `dashboard/` — Jinja2 renderer (relabeled for System B; `build.py` modified to render per-ticker pages from union of watchlist and traded-tickers)
 
-### To be built (System B's brain)
-- `ai_hedge/data/tradingview.py` — TradingView MCP wrapper + screener helpers (Task 2)
-- `ai_hedge/data/capitol_trades.py` — congressional disclosure scraper (Task 3)
-- Wiki layer for System B with new pages: `setup_history`, `scanner_state`, `setup_patterns`, `budget_state` (Task 6.5)
-- Stage 1 — Sunset Scanner (Task 4)
-- Stage 2 — Pre-market Reviewer (Task 5)
-- Stage 3 — Adversarial Decision (4 prompts: 2 bull + 2 bear + judge) (Task 6)
-- Stage 4 — End-of-Day Journal (Task 7)
-- Desktop Scheduled Tasks setup (Task 8)
-- Cross-system comparison dashboard (Task 9)
+### Built for System B (all live)
+- `ai_hedge/data/tradingview.py` — TradingView screener + indicator wrapper (no API key needed)
+- `ai_hedge/data/capitol_trades.py` — Congressional disclosure scraper
+- `ai_hedge/scanners/sunset_scanner.py` — Stage 1 mechanical screening
+- `ai_hedge/scanners/premarket_reviewer.py` — Stage 2 pre-market filter + facts builder
+- `ai_hedge/scanners/adversarial_facts_builder.py` — Stage 3 facts orchestration
+- `ai_hedge/scanners/budget_calculator.py` — capital allocation rules engine
+- `ai_hedge/scanners/decisions_writer.py` — judge output → decisions.json (System A simulator schema)
+- `ai_hedge/scanners/journal_facts_builder.py`, `journal_writer.py` — Stage 4 wiki updates + journal facts
+- `ai_hedge/runner/b_stage1.py` through `b_stage4.py` — CLI entry points for the four stages
+- `ai_hedge/personas/prompts/b_*.md` — 9 prompt files for sub-agents (scanner synthesizer, premarket mini-agent + synthesizer, 2 bulls, 2 bears, judge, journal)
+- `.claude/skills/b_scan/`, `b_premarket/`, `b_decide/`, `b_journal/` — 4 SKILL.md slash commands (the orchestration glue)
+- `wiki/meta/budget_state.md`, `setup_patterns.md`, `macro/scanner_state.md` — System B's new wiki pages
+- `scripts/wiki_bootstrap_system_b.py` — bootstrap helper
 
-See `HANDOFF.md` for the live build status.
+See `HANDOFF.md` for the dated build log.
 
-## The four-stage pipeline (planned, not yet built)
+## The four-stage pipeline (LIVE)
 
 ```
 Stage 1 — Sunset Scanner             ~2:00 PM PT  (mostly mechanical, 1 LLM synthesizer)
@@ -80,7 +83,7 @@ Stage 4 — End-of-Day Journal         ~1:30 PM PT  (1 agent)
 
 All times Pacific. Active-day compute: ~65–70 LLM dispatches. Quiet days: 2–3.
 
-## Capital allocation framework (planned, lives in `wiki/meta/budget_state.md`)
+## Capital allocation framework (LIVE, lives in `wiki/meta/budget_state.md`)
 
 ```
 Starting paper capital:     $25,000
@@ -120,21 +123,38 @@ Read by every Stage 3 judge before approving. Updated nightly by Stage 4.
 
 - Python 3.14, venv at `.venv/`
 - `import ai_hedge` works from anywhere (editable install)
-- `.env.example` is the template; user creates `.env` with second Turso DB credentials
-- Same data layer as System A — yfinance, SEC EDGAR, Finnhub free tier
-- New: TradingView MCP (server installed by user; wrapper in Task 2)
+- `.env` exists with real Turso credentials (gitignored). `.env.example` is the template.
+- Data layer: yfinance, SEC EDGAR, Finnhub (free tier), TradingView (via `tradingview-ta`, no API key), Capitol Trades (scraped, no API key)
 
-## Smoke tests (verify scaffold)
+## Live operations
+
+**5 Desktop Scheduled Routines configured in Claude Code app (Mon–Fri):**
+
+| Routine | Time PT | Slash command | Model |
+|---|---|---|---|
+| Scanning | 2:00 PM | `/b_scan` | Sonnet |
+| Premarket | 5:30 AM | `/b_premarket` | Sonnet |
+| Decide_open | 7:00 AM | `/b_decide` | Sonnet (trial; Opus 1M if context truncates) |
+| Decide_power | 11:30 AM | `/b_decide` | Sonnet (trial; same) |
+| B_journal | 2:30 PM | `/b_journal` | Sonnet |
+
+Working directory for all: `/Users/naman/Downloads/new-artist`.
+
+**Mac-on requirement:** 5:30 AM – 2:30 PM Pacific weekdays. Routines fire only while machine awake.
+
+**Dashboard refresh:** `dashboard.yml` workflow has a `push: branches: [main]` trigger added — every routine commit immediately rebuilds the dashboard (~1 min). Cron `*/5 * * * *` stays as safety net.
+
+**Smoke tests (verify still healthy):**
 
 ```bash
 .venv/bin/python -c "from ai_hedge.data.api import get_prices; print(len(get_prices('AAPL', '2024-01-01', '2024-03-01')), 'bars')"
 .venv/bin/python -c "from ai_hedge.wiki.inject import is_wiki_enabled; print('wiki:', is_wiki_enabled())"
-.venv/bin/python -m ai_hedge.runner.prepare --tickers AAPL --run-id smoke_test --mode swing && rm -rf runs/smoke_test
+.venv/bin/python -c "from tracker.turso_client import get_all_trades; print('trades:', len(get_all_trades()))"
 ```
 
 ## Git remote (single)
 
-This folder has exactly **one** remote: `origin` → `NamanVinayak/claude-code-swing-scanner` (placeholder until user creates the GitHub repo per `SETUP_NOTES.md` step 1).
+This folder has exactly **one** remote: `origin` → `NamanVinayak/claude-code-swing-scanner` (PUBLIC, GitHub Pages enabled).
 
 ```bash
 git remote -v   # should show ONLY origin pointing at claude-code-swing-scanner
@@ -159,4 +179,4 @@ If any other remote shows up, something pulled it back in by mistake.
 
 ---
 
-_Last updated: 2026-05-03 — initial scaffold. Brain not yet built. See HANDOFF.md for next steps._
+_Last updated: 2026-05-04 — System B is **LIVE**. All build complete, cloud setup done, 5 Desktop Scheduled Routines configured. First fire = b_premarket Mon 2026-05-04 at 5:30 AM PT. See `HANDOFF.md` for the full dated build log._

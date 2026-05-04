@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="300">
-    <title>Live Positions // AI HEDGE FUND</title>
+    <title>IWM // AI HEDGE FUND</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -404,198 +404,70 @@
         }
 
         
-.position-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 16px;
-    margin-bottom: 24px;
-}
-.pos-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 20px;
-    transition: border-color .15s, transform .15s;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-}
-.pos-card:hover {
-    border-color: var(--border2);
-    transform: translateY(-1px);
-}
-.pos-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
-}
-.pos-card.is-profit::before { background: var(--green); }
-.pos-card.is-loss::before   { background: var(--red); }
-.pos-card.is-flat::before   { background: var(--border2); }
-
-.pos-header {
+.ticker-hero {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
 }
-.pos-ticker {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    color: var(--text);
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-.pos-ticker:hover { color: var(--blue); }
-
-.pos-expand-icon {
-    font-size: 10px;
-    color: var(--muted);
-    transition: transform 0.3s ease;
-}
-.pos-card.is-expanded .pos-expand-icon {
-    transform: rotate(180deg);
-}
-
-.pnl-big {
-    font-size: 26px;
-    font-weight: 700;
-    font-family: var(--mono);
+.ticker-name {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
     line-height: 1;
 }
-.pnl-pct {
-    font-size: 13px;
-    font-family: var(--mono);
-    margin-top: 2px;
-}
+.ticker-sub { font-size: 13px; color: var(--muted); margin-top: 6px; }
 
-.pos-details {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: max-height 0.3s ease, margin-top 0.3s ease, opacity 0.2s ease;
-}
-.pos-card.is-expanded .pos-details {
-    max-height: 500px;
-    margin-top: 16px;
-    opacity: 1;
-}
-
-.pos-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6px 0;
-    border-top: 1px solid var(--border);
-}
-.pos-row:first-of-type { margin-top: 12px; }
-.pos-key { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
-.pos-val { font-size: 13px; font-family: var(--mono); font-weight: 500; }
-
-.rr-badge {
-    display: inline-block;
-    padding: 2px 7px;
-    background: var(--blue-dim);
-    color: var(--blue);
-    border-radius: 4px;
-    font-size: 11px;
-    font-family: var(--mono);
-    font-weight: 600;
-}
-
-.progress-track {
-    margin-top: 12px;
-}
-.progress-labels {
-    display: flex;
-    justify-content: space-between;
-    font-size: 10px;
-    color: var(--muted);
-    font-family: var(--mono);
-    margin-bottom: 4px;
-}
-.progress-outer {
-    background: var(--border);
-    border-radius: 4px;
-    height: 6px;
-    position: relative;
-    overflow: hidden;
-}
-.progress-fill-green { background: var(--green); height: 6px; border-radius: 4px; transition: width .3s; }
-.progress-fill-red   { background: var(--red);   height: 6px; border-radius: 4px; transition: width .3s; }
-.progress-marker {
-    position: absolute;
-    top: 0; bottom: 0;
-    width: 2px;
-    background: var(--muted);
-    border-radius: 2px;
-}
-
-/* Portfolio Summary UI */
-.portfolio-summary {
+.pos-pill {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 24px;
-    margin-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    padding: 16px 20px;
+    min-width: 200px;
 }
-.ps-title {
-    font-size: 14px;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-.ps-value {
-    font-size: 42px;
-    font-weight: 700;
-    font-family: var(--mono);
-    line-height: 1;
-    margin-bottom: 16px;
-    letter-spacing: -0.02em;
-    color: var(--text);
-}
-.ps-metrics {
-    display: flex;
-    gap: 24px;
-    width: 100%;
-    justify-content: center;
-}
-.ps-metric-card {
-    background: rgba(255, 255, 255, 0.03);
+.pos-pill-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.pos-pill-pnl { font-size: 28px; font-weight: 700; font-family: var(--mono); line-height: 1.1; margin-top: 4px; }
+.pos-pill-pct { font-size: 13px; font-family: var(--mono); }
+
+.chart-frame {
+    background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 16px 24px;
-    min-width: 180px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 20px;
 }
-.ps-metric-label {
-    font-size: 12px;
-    color: var(--muted);
-    margin-bottom: 6px;
-    font-weight: 500;
+
+.thesis-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--blue);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 20px;
 }
-.ps-metric-val {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: var(--mono);
+.thesis-card h2 { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 12px; }
+.thesis-card p { font-size: 13px; color: var(--muted); line-height: 1.75; margin-bottom: 10px; }
+.thesis-card p:last-child { margin-bottom: 0; }
+
+.dec-timeline { }
+.dec-item {
+    display: grid;
+    grid-template-columns: 80px 80px 120px 1fr;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: start;
 }
-.ps-badge {
-    font-size: 12px;
-    padding: 3px 8px;
-    border-radius: 12px;
-    margin-left: 8px;
-    font-weight: 700;
+.dec-item:last-child { border-bottom: none; }
+.dec-date { font-size: 12px; font-family: var(--mono); color: var(--muted); }
+
+@media (max-width: 640px) {
+    .ticker-name { font-size: 28px; }
+    .dec-item { grid-template-columns: 1fr 1fr; }
+    .dec-item .dec-reason { grid-column: 1/-1; }
 }
-.ps-badge.profit { background: rgba(16, 185, 129, 0.15); color: var(--green); }
-.ps-badge.loss { background: rgba(239, 68, 68, 0.15); color: var(--red); }
 
     </style>
 </head>
@@ -607,7 +479,7 @@
             <span>AI//Hedge.Fund</span>
         </a>
         <div class="nav-links">
-            <a class="nav-link active" href="index.html">Positions</a>
+            <a class="nav-link " href="index.html">Positions</a>
             <a class="nav-link " href="today.html">Decisions</a>
             <a class="nav-link " href="closed.html">History</a>
             <a class="nav-link " href="runs.html">All Runs</a>
@@ -618,44 +490,54 @@
 
 <div class="container">
     
-<div class="page-header" style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 16px;">
+<div class="ticker-hero">
     <div>
-        <h1>Live Positions</h1>
-        <p>Open swing trades · updated 03:53 AM ET</p>
+        <div class="ticker-name">IWM</div>
+        <div class="ticker-sub">
+            <a href="index.html" style="color:var(--muted);text-decoration:none;">← All Positions</a>
+        </div>
     </div>
-</div>
 
-
-<div class="portfolio-summary">
-    <div class="ps-title">Net Worth</div>
-    <div class="ps-value">$25000.00</div>
     
-    <div class="ps-metrics">
-        <div class="ps-metric-card">
-            <div class="ps-metric-label">Capital Deployed</div>
-            <div class="ps-metric-val">$0.00</div>
-        </div>
-        <div class="ps-metric-card">
-            <div class="ps-metric-label">All-Time Return</div>
-            
-            
-            <div class="ps-metric-val neutral">
-                $0.00
-                <span class="ps-badge ">
-                    0.00%
-                </span>
-            </div>
-        </div>
+</div>
+
+<!-- TradingView Chart -->
+<div class="chart-frame">
+    <div class="tradingview-widget-container" style="height:420px;">
+        <div id="tv_IWM" style="height:420px;"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script>
+        new TradingView.widget({
+            "width": "100%",
+            "height": 420,
+            "symbol": "IWM",
+            "interval": "D",
+            "timezone": "America/New_York",
+            "theme": "dark",
+            "style": "1",
+            "locale": "en",
+            "enable_publishing": false,
+            "hide_top_toolbar": false,
+            "hide_side_toolbar": true,
+            "save_image": false,
+            "backgroundColor": "rgba(2,4,8,1)",
+            "gridColor": "rgba(20,35,61,1)",
+            "container_id": "tv_IWM"
+        });
+        </script>
     </div>
 </div>
 
 
 
-<div class="empty">
-    <div class="empty-icon">📊</div>
-    <h2>No open positions</h2>
-    <p>The AI is watching the market. New swing setups appear after each routine run — check back soon or see <a href="today.html" style="color:var(--blue)">Today's Decisions</a>.</p>
+<div class="card">
+    <h2 style="font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:16px;">Recent AI Decisions</h2>
+    
+    <p style="color:var(--muted);font-size:13px;">No recent decisions for IWM.</p>
+    
 </div>
+
+
 
 
 </div>

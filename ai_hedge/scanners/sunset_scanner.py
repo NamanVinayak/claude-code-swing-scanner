@@ -211,15 +211,22 @@ def run_sunset_scan(
             )
             ticker_pol_ids: dict[str, set[str]] = {}
             ticker_pol_names: dict[str, list[str]] = {}
+            ticker_pol_names_seen: dict[str, set[str]] = {}
             for trade in buy_trades:
                 sym = trade.ticker.upper()
-                pid = trade.politician_id or trade.politician_name
+                # Namespace name-fallback keys so they never collide with real politician IDs
+                if trade.politician_id:
+                    pid = f"id:{trade.politician_id}"
+                else:
+                    pid = f"name:{trade.politician_name.lower().strip()}"
                 if sym not in ticker_pol_ids:
                     ticker_pol_ids[sym] = set()
                     ticker_pol_names[sym] = []
+                    ticker_pol_names_seen[sym] = set()
                 ticker_pol_ids[sym].add(pid)
-                if trade.politician_name not in ticker_pol_names[sym]:
+                if trade.politician_name not in ticker_pol_names_seen[sym]:
                     ticker_pol_names[sym].append(trade.politician_name)
+                    ticker_pol_names_seen[sym].add(trade.politician_name)
 
             pool_tickers_now = set(long_reasons_map.keys()) | set(short_reasons_map.keys())
             capitol_meta: dict[str, tuple[int, list[str]]] = {}

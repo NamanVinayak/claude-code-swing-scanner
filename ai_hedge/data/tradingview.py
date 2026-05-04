@@ -332,7 +332,7 @@ def screen_universe(
     min_avg_volume: int | None = 500_000,
     min_market_cap_usd: float | None = 1_000_000_000,
     max_results: int = 200,
-    cache_ttl_sec: int = 600,
+    cache_ttl_sec: int = 60,
 ) -> list[dict]:
     """Mechanical universe screen.
 
@@ -410,7 +410,7 @@ def find_signals(
     exchanges: Sequence[str] = ("NASDAQ", "NYSE"),
     timeframe: Timeframe = "1d",
     max_results: int = 50,
-    cache_ttl_sec: int = 300,
+    cache_ttl_sec: int = 60,
 ) -> list[dict]:
     """Find tickers currently showing a named signal.
 

@@ -14,9 +14,22 @@ from __future__ import annotations
 import json
 import logging
 from dataclasses import asdict, dataclass
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
+import pandas as pd
+
+from ai_hedge.data.api import (
+    get_insider_trades,
+    get_intraday_prices,
+    get_market_cap,
+    get_prices,
+    intraday_to_df,
+    prices_to_df,
+)
+from ai_hedge.data.earnings_calendar import days_until_next_earnings
+from ai_hedge.data.indicators import compute_daily_indicators
 from ai_hedge.scanners.budget_calculator import compute_risk_budget
 
 logger = logging.getLogger(__name__)
@@ -131,6 +144,84 @@ def _fetch_recent_news_7d(ticker: str, *, max_items: int = 10) -> list[dict]:
     return result
 
 
+def _build_market_data_bundle(ticker: str) -> dict:
+    """Pull prices, compute indicators, fetch insiders + earnings + market cap.
+
+    Defensive — returns a partial bundle on partial failure so a single bad
+    fetch never starves the perspective/judge of all market context.
+    """
+    bundle: dict = {
+        "current_price": None,
+        "market_cap": None,
+        "recent_prices_5d": [],
+        "daily_indicators": {},
+        "hourly_indicators": {},
+        "recent_insider_trades": [],
+        "earnings": {"days_until_next": None, "days_since_last": None},
+    }
+
+    today_str = datetime.now().strftime("%Y-%m-%d")
+
+    # Daily prices + indicators (last ~400 calendar days for full indicator history)
+    try:
+        start = (datetime.now() - timedelta(days=400)).strftime("%Y-%m-%d")
+        prices = get_prices(ticker, start_date=start, end_date=today_str)
+        if prices:
+            daily_df = prices_to_df(prices)
+            if not daily_df.empty:
+                bundle["current_price"] = float(daily_df["close"].iloc[-1])
+                bundle["daily_indicators"] = compute_daily_indicators(daily_df, timeframe="daily")
+                bundle["recent_prices_5d"] = [
+                    {
+                        "time": str(p.time),
+                        "open": p.open,
+                        "high": p.high,
+                        "low": p.low,
+                        "close": p.close,
+                        "volume": p.volume,
+                    }
+                    for p in prices[-5:]
+                ]
+    except Exception as exc:
+        logger.warning("daily price/indicator fetch failed for %s: %s", ticker, exc)
+
+    # Hourly indicators (last 1 month of 1h bars)
+    try:
+        hourly_prices = get_intraday_prices(ticker, interval="1h", period="1mo")
+        if hourly_prices:
+            hourly_df = intraday_to_df(hourly_prices)
+            if not hourly_df.empty and len(hourly_df) >= 21:
+                bundle["hourly_indicators"] = compute_daily_indicators(hourly_df, timeframe="hourly")
+    except Exception as exc:
+        logger.warning("hourly indicator fetch failed for %s: %s", ticker, exc)
+
+    # Market cap
+    try:
+        mcap = get_market_cap(ticker)
+        bundle["market_cap"] = float(mcap) if mcap is not None else None
+    except Exception as exc:
+        logger.warning("market cap fetch failed for %s: %s", ticker, exc)
+
+    # Insider trades (last 30 days, max 20)
+    try:
+        start_30 = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+        trades = get_insider_trades(ticker, end_date=today_str, start_date=start_30, limit=20)
+        bundle["recent_insider_trades"] = [
+            t.model_dump() if hasattr(t, "model_dump") else t for t in (trades or [])
+        ][:20]
+    except Exception as exc:
+        logger.warning("insider trades fetch failed for %s: %s", ticker, exc)
+
+    # Earnings
+    try:
+        dun = days_until_next_earnings(ticker)
+        bundle["earnings"]["days_until_next"] = dun
+    except Exception as exc:
+        logger.warning("earnings fetch failed for %s: %s", ticker, exc)
+
+    return bundle
+
+
 def build_perspective_facts(
     run_id: str,
     entry: TodayWatchlistEntry,
@@ -163,6 +254,7 @@ def build_perspective_facts(
         "recent_news_7d": _fetch_recent_news_7d(entry.ticker),
         "wiki_context": {},
     }
+    bundle.update(_build_market_data_bundle(entry.ticker))
     content = json.dumps(bundle, indent=2, default=str)
 
     for agent in _PERSPECTIVE_AGENTS:
@@ -225,6 +317,7 @@ def build_judge_facts(
             "market_context": "",
             "wiki_context": {},
         }
+        bundle.update(_build_market_data_bundle(entry.ticker))
 
         path = facts_dir / f"b_judge__{entry.ticker}.json"
         path.write_text(json.dumps(bundle, indent=2, default=str))

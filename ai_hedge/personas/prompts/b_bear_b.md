@@ -23,6 +23,13 @@ The orchestrator passes you one facts bundle with the following keys:
 - **`catalyst_note`** — one-sentence context from Stage 2
 - **`conviction`** — Stage 2 conviction score (1–10)
 - **`source_reasons`** — Stage 1 signal codes
+- **`current_price`** — float, latest close price.
+- **`market_cap`** — float or null.
+- **`recent_prices_5d`** — list of OHLCV dicts for the last 5 daily bars.
+- **`daily_indicators`** — full daily TA suite. Top-level keys include `moving_averages` (EMA/SMA at 5/10/20/21/50/200), `price_vs_ma`, `rsi` (periods 7/14/21), `rsi_divergence`, `macd`, `bollinger`, `atr`, `adx`, `volume`, `support_resistance`, `fibonacci`, `momentum`, `stochastic`, `williams_r`, `cci`, `mfi`, `stc`, `squeeze`, `supertrend`. Cite specific values, not "RSI is high" — say "rsi_14 = 71".
+- **`hourly_indicators`** — same shape as `daily_indicators`, computed on 1h bars. May be `{}` if insufficient hourly history — fall back to daily.
+- **`recent_insider_trades`** — **primary evidence source for fundamental bear case (especially insider selling clusters or absence of insider buying).** List of insider trades in the last 30 days (up to 20). Each item includes `name`, `title`, `transaction_type` (buy/sell), `transaction_date`, `transaction_shares`, `value`. Insider buying is a real signal; selling is mostly noise (often 10b5-1 plans), but a CEO/CFO open-market sell or a cluster of executive sells is a real warning. Cite specific names/dates.
+- **`earnings`** — **critical thesis-integrity field.** `{days_until_next, days_since_last}`. Both may be null. If `days_until_next ≤ 5`, the trade has earnings risk — flag explicitly. `days_since_last` matters for assessing whether a recent earnings event has been digested.
 - **`wiki_context`** — memory from prior runs:
   - `slices.thesis_full` — durable bull/bear story for this ticker
   - `slices.catalysts_full` — upcoming events, recent news, insider activity
@@ -80,7 +87,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
   "top_3_arguments": [
     "Valuation is stretched: at $733 the stock trades at 28x forward P/E vs sector median of 19x and 5-year average of 21x. Premium requires sustained beat-and-raise cadence.",
     "Macro headwind: enterprise IT spend is decelerating per recent channel checks (CIO survey published 2026-04-30). Storage is discretionary capex — first to be cut.",
-    "Insider selling: CFO sold 15,000 shares on 2026-04-28 at $725 under a 10b5-1 plan. Timing is not alarming but adds to caution at current levels."
+    "recent_insider_trades shows CFO sold 15,000 shares on 2026-04-28 at $725 (~$10.9M) — under 10b5-1 plan but cluster: 2 directors also sold 2026-04-25 (combined $1.2M); earnings.days_until_next = 18 means no near-term beat to bail out the trade."
   ],
   "bull_acknowledgements": [
     "Recent earnings beat was genuine — revenue and EPS both ahead of consensus.",
@@ -106,6 +113,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
 
 ### Constraints
 
+- **Cite numbers from facts, not memory.** Every numerical claim in `top_3_arguments` (e.g., insider share counts/dates from `recent_insider_trades`, earnings windows from `earnings`, indicator values from `daily_indicators`/`hourly_indicators`, price levels from `recent_prices_5d`) MUST be traceable to the facts bundle. If a number is not in the bundle (e.g., specific P/E multiples or sector medians), do NOT invent it — label it "unconfirmed via web" and lower your `bear_strength` conviction.
 - **Direction-context integrity:** your bear arguments must address the actual trade thesis. For `direction: "long"`, argue why price won't rise. For `direction: "short"`, argue why price won't fall. Do NOT argue "valuation is stretched" as a reason a SHORT won't work, or "the chart looks bullish" as a reason a LONG will fail — those are direction-confused arguments.
 - If you cannot find specific valuation or macro data in the facts bundle or via web search, do NOT invent numbers. Say "valuation data not available in current context" and lower `bear_strength`.
 - Never cite earnings reports or insider transactions older than 7 days as if they are current news. Label older information as "context only — already priced in."

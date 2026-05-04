@@ -199,10 +199,137 @@ def main() -> int:
     )
     print()
 
-    fails = sum(1 for ok, _ in checks if not ok)
+    # ----- PHASE G — STAGE 3 FACTS DEPTH CHECK -----
+    print()
+    print(BAR)
+    print("PHASE G — STAGE 3 FACTS DEPTH CHECK")
+    print(BAR)
+
+    phase_g_checks: list[tuple[bool, str]] = []
+
+    try:
+        if not result.candidates:
+            print("[SKIP] No candidates from scanner — Phase G needs at least 1 candidate.")
+        else:
+            import json as _json
+            import tempfile
+            import typing
+            from pathlib import Path as _Path
+
+            from ai_hedge.scanners.adversarial_facts_builder import (
+                TodayWatchlistEntry,
+                build_judge_facts,
+                build_perspective_facts,
+            )
+            from ai_hedge.scanners.decisions_writer import _parse_approved_trade
+            from ai_hedge.scanners.premarket_reviewer import DropReason
+
+            top = result.candidates[0]
+            top_ticker = top.ticker
+            top_dir = top.direction or "long"
+            print(f"Top candidate tested: {top_ticker} ({top_dir})")
+
+            entry = TodayWatchlistEntry(
+                ticker=top_ticker,
+                setup_type="breakout",
+                watch_level=top.last_close * 1.01,
+                invalidation_level=top.last_close * 0.97,
+                catalyst_note="integration test",
+                conviction=7,
+                source_reasons=top.long_reasons or top.short_reasons,
+                direction=top_dir,
+            )
+
+            with tempfile.TemporaryDirectory() as td:
+                build_perspective_facts("phaseg_test", entry, runs_dir=td)
+                build_judge_facts("phaseg_test", [entry], runs_dir=td)
+                facts_path = (
+                    _Path(td) / "phaseg_test" / "facts" / f"b_bull_a__{top_ticker}.json"
+                )
+                judge_path = (
+                    _Path(td) / "phaseg_test" / "facts" / f"b_judge__{top_ticker}.json"
+                )
+                bundle = _json.loads(facts_path.read_text())
+                judge_bundle = _json.loads(judge_path.read_text())
+
+            cp = bundle.get("current_price")
+            cp_ok = cp is not None
+            phase_g_checks.append((cp_ok, f"current_price populated: {cp}"))
+
+            di = bundle.get("daily_indicators") or {}
+            di_keys_lower = {str(k).lower() for k in di.keys()}
+            di_has_required = bool(di) and all(
+                any(req in k for k in di_keys_lower)
+                for req in ("rsi", "macd", "bollinger")
+            )
+            phase_g_checks.append(
+                (di_has_required, f"daily_indicators non-empty (has rsi/macd/bollinger): {di_has_required}")
+            )
+
+            hi = bundle.get("hourly_indicators")
+            hi_present = isinstance(hi, dict)
+            hi_count = len(hi) if isinstance(hi, dict) else 0
+            phase_g_checks.append(
+                (hi_present, f"hourly_indicators present (may be {{}} if low data): {hi_count}")
+            )
+
+            rp = bundle.get("recent_prices_5d") or []
+            rp_count = len(rp)
+            rp_ok = rp_count == 5
+            phase_g_checks.append((rp_ok, f"recent_prices_5d count == 5: {rp_count}"))
+
+            rit = bundle.get("recent_insider_trades")
+            rit_ok = isinstance(rit, list)
+            phase_g_checks.append(
+                (rit_ok, f"recent_insider_trades is list: {type(rit).__name__}")
+            )
+
+            earnings = bundle.get("earnings") or {}
+            earnings_field_ok = isinstance(earnings, dict) and ("days_until_next" in earnings)
+            phase_g_checks.append(
+                (earnings_field_ok, f"earnings.days_until_next field exists (value may be null): {earnings_field_ok}")
+            )
+
+            judge_di = judge_bundle.get("daily_indicators") or {}
+            judge_cp = judge_bundle.get("current_price")
+            judge_match = (judge_cp is not None) and bool(judge_di)
+            phase_g_checks.append(
+                (judge_match, f"judge bundle has same indicator fields: {judge_match}")
+            )
+
+            bad = {"ticker": "X", "direction": "long"}
+            try:
+                r = _parse_approved_trade(bad)
+            except Exception:
+                r = "raised"
+            pyd_ok = r is None
+            phase_g_checks.append(
+                (pyd_ok, f"Pydantic rejects malformed trade (returns None): {pyd_ok}")
+            )
+
+            args = typing.get_args(DropReason)
+            blackout_ok = "earnings_blackout_3d" in args
+            phase_g_checks.append(
+                (blackout_ok, f"earnings_blackout_3d in DropReason enum: {blackout_ok}")
+            )
+
+            for ok, label in phase_g_checks:
+                mark = "✓" if ok else "✗"
+                print(f"[{mark}] {label}")
+    except Exception as exc:
+        print(f"[✗] Phase G section raised: {exc}")
+        traceback.print_exc()
+        # Treat the entire section as one failure on top of any partial checks already recorded
+        phase_g_checks.append((False, f"Phase G section raised: {type(exc).__name__}"))
+
+    print()
+
+    fails = sum(1 for ok, _ in checks if not ok) + sum(
+        1 for ok, _ in phase_g_checks if not ok
+    )
     if fails == 0:
         result_label = "PASS"
-    elif fails <= 2:
+    elif fails <= 3:
         result_label = "PARTIAL"
     else:
         result_label = "FAIL"

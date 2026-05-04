@@ -44,70 +44,58 @@ class TradeDecision:
 
 
 def _parse_approved_trade(item: dict) -> TradeDecision | None:
-    """Parse one element from judge_output.approved into a TradeDecision.
+    """Validate via Pydantic, then convert to TradeDecision dataclass.
 
-    Returns None if any required field is missing or invalid.
+    On Pydantic ValidationError: log at ERROR level with full detail and return None
+    (the upstream caller pushes the item to rejected_raw with reason 'parse_failed').
+    The ERROR-level log preserves the FULL Pydantic error trace so schema drift is visible.
     """
+    from pydantic import ValidationError
+    from ai_hedge.schemas import JudgeApprovedTrade
+
     try:
-        ticker = str(item.get("ticker", "")).upper().strip()
-        if not ticker:
-            return None
-
-        direction_raw = str(item.get("direction", "long")).lower()
-        if direction_raw not in ("long", "short"):
-            logger.warning("Trade %s: unknown direction %r — skipping", ticker, direction_raw)
-            return None
-        direction: Literal["long", "short"] = direction_raw  # type: ignore[assignment]
-
-        # Map direction to action for ingester compatibility
-        action: Literal["buy", "short"] = "buy" if direction == "long" else "short"
-
-        entry_price = float(item["entry_price"])
-        stop_loss = float(item["stop_loss"])
-        target_price = float(item["target_price"])
-        target_price_2_raw = item.get("target_price_2")
-        target_price_2 = float(target_price_2_raw) if target_price_2_raw is not None else None
-        quantity = int(item["quantity"])
-        expected_holding_days = int(item.get("expected_holding_days", 7))
-        setup_type = str(item.get("setup_type", "unknown"))
-        conviction = int(item.get("conviction", 5))
-        rationale = str(item.get("rationale", ""))
-        risk_usd = float(item.get("risk_usd", quantity * abs(entry_price - stop_loss)))
-
-        # Direction-aware sanity check on entry/stop/target ordering
-        if direction == "long":
-            if not (target_price > entry_price > stop_loss):
-                logger.warning(
-                    "Trade %s: malformed long math (need target > entry > stop, got %s > %s > %s). Skipping.",
-                    ticker, target_price, entry_price, stop_loss,
-                )
-                return None
-        elif direction == "short":
-            if not (stop_loss > entry_price > target_price):
-                logger.warning(
-                    "Trade %s: malformed short math (need stop > entry > target, got %s > %s > %s). Skipping.",
-                    ticker, stop_loss, entry_price, target_price,
-                )
-                return None
-
-        return TradeDecision(
-            ticker=ticker,
-            action=action,
-            direction=direction,
-            entry_price=entry_price,
-            stop_loss=stop_loss,
-            target_price=target_price,
-            target_price_2=target_price_2,
-            quantity=quantity,
-            expected_holding_days=expected_holding_days,
-            setup_type=setup_type,
-            conviction=conviction,
-            rationale=rationale,
-            risk_usd=risk_usd,
+        validated = JudgeApprovedTrade(**item)
+    except ValidationError as exc:
+        logger.error(
+            "Pydantic validation FAILED for approved trade %r:\n%s",
+            item.get("ticker", "unknown"), exc,
         )
-    except (KeyError, TypeError, ValueError) as exc:
-        logger.warning("Could not parse approved trade %r: %s", item, exc)
         return None
+
+    direction: Literal["long", "short"] = validated.direction
+    action: Literal["buy", "short"] = "buy" if direction == "long" else "short"
+
+    # Direction-aware sanity check (already added in Batch 5)
+    if direction == "long":
+        if not (validated.target_price > validated.entry_price > validated.stop_loss):
+            logger.warning(
+                "Trade %s: malformed long math (need target > entry > stop, got %s > %s > %s). Skipping.",
+                validated.ticker, validated.target_price, validated.entry_price, validated.stop_loss,
+            )
+            return None
+    elif direction == "short":
+        if not (validated.stop_loss > validated.entry_price > validated.target_price):
+            logger.warning(
+                "Trade %s: malformed short math (need stop > entry > target, got %s > %s > %s). Skipping.",
+                validated.ticker, validated.stop_loss, validated.entry_price, validated.target_price,
+            )
+            return None
+
+    return TradeDecision(
+        ticker=validated.ticker.upper().strip(),
+        action=action,
+        direction=direction,
+        entry_price=validated.entry_price,
+        stop_loss=validated.stop_loss,
+        target_price=validated.target_price,
+        target_price_2=validated.target_price_2,
+        quantity=validated.quantity,
+        expected_holding_days=validated.expected_holding_days,
+        setup_type=validated.setup_type,
+        conviction=validated.conviction,
+        rationale=validated.rationale,
+        risk_usd=validated.risk_usd if validated.risk_usd > 0 else (validated.quantity * abs(validated.entry_price - validated.stop_loss)),
+    )
 
 
 def write_decisions(

@@ -17,6 +17,13 @@ The orchestrator passes you one facts bundle per ticker (`b_judge__{TICKER}.json
 - **`ticker`** — the specific ticker this judge invocation covers
 - **`direction`** — `"long"` or `"short"`. The trade direction Stage 1 chose. The 4 perspectives all echo this in their own `setup_direction` field — you MUST verify they agree.
 - **`recent_news_7d`** — list of news items from the last 7 days (Finnhub). Each has title, source, date, url, sentiment. Authoritative news window.
+- **`current_price`** — float, latest close price.
+- **`market_cap`** — float or null.
+- **`recent_prices_5d`** — list of OHLCV dicts for the last 5 daily bars.
+- **`daily_indicators`** — full daily TA suite the perspectives also received. Top-level keys include `moving_averages` (EMA/SMA at 5/10/20/21/50/200), `price_vs_ma`, `rsi` (periods 7/14/21), `rsi_divergence`, `macd`, `bollinger`, `atr`, `adx`, `volume`, `support_resistance`, `fibonacci`, `momentum`, `stochastic`, `williams_r`, `cci`, `mfi`, `stc`, `squeeze`, `supertrend`. **Use this to cross-check perspective claims.** If `b_bull_a` cites "rsi_14 = 71" but `daily_indicators.rsi.rsi_14 = 58`, the perspective is hallucinating — penalize their conviction in your synthesis.
+- **`hourly_indicators`** — same shape as `daily_indicators`, computed on 1h bars. May be `{}` if insufficient hourly history.
+- **`recent_insider_trades`** — list of insider trades in the last 30 days (up to 20). Use to validate any insider-activity claims by `b_bull_b` or `b_bear_b`.
+- **`earnings`** — `{days_until_next, days_since_last}`. If `days_until_next ≤ 5`, earnings risk is real — penalize conviction unless explicitly addressed by perspectives.
 - **`candidates`** — full list of all tickers in today_watchlist (for context — you may reference other candidates but you decide only on this ticker)
 - **`perspectives`** — dict with 4 keys, filled by the orchestrator after perspective agents ran:
   - `b_bull_a` — Technical Bull output: `{ticker, setup_direction, bull_strength, entry_zone, target, stop, expected_holding_days, top_3_arguments, risks_acknowledged}`
@@ -157,7 +164,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
       "expected_holding_days": 7,
       "setup_type": "breakout",
       "conviction": 7,
-      "rationale": "Technical bull case dominates (bull_strength=7 vs bear_strength=5,5). Expected return $0.83/share positive after probability weighting. Position sized to $124 risk at 1% × 0.5 scaling. Bears' main concern (RSI divergence) acknowledged but overridden by volume confirmation.",
+      "rationale": "b_bull_a.bull_strength=7 dominates over b_bear_a.bear_strength=5; daily_indicators.adx.value=28 confirms strong trend and daily_indicators.volume.ratio_to_avg=1.42 confirms breakout participation, validating bull's technical claims. Expected return $0.83/share positive after probability weighting. Position sized to $124 risk at 1% × 0.5 scaling. Bears' main concern (rsi_divergence.bear_divergence flag) acknowledged but overridden by volume + ADX confirmation.",
       "risk_usd": 124.00
     }
   ],
@@ -228,6 +235,7 @@ If you encounter a `[STALE — last updated YYYY-MM-DD, threshold N days exceede
 
 ### Constraints
 
+- **Cite numbers from facts, not memory.** Every numerical claim in your `rationale` (e.g., indicator values, insider counts, earnings windows, perspective strength scores) MUST be traceable to either `daily_indicators`/`hourly_indicators`/`recent_insider_trades`/`earnings`/`recent_prices_5d` in the facts bundle, or to a `perspectives.*` field path. Cross-check perspective claims against the indicator bundle — agents that cite numbers not in the facts are hallucinating, and you should lower their effective weight in your synthesis.
 - Direction integrity: the input `direction` is the trade side. All 4 perspectives must echo it. Math (entry/stop/target ordering) must match the direction. If anything disagrees, reject — never silently default to long.
 - You may approve AT MOST 1 trade per dispatch (per ticker). The system-wide cap is 3 per fire, enforced downstream.
 - Show the position sizing math in `rationale`. The judge's math must be traceable.

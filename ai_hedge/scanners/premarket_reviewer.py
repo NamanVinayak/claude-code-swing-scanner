@@ -38,6 +38,7 @@ DropReason = Literal[
     "gap_down_exhausted",      # SHORT: overnight gap < -5% — breakdown already played out
     "premarket_volume_vacuum", # premarket volume < 50% of 10d avg premarket — no interest
     "earnings_just_reported",  # earnings reported in last 12h — thesis stale
+    "earnings_blackout_3d",    # earnings within next 3 days — overnight gap risk too high for swing
     "stage1_too_old",          # tomorrow_watchlist.json older than 24h
     "data_unavailable",        # could not fetch fresh data (handled gracefully, not an error)
 ]
@@ -290,6 +291,7 @@ def evaluate_candidate(
     earnings_recency_hours: float = 12.0,
     snapshot: PreMarketSnapshot | None = None,
     earnings_recent_days: float | None = None,
+    earnings_upcoming_days: float | None = None,
     direction: Literal["long", "short"] = "long",
 ) -> FilterDecision:
     """Apply the pre-filter to one ticker. Pure function once data is fetched.
@@ -350,6 +352,12 @@ def evaluate_candidate(
         threshold_days = earnings_recency_hours / 24.0
         if 0.0 <= earnings_recent_days <= threshold_days:
             drop_reasons.append("earnings_just_reported")
+
+    # Forward earnings blackout — drop if earnings coming up in next 3 days.
+    # Swing trades typically take 2-20 days to play out; an overnight earnings
+    # gap can blow up the thesis regardless of technicals.
+    if earnings_upcoming_days is not None and earnings_upcoming_days <= 3:
+        drop_reasons.append("earnings_blackout_3d")
 
     keep = len(drop_reasons) == 0
     return FilterDecision(
@@ -492,6 +500,12 @@ def review_premarket(
         except Exception as exc:
             logger.warning("earnings recency fetch failed for %s: %s", ticker, exc)
 
+        upcoming = None
+        try:
+            upcoming = days_until_next_earnings(ticker)
+        except Exception as exc:
+            logger.warning("upcoming earnings fetch failed for %s: %s", ticker, exc)
+
         try:
             decision = evaluate_candidate(
                 ticker,
@@ -500,6 +514,7 @@ def review_premarket(
                 earnings_recency_hours=earnings_recency_hours,
                 snapshot=snap,
                 earnings_recent_days=days_since,
+                earnings_upcoming_days=upcoming,
                 direction=direction,
             )
             decisions.append(decision)

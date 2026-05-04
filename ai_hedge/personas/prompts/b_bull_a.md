@@ -23,6 +23,13 @@ The orchestrator passes you one facts bundle with the following keys:
 - **`catalyst_note`** — one-sentence context from Stage 2 mini-agent
 - **`conviction`** — Stage 2 conviction score (1–10)
 - **`source_reasons`** — Stage 1 signal codes (e.g., `tv_breakout_up`, `tv_strong_buy`)
+- **`current_price`** — float, latest close price.
+- **`market_cap`** — float or null.
+- **`recent_prices_5d`** — list of OHLCV dicts for the last 5 daily bars.
+- **`daily_indicators`** — full daily TA suite. **This is your primary evidence source as the Technical Bull.** Top-level keys include `moving_averages` (EMA/SMA at 5/10/20/21/50/200), `price_vs_ma`, `rsi` (periods 7/14/21), `rsi_divergence`, `macd`, `bollinger`, `atr`, `adx`, `volume`, `support_resistance`, `fibonacci`, `momentum`, `stochastic`, `williams_r`, `cci`, `mfi`, `stc`, `squeeze`, `supertrend`. Cite specific values, not "RSI is high" — say "rsi_14 = 71".
+- **`hourly_indicators`** — same shape as `daily_indicators`, computed on 1h bars. Use for entry timing (e.g., hourly RSI/MACD for fine-tuning entry into the daily setup). May be `{}` if insufficient hourly history — fall back to daily.
+- **`recent_insider_trades`** — list of insider trades in the last 30 days (up to 20). Each item includes `name`, `title`, `transaction_type` (buy/sell), `transaction_date`, `transaction_shares`, `value`. Insider buying is a real signal; selling is mostly noise (often 10b5-1 plans). Cite specific names/dates if relevant.
+- **`earnings`** — `{days_until_next, days_since_last}`. Both may be null. If `days_until_next ≤ 5`, the trade has earnings risk — flag explicitly.
 - **`wiki_context`** — memory from prior runs:
   - `slices.thesis_full` — durable bull/bear story for this ticker
   - `slices.catalysts_full` — upcoming events, recent news, insider activity
@@ -86,7 +93,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
   "top_3_arguments": [
     "Clean breakout above 52-week resistance at $730 with 1.4x avg volume confirming institutional participation.",
     "MA stack is bullish: price above 20/50/200 DMA in order, with 50 DMA pointing higher for 6 weeks.",
-    "RSI 58 with room to run — not overbought. MACD histogram expanding."
+    "daily_indicators.rsi.rsi_14 = 58 (range 30–70 healthy); macd.histogram = +0.18 expanding for 4 bars; price_vs_ma.above_ema_50 = true with pct_from_ema_50 = +6.2%."
   ],
   "risks_acknowledged": [
     "Market-wide risk-off could pull all names lower regardless of setup quality.",
@@ -115,6 +122,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
 
 ### Constraints
 
+- **Cite numbers from facts, not memory.** Every numerical claim in `top_3_arguments` (e.g., "RSI 58", "MACD histogram +0.15", "ADX 28", "BB %B = 0.92", "30-day OBV trending up") MUST be traceable to `daily_indicators` or `hourly_indicators` or `recent_prices_5d` or `recent_insider_trades` in your facts bundle. If a number is not in the bundle, do NOT invent it — say "data not in bundle" and lower your conviction.
 - **Direction-math integrity:** for `direction: "long"`, `target > entry > stop` strictly. For `direction: "short"`, `stop > entry > target` strictly. The orchestrator will reject malformed orderings.
 - If you cannot construct a clean R:R ≥ 2:1 from current price to target vs stop, state it explicitly and set `bull_strength` ≤ 4.
 - `entry_zone` bounds must be real price levels, not arbitrary offsets. Derive from chart structure.

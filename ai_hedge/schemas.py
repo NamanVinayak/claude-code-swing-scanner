@@ -201,3 +201,54 @@ class ExplainerOutput(BaseModel):
     narrative: str = Field(description="Multi-paragraph story explaining the analysis")
     per_ticker: dict[str, TickerExplanation] = Field(description="Per-ticker educational breakdown")
     concepts: dict[str, str] = Field(description="Glossary of technical terms used, in plain English")
+
+
+# ── System B Stage 3 perspective + judge schemas ─────────────────────────
+# Loud-crash validation: malformed agent JSON raises pydantic.ValidationError
+# with a detailed traceback instead of silently degrading downstream.
+
+class BullPerspectiveOutput(BaseModel):
+    ticker: str
+    setup_direction: Literal["long", "short"]
+    bull_strength: int  # 1-10
+    entry_zone: dict   # {"low": float, "high": float}
+    target: float
+    stop: float
+    expected_holding_days: int
+    top_3_arguments: list[str]
+    risks_acknowledged: list[str]
+    web_sources_last_7d: list[str]
+
+
+class BearPerspectiveOutput(BaseModel):
+    ticker: str
+    setup_direction: Literal["long", "short"]
+    bear_strength: int  # 1-10
+    top_3_arguments: list[str]
+    bull_acknowledgements: list[str]
+    web_sources_last_7d: list[str]
+    # Optional fields used by some bear variants
+    setup_invalidation_levels: list[float] | None = None
+    thesis_crack_level: Literal["none", "minor", "moderate", "severe"] | None = None
+
+
+class JudgeApprovedTrade(BaseModel):
+    ticker: str
+    direction: Literal["long", "short"]
+    entry_price: float
+    stop_loss: float
+    target_price: float
+    target_price_2: float | None = None
+    quantity: int
+    expected_holding_days: int
+    setup_type: str
+    conviction: int  # 1-10
+    rationale: str
+    risk_usd: float
+
+
+class JudgeOutput(BaseModel):
+    ticker: str
+    approved: list[JudgeApprovedTrade]
+    rejected: list[dict]   # {"ticker": str, "reason": str}
+    summary: str

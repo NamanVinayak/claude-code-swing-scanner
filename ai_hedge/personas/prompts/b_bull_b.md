@@ -23,6 +23,13 @@ The orchestrator passes you one facts bundle with the following keys:
 - **`catalyst_note`** — one-sentence context from Stage 2 mini-agent
 - **`conviction`** — Stage 2 conviction score (1–10)
 - **`source_reasons`** — Stage 1 signal codes (e.g., `capitol_buys_2plus`, `tv_strong_buy`)
+- **`current_price`** — float, latest close price.
+- **`market_cap`** — float or null.
+- **`recent_prices_5d`** — list of OHLCV dicts for the last 5 daily bars.
+- **`daily_indicators`** — full daily TA suite. Top-level keys include `moving_averages` (EMA/SMA at 5/10/20/21/50/200), `price_vs_ma`, `rsi` (periods 7/14/21), `rsi_divergence`, `macd`, `bollinger`, `atr`, `adx`, `volume`, `support_resistance`, `fibonacci`, `momentum`, `stochastic`, `williams_r`, `cci`, `mfi`, `stc`, `squeeze`, `supertrend`. Cite specific values, not "RSI is high" — say "rsi_14 = 71".
+- **`hourly_indicators`** — same shape as `daily_indicators`, computed on 1h bars. Use for entry timing. May be `{}` if insufficient hourly history — fall back to daily.
+- **`recent_insider_trades`** — **primary evidence source for catalyst case.** List of insider trades in the last 30 days (up to 20). Each item includes `name`, `title`, `transaction_type` (buy/sell), `transaction_date`, `transaction_shares`, `value`. Insider buying is a real signal (especially clusters); selling is mostly noise (often 10b5-1 plans). Cite specific names/dates.
+- **`earnings`** — **critical catalyst window.** `{days_until_next, days_since_last}`. Both may be null. If `days_until_next ≤ 5`, the trade has earnings risk — flag explicitly. `days_since_last` matters for post-earnings drift theses.
 - **`wiki_context`** — memory from prior runs:
   - `slices.thesis_full` — durable bull/bear story for this ticker
   - `slices.catalysts_full` — upcoming events, recent news, insider activity
@@ -89,7 +96,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
   "top_3_arguments": [
     "Earnings beat on 2026-04-28 reaffirmed AI-storage tailwind; stock holding gains 4 sessions later — bullish post-earnings drift.",
     "Sector flow: storage names outperforming SOX by +6% over last 10 sessions per recent_news_7d.",
-    "Congressional buys: 3 senators bought in last 30 days (capitol_buys_2plus reason)."
+    "recent_insider_trades shows 3 buys in last 30 days: CFO bought 5,000 shares 2026-04-22 ($25k), 2 directors bought 2026-04-29 ($40k combined); earnings.days_until_next = 18 (no near-term earnings risk)."
   ],
   "risks_acknowledged": [
     "Market-wide risk-off could pull all names lower regardless of catalyst quality.",
@@ -118,6 +125,7 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
 
 ### Constraints
 
+- **Cite numbers from facts, not memory.** Every numerical claim in `top_3_arguments` (e.g., "RSI 58", "MACD histogram +0.15", "ADX 28", "BB %B = 0.92", "30-day OBV trending up", insider share counts/dates, earnings windows) MUST be traceable to `daily_indicators` or `hourly_indicators` or `recent_prices_5d` or `recent_insider_trades` or `earnings` or `recent_news_7d` in your facts bundle. If a number is not in the bundle, do NOT invent it — say "data not in bundle" and lower your conviction.
 - **Direction-math integrity:** for `direction: "long"`, `target > entry > stop` strictly. For `direction: "short"`, `stop > entry > target` strictly. The orchestrator will reject malformed orderings.
 - If you cannot find any catalyst from the last 7 days, set `bull_strength` ≤ 4 and state "no recent catalyst found" in `top_3_arguments[0]`.
 - Never set `bull_strength` ≥ 7 based on stale (>7 day) catalysts.

@@ -1,0 +1,56 @@
+{
+  "run_id": "20260504_141022",
+  "scan_timestamp_pt": "2026-05-04T14:10:26-07:00",
+  "universe_size": 500,
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "ticker": "SNDK",
+      "exchange": "NASDAQ",
+      "last_close": 1255.86,
+      "market_cap_usd": 185366150927.63965,
+      "volume": 17750244,
+      "change_pct_today": 5.801179443976403,
+      "score": 2,
+      "reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "tradingview_recommendation": null,
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "STX",
+      "exchange": "NASDAQ",
+      "last_close": 738.54,
+      "market_cap_usd": 165602075606.96423,
+      "volume": 6008787,
+      "change_pct_today": 1.5971276464033697,
+      "score": 2,
+      "reasons": [
+        "tv_overbought",
+        "tv_trending_up"
+      ],
+      "tradingview_recommendation": null,
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "PWR",
+      "exchange": "NYSE",
+      "last_close": 757.34,
+      "market_cap_usd": 113643957356.20523,
+      "volume": 1314744,
+      "change_pct_today": 2.038506622115034,
+      "score": 2,
+      "reasons": [
+        "tv_overbought",
+        "tv_trending_up"
+      ],
+      "tradingview_recommendation": null,
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    }
+  ]
+}

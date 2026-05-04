@@ -132,11 +132,13 @@ Read by every Stage 3 judge before approving. Updated nightly by Stage 4.
 
 | Routine | Time PT | Slash command | Model |
 |---|---|---|---|
-| Scanning | 2:00 PM | `/b_scan` | Sonnet |
-| Premarket | 5:30 AM | `/b_premarket` | Sonnet |
-| Decide_open | 7:00 AM | `/b_decide` | Sonnet (trial; Opus 1M if context truncates) |
-| Decide_power | 11:30 AM | `/b_decide` | Sonnet (trial; same) |
-| B_journal | 2:30 PM | `/b_journal` | Sonnet |
+| Scanning | 2:00 PM | `/b_scan` | Sonnet 4.6 |
+| Premarket | 5:30 AM | `/b_premarket` | Sonnet 4.6 |
+| Decide_open | 7:00 AM | `/b_decide` | **Opus 4.7 (1M context)** |
+| Decide_power | 11:30 AM | `/b_decide` | **Opus 4.7 (1M context)** |
+| B_journal | 2:30 PM | `/b_journal` | Sonnet 4.6 |
+
+**Why this split (decided 2026-05-04):** the two `decide` routines hold multi-ticker orchestrator context (up to 5 tickers × 4 sub-agent outputs + wiki + facts + budget) which can blow past Sonnet's 200k window and truncate silently — these touch real capital, so they get Opus 1M's safety margin. `b_scan`, `b_premarket`, `b_journal` are structurally smaller in context (mechanical filtering, single-ticker mini-agents, or post-mortem on a single day's trades) — Sonnet is sufficient. **Upgrade trigger:** if any Sonnet routine's transcripts show single-turn token counts approaching 150k, move it to Opus 1M.
 
 Working directory for all: `/Users/naman/Downloads/new-artist`.
 

@@ -13,6 +13,7 @@ Schema verified against tracker/ingest_decisions.py:
 """
 from __future__ import annotations
 
+import dataclasses
 import json
 import logging
 from dataclasses import dataclass
@@ -160,9 +161,15 @@ def write_decisions(
 
     final_approved: list[TradeDecision] = []
     if budget_snapshot is not None:
+        # Mutate a working copy of the snapshot as we approve trades, so each
+        # subsequent trade is checked against the state that would exist AFTER
+        # the previously-approved trades in this fire have been opened. Without
+        # this, all trades see the original "0 positions open" snapshot and the
+        # writer can over-approve past max_simultaneous_positions / risk caps.
+        working_snapshot = budget_snapshot
         for td in trades:
             passes, blockers = trade_passes_budget_checks(
-                snapshot=budget_snapshot,
+                snapshot=working_snapshot,
                 proposed_entry=td.entry_price,
                 proposed_stop=td.stop_loss,
                 proposed_quantity=td.quantity,
@@ -171,6 +178,18 @@ def write_decisions(
             )
             if passes:
                 final_approved.append(td)
+                # Simulate snapshot AFTER this trade opens so the next trade
+                # in the loop sees the updated capital state.
+                trade_risk_usd = td.quantity * abs(td.entry_price - td.stop_loss)
+                trade_notional = td.entry_price * td.quantity
+                working_snapshot = dataclasses.replace(
+                    working_snapshot,
+                    positions_open=working_snapshot.positions_open + 1,
+                    available_risk_usd=max(
+                        0.0, working_snapshot.available_risk_usd - trade_risk_usd
+                    ),
+                    deployed=working_snapshot.deployed + trade_notional,
+                )
             else:
                 reason_str = "budget_check_failed: " + "; ".join(blockers)
                 logger.warning(

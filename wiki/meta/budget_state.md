@@ -12,7 +12,7 @@ summary: live capital state and the rules that guard it
 
 ## TL;DR
 
-Starting capital $25,000. No trades executed yet. System in scaling week 1–2 (half-size). All rules active.
+Starting capital $25,000. No trades executed yet. System operating under FULL framework (scaling phase skipped — paper-trading does not need dollar-loss protection). All capital rules active.
 
 ## Rules (locked)
 
@@ -23,7 +23,7 @@ Starting capital $25,000. No trades executed yet. System in scaling week 1–2 (
 - Single-position cap:      15% of account
 - Daily loss stop:          -2% account → pause for the day
 - Weekly loss stop:         -5% account → system review
-- Scaling: half-size weeks 1–2, three-quarter weeks 3–4, full from month 2
+- Scaling: SKIPPED for paper trading. Full size from day one. (Re-enable if/when transitioning to real money — toggle `Phase` below to `scaling_week_1_2`.)
 - Volatility: VIX > 25 → cut size 50%; VIX > 30 → no new entries
 
 ### Position size classes
@@ -61,8 +61,8 @@ The 60%-deployment cap and 4%-total-open-risk cap still apply to all classes, so
 
 ## Scaling phase
 
-- Phase: scaling_week_1_2
-- Size multiplier: 0.5
+- Phase: full
+- Size multiplier: 1.0
 
 ## Volatility regime
 

@@ -1,6 +1,6 @@
 ---
 name: b_decide
-description: System B Stage 3 — Adversarial Decision. Reads today_watchlist.json, builds per-candidate facts, runs 4 perspective agents (2 bull + 2 bear) per ticker in parallel, then a judge per ticker, then aggregates and finalizes decisions.json. Fires twice — once at ~7:00am PT (post-open) and once at ~11:30am PT (power hour). Hard cap: 3 trades approved per fire.
+description: System B Stage 3 — Adversarial Decision. Reads today_watchlist.json, builds per-candidate facts, runs 4 perspective agents (2 bull + 2 bear) per ticker in parallel, then a judge per ticker, then aggregates and finalizes decisions.json. Fires twice — once at ~7:00am PT (post-open) and once at ~11:30am PT (power hour). No per-fire count cap — capital rules in writer (max_simultaneous_positions, total_open_risk, deployment_cap, single_position_cap) are the only authoritative limits on how many trades land.
 disable-model-invocation: true
 allowed-tools: Bash(*) Read Write Agent
 ---
@@ -130,7 +130,7 @@ Write to: runs/{RUN_ID}/agent_outputs/b_judge__{TICKER}.json
 
 Wait for ALL judges to complete.
 
-## Step 4 — Aggregate judge outputs and apply hard cap (max 3 trades per fire)
+## Step 4 — Aggregate judge outputs (capital rules in writer enforce limits, no count cap)
 
 ```bash
 python - <<'PY' "$RUN_ID"
@@ -147,13 +147,12 @@ for f in sorted(out_dir.glob("b_judge__*.json")):
     for r in d.get("rejected", []):
         rejected.append({"ticker": r.get("ticker"), "reason": r.get("reason", "rejected")})
 
-# Hard cap: top 3 by conviction
+# Sort by conviction (highest first). No per-fire count cap — the writer's
+# capital rules (max_simultaneous_positions, total_open_risk, deployment_cap,
+# single_position_cap) are the only authoritative limits on how many trades
+# actually land. This matches how a real swing trader thinks: take any setup
+# that passes risk discipline, regardless of how many setups appear in one fire.
 approved.sort(key=lambda x: x.get("conviction", 0), reverse=True)
-if len(approved) > 3:
-    overflow = approved[3:]
-    approved = approved[:3]
-    for o in overflow:
-        rejected.append({"ticker": o["ticker"], "reason": "fire_cap_3_exceeded"})
 
 merged = {"approved": approved, "rejected": rejected, "summary": f"approved={len(approved)}, rejected={len(rejected)}, candidates={len(approved)+len(rejected)}"}
 pathlib.Path(f"runs/{run_id}/judge_output.json").write_text(json.dumps(merged, indent=2))

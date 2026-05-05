@@ -70,10 +70,12 @@ Stage 2 — Pre-market Reviewer        ~5:30 AM PT  (10–15 parallel mini-agent
   → outputs today_watchlist.json (top 5–10)
 
 Stage 3 — Adversarial Decision       ~7:00 AM PT  AND  ~11:30 AM PT
-  → for each surviving candidate (max 5):
+  → for each surviving candidate (no per-fire count cap):
       2 Bull agents (parallel) + 2 Bear agents (parallel)  — fresh context each, 7-day news cutoff
       1 Judge agent: reads all 4, applies budget rules, decides go/no-go
-  → max 3 trade decisions per fire (max 6 per day)
+  → all judge approvals flow to the writer; capital rules (max_simultaneous_positions=5,
+     total_open_risk=4%, deployment_cap=60%, single_position_cap=15%/20%) are the only
+     authoritative limits on how many trades land.
   → outputs runs/<id>/decisions.json (same schema as System A — flows into simulator)
 
 Stage 4 — End-of-Day Journal         ~1:30 PM PT  (1 agent)
@@ -97,10 +99,11 @@ Single-position cap:        15% of account
 Daily loss stop:            -2% account → pause for the day
 Weekly loss stop:           -5% account → system review
 
-Scaling (paper too):
-  Week 1–2:  max 1 open, 0.5% risk per trade
-  Week 3–4:  max 3 open, 0.75% risk per trade
-  Month 2+:  full framework
+Scaling: SKIPPED for paper trading (full size from day one).
+  Rationale: scaling exists to limit DOLLAR LOSSES while finding bugs. Paper has no
+  dollars at stake, so scaling just slows down data gathering. Capital rules above
+  are sufficient guardrails. Re-enable in `wiki/meta/budget_state.md` (toggle Phase
+  back to scaling_week_1_2) if/when transitioning to real money.
 
 Volatility adjustment:
   VIX > 25  → cut size 50%

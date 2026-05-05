@@ -237,3 +237,63 @@ Expected: PASS with 12 health checks (4 original + 8 Phase G), candidate count 1
 ---
 
 _Last updated: 2026-05-04 (evening) — System B is **LIVE on the overhauled architecture**. All Phases A–H shipped (7 commits). Tomorrow's b_premarket fires at 5:30 AM PT against `runs/20260504_171717/tomorrow_watchlist.json` (12 long candidates from manual post-overhaul scan). See `HANDOFF.md` for the dated build log._
+
+---
+
+## 2026-05-05 (full day) — first live day, 7 bug fixes shipped, 0 trades yet
+
+First live trading day on the overhauled architecture surfaced 7+ real bugs that all got fixed same-day. **Zero trades executed today** — morning b_decide fire (live, 7:01 AM PT) rejected all 4 candidates on the 15% cap; afternoon manual smoke test (3 PM) approved 3 trades that the writer's defensive check then rejected for the same cap reason; the cap reconciliation fix shipped at 3 PM but wasn't re-run live. Tomorrow morning is the next chance.
+
+### Eight commits shipped today (pipeline-affecting; the others are routine output)
+
+| Commit | What |
+|---|---|
+| `74998769` | Fix 1+2+3+4: UTC run IDs / sentinel-file run resolution / small_scaled position class / dedicated news researcher agent |
+| `6c1e24f0` | Fix 5+6+7: budget_calculator honors position_size_class / b_stage3 sort filter excludes test dirs / SKILL.md aggregator matches actual judge wrapper schema |
+| `2c70b92d` | Fix 8: scaling phase skipped for paper / per-fire count cap removed / decisions_writer simulates per-trade snapshot via `dataclasses.replace()` |
+
+### Key behavioral changes (matters for every future session)
+
+1. **Run IDs are UTC.** All 4 SKILL files use `date -u`. Dashboard `build.py` already parsed UTC. Today's existing runs (PT-stamped) will keep displaying with wrong dates — that's a one-day legacy. Future runs display correctly.
+
+2. **`b_stage3.py` is now the source of truth for the run dir.** Bash passes a tentative UTC ID; python decides which dir to actually use (the latest one with `today_watchlist.json`); writes resolved id to `runs/.last_resolved_run_id` BEFORE side effects. Bash reads sentinel back. `_RUN_ID_PATTERN = re.compile(r"^\d{8}_\d{6}$")` filters out test dirs / sentinel files / scratch dirs.
+
+3. **Capital allocation framework changed:**
+   - **`small_scaled` exception** — `position_size_class` is now a Pydantic field on `JudgeApprovedTrade`. When `small_scaled`, single-position cap is 20% (not 15%). Risk per trade unchanged. Carved into `budget_calculator.SMALL_SCALED_CAP_PCT=20.0`.
+   - **No per-fire count cap** — removed the `if len(approved) > 3` slice from `b_decide/SKILL.md` aggregator. Capital rules in writer are sole limit.
+   - **Per-trade snapshot simulation** — `decisions_writer` mutates `working_snapshot` via `dataclasses.replace()` after each approval so trade #N+1 sees state after trade #N (positions_open incremented, available_risk_usd decremented, deployed incremented). Without this, all trades saw original "0 positions" snapshot and writer over-approved.
+   - **Scaling phase skipped for paper.** `wiki/meta/budget_state.md` Phase=`full`, multiplier=1.0. Rationale: scaling protects DOLLAR losses; paper has none. To re-enable for real money, toggle `Phase` back to `scaling_week_1_2` in `budget_state.md`.
+
+4. **Dedicated news researcher agent** — `ai_hedge/personas/prompts/b_news_researcher.md` (143 lines, mirrors System A's `web_researcher.md`). Single-purpose: WebSearch with mandatory raw-save to `runs/<id>/web_research/raw/{ticker}_*.json`, structured output to `runs/<id>/news/{ticker}.json`. New Pydantic classes: `NewsResearcherOutput`, `NewsItem`, `AnalystConsensus`, `EarningsContext` (raw_search_files validated `min_length=1`).
+
+5. **`b_decide` Step 1.5** — between facts build and bull/bear dispatch, dispatches one news researcher per ticker in parallel, verifies raw files + news output exist (FATAL if not), then runs `b_stage3.py --run-id $RUN_ID --merge-news` to populate `recent_news_7d` in bull/bear facts (URL-deduped union with Finnhub data, plus `news_source` provenance field).
+
+6. **Bull/bear prompts cleaned** — removed Phase H "MUST WebSearch" hedge, removed `["none-cited"]` placeholder, rerouted wiki-staleness handling through researcher's bundle. They no longer have a WebSearch decision to make. Step 2's prompt template explicitly says "Do NOT invoke WebSearch."
+
+### Operational requirement (cause of today's missed routines)
+
+**Mac MUST stay awake during 5:30 AM – 2:30 PM PT weekdays.** Today's 11:30 AM and 2:00 PM scheduled routines never fired because the Claude Desktop app was closed. There is no failure notification — only absence of a commit reveals it.
+
+### Smoke test for tomorrow
+
+If you want to verify the new architecture without waiting for 5:30 AM:
+
+```bash
+# Manual trigger /b_decide via the slash command — it'll resolve to the latest premarket dir,
+# dispatch news researchers, run perspectives, and produce decisions.json.
+# Costs ~5 min of pipeline time. Trades approved are paper-only (no market hours required).
+```
+
+Expected end state if all fixes work: `runs/<id>/news/{T}.json` populated for every ticker, `runs/<id>/web_research/raw/` contains ≥3 files per ticker, `runs/<id>/decisions.json` has 1+ approved trades with `position_size_class` set, Turso has 1+ rows in trades table, dashboard shows position with "scaled" badge if applicable.
+
+### What's queued for tomorrow morning (2026-05-06, 5:30 AM PT)
+
+`b_premarket` reads `runs/20260505_213211/tomorrow_watchlist.json` — 10 long candidates, top 3 (ROK, RRX, JAZZ) with full signal trifecta. Several high-priced names mean `small_scaled` will likely get exercised in production for the first time.
+
+### Deferred (still — no change today)
+
+Phase F (short-side signal taxonomy), volatility-adjusted limits, self-grading, wiki compactor, `days_since_last` earnings, direction dissent (Phase I), formal DB migrations, b_journal summary key-mismatch (small bug surfaced today during manual trigger, non-blocking).
+
+---
+
+_Last updated: 2026-05-05 (~3:00 PM PT). System B is **LIVE with all known bugs fixed**. 0 trades in Turso to date. Tomorrow's 5:30 AM `b_premarket` is the first chance for a real paper trade to land. See `HANDOFF.md` "## 2026-05-05" section for fix-by-fix detail and tomorrow's resume-from-here checklist._

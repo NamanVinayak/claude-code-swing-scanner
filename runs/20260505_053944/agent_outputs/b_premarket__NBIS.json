@@ -1,0 +1,11 @@
+{
+  "ticker": "NBIS",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 176.50,
+  "invalidation_level": 173.00,
+  "catalyst_note": "TradingView strong_buy + trending_up signals flag trend continuation long; price gapped slightly below yesterday's close with zero premarket volume, so setup needs a reclaim of $176.50 to confirm.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup history, no recent_tldr, regime placeholder only; rely solely on Stage 1 signals. Stage 1: tv_strong_buy + tv_trending_up (score 2). Premarket: last_price $174.44, gap -0.96% against long direction — small gap down, below the 5% threshold so not an automatic invalidation, but meaningful in the absence of any supporting volume. Premarket volume = 0 and volume_ratio = null — no confirmation of buy-side participation. Earnings in 8 days: not in blackout window. Watch level $176.50 = reclaim of yesterday's close plus a tick (direction check: above current premarket price, consistent with long). Invalidation $173.00 = clean break below premarket low zone (~1.8% below close), which would negate the trending_up thesis. Conviction capped at 4: only 2 Stage 1 reasons, no premarket volume, small gap against direction, no macro regime data, no prior setup history to cross-check."
+}

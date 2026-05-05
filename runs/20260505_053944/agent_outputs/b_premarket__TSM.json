@@ -1,0 +1,11 @@
+{
+  "ticker": "TSM",
+  "setup_valid": "yes",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 403.00,
+  "invalidation_level": 397.00,
+  "catalyst_note": "TSM trending long on tv_strong_buy + tv_trending_up signals; overnight gap of +0.29% is benign, holding just above yesterday's close with no near-term earnings risk (72 days out).",
+  "conviction": 6,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Premarket last_price $402.46 vs close $401.30 — gap +0.29%, well within normal noise, setup has not played out. Watch level $403.00 is a clean breakout above the premarket high with round-number confirmation; invalidation $397.00 is below yesterday's close and prior intraday support. Key negatives: premarket volume = 0 (volume_ratio null) — cannot confirm buyer participation pre-open, which lowers conviction from a potential 7-8 down to 6. New ticker (wiki_context.new_ticker=true): no setup_history or recent_tldr available — relying solely on Stage 1 signals and premarket price action. Regime slice is a bootstrap placeholder and provides no directional context. No staleness penalty applied (regime.stale=false). Monitor for first 15-minute volume confirmation before entry."
+}

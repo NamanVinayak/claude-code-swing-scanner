@@ -1,0 +1,11 @@
+{
+  "ticker": "COST",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 1015.00,
+  "invalidation_level": 1005.00,
+  "catalyst_note": "Strong TradingView buy signal with uptrend momentum on a mega-cap consumer staple; premarket holding fractionally above yesterday's close with no adverse gap.",
+  "conviction": 5,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Premarket last_price $1,012.85 vs close $1,010.50 — overnight gap +0.23%, negligible, setup not blown out. Premarket volume is 0 with avg_volume_10d 0.0 and volume_ratio null — no premarket participation data available, which removes the key confirmation signal for a breakout entry; this alone limits conviction. New ticker: no wiki setup history, no regime data (bootstrap placeholder only). 23 days until next earnings — no blackout risk. Watch level set at $1,015.00 (clean round number above current premarket, requires intraday follow-through to confirm continuation). Invalidation at $1,005.00 (below yesterday's close, signals failed breakout). Conviction capped at 5: setup is structurally intact but the absence of premarket volume confirmation and lack of any wiki or macro context leaves the edge unverified going into open."
+}

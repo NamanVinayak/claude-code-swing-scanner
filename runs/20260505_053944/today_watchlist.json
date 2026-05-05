@@ -1,0 +1,58 @@
+{
+  "today_watchlist": [
+    {
+      "ticker": "TSM",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "yes",
+      "watch_level": 403.00,
+      "invalidation_level": 397.00,
+      "catalyst_note": "TSM trending long on tv_strong_buy + tv_trending_up signals; overnight gap of +0.29% is benign, holding just above yesterday's close with no near-term earnings risk (72 days out).",
+      "conviction": 6,
+      "source_reasons": ["tv_strong_buy", "tv_trending_up"],
+      "mini_agent_notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Premarket last_price $402.46 vs close $401.30 — gap +0.29%, well within normal noise, setup has not played out. Watch level $403.00 is a clean breakout above the premarket high with round-number confirmation; invalidation $397.00 is below yesterday's close and prior intraday support. Key negatives: premarket volume = 0 (volume_ratio null) — cannot confirm buyer participation pre-open, which lowers conviction from a potential 7-8 down to 6. New ticker (wiki_context.new_ticker=true): no setup_history or recent_tldr available — relying solely on Stage 1 signals and premarket price action. Regime slice is a bootstrap placeholder and provides no directional context. No staleness penalty applied (regime.stale=false). Monitor for first 15-minute volume confirmation before entry."
+    },
+    {
+      "ticker": "ALL",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 224.50,
+      "invalidation_level": 219.50,
+      "catalyst_note": "tv_breakout_up and tv_trending_up from Stage 1 remain directionally intact; stock gapped +2.0% overnight to $224.26, partially delivering the breakout move but not exhausting it.",
+      "conviction": 5,
+      "source_reasons": ["tv_breakout_up", "tv_trending_up"],
+      "mini_agent_notes": "Premarket last_price $224.26 vs close $219.87 — gap of +2.0%, under the 5% threshold so setup not disqualified, but a meaningful portion of the initial breakout move has already been captured pre-open. Watch level set at $224.50 (above current premarket price) to require intraday confirmation of continuation. Invalidation at $219.50 — a close back below yesterday's breakout base. Premarket volume is 0 / volume_ratio null: no volume confirmation available, which lowers conviction materially. New ticker (new_ticker: true) — no setup history, no recent_tldr, no regime data (placeholder only). All assessment based solely on Stage 1 signals and premarket price action. Conviction capped at 5: setup directionally alive but R/R compressed by the gap and no volume data to anchor entry confidence."
+    },
+    {
+      "ticker": "COST",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 1015.00,
+      "invalidation_level": 1005.00,
+      "catalyst_note": "Strong TradingView buy signal with uptrend momentum on a mega-cap consumer staple; premarket holding fractionally above yesterday's close with no adverse gap.",
+      "conviction": 5,
+      "source_reasons": ["tv_strong_buy", "tv_trending_up"],
+      "mini_agent_notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Premarket last_price $1,012.85 vs close $1,010.50 — overnight gap +0.23%, negligible, setup not blown out. Premarket volume is 0 with avg_volume_10d 0.0 and volume_ratio null — no premarket participation data available, which removes the key confirmation signal for a breakout entry; this alone limits conviction. New ticker: no wiki setup history, no regime data (bootstrap placeholder only). 23 days until next earnings — no blackout risk. Watch level set at $1,015.00 (clean round number above current premarket, requires intraday follow-through to confirm continuation). Invalidation at $1,005.00 (below yesterday's close, signals failed breakout). Conviction capped at 5: setup is structurally intact but the absence of premarket volume confirmation and lack of any wiki or macro context leaves the edge unverified going into open."
+    },
+    {
+      "ticker": "NBIS",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 176.50,
+      "invalidation_level": 173.00,
+      "catalyst_note": "TradingView strong_buy + trending_up signals flag trend continuation long; price gapped slightly below yesterday's close with zero premarket volume, so setup needs a reclaim of $176.50 to confirm.",
+      "conviction": 4,
+      "source_reasons": ["tv_strong_buy", "tv_trending_up"],
+      "mini_agent_notes": "New ticker — no wiki setup history, no recent_tldr, regime placeholder only; rely solely on Stage 1 signals. Stage 1: tv_strong_buy + tv_trending_up (score 2). Premarket: last_price $174.44, gap -0.96% against long direction — small gap down, below the 5% threshold so not an automatic invalidation, but meaningful in the absence of any supporting volume. Premarket volume = 0 and volume_ratio = null — no confirmation of buy-side participation. Earnings in 8 days: not in blackout window. Watch level $176.50 = reclaim of yesterday's close plus a tick (direction check: above current premarket price, consistent with long). Invalidation $173.00 = clean break below premarket low zone (~1.8% below close), which would negate the trending_up thesis. Conviction capped at 4: only 2 Stage 1 reasons, no premarket volume, small gap against direction, no macro regime data, no prior setup history to cross-check."
+    }
+  ],
+  "meta": {
+    "total_evaluated": 4,
+    "total_kept": 4,
+    "dropped_count": 0,
+    "ranking_rationale": "Ranked by conviction descending: TSM (6, setup_valid=yes) first; ALL and COST tied at conviction 5 (both partial breakouts), ordered by original agent-output file sequence since setup_patterns.md has no historical win-rate data; NBIS last at conviction 4. No names dropped — all 4 had setup_valid yes or partial."
+  }
+}

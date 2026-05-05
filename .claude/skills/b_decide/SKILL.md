@@ -12,11 +12,16 @@ You are the conductor for System B's heaviest stage. Sequence: Python builds fac
 ## Step 1 — Build all Stage 3 facts files
 
 ```bash
-RUN_ID=$(date +%Y%m%d_%H%M%S)
-echo "Stage 3 run_id: $RUN_ID"
+TENTATIVE_RUN_ID=$(date -u +%Y%m%d_%H%M%S)
+echo "Tentative run_id: $TENTATIVE_RUN_ID"
 
-.venv/bin/python -m ai_hedge.runner.b_stage3 --run-id "$RUN_ID"
+.venv/bin/python -m ai_hedge.runner.b_stage3 --run-id "$TENTATIVE_RUN_ID"
 B3_EXIT=$?
+[ "$B3_EXIT" -eq 0 ] || { echo "Stage 3 init failed"; exit 1; }
+
+RUN_ID=$(cat runs/.last_resolved_run_id)
+[ -z "$RUN_ID" ] && { echo "No resolved run_id sentinel found"; exit 1; }
+echo "Resolved run_id: $RUN_ID"
 ```
 
 - Exit 0 → continue.
@@ -28,9 +33,45 @@ TICKERS=$(python -c "import json; d=json.load(open('runs/$RUN_ID/today_watchlist
 echo "Candidates for adversarial debate: $TICKERS"
 ```
 
-Note: `b_stage3.py` actually loads the latest Stage 2 run's `today_watchlist.json` automatically. The line above is for logging only.
-
 If `$TICKERS` is empty (no candidates today), skip to Step 5 (commit a no-decisions note).
+
+## Step 1.5 — Dispatch one news researcher per ticker IN PARALLEL
+
+For each ticker in `$TICKERS`, dispatch a single Agent tool call with `subagent_type` `general-purpose`. All N dispatches in ONE message so they run in parallel. Use this prompt template per ticker:
+
+```
+IMPORTANT: Do NOT invoke any skills. Do NOT use memory tools. You may use WebSearch, Read, and Write only.
+
+You are a System B News Research Agent for one ticker per dispatch. Your job is to gather last-7-days news context that the Stage 3 perspective agents will rely on.
+
+1. Read your system prompt from: ai_hedge/personas/prompts/b_news_researcher.md
+2. Read your facts file from: runs/{RUN_ID}/facts/b_news_researcher__{TICKER}.json
+3. Follow the prompt's instructions exactly. Save raw WebSearch results to runs/{RUN_ID}/web_research/raw/{TICKER}_*.json BEFORE summarizing.
+4. Write structured output to: runs/{RUN_ID}/news/{TICKER}.json
+```
+
+Replace `{RUN_ID}` and `{TICKER}` with the actual values per dispatch.
+
+Wait for ALL news researchers to complete. Then verify each one did its job:
+
+```bash
+for T in $TICKERS; do
+  [ -f runs/$RUN_ID/news/$T.json ] || { echo "FATAL: news research missing for $T"; exit 1; }
+  count=$(ls runs/$RUN_ID/web_research/raw/${T}_*.json 2>/dev/null | wc -l | tr -d ' ')
+  [ "$count" -gt 0 ] || { echo "FATAL: news researcher for $T did no WebSearches (no raw files saved)"; exit 1; }
+done
+echo "News research verified for all $(echo $TICKERS | wc -w | tr -d ' ') tickers"
+```
+
+This step is mandatory. If it fails, abort the run. Do not silently fall back to running bull/bear agents without news context — that defeats the entire purpose of having dedicated researchers.
+
+After verification passes, merge each news researcher's output into the per-perspective facts bundles so bulls/bears see the news as `recent_news_7d` (unioned with whatever Finnhub already provided, deduped by URL):
+
+```bash
+.venv/bin/python -m ai_hedge.runner.b_stage3 --run-id "$RUN_ID" --merge-news
+MERGE_EXIT=$?
+[ "$MERGE_EXIT" -eq 0 ] || { echo "FATAL: news merge failed"; exit 1; }
+```
 
 ## Step 2 — Dispatch 4 perspective agents per ticker (ALL IN PARALLEL)
 
@@ -39,17 +80,17 @@ For each ticker in `$TICKERS`, send 4 Agent tool calls — `b_bull_a`, `b_bull_b
 For each (TICKER, AGENT) pair, use this prompt template:
 
 ```
-IMPORTANT: Do NOT invoke any skills. Do NOT use memory tools. Read files, optionally use WebSearch (last-7-days only), write one JSON file.
+IMPORTANT: Do NOT invoke any skills. Do NOT use memory tools. Do NOT invoke WebSearch — news has already been gathered by a dedicated researcher and merged into your facts bundle as `recent_news_7d`. Read files and write one JSON file.
 
 You are a System B Stage 3 perspective agent: {AGENT}. Single ticker per dispatch. Fresh context.
 
 1. Read your system prompt from: ai_hedge/personas/prompts/{AGENT}.md
 2. Read your facts bundle from: runs/{RUN_ID}/facts/{AGENT}__{TICKER}.json
-   (wiki_context with thesis, catalysts, technicals already injected)
+   (wiki_context with thesis, catalysts, technicals already injected; `recent_news_7d` populated from Finnhub + web research; `news_source` field tells you provenance)
 
-Strict 7-day news rule: if you use WebSearch, restrict to news published in the last 7 days. Cite older context only as "already priced in."
+Treat `recent_news_7d` as the complete and authoritative news window. Do not search independently. If a fact you need is not in the bundle, note it as a research gap in your output.
 
-Output the strict JSON object specified in your system prompt. Schema differs by agent role (bull vs bear), but ALL include: ticker, top_3_arguments, web_sources_last_7d.
+Output the strict JSON object specified in your system prompt. Schema differs by agent role (bull vs bear), but ALL include: ticker, top_3_arguments, web_sources_last_7d (inherit URLs from the facts bundle's `recent_news_7d`; do not invent).
 
 Write the result to: runs/{RUN_ID}/agent_outputs/{AGENT}__{TICKER}.json
 ```

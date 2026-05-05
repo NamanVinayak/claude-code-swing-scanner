@@ -132,6 +132,22 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
 }
 .status-none { color: var(--subtle); font-size: 13px; }
 
+/* Scaled-position badge (small_scaled position class — Gate 4 exception) */
+.scaled-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--yellow-dim);
+    color: var(--yellow);
+    font-family: var(--mono);
+    vertical-align: middle;
+}
+
 /* Inline confidence bar for table */
 .conf-inline {
     display: flex;
@@ -209,7 +225,10 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
                     {% for d in run.decisions %}
                     <tr>
                         <td><a href="{{ d.ticker }}.html" style="font-weight:700;">{{ d.ticker }}</a></td>
-                        <td><span class="badge badge-{{ d.action|lower }}">{{ d.action|upper }}</span></td>
+                        <td>
+                            <span class="badge badge-{{ d.action|lower }}">{{ d.action|upper }}</span>
+                            {% if d.position_size_class == 'small_scaled' %}<span class="scaled-badge" title="Scaled down to fit small-account cap (Gate 4 exception)">scaled</span>{% endif %}
+                        </td>
                         <td class="price hide-mobile">{{ '$%.2f'|format(d.entry_price) if d.entry_price else '—' }}</td>
                         <td class="price hide-mobile">{{ '$%.2f'|format(d.target_price) if d.target_price else '—' }}</td>
                         <td class="price hide-mobile">{{ '$%.2f'|format(d.stop_loss) if d.stop_loss else '—' }}</td>

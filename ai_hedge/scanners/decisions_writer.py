@@ -41,6 +41,7 @@ class TradeDecision:
     conviction: int              # 1-10
     rationale: str               # one paragraph
     risk_usd: float              # quantity * abs(entry - stop)
+    position_size_class: Literal["standard", "small_scaled"]  # Gate 4 outcome class
 
 
 def _parse_approved_trade(item: dict) -> TradeDecision | None:
@@ -95,6 +96,7 @@ def _parse_approved_trade(item: dict) -> TradeDecision | None:
         conviction=validated.conviction,
         rationale=validated.rationale,
         risk_usd=validated.risk_usd if validated.risk_usd > 0 else (validated.quantity * abs(validated.entry_price - validated.stop_loss)),
+        position_size_class=validated.position_size_class,
     )
 
 
@@ -220,6 +222,7 @@ def write_decisions(
             "rationale": td.rationale,
             "risk_usd": td.risk_usd,
             "expected_holding_days": td.expected_holding_days,
+            "position_size_class": td.position_size_class,
         }
 
     # Read mode from metadata.json if present (ingester reads mode from there)

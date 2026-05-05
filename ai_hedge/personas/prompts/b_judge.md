@@ -108,12 +108,36 @@ Reject if `quantity < 1`.
 
 This formula is direction-agnostic — `abs(entry - stop)` is positive for both long and short setups.
 
-**Gate 4 — Single-position cap**
+**Gate 4 — Single-position cap with small-scaled exception**
+
+Compute:
 ```
 notional = entry * quantity
-cap = account_value * single_position_cap_pct / 100
+single_cap = account_value * single_position_cap_pct / 100   # 15% — standard
+extended_cap = account_value * 0.20                          # 20% — small-scaled exception cap
+risk_dollars_floor = 0.40 * risk_dollars                     # ≥40% of risk budget must still be used
 ```
-Reject if `notional > cap` with reason `"single_position_cap_exceeded"`.
+
+Apply in order:
+
+1. **Standard path.** If `notional ≤ single_cap`:
+   - PASS. Set `position_size_class = "standard"`. Continue to Gate 5 unchanged.
+
+2. **Small-scaled exception path.** Else, compute the largest quantity `M` whose notional fits the extended cap:
+   ```
+   M = floor(extended_cap / entry)            # may be < quantity from Gate 3
+   risk_M = M * abs(entry - stop)             # actual risk dollars used at quantity M
+   ```
+   If `M ≥ 1` AND `risk_M ≥ risk_dollars_floor` (i.e. ≥40% of the risk budget is still being used):
+   - PASS as small-scaled. Override `quantity = M`. Recompute `risk_usd = risk_M`.
+   - Set `position_size_class = "small_scaled"`.
+   - In `rationale`, include a note: `"scaled down from <Gate-3 quantity> to <M> shares to fit small-account cap, using <X>% of risk budget"` where X = `100 * risk_M / risk_dollars` rounded to nearest integer.
+   - Continue to Gate 5 with the downsized quantity and risk.
+
+3. **Reject path.** Otherwise (no `M` exists where notional ≤ 20% AND risk used ≥ 40%):
+   - REJECT with reason `"single_position_cap_exceeded"` and detail `"stock too high-priced for current account size, cannot fit even minimum scaled position"`.
+
+Why this exists: on a $25k account, a $400/share stock plus a 1% risk budget produces a minimum-viable share count that mathematically exceeds the 15% notional cap before it even uses meaningful risk. The 20% extended cap with a 40%-of-risk-budget floor unlocks high-priced names without compromising per-trade risk discipline. The 60%-deployment cap (Gate 5) and 4%-total-open-risk cap (Gate 6) still apply, so concentration risk across positions remains bounded.
 
 **Gate 5 — Total deployed cap**
 ```
@@ -165,7 +189,8 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
       "setup_type": "breakout",
       "conviction": 7,
       "rationale": "b_bull_a.bull_strength=7 dominates over b_bear_a.bear_strength=5; daily_indicators.adx.value=28 confirms strong trend and daily_indicators.volume.ratio_to_avg=1.42 confirms breakout participation, validating bull's technical claims. Expected return $0.83/share positive after probability weighting. Position sized to $124 risk at 1% × 0.5 scaling. Bears' main concern (rsi_divergence.bear_divergence flag) acknowledged but overridden by volume + ADX confirmation.",
-      "risk_usd": 124.00
+      "risk_usd": 124.00,
+      "position_size_class": "standard"
     }
   ],
   "rejected": [],
@@ -191,7 +216,8 @@ The same schema applies for short trades. Example for `direction="short"`:
       "setup_type": "breakdown",
       "conviction": 7,
       "rationale": "Bear thesis dominates with strong setup_direction consensus across all 4 perspectives. Expected_return_per_share = combined_p_bull * (entry - target) - combined_p_bear * (stop - entry) = +$1.20. Position sized to $60 risk at 1% × 0.5 scaling.",
-      "risk_usd": 60.00
+      "risk_usd": 60.00,
+      "position_size_class": "standard"
     }
   ],
   "rejected": [],
@@ -212,8 +238,9 @@ For each **approved** trade:
 - `expected_holding_days` — integer 2–20 (from bull perspectives, averaged if they differ)
 - `setup_type` — string (from Stage 2 facts bundle)
 - `conviction` — integer 1–10 (your synthesis, not a copy of Stage 2)
-- `rationale` — string: 1–3 sentences. Must name (a) which perspective(s) won and why, (b) the key disagreement that was resolved, (c) the position sizing math. No fluff.
-- `risk_usd` — float: `quantity * abs(entry_price - stop_loss)`
+- `rationale` — string: 1–3 sentences. Must name (a) which perspective(s) won and why, (b) the key disagreement that was resolved, (c) the position sizing math. No fluff. If `position_size_class == "small_scaled"`, the rationale MUST also include the scale-down note ("scaled down from N to M shares to fit small-account cap, using X% of risk budget").
+- `risk_usd` — float: `quantity * abs(entry_price - stop_loss)` (using the final `quantity` after any small-scaled downsizing)
+- `position_size_class` — `"standard"` (notional ≤ 15% of account, full Gate-3 quantity) or `"small_scaled"` (notional fits 20% of account at downsized quantity, still uses ≥40% of risk budget). Required on every approved trade.
 
 For each **rejected** candidate:
 - `ticker` — string

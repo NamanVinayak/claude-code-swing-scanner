@@ -12,7 +12,7 @@ You are the conductor for System B's learning loop. Sequence: Python does the me
 ## Step 1 — Run the mechanical journal updates
 
 ```bash
-RUN_ID=$(date +%Y%m%d_%H%M%S)
+RUN_ID=$(date -u +%Y%m%d_%H%M%S)
 echo "Stage 4 run_id: $RUN_ID"
 
 .venv/bin/python -m ai_hedge.runner.b_stage4 --run-id "$RUN_ID"

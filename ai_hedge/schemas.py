@@ -245,6 +245,7 @@ class JudgeApprovedTrade(BaseModel):
     conviction: int  # 1-10
     rationale: str
     risk_usd: float
+    position_size_class: Literal["standard", "small_scaled"] = "standard"
 
 
 class JudgeOutput(BaseModel):
@@ -252,3 +253,40 @@ class JudgeOutput(BaseModel):
     approved: list[JudgeApprovedTrade]
     rejected: list[dict]   # {"ticker": str, "reason": str}
     summary: str
+
+
+# ── System B Stage 3 news researcher schema ──────────────────────────────
+# A single-purpose WebSearch agent that runs BEFORE the bull/bear perspectives.
+# Produces runs/<run_id>/news/<TICKER>.json. The bull/bear facts builder merges
+# its `news_items` into `recent_news_7d` so the perspective agents have a
+# pre-populated authoritative news window and never need to invoke WebSearch
+# themselves. raw_search_files must contain at least one entry — the pipeline
+# verification step counts raw files on disk and aborts if any are missing.
+
+class NewsItem(BaseModel):
+    headline: str
+    url: str
+    date: str  # YYYY-MM-DD
+    sentiment: Literal["positive", "negative", "neutral"]
+    summary: str
+
+
+class AnalystConsensus(BaseModel):
+    rating: Literal["buy", "hold", "sell", "mixed", "unknown"]
+    avg_price_target: float | None = None
+    recent_changes: str
+
+
+class EarningsContext(BaseModel):
+    next_earnings_date: str | None = None  # YYYY-MM-DD
+    days_until_next: int | None = None
+    notes: str
+
+
+class NewsResearcherOutput(BaseModel):
+    ticker: str
+    researched_at: str  # ISO 8601 UTC
+    news_items: list[NewsItem]
+    analyst_consensus: AnalystConsensus
+    earnings_context: EarningsContext
+    raw_search_files: list[str] = Field(min_length=1)

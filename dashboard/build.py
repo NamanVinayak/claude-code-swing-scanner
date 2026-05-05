@@ -247,6 +247,7 @@ def main():
                             "stop_loss": d.get("stop_loss"),
                             "quantity": qty,
                             "position_size": position_size,
+                            "position_size_class": d.get("position_size_class", "standard"),
                             "account_risk_pct": d.get("account_risk_pct"),
                             "risk_dollars": risk_d,
                         })
@@ -382,6 +383,7 @@ def main():
                             "stop_loss": d.get("stop_loss"),
                             "quantity": qty,
                             "position_size": position_size,
+                            "position_size_class": d.get("position_size_class", "standard"),
                         })
                 except Exception:
                     pass

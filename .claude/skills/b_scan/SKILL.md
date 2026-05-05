@@ -12,7 +12,7 @@ You are the conductor for System B's Stage 1. Your job is to sequence one Python
 ## Step 1 — Generate run ID and run the mechanical scan
 
 ```bash
-RUN_ID=$(date +%Y%m%d_%H%M%S)
+RUN_ID=$(date -u +%Y%m%d_%H%M%S)
 echo "Stage 1 run_id: $RUN_ID"
 
 .venv/bin/python -m ai_hedge.runner.b_stage1 --run-id "$RUN_ID" --max-candidates 40

@@ -90,6 +90,22 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     text-align: right;
 }
 
+/* Scaled-position badge (small_scaled position class — Gate 4 exception) */
+.scaled-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--yellow-dim);
+    color: var(--yellow);
+    font-family: var(--mono);
+    vertical-align: middle;
+}
+
 @media (max-width: 640px) {
     td.hide-mobile, th.hide-mobile { display: none !important; }
 }
@@ -156,6 +172,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
                         {% if d.quantity and d.position_size %}
                             <span style="color:var(--text);">{{ d.quantity }} sh</span>
                             <span style="color:var(--muted);font-size:11px;"> / ${{ "%.0f"|format(d.position_size) }}</span>
+                            {% if d.position_size_class == 'small_scaled' %}<span class="scaled-badge" title="Scaled down to fit small-account cap (Gate 4 exception)">scaled</span>{% endif %}
                         {% else %}—{% endif %}
                     </td>
                     <td class="price hide-mobile">

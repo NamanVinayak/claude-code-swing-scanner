@@ -1,6 +1,6 @@
 ---
 name: budget state
-last_updated: 2026-05-03
+last_updated: 2026-05-05
 last_run_id: bootstrap
 target_words: 800
 stale_after_days: 2
@@ -25,6 +25,23 @@ Starting capital $25,000. No trades executed yet. System in scaling week 1–2 (
 - Weekly loss stop:         -5% account → system review
 - Scaling: half-size weeks 1–2, three-quarter weeks 3–4, full from month 2
 - Volatility: VIX > 25 → cut size 50%; VIX > 30 → no new entries
+
+### Position size classes
+
+Gate 4 (single-position cap) has two outcome classes:
+
+- **`standard`** — notional ≤ 15% of account at the Gate-3 quantity. Full risk-budget utilization. The default path; applies to most candidates.
+- **`small_scaled`** — Gate-3 quantity would push notional past 15%, BUT a smaller quantity `M` exists where:
+  - `M × entry_price ≤ 20% of account` (extended cap), AND
+  - `M × risk_per_share ≥ 40% of risk_budget` (still uses meaningful risk)
+
+  Judge downsizes `quantity` to `M`, sets `position_size_class = "small_scaled"`, and notes the scale-down in the rationale. Risk per trade is unchanged (≤ 0.5% × scaling multiplier of account); only notional concentration is bumped from 15% → up to 20%.
+
+  Why this exists: high-priced names (e.g. $400+ stocks) on a $25k account run into discrete-share constraints — the minimum-viable share count at full risk budget exceeds the 15% notional cap before the position is otherwise meaningful. The 20% cap with a 40%-of-risk-budget floor unlocks these names without softening per-trade risk discipline.
+
+If neither path fits (notional > 20% even at minimum-viable quantity), reject with `single_position_cap_exceeded`.
+
+The 60%-deployment cap and 4%-total-open-risk cap still apply to all classes, so portfolio-level concentration remains bounded.
 
 ## Current account state
 

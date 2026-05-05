@@ -35,6 +35,7 @@ from ai_hedge.scanners.budget_calculator import compute_risk_budget
 logger = logging.getLogger(__name__)
 
 _PERSPECTIVE_AGENTS = ("b_bull_a", "b_bull_b", "b_bear_a", "b_bear_b")
+_NEWS_RESEARCHER_AGENT = "b_news_researcher"
 
 
 # ---------------------------------------------------------------------------
@@ -222,6 +223,172 @@ def _build_market_data_bundle(ticker: str) -> dict:
     return bundle
 
 
+def build_news_researcher_facts(
+    run_id: str,
+    entry: TodayWatchlistEntry,
+    *,
+    runs_dir: str = "runs",
+) -> str:
+    """Write the small facts file the b_news_researcher sub-agent reads.
+
+    Tiny by design — the news researcher only needs to know what to search
+    for, not the full market data bundle. Wiki context is still injected by
+    the AGENT_MANIFEST walk in build_all_stage3_facts (if a manifest entry
+    is registered for b_news_researcher).
+    """
+    facts_dir = Path(runs_dir) / run_id / "facts"
+    facts_dir.mkdir(parents=True, exist_ok=True)
+
+    bundle = {
+        "ticker": entry.ticker,
+        "setup_direction": entry.direction,
+        "as_of_date": datetime.now().strftime("%Y-%m-%d"),
+        "setup_type": entry.setup_type,
+        "wiki_context": {},
+    }
+    path = facts_dir / f"{_NEWS_RESEARCHER_AGENT}__{entry.ticker}.json"
+    path.write_text(json.dumps(bundle, indent=2, default=str))
+    logger.debug("Wrote news-researcher facts: %s", path)
+    return str(path)
+
+
+def merge_news_into_perspective_facts(
+    run_id: str,
+    *,
+    runs_dir: str = "runs",
+) -> dict[str, Any]:
+    """Merge each ticker's news researcher output into bull/bear facts files.
+
+    Called AFTER the news researcher sub-agents have written their outputs
+    to runs/<run_id>/news/<TICKER>.json (orchestrated by .claude/skills/
+    b_decide/SKILL.md Step 1.5). For each perspective facts file
+    (b_bull_a/b_bull_b/b_bear_a/b_bear_b __ {TICKER}.json) this function:
+
+      1. Loads the news researcher output for that ticker (if present)
+      2. Unions news_items into the bundle's recent_news_7d (dedupe by URL)
+      3. Stamps news_source = "finnhub" | "web_research" | "merged"
+
+    Missing news files are not fatal here — the b_decide skill's Step 1.5
+    verification is the gate that aborts the run if a researcher skipped
+    its job. This function is forward-only: it never removes existing
+    Finnhub items.
+
+    Returns a summary dict with per-ticker merge counts.
+    """
+    facts_dir = Path(runs_dir) / run_id / "facts"
+    news_dir = Path(runs_dir) / run_id / "news"
+
+    summary: dict[str, Any] = {
+        "run_id": run_id,
+        "tickers_merged": [],
+        "tickers_no_news_file": [],
+        "per_ticker": {},
+    }
+
+    if not facts_dir.exists():
+        logger.warning("merge_news: facts dir does not exist: %s", facts_dir)
+        return summary
+
+    # Collect tickers from existing perspective facts files
+    tickers: set[str] = set()
+    for agent in _PERSPECTIVE_AGENTS:
+        for p in facts_dir.glob(f"{agent}__*.json"):
+            t = p.stem.split("__", 1)[1]
+            if t:
+                tickers.add(t)
+
+    for ticker in sorted(tickers):
+        news_path = news_dir / f"{ticker}.json"
+        if not news_path.exists():
+            summary["tickers_no_news_file"].append(ticker)
+            continue
+
+        try:
+            news_doc = json.loads(news_path.read_text())
+        except Exception as exc:
+            logger.warning("merge_news: failed to parse %s: %s", news_path, exc)
+            summary["tickers_no_news_file"].append(ticker)
+            continue
+
+        web_items = news_doc.get("news_items", []) or []
+
+        # Convert news researcher items to the recent_news_7d shape used by
+        # bull/bear bundles. Fields: title, source, date, url, sentiment.
+        web_normalized = []
+        for item in web_items:
+            web_normalized.append({
+                "title": item.get("headline", ""),
+                "source": "web_research",
+                "date": item.get("date", ""),
+                "url": item.get("url", ""),
+                "sentiment": item.get("sentiment", "neutral"),
+                "summary": item.get("summary", ""),
+            })
+
+        merged_per_ticker: dict[str, Any] = {
+            "finnhub_count": 0,
+            "web_count": len(web_normalized),
+            "merged_count": 0,
+            "news_source": "web_research",
+        }
+
+        for agent in _PERSPECTIVE_AGENTS:
+            facts_path = facts_dir / f"{agent}__{ticker}.json"
+            if not facts_path.exists():
+                continue
+            try:
+                bundle = json.loads(facts_path.read_text())
+            except Exception as exc:
+                logger.warning("merge_news: failed to parse %s: %s", facts_path, exc)
+                continue
+
+            existing = bundle.get("recent_news_7d", []) or []
+            merged_per_ticker["finnhub_count"] = len(existing)
+
+            # Dedupe by URL — Finnhub items take precedence on collision
+            seen_urls = {it.get("url", "") for it in existing if it.get("url")}
+            unioned = list(existing)
+            for w in web_normalized:
+                u = w.get("url", "")
+                if u and u in seen_urls:
+                    continue
+                unioned.append(w)
+                if u:
+                    seen_urls.add(u)
+
+            if existing and web_normalized:
+                news_source = "merged"
+            elif existing:
+                news_source = "finnhub"
+            elif web_normalized:
+                news_source = "web_research"
+            else:
+                news_source = "none"
+
+            bundle["recent_news_7d"] = unioned
+            bundle["news_source"] = news_source
+
+            # Carry along the structured analyst/earnings context from the
+            # news researcher so prompts can reference it without reloading
+            # the news file themselves.
+            bundle["analyst_consensus_web"] = news_doc.get("analyst_consensus", {})
+            bundle["earnings_context_web"] = news_doc.get("earnings_context", {})
+
+            facts_path.write_text(json.dumps(bundle, indent=2, default=str))
+            merged_per_ticker["merged_count"] = len(unioned)
+            merged_per_ticker["news_source"] = news_source
+
+        summary["tickers_merged"].append(ticker)
+        summary["per_ticker"][ticker] = merged_per_ticker
+
+    logger.info(
+        "merge_news: merged %d tickers, %d missing news files",
+        len(summary["tickers_merged"]),
+        len(summary["tickers_no_news_file"]),
+    )
+    return summary
+
+
 def build_perspective_facts(
     run_id: str,
     entry: TodayWatchlistEntry,
@@ -356,6 +523,9 @@ def build_all_stage3_facts(
     for entry in entries:
         build_perspective_facts(run_id, entry, runs_dir=runs_dir)
         perspective_count += len(_PERSPECTIVE_AGENTS)
+        # News researcher facts file (tiny — read by the dedicated WebSearch
+        # sub-agent dispatched by .claude/skills/b_decide/SKILL.md Step 1.5).
+        build_news_researcher_facts(run_id, entry, runs_dir=runs_dir)
 
     build_judge_facts(run_id, entries, runs_dir=runs_dir)
     judge_count = len(entries)

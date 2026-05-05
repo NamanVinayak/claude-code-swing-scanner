@@ -24,6 +24,30 @@ RUNS_DIR = Path(__file__).parent.parent / "runs"
 INGESTED_FILE = Path(__file__).parent / "ingested_runs.txt"
 
 
+def _ensure_schema() -> None:
+    """One-time additive migrations for the trades table.
+
+    Idempotent: each ALTER is wrapped so a "duplicate column" error from a
+    prior run is swallowed. Run after create_all_tables() so brand-new
+    deployments (which already have the column from CREATE TABLE) silently
+    pass through, and existing deployments pick up the new column on first
+    ingest after a deploy.
+    """
+    from tracker.turso_client import _execute
+
+    additive_columns = [
+        ("position_size_class", "ALTER TABLE trades ADD COLUMN position_size_class TEXT"),
+    ]
+    for col_name, sql in additive_columns:
+        try:
+            _execute(sql, [])
+        except Exception as exc:
+            msg = str(exc).lower()
+            if "duplicate" in msg or "already exists" in msg:
+                continue
+            print(f"  [WARN] schema migration for {col_name} failed: {exc}", file=sys.stderr)
+
+
 def _load_ingested() -> set[str]:
     if not INGESTED_FILE.exists():
         return set()
@@ -114,6 +138,7 @@ def main() -> None:
     from tracker.turso_client import create_all_tables, insert_trade
 
     create_all_tables()
+    _ensure_schema()
 
     already_ingested = _load_ingested()
 
@@ -232,6 +257,10 @@ def main() -> None:
             except (TypeError, ValueError):
                 account_risk_pct = 1.5
 
+            position_size_class = dec.get("position_size_class")
+            if position_size_class not in ("standard", "small_scaled"):
+                position_size_class = None
+
             try:
                 insert_trade({
                     "run_id": run_id,
@@ -249,6 +278,7 @@ def main() -> None:
                     "timeframe": timeframe,
                     "status": "pending",
                     "raw_decision": json.dumps(dec),
+                    "position_size_class": position_size_class,
                 })
                 run_trade_count += 1
                 total_trades += 1

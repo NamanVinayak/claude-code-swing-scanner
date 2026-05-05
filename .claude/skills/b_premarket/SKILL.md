@@ -12,7 +12,7 @@ You are the conductor for System B's Stage 2. Sequence: one Python step → N pa
 ## Step 1 — Run the mechanical pre-filter and build per-ticker facts
 
 ```bash
-RUN_ID=$(date +%Y%m%d_%H%M%S)
+RUN_ID=$(date -u +%Y%m%d_%H%M%S)
 echo "Stage 2 run_id: $RUN_ID"
 
 .venv/bin/python -m ai_hedge.runner.b_stage2 --run-id "$RUN_ID"

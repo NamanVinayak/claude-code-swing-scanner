@@ -71,7 +71,7 @@ The facts bundle's `recent_news_7d` field is the AUTHORITATIVE news window. Cite
 
 You may use web search to verify or expand on items in `recent_news_7d`, but do NOT cite news older than 7 days as a current catalyst. If wiki memory references older news, it is `context-only` (already priced in) — do not let it drive a fresh thesis.
 
-If `recent_news_7d` is empty (no news available from Finnhub), state that in your `notes` and rely on technical evidence alone. Do not invent news.
+If `recent_news_7d` is empty (no news available from Finnhub), you MUST attempt a WebSearch fallback for last-7-days news on this ticker BEFORE falling back to technicals alone. Cite any URLs found in `web_sources_last_7d`. Only if WebSearch also returns nothing relevant should you state "no news found after web fallback" in your `notes` and rely on technical evidence alone. Never invent news.
 
 ### Staleness handling
 

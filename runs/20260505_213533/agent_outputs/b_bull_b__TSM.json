@@ -1,0 +1,28 @@
+{
+  "ticker": "TSM",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 403.00, "high": 407.70},
+  "target": 428.00,
+  "stop": 394.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Q1 2026 earnings beat with profit +58% YoY (2026-04-16, CNBC): revenue NT$1.134T vs NT$1.127T expected; HPC/AI rose to 61% of wafer revenue; advanced nodes <=7nm at 74% of mix. Company guided full-year 2026 revenue growth >30% in USD — a rare upward revision in a macro-uncertain environment. Post-earnings bullish drift confirmed: stock closed $392 on 2026-04-28, now $401.61 — price action absorbing the beat constructively rather than fading it.",
+    "Supply-demand structural catalyst (2026-05-02, StockAnalysis): Arizona Fab 4 fully committed through late 2027 BEFORE construction starts, at 25-30% pricing premium over Taiwan. Amkor packaging partnership announced 2026-05-01 (Yahoo Finance) extends U.S. manufacturing footprint. Bernstein (2026-05-04, MarketBeat) flagged AI Agent proliferation driving semiconductor demand 'off the charts' with supply unable to keep up — positions TSMC as the most direct beneficiary of any demand acceleration.",
+    "Daily trend structure is intact and strengthening: daily_indicators show ADX_14 = 39.61 (strong trend threshold), +DI 32.88 vs -DI 15.60 confirming bull dominance, MACD histogram +1.64 (positive and expanding), rsi_14 = 61.06 (momentum without overbought extreme), EMA aligned uptrend = true across all timeframes. Price +31.66% above sma_200 confirms secular uptrend. Entry zone $403-$407.70 is a breakout above watch level $403 with prior session high at $407.70 as the resistance-turned-support pivot. R:R math: entry mid $405.35, stop $394.50, risk $10.85 — target $428 gives $22.65 reward = 2.09:1 minimum. Fib ext 1.272 at $441.89 is the next meaningful level if $428 clears."
+  ],
+  "risks_acknowledged": [
+    "Analyst consensus avg PT is $387.14 (range $210-$480 across 7 analysts) — current price at $401.61 is already ABOVE the consensus PT. This is not a typical setup where price is below PT with upside; any PT-driven buying may be exhausted. The Motley Fool 3x-by-2030 thesis (2026-05-05) is long-duration, not near-term catalyst.",
+    "Hourly indicators show deterioration relative to daily: hourly rsi_21 = 47.64 (neutral), hourly MACD histogram -1.03 (bearish crossover), price below hourly ema_24 and sma_24 (-0.63%, -0.88% respectively), hourly OBV trend = down. Intraday momentum is weak — entry above $403 requires a genuine hourly breakout, not just a drift higher.",
+    "Taiwan geopolitical risk is not in the 7-day news bundle but is a perpetual overhang for TSM specifically. Any renewed China-Taiwan tension headline can reprice the stock -5% to -10% instantly regardless of fundamentals.",
+    "Daily volume at 9.97M vs 20-day average 13.69M (relative volume 0.73) — the recent upward move lacks volume conviction. A breakout above $403 on sub-average volume would be a yellow flag."
+  ],
+  "web_sources_last_7d": [
+    "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+    "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html",
+    "https://www.fool.com/investing/2026/05/05/prediction-tsmc-stock-will-jump-3x-by-2030/",
+    "https://www.marketbeat.com/stocks/NYSE/TSM/news/",
+    "https://stockanalysis.com/stocks/tsm/",
+    "https://finance.yahoo.com/quote/TSM/news/"
+  ]
+}

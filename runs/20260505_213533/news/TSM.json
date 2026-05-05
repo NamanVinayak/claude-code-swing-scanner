@@ -1,0 +1,70 @@
+{
+  "ticker": "TSM",
+  "researched_at": "2026-05-05T21:36:20Z",
+  "news_items": [
+    {
+      "headline": "TSMC Q1 profit rises 58%, beats estimates as AI demand fuels record run",
+      "url": "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+      "date": "2026-04-16",
+      "sentiment": "positive",
+      "summary": "TSMC reported Q1 profit up 58% YoY, beating street estimates; revenue NT$1.134 trillion vs NT$1.127 trillion expected. HPC (AI/5G) rose to 61% of revenue; advanced nodes (<=7nm) comprised 74% of wafer revenue."
+    },
+    {
+      "headline": "TSMC and ASML post-earnings stock moves signal AI chip demand still hot",
+      "url": "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html",
+      "date": "2026-04-16",
+      "sentiment": "positive",
+      "summary": "Post-earnings coverage noted TSMC's strong beat as a signal of sustained AI infrastructure demand; company guided full-year 2026 revenue growth >30% YoY in USD terms."
+    },
+    {
+      "headline": "Prediction: TSMC Stock Will Jump 3x by 2030",
+      "url": "https://www.fool.com/investing/2026/05/05/prediction-tsmc-stock-will-jump-3x-by-2030/",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Motley Fool analysis published today argues TSMC's monopoly on advanced node manufacturing and AI-driven demand sets up multi-year compounding growth; no near-term catalyst cited beyond ongoing AI capex."
+    },
+    {
+      "headline": "Bernstein: AI Agents drive chip demand 'off the charts,' supply can't keep up — TSMC key beneficiary",
+      "url": "https://www.marketbeat.com/stocks/NYSE/TSM/news/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Bernstein analyst flagged AI Agent proliferation as driving semiconductor demand beyond forecasts while highlighting TSMC as the most exposed foundry to any demand slowdown or acceleration."
+    },
+    {
+      "headline": "TSMC Arizona Fab 4 fully committed through late 2027 before construction starts; pricing 25-30% above Taiwan",
+      "url": "https://stockanalysis.com/stocks/tsm/",
+      "date": "2026-05-02",
+      "sentiment": "positive",
+      "summary": "Reports indicate TSMC's fourth planned Arizona facility is already fully booked before breaking ground, with customers accepting production quotes 25-30% above equivalent Taiwan pricing."
+    },
+    {
+      "headline": "TSMC plans major chip packaging plant in Arizona via Amkor partnership",
+      "url": "https://finance.yahoo.com/quote/TSM/news/",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "TSMC announced a partnership with Amkor to open an advanced chip packaging facility in Arizona, expanding its U.S. manufacturing footprint beyond wafer fabrication."
+    },
+    {
+      "headline": "MediaTek appoints former TSMC executive Douglas Yu as part-time adviser for AI chip and advanced packaging push",
+      "url": "https://finance.yahoo.com/quote/TSM/news/",
+      "date": "2026-04-30",
+      "sentiment": "neutral",
+      "summary": "MediaTek hired ex-TSMC executive Douglas Yu as a part-time adviser as it ramps advanced packaging capabilities and competes in the AI chip market; signals TSMC's talent and IP remain industry reference points."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 387.14,
+    "recent_changes": "Consensus of 7 analysts at Strong Buy with avg PT $387.14 (range $210–$480); Motley Fool published bullish 3x-by-2030 thesis on 2026-05-05. No specific downgrades or PT cuts found in last 7 days; Bernstein highlighted demand risk to the upside."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-17",
+    "days_until_next": 73,
+    "notes": "Q1 2026 earnings reported 2026-04-16: profit +58% YoY, revenue beat. Company guided full-year 2026 revenue growth >30% in USD. Next earnings expected mid-July 2026; no earnings blackout risk for the near-term setup."
+  },
+  "raw_search_files": [
+    "TSM_news-this-week.json",
+    "TSM_analyst-rating.json",
+    "TSM_earnings-catalyst.json"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [1002.23, 976.39],
+  "top_3_arguments": [
+    "The breakout has NOT confirmed: current price is $1,012.79, which is BELOW the watch_level of $1,015. Entering long before confirmation is buying into resistance, not a breakout. The daily pivot_high at $1,011.36 has been tested 29 times and is NOT volume-confirmed — a 29-test resistance level that has never had a volume-confirmed close above it is a ceiling, not a launchpad. Entry here is front-running a setup that hasn't triggered.",
+    "Daily OBV is trending DOWN and diverging from price (daily_indicators.volume.obv.trend = 'down', diverging_from_price = true). Price has pushed back toward recent highs but volume participation is draining: daily relative_volume = 0.84x (below average), and the last 3 sessions show declining volume (2,049,300 → 1,509,700 → 1,479,400). Distribution pattern — institutions are not accumulating into this move. Daily rsi_14 = 71.62 is in overbought territory, further compressing the upside window before a mean-reversion pullback.",
+    "Trend engine is weak and 21-day momentum is flat: daily_indicators.adx.adx_14 = 14.18, rated 'weak' — there is no established trend to ride. The daily momentum.roc_21d = -0.07 (essentially zero). The 5-day and 10-day ROC pops (+1.63%, +1.65%) are a dead-cat bounce pattern on a flat 21-day baseline, not a genuine breakout with momentum. From $1,015 entry to nearest resistance $1,026.95 is only +1.17%; from $1,015 to invalidation $1,002.23 is -1.26%. R:R is approximately 0.9:1 — negative expected value before adding any slippage."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is genuinely in bullish alignment: daily_indicators.moving_averages.ema_aligned_uptrend = true, price above all EMAs from 5-day through 200-day. This is a structurally healthy chart — not a short candidate.",
+    "Hourly trend is real: hourly_indicators.adx.adx_24 = 36.01 ('strong'), with hourly OBV trending up and NOT diverging from price. The intraday structure is healthier than the daily picture suggests.",
+    "The fundamental backdrop is strong: fiscal Q2 2026 beat on both revenue (~$69.6B) and EPS ($4.58), 14% net income growth, 13.1% dividend raise. Bernstein Buy rating initiated April 26. These are legitimate tailwinds that support any long case on a pullback to better levels."
+  ],
+  "web_sources_last_7d": [
+    "https://www.foxbusiness.com/lifestyle/costco-changes-beloved-1-50-hot-dog-deal-first-time-decades",
+    "https://www.benzinga.com/quote/COST/analyst-ratings",
+    "https://finance.yahoo.com/quote/COST/news/"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 1015.00, "high": 1017.50},
+  "target": 1054.00,
+  "stop": 1002.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Full MA stack is bullishly aligned across all timeframes: price ($1,012.79) is above EMA-5 (1008.37), EMA-10 (1005.09), EMA-20 (1001.66), EMA-50 (991.90), and EMA-200 (961.83); daily_indicators.moving_averages.ema_aligned_uptrend = true; dist_from_50sma_pct = +1.68%. A breakout above the watch level at $1,015 would confirm price clearing the prior 29-test pivot high at $1,011.36, with next resistance at $1,026.95 as a near-term waypoint and Fib ext 1.272 at $1,054.64 as the target zone.",
+    "Fundamental tailwind supports technical momentum: Costco reported 14% net income growth and raised quarterly dividend 13.1% to $1.47/share (2026-05-01); Bernstein initiated with Buy on 2026-04-26; analyst consensus from 19 analysts is Buy with avg price target $1,078 vs. current $1,012.79, implying 6.4% upside to consensus and 4.1% to the technical target of $1,054. Price is trading at Fib 0.236 retracement (1016.69) — breakout above this level confirms the pullback is complete.",
+    "Hourly internals confirm directional bias: hourly ADX-24 = 36.01 (trend_strength: 'strong') with plus_di (28.44) well above minus_di (16.35); hourly OBV trend = 'up' with diverging_from_price = false (bullish confirmation); hourly MACD histogram = +0.3862 positive; hourly relative_volume = 1.47x (above average). Entry above $1,015 targets a 2.7:1 R:R: ($1,054 target − $1,016 mid-entry) / ($1,016 mid-entry − $1,002 stop) = $38 / $14 = 2.7:1."
+  ],
+  "risks_acknowledged": [
+    "Daily OBV trend = 'down' with diverging_from_price = true — this is a meaningful bearish divergence on the daily chart; institutional accumulation is not yet confirmed on the daily timeframe despite bullish hourly OBV. Bulls need to watch for daily OBV to turn before adding size.",
+    "Daily ADX-14 = 14.18 (trend_strength: 'weak') — the daily trend is not yet momentum-driven; a breakout from a low-ADX environment can fail or grind sideways rather than impulsing. The setup requires the breakout to catalyze ADX expansion.",
+    "Earnings in 23 days (fiscal Q3 typically late May/early June per earnings_context_web) — the holding window of 8 days is inside the earnings window, but if the trade extends, it must be closed before earnings. The exact next earnings date is null in the bundle (research gap).",
+    "daily_indicators.rsi.rsi_14 = 71.62 — technically overbought territory on the 14-period RSI; extended entries above $1,015 carry the risk of a mean-reversion pullback to the $1,001 EMA-20 before continuing higher. Stop at $1,002 must be respected."
+  ],
+  "web_sources_last_7d": [
+    "https://www.foxbusiness.com/lifestyle/costco-changes-beloved-1-50-hot-dog-deal-first-time-decades",
+    "https://www.benzinga.com/quote/COST/analyst-ratings",
+    "https://finance.yahoo.com/quote/COST/news/"
+  ]
+}

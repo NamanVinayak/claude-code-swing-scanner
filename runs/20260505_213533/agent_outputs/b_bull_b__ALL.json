@@ -1,0 +1,26 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bull_strength": 9,
+  "entry_zone": {"low": 220.50, "high": 222.00},
+  "target": 233.00,
+  "stop": 218.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Massive Q1 2026 earnings beat reported 2026-05-01: EPS $10.65 vs consensus $7.31 (45% upside surprise), revenue $16.94B vs $15.24B estimate — driven by lower catastrophe losses and policies-in-force growth. Post-earnings drift setup is intact; stock closed $216.59 on 2026-05-01 (earnings day) and has since recovered to $219.87 with OBV trending up and relative volume 1.32x above 20-day avg, confirming accumulation, not distribution. Next earnings not until 2026-07-30 (86 days away) — clean runway with no near-term earnings risk.",
+    "Capital return catalyst stacked on the beat: Allstate simultaneously announced a $4 billion share repurchase program on 2026-05-01, signaling management conviction in balance sheet health and a direct floor under the stock. At $56.2B market cap, a $4B buyback represents ~7.1% of float — a meaningful structural bid. Piper Sandler immediately raised PT to $268 from $252; Citi raised PT to $226 from $221. Consensus now 17 analysts, Buy rating, avg PT $226.88 — implying ~3.2% upside to consensus from current price and ~21.9% upside to Piper's $268 target.",
+    "Technical setup supports continuation: daily RSI_14 = 56.76 (mid-range, room to run before overbought territory), MACD bullish crossover with histogram +0.1442, ADX_14 = 34.2 (strong trend), all EMAs aligned in uptrend (ema_5 > ema_10 > ema_20 > ema_50 > ema_200). Price above all moving averages. Fib extension 1.618 from current swing low sits at $233.29 — aligns with target $233.00. Entry zone $220.50–$222.00 targets breakout above pivot resistance at $221.19 (hourly, 5 volume-confirmed tests). Stop at $218.50 is below invalidation level $219.50 and below recent intraday support at $218.18. R:R from entry midpoint ($221.25) to stop ($218.50) = $2.75 risk, $11.75 reward = 4.3:1."
+  ],
+  "risks_acknowledged": [
+    "Stock already gapped +2% post-earnings on 2026-05-01 and the beat may be partially priced in — chasing a breakout above $224.50 watch level risks poor fill if the move has already exhausted post-earnings momentum.",
+    "Bearish RSI divergence flagged on daily timeframe (rsi_divergence.bearish = true, 60-bar lookback) — price making new highs while RSI lagging could cap the near-term move and increase pullback risk before continuation.",
+    "US Bancorp DE disclosed a trimmed position in ALL on 2026-05-02 (neutral sentiment) — institutional distribution at the post-earnings high is a mild headwind, though no sell-side downgrade or fundamental concern was cited.",
+    "No insider buying in recent_insider_trades (empty list) — management has not put personal capital behind the beat/buyback announcement, which mildly weakens the smart-money conviction case."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/sec-filings/ALL/8-k-allstate-corp-reports-material-event-e597ee98d322.html",
+    "https://finance.yahoo.com/quote/ALL/press-releases/",
+    "https://stockanalysis.com/stocks/all/forecast/",
+    "https://www.dailypolitical.com/2026/05/02/us-bancorp-de-trims-position-in-the-allstate-corporation-all.html"
+  ]
+}

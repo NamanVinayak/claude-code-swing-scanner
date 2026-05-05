@@ -1,0 +1,25 @@
+{
+  "run_id": "20260505_213533",
+  "mode": "b_swing",
+  "generated_at": "2026-05-05T21:45:47+00:00",
+  "decisions": {},
+  "rejected": [
+    {
+      "ticker": "NBIS",
+      "reason": "fire_cap_3_exceeded"
+    },
+    {
+      "ticker": "TSM",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$126.00 > available=$125.00); single_position_cap_exceeded (notional=$4860.00 > cap=$3750.00)"
+    },
+    {
+      "ticker": "ALL",
+      "reason": "budget_check_failed: single_position_cap_exceeded (notional=$4490.00 > cap=$3750.00)"
+    },
+    {
+      "ticker": "COST",
+      "reason": "budget_check_failed: single_position_cap_exceeded (notional=$4065.00 > cap=$3750.00)"
+    }
+  ],
+  "summary": "approved=3, rejected=1, candidates=4"
+}

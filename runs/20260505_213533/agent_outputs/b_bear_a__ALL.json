@@ -1,0 +1,22 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [219.48, 216.57, 214.24],
+  "top_3_arguments": [
+    "Bearish RSI divergence confirmed on the daily chart (daily_indicators.rsi_divergence.bearish = true, 60-bar lookback) while price is at a stretched level (pct_b = 1.02, above upper Bollinger Band). This divergence is the clearest technical red flag: price has pushed to new highs in the move but momentum has not followed. Combined with z_score_50 = 2.05 — price is more than 2 standard deviations above its 50-day mean — the statistical extension materially raises mean-reversion risk before the breakout at $224.50 can be reached.",
+    "Directional indicator conflict undermines the breakout thesis: despite ADX_14 = 34.2 (labeled 'strong trend'), the directional components show minus_di = 21.38 > plus_di = 16.08 — bearish directional dominance. The current price at $219.87 has already faded from the post-earnings high of $221.19 set on May 1 (four days ago). May 1 close was $216.59 on volume of 1,486,100 (below average); May 4 close at $219.87 on 1,757,600 (1.32x avg) failed to reclaim or exceed the $221.19 high. The stock is stalling below a volume-unconfirmed pivot high at $219.48 (5 tests). A clean breakout setup would show plus_di > minus_di and a fresh high above $221.19 on above-average volume — neither is present.",
+    "The earnings catalyst is already priced in and the risk-to-reward to the watch level is unfavorable given current positioning. Q1 2026 beat was reported May 1 ($10.65 EPS vs. $7.31 consensus); the stock's immediate response was a gap to $221.19 that it has since failed to hold. From current price $219.87, the watch/confirmation level is $224.50 (+2.1%), while the invalidation level is $219.50 (-0.17%). This means the stock is already sitting at the edge of invalidation — any one-day pullback erases the setup. The fib_236 at $216.57 (daily Fibonacci retracement of the swing from $201.61 to $221.19) represents the next technical magnet below, implying a 1.5% downside to the first real support cluster vs. 2.1% to the breakout trigger. With hourly momentum near zero (roc_5d = 0.20, roc_10d = 0.38) and hourly adx_24 = 15.33 ('weak'), there is no intraday fuel to push through $224.50 without a new catalyst."
+  ],
+  "bull_acknowledgements": [
+    "The daily MA stack is genuinely bullish: price is above all MAs (ema_5 through ema_200) in proper uptrend alignment (ema_aligned_uptrend = true), and the MACD shows a bullish crossover (histogram = +0.1442, bullish_crossover = true). This is a clean trend structure that the bear case cannot dismiss.",
+    "The Q1 2026 earnings beat was massive ($10.65 vs. $7.31 consensus, +46%) with a $4B buyback announced. Analyst consensus is Buy with Piper Sandler raising PT to $268 and average analyst PT of $226.88 — well above current price. These are genuine fundamental tailwinds.",
+    "Volume bias over the past 10 days is bullish (volume_bias_10d = 'up') and OBV trend is up with no price divergence (obv.diverging_from_price = false). No insider selling is on record (recent_insider_trades = [])."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/sec-filings/ALL/8-k-allstate-corp-reports-material-event-e597ee98d322.html",
+    "https://finance.yahoo.com/quote/ALL/press-releases/",
+    "https://stockanalysis.com/stocks/all/forecast/",
+    "https://www.dailypolitical.com/2026/05/02/us-bancorp-de-trims-position-in-the-allstate-corporation-all.html"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ticker": "NBIS",
+  "approved": [
+    {
+      "ticker": "NBIS",
+      "direction": "long",
+      "entry_price": 177.50,
+      "stop_loss": 172.50,
+      "target_price": 203.00,
+      "target_price_2": 234.86,
+      "quantity": 25,
+      "expected_holding_days": 7,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Gate 0–6 all pass. Direction consensus: all 4 perspectives echo 'long'. p_bull=0.5 (bull_a 7 vs bear_a 7), p_catalyst=0.5333 (bull_b 8 vs bear_b 7), combined_p_bull=0.5167, combined_p_bear=0.4833. Entry=177.50 (midpoint of bull_a entry zone), target=203.00 (min of bulls), stop=172.50 (max of bull stops). Expected return = 0.5167*(203.00-177.50) - 0.4833*(177.50-172.50) = 13.18 - 2.42 = +$10.76/share. Position sizing: risk_dollars = 25000*1.0%*0.5 = $125; risk_per_share = abs(177.50-172.50) = $5.00; quantity = floor(125/5) = 25 shares; risk_usd = $125. Gate 4: notional = 25*177.50 = $4,437.50 exceeds standard cap ($3,750/15%) but fits extended cap ($5,000/20%) at qty=25 with risk $125 >= floor $50 (100% of risk budget) — small_scaled path triggered, quantity unchanged at 25. Gate 5: deployed $4,437.50 vs cap $15,000 — pass. Gate 6: open risk $125 vs cap $1,000 — pass. Bull_a (technical, strength 7) and bull_b (catalyst, strength 8) dominate: confirmed dual catalysts (Eigen AI $643M acquisition + TD SYNNEX partnership verified via web sources), ADX_14=39.42 (daily strong trend), ADX_24=49.18 (hourly strong trend), all EMAs aligned uptrend, Fib ext 1.272=$203.81 as measured target. Key resolved disagreement: bears cite daily OBV divergence (trend=down, diverging_from_price=true) and MACD histogram=-0.4383 (bearish) — these are structural cautions, but hourly OBV trend=up with no divergence, hourly MACD histogram=+3.618 (expanding positive), and RSI_14=58.15 (room to run). Earnings in 8 days (May 13) is a real binary risk: position must be closed before the print; holding_days capped at 7. Target_price_2 = $234.86 (daily fib_ext_1618) for trailing stop if $203 breaks cleanly before earnings.",
+      "risk_usd": 125.00,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "NBIS approved long at $177.50 entry, stop $172.50, target $203.00 (fib ext 1.272); positive expected return +$10.76/share from slight bull-probability edge (combined_p_bull=0.5167). Key risk: earnings in 8 days — position must be closed before May 13 print. Small_scaled: notional $4,437.50 exceeds 15% standard cap but fits 20% extended cap at 25 shares, using 100% of the $125 risk budget."
+}

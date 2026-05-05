@@ -1,0 +1,417 @@
+{
+  "ticker": "NBIS",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 176.5,
+  "invalidation_level": 173.0,
+  "catalyst_note": "TradingView strong_buy + trending_up signals flag trend continuation long; price gapped slightly below yesterday's close with zero premarket volume, so setup needs a reclaim of $176.50 to confirm.",
+  "conviction": 4,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Nebius Group acquires Eigen AI for $643 million to enhance inference platform",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://www.foreignpolicyjournal.com/2026/05/04/nebius-group-nasdaq-nbis-acquires-eigen-ai-for-643-million-to-supercharge-inference-platform/",
+      "sentiment": "positive",
+      "summary": "Nebius announced a $643M acquisition of Eigen AI, a model inference and optimization specialist. Eigen's technology reduces compute and memory usage for running AI models and will be integrated into Nebius's Token Factory managed inference platform."
+    },
+    {
+      "title": "NBIS stock surges 11\u201314% following Eigen AI acquisition announcement",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://blockonomi.com/nebius-nbis-stock-surges-over-11-on-major-ai-acquisition-news/",
+      "sentiment": "positive",
+      "summary": "Nebius shares climbed over 11% intraday on May 4 following the Eigen AI deal announcement, with some sources citing a session gain of up to 14.03% as investor enthusiasm around AI infrastructure spending drove the move."
+    },
+    {
+      "title": "Nebius lands TD SYNNEX AI Infrastructure-as-a-Service partnership",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://stockstotrade.com/news/nebius-group-nv-nbis-news-2026_05_04-2/",
+      "sentiment": "positive",
+      "summary": "Nebius announced it is powering TD SYNNEX's new AI Infrastructure-as-a-Service offering using its AI-native cloud platform and NVIDIA HGX B300 clusters, giving Nebius distribution reach through TD SYNNEX's global partner and enterprise client base."
+    },
+    {
+      "title": "Nebius stock slumps as post-acquisition rally fades - TipRanks",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.tipranks.com/news/catalyst/nebius-group-stock-slumps-as-rally-runs-out",
+      "sentiment": "negative",
+      "summary": "NBIS gave back a portion of its May 4 gains on May 5 as the initial acquisition-driven rally cooled. No new fundamental negative catalysts were cited; the pullback was described as a momentum pause."
+    },
+    {
+      "title": "Goldman Sachs raises NBIS price target following Meta AI contract",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://seekingalpha.com/article/4897914-nebius-q1-earnings-preview-compounding-ai-story-still-early",
+      "sentiment": "positive",
+      "summary": "Goldman Sachs raised its price target for Nebius after the company secured a substantial contract with Meta AI, reaffirming a positive investment rating ahead of the May 13 Q1 earnings report."
+    },
+    {
+      "title": "Nebius Q1 2026 earnings preview: analysts expect ~$388.6M revenue, ~600% YoY growth",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://seekingalpha.com/article/4897758-nebius-earnings-preview-why-nebius-spent-643m-on-eigen-and-what-it-means",
+      "sentiment": "positive",
+      "summary": "Street consensus calls for Q1 2026 revenue of approximately $388.6M, representing roughly 600% year-over-year growth. Key watch items are ARR trajectory, EBITDA resilience, and hyperscaler deployment updates."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 176.4199981689453,
+  "market_cap": 44665769984.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-04-28",
+      "open": 138.39999389648438,
+      "high": 141.4600067138672,
+      "low": 132.6999969482422,
+      "close": 135.50999450683594,
+      "volume": 16041400
+    },
+    {
+      "time": "2026-04-29",
+      "open": 140.09500122070312,
+      "high": 143.6999969482422,
+      "low": 134.22000122070312,
+      "close": 141.19000244140625,
+      "volume": 14962700
+    },
+    {
+      "time": "2026-04-30",
+      "open": 145.18499755859375,
+      "high": 146.97999572753906,
+      "low": 135.0,
+      "close": 138.22999572753906,
+      "volume": 12682900
+    },
+    {
+      "time": "2026-05-01",
+      "open": 141.3300018310547,
+      "high": 156.0,
+      "low": 140.0,
+      "close": 154.49000549316406,
+      "volume": 15854500
+    },
+    {
+      "time": "2026-05-04",
+      "open": 160.38499450683594,
+      "high": 179.39999389648438,
+      "low": 159.6999969482422,
+      "close": 176.4199981689453,
+      "volume": 24793300
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 156.34215582312993,
+      "sma_5": 149.16799926757812,
+      "ema_10": 152.0977607558775,
+      "sma_10": 150.77300109863282,
+      "ema_20": 145.6412884646238,
+      "sma_20": 149.8170009613037,
+      "ema_21": 144.9623727246508,
+      "sma_21": 148.04190572102866,
+      "ema_50": 129.31691419757306,
+      "sma_50": 123.21590087890625,
+      "ema_200": 98.18715226971479,
+      "sma_200": 99.44947555541992,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 176.4199981689453,
+    "dist_from_50sma_pct": 43.18,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 12.84,
+      "above_sma_5": true,
+      "pct_from_sma_5": 18.27,
+      "above_ema_10": true,
+      "pct_from_ema_10": 15.99,
+      "above_sma_10": true,
+      "pct_from_sma_10": 17.01,
+      "above_ema_20": true,
+      "pct_from_ema_20": 21.13,
+      "above_sma_20": true,
+      "pct_from_sma_20": 17.76,
+      "above_ema_21": true,
+      "pct_from_ema_21": 21.7,
+      "above_sma_21": true,
+      "pct_from_sma_21": 19.17,
+      "above_ema_50": true,
+      "pct_from_ema_50": 36.42,
+      "above_sma_50": true,
+      "pct_from_sma_50": 43.18,
+      "above_ema_200": true,
+      "pct_from_ema_200": 79.68,
+      "above_sma_200": true,
+      "pct_from_sma_200": 77.4,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 17542.0
+    },
+    "rsi": {
+      "rsi_7": 64.14,
+      "rsi_14": 58.15,
+      "rsi_21": 73.81
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 9.2565,
+      "signal_line": 9.6949,
+      "histogram": -0.4383,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 178.92,
+      "middle": 149.82,
+      "lower": 120.72,
+      "width": 0.3885,
+      "pct_b": 0.9571
+    },
+    "atr": {
+      "atr_14": 12.5,
+      "atr_pct": 7.09
+    },
+    "adx": {
+      "adx_14": 39.42,
+      "plus_di": 26.01,
+      "minus_di": 17.55,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 24793300,
+      "avg_volume_20": 16781950,
+      "relative_volume": 1.48,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 108.32,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 132.3,
+          "tests": 3,
+          "volume_confirmed": true
+        },
+        {
+          "price": 168.71,
+          "tests": 2,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 83.53,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 89.65,
+          "tests": 10,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 89.65,
+      "recent_high": 179.4,
+      "recent_low": 110.28,
+      "prev_day_high": 156.0,
+      "prev_day_low": 140.0,
+      "prev_day_close": 154.49
+    },
+    "fibonacci": {
+      "swing_high": 179.4,
+      "swing_low": 89.65,
+      "fib_236": 158.22,
+      "fib_382": 145.12,
+      "fib_500": 134.53,
+      "fib_618": 123.94,
+      "fib_786": 108.86,
+      "fib_ext_1272": 203.81,
+      "fib_ext_1618": 234.86,
+      "fib_ext_2000": 269.15,
+      "fib_ext_low_1272": 65.24,
+      "fib_ext_low_1618": 34.19
+    },
+    "momentum": {
+      "roc_5d": 21.7,
+      "roc_10d": 10.84,
+      "roc_21d": 62.12
+    },
+    "z_score_50": 2.12,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 166.33799028397408,
+      "sma_24": 164.20354143778482,
+      "ema_48": 159.03072075298368,
+      "sma_48": 151.36374759674072,
+      "ema_120": 150.6419294277231,
+      "sma_120": 155.56890246073405,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 175.8000030517578,
+    "dist_from_50sma_pct": 13.0,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 5.69,
+      "above_sma_24": true,
+      "pct_from_sma_24": 7.06,
+      "above_ema_48": true,
+      "pct_from_ema_48": 10.54,
+      "above_sma_48": true,
+      "pct_from_sma_48": 16.14,
+      "above_ema_120": true,
+      "pct_from_ema_120": 16.7,
+      "above_sma_120": true,
+      "pct_from_sma_120": 13.0,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 17480.0
+    },
+    "rsi": {
+      "rsi_21": 84.31
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 7.9891,
+      "signal_line": 4.3712,
+      "histogram": 3.6179,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 184.49,
+      "middle": 151.36,
+      "lower": 118.24,
+      "width": 0.4377,
+      "pct_b": 0.8688
+    },
+    "atr": {
+      "atr_24": 4.82,
+      "atr_pct": 2.74
+    },
+    "adx": {
+      "adx_24": 49.18,
+      "plus_di": 43.49,
+      "minus_di": 11.59,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 780287,
+      "avg_volume_20": 2141836,
+      "relative_volume": 0.36,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 146.98,
+          "tests": 7,
+          "volume_confirmed": true
+        },
+        {
+          "price": 179.96,
+          "tests": 3,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 132.7,
+          "tests": 3,
+          "volume_confirmed": true
+        },
+        {
+          "price": 138.56,
+          "tests": 12,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 179.96,
+      "nearest_support": 138.56,
+      "recent_high": 179.96,
+      "recent_low": 149.17,
+      "prev_day_high": 177.99,
+      "prev_day_low": 175.1,
+      "prev_day_close": 175.35
+    },
+    "fibonacci": {
+      "swing_high": 179.96,
+      "swing_low": 135.0,
+      "fib_236": 169.35,
+      "fib_382": 162.79,
+      "fib_500": 157.48,
+      "fib_618": 152.17,
+      "fib_786": 144.62,
+      "fib_ext_1272": 192.19,
+      "fib_ext_1618": 207.75,
+      "fib_ext_2000": 224.92,
+      "fib_ext_low_1272": 122.77,
+      "fib_ext_low_1618": 107.21
+    },
+    "momentum": {
+      "roc_5d": 0.05,
+      "roc_10d": 0.18,
+      "roc_21d": 27.27
+    },
+    "z_score_120": 1.76,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 8,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 174.33,
+    "recent_changes": "Goldman Sachs raised its price target following a Meta AI contract (reported ~2026-05-04); consensus among 10\u201311 analysts is Strong Buy / Buy with average PT of ~$174 (range $126\u2013$215). No downgrades found in the last 7 days."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-05-13",
+    "days_until_next": 8,
+    "notes": "Q1 2026 earnings report scheduled for May 13. Street expects ~$388.6M revenue (~600% YoY growth); key metrics are ARR trajectory, EBITDA margin, and commentary on the Eigen AI integration and hyperscaler deployments."
+  }
+}

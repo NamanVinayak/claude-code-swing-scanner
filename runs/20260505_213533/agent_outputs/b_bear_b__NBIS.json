@@ -1,0 +1,24 @@
+{
+  "ticker": "NBIS",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Stock is trading ABOVE the analyst consensus average price target: current price $176.42 vs avg PT $174.33 (range $126–$215 across 10–11 analysts per analyst_consensus_web). The breakout long has essentially no room to the consensus target — upside is only available to the high-end $215 outlier. A stock breaking out above sell-side consensus is already pricing in the bull case, not a setup that offers asymmetric risk/reward.",
+    "Earnings in 8 days (May 13) creates a binary catalyst risk with the stock up ~30% in 5 trading sessions (close $135.51 on 2026-04-28 to $176.42 on 2026-05-04; roc_21d = 62.12%). Q1 consensus is ~$388.6M revenue (~600% YoY) — an already aggressive bar. A miss or guidance softness on EBITDA margin or ARR trajectory would unwind the entire acquisition-driven move. Holding a breakout long into earnings with this kind of embedded premium is a lottery ticket, not a swing trade. days_until_next = 8 puts this squarely within the 'don’t hold into print' window.",
+    "Daily OBV is trending DOWN and diverging from price (volume.obv.trend = 'down', diverging_from_price = true), while volume_bias_10d = 'down' on the daily frame. The May 4 breakout day was 1.48x relative volume — elevated but not the 3x+ you want on a genuine breakout. Hourly relative volume on May 5 is only 0.36x average. MACD histogram is negative on the daily (-0.4383) and the hourly RSI_21 = 84.31 (extreme overbought). The $643M Eigen AI acquisition (announced May 4) was a one-day catalyst that is already fading — May 5 news explicitly describes the post-acquisition rally cooling (TipRanks: 'Nebius stock slumps as rally runs out'). Chasing a headline-driven breakout with deteriorating internal breadth (OBV divergence, waning volume) and extreme intraday overbought readings is low-probability from here."
+  ],
+  "bull_acknowledgements": [
+    "Goldman Sachs raised its price target following a Meta AI contract win, and the TD SYNNEX AI Infrastructure-as-a-Service partnership gives Nebius enterprise distribution reach — these are genuine business development wins, not hype.",
+    "The Eigen AI acquisition addresses a real bottleneck (inference compute efficiency) and will be integrated into Token Factory; if the Q1 print on May 13 shows ARR acceleration and EBITDA resilience, the stock could re-rate through analyst PTs toward the $215 high-end target.",
+    "Consensus is Strong Buy / Buy with no downgrades found in the last 7 days — the fundamental narrative is intact, and ~600% YoY revenue growth (if confirmed on May 13) is a rare growth profile."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tipranks.com/news/catalyst/nebius-group-stock-slumps-as-rally-runs-out",
+    "https://seekingalpha.com/article/4897914-nebius-q1-earnings-preview-compounding-ai-story-still-early",
+    "https://seekingalpha.com/article/4897758-nebius-earnings-preview-why-nebius-spent-643m-on-eigen-and-what-it-means",
+    "https://www.foreignpolicyjournal.com/2026/05/04/nebius-group-nasdaq-nbis-acquires-eigen-ai-for-643-million-to-supercharge-inference-platform/",
+    "https://blockonomi.com/nebius-nbis-stock-surges-over-11-on-major-ai-acquisition-news/",
+    "https://stockstotrade.com/news/nebius-group-nv-nbis-news-2026_05_04-2/"
+  ]
+}

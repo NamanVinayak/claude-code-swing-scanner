@@ -1,0 +1,56 @@
+{
+  "approved": [
+    {
+      "ticker": "TSM",
+      "direction": "long",
+      "entry_price": 405.0,
+      "stop_loss": 394.5,
+      "target_price": 428.0,
+      "target_price_2": 441.89,
+      "quantity": 12,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 7,
+      "rationale": "Bull perspectives dominate: b_bull_a.bull_strength=7 / b_bear_a.bear_strength=6 and b_bull_b.bull_strength=8 / b_bear_b.bear_strength=5; combined_p_bull=0.5769. Expected return = 0.5769*(428-405) - 0.4231*(405-394.50) = 13.27 - 4.44 = +$8.83/share. Key bull wins: daily ADX_14=39.61 (strong), +DI=32.88 vs -DI=15.60, MACD histogram=+1.64, full EMA stack aligned uptrend, Q1 profit +58% YoY with >30% full-year USD revenue guidance, earnings 72 days out. Bears' strongest argument (breakout on sub-average volume, relative_volume=0.73, and hourly OBV trend=down) is real and lowers conviction but does not negate the positive expected return \u2014 entry above $403 watch level requires hourly confirmation before executing. Position sizing: risk_dollars=$125 (25000*1%*0.5 scaling), risk_per_share=$10.50, Gate-3 quantity=11 (notional $4,455) exceeds standard 15% cap ($3,750) but fits 20% extended cap ($5,000); M=floor(5000/405)=12 shares, risk_M=$126 (100.8% of risk budget) \u2014 passes 40% floor. Scaled from Gate-3 quantity 11 to small-scaled maximum 12 shares to apply extended cap, using 101% of risk budget.",
+      "risk_usd": 126.0,
+      "position_size_class": "small_scaled"
+    },
+    {
+      "ticker": "ALL",
+      "direction": "long",
+      "entry_price": 224.5,
+      "stop_loss": 218.5,
+      "target_price": 233.0,
+      "target_price_2": 235.0,
+      "quantity": 20,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "b_bull_b (bull_strength=9) dominates on catalyst: Q1 2026 EPS $10.65 vs $7.31 consensus (+45% beat), $4B buyback, 17-analyst Buy consensus avg PT $226.88, Piper Sandler $268 PT, 86-day earnings runway. b_bull_a (strength=7) confirms via full MA stack uptrend (ema_aligned_uptrend=true, price above all EMAs 5/10/20/21/50/200), MACD bullish crossover (histogram=+0.1442), ADX_14=34.2 strong, volume 1.32x avg with OBV up. Bears (b_bear_a=7, b_bear_b=6) raised valid concerns: daily rsi_divergence.bearish=true, minus_di (21.38) > plus_di (16.08), z_score_50=2.05 (statistically extended), pct_b=1.02. Resolved: entry at $224.50 watch_level requires confirmed breakout above $221.19 pivot resistance before position opens, eliminating the 'stalling below resistance' bear argument; stop $218.50 below invalidation $219.50. Expected return math: combined_p_bull = (7/(7+7) + 9/(9+6)) / 2 = (0.500 + 0.600) / 2 = 0.550; combined_p_bear = 0.450; target = min(235, 233) = 233.00; stop = max(218.50, 218.50) = 218.50; expected_return = 0.550 * (233.00 - 224.50) - 0.450 * (224.50 - 218.50) = 0.550 * 8.50 - 0.450 * 6.00 = 4.675 - 2.700 = +$1.975/share. Position sizing: risk_dollars = 25000 * 1.0% * 0.5 = $125; risk_per_share = |224.50 - 218.50| = $6.00; Gate-3 quantity = floor(125 / 6.00) = 20 shares; notional = 20 * $224.50 = $4,490 (18.0% of account) exceeds 15% standard cap but fits 20% extended cap; scaled as small_scaled at 20 shares using $120 of $125 risk budget (96% of risk budget, above 40% floor).",
+      "risk_usd": 120.0,
+      "position_size_class": "small_scaled"
+    },
+    {
+      "ticker": "COST",
+      "direction": "long",
+      "entry_price": 1016.25,
+      "stop_loss": 1002.0,
+      "target_price": 1054.0,
+      "target_price_2": 1080.49,
+      "quantity": 4,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Bull thesis wins on probability weighting: combined_p_bull = (7/13 + 7/13)/2 = 0.5385 vs combined_p_bear = 0.4615; expected_return_per_share = 0.5385*(1054-1016.25) - 0.4615*(1016.25-1002) = 20.33 - 6.58 = +$13.75. Key bull case: hourly ADX-24=36.01 ('strong') + hourly OBV trending up (not diverging) override the daily OBV downtrend divergence raised by both bears; Costco's confirmed 14% net income growth, 13.1% dividend raise, and Bernstein Buy initiation (per b_bull_a/b_bull_b) anchor the fundamental floor. Key bear concern (daily OBV down, diverging; daily ADX=14.18 'weak'; rsi_14=71.62 elevated) is real and reduces conviction \u2014 bears' points are well-sourced from facts. Position sizing: risk_dollars = 25000 * 1.0% * 0.5 = $125; risk_per_share = |1016.25 - 1002.00| = $14.25; Gate-3 quantity = floor(125/14.25) = 8 shares; notional at 8 = $8,130 exceeds single_cap ($3,750, 15% of account). Small-scaled exception applied: M = floor(5000/1016.25) = 4; risk_M = 4 * $14.25 = $57 >= floor of $50 (40% of risk budget). Scaled down from 8 to 4 shares to fit small-account cap, using 46% of risk budget. Earnings 23 days out \u2014 within holding window; must exit by day 20 if trade extends.",
+      "risk_usd": 57.0,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [
+    {
+      "ticker": "NBIS",
+      "reason": "fire_cap_3_exceeded"
+    }
+  ],
+  "summary": "approved=3, rejected=1, candidates=4"
+}

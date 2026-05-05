@@ -1,0 +1,21 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Breakout has not confirmed and is stalling at a well-tested resistance cluster: current price $1,012.79 sits below the watch level of $1,015.00, below the Fibonacci 23.6% retracement at $1,016.69, and beneath the hourly pivot high at $1,012.65 (44 tests). The daily pivot high at $1,011.36 has 29 tests — price is grinding against overlapping resistance on sub-average volume (relative volume 0.84 vs 20-day avg on 2026-05-04). A breakout on declining volume into a dense resistance zone is a high false-breakout risk setup, not a clean continuation.",
+    "Daily OBV is in a confirmed downtrend and diverging from price (daily_indicators.volume.obv.trend = 'down', diverging_from_price = true): price has recovered from the 2026-04-28 low of $984.57 to $1,012.79, but OBV has not confirmed the move. This distribution signal means institutional selling is likely absorbing the retail bid at current levels. Additionally, daily ADX = 14.18 categorized as 'weak' trend strength — the tv_strong_buy signal is triggering into a trendless market with accumulation/distribution headwinds. Daily momentum roc_21d = -0.07 confirms the 21-day move is essentially flat despite the recent bounce.",
+    "Analyst consensus implies only ~6.4% upside to average price target: with COST at $1,012.79 and the consensus avg PT from 19 analysts at $1,078 (per analyst_consensus_web), the reward-to-risk ratio is asymmetric against this trade. The nearest resistance is $1,026.95 (6 tests daily) and the recent swing high is $1,034.32 — both sit between current price and the PT. A mega-cap ($450.9B market cap) consumer staple with a crowded buy-side consensus (47% Buy + 26% Strong Buy = 73% bullish) and daily RSI_14 = 71.62 (overbought) has limited incremental buyers to drive a breakout — valuation multiples not available in bundle (research gap), but the compressed upside to consensus PT alone caps the swing trade risk/reward."
+  ],
+  "bull_acknowledgements": [
+    "Fiscal Q2 2026 results were genuine beats on both revenue (~$69.6B) and EPS ($4.58 vs street), with a 14% net income increase and a 13.1% dividend raise to $1.47/share — the fundamental business is executing well and the earnings catalyst is a real positive, not a fluke.",
+    "Hourly OBV is trending UP and not diverging from price (hourly_indicators.volume.obv.trend = 'up'), and hourly ADX = 36.01 ('strong') — on the intraday timeframe the momentum is intact, which means a clean daily close above $1,015 with volume expansion could still trigger the breakout thesis.",
+    "Bernstein initiated with a Buy on 2026-04-26, adding to a 73% bullish analyst base, and earnings blackout risk is absent (days_until_next = 23) — the fundamental backdrop is supportive enough that if macro cooperates, the stock can drift higher without a specific catalyst."
+  ],
+  "web_sources_last_7d": [
+    "https://www.foxbusiness.com/lifestyle/costco-changes-beloved-1-50-hot-dog-deal-first-time-decades",
+    "https://www.benzinga.com/quote/COST/analyst-ratings",
+    "https://finance.yahoo.com/quote/COST/news/"
+  ]
+}

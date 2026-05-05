@@ -1,0 +1,22 @@
+{
+  "ticker": "COST",
+  "approved": [
+    {
+      "ticker": "COST",
+      "direction": "long",
+      "entry_price": 1016.25,
+      "stop_loss": 1002.00,
+      "target_price": 1054.00,
+      "target_price_2": 1080.49,
+      "quantity": 4,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Bull thesis wins on probability weighting: combined_p_bull = (7/13 + 7/13)/2 = 0.5385 vs combined_p_bear = 0.4615; expected_return_per_share = 0.5385*(1054-1016.25) - 0.4615*(1016.25-1002) = 20.33 - 6.58 = +$13.75. Key bull case: hourly ADX-24=36.01 ('strong') + hourly OBV trending up (not diverging) override the daily OBV downtrend divergence raised by both bears; Costco's confirmed 14% net income growth, 13.1% dividend raise, and Bernstein Buy initiation (per b_bull_a/b_bull_b) anchor the fundamental floor. Key bear concern (daily OBV down, diverging; daily ADX=14.18 'weak'; rsi_14=71.62 elevated) is real and reduces conviction — bears' points are well-sourced from facts. Position sizing: risk_dollars = 25000 * 1.0% * 0.5 = $125; risk_per_share = |1016.25 - 1002.00| = $14.25; Gate-3 quantity = floor(125/14.25) = 8 shares; notional at 8 = $8,130 exceeds single_cap ($3,750, 15% of account). Small-scaled exception applied: M = floor(5000/1016.25) = 4; risk_M = 4 * $14.25 = $57 >= floor of $50 (40% of risk budget). Scaled down from 8 to 4 shares to fit small-account cap, using 46% of risk budget. Earnings 23 days out — within holding window; must exit by day 20 if trade extends.",
+      "risk_usd": 57.00,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "COST approved long breakout at $1,016.25 with 4 shares (small_scaled, 46% of risk budget); +$13.75/share probability-weighted expected return with bulls winning 53.8% on combined technical + catalyst weights. Bears' daily OBV divergence and weak daily ADX are acknowledged; hourly internals (ADX-24=36, OBV up) and fundamental catalyst (14% net income growth, dividend raise, Bernstein Buy) tipped the balance."
+}

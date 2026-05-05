@@ -1,0 +1,28 @@
+{
+  "ticker": "TSM",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 403.00, "high": 407.00},
+  "target": 430.00,
+  "stop": 394.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Full MA stack bullish and aligned: price ($401.61) above EMA-5 (+1.09%), EMA-10 (+2.52%), EMA-20 (+5.40%), EMA-50 (+10.47%), EMA-200 (+29.97%); daily_indicators.moving_averages.ema_aligned_uptrend = true. No overhead supply until prior pivot high at $414.50 (1 test). The 5-day price action shows a clean recovery from $384.70 low (Apr 28) to $407.70 intraday high (May 4), with the most recent close at $401.61 — a modest pullback into the entry zone rather than distribution.",
+    "Trend momentum is strong and not exhausted: daily_indicators.adx.adx_14 = 39.61 (trend_strength = 'strong'), plus_di = 32.88 vs minus_di = 15.60 — bulls firmly in control. daily_indicators.macd.histogram = +1.6414 (positive, macd_line 13.09 above signal 11.45). daily_indicators.rsi.rsi_14 = 61.06 — healthy mid-range, not overbought; rsi_7 = 71.42 short-term elevated but rsi_21 = 72.05 confirms sustained upward trend without divergence (rsi_divergence.bearish = false). ROC-10d = +9.66%, ROC-21d = +18.46% confirming multi-week acceleration.",
+    "Fundamental tailwind reinforces breakout quality: Q1 2026 profit +58% YoY, full-year 2026 revenue guidance >30% USD growth (earnings_context_web); Arizona Fab 4 fully committed through late 2027 before construction begins at 25-30% pricing premium to Taiwan; Bernstein flagging AI Agent demand driving chip demand 'off the charts.' Fib extension 1.272 from swing structure ($313.80 low / $414.50 high) projects $441.89 — target of $430 is conservative and clears the $414.50 resistance pivot. Hourly_indicators.rsi.rsi_21 = 47.64 (not overbought intraday) and hourly Bollinger %B = 0.39 confirm price has room to re-accelerate into the daily breakout zone."
+  ],
+  "risks_acknowledged": [
+    "Analyst consensus avg price target is $387.14 — current price at $401.61 is already above the consensus PT, meaning the stock is trading above what the median analyst modeled. If macro softens, there is no PT-driven buy-side support until levels below current price.",
+    "Daily relative volume = 0.73 on the most recent close (below 20-day avg of 13.69M) — the breakout above $403 watch level has not yet been confirmed with above-average institutional volume. Entry should wait for volume confirmation on the trigger candle.",
+    "Hourly OBV trend is 'down' and price is currently below hourly EMA-24 (−0.63%) and EMA-48 (−0.11%), indicating intraday distribution pressure. The daily setup is valid but short-term momentum is slightly negative — risk of a flush to $395–$397 before the breakout fires.",
+    "Taiwan geopolitical risk is a permanent tail risk for TSM; any escalation in cross-strait tensions would override all technical setups regardless of quality."
+  ],
+  "web_sources_last_7d": [
+    "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+    "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html",
+    "https://www.fool.com/investing/2026/05/05/prediction-tsmc-stock-will-jump-3x-by-2030/",
+    "https://www.marketbeat.com/stocks/NYSE/TSM/news/",
+    "https://stockanalysis.com/stocks/tsm/",
+    "https://finance.yahoo.com/quote/TSM/news/"
+  ]
+}

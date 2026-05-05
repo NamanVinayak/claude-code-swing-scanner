@@ -1,0 +1,56 @@
+{
+  "query": "COST stock 2026-05-05 analyst rating",
+  "fetched_at": "2026-05-05T21:40:00Z",
+  "results": [
+    {
+      "title": "Costco (COST) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026",
+      "url": "https://public.com/stocks/cost/forecast-price-target"
+    },
+    {
+      "title": "Costco Wholesale (COST) Stock Forecast & Analyst Price Targets",
+      "url": "https://stockanalysis.com/stocks/cost/forecast/"
+    },
+    {
+      "title": "Costco Wholesale Analyst Ratings and Price Targets | NASDAQ:COST | Benzinga",
+      "url": "https://www.benzinga.com/quote/COST/analyst-ratings"
+    },
+    {
+      "title": "Costco Wholesale (COST) Stock Forecast and Price Target 2026 $COST",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/COST/forecast/"
+    },
+    {
+      "title": "COST Stock Forecast 2026 - Costco Price Targets & Predictions",
+      "url": "https://tickernerd.com/stock/cost-forecast/"
+    },
+    {
+      "title": "Costco Wholesale (COST) Stock Price & Overview",
+      "url": "https://stockanalysis.com/stocks/cost/"
+    },
+    {
+      "title": "COST Stock Price Prediction 2025-2026 | Costco Wholesale Corp Forecast | 24/7 Wall St.",
+      "url": "https://247wallst.com/companies/cost/price-prediction"
+    },
+    {
+      "title": "Costco (COST) Stock Forecast & Price Target - Investing.com",
+      "url": "https://www.investing.com/equities/costco-whsl-corp-new-consensus-estimates"
+    },
+    {
+      "title": "Costco (COST) Stock Forecast, Price Targets and Analysts Predictions - TipRanks.com",
+      "url": "https://www.tipranks.com/stocks/cost/forecast"
+    },
+    {
+      "title": "Costco Wholesale Corporation (COST) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COST/analyst-ratings/"
+    }
+  ],
+  "summary_from_search": {
+    "consensus": "Buy",
+    "analyst_count": 19,
+    "breakdown": "26% Strong Buy, 47% Buy, 21% Hold, 0% Sell, 5% Strong Sell",
+    "avg_price_target": 1078,
+    "pt_low": 769,
+    "pt_high": 1315,
+    "as_of": "2026-05-04",
+    "recent_action": "Bernstein issued Buy rating on April 26, 2026"
+  }
+}

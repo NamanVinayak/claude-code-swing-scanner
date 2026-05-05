@@ -1,0 +1,24 @@
+{
+  "ticker": "TSM",
+  "setup_direction": "long",
+  "bear_strength": 5,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Analyst consensus avg price target of $387.14 is 3.6% BELOW the current price of $401.61 (range $210–$480 across 7 analysts; source: analyst_consensus_web). The breakout watch level of $403 would put the stock above the consensus PT the moment it triggers — meaning the 'average' analyst thinks the stock is already overvalued at entry. A breakout that outruns street targets has a thin margin of safety and historically mean-reverts without a fundamental catalyst upgrade.",
+    "Price is 11.38% above the 50 SMA ($360.57), 31.66% above the 200 SMA ($305.04), and the daily z_score_50 = 1.78 — statistically stretched. Bollinger pct_b = 0.83 with the upper band at $412.73, leaving only ~2.8% to the upper envelope before natural mean-reversion pressure. Short-term rsi_7 = 71.42 and rsi_21 = 72.05 confirm overbought conditions on both weekly-equivalent and intermediate timeframes. The 5-day ROC = -0.83 shows momentum is already fading at this level. For a breakout long above $403, buying into this extension with a tight $397 invalidation gives only a $6 stop against a stock that averages atr_14 = $13.40 per day — the stop is inside one normal daily move, raising the probability of a mechanical stop-out even if the longer thesis holds.",
+    "Arizona expansion cost inflation is a structural margin headwind with no clear offset. TSMC's Arizona Fab 4 is priced 25–30% above equivalent Taiwan production (source: 2026-05-02 report in recent_news_7d). As the U.S. manufacturing footprint grows under customer and regulatory pressure, the cost premium will weigh on blended gross margins over a 2–3 year horizon. Bernstein (2026-05-04) simultaneously flagged TSMC as the most exposed foundry to any demand slowdown — the same AI capex cycle that drove the +58% Q1 profit beat could decelerate non-linearly if hyperscaler capex guidance softens (a risk not resolved in the current news window). Specific forward P/E or EV/EBITDA multiples vs. sector peers are not available in the current bundle (research gap) — bear_strength held at 5 rather than elevated to reflect this gap."
+  ],
+  "bull_acknowledgements": [
+    "Q1 2026 earnings were genuinely strong: profit +58% YoY, revenue beat consensus at NT$1.134T vs NT$1.127T expected, and the company guided full-year 2026 revenue growth >30% in USD terms — this is not a deteriorating fundamental story.",
+    "HPC (AI/5G) rose to 61% of revenue and advanced nodes (≤7nm) comprised 74% of wafer revenue, reflecting real pricing power and structural demand that supports a premium to historical multiples.",
+    "Earnings are 72 days out with no blackout risk, and zero insider selling in the last 30 days — no near-term event or insider-driven overhang threatening the setup."
+  ],
+  "web_sources_last_7d": [
+    "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+    "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html",
+    "https://www.fool.com/investing/2026/05/05/prediction-tsmc-stock-will-jump-3x-by-2030/",
+    "https://www.marketbeat.com/stocks/NYSE/TSM/news/",
+    "https://stockanalysis.com/stocks/tsm/",
+    "https://finance.yahoo.com/quote/TSM/news/"
+  ]
+}

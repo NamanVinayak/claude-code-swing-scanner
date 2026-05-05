@@ -1,0 +1,22 @@
+{
+  "ticker": "TSM",
+  "approved": [
+    {
+      "ticker": "TSM",
+      "direction": "long",
+      "entry_price": 405.00,
+      "stop_loss": 394.50,
+      "target_price": 428.00,
+      "target_price_2": 441.89,
+      "quantity": 12,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 7,
+      "rationale": "Bull perspectives dominate: b_bull_a.bull_strength=7 / b_bear_a.bear_strength=6 and b_bull_b.bull_strength=8 / b_bear_b.bear_strength=5; combined_p_bull=0.5769. Expected return = 0.5769*(428-405) - 0.4231*(405-394.50) = 13.27 - 4.44 = +$8.83/share. Key bull wins: daily ADX_14=39.61 (strong), +DI=32.88 vs -DI=15.60, MACD histogram=+1.64, full EMA stack aligned uptrend, Q1 profit +58% YoY with >30% full-year USD revenue guidance, earnings 72 days out. Bears' strongest argument (breakout on sub-average volume, relative_volume=0.73, and hourly OBV trend=down) is real and lowers conviction but does not negate the positive expected return — entry above $403 watch level requires hourly confirmation before executing. Position sizing: risk_dollars=$125 (25000*1%*0.5 scaling), risk_per_share=$10.50, Gate-3 quantity=11 (notional $4,455) exceeds standard 15% cap ($3,750) but fits 20% extended cap ($5,000); M=floor(5000/405)=12 shares, risk_M=$126 (100.8% of risk budget) — passes 40% floor. Scaled from Gate-3 quantity 11 to small-scaled maximum 12 shares to apply extended cap, using 101% of risk budget.",
+      "risk_usd": 126.00,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "TSM approved long breakout: positive probability-weighted expected return of +$8.83/share with bull fundamentals (ADX=39.61, +58% Q1 profit, AI demand tailwind) outweighing bears' volume-conviction concern. Quantity 12 at small_scaled class (notional $4,860 within 20% extended cap); all budget gates pass."
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "NBIS",
+  "researched_at": "2026-05-05T21:41:30Z",
+  "news_items": [
+    {
+      "headline": "Nebius Group acquires Eigen AI for $643 million to enhance inference platform",
+      "url": "https://www.foreignpolicyjournal.com/2026/05/04/nebius-group-nasdaq-nbis-acquires-eigen-ai-for-643-million-to-supercharge-inference-platform/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Nebius announced a $643M acquisition of Eigen AI, a model inference and optimization specialist. Eigen's technology reduces compute and memory usage for running AI models and will be integrated into Nebius's Token Factory managed inference platform."
+    },
+    {
+      "headline": "NBIS stock surges 11–14% following Eigen AI acquisition announcement",
+      "url": "https://blockonomi.com/nebius-nbis-stock-surges-over-11-on-major-ai-acquisition-news/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Nebius shares climbed over 11% intraday on May 4 following the Eigen AI deal announcement, with some sources citing a session gain of up to 14.03% as investor enthusiasm around AI infrastructure spending drove the move."
+    },
+    {
+      "headline": "Nebius lands TD SYNNEX AI Infrastructure-as-a-Service partnership",
+      "url": "https://stockstotrade.com/news/nebius-group-nv-nbis-news-2026_05_04-2/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Nebius announced it is powering TD SYNNEX's new AI Infrastructure-as-a-Service offering using its AI-native cloud platform and NVIDIA HGX B300 clusters, giving Nebius distribution reach through TD SYNNEX's global partner and enterprise client base."
+    },
+    {
+      "headline": "Nebius stock slumps as post-acquisition rally fades - TipRanks",
+      "url": "https://www.tipranks.com/news/catalyst/nebius-group-stock-slumps-as-rally-runs-out",
+      "date": "2026-05-05",
+      "sentiment": "negative",
+      "summary": "NBIS gave back a portion of its May 4 gains on May 5 as the initial acquisition-driven rally cooled. No new fundamental negative catalysts were cited; the pullback was described as a momentum pause."
+    },
+    {
+      "headline": "Goldman Sachs raises NBIS price target following Meta AI contract",
+      "url": "https://seekingalpha.com/article/4897914-nebius-q1-earnings-preview-compounding-ai-story-still-early",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Goldman Sachs raised its price target for Nebius after the company secured a substantial contract with Meta AI, reaffirming a positive investment rating ahead of the May 13 Q1 earnings report."
+    },
+    {
+      "headline": "Nebius Q1 2026 earnings preview: analysts expect ~$388.6M revenue, ~600% YoY growth",
+      "url": "https://seekingalpha.com/article/4897758-nebius-earnings-preview-why-nebius-spent-643m-on-eigen-and-what-it-means",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Street consensus calls for Q1 2026 revenue of approximately $388.6M, representing roughly 600% year-over-year growth. Key watch items are ARR trajectory, EBITDA resilience, and hyperscaler deployment updates."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 174.33,
+    "recent_changes": "Goldman Sachs raised its price target following a Meta AI contract (reported ~2026-05-04); consensus among 10–11 analysts is Strong Buy / Buy with average PT of ~$174 (range $126–$215). No downgrades found in the last 7 days."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-05-13",
+    "days_until_next": 8,
+    "notes": "Q1 2026 earnings report scheduled for May 13. Street expects ~$388.6M revenue (~600% YoY growth); key metrics are ARR trajectory, EBITDA margin, and commentary on the Eigen AI integration and hyperscaler deployments."
+  },
+  "raw_search_files": [
+    "NBIS_news-this-week.json",
+    "NBIS_analyst-rating.json",
+    "NBIS_earnings-catalyst.json"
+  ]
+}

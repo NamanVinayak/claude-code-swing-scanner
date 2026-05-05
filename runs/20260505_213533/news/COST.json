@@ -1,0 +1,42 @@
+{
+  "ticker": "COST",
+  "researched_at": "2026-05-05T21:40:30Z",
+  "news_items": [
+    {
+      "headline": "Costco updates $1.50 hot dog combo for first time in 40+ years — now offers water bottle option",
+      "url": "https://www.foxbusiness.com/lifestyle/costco-changes-beloved-1-50-hot-dog-deal-first-time-decades",
+      "date": "2026-05-05",
+      "sentiment": "neutral",
+      "summary": "Costco is offering customers the option to swap the fountain drink for a 16.9 oz Kirkland Signature water bottle in its $1.50 hot dog combo; price remains unchanged and the soda option with free refills is still available. This is the first modification to the deal in over 40 years."
+    },
+    {
+      "headline": "Bernstein initiates COST with Buy rating",
+      "url": "https://www.benzinga.com/quote/COST/analyst-ratings",
+      "date": "2026-04-26",
+      "sentiment": "positive",
+      "summary": "Bernstein issued a Buy rating on Costco on April 26, 2026, adding to the existing bullish analyst consensus. The note highlighted Costco's strategy of expanding organic offerings such as Amy's Kitchen products across 150+ warehouses."
+    },
+    {
+      "headline": "Costco reports 14% net income growth and raises dividend 13.1% to $1.47/share",
+      "url": "https://finance.yahoo.com/quote/COST/news/",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "Costco reported a 14% increase in net income and raised its quarterly dividend 13.1% to $1.47 per share. The company also reported continued improvements in checkout efficiency and new product category additions."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 1078.0,
+    "recent_changes": "Bernstein issued a Buy rating on April 26, 2026. Consensus from 19 analysts: 26% Strong Buy, 47% Buy, 21% Hold, 5% Strong Sell; average price target $1,078 (range $769–$1,315)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Fiscal Q2 2026 beat on both revenue (~$69.6B) and EPS ($4.58 vs. street estimates). Next earnings date not confirmed in search results; Costco typically reports fiscal Q3 in late May/early June. Street watches membership growth, comparable sales, and digital expansion as the primary forward metrics."
+  },
+  "raw_search_files": [
+    "COST_news-this-week.json",
+    "COST_analyst-rating.json",
+    "COST_earnings-catalyst.json"
+  ]
+}

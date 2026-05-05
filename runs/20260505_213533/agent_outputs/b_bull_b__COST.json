@@ -1,0 +1,25 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 1015.00, "high": 1019.00},
+  "target": 1054.00,
+  "stop": 999.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Fresh earnings catalyst confirmed in-window: Costco reported 14% net income growth and raised its quarterly dividend 13.1% to $1.47/share (2026-05-01, Yahoo Finance). Stock has absorbed this news constructively — current price $1,012.79 is holding above all short-term EMAs (ema_5=1008.37, ema_10=1005.09, ema_20=1001.66) with ema_aligned_uptrend=true. Post-earnings drift thesis intact: beat on revenue (~$69.6B) and EPS ($4.58) per earnings_context_web with next earnings 23 days out (no binary risk). Dividend raise signals management confidence in cash generation.",
+    "Analyst re-rating momentum: Bernstein issued a fresh Buy on 2026-04-26 (Benzinga), adding to a consensus of 19 analysts at 73% Buy/Strong Buy and avg price target $1,078 (range $769–$1,315 per analyst_consensus_web). Current price $1,012.79 is ~6% below the consensus PT, giving the breakout above watch_level $1,015 a well-anchored fundamental ceiling. Daily MACD histogram +1.01 (bullish) with RSI-14=71.62 showing price momentum without divergence (rsi_divergence.bearish=false). Hourly ADX-24=36.01 (strong trend per hourly_indicators.adx.trend_strength='strong') confirms the uptrend is not exhausted.",
+    "Technical structure supports breakout entry at watch_level: hourly OBV trending up (diverging_from_price=false) with relative volume 1.47x avg over last 20 bars on hourly timeframe. Nearest hourly support at $1,002.23 (18 tests, volume-confirmed) provides a clean stop anchor at $999 (below support). Fibonacci extension 1.272 from daily swing low $959.61 / swing high $1,034.32 = $1,054.64 is the target. R:R math: entry mid $1,017, stop $999 → $18 risk; target $1,054 → $37 gain = 2.1:1 R:R. Breakout above $1,015 watch_level clears daily pivot resistance at $1,011.36 (29 tests) — confirmed break = structural shift."
+  ],
+  "risks_acknowledged": [
+    "Daily OBV trend is 'down' with diverging_from_price=true on the daily timeframe — price holding above MAs while daily OBV weakens is a distribution warning; if the breakout triggers without volume expansion above avg_volume_20=1,765,240, treat as suspect.",
+    "RSI-14=71.62 is elevated; a mean-reversion pullback to fib_500 ($996.96) or sma_50 ($996.04) before the breakout would improve R:R significantly — chasing the first touch of $1,015 carries lower probability of follow-through than a confirmed close above.",
+    "Earnings in 23 days (no confirmed date per earnings_context_web) means there is a hard exit deadline — holding past day 20 risks getting caught in pre-earnings vol compression.",
+    "No insider trades in bundle (recent_insider_trades=[]) — research gap. Congressional buy evidence cited in source_reasons is not corroborated by recent insider filings in the facts bundle; do not rely on smart-money confirmation beyond the analyst upgrade."
+  ],
+  "web_sources_last_7d": [
+    "https://www.foxbusiness.com/lifestyle/costco-changes-beloved-1-50-hot-dog-deal-first-time-decades",
+    "https://www.benzinga.com/quote/COST/analyst-ratings",
+    "https://finance.yahoo.com/quote/COST/news/"
+  ]
+}

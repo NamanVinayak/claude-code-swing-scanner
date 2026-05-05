@@ -1,0 +1,28 @@
+{
+  "ticker": "NBIS",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 176.50, "high": 178.50},
+  "target": 203.00,
+  "stop": 172.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Strong trend confirmation: daily_indicators.adx.adx_14 = 39.42 (strong trend strength) with plus_di 26.01 > minus_di 17.55; hourly_indicators.adx.adx_24 = 49.18 with plus_di 43.49 >> minus_di 11.59 — both timeframes confirm directional conviction to the upside. EMA aligned uptrend = true on daily and hourly. Price is above all MAs (EMA 5/10/20/21/50/200) on the daily frame.",
+    "Catalyst-driven breakout with volume confirmation: May 4 session closed at $176.42 on 24.79M shares vs 20-day avg of 16.78M (relative_volume = 1.48x), driven by dual catalysts: $643M Eigen AI acquisition expanding inference platform and TD SYNNEX AIaaS partnership adding enterprise distribution. Goldman Sachs raised price target post Meta AI contract. 5-day price sequence: $135.51 → $141.19 → $138.23 → $154.49 → $176.42, total 5-day roc = +21.7% (daily_indicators.momentum.roc_5d). Hourly OBV trend = up, not diverging — intraday accumulation supports the move.",
+    "Fibonacci extension target provides clean R:R: swing from $89.65 low to $179.40 recent high gives fib_ext_1272 = $203.81 as next measured objective. Entry at $176.50 watch_level reclaim, stop at $172.00 (below $173.00 invalidation) yields risk of $4.50 vs reward of $26.50 to $203 target (5.9:1 R:R). daily_indicators.rsi.rsi_14 = 58.15 — not overbought, room to run. rsi_21 = 73.81 on daily showing sustained momentum; hourly rsi_21 = 84.31 indicates near-term extension but hourly MACD histogram = +3.6179 (expanding positive) confirms trend is intact."
+  ],
+  "risks_acknowledged": [
+    "Earnings in 8 days (May 13, 2026): Q1 2026 report is a hard risk event. Street expects ~$388.6M revenue (~600% YoY growth) — a miss or weak forward guidance on Eigen AI integration could erase the entire breakout move. Position must be sized to tolerate a gap-down through stop, or closed before the report.",
+    "Daily OBV divergence: daily_indicators.volume.obv.trend = 'down' with diverging_from_price = true — cumulative volume flow has not kept pace with the recent price surge. This is a red flag suggesting the breakout may be retail-momentum-driven rather than institutional accumulation. Contradicted by hourly OBV (up, not diverging), but the daily divergence is a structural caution.",
+    "Daily MACD not confirming: daily_indicators.macd.histogram = -0.4383 (negative, macd_line 9.2565 below signal_line 9.6949, no bullish_crossover). The daily MACD is lagging the price move — momentum has not yet re-crossed on the daily timeframe. Setup needs price to hold and allow MACD to catch up.",
+    "Analyst consensus avg PT = $174.33 is BELOW current price of $176.42 — the street's average target has already been exceeded. Upside beyond current price requires the Goldman-raised target and other upgrades to shift the consensus higher; no floor of analyst support at current levels."
+  ],
+  "web_sources_last_7d": [
+    "https://www.foreignpolicyjournal.com/2026/05/04/nebius-group-nasdaq-nbis-acquires-eigen-ai-for-643-million-to-supercharge-inference-platform/",
+    "https://blockonomi.com/nebius-nbis-stock-surges-over-11-on-major-ai-acquisition-news/",
+    "https://stockstotrade.com/news/nebius-group-nv-nbis-news-2026_05_04-2/",
+    "https://www.tipranks.com/news/catalyst/nebius-group-stock-slumps-as-rally-runs-out",
+    "https://seekingalpha.com/article/4897914-nebius-q1-earnings-preview-compounding-ai-story-still-early",
+    "https://seekingalpha.com/article/4897758-nebius-earnings-preview-why-nebius-spent-643m-on-eigen-and-what-it-means"
+  ]
+}

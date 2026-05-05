@@ -1,0 +1,22 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Breakout is unconfirmed and the invalidation is hair-trigger: current price $219.87 sits only $0.37 above the invalidation level of $219.50, while the watch/confirmation level is $224.50 — meaning the trade requires a +2.1% move to confirm but can be killed by a -0.2% move. The reward-to-confirmation-distance ratio is asymmetrically unfavorable for a new long entry at current levels. Bollinger pct_b = 1.02 (price above upper band) and daily z_score_50 = 2.05 (2+ standard deviations above 50-period mean) indicate the stock is statistically extended — initiating a long when price is already stretched reduces the probability that the watch level breakout triggers a sustained follow-through rather than a mean-reversion fade.",
+    "Bearish directional pressure and RSI divergence undercut the breakout narrative: daily ADX = 34.2 (strong trend) but minus_di (21.38) > plus_di (16.08) — the dominant directional force is bearish, not bullish, despite the upward price action. Daily rsi_divergence.bearish = true over the last 60 bars (price making higher highs while momentum weakens). Hourly ADX = 15.33 (weak trend), with hourly momentum near-flat: roc_5d = 0.20, roc_10d = 0.38, roc_21d = 0.46. The technical picture is one of decelerating momentum into resistance, not accumulation ahead of a clean breakout.",
+    "The Q1 2026 earnings beat ($10.65 vs $7.31 consensus) is already fully in the price and likely over-reflects a single favorable quarter driven by below-average catastrophe losses — a factor that is mean-reverting by nature. Insurance earnings are notoriously lumpy: a benign catastrophe season inflated Q1 results, but summer/fall CAT season (hurricanes, wildfires) creates binary downside risk by Q3. The analyst consensus avg PT of $226.88 offers only ~3.2% upside from current price ($219.87), with even the most bullish upgrade (Piper Sandler $268) likely already anchoring near-term institutional buying. No P/E or EV/EBITDA multiples are available in the current context (research gap — valuation data not confirmed via bundle), which limits precision but the narrow PT-to-price gap signals the street sees limited further near-term upside from here."
+  ],
+  "bull_acknowledgements": [
+    "The Q1 2026 earnings beat was large and genuine — $10.65 EPS vs. $7.31 consensus is a 45% upside surprise, driven by real improvements in policies-in-force and loss ratio. The $4B buyback demonstrates capital strength and management confidence.",
+    "Technical trend structure is intact above all key moving averages (price above ema_5 through ema_200, ema_aligned_uptrend = true on both daily and hourly), and daily MACD shows a bullish crossover (histogram = +0.14). There is no insider selling pressure — recent_insider_trades is empty.",
+    "With next earnings on 2026-07-30 (86 days away), there is no near-term binary earnings event to force a position exit, giving the setup time to develop if the breakout does trigger above $224.50."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/sec-filings/ALL/8-k-allstate-corp-reports-material-event-e597ee98d322.html",
+    "https://finance.yahoo.com/quote/ALL/press-releases/",
+    "https://stockanalysis.com/stocks/all/forecast/",
+    "https://www.dailypolitical.com/2026/05/02/us-bancorp-de-trims-position-in-the-allstate-corporation-all.html"
+  ]
+}

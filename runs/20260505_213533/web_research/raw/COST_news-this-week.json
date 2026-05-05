@@ -1,0 +1,52 @@
+{
+  "query": "COST news this week",
+  "fetched_at": "2026-05-05T21:40:00Z",
+  "results": [
+    {
+      "title": "Crude Oil Prices Today | OilPrice.com",
+      "url": "https://oilprice.com/"
+    },
+    {
+      "title": "Costco Wholesale Corporation (COST) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COST/"
+    },
+    {
+      "title": "Track gas prices in your county or state as Iran war drives prices up",
+      "url": "https://www.nbcnews.com/data-graphics/gas-prices-iran-war-state-national-cost-trump-rcna265835"
+    },
+    {
+      "title": "COST Stock Quote Price and Forecast | CNN",
+      "url": "https://www.cnn.com/markets/stocks/COST"
+    },
+    {
+      "title": "Costco: COST Stock Price Quote & News | Robinhood",
+      "url": "https://robinhood.com/us/en/stocks/COST/"
+    },
+    {
+      "title": "Transmission of material in this release is embargoed until USDL-26-0599",
+      "url": "https://www.bls.gov/news.release/pdf/cpi.pdf"
+    },
+    {
+      "title": "Costco changes beloved $1.50 hot dog deal for the first time in decades: reports",
+      "url": "https://www.foxbusiness.com/lifestyle/costco-changes-beloved-1-50-hot-dog-deal-first-time-decades"
+    },
+    {
+      "title": "COST: Costco Wholesale Corp - Stock Price, Quote and News - CNBC",
+      "url": "https://www.cnbc.com/quotes/COST"
+    },
+    {
+      "title": "COST Stock Price and Chart — NASDAQ:COST — TradingView",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-COST/"
+    },
+    {
+      "title": "Costco Wholesale Corporation (COST) Latest Stock News & Headlines - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/COST/news/"
+    }
+  ],
+  "summary_from_search": {
+    "stock_performance": "COST shares up $1.09 (0.11%), trading near 52-week high, above 200-day SMA.",
+    "hot_dog_combo_update": "Costco now offers option to swap fountain drink for 16.9 oz Kirkland Signature water in $1.50 hot dog combo — first update in 40+ years; soda option unchanged.",
+    "financial_performance": "14% increase in net income; 13.1% dividend hike to $1.47/share.",
+    "analyst_note": "Bernstein Buy rating issued April 26, 2026. Amy's Kitchen products added in 150+ warehouses."
+  }
+}

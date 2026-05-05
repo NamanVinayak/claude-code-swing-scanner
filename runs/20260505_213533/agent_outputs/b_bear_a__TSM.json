@@ -1,0 +1,24 @@
+{
+  "ticker": "TSM",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [397.0, 389.11, 384.7],
+  "top_3_arguments": [
+    "Breakout attempt on structurally declining volume with bearish intraday reversal: daily_indicators.volume.relative_volume = 0.73 on May 4 (9,978,500 vs 20-day avg 13,685,315). On that same day price hit 407.70 intraday but closed at 401.61 — a 6-point fade from the session high that is a textbook intraday distribution signal. May 1 volume was also thin (9,926,400, also sub-average). Two consecutive sub-0.80 relative-volume sessions into resistance is a fakeout fingerprint, not conviction.",
+    "Hourly structure is already broken below the watch level: hourly_indicators.current_price = 394.36, which is below all short-term hourly MAs (ema_24 = 396.86, sma_24 = 397.87, ema_48 = 394.79). Hourly MACD histogram = -1.03 (bearish, signal_line 3.61 above macd_line 2.58). Hourly OBV trend = 'down'. Hourly volume_bias_10d = 'down'. The intraday structure has already reverted through the Stage 2 watch level of $403 and is sitting 9 points below it — the setup has not confirmed, and the micro-trend is distribution.",
+    "Price is 11.4% above its 50 SMA (daily_indicators.dist_from_50sma_pct = 11.38, z_score_50 = 1.78) with the daily Bollinger pct_b = 0.83 (approaching upper band at 412.73). The consensus analyst avg price target is $387.14 — materially BELOW the current price of $401.61 — meaning the stock is already trading above the average bull's 12-month target. From the watch_level entry (~$403) to the nearest resistance/recent high at $414.50, the upside is ~$11.50 (2.9%). From $403 to the daily invalidation at $397, the stop is only $6 — but the next real structural support is 360.55 (volume-confirmed pivot low, 11 tests), implying a failed breakout could carry ~$43 of downside. R:R is materially worse than the 2:1 minimum once price fails to hold the breakout level."
+  ],
+  "bull_acknowledgements": [
+    "Daily MA stack is genuinely bullish: all EMAs and SMAs aligned in uptrend order (ema_aligned_uptrend = true); price is above every MA from 5-day through 200-day. ADX_14 = 39.61 with plus_di (32.88) well above minus_di (15.60) — the daily trend is strong and not yet exhausted by ADX alone.",
+    "Fundamental backdrop is real: Q1 2026 profit +58% YoY, full-year 2026 revenue guidance >30% USD growth, Arizona Fab 4 booked through 2027 at 25-30% pricing premium. AI-driven demand structural tailwind is well-documented. The bull has a genuine fundamental anchor, not just chart noise.",
+    "No earnings blackout: days_until_next = 72. No forced exit from an earnings surprise within the swing window."
+  ],
+  "web_sources_last_7d": [
+    "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+    "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html",
+    "https://www.fool.com/investing/2026/05/05/prediction-tsmc-stock-will-jump-3x-by-2030/",
+    "https://www.marketbeat.com/stocks/NYSE/TSM/news/",
+    "https://stockanalysis.com/stocks/tsm/",
+    "https://finance.yahoo.com/quote/TSM/news/"
+  ]
+}

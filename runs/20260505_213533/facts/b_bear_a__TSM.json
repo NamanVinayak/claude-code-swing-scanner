@@ -1,0 +1,442 @@
+{
+  "ticker": "TSM",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 403.0,
+  "invalidation_level": 397.0,
+  "catalyst_note": "TSM trending long on tv_strong_buy + tv_trending_up signals; overnight gap of +0.29% is benign, holding just above yesterday's close with no near-term earnings risk (72 days out).",
+  "conviction": 6,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "TSMC Q1 profit rises 58%, beats estimates as AI demand fuels record run",
+      "source": "web_research",
+      "date": "2026-04-16",
+      "url": "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+      "sentiment": "positive",
+      "summary": "TSMC reported Q1 profit up 58% YoY, beating street estimates; revenue NT$1.134 trillion vs NT$1.127 trillion expected. HPC (AI/5G) rose to 61% of revenue; advanced nodes (<=7nm) comprised 74% of wafer revenue."
+    },
+    {
+      "title": "TSMC and ASML post-earnings stock moves signal AI chip demand still hot",
+      "source": "web_research",
+      "date": "2026-04-16",
+      "url": "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html",
+      "sentiment": "positive",
+      "summary": "Post-earnings coverage noted TSMC's strong beat as a signal of sustained AI infrastructure demand; company guided full-year 2026 revenue growth >30% YoY in USD terms."
+    },
+    {
+      "title": "Prediction: TSMC Stock Will Jump 3x by 2030",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.fool.com/investing/2026/05/05/prediction-tsmc-stock-will-jump-3x-by-2030/",
+      "sentiment": "positive",
+      "summary": "Motley Fool analysis published today argues TSMC's monopoly on advanced node manufacturing and AI-driven demand sets up multi-year compounding growth; no near-term catalyst cited beyond ongoing AI capex."
+    },
+    {
+      "title": "Bernstein: AI Agents drive chip demand 'off the charts,' supply can't keep up \u2014 TSMC key beneficiary",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://www.marketbeat.com/stocks/NYSE/TSM/news/",
+      "sentiment": "positive",
+      "summary": "Bernstein analyst flagged AI Agent proliferation as driving semiconductor demand beyond forecasts while highlighting TSMC as the most exposed foundry to any demand slowdown or acceleration."
+    },
+    {
+      "title": "TSMC Arizona Fab 4 fully committed through late 2027 before construction starts; pricing 25-30% above Taiwan",
+      "source": "web_research",
+      "date": "2026-05-02",
+      "url": "https://stockanalysis.com/stocks/tsm/",
+      "sentiment": "positive",
+      "summary": "Reports indicate TSMC's fourth planned Arizona facility is already fully booked before breaking ground, with customers accepting production quotes 25-30% above equivalent Taiwan pricing."
+    },
+    {
+      "title": "TSMC plans major chip packaging plant in Arizona via Amkor partnership",
+      "source": "web_research",
+      "date": "2026-05-01",
+      "url": "https://finance.yahoo.com/quote/TSM/news/",
+      "sentiment": "positive",
+      "summary": "TSMC announced a partnership with Amkor to open an advanced chip packaging facility in Arizona, expanding its U.S. manufacturing footprint beyond wafer fabrication."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 401.6099853515625,
+  "market_cap": 2045568090112.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-04-28",
+      "open": 392.1199951171875,
+      "high": 397.8699951171875,
+      "low": 384.70001220703125,
+      "close": 392.3399963378906,
+      "volume": 14715800
+    },
+    {
+      "time": "2026-04-29",
+      "open": 392.9100036621094,
+      "high": 395.8500061035156,
+      "low": 388.17999267578125,
+      "close": 393.8299865722656,
+      "volume": 10313000
+    },
+    {
+      "time": "2026-04-30",
+      "open": 397.80999755859375,
+      "high": 398.7900085449219,
+      "low": 385.7099914550781,
+      "close": 396.05999755859375,
+      "volume": 12788100
+    },
+    {
+      "time": "2026-05-01",
+      "open": 393.44000244140625,
+      "high": 403.989990234375,
+      "low": 392.1300048828125,
+      "close": 397.6700134277344,
+      "volume": 9926400
+    },
+    {
+      "time": "2026-05-04",
+      "open": 404.5199890136719,
+      "high": 407.70001220703125,
+      "low": 395.20001220703125,
+      "close": 401.6099853515625,
+      "volume": 9978500
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 397.2806853740669,
+      "sma_5": 396.3019958496094,
+      "ema_10": 391.72295245422026,
+      "sma_10": 392.71299743652344,
+      "ema_20": 381.02013652208524,
+      "sma_20": 379.95449981689455,
+      "ema_21": 380.1452358637421,
+      "sma_21": 378.1357145763579,
+      "ema_50": 363.5514172226964,
+      "sma_50": 360.5708233642578,
+      "ema_200": 309.00182106514956,
+      "sma_200": 305.04482780456544,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 401.6099853515625,
+    "dist_from_50sma_pct": 11.38,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 1.09,
+      "above_sma_5": true,
+      "pct_from_sma_5": 1.34,
+      "above_ema_10": true,
+      "pct_from_ema_10": 2.52,
+      "above_sma_10": true,
+      "pct_from_sma_10": 2.27,
+      "above_ema_20": true,
+      "pct_from_ema_20": 5.4,
+      "above_sma_20": true,
+      "pct_from_sma_20": 5.7,
+      "above_ema_21": true,
+      "pct_from_ema_21": 5.65,
+      "above_sma_21": true,
+      "pct_from_sma_21": 6.21,
+      "above_ema_50": true,
+      "pct_from_ema_50": 10.47,
+      "above_sma_50": true,
+      "pct_from_sma_50": 11.38,
+      "above_ema_200": true,
+      "pct_from_ema_200": 29.97,
+      "above_sma_200": true,
+      "pct_from_sma_200": 31.66,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 40061.0
+    },
+    "rsi": {
+      "rsi_7": 71.42,
+      "rsi_14": 61.06,
+      "rsi_21": 72.05
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 13.0941,
+      "signal_line": 11.4527,
+      "histogram": 1.6414,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 412.73,
+      "middle": 379.95,
+      "lower": 347.18,
+      "width": 0.1725,
+      "pct_b": 0.8303
+    },
+    "atr": {
+      "atr_14": 13.4,
+      "atr_pct": 3.34
+    },
+    "adx": {
+      "adx_14": 39.61,
+      "plus_di": 32.88,
+      "minus_di": 15.6,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 9978500,
+      "avg_volume_20": 13685315,
+      "relative_volume": 0.73,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 350.45,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 382.16,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 389.11,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 414.5,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 313.8,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 325.19,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 330.99,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 360.55,
+          "tests": 11,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 414.5,
+      "nearest_support": 360.55,
+      "recent_high": 414.5,
+      "recent_low": 335.65,
+      "prev_day_high": 403.99,
+      "prev_day_low": 392.13,
+      "prev_day_close": 397.67
+    },
+    "fibonacci": {
+      "swing_high": 414.5,
+      "swing_low": 313.8,
+      "fib_236": 390.73,
+      "fib_382": 376.03,
+      "fib_500": 364.15,
+      "fib_618": 352.27,
+      "fib_786": 335.35,
+      "fib_ext_1272": 441.89,
+      "fib_ext_1618": 476.73,
+      "fib_ext_2000": 515.2,
+      "fib_ext_low_1272": 286.41,
+      "fib_ext_low_1618": 251.57
+    },
+    "momentum": {
+      "roc_5d": -0.83,
+      "roc_10d": 9.66,
+      "roc_21d": 18.46
+    },
+    "z_score_50": 1.78,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 396.86105934395164,
+      "sma_24": 397.86632029215497,
+      "ema_48": 394.7851734937744,
+      "sma_48": 396.402302424113,
+      "ema_120": 384.6928097182535,
+      "sma_120": 384.4038609822591,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 394.3599853515625,
+    "dist_from_50sma_pct": 2.59,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -0.63,
+      "above_sma_24": false,
+      "pct_from_sma_24": -0.88,
+      "above_ema_48": false,
+      "pct_from_ema_48": -0.11,
+      "above_sma_48": false,
+      "pct_from_sma_48": -0.52,
+      "above_ema_120": true,
+      "pct_from_ema_120": 2.51,
+      "above_sma_120": true,
+      "pct_from_sma_120": 2.59,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 39336.0
+    },
+    "rsi": {
+      "rsi_21": 47.64
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.575,
+      "signal_line": 3.6086,
+      "histogram": -1.0336,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 405.32,
+      "middle": 396.4,
+      "lower": 387.48,
+      "width": 0.045,
+      "pct_b": 0.3855
+    },
+    "atr": {
+      "atr_24": 3.93,
+      "atr_pct": 1.0
+    },
+    "adx": {
+      "adx_24": 21.16,
+      "plus_di": 23.89,
+      "minus_di": 19.44,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 1611399,
+      "avg_volume_20": 1461955,
+      "relative_volume": 1.1,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 395.85,
+          "tests": 31,
+          "volume_confirmed": true
+        },
+        {
+          "price": 403.99,
+          "tests": 18,
+          "volume_confirmed": true
+        },
+        {
+          "price": 414.5,
+          "tests": 1,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 384.7,
+          "tests": 6,
+          "volume_confirmed": true
+        },
+        {
+          "price": 395.2,
+          "tests": 29,
+          "volume_confirmed": false
+        },
+        {
+          "price": 400.4,
+          "tests": 27,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 395.85,
+      "nearest_support": 384.7,
+      "recent_high": 407.7,
+      "recent_low": 392.6,
+      "prev_day_high": 397.8,
+      "prev_day_low": 393.91,
+      "prev_day_close": 394.04
+    },
+    "fibonacci": {
+      "swing_high": 407.7,
+      "swing_low": 385.71,
+      "fib_236": 402.51,
+      "fib_382": 399.3,
+      "fib_500": 396.71,
+      "fib_618": 394.11,
+      "fib_786": 390.42,
+      "fib_ext_1272": 413.68,
+      "fib_ext_1618": 421.29,
+      "fib_ext_2000": 429.69,
+      "fib_ext_low_1272": 379.73,
+      "fib_ext_low_1618": 372.12
+    },
+    "momentum": {
+      "roc_5d": 0.0,
+      "roc_10d": -1.65,
+      "roc_21d": -0.42
+    },
+    "z_score_120": 0.73,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 72,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 387.14,
+    "recent_changes": "Consensus of 7 analysts at Strong Buy with avg PT $387.14 (range $210\u2013$480); Motley Fool published bullish 3x-by-2030 thesis on 2026-05-05. No specific downgrades or PT cuts found in last 7 days; Bernstein highlighted demand risk to the upside."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-17",
+    "days_until_next": 73,
+    "notes": "Q1 2026 earnings reported 2026-04-16: profit +58% YoY, revenue beat. Company guided full-year 2026 revenue growth >30% in USD. Next earnings expected mid-July 2026; no earnings blackout risk for the near-term setup."
+  }
+}

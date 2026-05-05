@@ -1,0 +1,56 @@
+{
+  "ticker": "ALL",
+  "researched_at": "2026-05-05T21:42:00Z",
+  "news_items": [
+    {
+      "headline": "Allstate Q1 2026 EPS of $10.65 beats consensus of $7.31 by $3.34; revenue $16.94B vs. $15.24B estimate",
+      "url": "https://www.stocktitan.net/sec-filings/ALL/8-k-allstate-corp-reports-material-event-e597ee98d322.html",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "Allstate reported a strong Q1 2026 beat driven by lower catastrophe losses and increased policies in force, with EPS of $10.65 vs. street consensus of $7.31 and revenue of $16.94B vs. $15.24B expected."
+    },
+    {
+      "headline": "Allstate announces $4 billion share buyback program",
+      "url": "https://finance.yahoo.com/quote/ALL/press-releases/",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "Allstate announced a $4 billion share repurchase program alongside Q1 earnings, signaling management confidence in financial health and capital position."
+    },
+    {
+      "headline": "Piper Sandler raises Allstate price target to $268 from $252",
+      "url": "https://stockanalysis.com/stocks/all/forecast/",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "Piper Sandler raised its price target on ALL to $268 from $252 following the Q1 2026 earnings beat."
+    },
+    {
+      "headline": "Citi raises Allstate price target to $226 from $221",
+      "url": "https://stockanalysis.com/stocks/all/forecast/",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "Citi raised its price target on ALL to $226 from $221, also following Q1 2026 results, a more modest adjustment than Piper Sandler."
+    },
+    {
+      "headline": "US Bancorp DE trims position in The Allstate Corporation",
+      "url": "https://www.dailypolitical.com/2026/05/02/us-bancorp-de-trims-position-in-the-allstate-corporation-all.html",
+      "date": "2026-05-02",
+      "sentiment": "neutral",
+      "summary": "US Bancorp DE disclosed a reduced position in ALL in a regulatory filing dated May 2, 2026; no specific rationale provided in the filing."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 226.88,
+    "recent_changes": "Piper Sandler raised PT to $268 from $252 on 2026-05-01; Citi raised PT to $226 from $221 on 2026-05-01, both following the Q1 2026 earnings beat. 17 analysts covering ALL carry a consensus Buy rating with average PT of $226.88."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-30",
+    "days_until_next": 86,
+    "notes": "Q1 2026 reported approximately 2026-05-01 with a large beat ($10.65 EPS vs. $7.31 consensus); Q2 2026 report is scheduled for 2026-07-30. No near-term earnings catalyst within 7 days."
+  },
+  "raw_search_files": [
+    "ALL_news-this-week.json",
+    "ALL_analyst-rating.json",
+    "ALL_earnings-catalyst.json"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ticker": "NBIS",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [173.0, 168.71, 159.70],
+  "top_3_arguments": [
+    "Price at $176.42 has already overshot the analyst consensus average price target of $174.33 — the stock is currently trading ABOVE the Street's collective 12-month target, meaning incremental buyers are paying above consensus fair value on day 1. The May 4 acquisition-driven gap (+11-14%) was the catalyst; per TipRanks (2026-05-05), the post-acquisition rally is already fading. Daily MACD histogram = -0.4383 (macd_line 9.2565 < signal_line 9.6949) — the daily momentum oscillator has turned bearish on the very day price is being asked to confirm the breakout above watch_level $176.50.",
+    "Daily OBV trend = 'down' with diverging_from_price = true, and daily volume_bias_10d = 'down' — meaning price has risen over 10 days on declining accumulation. The May 4 session at 1.48x avg volume looks impressive, but for a 14% gap on a major acquisition announcement, 1.48x is underwhelming; the prior day (2026-05-01, +$16 move) only printed 15,854,500 shares vs. the 20-day avg of 16,781,950 (below avg). Hourly relative_volume = 0.36 — intraday volume has collapsed to 36% of hourly avg as of last hourly bar, indicating no follow-through buying after the morning gap. Distribution is occurring quietly beneath the headline move.",
+    "Extreme overextension across every timeframe creates poor R:R for a new long entry: dist_from_50sma_pct = 43.18%, bollinger pct_b = 0.9571 (price at $176.42 vs. upper band $178.92 — 1.4% of headroom before band compression), z_score_50 = 2.12, hourly rsi_21 = 84.31 (deeply overbought), and earnings in 8 days (May 13). The setup requires a break above $176.50 to confirm, but the stock is already jammed against bollinger upper and sitting above the analyst PT of $174.33. A binary earnings event in 8 days with street expecting ~600% YoY revenue growth means any miss or cautious guidance collapses the premium instantly — with the nearest daily support cluster at $168.71 (pivot_high) and daily support at $89.65 (nearest_support field), there is a 40-80 point air pocket below if the Q1 print disappoints."
+  ],
+  "bull_acknowledgements": [
+    "The MA stack is unambiguously bullish: ema_aligned_uptrend = true across daily and hourly; price is above all EMAs and SMAs (5/10/20/21/50/200). ADX_14 = 39.42 (daily) and ADX_24 = 49.18 (hourly) — both indicate a strong, established trend, not a dying one.",
+    "The fundamental backdrop supporting the move is real: $643M Eigen AI acquisition strengthens the inference platform moat, Goldman Sachs raised PT on a Meta AI contract, TD SYNNEX AIaaS partnership adds enterprise distribution, and Q1 revenue consensus of ~$388.6M represents ~600% YoY growth — this is a genuine hypergrowth AI infrastructure story, not a meme pump.",
+    "Hourly OBV trend = 'up' with diverging_from_price = false — the shorter-term accumulation picture is intact even as daily OBV diverges, suggesting the intraday structure is not yet in active distribution."
+  ],
+  "web_sources_last_7d": [
+    "https://www.foreignpolicyjournal.com/2026/05/04/nebius-group-nasdaq-nbis-acquires-eigen-ai-for-643-million-to-supercharge-inference-platform/",
+    "https://blockonomi.com/nebius-nbis-stock-surges-over-11-on-major-ai-acquisition-news/",
+    "https://stockstotrade.com/news/nebius-group-nv-nbis-news-2026_05_04-2/",
+    "https://www.tipranks.com/news/catalyst/nebius-group-stock-slumps-as-rally-runs-out",
+    "https://seekingalpha.com/article/4897914-nebius-q1-earnings-preview-compounding-ai-story-still-early",
+    "https://seekingalpha.com/article/4897758-nebius-earnings-preview-why-nebius-spent-643m-on-eigen-and-what-it-means"
+  ]
+}

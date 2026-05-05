@@ -1,0 +1,26 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 224.00, "high": 225.00},
+  "target": 235.00,
+  "stop": 218.50,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Full MA stack bullishly aligned (ema_aligned_uptrend = true): price above EMA 5/10/20/21/50/200 with pct_from_ema_50 = +4.18% and pct_from_ema_200 = +7.07%. Daily roc_21d = +6.2%, confirming sustained uptrend over the past month. Breakout entry at watch_level $224.50 would be a continuation move off this clean stack — no overhead MA resistance to chew through.",
+    "MACD bullish crossover confirmed (macd_line = 2.1098, signal_line = 1.9656, histogram = +0.1442 positive and expanding); rsi_14 = 56.76 (healthy mid-range, not overbought — room to run to 70+); ADX_14 = 34.2 classified 'strong' with plus_di = 16.08 and minus_di = 21.38 converging — bear directional pressure has been waning while trend momentum accelerates. Daily volume at 1.32x 20-day avg with OBV trending up and not diverging from price.",
+    "Fundamental catalyst is fresh and unambiguous: Q1 2026 EPS $10.65 vs. $7.31 consensus (+46% beat), revenue $16.94B vs. $15.24B estimate; $4B share buyback announced 2026-05-01. Piper Sandler raised PT to $268 (from $252); 17-analyst consensus Buy with avg PT $226.88. Price has not yet reached the consensus target ($226.88) let alone Piper's $268 — analysts have re-rated and price is lagging. Fibonacci daily ext_1272 = $226.52 and ext_1618 = $233.29 align with the analyst upgrade range, providing technical confluence for the $235 target."
+  ],
+  "risks_acknowledged": [
+    "Bearish RSI divergence flagged over the last 60 bars (rsi_divergence.bearish = true): price made new highs but RSI has not confirmed with equivalent highs — historically a distribution warning. If this materializes, the breakout above $224.50 may fade quickly.",
+    "ADX plus_di (16.08) is still below minus_di (21.38): bears technically retain directional edge on the daily timeframe until plus_di crosses above. Entry at watch_level requires confirmation that this crossover is occurring.",
+    "Bollinger pct_b = 1.02 — price is already at/above the upper band at $219.87 close. Breakout entry at $224+ would be entering further extended from the band midpoint ($214.90). Mean-reversion risk is elevated if the broader market weakens.",
+    "No insider buying data in the bundle (recent_insider_trades is empty) — cannot confirm insider conviction post-earnings. Research gap: insider transactions after the May 1 earnings beat would meaningfully strengthen or weaken the thesis."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/sec-filings/ALL/8-k-allstate-corp-reports-material-event-e597ee98d322.html",
+    "https://finance.yahoo.com/quote/ALL/press-releases/",
+    "https://stockanalysis.com/stocks/all/forecast/",
+    "https://www.dailypolitical.com/2026/05/02/us-bancorp-de-trims-position-in-the-allstate-corporation-all.html"
+  ]
+}

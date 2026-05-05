@@ -1,0 +1,224 @@
+{
+  "run_id": "20260505_213211",
+  "scan_timestamp_pt": "2026-05-05T14:32:11-07:00",
+  "universe_size": 1569,
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "ticker": "ROK",
+      "exchange": "NYSE",
+      "last_close": 435.93,
+      "market_cap_usd": 48980180149.579025,
+      "volume": 1860886,
+      "change_pct_today": 8.898103969423698,
+      "score": 3,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "RRX",
+      "exchange": "NYSE",
+      "last_close": 222.02,
+      "market_cap_usd": 14778867244.571226,
+      "volume": 1513780,
+      "change_pct_today": 4.484916937267636,
+      "score": 3,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "JAZZ",
+      "exchange": "NASDAQ",
+      "last_close": 212.26,
+      "market_cap_usd": 13316940781.205421,
+      "volume": 1214662,
+      "change_pct_today": 2.018648466788421,
+      "score": 3,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "CMI",
+      "exchange": "NYSE",
+      "last_close": 674.998,
+      "market_cap_usd": 93261410653.45276,
+      "volume": 1454277,
+      "change_pct_today": 2.7816606520183376,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "NET",
+      "exchange": "NYSE",
+      "last_close": 244.43,
+      "market_cap_usd": 86034539705.62932,
+      "volume": 7166457,
+      "change_pct_today": 9.037783824775849,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "MPC",
+      "exchange": "NYSE",
+      "last_close": 260.51,
+      "market_cap_usd": 76719382046.63887,
+      "volume": 2499430,
+      "change_pct_today": 3.1559356933555076,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "CRDO",
+      "exchange": "NASDAQ",
+      "last_close": 193.57,
+      "market_cap_usd": 35703973610.38375,
+      "volume": 6074719,
+      "change_pct_today": 7.503054537376425,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "MTSI",
+      "exchange": "NASDAQ",
+      "last_close": 303.57,
+      "market_cap_usd": 22771383986.395306,
+      "volume": 1420443,
+      "change_pct_today": 4.062114356231991,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "EXPD",
+      "exchange": "NYSE",
+      "last_close": 153.08,
+      "market_cap_usd": 20357190707.947323,
+      "volume": 1946328,
+      "change_pct_today": 9.569823205210797,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "DVA",
+      "exchange": "NYSE",
+      "last_close": 157.04,
+      "market_cap_usd": 10355899837.286604,
+      "volume": 1989745,
+      "change_pct_today": 1.9210799584631226,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    }
+  ]
+}

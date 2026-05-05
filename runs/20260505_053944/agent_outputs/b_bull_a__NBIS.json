@@ -1,0 +1,27 @@
+{
+  "ticker": "NBIS",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 176.50, "high": 178.50},
+  "target": 191.80,
+  "stop": 172.50,
+  "expected_holding_days": 5,
+  "top_3_arguments": [
+    "Powerful trend-continuation breakout: daily ADX_14 = 39.42 with plus_di 26.01 over minus_di 17.55 (strong trend, bullish bias); EMA stack aligned uptrend across 5/10/20/50/200 with price above every band (pct_from_ema_50 = +36.42%, pct_from_ema_200 = +79.68%); momentum.roc_5d = +21.7% and roc_21d = +62.12% confirms accelerating tape.",
+    "Yesterday's bar (2026-05-04) printed 24.73M shares vs 16.78M 20-day avg (relative_volume 1.47x) on a 9.9% close-to-close advance from 154.49 to 176.42 — institutional participation confirming the move through prior pivot resistance at 168.71; hourly OBV trend = up and not diverging from price, hourly plus_di 46.05 vs minus_di 15.91 shows demand still in control intraday.",
+    "Fresh 7-day catalysts justify trend-follow: $643M Eigen AI acquisition closing into the Token Factory inference platform, new TD SYNNEX AI Infrastructure-as-a-Service partnership built on Nebius + NVIDIA HGX B300, Wolfe Research initiation citing 'de-risked' Microsoft/Meta demand. Reclaim of watch_level 176.50 with 4.81 hourly ATR gives clean R:R: $5 risk to 172.50 stop vs $14.30 reward to 191.80 target (hourly fib_ext_1272) ≈ 2.86:1."
+  ],
+  "risks_acknowledged": [
+    "Q1 2026 earnings on 2026-05-13 (days_until_next = 8) — outside the 3-day blackout but inside any holding window past one week; trade must be sized so a gap-down pre-print does not exceed risk budget, and position should be reviewed/closed before the May 12 close.",
+    "Daily MACD histogram = -0.4383 with no bullish_crossover and daily OBV trend = down diverging from price — momentum is hot on price but breadth/accumulation indicators on the daily are not yet confirming, raising risk of a failed breakout retest.",
+    "Daily bollinger pct_b = 0.957 and z_score_50 = 2.12 — price is stretched two standard deviations above the 50-day mean and pinned to the upper band; mean-reversion air pocket back toward the daily 20EMA (145.64) is a real tail risk if the breakout fails to hold 173.00.",
+    "Wiki memory is empty (new_ticker = true); no prior setup history for NBIS to confirm it respects similar breakout patterns — conviction comes purely from current chart and 7-day news, not durable thesis."
+  ],
+  "web_sources_last_7d": [
+    "https://www.timothysykes.com/news/nebius-group-nv-nbis-news-2026_05_04-3/",
+    "https://www.timothysykes.com/news/nebius-group-nv-nbis-news-2026_05_04/",
+    "https://www.investing.com/news/company-news/why-is-nebius-stock-surging-today-93CH-4656579",
+    "https://www.stocktitan.net/news/NBIS/nebius-group-announces-date-of-first-quarter-2026-results-and-d23e0mn8rme3.html",
+    "https://seekingalpha.com/article/4897914-nebius-q1-earnings-preview-compounding-ai-story-still-early"
+  ]
+}

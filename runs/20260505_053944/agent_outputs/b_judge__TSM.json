@@ -1,0 +1,11 @@
+{
+  "ticker": "TSM",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "TSM",
+      "reason": "single_position_cap_exceeded: Gate 0 direction consensus passed (all 4 perspectives echo setup_direction='long'). Gate 1 budget pre-check passed (can_open_new_position=true, phase=scaling_week_1_2). Gate 2 expected return positive: p_bull = 7/(7+6) = 0.5385, p_bear = 0.4615; entry = midpoint(403.00, 404.50) = 403.75; conservative target = min(421.30, 418.00) = 418.00; conservative stop = max(395.40, 395.50) = 395.50; expected_return_per_share = 0.5385*(418.00-403.75) - 0.4615*(403.75-395.50) = 7.6736 - 3.8074 = +$3.866. Gate 3 position sizing: risk_dollars = 25000 * 0.01 * 0.5 = $125; risk_per_share = $8.25; quantity = floor(125/8.25) = 15. Gate 4 FAILS: notional = 403.75 * 15 = $6,056.25 > single_position_cap = 25000 * 0.15 = $3,750. TSM at $401.61/share is too high-priced for $25k account during scaling phase — even minimum sized position breaches the 15% single-position cap. Maximum allowable shares within cap = floor(3750/403.75) = 9 shares, but that would place risk at only $74.25 (under-utilizing the $125 risk budget) and is a structural mismatch between price level and account size."
+    }
+  ],
+  "summary": "TSM rejected on single_position_cap (Gate 4): bullish thesis valid with positive expected return (+$3.87/share), but $403.75 entry × 15-share sizing = $6,056 notional exceeds the 15% single-position cap ($3,750) for a $25k scaling-phase account. Stock too high-priced for current account size."
+}

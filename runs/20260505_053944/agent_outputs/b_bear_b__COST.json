@@ -1,0 +1,22 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Stretched valuation caps long-side upside: per web sources (last 7d), COST trades at TTM P/E ~52.5 vs 10-year median 37.3 (+41%), retail-defensive industry median 18.2 (+189%), and peer average 27.1. Sell-side 12-month consensus PT is only ~$1,078 (~6.6% above current $1,012.79) — implying limited room above the watch_level $1,015 even on a clean breakout. A swing long here is paying full retail to chase a name analysts already see as nearly fairly priced.",
+    "Indicator/price-action divergence: daily rsi_14 = 71.62 (overbought zone) while rsi_7 = 49.86 and rsi_21 = 49.8 — short-horizon momentum is rolling over relative to the 14-period reading. ADX_14 = 14.18 (weak trend) and OBV trend = 'down' diverging_from_price = TRUE (per daily_indicators.volume.obv). Relative volume on 2026-05-04 was 0.84x avg_volume_20 (1.48M vs 1.77M) and roc_21d = -0.07%. A breakout into recent_high $1,034.32 and overhead Bollinger upper $1,031.96 without volume or accumulation confirmation is exactly the failed-breakout setup that fades back into the $1,001 EMA20 pocket.",
+    "Earnings risk inside the typical swing window: earnings.days_until_next = 23, and per web sources Q3 FY2026 reports after-close 2026-05-28. With the stock already +17% YTD into a 52.5x P/E print and a Q2 beat already digested, the bar for the next print is very high — guidance disappointment or a softening membership/digital growth comp can re-rate the multiple sharply. Catalyst is asymmetric to the downside given how rich the valuation already is."
+  ],
+  "bull_acknowledgements": [
+    "Fundamentals are genuinely strong: per web sources (last 7d), COST raised the quarterly dividend 13% from $1.30 to $1.47 (payable 2026-05-15), reported ~90% membership renewal, accelerating digital sales, and is rolling Amy's Kitchen into 150+ warehouses. The business quality is not in dispute.",
+    "Trend structure is intact: ema_aligned_uptrend = TRUE on daily AND hourly, price above all MAs (5/10/20/21/50/200), hourly ADX_24 = 31.05 (strong) with +DI 34 vs -DI 14.5, and hourly OBV trend = 'up' not diverging — short-term tape supports a push at the watch_level."
+  ],
+  "web_sources_last_7d": [
+    "https://www.fool.com/investing/2026/05/03/what-dividend-investors-need-to-know-about-costco/",
+    "https://simplywall.st/stocks/us/consumer-retailing/nasdaq-cost/costco-wholesale/news/the-bull-case-for-costco-wholesale-cost-could-change-followi",
+    "https://public.com/stocks/cost/forecast-price-target",
+    "https://www.gurufocus.com/term/pettm/COST",
+    "https://fullratio.com/stocks/nasdaq-cost/pe-ratio"
+  ]
+}

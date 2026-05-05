@@ -1,12 +1,14 @@
-# b_premarket summary 20260505_053944
+# b_decide summary 20260505_053944
 
-- candidates in: 12
-- mechanical survivors: 4
-- final today_watchlist: 4
+- approved: 0
+- rejected: 4
 
-## Today's setups
+## Approved trades
 
-- TSM (breakout, conv=6, watch=403.0, invalidate=397.0)
-- ALL (breakout, conv=5, watch=224.5, invalidate=219.5)
-- COST (breakout, conv=5, watch=1015.0, invalidate=1005.0)
-- NBIS (breakout, conv=4, watch=176.5, invalidate=173.0)
+
+## Rejections (with reasons)
+
+- **ALL**: single_position_cap_exceeded
+- **COST**: single_position_cap_exceeded
+- **NBIS**: single_position_cap_exceeded
+- **TSM**: single_position_cap_exceeded: Gate 0 direction consensus passed (all 4 perspectives echo setup_direction='long'). Gate 1 budget pre-check passed (can_open_new_position=true, phase=scaling_week_1_2). G...

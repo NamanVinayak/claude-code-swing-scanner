@@ -1,0 +1,25 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 1015.00, "high": 1018.00},
+  "target": 1054.00,
+  "stop": 1003.00,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Full bullish MA stack confirmed: price $1012.79 above EMA 5/10/20/50/200 in order (pct_from_ema_50 = +2.11%, pct_from_ema_200 = +5.30%) with daily_indicators.moving_averages.ema_aligned_uptrend = true. The 50 EMA at 991.90 is well below the 200 EMA at 961.83 and rising — a textbook trend continuation backdrop for a breakout above the 1015 watch level.",
+    "Hourly trend strong and confirming: hourly adx_24 = 31.05 (strong) with plus_di 34.00 vs minus_di 14.48, hourly MACD histogram +0.7071 expanding, hourly pct_b = 0.8033 pushing the upper band, and hourly OBV trend = up (not diverging). Daily MACD also positive (line 4.21 > signal 3.20, histogram +1.01) and daily rsi_14 = 71.62 shows momentum thrust, not exhaustion (no bearish divergence flagged).",
+    "Clean breakout R:R from a defined base: nearest daily resistance 1026.95 then recent_high 1034.32, with fib_ext_1272 = 1054.64 as a logical measured-move target. Stop at 1003 sits below invalidation 1005 and below daily fib_382 = 1005.78. From entry mid 1016.50: reward 37.50 vs risk 13.50 = 2.78:1. ATR_14 = 18.09 (1.79%) — target is ~2.1 ATR away, achievable in 7–10 sessions, and dividend hike + Buy-consensus catalyst flow (per WebSearch) supports the bid."
+  ],
+  "risks_acknowledged": [
+    "daily rsi_14 = 71.62 is technically overbought; combined with daily volume.obv.trend = down and obv.diverging_from_price = true, this is a real warning that the latest push lacks broad accumulation on the daily timeframe even though hourly OBV is up.",
+    "Daily ADX_14 = 14.18 ('weak') means the daily trend strength reading is soft — the move may chop sideways at resistance 1026.95 / recent_high 1034.32 before any clean extension to 1054.",
+    "Q3 FY2026 earnings report on May 28, 2026 (~23 days out per facts.earnings.days_until_next). Outside the 3-day blackout but the trade must close before that print or carry binary headline risk into the second half of holding window.",
+    "Relative volume on 2026-05-04 = 0.84 (below 20d avg) — the breakout attempt above 1015 needs volume expansion to ≥ 1.2x to be trusted; a low-volume push through 1015 is more likely to fail at 1026.95."
+  ],
+  "web_sources_last_7d": [
+    "https://simplywall.st/stocks/us/consumer-retailing/nasdaq-cost/costco-wholesale/news/the-bull-case-for-costco-wholesale-cost-could-change-followi",
+    "https://www.fool.com/investing/2026/05/03/what-dividend-investors-need-to-know-about-costco/",
+    "https://public.com/stocks/cost/forecast-price-target"
+  ]
+}

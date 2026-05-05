@@ -1,0 +1,23 @@
+{
+  "ticker": "NBIS",
+  "setup_direction": "long",
+  "bear_strength": 8,
+  "setup_invalidation_levels": [168.71, 156.00, 146.98],
+  "top_3_arguments": [
+    "Chart is dangerously extended on every stretch metric: daily z_score_50 = 2.12, dist_from_50sma_pct = 43.18%, momentum.roc_21d = +62.12%, bollinger.pct_b = 0.9571 (riding upper band), and hourly rsi_21 = 84.23 (textbook overbought). Price is +21.13% above ema_20 and +36.42% above ema_50 — buying a breakout here is buying the very top of a 5-day vertical move (135.51 to 176.42). Mean reversion to the daily middle BB (149.82) is a 15% drawdown that would obliterate the 1% risk budget at any reasonable stop.",
+    "Daily volume/momentum internals are ALREADY warning of distribution despite the headline pop: daily volume.volume_bias_10d = 'down', daily obv.trend = 'down' with diverging_from_price = true (classic bearish divergence — price making new highs while OBV declines), and daily macd histogram = -0.4383 with bullish_crossover = false (signal_line 9.6949 above macd_line 9.2565). The 24.7M-share session was 1.47x avg, but the 10-day bias is still negative — the rally is being faded into. A true breakout requires accumulation, not distribution.",
+    "Earnings blackout risk is acute: earnings.days_until_next = 8 (Q1 2026 release confirmed May 13 pre-market). Stage 2 dropped earnings within 3 days, but a long entered today would carry naked into a ~14% daily ATR (atr_pct = 7.09) name reporting in 6 trading days. With Wolfe Research's fresh fair-value range of $80-$170 (current $176.42 sits ABOVE the high end) and a $643M Eigen AI acquisition adding integration risk, the asymmetry is awful: limited upside to the 1.272 fib extension at $203.81 (+15%) versus a fully-justified gap-down to fib_236 at $158.22 (-10%) or worse on any earnings disappointment."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely strong: ema_aligned_uptrend = true on both daily and hourly, price above ALL MAs (5/10/20/21/50/200), adx_14 = 39.42 with plus_di 26.01 > minus_di 17.55 confirming a strong directional uptrend, and supertrend/MA stack is clean.",
+    "Catalyst stack is real and recent (last 7 days): TD SYNNEX AI distribution partnership and Eigen AI acquisition announcement — these are legitimate fundamental drivers behind the May 4 +13.85% gap, not just chart noise.",
+    "Hourly OBV trend is 'up' with diverging_from_price = false and hourly volume_bias_10d = 'up' — short-term accumulation is real even as the daily 10d bias rolls over."
+  ],
+  "web_sources_last_7d": [
+    "https://www.timothysykes.com/news/nebius-group-nv-nbis-news-2026_05_04-3/",
+    "https://www.timothysykes.com/news/nebius-group-nv-nbis-news-2026_05_04/",
+    "https://www.investing.com/news/company-news/why-is-nebius-stock-surging-today-93CH-4656579",
+    "https://www.stocktitan.net/news/NBIS/nebius-group-announces-date-of-first-quarter-2026-results-and-d23e0mn8rme3.html",
+    "https://seekingalpha.com/article/4897914-nebius-q1-earnings-preview-compounding-ai-story-still-early"
+  ]
+}

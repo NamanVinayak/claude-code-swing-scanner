@@ -1,0 +1,21 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 1015.00, "high": 1018.00},
+  "target": 1042.00,
+  "stop": 1004.00,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Strong tape catalyst stack from web fallback (recent_news_7d empty in bundle): Costco March 2026 sales report (released 2026-04-08) showed net sales +11.3% YoY to $28.41B with total comparable sales +9.4% and digitally-enabled comps +23.3% — narrative tailwind into the next earnings print on 2026-05-28 (earnings.days_until_next = 23, well outside the 5-day blackout window).",
+    "Daily structure is clean breakout-pending: price 1012.79 above all major MAs (above_ema_5/10/20/50/200 all true, ema_aligned_uptrend true, pct_from_sma_200 = +6.83%), MACD histogram positive (+1.0098, macd_line 4.2059 > signal 3.1961), and daily ADX +DI 30.59 vs -DI 13.19 confirms long-side directional bias. Watch_level 1015 sits just above pivot_high 1011.36 (29 tests) — first close through clears multi-month overhead.",
+    "Hourly timing aligns: hourly ADX 31.05 = 'strong' trend with +DI 34.0 / -DI 14.48, OBV trend 'up' with no divergence, bollinger pct_b 0.8033 (price riding upper band), z_score_120 = 1.51. Math: entry mid 1016.5, stop 1004 (risk 12.5), target 1042 just below hourly fib_ext_1272 of 1043.78 (reward 25.5) — R:R = 2.04:1, clears the 2:1 hurdle."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_14 = 71.62 is in overbought territory — breakout could fail on a momentum reset before clearing 1015 cleanly.",
+    "Daily OBV trend is 'down' and diverging_from_price — institutional distribution under the surface; relative_volume 0.84 means today's tape is below the 20-day average, weakening breakout conviction.",
+    "Forward P/E ~47x already prices in years of growth (per web fallback bull-case piece); 2026-05-28 earnings (23 days out) is a hard catalyst that can re-rate the multiple either way — exit before print recommended.",
+    "recent_insider_trades is empty (no insider buying to confirm catalyst); recent_news_7d also empty in bundle — thesis leans on web-sourced March sales report (>7 days old, dated 2026-04-08) for the narrative anchor, lowering bull_strength to 6 rather than 7+."
+  ],
+  "web_sources_last_7d": ["none-cited"]
+}

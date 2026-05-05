@@ -1,0 +1,11 @@
+{
+  "ticker": "NBIS",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "NBIS",
+      "reason": "single_position_cap_exceeded"
+    }
+  ],
+  "summary": "NBIS rejected at Gate 4. Direction consensus PASS (all 4 perspectives long); risk budget PASS (can_open_new_position=true, scaling_week_1_2); expected return PASS (combined_p_bull=0.4833 from bull_a 7 / bear_a 8 and bull_b 7 / bear_b 7; entry=177.50, target=min(191.80,191.80)=191.80, stop=max(172.50,170.50)=172.50; ER/share = 0.4833*(191.80-177.50) - 0.5167*(177.50-172.50) = +$4.33). Gate 3 quantity = floor(125 / 5.00) = 25 shares (risk_dollars = 25000 * 0.01 * 0.5 = $125, risk_per_share = $5.00). Gate 4 FAIL: notional = 177.50 * 25 = $4437.50 exceeds single_position_cap = 25000 * 0.15 = $3750. The 1% risk budget at the consensus $5 stop forces a notional that breaches the 15% single-position cap given NBIS's $176-class price; cannot size this trade within both gates simultaneously."
+}

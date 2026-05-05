@@ -1,0 +1,21 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 220.00, "high": 224.50},
+  "target": 233.29,
+  "stop": 214.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Full bullish MA stack on the daily: price 219.87 above ema_5/10/20/21/50/200 with ema_aligned_uptrend=true; price_vs_ma.pct_from_ema_50=+4.18% and pct_from_ema_200=+7.07%, and daily ADX_14=34.2 (strong trend) — trend regime is intact and pulling toward a watch_level breakout at 224.50.",
+    "Hourly tape confirms acceleration into the breakout: hourly current_price=221.57 above all hourly MAs (ema_24/48/120 all rising), hourly RSI_21=66.01, hourly MACD histogram=+0.3825 expanding, hourly +DI=30.71 vs -DI=14.54, and hourly bollinger pct_b=1.1064 (riding the upper band) — momentum is breaking out on the lower timeframe, ideal for entering the daily breakout setup.",
+    "Volume + structure support follow-through: daily relative_volume=1.32 with volume_bias_10d=up and OBV trending up (no divergence); daily fib_ext_1272=226.52 and fib_ext_1618=233.29 give a measurable upside path, while the 50-day SMA at 210.69 and pivot_low at 203.03 sit well below entry, giving a clean structural floor."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_divergence.bearish=true over 60-bar lookback — price made a higher high vs RSI lower high, signaling momentum exhaustion risk if 224.50 is rejected.",
+    "Daily -DI (21.38) currently exceeds +DI (16.08) despite strong ADX, meaning the daily trend strength is being driven by recent down-pressure as much as up — direction is not unambiguous on the daily DMI.",
+    "Daily bollinger pct_b=1.02 (price at/above upper band) and z_score_50=2.05 indicate the stock is statistically extended; a mean-revert pullback to the 20-SMA (214.90) is plausible before any sustained breakout.",
+    "recent_news_7d is empty and wiki_context is missing (new_ticker=true) — no fundamental catalyst confirmed for the breakout, raising the chance this is a thin technical move that fades."
+  ],
+  "web_sources_last_7d": ["none-cited"]
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "ALL",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "ALL",
+      "reason": "single_position_cap_exceeded"
+    }
+  ],
+  "summary": "ALL long rejected: although Gates 0-3 pass (direction consensus long across all 4 perspectives; can_open_new_position=true; expected_return_per_share = 0.5385*(233.29-222.25) - 0.4615*(222.25-219.20) = +$4.54 positive; risk-sized quantity = floor(125/3.05) = 40 shares), Gate 4 fails: notional = 222.25 * 40 = $8,890 exceeds single_position_cap_pct 15% of $25,000 = $3,750. Stop at 219.20 sits too close to entry 222.25 (risk_per_share only $3.05 = 1.37%), so the 1% account-risk budget translates into a notional that breaches the position-size cap. No approvable trade structure available without widening the stop, which the bull perspectives did not propose."
+}

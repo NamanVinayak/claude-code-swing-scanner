@@ -1,0 +1,27 @@
+{
+  "ticker": "TSM",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 402.00, "high": 404.00},
+  "target": 418.00,
+  "stop": 395.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "AI-driven capex confirmation within last 7 days: per Taipei Times 2026-05-05 and Motley Fool 2026-05-02, TSMC CEO C.C. Wei reaffirmed 2026 capex at upper end of $52-56B and 2nm capacity CAGR of ~70% through 2028, while Taiwan-listed TSMC closed +6.56% at NT$2,275 record on AI optimism — fresh narrative tailwind aligning with the long bias.",
+    "Bernstein price-target raise to $330 (from $290) and consensus 'Strong Buy' with average PT around $387-465 (Public.com / MarketBeat / TipRanks within last 7 days) frames smart-money positioning as supportive at $401.61 current price, providing analyst-flow underpinning for a breakout above $403.",
+    "Tape confirms the catalyst: daily ema_aligned_uptrend=true, price 11.38% above sma_50 and 29.97% above ema_200, ADX 39.61 (strong trend, +DI 32.88 vs -DI 15.6), MACD histogram +1.6414 positive, bb_pct_b 0.83 (room to upper band 412.73), and 2026-05-04 closed at 401.61 just under the watch_level 403 — earnings 72 days out so no near-term blackout risk."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_21 = 72.05 and rsi_7 = 71.42 are stretched; volume on 2026-05-04 was 9.95M vs 20d avg 13.68M (rel_vol 0.73) — breakout attempt is happening on light tape, raising failure risk.",
+    "Hourly rsi_divergence.bearish = true and hourly OBV trend 'down' diverging from price — short-timeframe distribution undercurrent could trigger a fade back into 395-397 invalidation zone.",
+    "recent_news_7d from Finnhub was empty; catalyst case rests on WebSearch fallback rather than primary feed — if those headlines are already priced in (TSMC up sharply in Taiwan session), upside to $418 may compress.",
+    "Geopolitical / tariff and Taiwan-strait risk is always tail-fat for TSM and not reflected in current technicals."
+  ],
+  "web_sources_last_7d": [
+    "https://www.fool.com/investing/2026/05/02/great-news-for-taiwan-semiconductor-stock-investor/",
+    "https://www.taipeitimes.com/News/front/archives/2026/05/05/2003856767",
+    "https://www.fool.com/investing/2026/04/30/whats-going-on-with-taiwan-semiconductor-stock/",
+    "https://public.com/stocks/tsm/forecast-price-target",
+    "https://www.marketbeat.com/stocks/NYSE/TSM/forecast/"
+  ]
+}

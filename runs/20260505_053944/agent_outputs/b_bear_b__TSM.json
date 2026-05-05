@@ -1,0 +1,23 @@
+{
+  "ticker": "TSM",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Thesis-integrity risk from US-China tariff/geopolitical overhang: per web search (last 7 days, Motley Fool 2026-05-03 Bull vs Bear, Simply Wall St tariff piece), tariffs and Taiwan-Strait tensions remain the dominant identified risk for TSM, and US fabs carry structurally lower margins. With no near-term earnings catalyst (earnings.days_until_next = 72) to refute these macro concerns, a long here is funded by sentiment alone and exposed to any tariff/geopolitical headline shock.",
+    "Valuation/extension: stock is 11.38% above the 50-SMA with z_score_50 = 1.78 and bollinger pct_b = 0.83 (near upper band). Nearest daily resistance is $414.5 (only ~3.2% upside from $401.61) versus an invalidation level at $397 (~1.1% downside). With market cap already ~$2.08T, mean-reversion math is asymmetric against the long: small reward, fast invalidation, and any consensus revision around tariff-cost pass-through immediately compresses the multiple.",
+    "Hidden risk — bearish microstructure into the breakout attempt: hourly_indicators.rsi_divergence.bearish = true, hourly OBV trend = 'down' and diverging_from_price = true, hourly MACD histogram = -0.2614 (negative, no bullish crossover on daily either). Daily ROC_5d = -0.83 (5-day momentum already negative) and daily relative_volume = 0.73 (volume on the run-up is BELOW average, 9.95M vs 13.68M avg-20). Distribution signature into resistance with no insider-buy support (recent_insider_trades = []) — classic late-move buyer-exhaustion pattern that doesn't reward chasing $403 breakouts."
+  ],
+  "bull_acknowledgements": [
+    "AI-driven demand remains genuinely robust per CEO C.C. Wei (web search, last 7 days): 2026 capex guided to upper end of $52-56B band, 2nm capacity expected to compound ~70% CAGR through 2028 — the secular fundamental story is intact, not broken.",
+    "Tariff cut from 20% to 15% (Simply Wall St, last 7 days) is a real positive that improves price competitiveness vs Samsung/Intel and partially de-risks the macro overhang I flagged above.",
+    "EMA stack is fully aligned (5>10>20>50>200, ema_aligned_uptrend = true), ADX_14 = 39.61 with +DI 32.88 vs -DI 15.6 — the primary daily trend is genuinely strong, so a true breakout above $403.99 with volume could run; my bear case is a conviction discount, not a thesis kill."
+  ],
+  "web_sources_last_7d": [
+    "https://www.fool.com/investing/2026/05/03/bull-vs-bear-is-taiwan-semiconductor-manufacturing/",
+    "https://www.fool.com/investing/2026/05/02/great-news-for-taiwan-semiconductor-stock-investor/",
+    "https://www.taipeitimes.com/News/front/archives/2026/05/05/2003856767",
+    "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/tariff-cuts-and-us-investments-reframe-tsmc-growth-and-valua",
+    "https://ts2.tech/en/taiwan-semiconductor-manufacturing-company-limited-stock-jumps-as-tsmcs-longtan-fab-plan-returns/"
+  ]
+}

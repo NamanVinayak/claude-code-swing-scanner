@@ -1,0 +1,27 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 224.00, "high": 225.00},
+  "target": 236.00,
+  "stop": 219.20,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Q1 2026 earnings (reported 2026-04-30, within 7-day window) crushed: EPS $10.65 vs $7.68 consensus (+38.7%), revenue $16.94B vs $15.12B (+12%), property-liability combined ratio improved to 82.0% (underlying 80.3, -2.8pts YoY); company also announced $4B share buyback authorization (~7% of shares out) — durable post-earnings drift catalyst.",
+    "Smart-money confirmation in last 7 days: Piper Sandler raised PT to $268 from $252 and Citi raised PT to $226 from $221 on 2026-05-01; price holding above all key MAs (above EMA_5/10/20/50/200, ema_aligned_uptrend=true, dist_from_50sma_pct=4.35) with daily MACD bullish crossover (histogram +0.1442) and ADX_14=34.2 confirming strong trend.",
+    "Setup math: entry midpoint 224.50, stop 219.20 (risk 5.30), target 236.00 (reward 11.50) gives 2.17:1 R:R; target supported by daily fib_ext_1618=233.29 and momentum (roc_21d=6.20, OBV trending up, relative_volume=1.32 on 2026-05-04 reclaim); hourly z_score_120=2.68 and pct_b=1.10 show breakout already in motion above prev pivot 221.19."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_divergence.bearish=true on 60-bar lookback signals momentum waning even as price grinds higher — classic late-stage trend warning.",
+    "Post-earnings gap from a $217 → $224 pre-market move means much of the catalyst may already be priced in; chasing breakouts after analyst PT raises has lower R:R than buying the post-earnings dip.",
+    "Hourly ADX_24=15.7 (weak trend) and current hourly volume relative_volume=0.72 suggest the breakout extension may lack conviction at the open.",
+    "Daily BB pct_b=1.02 (price above upper band) and z_score_50=2.05 indicate near-term overextension; mean reversion risk to 220 area before any sustained push to 230+."
+  ],
+  "web_sources_last_7d": [
+    "https://www.fool.com/earnings/call-transcripts/2026/04/30/allstate-all-q1-2026-earnings-transcript/",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-allstates-q1-2026-earnings-soar-past-expectations-93CH-4650194",
+    "https://www.investing.com/news/company-news/allstate-q1-2026-slides-profitability-soars-market-share-expands-93CH-4650368",
+    "https://finance.yahoo.com/markets/stocks/articles/q1-earnings-beat-estimates-strong-172700250.html",
+    "https://www.stocktitan.net/sec-filings/ALL/8-k-allstate-corp-reports-material-event-e597ee98d322.html"
+  ]
+}

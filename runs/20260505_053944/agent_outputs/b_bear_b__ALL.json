@@ -1,0 +1,17 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bear_strength": 5,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Price is statistically extended with limited room before mean-reversion: daily z_score_50 = 2.05 and hourly z_score_120 = 2.68, daily Bollinger pct_b = 1.02 (above upper band at 219.68) and hourly pct_b = 1.1064 (above hourly upper band at 220.65). Buying a breakout at watch_level 224.5 means chasing into a 2-sigma stretch with no nearby resistance defined (nearest_resistance is null) — the path of least resistance from here is mean-reversion toward sma_20 = 214.90 or sma_50 = 210.69, not continuation. Fundamental valuation multiples are not in the facts bundle so I cannot quantify P/E vs sector — flagged as unconfirmed via web.",
+    "Thesis-integrity gap: recent_news_7d is empty, recent_insider_trades is empty, earnings.days_until_next is null, and wiki_context shows new_ticker = true with thesis_full / catalysts_full / technicals_full all missing. There is no fundamental catalyst on the table to power a sustained breakout to fib_ext_1272 = 226.52. catalyst_note explicitly says the +2.0% overnight gap to 224.26 'partially delivered the breakout move' — buyers paying $224.5 are buying the second half of a move on a TradingView signal alone, with zero corroborating fundamental flow and no upcoming catalyst window known to us.",
+    "Daily-chart momentum quality is weaker than the trend label suggests: daily ADX_14 = 34.2 reads 'strong trend' but plus_di (16.08) is BELOW minus_di (21.38), which is structurally a bearish DI configuration, and daily rsi_divergence.bearish = true over a 60-bar lookback. Daily MACD histogram is only 0.1442 (bullish_crossover just printed — early and shallow). Hourly relative_volume = 0.72 (below average) and hourly ADX_24 = 15.7 (weak). A 'breakout' that arrives with weak hourly trend strength, sub-average hourly volume, and an active daily bearish divergence is a low-quality signal — the kind that fades back through the bollinger middle (214.90) once index-driven momentum cools."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure on the daily is genuinely intact: full EMA stack aligned uptrend (5>10>20>50>200), price above every MA, sma_200 = 204.11 with the stock 7.72% above it. obv.trend = up with no divergence from price.",
+    "Momentum surface is positive: daily MACD bullish_crossover = true, plus_di > minus_di on the hourly (30.71 vs 14.54), hourly EMAs aligned uptrend. The +2.0% overnight gap and current 219.87 close (vs prior 216.59) show real demand.",
+    "RSI is not overbought: daily rsi_14 = 56.76 leaves headroom — the bear can't argue 'too hot' on the most-watched oscillator."
+  ],
+  "web_sources_last_7d": ["none-cited"]
+}

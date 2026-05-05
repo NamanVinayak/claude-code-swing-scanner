@@ -1,0 +1,21 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [1005.0, 1002.5, 996.96],
+  "top_3_arguments": [
+    "Volume + OBV reject the breakout thesis: daily_indicators.volume.relative_volume = 0.84 (below 20d avg 1,765,240 vs current 1,479,400) and OBV trend = 'down' with diverging_from_price = true. A breakout above the watch_level 1015 with sub-average volume and a falling OBV is the textbook fakeout signature — institutions are not accumulating into this push.",
+    "Daily momentum is overbought and stalling, not igniting: rsi.rsi_14 = 71.62 (above 70 overbought line) while rsi.rsi_7 = 49.86 — short-term momentum has already rolled even as the longer reading remains elevated. roc_21d = -0.07 confirms price is essentially flat over the last 21 sessions despite the optical 'trend.' adx_14 = 14.18 is classified 'weak' — there is no real directional thrust to power a breakout from here. Bollinger pct_b = 0.68 with z_score_50 = 1.12 shows price is already stretched 1+ stdev above the 50-day mean.",
+    "Reward-to-risk at the proposed entry is unworkable: from watch_level 1015.00 to nearest_resistance 1026.95 is +1.18% upside before heavy supply (recent_high 1034.32 acted as a clear rejection on May 1 with a 1031.27 high closing back at 1011.70, a 19-point upper wick). Stop at invalidation_level 1005 = -0.99% risk. That is roughly 1.2:1 R:R before a target, well below the 2:1 minimum — and the pivot_high at 1011.36 with 29 tests means you are buying directly into the most-tested overhead level on the daily chart."
+  ],
+  "bull_acknowledgements": [
+    "MA structure is unambiguously bullish on both timeframes: daily price above ema_5/10/20/50/200 with ema_aligned_uptrend = true, and same alignment on hourly. Price is +6.83% above sma_200, which is real trend support.",
+    "Hourly tape is constructive and stronger than the daily: hourly adx_24 = 31.05 ('strong'), plus_di 34.0 vs minus_di 14.48, hourly OBV trend = 'up' and not diverging, hourly relative_volume 1.09. If the breakout does take, the hourly is where it will show up first.",
+    "MACD is positive on both timeframes (daily macd_line 4.21 > signal 3.20, histogram +1.01) and there is no rsi_divergence flagged bearish on either timeframe — so the bear case here is about extension and weak volume, not a confirmed top."
+  ],
+  "web_sources_last_7d": [
+    "https://www.fool.com/investing/2026/05/03/what-dividend-investors-need-to-know-about-costco/",
+    "https://stockanalysis.com/stocks/cost/forecast/",
+    "https://public.com/stocks/cost/forecast-price-target"
+  ]
+}

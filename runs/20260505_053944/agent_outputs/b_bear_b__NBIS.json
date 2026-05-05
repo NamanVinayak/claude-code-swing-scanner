@@ -1,0 +1,23 @@
+{
+  "ticker": "NBIS",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Earnings landmine 8 days out: earnings.days_until_next = 8 (Q1 2026 report confirmed for May 13 pre-market). Entering a long at $176.42 — a fresh all-time-area high after a +30% 5-day move (close $135.51 → $176.42, roc_5d = +21.7%, roc_21d = +62.12%) — into a print where expectations are now sky-high after the Microsoft $17B deal narrative and TD SYNNEX/Eigen AI hype. Any guidance miss or capex outlook softening on May 13 erases the entire breakout. Holding through is binary risk; exiting before kills the runway.",
+    "Valuation/extension is parabolic with no margin of safety: stock is +43.18% above 50-SMA (dist_from_50sma_pct), +79.68% above 200-EMA, daily z_score_50 = 2.12 (statistically stretched), bollinger pct_b = 0.9571 (riding the upper band), and hourly rsi_21 = 84.23 (deeply overbought). Market cap is already $44.04B — the easy re-rating from prior depressed levels is done; further upside now requires fundamentals to validate AI-cloud peer multiples, which Q1 must prove on May 13.",
+    "Internal tape is decaying under the price spike — classic blow-off signature: daily MACD histogram = -0.4383 with NO bullish crossover (macd_line 9.2565 < signal_line 9.6949), daily rsi_14 = 58.15 despite price at recent_high = 179.4 (negative momentum-vs-price tell), daily volume.obv.trend = 'down' with diverging_from_price = true (distribution into the rip), and volume_bias_10d = 'down'. The catalysts driving the move (TD SYNNEX deal, Eigen AI $643M acquisition, Reddit hype per web search 2026-05-04) are already priced in over the last 5 sessions — by the rule of 'buy the rumor, sell the news' the marginal buyer is exhausted heading into a print 8 days away."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely strong: daily ADX_14 = 39.42 with plus_di > minus_di (26.01 vs 17.55) and ema_aligned_uptrend = true across 5/10/20/50/200 — this is not a fakeout, it is a real impulse leg.",
+    "Catalyst flow is real and recent: Microsoft $17B agreement, TD SYNNEX channel partnership (NVIDIA HGX B300), and Eigen AI acquisition (web sources, last 7 days) give the AI-cloud thesis tangible revenue backing — the bull thesis is not vapor.",
+    "recent_insider_trades is empty — no executive selling cluster to point to as a tell, so I cannot make an insider-distribution argument."
+  ],
+  "web_sources_last_7d": [
+    "https://www.timothysykes.com/news/nebius-group-nv-nbis-news-2026_05_04/",
+    "https://www.timothysykes.com/news/nebius-group-nv-nbis-news-2026_05_04-3/",
+    "https://www.stocktitan.net/news/NBIS/nebius-group-announces-date-of-first-quarter-2026-results-and-d23e0mn8rme3.html",
+    "https://www.investing.com/news/company-news/why-is-nebius-stock-surging-today-93CH-4656579",
+    "https://www.tradingkey.com/news/market-movers/261853716-market-movers-nbis-20260504"
+  ]
+}

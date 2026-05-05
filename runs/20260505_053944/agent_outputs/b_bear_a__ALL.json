@@ -1,0 +1,21 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [216.58, 214.24, 211.40],
+  "top_3_arguments": [
+    "Daily bearish RSI divergence is flagged (daily_indicators.rsi_divergence.bearish = true, 60-bar lookback) and the daily ADX trend is structurally bearish despite 'strong' label: minus_di 21.38 > plus_di 16.08 with adx_14 = 34.2. Translation: the strongest directional pressure on the daily is to the DOWNSIDE, not up — buying a 'breakout' against -DI dominance is fading the dominant force.",
+    "Price is statistically extended and at upper-band exhaustion across both timeframes: daily bollinger.pct_b = 1.02 (above upper band 219.68), hourly pct_b = 1.1064 (above upper 220.65), daily z_score_50 = 2.05 and hourly z_score_120 = 2.68. With watch_level at 224.5, entry would be initiated at >2.5 sigma stretch directly into the prior-day-high pivot at 221.19 (3 tests, volume_confirmed) — that level is overhead supply, not a clean breakout.",
+    "Volume confirmation is failing on the gap-up: hourly_indicators.volume.relative_volume = 0.72 (well below average) and hourly ADX = 15.7 ('weak' trend strength) — a real breakout requires expanding volume, not 28% below the 20-bar hourly average. Compounding this, recent_news_7d via WebSearch shows Allstate disclosed $925M March catastrophe losses ($731M after-tax) layered on top of $315M Jan-Feb losses — a fresh fundamental overhang that explains why participation is thin and why the stock keeps stalling at 221."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is genuinely bullish on both timeframes: price above EMA 5/10/20/21/50/200 daily with ema_aligned_uptrend = true, and daily MACD bullish_crossover = true with positive histogram (+0.1442). The longer-term trend is intact.",
+    "Daily OBV trend = up and not diverging from price (volume.obv.diverging_from_price = false), and daily relative_volume = 1.32 — the daily-timeframe volume is supportive even though hourly is weak.",
+    "Q1 2026 earnings (Apr 30) were strong — $2.4B net income, $10.65 EPS, $4B buyback, combined ratio improving 2.8pts YoY — and Piper Sandler raised target to $268 May 1. Fundamental tailwind is real."
+  ],
+  "web_sources_last_7d": [
+    "https://www.fool.com/earnings/call-transcripts/2026/04/30/allstate-all-q1-2026-earnings-transcript/",
+    "https://finance.yahoo.com/quote/ALL/news/",
+    "https://simplywall.st/stocks/us/insurance/nyse-all/allstate/news/will-early-2026-catastrophe-losses-reshape-allstates-all-tec"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "COST",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "COST",
+      "reason": "single_position_cap_exceeded"
+    }
+  ],
+  "summary": "COST rejected: Gate 0 direction consensus PASS (all 4 perspectives long); Gate 1 budget PASS (can_open=true, phase=scaling_week_1_2); Gate 2 expected return PASS (p_bull_tech=7/(7+7)=0.50, p_catalyst=6/(6+6)=0.50, combined_p_bull=0.50; entry=(1015+1018)/2=1016.50; target=min(1054,1042)=1042.00; stop=max(1003,1004)=1004.00; ER/share=0.50*(1042-1016.50)-0.50*(1016.50-1004)=+$6.50). Gate 3 sizing: risk_dollars=25000*0.01*0.5=$125, risk/share=|1016.50-1004|=$12.50, qty=floor(125/12.50)=10. Gate 4 FAILS: notional=1016.50*10=$10,165.00 > single_position_cap=25000*0.15=$3,750.00. COST's $1,012 share price is incompatible with the 15% single-position cap at our $25k account size — the position simply cannot be sized to satisfy both 1% trade-risk AND 15% notional cap simultaneously."
+}

@@ -24,7 +24,13 @@ from typing import Literal
 from zoneinfo import ZoneInfo
 
 from ai_hedge.data.capitol_trades import get_recent_trades
-from ai_hedge.data.tradingview import find_signals, lookup_metadata
+from ai_hedge.data.tradingview import (
+    find_short_episodic_pivot,
+    find_short_sector_laggard,
+    find_short_stage4_breakdown,
+    find_signals,
+    lookup_metadata,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -72,6 +78,15 @@ class ScanConfig:
     # Scoring + output
     min_reasons_to_advance: int = 2
     max_candidates: int = 40
+
+    # Short-side setup-based scanner (parallel to signal-overlap path).
+    # Setup names: "stage4_momentum_breakdown" (Minervini), "bearish_episodic_pivot"
+    # (Stockbee), "sector_laggard_decline". Each setup produces shorts from a
+    # custom screener filter; results are deduped by ticker and merged into the
+    # main candidate list with direction='short'. Disable if shorts are unwanted
+    # or if the parallel API calls cost too much.
+    short_setups_enabled: bool = True
+    short_setups_max_per_setup: int = 50  # cap per individual setup query
 
 
 @dataclass
@@ -351,6 +366,30 @@ def run_sunset_scan(
             )
         )
 
+    # Step 5.5: Short-setup scanner (parallel to signal-overlap path).
+    # Calls 3 trader-validated setup screeners that don't depend on signal
+    # overlap working — fixes the structural "0 shorts ever" problem of
+    # the signal-only approach. See ai_hedge/data/tradingview.py
+    # find_short_* functions for setup definitions and trader provenance.
+    short_setup_added = 0
+    short_setup_dropped_dup = 0
+    if config.short_setups_enabled:
+        try:
+            short_setup_candidates = _collect_short_setup_candidates(
+                config=config,
+                already_present_tickers={c.ticker for c in candidates_built},
+            )
+            short_setup_added = len(short_setup_candidates)
+            candidates_built.extend(short_setup_candidates)
+            logger.info(
+                "Short setups added %d candidates (deduped against signal-path)",
+                short_setup_added,
+            )
+        except Exception as exc:
+            err = f"short_setups failed: {type(exc).__name__}: {exc}"
+            logger.error(err, exc_info=True)
+            errors.append(err)
+
     # Step 6: Sort + truncate
     candidates_built.sort(key=lambda c: (-c.score, -(c.market_cap_usd or 0.0)))
     candidates = candidates_built[: config.max_candidates]
@@ -366,6 +405,7 @@ def run_sunset_scan(
     signal_counts["directional_singletons_long"] = directional_singletons_long
     signal_counts["directional_singletons_short"] = directional_singletons_short
     signal_counts["below_threshold_drops"] = below_threshold_drops
+    signal_counts["short_setups_added"] = short_setup_added
 
     elapsed = time.monotonic() - t_start
     logger.info(
@@ -388,6 +428,84 @@ def run_sunset_scan(
         errors=errors,
         elapsed_seconds=elapsed,
     )
+
+
+def _collect_short_setup_candidates(
+    *,
+    config: ScanConfig,
+    already_present_tickers: set[str],
+) -> list[Candidate]:
+    """Run the 3 setup-based short screeners and return Candidate objects.
+
+    Setups (each from documented short-trader research):
+      - stage4_momentum_breakdown (Minervini Stage 4): inverted MA stack +
+        volume confirmation + RSI > 30
+      - bearish_episodic_pivot (Stockbee BEP): catalyst-driven gap-down
+        with 3x+ volume surge
+      - sector_laggard_decline: significant 1-month decline + below 50-day MA
+
+    A ticker hitting MULTIPLE setups gets all setup names accumulated as
+    `short_reasons`. Tickers already in the signal-overlap candidate list
+    are excluded (avoids double-counting).
+    """
+    by_ticker: dict[str, dict] = {}  # symbol -> {setup_names: list, last_dict: dict}
+
+    setup_funcs = [
+        ("stage4_momentum_breakdown", lambda: find_short_stage4_breakdown(
+            min_market_cap_usd=config.min_market_cap_usd,
+            min_avg_volume=config.min_avg_volume,
+            min_price=config.min_price,
+            max_results=config.short_setups_max_per_setup,
+        )),
+        ("bearish_episodic_pivot", lambda: find_short_episodic_pivot(
+            min_market_cap_usd=config.min_market_cap_usd,
+            min_avg_volume=config.min_avg_volume,
+            min_price=config.min_price,
+            max_results=config.short_setups_max_per_setup,
+        )),
+        ("sector_laggard_decline", lambda: find_short_sector_laggard(
+            min_market_cap_usd=config.min_market_cap_usd,
+            min_avg_volume=config.min_avg_volume,
+            min_price=config.min_price,
+            max_results=config.short_setups_max_per_setup,
+        )),
+    ]
+
+    for setup_name, fn in setup_funcs:
+        try:
+            hits = fn()
+        except Exception as exc:
+            logger.error("Short setup %s raised %s: %s", setup_name, type(exc).__name__, exc)
+            continue
+        for hit in hits:
+            sym = hit.get("symbol")
+            if not sym or sym in already_present_tickers:
+                continue
+            entry = by_ticker.setdefault(sym, {"setup_names": [], "last_dict": hit})
+            if setup_name not in entry["setup_names"]:
+                entry["setup_names"].append(setup_name)
+            entry["last_dict"] = hit  # most recent setup's data wins for the snapshot
+
+    candidates: list[Candidate] = []
+    for sym, entry in by_ticker.items():
+        h = entry["last_dict"]
+        candidates.append(
+            Candidate(
+                ticker=sym,
+                exchange=str(h.get("exchange") or ""),
+                last_close=float(h["last_close"]) if h.get("last_close") is not None else 0.0,
+                market_cap_usd=float(h["market_cap"]) if h.get("market_cap") is not None else None,
+                volume=int(h["volume"]) if h.get("volume") is not None else None,
+                change_pct_today=float(h["change_pct"]) if h.get("change_pct") is not None else None,
+                long_reasons=[],
+                short_reasons=list(entry["setup_names"]),
+                direction="short",
+                reasons=list(entry["setup_names"]),
+                capitol_buys_30d=0,
+                capitol_buys_politicians=[],
+            )
+        )
+    return candidates
 
 
 def _candidate_to_dict(c: Candidate) -> dict:
@@ -449,6 +567,8 @@ def write_scan_outputs(result: ScanResult, runs_dir: str = "runs") -> dict[str, 
             "capitol_trades_max_pages": result.config.capitol_trades_max_pages,
             "min_reasons_to_advance": result.config.min_reasons_to_advance,
             "max_candidates": result.config.max_candidates,
+            "short_setups_enabled": result.config.short_setups_enabled,
+            "short_setups_max_per_setup": result.config.short_setups_max_per_setup,
         },
     }
     diagnostic_path.write_text(json.dumps(diagnostic, indent=2, default=str))

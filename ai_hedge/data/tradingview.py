@@ -651,6 +651,273 @@ def get_recommendation(symbol: str, *, timeframe: Timeframe = "1d") -> Recommend
     return snap.recommendation
 
 
+# ---------------------------------------------------------------------------
+# Short-candidate setup screeners (System B Stage 1 short-side path)
+# ---------------------------------------------------------------------------
+#
+# These functions implement specific short-trader setups documented in trader
+# research (Minervini Stage 4, Stockbee BEP, sector laggards). Unlike find_signals
+# which queries pre-computed signal lists, these use custom screener filters that
+# combine fundamental + technical conditions in one query.
+#
+# Strategy: do field-to-value filters at the API level (which is well-supported)
+# and field-to-field comparisons (e.g. close < SMA200) in Python after the fetch.
+# Trades a small efficiency cost for reliability across TradingView API quirks.
+#
+# Each function returns a list of dicts with the same shape, plus a `setup_name`
+# field for downstream attribution.
+
+_SHORT_SETUP_COLUMNS_BASE = [
+    "name", "close", "volume", "change", "market_cap_basic",
+    "average_volume_10d_calc", "exchange", "RSI", "SMA50", "SMA200",
+    "relative_volume_10d_calc",
+]
+
+
+def _short_setup_row_to_dict(d: list, columns: list[str], setup_name: str) -> dict | None:
+    """Convert a screener result row to a candidate dict. Returns None if any
+    critical field is missing."""
+    if len(d) < len(columns):
+        return None
+    out = {col: d[i] for i, col in enumerate(columns)}
+    return {
+        "symbol": out.get("name"),
+        "last_close": out.get("close"),
+        "volume": out.get("volume"),
+        "change_pct": out.get("change"),
+        "market_cap": out.get("market_cap_basic"),
+        "avg_volume_10d": out.get("average_volume_10d_calc"),
+        "exchange": out.get("exchange"),
+        "rsi": out.get("RSI"),
+        "sma50": out.get("SMA50"),
+        "sma200": out.get("SMA200"),
+        "relative_volume": out.get("relative_volume_10d_calc"),
+        "perf_1m": out.get("Perf.1M"),
+        "setup_name": setup_name,
+    }
+
+
+def find_short_stage4_breakdown(
+    *,
+    market: Literal["america"] = "america",
+    exchanges: Sequence[str] = ("NASDAQ", "NYSE"),
+    min_market_cap_usd: float = 1_000_000_000,
+    min_avg_volume: int = 500_000,
+    min_price: float = 5.0,
+    min_relative_volume: float = 1.2,
+    min_rsi: float = 30.0,  # squeeze protection: avoid oversold bounce candidates
+    max_results: int = 200,
+    cache_ttl_sec: int = 60,
+) -> list[dict]:
+    """Stage 4 Momentum Breakdown setup (Minervini / Weinstein methodology).
+
+    A high-quality short candidate is a stock that has structurally entered
+    Stage 4 decline:
+      - close < SMA200 (price below long-term trend)
+      - close < SMA50  (price below medium-term trend)
+      - SMA50 < SMA200 (inverted MA stack — death-cross territory)
+      - relative_volume_10d_calc > 1.2 (volume confirmation of distribution)
+      - RSI > 30 (not yet oversold — leaves room for swing move)
+    """
+    cache_key = (
+        f"short_stage4:{market}:{','.join(sorted(exchanges))}:"
+        f"minp={min_price}:minvol={min_avg_volume}:mincap={min_market_cap_usd}:"
+        f"relv={min_relative_volume}:minrsi={min_rsi}:max={max_results}"
+    )
+    cached = _cache_get(cache_key, cache_ttl_sec)
+    if cached is not None:
+        return cached
+
+    logger.info("cache miss: find_short_stage4_breakdown")
+
+    filters = [
+        {"left": "exchange", "operation": "in_range", "right": list(exchanges)},
+        {"left": "close", "operation": "greater", "right": min_price},
+        {"left": "average_volume_10d_calc", "operation": "greater", "right": min_avg_volume},
+        {"left": "market_cap_basic", "operation": "greater", "right": min_market_cap_usd},
+    ]
+    payload = {
+        "filter": filters,
+        "columns": _SHORT_SETUP_COLUMNS_BASE,
+        "sort": {"sortBy": "relative_volume_10d_calc", "sortOrder": "desc"},
+        "range": [0, max_results],
+        "options": {"lang": "en"},
+    }
+    result = _scanner_post_with_retry(market, payload)
+    rows = result.get("data") or []
+
+    output: list[dict] = []
+    for row in rows:
+        d = row.get("d", [])
+        cand = _short_setup_row_to_dict(d, _SHORT_SETUP_COLUMNS_BASE, "stage4_momentum_breakdown")
+        if cand is None:
+            continue
+        # Stage 4 conditions (Python-side because TradingView screener API
+        # is unreliable for field-to-field comparisons across versions)
+        if cand["last_close"] is None or cand["sma50"] is None or cand["sma200"] is None:
+            continue
+        if cand["rsi"] is None or cand["relative_volume"] is None:
+            continue
+        if cand["last_close"] >= cand["sma200"]:
+            continue
+        if cand["last_close"] >= cand["sma50"]:
+            continue
+        if cand["sma50"] >= cand["sma200"]:
+            continue
+        if cand["relative_volume"] < min_relative_volume:
+            continue
+        if cand["rsi"] < min_rsi:
+            continue
+        output.append(cand)
+
+    _cache_set(cache_key, output)
+    logger.info("find_short_stage4_breakdown: %d candidates passed", len(output))
+    return output
+
+
+def find_short_episodic_pivot(
+    *,
+    market: Literal["america"] = "america",
+    exchanges: Sequence[str] = ("NASDAQ", "NYSE"),
+    min_market_cap_usd: float = 1_000_000_000,
+    min_avg_volume: int = 500_000,
+    min_price: float = 5.0,
+    max_change_pct: float = -8.0,  # 8%+ drop today
+    min_relative_volume: float = 3.0,  # 3x average volume
+    min_rsi: float = 30.0,
+    max_results: int = 100,
+    cache_ttl_sec: int = 60,
+) -> list[dict]:
+    """Bearish Episodic Pivot setup (Stockbee methodology).
+
+    Identifies catalyst-driven gap-down events with massive volume surge:
+      - change < -8% (catastrophic single-day drop, typically from earnings/news)
+      - relative_volume_10d_calc > 3.0 (institutional capitulation)
+      - market_cap > $1B (avoid manipulated micro-caps)
+      - RSI > 30 (not yet oversold)
+
+    Post-Earnings Announcement Drift (PEAD) suggests these candidates continue
+    falling for 2-10 days, fitting the swing-trade window.
+    """
+    cache_key = (
+        f"short_bep:{market}:{','.join(sorted(exchanges))}:"
+        f"minp={min_price}:minvol={min_avg_volume}:mincap={min_market_cap_usd}:"
+        f"chg={max_change_pct}:relv={min_relative_volume}:minrsi={min_rsi}:max={max_results}"
+    )
+    cached = _cache_get(cache_key, cache_ttl_sec)
+    if cached is not None:
+        return cached
+
+    logger.info("cache miss: find_short_episodic_pivot")
+
+    filters = [
+        {"left": "exchange", "operation": "in_range", "right": list(exchanges)},
+        {"left": "close", "operation": "greater", "right": min_price},
+        {"left": "average_volume_10d_calc", "operation": "greater", "right": min_avg_volume},
+        {"left": "market_cap_basic", "operation": "greater", "right": min_market_cap_usd},
+        {"left": "change", "operation": "less", "right": max_change_pct},
+        {"left": "relative_volume_10d_calc", "operation": "greater", "right": min_relative_volume},
+    ]
+    payload = {
+        "filter": filters,
+        "columns": _SHORT_SETUP_COLUMNS_BASE,
+        "sort": {"sortBy": "relative_volume_10d_calc", "sortOrder": "desc"},
+        "range": [0, max_results],
+        "options": {"lang": "en"},
+    }
+    result = _scanner_post_with_retry(market, payload)
+    rows = result.get("data") or []
+
+    output: list[dict] = []
+    for row in rows:
+        d = row.get("d", [])
+        cand = _short_setup_row_to_dict(d, _SHORT_SETUP_COLUMNS_BASE, "bearish_episodic_pivot")
+        if cand is None:
+            continue
+        if cand["rsi"] is None or cand["rsi"] < min_rsi:
+            continue  # squeeze protection
+        output.append(cand)
+
+    _cache_set(cache_key, output)
+    logger.info("find_short_episodic_pivot: %d candidates passed", len(output))
+    return output
+
+
+def find_short_sector_laggard(
+    *,
+    market: Literal["america"] = "america",
+    exchanges: Sequence[str] = ("NASDAQ", "NYSE"),
+    min_market_cap_usd: float = 1_000_000_000,
+    min_avg_volume: int = 500_000,
+    min_price: float = 5.0,
+    max_perf_1m: float = -15.0,  # significant monthly decline
+    min_rsi: float = 30.0,
+    max_results: int = 200,
+    cache_ttl_sec: int = 60,
+) -> list[dict]:
+    """Sector Laggard Decline setup (relative weakness within declining sectors).
+
+    For v1, simplified to: stocks with significant 1-month decline that are
+    structurally below their 50-day MA. The "weakest links" tend to keep
+    declining when broader market weakness persists.
+
+      - Perf.1M < -15% (significant monthly decline)
+      - close < SMA50 (in confirmed downtrend)
+      - market_cap > $1B
+      - RSI > 30 (not yet oversold)
+
+    Future: refine with sector-level performance check (Performance.Sector field)
+    once we have data on which sectors typically dominate this list.
+    """
+    cache_key = (
+        f"short_laggard:{market}:{','.join(sorted(exchanges))}:"
+        f"minp={min_price}:minvol={min_avg_volume}:mincap={min_market_cap_usd}:"
+        f"perf={max_perf_1m}:minrsi={min_rsi}:max={max_results}"
+    )
+    cached = _cache_get(cache_key, cache_ttl_sec)
+    if cached is not None:
+        return cached
+
+    logger.info("cache miss: find_short_sector_laggard")
+
+    columns = _SHORT_SETUP_COLUMNS_BASE + ["Perf.1M"]
+
+    filters = [
+        {"left": "exchange", "operation": "in_range", "right": list(exchanges)},
+        {"left": "close", "operation": "greater", "right": min_price},
+        {"left": "average_volume_10d_calc", "operation": "greater", "right": min_avg_volume},
+        {"left": "market_cap_basic", "operation": "greater", "right": min_market_cap_usd},
+        {"left": "Perf.1M", "operation": "less", "right": max_perf_1m},
+    ]
+    payload = {
+        "filter": filters,
+        "columns": columns,
+        "sort": {"sortBy": "Perf.1M", "sortOrder": "asc"},  # most negative first
+        "range": [0, max_results],
+        "options": {"lang": "en"},
+    }
+    result = _scanner_post_with_retry(market, payload)
+    rows = result.get("data") or []
+
+    output: list[dict] = []
+    for row in rows:
+        d = row.get("d", [])
+        cand = _short_setup_row_to_dict(d, columns, "sector_laggard_decline")
+        if cand is None:
+            continue
+        if cand["last_close"] is None or cand["sma50"] is None:
+            continue
+        if cand["last_close"] >= cand["sma50"]:
+            continue  # must be below 50-day MA
+        if cand["rsi"] is None or cand["rsi"] < min_rsi:
+            continue  # squeeze protection
+        output.append(cand)
+
+    _cache_set(cache_key, output)
+    logger.info("find_short_sector_laggard: %d candidates passed", len(output))
+    return output
+
+
 def lookup_metadata(
     symbols: list[str],
     *,

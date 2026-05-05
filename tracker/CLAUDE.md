@@ -45,7 +45,7 @@ tracker/
 
 Free tier database used as the live trade ledger. Schema mirrors local `db.py`'s `Trade` and `DailySummary` plus two new tables:
 
-- `trades` — same columns as local schema + `last_checked_at TEXT`
+- `trades` — same columns as local schema + `last_checked_at TEXT` + `position_size_class TEXT NULL` (added 2026-05-05 for System B's small_scaled position class — see root CLAUDE.md)
 - `daily_summary` — unchanged
 - `fills` — `(trade_id, event_type, price, bar_timestamp, reason, created_at)` audit log of every state change
 - `pending_decisions` — reserved for future use
@@ -91,6 +91,8 @@ log_fill(trade_id, event_type, price, bar_timestamp, reason) -> int
 3. Print `Ingested N new trades from M new runs (K runs already seen)`
 
 Idempotent. Safe to re-run any time. The 41 historical run folders existing on 2026-04-30 are pre-marked as ingested so only future routine runs flow into the simulator.
+
+`_ensure_schema()` helper added 2026-05-05: idempotent `ALTER TABLE trades ADD COLUMN position_size_class TEXT NULL` wrapped in try/except that swallows "duplicate column" errors. Called once on import. Acceptable tech debt for paper trading; if column changes accelerate, adopt a real migration tool.
 
 ## Dashboard
 

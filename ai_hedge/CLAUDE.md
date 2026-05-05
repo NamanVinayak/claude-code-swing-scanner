@@ -88,3 +88,52 @@ First intentional deviation from upstream:
 ## Upstream copy rule (HISTORICAL — partially obsolete)
 
 Original intent was verbatim copy from `reference/ai-hedge-fund/`. The codebase has drifted: helper functions added/renamed/adapted; upstream has no `helpers.py`. **Do not assume any function is verbatim from upstream — verify.** Use `reference/` as inspiration, not ground truth.
+
+---
+
+## System B additions (the `b_*` swing-trader fork — read root CLAUDE.md for context)
+
+System B is the experimental swing-trader fork running in this same repo. It reuses the data layer, indicators, wiki package, and personas helpers above, then layers a 4-stage pipeline on top with its own modules and prompts. Everything System B-specific lives at well-known prefixes:
+
+### Modules added for System B
+
+| Module | Stage | Role |
+|---|---|---|
+| `data/tradingview.py` | All | TradingView `tradingview-ta` wrapper. `screen_universe()`, `find_signals()`, `get_snapshot()`. **Plus 3 short-setup screeners** (`find_short_stage4_breakdown`, `find_short_episodic_pivot`, `find_short_sector_laggard`) that bypass the signal-overlap problem with custom filter expressions — see Stage 1 notes below. |
+| `data/capitol_trades.py` | Stage 1 | Congressional disclosure scraper. Long-side enrichment only (politicians buying = bullish reason). |
+| `scanners/sunset_scanner.py` | Stage 1 | Direction-aware funnel. Signal-overlap path produces longs; setup-based path produces shorts (`_collect_short_setup_candidates`). Both merge into one `tomorrow_watchlist.json` with `direction` field. |
+| `scanners/premarket_reviewer.py` | Stage 2 | Mechanical filters (gap, premarket volume, earnings blackout) + per-ticker mini-agent dispatch. Output: `today_watchlist.json`. |
+| `scanners/adversarial_facts_builder.py` | Stage 3 | Builds `b_news_researcher__{T}.json` + `b_bull_a/b__{T}.json` + `b_bear_a/b__{T}.json` + `b_judge__{T}.json` facts files. Exposes `merge_news_into_perspective_facts(run_id)` which is called via `b_stage3 --merge-news` between news researchers and bulls/bears. |
+| `scanners/budget_calculator.py` | Stage 3 | Live capital snapshot from `wiki/meta/budget_state.md`. `trade_passes_budget_checks()` honors `position_size_class` (15% standard / 20% small_scaled). `SMALL_SCALED_CAP_PCT=20.0` constant. |
+| `scanners/decisions_writer.py` | Stage 3 | Reads `judge_output.json`, validates via Pydantic (`JudgeApprovedTrade` from `schemas.py`), runs writer-side defensive budget check with **per-trade snapshot simulation via `dataclasses.replace()`** (so trade #N+1 sees state after trade #N opens). Produces `decisions.json` in System A simulator schema. |
+| `scanners/journal_writer.py` | Stage 4 | End-of-day wiki updates. |
+
+### Prompts added for System B (`personas/prompts/b_*.md`)
+
+| Prompt | Used by | Single responsibility |
+|---|---|---|
+| `b_scanner_synthesizer.md` | Stage 1 | Ranks scanner candidates into final `tomorrow_watchlist.json` |
+| `b_premarket.md` + `b_premarket_synthesizer.md` | Stage 2 | Per-ticker premarket validity check + final ranking |
+| `b_news_researcher.md` | Stage 3 (Step 1.5) | **Single-purpose WebSearch agent.** Mandatory raw-save to `runs/<id>/web_research/raw/{T}_*.json`, structured output to `runs/<id>/news/{T}.json`. Bull/bear agents no longer have WebSearch capability — research is this agent's job. |
+| `b_bull_a.md`, `b_bull_b.md`, `b_bear_a.md`, `b_bear_b.md` | Stage 3 | Direction-parameterized perspective agents. Read pre-merged `recent_news_7d` from facts (Finnhub + web research, deduped by URL). |
+| `b_judge.md` | Stage 3 | Per-ticker judge. Outputs wrapper `{ticker, approved:[], rejected:[], summary}`. Approved trades carry `position_size_class: "standard"|"small_scaled"`. |
+| `b_journal.md` | Stage 4 | Daily journal LLM agent (skipped on quiet days per skill spec). |
+
+### CLI runners (`runner/b_stage*.py`)
+
+`b_stage1.py` (scan), `b_stage2.py` (premarket), `b_stage3.py` (decide facts + sentinel + `--merge-news` + `--finalize`), `b_stage4.py` (journal). Each invoked from its corresponding `.claude/skills/b_*/SKILL.md`.
+
+### Schemas added in `schemas.py`
+
+- `JudgeApprovedTrade` — Stage 3 judge output validation. Has `position_size_class: Literal["standard", "small_scaled"] = "standard"` field (added 2026-05-05).
+- `NewsResearcherOutput`, `NewsItem`, `AnalystConsensus`, `EarningsContext` — Stage 3 news researcher output validation. `raw_search_files` validated `min_length=1` (skipping WebSearch produces invalid output).
+
+### Stage 1 short-side scanner (added 2026-05-05)
+
+The signal-overlap approach was structurally broken for shorts (TradingView sorts each short signal list by a different metric → near-zero ticker overlap). The fix is `_collect_short_setup_candidates()` in `sunset_scanner.py` which calls 3 trader-validated setup screeners in parallel:
+
+- `stage4_momentum_breakdown` — Minervini Stage 4 (close < SMA200 < SMA50 stack inverted, RelVol > 1.2, RSI > 30 squeeze protection)
+- `bearish_episodic_pivot` — Stockbee BEP (change < -8% with 3x+ volume, market_cap > $1B)
+- `sector_laggard_decline` — significant 1-month decline + below 50-day MA
+
+Squeeze protection (RSI > 30 minimum) applied universally. Ticker hitting multiple setups gets all setup names accumulated as `short_reasons`. Disable via `ScanConfig(short_setups_enabled=False)`. Live test 2026-05-05: produced 27 shorts on a normal market day where signal-overlap path produced 0.

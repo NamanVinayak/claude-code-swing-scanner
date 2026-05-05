@@ -26,9 +26,16 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Run IDs are date-stamped UTC timestamps (YYYYMMDD_HHMMSS). Anything else
+# in runs/ (test fixtures, dryrun dirs, accidental scratch dirs) must NOT be
+# picked as a "latest Stage 2 run" fallback — they cause the orchestrator to
+# operate on stale or fake watchlists.
+_RUN_ID_PATTERN = re.compile(r"^\d{8}_\d{6}$")
 
 
 def main() -> None:
@@ -140,7 +147,9 @@ def main() -> None:
             candidates = sorted(
                 (
                     p for p in runs_root.iterdir()
-                    if p.is_dir() and (p / "today_watchlist.json").exists()
+                    if p.is_dir()
+                    and _RUN_ID_PATTERN.match(p.name)
+                    and (p / "today_watchlist.json").exists()
                 ),
                 key=lambda p: p.name,
                 reverse=True,

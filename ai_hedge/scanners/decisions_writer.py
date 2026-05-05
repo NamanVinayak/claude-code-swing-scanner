@@ -167,6 +167,7 @@ def write_decisions(
                 proposed_stop=td.stop_loss,
                 proposed_quantity=td.quantity,
                 direction=td.direction,
+                position_size_class=td.position_size_class,
             )
             if passes:
                 final_approved.append(td)

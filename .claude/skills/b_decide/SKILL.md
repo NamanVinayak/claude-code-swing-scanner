@@ -123,7 +123,7 @@ Apply the decision rules in your system prompt:
 3. REJECT if any budget check fails (positions cap, total open risk cap, deployment cap, single-position cap).
 4. If approving, compute exact quantity using position_size_shares math (account × risk% × size_multiplier ÷ |entry − stop|).
 
-Output the JSON specified in the prompt with keys: ticker, decision ("approved"|"rejected"), if approved: {direction, entry_price, stop_loss, target_price, target_price_2, quantity, expected_holding_days, setup_type, conviction, rationale, risk_usd}; if rejected: {reason}.
+Output the strict JSON object specified in your system prompt (`b_judge.md`). The schema is a wrapper: `{"ticker": <str>, "approved": [<trade>...], "rejected": [<reject>...], "summary": <str>}`. Each trade in `approved` includes: direction, entry_price, stop_loss, target_price, target_price_2, quantity, expected_holding_days, setup_type, conviction, rationale, risk_usd, position_size_class. Each entry in `rejected` includes: ticker, reason. For a single-ticker dispatch, exactly one of `approved` or `rejected` will contain one element.
 
 Write to: runs/{RUN_ID}/agent_outputs/b_judge__{TICKER}.json
 ```
@@ -138,14 +138,16 @@ import json, sys, pathlib
 run_id = sys.argv[1]
 out_dir = pathlib.Path(f"runs/{run_id}/agent_outputs")
 approved, rejected = [], []
+# Each judge file is a wrapper: {"ticker": <str>, "approved": [<trade>...], "rejected": [<reject>...], "summary": <str>}
+# For a single-ticker dispatch, exactly one of approved/rejected holds one element.
 for f in sorted(out_dir.glob("b_judge__*.json")):
     d = json.loads(f.read_text())
-    if d.get("decision") == "approved":
-        approved.append(d)
-    else:
-        rejected.append({"ticker": d.get("ticker"), "reason": d.get("reason", "rejected")})
+    for trade in d.get("approved", []):
+        approved.append(trade)
+    for r in d.get("rejected", []):
+        rejected.append({"ticker": r.get("ticker"), "reason": r.get("reason", "rejected")})
 
-# Hard cap: top 3 by conviction, then by expected_return_per_dollar_at_risk if available
+# Hard cap: top 3 by conviction
 approved.sort(key=lambda x: x.get("conviction", 0), reverse=True)
 if len(approved) > 3:
     overflow = approved[3:]
@@ -153,14 +155,9 @@ if len(approved) > 3:
     for o in overflow:
         rejected.append({"ticker": o["ticker"], "reason": "fire_cap_3_exceeded"})
 
-# Strip the wrapping the judge schema uses; finalize step expects the inner trade fields directly
-flat_approved = []
-for a in approved:
-    flat_approved.append({k: v for k, v in a.items() if k not in ("decision",)})
-
-merged = {"approved": flat_approved, "rejected": rejected, "summary": f"approved={len(flat_approved)}, rejected={len(rejected)}, candidates={len(flat_approved)+len(rejected)}"}
+merged = {"approved": approved, "rejected": rejected, "summary": f"approved={len(approved)}, rejected={len(rejected)}, candidates={len(approved)+len(rejected)}"}
 pathlib.Path(f"runs/{run_id}/judge_output.json").write_text(json.dumps(merged, indent=2))
-print(json.dumps({"approved": [a['ticker'] for a in flat_approved], "rejected": [r['ticker'] for r in rejected]}, indent=2))
+print(json.dumps({"approved": [a['ticker'] for a in approved], "rejected": [r['ticker'] for r in rejected]}, indent=2))
 PY
 ```
 

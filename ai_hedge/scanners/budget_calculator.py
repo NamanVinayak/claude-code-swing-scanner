@@ -463,6 +463,9 @@ def position_size_shares(
     return math.floor(risk_dollars / risk_per_share)
 
 
+SMALL_SCALED_CAP_PCT = 20.0  # extended single-position cap for small_scaled trades (Fix 3)
+
+
 def trade_passes_budget_checks(
     *,
     snapshot: RiskBudgetSnapshot,
@@ -470,6 +473,7 @@ def trade_passes_budget_checks(
     proposed_stop: float,
     proposed_quantity: int,
     direction: Literal["long", "short"],
+    position_size_class: Literal["standard", "small_scaled"] = "standard",
 ) -> tuple[bool, list[str]]:
     """Apply hard budget checks to a proposed trade.
 
@@ -480,7 +484,9 @@ def trade_passes_budget_checks(
       1. Account is not paused
       2. Open positions < max_simultaneous_positions
       3. New trade risk <= available_risk_usd
-      4. Single-position notional <= account * single_position_cap_pct
+      4. Single-position notional <= effective_cap, where:
+           - standard: account * single_position_cap_pct (15%)
+           - small_scaled: account * SMALL_SCALED_CAP_PCT (20%)
       5. Total deployed (after this trade) <= account * max_deployed_pct
       6. Quantity >= 1
     """
@@ -500,10 +506,16 @@ def trade_passes_budget_checks(
         )
 
     notional = proposed_entry * proposed_quantity
-    single_cap = snapshot.account_value * snapshot.rules.single_position_cap_pct / 100.0
+    effective_cap_pct = (
+        SMALL_SCALED_CAP_PCT
+        if position_size_class == "small_scaled"
+        else snapshot.rules.single_position_cap_pct
+    )
+    single_cap = snapshot.account_value * effective_cap_pct / 100.0
     if notional > single_cap:
         blockers.append(
-            f"single_position_cap_exceeded (notional=${notional:.2f} > cap=${single_cap:.2f})"
+            f"single_position_cap_exceeded (notional=${notional:.2f} > "
+            f"cap=${single_cap:.2f}, class={position_size_class}, cap_pct={effective_cap_pct:.0f}%)"
         )
 
     new_deployed = snapshot.deployed + notional

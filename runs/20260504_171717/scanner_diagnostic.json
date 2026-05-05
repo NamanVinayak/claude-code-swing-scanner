@@ -1,0 +1,54 @@
+{
+  "run_id": "20260504_171717",
+  "scan_timestamp_pt": "2026-05-04T17:17:17-07:00",
+  "universe_size": 1601,
+  "candidate_count": 12,
+  "signal_counts": {
+    "tv_strong_buy": 400,
+    "tv_strong_sell": 400,
+    "tv_oversold": 163,
+    "tv_overbought": 400,
+    "tv_breakout_up": 15,
+    "tv_breakout_down": 15,
+    "tv_trending_up": 205,
+    "tv_trending_down": 294,
+    "capitol_buys": 7,
+    "signal_hits_total": 1892,
+    "unique_tickers_with_any_signal": 1601,
+    "dropped_min_price": 432,
+    "dropped_min_volume": 163,
+    "dropped_min_market_cap": 570,
+    "dropped_no_metadata": 0,
+    "conflicted_drops": 59,
+    "directional_singletons_long": 164,
+    "directional_singletons_short": 201,
+    "below_threshold_drops": 0
+  },
+  "errors": [],
+  "elapsed_seconds": 12.879253958002664,
+  "config": {
+    "min_price": 5.0,
+    "min_avg_volume": 500000,
+    "min_market_cap_usd": 1000000000,
+    "signals": [
+      "strong_buy",
+      "strong_sell",
+      "oversold",
+      "overbought",
+      "breakout_up",
+      "breakout_down",
+      "trending_up",
+      "trending_down"
+    ],
+    "signals_max_per_kind": 400,
+    "directions_enabled": [
+      "long",
+      "short"
+    ],
+    "capitol_trades_enabled": true,
+    "capitol_trades_days_back": 30,
+    "capitol_trades_max_pages": 10,
+    "min_reasons_to_advance": 2,
+    "max_candidates": 40
+  }
+}

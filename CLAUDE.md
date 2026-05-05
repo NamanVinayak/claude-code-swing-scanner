@@ -59,9 +59,10 @@ See `HANDOFF.md` for the dated build log.
 
 ```
 Stage 1 — Sunset Scanner             ~2:00 PM PT  (mostly mechanical, 1 LLM synthesizer)
-  → mechanical screen of Russell 1000 / S&P via TradingView MCP signals
-  → cross-reference with Capitol Trades + Finnhub earnings
-  → outputs tomorrow_watchlist.json (30–50 candidates)
+  → SIGNAL-FIRST universe: union of TradingView signal hits → per-ticker sanity filter
+  → direction-aware: each candidate tagged "long" or "short"; conflicted (1L+1S) dropped
+  → cross-reference with Capitol Trades (long-side only); Finnhub earnings via Stage 2
+  → outputs tomorrow_watchlist.json (~10–15 candidates with `direction` field)
 
 Stage 2 — Pre-market Reviewer        ~5:30 AM PT  (10–15 parallel mini-agents)
   → narrow yesterday's candidates by overnight news + pre-market action
@@ -181,4 +182,55 @@ If any other remote shows up, something pulled it back in by mistake.
 
 ---
 
-_Last updated: 2026-05-04 — System B is **LIVE**. All build complete, cloud setup done, 5 Desktop Scheduled Routines configured. First fire = b_premarket Mon 2026-05-04 at 5:30 AM PT. See `HANDOFF.md` for the full dated build log._
+## 2026-05-04 (evening) — architecture overhaul (Phases A–H, all shipped)
+
+First live `b_scan` (Mon 2:10 PM PT) returned only 3 candidates, two of which only triggered via `tv_overbought` (a SHORT signal mis-treated as a long). Same-day rewrite via 12 worker dispatches across 6 batches, plus follow-up Phase G (full indicator buffet) and Phase H (WebSearch fallback). 7 commits, all on `origin/main`.
+
+| Commit | Phase | What |
+|---|---|---|
+| `7318182f` | A + B | Signal-first universe, direction taxonomy, fail-empty budget bypass fix |
+| `d5be5882` | C + D + E1 | Bull/bear prompts parameterized for direction; `[STALE]` handling; recent_news_7d |
+| `1060d04c` | C + D | Judge: Gate 0 direction consensus, direction-aware expected-return math, `[STALE]` marker pipeline in `inject.py` |
+| `3c27f4cb` | E2 + E3 | Cache TTLs 600/300 → 60; Capitol dedup namespacing; integration test script |
+| `ec134820` | G | Full indicator buffet (daily + hourly) + insider trades + earnings in Stage 3 facts; Pydantic loud-crash validation; forward 3-day earnings blackout |
+| `1a597380` | H | All Stage 3 prompts: MUST use WebSearch when `recent_news_7d` empty (no more silent "no news" fallback) |
+
+### Key architectural changes
+
+- **Universe is signal-first.** No top-N-by-mcap pre-filter. Pull TradingView signals, union tickers, apply min price/mcap/volume per-ticker. `signals_max_per_kind=400` in `ScanConfig`.
+- **Direction (long/short) flows through every stage.** `tomorrow_watchlist.json` → `today_watchlist.json` → perspective facts → judge output → decisions.json. Bulls/bears parameterized; judge has `Gate 0 — direction consensus` check.
+- **Stage 3 facts now mirror System A's swing buffet.** `adversarial_facts_builder._build_market_data_bundle()` pulls daily prices (400d) + hourly bars (1mo), computes full daily + hourly indicator suites (RSI/MACD/BB/ATR/ADX/S-R/Fib/momentum/etc.), insider trades, market cap, recent OHLCV, days_until_next earnings. Bulls/bears now cite real numbers from `daily_indicators.rsi.rsi_14` etc., not vibes.
+- **Pydantic validation on every Stage 3 LLM output.** Bull/bear/judge schemas in `ai_hedge/schemas.py`. `decisions_writer._parse_approved_trade` validates via `JudgeApprovedTrade` and logs ERROR with full traceback on malformation. No more silent degradation.
+- **Forward earnings blackout.** Stage 2 drops candidates with `days_until_next_earnings ≤ 3` (new `DropReason: earnings_blackout_3d`).
+- **Wiki staleness wired.** `inject.py` prepends `[STALE — last updated YYYY-MM-DD, threshold N days exceeded. Verify via web search before relying on these claims.]` into rendered text when a slice is past `stale_after_days`. All 7 prompts (bulls/bears/judge/premarket/journal) recognize the marker and lower confidence accordingly.
+- **WebSearch fallback for news.** All 5 Stage 3 prompts now MUST attempt WebSearch when `recent_news_7d` is empty before falling back to technicals-only.
+- **Capital protection fail-empty.** `decisions_writer.py:171-173`: if `compute_risk_budget()` raises, ALL trades rejected with `budget_unavailable: <exception>` reason. Was previously fail-OPEN (silently approved everything).
+
+### What runs tomorrow morning
+
+`b_premarket` at 5:30 AM PT reads the latest `runs/*/tomorrow_watchlist.json` — that's `runs/20260504_171717/` (manually triggered after the overhaul shipped, 12 long candidates, 0 shorts).
+
+The 2:10 PM auto-routine ran on the OLD broken code (`runs/20260504_141022/`, 3 candidates). That run is superseded but kept in history.
+
+### Phase F (deferred — explicitly NOT fixed today)
+
+Short-side signal taxonomy is structurally narrow: `find_signals()` sorts each kind by a different column, so top-N short pulls sample disjoint slices. Even at `signals_max_per_kind=500`, today's scan produced 0 short candidates from 240 single-short stocks. Needs new short-friendly signals (bearish divergence, near-resistance rejection, distribution patterns) and/or asymmetric `min_reasons_to_advance` for shorts. Not blocking long-side trading.
+
+### Other deferred items
+
+- **Volatility-adjusted position limits** (System A pattern from `risk_manager.py:272–370`) — defer until paper week 3+ when we have real per-ticker vol data.
+- **Self-grading / agent track records** — needs months of history first.
+- **Wiki compactor** — operational hygiene; no urgency until wiki bloats.
+- **`days_since_last` earnings field** — `earnings_calendar.py` only exposes "until next" today. Easy add later if prompts need historical earnings spacing.
+- **Direction dissent mechanism** — currently if Stage 1 misclassifies direction, agents can lower conviction but can't propose flipping. Phase I candidate.
+
+### Fast smoke test
+
+```bash
+.venv/bin/python scripts/verify_b_scan_post_fix.py
+```
+Expected: PASS with 12 health checks (4 original + 8 Phase G), candidate count 10–15, top candidate's facts bundle shows real `daily_indicators.rsi.rsi_14`, `hourly_indicators`, `recent_insider_trades` (list), `earnings.days_until_next` populated.
+
+---
+
+_Last updated: 2026-05-04 (evening) — System B is **LIVE on the overhauled architecture**. All Phases A–H shipped (7 commits). Tomorrow's b_premarket fires at 5:30 AM PT against `runs/20260504_171717/tomorrow_watchlist.json` (12 long candidates from manual post-overhaul scan). See `HANDOFF.md` for the dated build log._

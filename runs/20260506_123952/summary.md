@@ -10,5 +10,3 @@
 
 ## Rejections (with reasons)
 
-- CRDO: budget_check_failed: risk_budget_exceeded (trade_risk=$223.20 > available=$28.75)
-- EXPD: budget_check_failed: risk_budget_exceeded (trade_risk=$128.00 > available=$28.75)

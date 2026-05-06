@@ -7,15 +7,15 @@
   "stop": 149.40,
   "expected_holding_days": 8,
   "top_3_arguments": [
-    "Price closed at 153.08 above all moving averages: price_vs_ma.above_ema_5/10/20/21/50/200 all true; pct_from_sma_50 = +5.5% and pct_from_sma_200 = +11.16%, with daily adx_14 = 50.69 (strong) and plus_di 30.33 > minus_di 21.79 confirming an established up-trend regime.",
-    "Q1 2026 earnings beat is the catalyst igniting the breakout: EPS $1.71 vs $1.33 est, revenue $2.78B vs $2.58B est (~6.5% beat), with airfreight tonnage +5% YoY (per recent_news_7d items #1, #2, #3, #4) and Susquehanna raising PT to $156 from $142 (recent_news_7d #5) — fundamentals now back the technical signal.",
-    "Breakout day prints relative_volume = 1.72x on 1,946,300 shares vs 20-day avg 1,131,005, recapturing the 152.97 prior-day close after Monday's 139.71 flush; daily macd shows bullish_crossover = true (line 0.5872 > signal 0.5559, histogram +0.0313) and rsi_14 = 61.88 sits in the healthy 30-70 momentum band, leaving room before overbought."
+    "Powerful one-day reversal reclaiming the full MA stack: 2026-05-04 close 139.71 to 2026-05-05 close 153.08 (+9.6%) on relative_volume = 1.72 (1,946,300 vs avg_volume_20 1,131,005), with price_vs_ma now above_ema_5/10/20/21/50/200/sma_200 all true (pct_from_sma_50 +5.5%, pct_from_ema_200 +9.47%).",
+    "Trend strength is real on both timeframes: daily adx_14 = 50.69 with plus_di 30.33 > minus_di 21.79 (strong) and macd.bullish_crossover = true (macd_line 0.5872 > signal 0.5559, histogram +0.0313); hourly confirms with moving_averages.ema_aligned_uptrend = true, hourly macd histogram +1.0008, adx_24 = 28.6 strong. RSI room remains: rsi_14 = 61.88, not yet overbought.",
+    "Fundamental catalyst aligns with the breakout bar: Q1 2026 EPS $1.71 vs $1.33 est (+28% beat) and revenue $2.78B vs $2.58B est (+6.5% beat) per recent_news_7d items #1-#4, plus Susquehanna raised PT to $156 from $142 on 2026-05-06 (item #5). Watch_level 154.50 sits below hourly nearest_resistance 156.10 and daily fib_ext_1272 158.22, giving a clean path into the 158-161 target zone."
   ],
   "risks_acknowledged": [
-    "bollinger.pct_b = 1.0086 (price at upper band) and z_score_50 = 2.65 indicate a stretched short-term move — first pullback toward fib_236 149.40 / nearest_support 142.22 is plausible before continuation.",
-    "Daily volume.obv.trend = 'down' with diverging_from_price = true: the 30-day OBV has not confirmed the price recovery, suggesting institutional accumulation is not yet broad-based.",
-    "Analyst panel is mixed: avg_price_target $133 sits BELOW current $153.08, with consensus '1 Buy / 9 Hold / 7 Sell' and Goldman cutting PT to $107 (recent_news_7d #5) — overhead cap from sell-side could throttle multiple expansion even on solid earnings.",
-    "Hourly moving_averages.ema_aligned_downtrend = true and hourly relative_volume = 0.47 (well below avg) signal that the intraday structure has not yet confirmed the daily breakout — entry timing risk is real."
+    "Name is statistically extended: bollinger.pct_b = 1.0086 (above upper band 152.98) and z_score_50 = 2.65 — mean-reversion gap-fill back into 148-150 / fib_236 149.40 is a live risk before any continuation.",
+    "Volume internals are mixed despite the breakout bar: daily volume.volume_bias_10d = 'down' and OBV trend = 'down' diverging_from_price = true — yesterday's reversal volume is one bar against a deteriorating accumulation backdrop.",
+    "Analyst panel is net cautious: consensus rating 'hold' with 1 Buy / 9 Hold / 7 Sell and avg_price_target $133 (BELOW current $153.08); Goldman cut PT to $107 same day Susquehanna raised — overhead supply from underwater sell-side ratings may cap multiple expansion.",
+    "Hourly relative_volume = 0.05 on the latest bar (12,367 vs avg_volume_20 226,548) signals the breakout has not yet been confirmed by intraday participation — entry timing risk if the 154.50 trigger fails on weak volume."
   ],
   "web_sources_last_7d": [
     "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-expd-q1-earnings-140004465.html",

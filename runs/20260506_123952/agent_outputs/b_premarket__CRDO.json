@@ -1,0 +1,11 @@
+{
+  "ticker": "CRDO",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 201.00,
+  "invalidation_level": 193.57,
+  "catalyst_note": "Trending momentum long with tv_strong_buy + tv_trending_up signals; gapped +3.55% premarket to $200.44, continuing directional thrust but compressing initial R/R from yesterday's setup price.",
+  "conviction": 5,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score=2). Premarket last_price=$200.44, overnight_gap_pct=+3.55% — gap is meaningful but below the 5% 'already played out' threshold; setup is partially impaired (entry ~3.5% above prior close reduces R/R). Premarket volume=0 with null volume_ratio — volume data unavailable, cannot confirm accumulation behind the gap; this is the primary weakness. New ticker (wiki new_ticker=true, all slices missing) — no setup history or fakeout pattern to factor in; relying solely on Stage 1 signals and premarket price action. Macro regime slice is a bootstrap placeholder — no real regime signal available, no conviction adjustment applied. Earnings days_until_next=26 — no earnings blackout concern. Watch level set at $201.00 (above current premarket to require confirmation on open rather than chasing the gap). Invalidation at $193.57 (yesterday's regular close — gap fill would break the bullish thesis)."
+}

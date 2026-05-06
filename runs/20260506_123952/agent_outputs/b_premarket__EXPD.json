@@ -1,0 +1,11 @@
+{
+  "ticker": "EXPD",
+  "setup_valid": "yes",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 154.50,
+  "invalidation_level": 152.50,
+  "catalyst_note": "TradingView breakout-up and trending-up signals intact with a benign +0.60% overnight gap that leaves the setup unplayed.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup_history or recent_tldr available; analysis relies solely on Stage 1 signals and premarket data. Signals are direction-consistent (tv_breakout_up + tv_trending_up, score 2). Overnight gap of +0.60% ($153.08 → $154.00 premarket) is well under the 5% threshold — setup has not played out. Premarket volume data is entirely absent (volume=0, avg_volume_10d=0.0, volume_ratio=null), which removes volume-confirmation support and is the primary reason conviction is held to 5 rather than higher. Earnings 90 days out — no near-term event risk. Macro regime wiki slice is a bootstrap placeholder (non-informative, not stale-flagged). Watch level set at $154.50 — a modest step above current premarket price to require momentum continuation before entry. Invalidation set at $152.50 — below yesterday's close to allow normal open volatility while protecting against a reversal of the breakout thesis."
+}

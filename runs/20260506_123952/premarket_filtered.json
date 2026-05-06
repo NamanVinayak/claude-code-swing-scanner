@@ -1,0 +1,179 @@
+{
+  "run_id": "20260506_123952",
+  "review_timestamp_pt": "2026-05-06T05:39:54-07:00",
+  "source_run_id": "20260505_213211",
+  "source_path": "runs/20260505_213211/tomorrow_watchlist.json",
+  "candidates_in": 10,
+  "survivors": [
+    "ROK",
+    "CMI",
+    "CRDO",
+    "EXPD"
+  ],
+  "decisions": [
+    {
+      "ticker": "ROK",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "ROK",
+        "last_regular_close": 435.93,
+        "premarket_last": 442.7,
+        "overnight_gap_pct": 1.5530016287018444,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:39:54+00:00"
+      }
+    },
+    {
+      "ticker": "RRX",
+      "keep": false,
+      "drop_reasons": [
+        "earnings_blackout_3d"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "RRX",
+        "last_regular_close": 222.02,
+        "premarket_last": 226.46,
+        "overnight_gap_pct": 1.999819836050798,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:39:55+00:00"
+      }
+    },
+    {
+      "ticker": "JAZZ",
+      "keep": false,
+      "drop_reasons": [
+        "gap_up_exhausted"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "JAZZ",
+        "last_regular_close": 212.26,
+        "premarket_last": 224.1625,
+        "overnight_gap_pct": 5.607509657966636,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:39:56+00:00"
+      }
+    },
+    {
+      "ticker": "CMI",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "CMI",
+        "last_regular_close": 674.88,
+        "premarket_last": 683.5,
+        "overnight_gap_pct": 1.2772641062114731,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:39:57+00:00"
+      }
+    },
+    {
+      "ticker": "NET",
+      "keep": false,
+      "drop_reasons": [
+        "earnings_blackout_3d"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "NET",
+        "last_regular_close": 246.0,
+        "premarket_last": 246.49,
+        "overnight_gap_pct": 0.19918699186991518,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:39:58+00:00"
+      }
+    },
+    {
+      "ticker": "MPC",
+      "keep": false,
+      "drop_reasons": [
+        "gap_down_setup_broken"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "MPC",
+        "last_regular_close": 260.51,
+        "premarket_last": 247.0,
+        "overnight_gap_pct": -5.185981344286206,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:39:59+00:00"
+      }
+    },
+    {
+      "ticker": "CRDO",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "CRDO",
+        "last_regular_close": 193.57,
+        "premarket_last": 200.44,
+        "overnight_gap_pct": 3.549103683422028,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:40:00+00:00"
+      }
+    },
+    {
+      "ticker": "MTSI",
+      "keep": false,
+      "drop_reasons": [
+        "earnings_blackout_3d"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "MTSI",
+        "last_regular_close": 303.57,
+        "premarket_last": 311.0,
+        "overnight_gap_pct": 2.447540929604375,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:40:00+00:00"
+      }
+    },
+    {
+      "ticker": "EXPD",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "EXPD",
+        "last_regular_close": 153.08,
+        "premarket_last": 154.0,
+        "overnight_gap_pct": 0.6009929448654194,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:40:01+00:00"
+      }
+    },
+    {
+      "ticker": "DVA",
+      "keep": false,
+      "drop_reasons": [
+        "gap_up_exhausted"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "DVA",
+        "last_regular_close": 157.04,
+        "premarket_last": 168.2,
+        "overnight_gap_pct": 7.106469689251149,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-06T12:40:02+00:00"
+      }
+    }
+  ],
+  "errors": [],
+  "elapsed_seconds": 9.189441459006048
+}

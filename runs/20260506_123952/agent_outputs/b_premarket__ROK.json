@@ -1,0 +1,11 @@
+{
+  "ticker": "ROK",
+  "setup_valid": "yes",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 443.50,
+  "invalidation_level": 434.50,
+  "catalyst_note": "TradingView trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up) with a modest +1.55% confirming gap overnight — breakout thesis intact, watching for continuation above premarket high.",
+  "conviction": 6,
+  "notes": "Stage 1 score 3 with the cleanest possible signal set (strong_buy, breakout_up, trending_up). Premarket at 442.70 vs close of 435.93 = +1.55% gap — well under the 5% 'already played out' threshold, so the breakout entry opportunity remains. Watch level set just above premarket price (443.50) to confirm gap holds and extends into open. Invalidation at 434.50 — below yesterday's close signals gap-fill failure. Conviction capped at 6 (not 7+) for three reasons: (1) premarket volume is 0 / ratio null — no volume confirmation of the move; (2) new_ticker: true with setup_history and recent_tldr both missing — no wiki history to corroborate; (3) regime_tldr is bootstrap placeholder — no macro context. Earnings data also absent (days_until_next null) — cannot rule out near-term earnings, though Stage 1 would have applied the 3-day blackout if Finnhub data were available. No staleness markers present."
+}

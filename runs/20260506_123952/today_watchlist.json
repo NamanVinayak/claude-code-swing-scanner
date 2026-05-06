@@ -1,0 +1,58 @@
+{
+  "today_watchlist": [
+    {
+      "ticker": "ROK",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "yes",
+      "watch_level": 443.50,
+      "invalidation_level": 434.50,
+      "catalyst_note": "TradingView trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up) with a modest +1.55% confirming gap overnight — breakout thesis intact, watching for continuation above premarket high.",
+      "conviction": 6,
+      "source_reasons": ["tv_strong_buy", "tv_breakout_up", "tv_trending_up"],
+      "mini_agent_notes": "Stage 1 score 3 with the cleanest possible signal set (strong_buy, breakout_up, trending_up). Premarket at 442.70 vs close of 435.93 = +1.55% gap — well under the 5% 'already played out' threshold, so the breakout entry opportunity remains. Watch level set just above premarket price (443.50) to confirm gap holds and extends into open. Invalidation at 434.50 — below yesterday's close signals gap-fill failure. Conviction capped at 6 (not 7+) for three reasons: (1) premarket volume is 0 / ratio null — no volume confirmation of the move; (2) new_ticker: true with setup_history and recent_tldr both missing — no wiki history to corroborate; (3) regime_tldr is bootstrap placeholder — no macro context. Earnings data also absent (days_until_next null) — cannot rule out near-term earnings, though Stage 1 would have applied the 3-day blackout if Finnhub data were available. No staleness markers present."
+    },
+    {
+      "ticker": "EXPD",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "yes",
+      "watch_level": 154.50,
+      "invalidation_level": 152.50,
+      "catalyst_note": "TradingView breakout-up and trending-up signals intact with a benign +0.60% overnight gap that leaves the setup unplayed.",
+      "conviction": 5,
+      "source_reasons": ["tv_breakout_up", "tv_trending_up"],
+      "mini_agent_notes": "New ticker — no wiki setup_history or recent_tldr available; analysis relies solely on Stage 1 signals and premarket data. Signals are direction-consistent (tv_breakout_up + tv_trending_up, score 2). Overnight gap of +0.60% ($153.08 → $154.00 premarket) is well under the 5% threshold — setup has not played out. Premarket volume data is entirely absent (volume=0, avg_volume_10d=0.0, volume_ratio=null), which removes volume-confirmation support and is the primary reason conviction is held to 5 rather than higher. Earnings 90 days out — no near-term event risk. Macro regime wiki slice is a bootstrap placeholder (non-informative, not stale-flagged). Watch level set at $154.50 — a modest step above current premarket price to require momentum continuation before entry. Invalidation set at $152.50 — below yesterday's close to allow normal open volatility while protecting against a reversal of the breakout thesis."
+    },
+    {
+      "ticker": "CMI",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 685.00,
+      "invalidation_level": 672.00,
+      "catalyst_note": "Trending long on tv_strong_buy + tv_trending_up; overnight gap of +1.28% held the bid, but zero premarket volume prevents confirming follow-through — needs market-open range break above $685 to validate.",
+      "conviction": 5,
+      "source_reasons": ["tv_strong_buy", "tv_trending_up"],
+      "mini_agent_notes": "New ticker — no wiki setup_history, no recent_tldr, regime placeholder only. Relied solely on Stage 1 signals (tv_strong_buy, tv_trending_up) and premarket data. Gap of +1.28% (close $674.88 → premarket $683.50) is within normal range and does not disqualify the setup, but premarket volume=0 and volume_ratio=null means no institutional premarket activity is confirmed — this is either a data feed gap for CMI or genuine thin premarket. Watch level $685.00 set above premarket price to require continuation confirmation at open. Invalidation $672.00 set below prior close to catch gap-fill failure. No earnings risk (90 days out). Conviction held at 5 (not lower) because the signals are clean and the gap direction is correct for a long; not higher because zero volume confirmation and no wiki history to assess reliability of this setup pattern on CMI."
+    },
+    {
+      "ticker": "CRDO",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 201.00,
+      "invalidation_level": 193.57,
+      "catalyst_note": "Trending momentum long with tv_strong_buy + tv_trending_up signals; gapped +3.55% premarket to $200.44, continuing directional thrust but compressing initial R/R from yesterday's setup price.",
+      "conviction": 5,
+      "source_reasons": ["tv_strong_buy", "tv_trending_up"],
+      "mini_agent_notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score=2). Premarket last_price=$200.44, overnight_gap_pct=+3.55% — gap is meaningful but below the 5% 'already played out' threshold; setup is partially impaired (entry ~3.5% above prior close reduces R/R). Premarket volume=0 with null volume_ratio — volume data unavailable, cannot confirm accumulation behind the gap; this is the primary weakness. New ticker (wiki new_ticker=true, all slices missing) — no setup history or fakeout pattern to factor in; relying solely on Stage 1 signals and premarket price action. Macro regime slice is a bootstrap placeholder — no real regime signal available, no conviction adjustment applied. Earnings days_until_next=26 — no earnings blackout concern. Watch level set at $201.00 (above current premarket to require confirmation on open rather than chasing the gap). Invalidation at $193.57 (yesterday's regular close — gap fill would break the bullish thesis)."
+    }
+  ],
+  "meta": {
+    "total_evaluated": 4,
+    "total_kept": 4,
+    "dropped_count": 0,
+    "ranking_rationale": "Ranked by conviction descending: ROK (6) first, then EXPD/CMI/CRDO (all 5). Within conviction=5, EXPD ranks before CMI and CRDO because it is setup_valid=yes vs partial. CMI and CRDO are both partial with identical conviction and setup type; setup_patterns.md has no historical data (bootstrap placeholder), so original mini-agent output order preserved. No names dropped — all four returned setup_valid yes or partial."
+  }
+}

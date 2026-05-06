@@ -1,0 +1,11 @@
+{
+  "ticker": "CMI",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 685.00,
+  "invalidation_level": 672.00,
+  "catalyst_note": "Trending long on tv_strong_buy + tv_trending_up; overnight gap of +1.28% held the bid, but zero premarket volume prevents confirming follow-through — needs market-open range break above $685 to validate.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup_history, no recent_tldr, regime placeholder only. Relied solely on Stage 1 signals (tv_strong_buy, tv_trending_up) and premarket data. Gap of +1.28% (close $674.88 → premarket $683.50) is within normal range and does not disqualify the setup, but premarket volume=0 and volume_ratio=null means no institutional premarket activity is confirmed — this is either a data feed gap for CMI or genuine thin premarket. Watch level $685.00 set above premarket price to require continuation confirmation at open. Invalidation $672.00 set below prior close to catch gap-fill failure. No earnings risk (90 days out). Conviction held at 5 (not lower) because the signals are clean and the gap direction is correct for a long; not higher because zero volume confirmation and no wiki history to assess reliability of this setup pattern on CMI."
+}

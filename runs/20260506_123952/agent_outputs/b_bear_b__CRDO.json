@@ -1,0 +1,24 @@
+{
+  "ticker": "CRDO",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Valuation/extension risk: current_price $193.57 sits 48.73% above sma_50 ($130.15) and 40.46% above sma_200 ($137.81) with daily z_score_50 = 1.87 and roc_21d = +88.92%. Stock has nearly doubled in 21 sessions. Specific forward P/E vs peer median is unconfirmed in this facts bundle, but on pure technical extension this is a chase entry, not a base breakout — analyst_consensus_web shows avg_price_target $200.00, so consensus already implies <4% upside from $193.57 to a watch_level of $201, with PT range high $260 / low $170 leaving meaningful asymmetric downside if multiple compresses.",
+    "Thesis is fully news-driven and likely already priced in: every item in recent_news_7d (6 of 6) is dated 2026-05-04 or 2026-05-05 and tagged positive — FY2026 Q3 beat (+9.47% on 5/5), AI-datacenter narrative pieces, PFA Pension new stake, 'Moderate Buy' from 19 brokerages, DustPhotonics acquisition flagged in earnings_context_web as 'priced-in tailwind.' Price ripped 21% week-to-date on this exact news set. earnings.days_until_next = 26 means no fresh fundamental catalyst within the trade window — between now and the next print, the trade is asking the tape to pay UP for already-public news.",
+    "Distribution warning under the rally: daily volume.relative_volume = 0.82 (below 20d average 7.44M on a +9.47% gap day), and daily volume.obv.trend = 'down' with diverging_from_price = true — the OBV divergence on a parabolic move is a textbook late-stage tell. Hourly recent_high 199.81 already failed to clear the daily nearest_resistance 198.97 (only 2 historical tests, volume_confirmed = false). With wiki slices.thesis/catalysts/technicals all marked missing (new_ticker = true), there is no durable memory of how CRDO behaves on prior post-earnings runs to anchor the thesis."
+  ],
+  "bull_acknowledgements": [
+    "FY2026 Q3 earnings genuinely beat both revenue and EPS, and analyst_consensus_web shows 16 Buy / 1 Hold / 0 Sell among 18 covered with Rothschild/Redburn initiating Buy on 2026-05-01 — sell-side stance is uniformly constructive.",
+    "Trend strength is real: daily adx_14 = 57.08 (strong), ema_aligned_uptrend = true, macd bullish_crossover = true, and price is above every MA from ema_5 through sma_200. This is a momentum tape, not a broken stock.",
+    "AI-datacenter connectivity is a structural tailwind, and the DustPhotonics acquisition plus the upcoming TSMC 2026 Technology Symposium appearance give the bull narrative real forward catalysts beyond the recent print."
+  ],
+  "web_sources_last_7d": [
+    "https://www.quiverquant.com/news/$CRDO+stock+rose+21%25+this+week.+Here's+what+we+see+in+our+data.",
+    "https://www.tradingkey.com/news/market-movers/261858546-market-movers-crdo-20260505",
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-crdo/credo-technology-group-holding/news/credo-technology-group-crdo-is-up-126-after-ai-datacenter-co",
+    "https://www.marketbeat.com/instant-alerts/filing-pfa-pension-forsikringsaktieselskab-takes-position-in-credo-technology-group-holding-ltd-crdo-2026-05-04/",
+    "https://www.marketbeat.com/instant-alerts/credo-technology-group-holding-ltd-nasdaqcrdo-receives-average-rating-of-moderate-buy-from-brokerages-2026-05-04/",
+    "https://www.tipranks.com/news/catalyst/why-credo-technology-group-stock-wont-stop-climbing"
+  ]
+}

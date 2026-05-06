@@ -1,0 +1,24 @@
+{
+  "ticker": "CMI",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 685.00, "high": 690.00},
+  "target": 738.00,
+  "stop": 668.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Powerful trend stack: price ($674.88) above every MA tracked — pct_from_ema_20 = +6.45%, pct_from_ema_50 = +12.36%, pct_from_ema_200 = +32.69% — with daily_indicators.moving_averages.ema_aligned_uptrend = true and adx_14 = 45.36 (plus_di 37.31 vs minus_di 4.58) signaling an exceptionally strong, mature uptrend.",
+    "Breakout-confirmation volume already showing: 2026-05-05 daily volume 1,454,400 vs avg_volume_20 of 807,285 (relative_volume = 1.8x) on a wide-range bar that tagged recent_high 689.35; OBV trend = up and not diverging, consistent with institutional accumulation as price probes the watch_level $685.",
+    "Fresh fundamental tailwind in the 7-day news: Q1 2026 beat with FY guidance raised on data-center Power Systems demand (alphastreet 2026-05-05) and Truist PT lift to $730 (per analyst_consensus_web), giving an asymmetric setup — fib_ext_1272 at 738.12 lines up with the Truist target for a clean +7.0% move from $690 entry vs ~3.2% to the $668 stop (R:R ~ 2.2:1)."
+  ],
+  "risks_acknowledged": [
+    "daily_indicators.rsi.rsi_14 = 75.21 and rsi_21 = 76.86 are deeply overbought, with bollinger.pct_b = 0.9051 and z_score_50 = 1.9 — chase risk is real and a mean-reversion pullback toward ema_20 (~$634) would invalidate the breakout thesis.",
+    "Catalyst note flags zero premarket volume despite a +1.28% overnight gap, so the $685 break is unconfirmed; failure to take out 689.35 on opening volume would leave a double-top and likely trigger a fade back to prev_day_close $656.73.",
+    "One of three 7-day news items (sahmcapital 2026-05-02) flags softer EPS trajectory and recent insider selling — consistent with the empty recent_insider_trades list (no offsetting insider buying) — meaning the long is leaning entirely on price/volume confirmation with no insider sponsorship."
+  ],
+  "web_sources_last_7d": [
+    "https://news.alphastreet.com/cummins-cmi-raises-2026-outlook-as-power-systems-hits-record-on-data-center-demand/",
+    "https://www.sahmcapital.com/news/content/did-softer-eps-higher-sales-and-insider-selling-just-shift-cummins-cmi-investment-narrative-2026-05-02",
+    "https://seekingalpha.com/article/4894243-cummins-earnings-beat-on-the-way"
+  ]
+}

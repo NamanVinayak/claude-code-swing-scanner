@@ -1,0 +1,70 @@
+{
+  "ticker": "CRDO",
+  "researched_at": "2026-05-06T19:45:00Z",
+  "news_items": [
+    {
+      "headline": "CRDO stock rose 21% this week amid bullish data signals",
+      "url": "https://www.quiverquant.com/news/$CRDO+stock+rose+21%25+this+week.+Here's+what+we+see+in+our+data.",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "CRDO up roughly 21% week-to-date driven by AI connectivity positioning, institutional buying, and FY26 Q3 earnings beat. Call volume directionally bullish."
+    },
+    {
+      "headline": "Credo Technology Group (CRDO) Moved Up 9.47% on May 5: Key Drivers Unveiled",
+      "url": "https://www.tradingkey.com/news/market-movers/261858546-market-movers-crdo-20260505",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Stock jumped 9.47% on May 5 after FY2026 Q3 earnings beat both revenue and EPS estimates. AI datacenter connectivity demand cited as primary driver."
+    },
+    {
+      "headline": "Credo Technology Group (CRDO) Up 12.6% After AI Datacenter Connectivity Expansion Bet",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-crdo/credo-technology-group-holding/news/credo-technology-group-crdo-is-up-126-after-ai-datacenter-co",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Shares climbed 12.6% on report casting CRDO as a key bottleneck supplier for AI infrastructure build-out. Boosts demand expectations for high-speed connectivity products."
+    },
+    {
+      "headline": "PFA Pension Forsikringsaktieselskab Takes Position in CRDO",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-pfa-pension-forsikringsaktieselskab-takes-position-in-credo-technology-group-holding-ltd-crdo-2026-05-04/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Danish pension fund PFA disclosed a new stake in CRDO during Q4 via SEC filing. Adds to institutional ownership tape."
+    },
+    {
+      "headline": "CRDO Receives Average Rating of 'Moderate Buy' from 19 Brokerages",
+      "url": "https://www.marketbeat.com/instant-alerts/credo-technology-group-holding-ltd-nasdaqcrdo-receives-average-rating-of-moderate-buy-from-brokerages-2026-05-04/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Consensus rating across 19 covering firms is 'Moderate Buy.' Reflects broadly constructive sell-side stance heading into Q3 results."
+    },
+    {
+      "headline": "Rothschild & Co Redburn initiates CRDO with Buy rating",
+      "url": "https://www.marketbeat.com/instant-alerts/credo-technology-group-holding-ltd-nasdaqcrdo-receives-average-rating-of-moderate-buy-from-brokerages-2026-05-04/",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "Rothschild & Co Redburn initiated coverage of CRDO at Buy on May 1, 2026. Adds another bullish voice to the analyst slate."
+    },
+    {
+      "headline": "Why Credo Technology Group Stock Won't Stop Climbing",
+      "url": "https://www.tipranks.com/news/catalyst/why-credo-technology-group-stock-wont-stop-climbing",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "TipRanks catalyst piece highlights AI infrastructure tailwinds, DustPhotonics acquisition expanding optical portfolio, and upcoming TSMC 2026 Technology Symposium appearance as drivers of continued momentum."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 200.0,
+    "recent_changes": "Rothschild & Co Redburn initiated Buy on 2026-05-01. Consensus 'Moderate Buy' from 19 firms (per 2026-05-04 update); 16 Buy / 1 Hold / 0 Sell among 18 covered. Past-month average PT ~$209.71 (high $260, low $170)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Just reported FY2026 Q3 earnings (beat on revenue and EPS) which drove the May 5 +9.47% move. Next quarterly print not specified in search results. Forward catalyst: TSMC 2026 Technology Symposium appearance to showcase next-gen AI datacenter connectivity. DustPhotonics acquisition (~$750M) flagged as priced-in tailwind."
+  },
+  "raw_search_files": [
+    "CRDO_news-this-week.json",
+    "CRDO_analyst-rating.json",
+    "CRDO_earnings-catalyst.json"
+  ]
+}

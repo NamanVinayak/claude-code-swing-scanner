@@ -1,0 +1,22 @@
+{
+  "ticker": "CRDO",
+  "approved": [
+    {
+      "ticker": "CRDO",
+      "direction": "long",
+      "entry_price": 200.30,
+      "stop_loss": 191.00,
+      "target_price": 218.50,
+      "target_price_2": 230.63,
+      "quantity": 24,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Catalyst Bull (b_bull_b strength=8) outweighs Fundamental Bear (b_bear_b strength=6) on fresh FY26 Q3 beat + AI datacenter demand within 7d window; Technical Bull strength=6 vs Technical Bear strength=7 is closer but daily adx_14=57.08, ema_aligned_uptrend=true on daily and hourly, macd bullish_crossover=true, and hourly relative_volume=2.07x avg confirm trend. combined_p_bull=0.5165, combined_p_bear=0.4835; expected_return_per_share = 0.5165*(218.50-200.30) - 0.4835*(200.30-191.00) = +9.40 - 4.50 = +$4.90 (positive). Key disagreement resolved: bears' OBV-distribution-on-low-relvol concern is real but daily adx_14=57.08 with +di 29.82 > -di 18.18 plus hourly OBV trend up (not diverging) say breakout has near-term path; downside protected by stop at 191.00 (above prev_day_high 188.20 hourly shelf). Sizing: risk_dollars=$250 (1% * 1.0), risk_per_share=$9.30, Gate-3 qty=26, notional $5208 > 15% cap of $3750; scaled down from 26 to 24 shares to fit small-account cap, using 89% of risk budget (M=floor(5000/200.30)=24, risk_M=$223.20, notional $4807.20 ≤ 20% extended cap $5000).",
+      "risk_usd": 223.20,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "CRDO long approved as small_scaled (24 sh @ $200.30, stop $191.00, target $218.50). Catalyst-driven thesis with positive expected return $4.90/share; downsized from 26 to 24 shares to honor the 20% extended single-position cap while still using 89% of the $250 risk budget."
+}

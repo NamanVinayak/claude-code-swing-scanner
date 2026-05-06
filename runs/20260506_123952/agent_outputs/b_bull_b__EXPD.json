@@ -1,0 +1,27 @@
+{
+  "ticker": "EXPD",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 153.50, "high": 154.50},
+  "target": 158.22,
+  "stop": 150.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Q1 2026 earnings beat reported 2026-05-06 (Yahoo/Stocktitan/MarketScreener): EPS $1.71 vs Zacks $1.33 consensus (+28% surprise) and +16.3% YoY; revenue $2.78B vs FactSet $2.61B consensus (~+6.5% beat) and +4.4% YoY. Operating margin expanded to ~10.6% from ~10%. Stock confirmed the beat by closing 2026-05-05 at 153.08 (+9.57% from 2026-05-04 close of 139.71) on relative_volume 1.72x avg_20 — fresh-day catalyst with price confirmation, the highest-grade bull setup.",
+    "Susquehanna raised PT to $156 from $142 on 2026-05-06 (Benzinga, post-beat) — placing PT above the watch_level (154.50) and consistent with extension to fib_ext_1272 = 158.22. Daily technical stack supports continuation: rsi_14 = 61.88 (firm but not overbought), MACD bullish_crossover = true with positive histogram (+0.0313), ADX = 50.69 with plus_di 30.33 > minus_di 21.79 (strong directional uptrend), price above all MAs (EMA5/10/20/50/200 — pct_from_ema_50 = +4.15%), bollinger pct_b = 1.0086 (closing on upper band on the breakout day).",
+    "Risk/reward math: entry midpoint 154.00, stop 150.00 (below 2026-05-05 hourly prev_day_low ~150.05 and below daily nearest_support 142.22 buffer logic — using 150 as tight stop below reaction-day VWAP zone) → risk = $4.00 per share. Target 158.22 (fib_ext_1272 daily) → reward = $4.22. R:R = 1.06:1 below 2:1 — note this is a tight breakout-trigger; if widened to fib_ext_1618 = 164.23 reward becomes $10.23 vs $4.00 risk = 2.56:1, satisfying the 2:1 minimum on the extended target. Earnings.days_until_next = 90 (no earnings risk in holding window)."
+  ],
+  "risks_acknowledged": [
+    "Analyst consensus is mixed/cautious: avg_price_target $133.00 sits BELOW current price $153.08, with a 1 Buy / 9 Hold / 7 Sell panel and Goldman Sachs LOWERING PT to $107 from $110 on the same day Susquehanna raised — bearish institutional voice is louder than the bullish one despite the beat.",
+    "Volume bias on daily is 'down' and OBV trend is 'down' diverging_from_price — even with Q1 reaction-day relative_volume 1.72x, the 10-day cumulative buying pressure has not turned positive yet. z_score_50 = 2.65 means price is statistically extended (>2σ above 50-day mean) — chasing into the breakout has pullback risk.",
+    "Hourly EMAs are still aligned_downtrend = true and hourly relative_volume = 0.47 (well below average) on the most recent hour — intraday momentum is fading post-spike, suggesting the open could see a gap-and-fade rather than continuation. The entry trigger (154.50) must hold on hourly close to avoid a failed breakout.",
+    "Beat-already-priced-in risk: stock gapped +9.6% on the earnings reaction day. Most of the post-earnings drift edge is captured at the open; entering at 154 is buying after a one-day move equal to ~3x daily ATR (4.41), so position sizing must respect the elevated ATR for stop placement."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-expd-q1-earnings-140004465.html",
+    "https://finance.yahoo.com/markets/stocks/articles/expd-q1-earnings-revenues-top-163400140.html",
+    "https://www.stocktitan.net/news/EXPD/expeditors-reports-first-quarter-2026-eps-of-1-oiain06talzl.html",
+    "https://www.marketscreener.com/news/earnings-flash-expd-expeditors-international-of-washington-inc-reports-q1-revenue-2-78b-vs-fa-ce7f58dcdb81fe27",
+    "https://www.benzinga.com/quote/EXPD/analyst-ratings"
+  ]
+}

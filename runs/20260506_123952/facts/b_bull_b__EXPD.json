@@ -1,0 +1,407 @@
+{
+  "ticker": "EXPD",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 154.5,
+  "invalidation_level": 152.5,
+  "catalyst_note": "TradingView breakout-up and trending-up signals intact with a benign +0.60% overnight gap that leaves the setup unplayed.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Expeditors International (EXPD) Q1 Earnings and Revenues Surpass Estimates",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-expd-q1-earnings-140004465.html",
+      "sentiment": "positive",
+      "summary": "Q1 2026 EPS $1.71 (+16.3% YoY) beat Zacks consensus $1.33. Revenue $2.78B (+4.4% YoY) beat $2.58B consensus. Operating income $294.8M (+11% YoY); operating margin expanded to ~10.6% from ~10%."
+    },
+    {
+      "title": "EXPD Q1 Earnings & Revenues Top Estimates on Airfreight Strength",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expd-q1-earnings-revenues-top-163400140.html",
+      "sentiment": "positive",
+      "summary": "Airfreight services revenue rose to $1.03B on higher volumes and firmer yields earlier in quarter; airfreight tonnage +5% YoY driven by technology customers. Customs brokerage and other services revenue $1.15B, helped by tariff-driven complexity and pricing initiatives."
+    },
+    {
+      "title": "Expeditors Q1 EPS rises 16% to $1.71, revenue up 4%",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.stocktitan.net/news/EXPD/expeditors-reports-first-quarter-2026-eps-of-1-oiain06talzl.html",
+      "sentiment": "positive",
+      "summary": "Stocktitan release: Q1 2026 EPS $1.71 vs prior-year $1.47, revenue $2.78B vs prior-year $2.66B. Highlights non-asset-based model resilience amid geopolitical disruptions."
+    },
+    {
+      "title": "Earnings Flash: EXPD Reports Q1 Revenue $2.78B vs FactSet Est $2.61B",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.marketscreener.com/news/earnings-flash-expd-expeditors-international-of-washington-inc-reports-q1-revenue-2-78b-vs-fa-ce7f58dcdb81fe27",
+      "sentiment": "positive",
+      "summary": "Revenue $2.78B beat FactSet consensus $2.61B by ~6.5%. Confirms top-line outperformance versus street expectations."
+    },
+    {
+      "title": "Susquehanna raises EXPD price target to $156 from $142",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.benzinga.com/quote/EXPD/analyst-ratings",
+      "sentiment": "positive",
+      "summary": "Susquehanna raised PT to $156 from $142 following Q1 beat. Price target now sits near top end of analyst range ($95-$166)."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 153.0800018310547,
+  "market_cap": 20263438336.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-04-29",
+      "open": 147.3800048828125,
+      "high": 149.07000732421875,
+      "low": 146.9199981689453,
+      "close": 148.7899932861328,
+      "volume": 1077600
+    },
+    {
+      "time": "2026-04-30",
+      "open": 150.8000030517578,
+      "high": 150.8000030517578,
+      "low": 147.13999938964844,
+      "close": 147.88999938964844,
+      "volume": 1287100
+    },
+    {
+      "time": "2026-05-01",
+      "open": 148.58999633789062,
+      "high": 149.5,
+      "low": 146.74000549316406,
+      "close": 147.22999572753906,
+      "volume": 706600
+    },
+    {
+      "time": "2026-05-04",
+      "open": 142.99000549316406,
+      "high": 143.1999969482422,
+      "low": 136.1300048828125,
+      "close": 139.7100067138672,
+      "volume": 2577000
+    },
+    {
+      "time": "2026-05-05",
+      "open": 148.89999389648438,
+      "high": 153.5,
+      "low": 143.89999389648438,
+      "close": 153.0800018310547,
+      "volume": 1946300
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 147.77803983457625,
+      "sma_5": 147.33999938964843,
+      "ema_10": 147.52216549098893,
+      "sma_10": 147.79300079345703,
+      "ema_20": 147.00955384319067,
+      "sma_20": 146.99250030517578,
+      "ema_21": 146.97004170940184,
+      "sma_21": 146.87523832775298,
+      "ema_50": 146.9841629308415,
+      "sma_50": 145.10319976806642,
+      "ema_200": 139.83261054602605,
+      "sma_200": 137.71331901550292,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 153.0800018310547,
+    "dist_from_50sma_pct": 5.5,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 3.59,
+      "above_sma_5": true,
+      "pct_from_sma_5": 3.9,
+      "above_ema_10": true,
+      "pct_from_ema_10": 3.77,
+      "above_sma_10": true,
+      "pct_from_sma_10": 3.58,
+      "above_ema_20": true,
+      "pct_from_ema_20": 4.13,
+      "above_sma_20": true,
+      "pct_from_sma_20": 4.14,
+      "above_ema_21": true,
+      "pct_from_ema_21": 4.16,
+      "above_sma_21": true,
+      "pct_from_sma_21": 4.22,
+      "above_ema_50": true,
+      "pct_from_ema_50": 4.15,
+      "above_sma_50": true,
+      "pct_from_sma_50": 5.5,
+      "above_ema_200": true,
+      "pct_from_ema_200": 9.47,
+      "above_sma_200": true,
+      "pct_from_sma_200": 11.16
+    },
+    "rsi": {
+      "rsi_7": 60.99,
+      "rsi_14": 61.88,
+      "rsi_21": 58.02
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 0.5872,
+      "signal_line": 0.5559,
+      "histogram": 0.0313,
+      "bullish_crossover": true
+    },
+    "bollinger": {
+      "upper": 152.98,
+      "middle": 146.99,
+      "lower": 141.01,
+      "width": 0.0814,
+      "pct_b": 1.0086
+    },
+    "atr": {
+      "atr_14": 4.41,
+      "atr_pct": 2.88
+    },
+    "adx": {
+      "adx_14": 50.69,
+      "plus_di": 30.33,
+      "minus_di": 21.79,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1946300,
+      "avg_volume_20": 1131005,
+      "relative_volume": 1.72,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 147.88,
+          "tests": 26,
+          "volume_confirmed": false
+        },
+        {
+          "price": 151.92,
+          "tests": 6,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 135.42,
+          "tests": 2,
+          "volume_confirmed": true
+        },
+        {
+          "price": 138.59,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 140.39,
+          "tests": 14,
+          "volume_confirmed": false
+        },
+        {
+          "price": 142.22,
+          "tests": 28,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 142.22,
+      "recent_high": 153.5,
+      "recent_low": 136.13,
+      "prev_day_high": 143.2,
+      "prev_day_low": 136.13,
+      "prev_day_close": 139.71
+    },
+    "fibonacci": {
+      "swing_high": 153.5,
+      "swing_low": 136.13,
+      "fib_236": 149.4,
+      "fib_382": 146.86,
+      "fib_500": 144.82,
+      "fib_618": 142.77,
+      "fib_786": 139.85,
+      "fib_ext_1272": 158.22,
+      "fib_ext_1618": 164.23,
+      "fib_ext_2000": 170.87,
+      "fib_ext_low_1272": 131.41,
+      "fib_ext_low_1618": 125.4
+    },
+    "momentum": {
+      "roc_5d": 3.87,
+      "roc_10d": 1.39,
+      "roc_21d": 5.23
+    },
+    "z_score_50": 2.65,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 146.6242980120435,
+      "sma_24": 145.49979209899902,
+      "ema_48": 146.68205861944162,
+      "sma_48": 146.84473864237467,
+      "ema_120": 146.77847222074146,
+      "sma_120": 146.98726997375488,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 152.375,
+    "dist_from_50sma_pct": 3.67,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 3.92,
+      "above_sma_24": true,
+      "pct_from_sma_24": 4.73,
+      "above_ema_48": true,
+      "pct_from_ema_48": 3.88,
+      "above_sma_48": true,
+      "pct_from_sma_48": 3.77,
+      "above_ema_120": true,
+      "pct_from_ema_120": 3.81,
+      "above_sma_120": true,
+      "pct_from_sma_120": 3.67,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 15137.5
+    },
+    "rsi": {
+      "rsi_21": 55.87
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.0917,
+      "signal_line": -0.8224,
+      "histogram": 0.7307,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 154.34,
+      "middle": 146.84,
+      "lower": 139.35,
+      "width": 0.1021,
+      "pct_b": 0.8688
+    },
+    "atr": {
+      "atr_24": 2.5,
+      "atr_pct": 1.64
+    },
+    "adx": {
+      "adx_24": 25.26,
+      "plus_di": 39.08,
+      "minus_di": 21.61,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 103589,
+      "avg_volume_20": 218203,
+      "relative_volume": 0.47,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 149.41,
+          "tests": 30,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 136.13,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 146.92,
+          "tests": 31,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 146.92,
+      "recent_high": 156.1,
+      "recent_low": 136.13,
+      "prev_day_high": 153.5,
+      "prev_day_low": 150.05,
+      "prev_day_close": 152.97
+    },
+    "fibonacci": {
+      "swing_high": 156.1,
+      "swing_low": 136.13,
+      "fib_236": 151.39,
+      "fib_382": 148.47,
+      "fib_500": 146.12,
+      "fib_618": 143.76,
+      "fib_786": 140.4,
+      "fib_ext_1272": 161.53,
+      "fib_ext_1618": 168.44,
+      "fib_ext_2000": 176.07,
+      "fib_ext_low_1272": 130.7,
+      "fib_ext_low_1618": 123.79
+    },
+    "momentum": {
+      "roc_5d": 4.37,
+      "roc_10d": 9.21,
+      "roc_21d": 3.03
+    },
+    "z_score_120": 1.8,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 90,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "hold",
+    "avg_price_target": 133.0,
+    "recent_changes": "Susquehanna raised PT to $156 from $142 (2026-05-06) post Q1 beat; Goldman Sachs lowered PT to $107 from $110 (2026-05-06). Consensus: 1 Buy / 9 Hold / 7 Sell across 11-analyst panel; broader 19-analyst median PT $128 (range $95-$166)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 results just reported (2026-05-06): EPS $1.71 vs $1.33 est, revenue $2.78B vs $2.58B est, both beats. Next earnings (Q2 2026) expected late July / early August 2026 based on historical cadence; specific date not confirmed in search results."
+  }
+}

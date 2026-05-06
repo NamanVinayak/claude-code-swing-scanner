@@ -1,0 +1,23 @@
+{
+  "ticker": "EXPD",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [147.88, 142.22, 139.71],
+  "top_3_arguments": [
+    "Price is stretched and at upper Bollinger Band: daily_indicators.bollinger.pct_b = 1.0086 (above the upper band at 152.98) and daily_indicators.z_score_50 = 2.65 (>2 standard deviations above 50d mean). ATR-relative reach: dist_from_50sma_pct = 5.5% with atr_pct only 2.88, so price is roughly 1.9 ATR above mean — classic mean-reversion zone, not a fresh-breakout zone. Hourly bollinger.pct_b = 0.8688 confirms upper-band stretch on the lower timeframe too.",
+    "Volume tape contradicts the breakout: daily_indicators.volume.relative_volume = 1.72 today, but daily_indicators.volume.volume_bias_10d = 'down' and daily_indicators.volume.obv.trend = 'down' with obv.diverging_from_price = true. OBV diverging negatively from price into a key-level test is the classic distribution signature — institutions selling into retail buying. The 2026-05-04 candle (open 142.99, low 136.13, close 139.71 on 2.58M volume) was a high-volume capitulation that has been retraced in only one session — looks more like a short-squeeze recovery than accumulation.",
+    "R:R against well-defined resistance is poor. Watch_level $154.50 is essentially at upper Bollinger ($152.98) and just below the major pivot_high cluster at $151.92 (6 tests). Daily fib_ext_1272 sits at $158.22, giving roughly $3.72 of upside (2.4%) before extension resistance, while the invalidation_level $152.50 to true structural support at sma_20 / pivot_low $147.88 implies $6.62 of real risk (4.3%) — sub-1:1 R:R. Compounding the risk: analyst_consensus_web shows avg_price_target $133 (~13% BELOW current $153.08) with a 1 Buy / 9 Hold / 7 Sell skew and Goldman cutting PT to $107 the same day Susquehanna raised to $156, signalling distribution into strength."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is genuinely constructive: price is above all moving averages from ema_5 through sma_200 (price_vs_ma all true), and dist_from_sma_200 = 11.16% confirms a durable longer-term uptrend.",
+    "ADX 50.69 with plus_di 30.33 > minus_di 21.79 indicates a strong, directionally-up trend; daily MACD bullish_crossover = true with histogram +0.0313 supports near-term upward momentum.",
+    "Q1 2026 earnings beat is real (EPS $1.71 vs $1.33 est, revenue $2.78B vs $2.61B FactSet est) and explains today's gap-and-go; rsi_divergence.bearish = false, so there is no daily-timeframe negative divergence to point to."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-expd-q1-earnings-140004465.html",
+    "https://finance.yahoo.com/markets/stocks/articles/expd-q1-earnings-revenues-top-163400140.html",
+    "https://www.stocktitan.net/news/EXPD/expeditors-reports-first-quarter-2026-eps-of-1-oiain06talzl.html",
+    "https://www.marketscreener.com/news/earnings-flash-expd-expeditors-international-of-washington-inc-reports-q1-revenue-2-78b-vs-fa-ce7f58dcdb81fe27",
+    "https://www.benzinga.com/quote/EXPD/analyst-ratings"
+  ]
+}

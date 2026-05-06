@@ -1,0 +1,437 @@
+{
+  "ticker": "CRDO",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 201.0,
+  "invalidation_level": 193.57,
+  "catalyst_note": "Trending momentum long with tv_strong_buy + tv_trending_up signals; gapped +3.55% premarket to $200.44, continuing directional thrust but compressing initial R/R from yesterday's setup price.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "CRDO stock rose 21% this week amid bullish data signals",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.quiverquant.com/news/$CRDO+stock+rose+21%25+this+week.+Here's+what+we+see+in+our+data.",
+      "sentiment": "positive",
+      "summary": "CRDO up roughly 21% week-to-date driven by AI connectivity positioning, institutional buying, and FY26 Q3 earnings beat. Call volume directionally bullish."
+    },
+    {
+      "title": "Credo Technology Group (CRDO) Moved Up 9.47% on May 5: Key Drivers Unveiled",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.tradingkey.com/news/market-movers/261858546-market-movers-crdo-20260505",
+      "sentiment": "positive",
+      "summary": "Stock jumped 9.47% on May 5 after FY2026 Q3 earnings beat both revenue and EPS estimates. AI datacenter connectivity demand cited as primary driver."
+    },
+    {
+      "title": "Credo Technology Group (CRDO) Up 12.6% After AI Datacenter Connectivity Expansion Bet",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-crdo/credo-technology-group-holding/news/credo-technology-group-crdo-is-up-126-after-ai-datacenter-co",
+      "sentiment": "positive",
+      "summary": "Shares climbed 12.6% on report casting CRDO as a key bottleneck supplier for AI infrastructure build-out. Boosts demand expectations for high-speed connectivity products."
+    },
+    {
+      "title": "PFA Pension Forsikringsaktieselskab Takes Position in CRDO",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-pfa-pension-forsikringsaktieselskab-takes-position-in-credo-technology-group-holding-ltd-crdo-2026-05-04/",
+      "sentiment": "positive",
+      "summary": "Danish pension fund PFA disclosed a new stake in CRDO during Q4 via SEC filing. Adds to institutional ownership tape."
+    },
+    {
+      "title": "CRDO Receives Average Rating of 'Moderate Buy' from 19 Brokerages",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://www.marketbeat.com/instant-alerts/credo-technology-group-holding-ltd-nasdaqcrdo-receives-average-rating-of-moderate-buy-from-brokerages-2026-05-04/",
+      "sentiment": "positive",
+      "summary": "Consensus rating across 19 covering firms is 'Moderate Buy.' Reflects broadly constructive sell-side stance heading into Q3 results."
+    },
+    {
+      "title": "Why Credo Technology Group Stock Won't Stop Climbing",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.tipranks.com/news/catalyst/why-credo-technology-group-stock-wont-stop-climbing",
+      "sentiment": "positive",
+      "summary": "TipRanks catalyst piece highlights AI infrastructure tailwinds, DustPhotonics acquisition expanding optical portfolio, and upcoming TSMC 2026 Technology Symposium appearance as drivers of continued momentum."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 193.57000732421875,
+  "market_cap": 34082658304.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-04-29",
+      "open": 171.55999755859375,
+      "high": 175.9600067138672,
+      "low": 165.00999450683594,
+      "close": 175.77000427246094,
+      "volume": 4415300
+    },
+    {
+      "time": "2026-04-30",
+      "open": 179.6699981689453,
+      "high": 180.52999877929688,
+      "low": 167.5,
+      "close": 174.00999450683594,
+      "volume": 4438900
+    },
+    {
+      "time": "2026-05-01",
+      "open": 175.8000030517578,
+      "high": 184.8800048828125,
+      "low": 171.47999572753906,
+      "close": 184.3800048828125,
+      "volume": 4701700
+    },
+    {
+      "time": "2026-05-04",
+      "open": 187.27000427246094,
+      "high": 188.1999969482422,
+      "low": 178.8800048828125,
+      "close": 180.05999755859375,
+      "volume": 3636000
+    },
+    {
+      "time": "2026-05-05",
+      "open": 183.50999450683594,
+      "high": 199.8090057373047,
+      "low": 183.46499633789062,
+      "close": 193.57000732421875,
+      "volume": 6091500
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 183.9493786976193,
+      "sma_5": 181.55800170898436,
+      "ema_10": 178.61556761651187,
+      "sma_10": 182.4279998779297,
+      "ema_20": 165.23818132743125,
+      "sma_20": 165.08550033569335,
+      "ema_21": 164.02309927368614,
+      "sma_21": 162.3095241728283,
+      "ema_50": 144.46977705145935,
+      "sma_50": 130.14600036621093,
+      "ema_200": 126.8241526788883,
+      "sma_200": 137.81477535247802,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 193.57000732421875,
+    "dist_from_50sma_pct": 48.73,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 5.23,
+      "above_sma_5": true,
+      "pct_from_sma_5": 6.62,
+      "above_ema_10": true,
+      "pct_from_ema_10": 8.37,
+      "above_sma_10": true,
+      "pct_from_sma_10": 6.11,
+      "above_ema_20": true,
+      "pct_from_ema_20": 17.15,
+      "above_sma_20": true,
+      "pct_from_sma_20": 17.25,
+      "above_ema_21": true,
+      "pct_from_ema_21": 18.01,
+      "above_sma_21": true,
+      "pct_from_sma_21": 19.26,
+      "above_ema_50": true,
+      "pct_from_ema_50": 33.99,
+      "above_sma_50": true,
+      "pct_from_sma_50": 48.73,
+      "above_ema_200": true,
+      "pct_from_ema_200": 52.63,
+      "above_sma_200": true,
+      "pct_from_sma_200": 40.46,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 19257.0
+    },
+    "rsi": {
+      "rsi_7": 48.93,
+      "rsi_14": 60.31,
+      "rsi_21": 73.63
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 17.3979,
+      "signal_line": 17.1552,
+      "histogram": 0.2427,
+      "bullish_crossover": true
+    },
+    "bollinger": {
+      "upper": 218.52,
+      "middle": 165.09,
+      "lower": 111.65,
+      "width": 0.6474,
+      "pct_b": 0.7665
+    },
+    "atr": {
+      "atr_14": 13.52,
+      "atr_pct": 6.98
+    },
+    "adx": {
+      "adx_14": 57.08,
+      "plus_di": 29.82,
+      "minus_di": 18.18,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 6091500,
+      "avg_volume_20": 7444600,
+      "relative_volume": 0.82,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 125.7,
+          "tests": 8,
+          "volume_confirmed": true
+        },
+        {
+          "price": 198.97,
+          "tests": 2,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 86.49,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 92.6,
+          "tests": 4,
+          "volume_confirmed": true
+        },
+        {
+          "price": 164.8,
+          "tests": 6,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 198.97,
+      "nearest_support": 164.8,
+      "recent_high": 199.81,
+      "recent_low": 106.09,
+      "prev_day_high": 188.2,
+      "prev_day_low": 178.88,
+      "prev_day_close": 180.06
+    },
+    "fibonacci": {
+      "swing_high": 199.81,
+      "swing_low": 86.49,
+      "fib_236": 173.06,
+      "fib_382": 156.52,
+      "fib_500": 143.15,
+      "fib_618": 129.77,
+      "fib_786": 110.74,
+      "fib_ext_1272": 230.63,
+      "fib_ext_1618": 269.84,
+      "fib_ext_2000": 313.13,
+      "fib_ext_low_1272": 55.66,
+      "fib_ext_low_1618": 16.45
+    },
+    "momentum": {
+      "roc_5d": 16.66,
+      "roc_10d": 5.59,
+      "roc_21d": 88.92
+    },
+    "z_score_50": 1.87,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 185.7096219399119,
+      "sma_24": 184.2177766164144,
+      "ema_48": 181.57819483614063,
+      "sma_48": 178.1929505666097,
+      "ema_120": 168.1114801566631,
+      "sma_120": 172.83392257690429,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 184.77999877929688,
+    "dist_from_50sma_pct": 6.91,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -0.5,
+      "above_sma_24": true,
+      "pct_from_sma_24": 0.31,
+      "above_ema_48": true,
+      "pct_from_ema_48": 1.76,
+      "above_sma_48": true,
+      "pct_from_sma_48": 3.7,
+      "above_ema_120": true,
+      "pct_from_ema_120": 9.92,
+      "above_sma_120": true,
+      "pct_from_sma_120": 6.91,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 18378.0
+    },
+    "rsi": {
+      "rsi_21": 59.37
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 4.7488,
+      "signal_line": 3.2417,
+      "histogram": 1.5071,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 195.69,
+      "middle": 178.19,
+      "lower": 160.7,
+      "width": 0.1963,
+      "pct_b": 0.6883
+    },
+    "atr": {
+      "atr_24": 4.4,
+      "atr_pct": 2.38
+    },
+    "adx": {
+      "adx_24": 38.38,
+      "plus_di": 33.47,
+      "minus_di": 16.02,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1317542,
+      "avg_volume_20": 637549,
+      "relative_volume": 2.07,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 173.88,
+          "tests": 15,
+          "volume_confirmed": true
+        },
+        {
+          "price": 180.43,
+          "tests": 17,
+          "volume_confirmed": true
+        },
+        {
+          "price": 188.2,
+          "tests": 6,
+          "volume_confirmed": true
+        },
+        {
+          "price": 198.97,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 164.8,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 167.5,
+          "tests": 11,
+          "volume_confirmed": true
+        },
+        {
+          "price": 171.48,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 178.88,
+          "tests": 14,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 188.2,
+      "nearest_support": 178.88,
+      "recent_high": 199.81,
+      "recent_low": 174.22,
+      "prev_day_high": 196.0,
+      "prev_day_low": 192.28,
+      "prev_day_close": 193.52
+    },
+    "fibonacci": {
+      "swing_high": 199.81,
+      "swing_low": 167.5,
+      "fib_236": 192.18,
+      "fib_382": 187.47,
+      "fib_500": 183.65,
+      "fib_618": 179.84,
+      "fib_786": 174.41,
+      "fib_ext_1272": 208.6,
+      "fib_ext_1618": 219.78,
+      "fib_ext_2000": 232.12,
+      "fib_ext_low_1272": 158.71,
+      "fib_ext_low_1618": 147.53
+    },
+    "momentum": {
+      "roc_5d": -5.17,
+      "roc_10d": 2.06,
+      "roc_21d": 5.21
+    },
+    "z_score_120": 0.77,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 26,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 200.0,
+    "recent_changes": "Rothschild & Co Redburn initiated Buy on 2026-05-01. Consensus 'Moderate Buy' from 19 firms (per 2026-05-04 update); 16 Buy / 1 Hold / 0 Sell among 18 covered. Past-month average PT ~$209.71 (high $260, low $170)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Just reported FY2026 Q3 earnings (beat on revenue and EPS) which drove the May 5 +9.47% move. Next quarterly print not specified in search results. Forward catalyst: TSMC 2026 Technology Symposium appearance to showcase next-gen AI datacenter connectivity. DustPhotonics acquisition (~$750M) flagged as priced-in tailwind."
+  }
+}

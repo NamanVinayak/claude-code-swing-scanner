@@ -1,0 +1,22 @@
+{
+  "ticker": "EXPD",
+  "approved": [
+    {
+      "ticker": "EXPD",
+      "direction": "long",
+      "entry_price": 154.00,
+      "stop_loss": 150.00,
+      "target_price": 158.22,
+      "target_price_2": 161.00,
+      "quantity": 32,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "Direction consensus across all 4 perspectives (long). Bull strengths 6/7 vs bear strengths 6/6 give combined_p_bull = 0.519, combined_p_bear = 0.481. Conservative long math: target = min(161.00, 158.22) = 158.22 (b_bull_b fib_ext_1272), stop = max(149.40, 150.00) = 150.00. Expected_return_per_share = 0.519 * (158.22 - 154.00) - 0.481 * (154.00 - 150.00) = +$0.27/share — positive but thin. Daily indicators back the bull (adx_14 = 50.69 strong with plus_di 30.33 > minus_di 21.79; macd bullish_crossover = true; price above all MAs from ema_5 to sma_200), but bears correctly cite z_score_50 = 2.65 stretched and bollinger pct_b = 1.0086 above upper band — extension risk is real. Sizing: risk_dollars = $25000 * 1% = $250; risk_per_share = $4.00; Gate-3 quantity = 62. Gate-4: notional 62 * 154 = $9,548 > 15% cap ($3,750), but M = floor($5,000/154) = 32 shares fits 20% extended cap with risk_M = $128 (51% of risk budget, ≥ 40% floor). Scaled down from 62 to 32 shares to fit small-account cap, using 51% of risk budget. Earnings.days_until_next = 90 — no near-term earnings risk in 8-day holding window.",
+      "risk_usd": 128.00,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "EXPD long approved as small_scaled (32 shares @ $154, stop $150, target $158.22). Q1 beat catalyst with strong daily ADX/MACD trend stack overrides bears' stretched-extension concern; expected return +$0.27/share is thin but positive. Position scaled from 62 to 32 shares to fit 20% small-account cap using 51% of risk budget."
+}

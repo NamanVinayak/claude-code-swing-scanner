@@ -1,0 +1,403 @@
+{
+  "ticker": "CMI",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 685.0,
+  "invalidation_level": 672.0,
+  "catalyst_note": "Trending long on tv_strong_buy + tv_trending_up; overnight gap of +1.28% held the bid, but zero premarket volume prevents confirming follow-through \u2014 needs market-open range break above $685 to validate.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Cummins (CMI) Raises 2026 Outlook as Power Systems Hits Record on Data Center Demand",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://news.alphastreet.com/cummins-cmi-raises-2026-outlook-as-power-systems-hits-record-on-data-center-demand/",
+      "sentiment": "positive",
+      "summary": "Cummins reported Q1 2026 revenue of $8.4B (+3% YoY) and beat on adjusted EPS, driven by record Power Systems quarter on data-center backup-power demand. Management raised full-year 2026 guidance (revenue 8-11%, adj EPS $6.15) and returned $519M to shareholders."
+    },
+    {
+      "title": "Did Softer EPS, Higher Sales and Insider Selling Just Shift Cummins' (CMI) Investment Narrative?",
+      "source": "web_research",
+      "date": "2026-05-02",
+      "url": "https://www.sahmcapital.com/news/content/did-softer-eps-higher-sales-and-insider-selling-just-shift-cummins-cmi-investment-narrative-2026-05-02",
+      "sentiment": "negative",
+      "summary": "Article flags softer EPS trajectory, higher sales offset, and recent insider selling at Cummins as factors that may be shifting the investment narrative."
+    },
+    {
+      "title": "Cummins Stock: Earnings Beat On The Way (NYSE:CMI)",
+      "source": "web_research",
+      "date": "2026-05-01",
+      "url": "https://seekingalpha.com/article/4894243-cummins-earnings-beat-on-the-way",
+      "sentiment": "positive",
+      "summary": "Pre-earnings analysis predicting beat for Cummins, citing strong Power Systems segment and data-center demand backdrop ahead of Q1 2026 print."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 674.8800048828125,
+  "market_cap": 96955785216.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-04-29",
+      "open": 645.3499755859375,
+      "high": 648.5900268554688,
+      "low": 636.6599731445312,
+      "close": 638.9500122070312,
+      "volume": 507300
+    },
+    {
+      "time": "2026-04-30",
+      "open": 650.469970703125,
+      "high": 674.75,
+      "low": 649.2100219726562,
+      "close": 671.010009765625,
+      "volume": 879600
+    },
+    {
+      "time": "2026-05-01",
+      "open": 666.52001953125,
+      "high": 669.4400024414062,
+      "low": 656.6500244140625,
+      "close": 657.4400024414062,
+      "volume": 682400
+    },
+    {
+      "time": "2026-05-04",
+      "open": 656.0599975585938,
+      "high": 669.0599975585938,
+      "low": 653.739990234375,
+      "close": 656.72998046875,
+      "volume": 1191400
+    },
+    {
+      "time": "2026-05-05",
+      "open": 683.5,
+      "high": 689.3499755859375,
+      "low": 655.8499755859375,
+      "close": 674.8800048828125,
+      "volume": 1454400
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 662.0283616317108,
+      "sma_5": 659.802001953125,
+      "ema_10": 653.0838148868122,
+      "sma_10": 655.9140014648438,
+      "ema_20": 633.9942068030168,
+      "sma_20": 636.4945037841796,
+      "ema_21": 632.3083688979634,
+      "sma_21": 632.6985764276413,
+      "ema_50": 600.6284762767316,
+      "sma_50": 586.3862023925781,
+      "ema_200": 508.6232839127281,
+      "sma_200": 495.4250100708008,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 674.8800048828125,
+    "dist_from_50sma_pct": 15.09,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 1.94,
+      "above_sma_5": true,
+      "pct_from_sma_5": 2.29,
+      "above_ema_10": true,
+      "pct_from_ema_10": 3.34,
+      "above_sma_10": true,
+      "pct_from_sma_10": 2.89,
+      "above_ema_20": true,
+      "pct_from_ema_20": 6.45,
+      "above_sma_20": true,
+      "pct_from_sma_20": 6.03,
+      "above_ema_21": true,
+      "pct_from_ema_21": 6.73,
+      "above_sma_21": true,
+      "pct_from_sma_21": 6.67,
+      "above_ema_50": true,
+      "pct_from_ema_50": 12.36,
+      "above_sma_50": true,
+      "pct_from_sma_50": 15.09,
+      "above_ema_200": true,
+      "pct_from_ema_200": 32.69,
+      "above_sma_200": true,
+      "pct_from_sma_200": 36.22,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 67388.0
+    },
+    "rsi": {
+      "rsi_7": 58.18,
+      "rsi_14": 75.21,
+      "rsi_21": 76.86
+    },
+    "rsi_divergence": {
+      "bullish": true,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 24.4406,
+      "signal_line": 23.1386,
+      "histogram": 1.302,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 683.87,
+      "middle": 636.49,
+      "lower": 589.12,
+      "width": 0.1489,
+      "pct_b": 0.9051
+    },
+    "atr": {
+      "atr_14": 19.64,
+      "atr_pct": 2.91
+    },
+    "adx": {
+      "adx_14": 45.36,
+      "plus_di": 37.31,
+      "minus_di": 4.58,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1454400,
+      "avg_volume_20": 807285,
+      "relative_volume": 1.8,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 564.63,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 607.55,
+          "tests": 8,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 510.05,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 516.96,
+          "tests": 2,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 516.96,
+      "recent_high": 689.35,
+      "recent_low": 581.0,
+      "prev_day_high": 669.06,
+      "prev_day_low": 653.74,
+      "prev_day_close": 656.73
+    },
+    "fibonacci": {
+      "swing_high": 689.35,
+      "swing_low": 510.05,
+      "fib_236": 647.04,
+      "fib_382": 620.86,
+      "fib_500": 599.7,
+      "fib_618": 578.54,
+      "fib_786": 548.42,
+      "fib_ext_1272": 738.12,
+      "fib_ext_1618": 800.16,
+      "fib_ext_2000": 868.65,
+      "fib_ext_low_1272": 461.28,
+      "fib_ext_low_1618": 399.24
+    },
+    "momentum": {
+      "roc_5d": 5.05,
+      "roc_10d": 5.62,
+      "roc_21d": 22.26
+    },
+    "z_score_50": 1.9,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 667.4545438394827,
+      "sma_24": 666.2640482584635,
+      "ema_48": 660.486862927793,
+      "sma_48": 658.6616617838541,
+      "ema_120": 639.7778192999455,
+      "sma_120": 640.7811584472656,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 701.27001953125,
+    "dist_from_50sma_pct": 9.44,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 5.07,
+      "above_sma_24": true,
+      "pct_from_sma_24": 5.25,
+      "above_ema_48": true,
+      "pct_from_ema_48": 6.17,
+      "above_sma_48": true,
+      "pct_from_sma_48": 6.47,
+      "above_ema_120": true,
+      "pct_from_ema_120": 9.61,
+      "above_sma_120": true,
+      "pct_from_sma_120": 9.44,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 70027.0
+    },
+    "rsi": {
+      "rsi_21": 68.73
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 8.066,
+      "signal_line": 6.4665,
+      "histogram": 1.5995,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 685.88,
+      "middle": 658.66,
+      "lower": 631.44,
+      "width": 0.0826,
+      "pct_b": 1.2827
+    },
+    "atr": {
+      "atr_24": 8.53,
+      "atr_pct": 1.22
+    },
+    "adx": {
+      "adx_24": 25.67,
+      "plus_di": 36.91,
+      "minus_di": 15.24,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 88594,
+      "avg_volume_20": 142515,
+      "relative_volume": 0.62,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 648.59,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 665.13,
+          "tests": 25,
+          "volume_confirmed": false
+        },
+        {
+          "price": 674.75,
+          "tests": 12,
+          "volume_confirmed": true
+        },
+        {
+          "price": 689.35,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 637.11,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 646.35,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 653.74,
+          "tests": 18,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 653.74,
+      "recent_high": 704.59,
+      "recent_low": 653.74,
+      "prev_day_high": 675.41,
+      "prev_day_low": 669.72,
+      "prev_day_close": 674.9
+    },
+    "fibonacci": {
+      "swing_high": 704.59,
+      "swing_low": 637.52,
+      "fib_236": 688.76,
+      "fib_382": 678.97,
+      "fib_500": 671.06,
+      "fib_618": 663.14,
+      "fib_786": 651.87,
+      "fib_ext_1272": 722.83,
+      "fib_ext_1618": 746.04,
+      "fib_ext_2000": 771.66,
+      "fib_ext_low_1272": 619.28,
+      "fib_ext_low_1618": 596.07
+    },
+    "momentum": {
+      "roc_5d": 4.21,
+      "roc_10d": 6.42,
+      "roc_21d": 5.38
+    },
+    "z_score_120": 2.55,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 90,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 478.62,
+    "recent_changes": "Truist Securities maintained Buy and raised price target to $730 from $703 on 2026-04-20. Aggregator splits show 48 Buy / 29 Hold / 0 Sell; 3-month avg PT around $616.73 with high $730 (Truist)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-30",
+    "days_until_next": 85,
+    "notes": "Q1 2026 already reported (early May) with beat on adjusted EPS and raised FY guidance. Near-term catalyst: May 21 Analyst Day in NYC expected to detail next Power Systems capacity tranche. Street expects continued data-center backup-power demand and EPA 2027 low-NOx pricing tailwind ($10K-$15K per-truck price increase) to support earnings."
+  }
+}

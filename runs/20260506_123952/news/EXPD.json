@@ -1,0 +1,70 @@
+{
+  "ticker": "EXPD",
+  "researched_at": "2026-05-06T19:42:00Z",
+  "news_items": [
+    {
+      "headline": "Expeditors International (EXPD) Q1 Earnings and Revenues Surpass Estimates",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-expd-q1-earnings-140004465.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Q1 2026 EPS $1.71 (+16.3% YoY) beat Zacks consensus $1.33. Revenue $2.78B (+4.4% YoY) beat $2.58B consensus. Operating income $294.8M (+11% YoY); operating margin expanded to ~10.6% from ~10%."
+    },
+    {
+      "headline": "EXPD Q1 Earnings & Revenues Top Estimates on Airfreight Strength",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expd-q1-earnings-revenues-top-163400140.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Airfreight services revenue rose to $1.03B on higher volumes and firmer yields earlier in quarter; airfreight tonnage +5% YoY driven by technology customers. Customs brokerage and other services revenue $1.15B, helped by tariff-driven complexity and pricing initiatives."
+    },
+    {
+      "headline": "Expeditors Q1 EPS rises 16% to $1.71, revenue up 4%",
+      "url": "https://www.stocktitan.net/news/EXPD/expeditors-reports-first-quarter-2026-eps-of-1-oiain06talzl.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Stocktitan release: Q1 2026 EPS $1.71 vs prior-year $1.47, revenue $2.78B vs prior-year $2.66B. Highlights non-asset-based model resilience amid geopolitical disruptions."
+    },
+    {
+      "headline": "Earnings Flash: EXPD Reports Q1 Revenue $2.78B vs FactSet Est $2.61B",
+      "url": "https://www.marketscreener.com/news/earnings-flash-expd-expeditors-international-of-washington-inc-reports-q1-revenue-2-78b-vs-fa-ce7f58dcdb81fe27",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Revenue $2.78B beat FactSet consensus $2.61B by ~6.5%. Confirms top-line outperformance versus street expectations."
+    },
+    {
+      "headline": "Susquehanna raises EXPD price target to $156 from $142",
+      "url": "https://www.benzinga.com/quote/EXPD/analyst-ratings",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Susquehanna raised PT to $156 from $142 following Q1 beat. Price target now sits near top end of analyst range ($95-$166)."
+    },
+    {
+      "headline": "Goldman Sachs lowers EXPD price target to $107 from $110",
+      "url": "https://www.benzinga.com/quote/EXPD/analyst-ratings",
+      "date": "2026-05-06",
+      "sentiment": "negative",
+      "summary": "Goldman Sachs trimmed PT to $107 from $110, sitting below current price levels and contributing to the mixed Hold consensus despite the Q1 beat."
+    },
+    {
+      "headline": "Ocean freight & ocean services revenue declines on industry pressure",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/expd-q1-earnings-revenues-top-163400140.html",
+      "date": "2026-05-06",
+      "sentiment": "negative",
+      "summary": "Ocean freight and ocean services revenue declined to $598.9M as industry conditions remained pressured. Offset by airfreight strength but a notable soft segment."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "hold",
+    "avg_price_target": 133.0,
+    "recent_changes": "Susquehanna raised PT to $156 from $142 (2026-05-06) post Q1 beat; Goldman Sachs lowered PT to $107 from $110 (2026-05-06). Consensus: 1 Buy / 9 Hold / 7 Sell across 11-analyst panel; broader 19-analyst median PT $128 (range $95-$166)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 results just reported (2026-05-06): EPS $1.71 vs $1.33 est, revenue $2.78B vs $2.58B est, both beats. Next earnings (Q2 2026) expected late July / early August 2026 based on historical cadence; specific date not confirmed in search results."
+  },
+  "raw_search_files": [
+    "EXPD_news-this-week.json",
+    "EXPD_analyst-rating.json",
+    "EXPD_earnings-catalyst.json"
+  ]
+}

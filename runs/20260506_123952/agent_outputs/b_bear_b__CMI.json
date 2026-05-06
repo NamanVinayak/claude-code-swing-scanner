@@ -1,0 +1,21 @@
+{
+  "ticker": "CMI",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Price has run far ahead of the analyst consensus base case: current_price $674.88 is already +41% above analyst_consensus_web.avg_price_target of $478.62, and even the most aggressive PT (Truist $730 from 2026-04-20) is only ~8% above current — limited upside vs invalidation distance. With recent_news_7d (sahmcapital, 2026-05-02) explicitly flagging 'softer EPS, higher sales and insider selling' as a narrative shift, paying near the high-water analyst mark on a breakout is poor risk/reward.",
+    "Technicals show a stretched, overbought condition that historically caps near-term breakouts: daily rsi_14 = 75.21 and rsi_21 = 76.86 (both well into overbought), bollinger pct_b = 0.9051 with price hugging the upper band ($683.87), and z_score_50 = 1.9 (price ~1.9 std dev above the 50-day mean). Distance from 50sma is +15.09% and from 200sma +36.22% — at these stretches, a $685 breakout typically gets sold into rather than extending cleanly to a 2R target.",
+    "Catalyst vacuum + valuation digestion risk: earnings.days_until_next = 90 (earnings_context_web confirms next print 2026-07-30) means there is NO near-term fundamental catalyst to bail out a long that stalls; Q1 2026 beat is already in the tape (alphastreet 2026-05-05) and is being digested, not anticipated. The 2026-05-02 article specifically calls out insider selling — even though recent_insider_trades is empty in the bundle (so the magnitude is unconfirmed via web), the news-flagged selling combined with a 90-day catalyst gap means the path of least resistance is sideways consolidation, not a clean breakout-and-run."
+  ],
+  "bull_acknowledgements": [
+    "Q1 2026 fundamentals are genuinely strong: Cummins beat on adjusted EPS, posted record Power Systems quarter on data-center backup-power demand, and management raised FY2026 guidance to revenue +8-11% and adj EPS $6.15 (alphastreet 2026-05-05) — the underlying business is firing.",
+    "Trend structure is unambiguously bullish on daily: ema_aligned_uptrend = true across 5/10/20/50/200, adx_14 = 45.36 with plus_di 37.31 vs minus_di 4.58 (very strong directional trend), obv trending up and not diverging, and relative_volume = 1.8 on the 2026-05-05 push — momentum buyers have control.",
+    "Forward catalyst exists in the form of the May 21 Analyst Day in NYC (per earnings_context_web.notes), where management is expected to detail the next Power Systems capacity tranche and EPA 2027 low-NOx pricing tailwind ($10K-$15K per-truck price increase) — that is a real bullish setup for a swing-trader's late-May horizon."
+  ],
+  "web_sources_last_7d": [
+    "https://news.alphastreet.com/cummins-cmi-raises-2026-outlook-as-power-systems-hits-record-on-data-center-demand/",
+    "https://www.sahmcapital.com/news/content/did-softer-eps-higher-sales-and-insider-selling-just-shift-cummins-cmi-investment-narrative-2026-05-02",
+    "https://seekingalpha.com/article/4894243-cummins-earnings-beat-on-the-way"
+  ]
+}

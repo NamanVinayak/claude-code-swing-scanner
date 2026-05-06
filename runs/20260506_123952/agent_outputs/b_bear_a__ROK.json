@@ -1,0 +1,23 @@
+{
+  "ticker": "ROK",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [424.85, 411.85, 400.31],
+  "top_3_arguments": [
+    "Price is dangerously stretched on every timeframe — daily bollinger.pct_b = 1.2876 (price ABOVE upper band at 424.85), z_score_50 = 2.19, dist_from_50sma_pct = 13.09%, and pct_from_ema_5 = 5.13%. Hourly is even worse: bollinger.pct_b = 1.1786 and z_score_120 = 4.0. Daily rsi_7 = 76.57 and rsi_14 = 68.88 with rsi_21 = 72.46 confirm overbought. This is a textbook mean-reversion setup AGAINST the long; chasing 443.5 entry buys the top tick of an event-driven gap.",
+    "The May-5 candle is a one-day earnings gap, not a clean breakout. recent_prices_5d shows ROK opened 454.50, made a high of 454.67, but CLOSED at 435.93 — an intraday reversal of -18.74 from the high (-4.1%) on volume 1,861,100 (relative_volume 2.54x). Closing in the lower third of a 23.57-point range on huge volume is a distribution/exhaustion signature, not breakout follow-through. Hourly volume.relative_volume already cooled to 0.84 (below average) and volume_bias_10d on daily = 'down' — participation is fading, not accelerating.",
+    "Reward-to-risk and analyst ceiling kill the trade. Entry 443.5, stop at invalidation_level 434.5 = 9.0 points (2.03%) of risk. Upside is capped: analyst_consensus_web.avg_price_target = 414.64 (~6.5% BELOW entry) — Wall Street already thinks fair value is south of here post-beat. Even using daily fib_ext_1272 = 483.81 as a bull target gives 40.31 points up vs 9.0 down (R:R ~4.5:1) but you must believe price runs through analyst consensus AND the 454.67 swing-high rejection level on the same week as a 10.72% one-day gap — historically a low base-rate outcome."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely strong: daily ema_aligned_uptrend = true, price above all MAs from EMA-5 through SMA-200, adx_14 = 40.67 with plus_di 37.78 vs minus_di 11.65 — dominant uptrend.",
+    "Fundamental catalyst is real and fresh: May-5 fiscal Q2 beat, FY26 EPS guide raised to $12.50-$13.10, demand from warehouse automation/data centers/semis. macd bullish_crossover = true on daily with positive histogram +0.99.",
+    "OBV trend is up on both daily and hourly with no price/OBV divergence, so accumulation under the gap is not yet broken — a tight consolidation above 434 instead of a flush could rebuild the long thesis."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-rok/rockwell-automation/news/should-rockwells-stronger-q2-2026-profitability-shift-the-in",
+    "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",
+    "https://www.tickerreport.com/banking-finance/13430299/truist-financial-corp-decreases-stake-in-rockwell-automation-inc-rok.html",
+    "https://meyka.com/blog/rok-stock-dips-05-on-may-4-2026-as-earnings-loom-on-nyse-0405/"
+  ]
+}

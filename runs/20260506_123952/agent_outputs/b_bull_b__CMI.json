@@ -1,0 +1,25 @@
+{
+  "ticker": "CMI",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 685.00, "high": 689.50},
+  "target": 722.00,
+  "stop": 672.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Fresh catalyst (2026-05-05, alphastreet): Cummins reported Q1 2026 revenue $8.4B (+3% YoY) with adj-EPS beat and RAISED FY2026 guidance (revenue +8-11%, adj EPS $6.15) on record Power Systems quarter driven by data-center backup-power demand; $519M returned to shareholders. Price reacted bullishly — 2026-04-30 closed +5.0% on the print and held the gain (recent_prices_5d shows close 671.01 → 657.44 → 656.73 → 674.88 with 2026-05-05 volume 1.45M vs avg 807k = relative_volume 1.8).",
+    "Strong-trend confirmation directly from facts: daily ADX_14 = 45.36 with +DI 37.31 / -DI 4.58 (trend_strength = 'strong'), EMA stack aligned uptrend, MACD histogram +1.302 (line 24.44 > signal 23.14), bullish RSI divergence flagged over 60-bar lookback, OBV trend = 'up' (not diverging), momentum roc_21d = +22.26%. Price is at BB %B 0.9051 (upper band 683.87) and pushing the watch_level 685 — classic strong-trend breakout context, not an overextension squeeze (RSI_7 = 58.18 actually printed BELOW RSI_14 75.21, showing recent consolidation within the uptrend).",
+    "Smart-money + analyst tape supports continuation: Truist Securities maintained Buy and raised PT to $730 (from $703) on 2026-04-20 per analyst_consensus_web; aggregator splits 48 Buy / 29 Hold / 0 Sell. Near-term known catalyst on May 21 Analyst Day (per earnings_context_web) detailing next Power Systems capacity tranche, plus EPA 2027 low-NOx pricing tailwind ($10-15K per-truck price increase). Earnings risk is OFF the table — earnings.days_until_next = 90 (next print 2026-07-30), so this is a clean post-earnings drift trade ahead of a known investor-day catalyst. R:R from entry midpoint 687.25 → target 722 (+34.75) vs stop 672 (-15.25) = 2.28:1, clears the 2:1 floor."
+  ],
+  "risks_acknowledged": [
+    "Daily RSI_14 = 75.21 and RSI_21 = 76.86 are technically overbought; daily z_score_50 = 1.9 and price is +15.09% above the 50SMA — late-trend chasing risk. A failed breakout above 685 that closes back below the 5-day EMA (662) would signal exhaustion.",
+    "Counter-narrative in recent_news_7d: 2026-05-02 sahmcapital piece flags 'softer EPS trajectory, higher sales offset, and recent insider selling' as narrative-shifting — facts bundle's recent_insider_trades is empty so I cannot confirm/refute insider selling magnitude (data not in bundle). Cluster of insider sells, if real, weakens the smart-money pillar.",
+    "analyst_consensus_web shows avg_price_target = $478.62 which is well BELOW current price $674.88 — likely a stale 3-month average vs the more recent Truist $730 PT, but it implies the bulk of the sell-side has not yet caught up. Mean-reversion to consensus is a tail risk if leadership rotates out of industrials/data-center beneficiaries.",
+    "Hourly RSI 68.73 with hourly BB %B = 1.2827 (price above upper band) and hourly relative_volume only 0.62 — the immediate hourly thrust is running on light tape, raising odds of a pullback to the hourly EMA_24 (~667) before the breakout completes."
+  ],
+  "web_sources_last_7d": [
+    "https://news.alphastreet.com/cummins-cmi-raises-2026-outlook-as-power-systems-hits-record-on-data-center-demand/",
+    "https://www.sahmcapital.com/news/content/did-softer-eps-higher-sales-and-insider-selling-just-shift-cummins-cmi-investment-narrative-2026-05-02",
+    "https://seekingalpha.com/article/4894243-cummins-earnings-beat-on-the-way"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ticker": "ROK",
+  "approved": [
+    {
+      "ticker": "ROK",
+      "direction": "long",
+      "entry_price": 444.75,
+      "stop_loss": 434.50,
+      "target_price": 469.00,
+      "target_price_2": 481.00,
+      "quantity": 11,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 7,
+      "rationale": "All 4 perspectives echo long; technical strengths balance (bull_a=7 vs bear_a=7) but catalyst side favors bulls (bull_b=8 vs bear_b=6) on the fresh 2026-05-05 fiscal Q2 beat-and-raise (FY26 EPS guide $12.50-$13.10), confirmed by daily adx_14=40.67 (+DI 37.78 vs -DI 11.65, strong trend), macd bullish_crossover with histogram +0.99, ema_aligned_uptrend=true, and relative_volume=2.54 on the gap day. combined_p_bull=0.5357, combined_p_bear=0.4643; expected_return_per_share = 0.5357*(469.00-444.75) - 0.4643*(444.75-434.50) = +$8.23 — clearly positive. Bears' overbought concern (rsi_7=76.57, bollinger pct_b=1.2876, z_score_50=2.19) is real but the conservative target 469 (well below fib_ext_1272=483.81) and tight stop at invalidation 434.50 already price in mean-reversion risk. Earnings.days_until_next=92 removes near-term event risk. Position math: risk_dollars = $25,000 * 1.0% * 1.0 = $250; risk_per_share = |444.75-434.50| = $10.25; Gate-3 quantity = floor(250/10.25) = 24, notional = $10,674 > 15% cap ($3,750), so scaled down from 24 to 11 shares to fit small-account cap, using 45% of risk budget (notional $4,892 ≤ 20% extended cap $5,000; risk $112.75 ≥ 40%-floor $100).",
+      "risk_usd": 112.75,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "ROK approved (small_scaled, 11 shares): post-earnings breakout with strong trend confirmation across daily/hourly indicators, positive +$8.23/share expected return, no near-term earnings risk, and budget headroom on all gates. Scaled down from Gate-3 quantity 24 to 11 to fit the 20% notional cap on a $444 stock against a $25k account."
+}

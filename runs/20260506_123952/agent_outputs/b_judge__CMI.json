@@ -1,0 +1,22 @@
+{
+  "ticker": "CMI",
+  "approved": [
+    {
+      "ticker": "CMI",
+      "direction": "long",
+      "entry_price": 687.50,
+      "stop_loss": 672.00,
+      "target_price": 722.00,
+      "target_price_2": 738.00,
+      "quantity": 7,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Technical bull (7) and catalyst bull (8) outweigh bears (7 tech, 6 fundamental); combined_p_bull = (7/14 + 8/14)/2 = 0.5357 vs combined_p_bear = 0.4643. Entry midpoint 687.50, conservative target = min(738,722) = 722, conservative stop = max(668,672) = 672. Expected_return_per_share = 0.5357*(722-687.50) - 0.4643*(687.50-672) = 18.48 - 7.20 = +$11.28 (clearly positive). Bears' overbought concern (rsi_14=75.21, z_score_50=1.9, hourly bb pct_b=1.2827) is real but countered by strong daily ADX 45.36 with +DI 37.31 vs -DI 4.58, ema_aligned_uptrend=true, MACD bullish (24.44>23.14, hist +1.30), volume.relative_volume=1.8 with OBV up not diverging, and fresh raised-FY26 catalyst (alphastreet 2026-05-05) plus Truist PT $730. Earnings.days_until_next=90 removes blackout risk. Sizing math: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = |687.50-672| = $15.50; Gate-3 qty = floor(250/15.50) = 16, but notional 16*687.50 = $11,000 exceeds 15% single-cap ($3,750). Scaled down from 16 to 7 shares to fit small-account cap, using 43% of risk budget (notional 7*687.50 = $4,812.50 fits 20% extended cap of $5,000; risk_M = 7*15.50 = $108.50 >= 40%-floor of $100). Deployment 19.25% < 60% cap; total open risk 0.43% < 4% cap.",
+      "risk_usd": 108.50,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "CMI long approved as small_scaled (7 shares @ $687.50, stop $672, target $722). Strong-trend breakout with positive expected return ($11.28/share); high-priced stock required 20% extended cap path with 43% of risk budget to clear single-position constraint."
+}

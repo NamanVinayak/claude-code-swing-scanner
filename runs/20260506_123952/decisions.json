@@ -1,0 +1,54 @@
+{
+  "run_id": "20260506_123952",
+  "mode": "b_swing",
+  "generated_at": "2026-05-06T14:10:06+00:00",
+  "decisions": {
+    "ROK": {
+      "action": "buy",
+      "direction": "long",
+      "entry_price": 444.75,
+      "stop_loss": 434.5,
+      "target_price": 469.0,
+      "target_price_2": 481.0,
+      "quantity": 11,
+      "timeframe": "8d",
+      "confidence": 7,
+      "account_risk_pct": 1.0,
+      "entry_tolerance_pct": 0.5,
+      "setup_type": "breakout",
+      "rationale": "All 4 perspectives echo long; technical strengths balance (bull_a=7 vs bear_a=7) but catalyst side favors bulls (bull_b=8 vs bear_b=6) on the fresh 2026-05-05 fiscal Q2 beat-and-raise (FY26 EPS guide $12.50-$13.10), confirmed by daily adx_14=40.67 (+DI 37.78 vs -DI 11.65, strong trend), macd bullish_crossover with histogram +0.99, ema_aligned_uptrend=true, and relative_volume=2.54 on the gap day. combined_p_bull=0.5357, combined_p_bear=0.4643; expected_return_per_share = 0.5357*(469.00-444.75) - 0.4643*(444.75-434.50) = +$8.23 \u2014 clearly positive. Bears' overbought concern (rsi_7=76.57, bollinger pct_b=1.2876, z_score_50=2.19) is real but the conservative target 469 (well below fib_ext_1272=483.81) and tight stop at invalidation 434.50 already price in mean-reversion risk. Earnings.days_until_next=92 removes near-term event risk. Position math: risk_dollars = $25,000 * 1.0% * 1.0 = $250; risk_per_share = |444.75-434.50| = $10.25; Gate-3 quantity = floor(250/10.25) = 24, notional = $10,674 > 15% cap ($3,750), so scaled down from 24 to 11 shares to fit small-account cap, using 45% of risk budget (notional $4,892 \u2264 20% extended cap $5,000; risk $112.75 \u2265 40%-floor $100).",
+      "risk_usd": 112.75,
+      "expected_holding_days": 8,
+      "position_size_class": "small_scaled"
+    },
+    "CMI": {
+      "action": "buy",
+      "direction": "long",
+      "entry_price": 687.5,
+      "stop_loss": 672.0,
+      "target_price": 722.0,
+      "target_price_2": 738.0,
+      "quantity": 7,
+      "timeframe": "8d",
+      "confidence": 6,
+      "account_risk_pct": 1.0,
+      "entry_tolerance_pct": 0.5,
+      "setup_type": "breakout",
+      "rationale": "Technical bull (7) and catalyst bull (8) outweigh bears (7 tech, 6 fundamental); combined_p_bull = (7/14 + 8/14)/2 = 0.5357 vs combined_p_bear = 0.4643. Entry midpoint 687.50, conservative target = min(738,722) = 722, conservative stop = max(668,672) = 672. Expected_return_per_share = 0.5357*(722-687.50) - 0.4643*(687.50-672) = 18.48 - 7.20 = +$11.28 (clearly positive). Bears' overbought concern (rsi_14=75.21, z_score_50=1.9, hourly bb pct_b=1.2827) is real but countered by strong daily ADX 45.36 with +DI 37.31 vs -DI 4.58, ema_aligned_uptrend=true, MACD bullish (24.44>23.14, hist +1.30), volume.relative_volume=1.8 with OBV up not diverging, and fresh raised-FY26 catalyst (alphastreet 2026-05-05) plus Truist PT $730. Earnings.days_until_next=90 removes blackout risk. Sizing math: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = |687.50-672| = $15.50; Gate-3 qty = floor(250/15.50) = 16, but notional 16*687.50 = $11,000 exceeds 15% single-cap ($3,750). Scaled down from 16 to 7 shares to fit small-account cap, using 43% of risk budget (notional 7*687.50 = $4,812.50 fits 20% extended cap of $5,000; risk_M = 7*15.50 = $108.50 >= 40%-floor of $100). Deployment 19.25% < 60% cap; total open risk 0.43% < 4% cap.",
+      "risk_usd": 108.5,
+      "expected_holding_days": 8,
+      "position_size_class": "small_scaled"
+    }
+  },
+  "rejected": [
+    {
+      "ticker": "CRDO",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$223.20 > available=$28.75)"
+    },
+    {
+      "ticker": "EXPD",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$128.00 > available=$28.75)"
+    }
+  ],
+  "summary": "approved=4, rejected=0, candidates=4"
+}

@@ -1,0 +1,28 @@
+{
+  "ticker": "CRDO",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 199.50, "high": 201.00},
+  "target": 218.50,
+  "stop": 191.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Fresh fundamental catalyst within 7 days: FY2026 Q3 earnings beat on both revenue and EPS drove a +9.47% move on 2026-05-05 (tradingkey, simplywall.st), with the stock up roughly 21% week-to-date on AI datacenter connectivity demand (quiverquant 2026-05-05). recent_prices_5d confirms the post-beat thrust — close advanced from 175.77 (2026-04-29) to 193.57 (2026-05-05), a 5d ROC of +16.66% per daily_indicators.momentum.",
+    "Smart-money confirmation alongside the catalyst: PFA Pension disclosed a new CRDO stake on 2026-05-04 (marketbeat); analyst_consensus_web shows 'Moderate Buy' from 19 firms with a Rothschild & Co Redburn Buy initiation 2026-05-01 and past-month avg PT ~$209.71 (high $260) — above the watch_level breakout trigger of $201. earnings.days_until_next = 26, so no near-term earnings reversal risk.",
+    "Technical confirmation of the catalyst: daily ADX_14 = 57.08 (strong trend) with +DI 29.82 > -DI 18.18, EMA-aligned uptrend across 5/10/20/50/200, MACD bullish crossover (line 17.40 > signal 17.16, histogram +0.24), price above all MAs (+48.7% over SMA50). Hourly relative_volume 2.07x avg with OBV trend up confirms accumulation into the breakout. R:R math: entry mid 200.25, stop 191.00, risk 9.25; target 218.50, reward 18.25 → 1.97:1, rounded 2:1 against fib_ext_1272 = 230.63 ceiling."
+  ],
+  "risks_acknowledged": [
+    "Daily RSI_21 = 73.63 and z_score_50 = 1.87 indicate the name is extended; the +21% week-to-date move means much of the FY26 Q3 beat may already be priced in, raising chase-risk versus a pullback entry near 188 prev_day_high.",
+    "Daily volume.obv shows trend 'down' diverging from price despite the rally — institutional distribution into strength is possible, undermining a clean breakout above the 198.97 nearest_resistance (only 2 tests, not volume-confirmed).",
+    "Wiki memory is empty (new_ticker = true); no prior thesis/catalyst/technicals slices to corroborate the durability of this move beyond the 7-day news window. DustPhotonics ~$750M acquisition is flagged as priced-in tailwind, not a fresh catalyst.",
+    "Premarket gap +3.55% to $200.44 already compressed initial R/R from yesterday's setup price — slippage above $201 trigger could push entry into 202–203 zone and reduce reward-to-risk below 2:1."
+  ],
+  "web_sources_last_7d": [
+    "https://www.quiverquant.com/news/$CRDO+stock+rose+21%25+this+week.+Here's+what+we+see+in+our+data.",
+    "https://www.tradingkey.com/news/market-movers/261858546-market-movers-crdo-20260505",
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-crdo/credo-technology-group-holding/news/credo-technology-group-crdo-is-up-126-after-ai-datacenter-co",
+    "https://www.marketbeat.com/instant-alerts/filing-pfa-pension-forsikringsaktieselskab-takes-position-in-credo-technology-group-holding-ltd-crdo-2026-05-04/",
+    "https://www.marketbeat.com/instant-alerts/credo-technology-group-holding-ltd-nasdaqcrdo-receives-average-rating-of-moderate-buy-from-brokerages-2026-05-04/",
+    "https://www.tipranks.com/news/catalyst/why-credo-technology-group-stock-wont-stop-climbing"
+  ]
+}

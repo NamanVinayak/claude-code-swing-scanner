@@ -1,0 +1,23 @@
+{
+  "ticker": "EXPD",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Analyst consensus is bearish-to-neutral despite the Q1 beat: avg_price_target $133 sits ~13% BELOW current_price of $153.08, with rating mix of 1 Buy / 9 Hold / 7 Sell across the 11-analyst panel and a 19-analyst median PT of $128 (range $95-$166). Goldman Sachs LOWERED PT to $107 from $110 on the same 2026-05-06 print that Susquehanna raised on, signaling material disagreement on durability of Q1 strength.",
+    "Stock is technically extended with limited upside room: z_score_50 = 2.65 (statistically stretched), bollinger pct_b = 1.0086 (closed above the upper band) and price is +5.5% above sma_50, +9.47% above ema_200, +11.16% above sma_200. Daily volume bias_10d is 'down' and OBV trend is 'down' DIVERGING from price (volume.obv.diverging_from_price = true) — rallies into the consensus PT of $133 imply mean-reversion not continuation.",
+    "Catalyst is largely spent / fade risk: catalyst_note explicitly says the +0.60% overnight gap 'leaves the setup unplayed,' Q1 print already in the tape and 4 of 5 recent_news_7d items are the same earnings recap (sentiment-cluster, not new info), and earnings.days_until_next = 90 means there is NO near-term fundamental catalyst to push price through the consensus PT ceiling — the trade depends entirely on momentum continuation through a level the median sell-side already considers fully valued."
+  ],
+  "bull_acknowledgements": [
+    "Q1 2026 print was a genuine beat on both lines — EPS $1.71 (+16.3% YoY) vs $1.33 estimate, revenue $2.78B vs $2.58B-$2.61B consensus (~6.5% beat), with operating margin expansion to ~10.6%.",
+    "Airfreight tonnage +5% YoY driven by technology customers and customs/brokerage benefiting from tariff-driven complexity — non-asset-based model is demonstrating real resilience amid geopolitical disruptions.",
+    "Susquehanna's PT raise to $156 from $142 (above current price) provides at least one credible sell-side voice supporting near-term upside, and ADX 50.69 with +DI > -DI confirms a strong existing uptrend the trade would be aligned with."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/expeditors-international-expd-q1-earnings-140004465.html",
+    "https://finance.yahoo.com/markets/stocks/articles/expd-q1-earnings-revenues-top-163400140.html",
+    "https://www.stocktitan.net/news/EXPD/expeditors-reports-first-quarter-2026-eps-of-1-oiain06talzl.html",
+    "https://www.marketscreener.com/news/earnings-flash-expd-expeditors-international-of-washington-inc-reports-q1-revenue-2-78b-vs-fa-ce7f58dcdb81fe27",
+    "https://www.benzinga.com/quote/EXPD/analyst-ratings"
+  ]
+}

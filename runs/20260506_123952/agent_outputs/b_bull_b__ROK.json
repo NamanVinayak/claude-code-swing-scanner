@@ -1,0 +1,27 @@
+{
+  "ticker": "ROK",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 443.50, "high": 448.00},
+  "target": 481.00,
+  "stop": 434.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Fresh fundamental catalyst on 2026-05-05: Rockwell beat fiscal Q2 2026 EPS and revenue (adjusted EPS $3.30) and RAISED FY26 adjusted EPS guide to $12.50-$13.10 with raised reported and organic sales growth ranges, citing demand strength in warehouse automation, data centers, and semiconductors (tipranks 2026-05-05; simplywall.st 2026-05-05). Stock printed +10.72% single-day gain on 2026-05-05 confirming the print.",
+    "Price action confirms the catalyst with strong technical breakout: close 435.93 sits above every MA in the daily stack (ema_5/10/20/50/200 all aligned uptrend), daily ADX 14 = 40.67 with +DI 37.78 vs -DI 11.65 (strong trend), MACD bullish crossover with histogram +0.99, daily bollinger %B = 1.29 (closing above upper band on 2.54x relative volume = 1,861,100 vs 20-day avg 731,445). Hourly RSI 21 = 72.19 with bullish RSI divergence and ADX 24 = 31.54 — every timeframe agrees.",
+    "Risk/reward is clean and earnings risk is removed: entry midpoint 445.75 vs stop 434.50 = 11.25 risk, vs target 481.00 (just inside daily fib_ext_1272 = 483.81) = 35.25 reward → 3.13:1 R:R. earnings.days_until_next = 92 (next print ~3 months out per earnings_context_web), so no near-term earnings risk; quarterly dividend $1.38 declared 2026-05-04 (record date May 18) adds a passive holder bid; analyst consensus_web 'Buy' (15 buys / 2 holds / 0 sells) with PT updates underway after the beat."
+  ],
+  "risks_acknowledged": [
+    "Daily RSI 7 = 76.57 and RSI 14 = 68.88 with z_score_50 = 2.19 and price 13.09% above the 50-SMA — extended; a 1-2 day mean-reversion pullback toward the 21-EMA (~401.82) or fib_236 (429.38) is plausible before continuation.",
+    "Analyst avg_price_target = $414.64 sits BELOW current 435.93, meaning published street targets have not yet caught up to the post-beat tape; if PT raises lag, momentum buyers may stall.",
+    "Truist Financial cut its ROK stake by 24.5% in its Q4 13F (per 2026-05-04 article) — a sign at least one institutional holder was de-risking before the beat; further institutional distribution could cap upside.",
+    "Wiki context flags this as a new_ticker with all wiki slices missing — no durable thesis history to corroborate the breakout, so conviction depends entirely on the 7-day catalyst and current technicals."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-rok/rockwell-automation/news/should-rockwells-stronger-q2-2026-profitability-shift-the-in",
+    "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",
+    "https://www.tickerreport.com/banking-finance/13430299/truist-financial-corp-decreases-stake-in-rockwell-automation-inc-rok.html",
+    "https://meyka.com/blog/rok-stock-dips-05-on-may-4-2026-as-earnings-loom-on-nyse-0405/"
+  ]
+}

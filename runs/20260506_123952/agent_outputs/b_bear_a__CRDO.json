@@ -1,0 +1,22 @@
+{
+  "ticker": "CRDO",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [188.20, 178.88, 164.80],
+  "top_3_arguments": [
+    "Tape is structurally extended and at resistance with no fresh fuel. daily_indicators.dist_from_50sma_pct = 48.73 and pct_from_sma_50 = 48.73; z_score_50 = 1.87; rsi_21 = 73.63 (overbought). Price (193.57) sits within 2.7% of multi-month nearest_resistance 198.97 and recent_high 199.81. Bollinger pct_b = 0.7665 with daily width 0.6474 (band already stretched). Buying a breakout 7 points below a heavily-tested upper wall after a 21-day ROC of +88.92% and 5-day ROC of +16.66% is chasing, not initiating.",
+    "Volume and OBV say the May 5 thrust was NOT institutional accumulation. daily_indicators.volume.relative_volume = 0.82 (BELOW the 7.44M 20-day avg on a +9.47% gap-day candle), and daily_indicators.volume.obv.trend = 'down' with diverging_from_price = true — classic distribution-into-strength tell. Hourly is even worse: hourly current_price 184.78 is BELOW ema_24 (-0.5%), hourly roc_5d = -5.17, and hourly nearest_resistance shelf at 188.20 (6 tests, volume_confirmed). Translation: the daily candle looks great; the hourly print already rolled and the breakout has no volume validation behind it.",
+    "Reward-to-risk at the watch_level is mathematically broken. Watch_level 201.00 is ABOVE nearest_resistance 198.97 — entry only triggers AFTER buyers have eaten through a confirmed pivot, with the next ceiling being fib_ext_1272 = 230.63 on the daily. Invalidation_level 193.57 sits 3.7% below entry; bollinger upper of 218.52 is the realistic near-term cap, giving roughly 8.7% to target vs 3.7% risk = ~2.4:1 — and that assumes no rejection at 198.97. Drop the stop to the structurally honest 188.20 hourly shelf and R:R collapses to ~1.4:1. Earnings catalyst is already spent (the +9.47% on 2026-05-05 was the FY26 Q3 print per recent_news_7d), so there is no fresh catalyst to drive a clean break of 199 in the next 1–3 sessions."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is unambiguously bullish: daily moving_averages.ema_aligned_uptrend = true with price above every MA from ema_5 through ema_200, ADX_14 = 57.08 (very strong trend), plus_di 29.82 > minus_di 18.18, and supertrend/trend_strength = 'strong'. This is not a chart you short into.",
+    "There is no bearish RSI divergence (daily rsi_divergence.bearish = false) and MACD is in a fresh bullish_crossover with positive histogram (0.2427), so momentum has not yet rolled — the bear case is 'extended and at resistance,' not 'breaking down.'",
+    "News flow is one-sided positive over the last 7d (FY26 Q3 beat, AI datacenter narrative, DustPhotonics deal, Moderate Buy from 19 firms, fresh institutional disclosure) and analyst average PT $200 is right at the watch_level, so a clean break of 199 could see momentum-driven follow-through to the $209 past-month-avg PT zone."
+  ],
+  "web_sources_last_7d": [
+    "https://www.quiverquant.com/news/$CRDO+stock+rose+21%25+this+week.+Here's+what+we+see+in+our+data.",
+    "https://www.tradingkey.com/news/market-movers/261858546-market-movers-crdo-20260505",
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-crdo/credo-technology-group-holding/news/credo-technology-group-crdo-is-up-126-after-ai-datacenter-co",
+    "https://www.tipranks.com/news/catalyst/why-credo-technology-group-stock-wont-stop-climbing"
+  ]
+}

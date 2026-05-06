@@ -1,0 +1,21 @@
+{
+  "ticker": "CMI",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [656.73, 637.11],
+  "top_3_arguments": [
+    "Stretched/overbought into the breakout: daily_indicators.rsi.rsi_14 = 75.21 and rsi_21 = 76.86 (both well into overbought territory), daily bollinger.pct_b = 0.9051 with price hugging upper band 683.87, and z_score_50 = 1.9 — price is 15.09% above the 50-SMA and 32.69% above the 200-EMA. On the hourly, bollinger.pct_b = 1.2827 (price already piercing the upper band) and z_score_120 = 2.55. This is a chase entry with poor reward asymmetry, not a fresh base breakout.",
+    "Watch level $685 sits on top of stacked overhead supply with no nearby support cushion: hourly support_resistance shows pivot_highs at 674.75 (12 tests, volume_confirmed) and 689.35 (volume_confirmed), and the daily bollinger upper = 683.87 effectively caps the move at the same zone. Yesterday's bar (2026-05-05) opened at 683.50, tagged 689.35, and reversed almost 34 points to a 655.85 low before closing 674.88 — that is a classic upper-Bollinger rejection wick on heavy volume (1.45M vs 807K avg = 1.8x), evidence of distribution at the watch level, not accumulation.",
+    "Negative R:R from the proposed entry: stop at invalidation_level 672.00 against watch_level 685.00 = ~1.9% risk, while the next clean technical objective is fib_ext_1272 = 738.12 (~7.7% upside) — but daily ATR is only 19.64 (atr_pct 2.91%), so reaching 738 requires several sessions of expansion against an already-overbought tape. More immediately, the 2026-05-02 sahmcapital piece flags softer EPS trajectory and recent insider selling shifting the narrative — combined with the 689.35 supply shelf, the realistic first target is mid-680s before further overhead, compressing R:R below 1:1 on a measured-move basis."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is unambiguously bullish: ema_aligned_uptrend = true, price above EMA 5/10/20/21/50/200, with daily ADX 45.36 and +DI 37.31 vs -DI 4.58 confirming a strong, dominant uptrend.",
+    "Fundamental tape is supportive within recent_news_7d: 2026-05-05 alphastreet reports raised 2026 outlook with record Power Systems on data-center demand, and Truist (per analyst_consensus_web) raised target to $730. Earnings risk is far away (days_until_next = 90, next on 2026-07-30) so no near-term blackout.",
+    "Volume backs the trend, not just the spike: daily volume.relative_volume = 1.8 with volume_bias_10d = up and OBV trend up (not diverging), and rsi_divergence.bullish = true on the daily lookback — there is real demand under recent advances."
+  ],
+  "web_sources_last_7d": [
+    "https://news.alphastreet.com/cummins-cmi-raises-2026-outlook-as-power-systems-hits-record-on-data-center-demand/",
+    "https://www.sahmcapital.com/news/content/did-softer-eps-higher-sales-and-insider-selling-just-shift-cummins-cmi-investment-narrative-2026-05-02",
+    "https://seekingalpha.com/article/4894243-cummins-earnings-beat-on-the-way"
+  ]
+}

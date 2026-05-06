@@ -453,6 +453,52 @@
     min-width: 150px;
 }
 
+.decided-at {
+    display: inline-flex;
+    align-items: center;
+    padding: 1px 7px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    background: var(--surface2);
+    color: var(--muted);
+    font-family: var(--mono);
+    white-space: nowrap;
+}
+.decided-at .label {
+    color: var(--subtle);
+    margin-right: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 10px;
+}
+
+.writer-rejected-row {
+    padding: 10px 18px;
+    border-top: 1px solid var(--border);
+    background: var(--surface2);
+}
+.writer-rejected-row .wr-title {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--yellow);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+.writer-rejected-row .wr-item {
+    font-size: 12px;
+    color: var(--muted);
+    font-family: var(--mono);
+    margin-top: 3px;
+}
+.writer-rejected-row .wr-ticker {
+    color: var(--text);
+    font-weight: 700;
+    margin-right: 8px;
+}
+
 .run-mode-badge {
     display: inline-flex;
     align-items: center;
@@ -614,7 +660,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
             <a class="nav-link " href="closed.html">History</a>
             <a class="nav-link active" href="runs.html">All Runs</a>
         </div>
-        <div class="nav-meta">12:10 PM PT · NEXT TX <span id="countdown">--:--</span></div>
+        <div class="nav-meta">12:20 PM PT · NEXT TX <span id="countdown">--:--</span></div>
     </div>
 </nav>
 
@@ -631,11 +677,14 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-1')">
         <span class="run-date">May 6, 2026 · 5:39 AM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
+        <span class="decided-at" title="When the writer last finalized decisions.json (b_decide reuses the b_premarket run dir, so morning + power-hour invocations share a run_id)"><span class="label">decided</span>11:46 AM PT</span>
+        
         <div class="run-ticker-pills">
             
         </div>
         <div class="run-decision-count">
-            2 decisions
+            2 decisions · 2 budget-cut
             <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6,4 10,8 6,12"></polyline>
             </svg>
@@ -643,6 +692,35 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+        <div style="padding:10px 18px;border-bottom:1px solid var(--border);background:var(--surface2);">
+            <div style="font-size:11px;font-weight:600;color:var(--subtle);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px;">
+                Decision passes (2 invocations)
+            </div>
+            
+            <div style="font-size:12px;font-family:var(--mono);color:var(--muted);padding:4px 0;border-top:none;">
+                <span style="color:var(--text);font-weight:700;margin-right:8px;">7:10 AM PT</span>
+                <span style="color:var(--green);">✓ 2 approved</span>
+                <span style="color:var(--muted);"> (ROK, CMI)</span>
+                
+                <span style="color:var(--yellow);margin-left:10px;">✕ 2 budget-cut</span>
+                <span style="color:var(--muted);"> (CRDO, EXPD)</span>
+                
+            </div>
+            
+            <div style="font-size:12px;font-family:var(--mono);color:var(--muted);padding:4px 0;border-top:1px dashed var(--border);">
+                <span style="color:var(--text);font-weight:700;margin-right:8px;">11:46 AM PT</span>
+                <span style="color:var(--green);">✓ 2 approved</span>
+                <span style="color:var(--muted);"> (ROK, CMI)</span>
+                
+                <span style="color:var(--yellow);margin-left:10px;">✕ 2 budget-cut</span>
+                <span style="color:var(--muted);"> (CRDO, EXPD)</span>
+                
+            </div>
+            
+        </div>
+        
+
         
         <div class="table-wrap" style="border:none;border-radius:0;">
             <table>
@@ -722,11 +800,14 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-2')">
         <span class="run-date">May 5, 2026 · 2:35 PM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
+        <span class="decided-at" title="When the writer last finalized decisions.json (b_decide reuses the b_premarket run dir, so morning + power-hour invocations share a run_id)"><span class="label">decided</span>2:45 PM PT</span>
+        
         <div class="run-ticker-pills">
             
         </div>
         <div class="run-decision-count">
-            0 decisions
+            0 decisions · 4 budget-cut
             <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6,4 10,8 6,12"></polyline>
             </svg>
@@ -734,6 +815,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -744,6 +827,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-3')">
         <span class="run-date">May 5, 2026 · 2:32 PM PT</span>
         <span class="run-mode-badge mode-unknown">unknown</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -756,6 +840,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -766,6 +852,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-4')">
         <span class="run-date">May 5, 2026 · 2:31 PM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -778,6 +865,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -788,11 +877,14 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-5')">
         <span class="run-date">May 4, 2026 · 10:39 PM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
+        <span class="decided-at" title="When the writer last finalized decisions.json (b_decide reuses the b_premarket run dir, so morning + power-hour invocations share a run_id)"><span class="label">decided</span>7:05 AM PT</span>
+        
         <div class="run-ticker-pills">
             
         </div>
         <div class="run-decision-count">
-            0 decisions
+            0 decisions · 4 budget-cut
             <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6,4 10,8 6,12"></polyline>
             </svg>
@@ -800,6 +892,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -810,6 +904,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-6')">
         <span class="run-date">May 4, 2026 · 10:17 AM PT</span>
         <span class="run-mode-badge mode-unknown">unknown</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -822,6 +917,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -832,6 +929,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-7')">
         <span class="run-date">May 4, 2026 · 7:39 AM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -844,6 +942,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -854,6 +954,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-8')">
         <span class="run-date">May 4, 2026 · 7:10 AM PT</span>
         <span class="run-mode-badge mode-unknown">unknown</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -866,6 +967,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -876,6 +979,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-9')">
         <span class="run-date">May 4, 2026 · 4:39 AM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -888,6 +992,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -898,6 +1004,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-10')">
         <span class="run-date">May 4, 2026 · 12:01 AM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -910,6 +1017,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -920,6 +1029,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-11')">
         <span class="run-date">May 3, 2026 · 11:13 PM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -932,6 +1042,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -942,6 +1054,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-12')">
         <span class="run-date">May 3, 2026 · 11:08 PM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -954,6 +1067,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         
@@ -964,6 +1079,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     <div class="run-accordion-header" onclick="toggleRun('run-13')">
         <span class="run-date">May 3, 2026 · 10:58 PM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
+        
         <div class="run-ticker-pills">
             
         </div>
@@ -976,6 +1092,8 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+
         
         <div style="padding:16px 18px;color:var(--muted);font-size:13px;">No decision data for this run.</div>
         

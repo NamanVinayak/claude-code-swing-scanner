@@ -1,0 +1,24 @@
+[
+  {
+    "decided_at": "2026-05-06T14:10:06+00:00",
+    "approved": ["ROK", "CMI"],
+    "judge_approved_count": 4,
+    "writer_rejected": [
+      {"ticker": "CRDO", "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$223.20 > available=$28.75)"},
+      {"ticker": "EXPD", "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$128.00 > available=$28.75)"}
+    ],
+    "judge_rejected": [],
+    "_note": "backfilled from git commit 7c9b71cd (decide_open, 7:10 AM PT)"
+  },
+  {
+    "decided_at": "2026-05-06T18:46:48+00:00",
+    "approved": ["ROK", "CMI"],
+    "judge_approved_count": 4,
+    "writer_rejected": [
+      {"ticker": "CRDO", "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$223.20 > available=$28.75)"},
+      {"ticker": "EXPD", "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$128.00 > available=$28.75)"}
+    ],
+    "judge_rejected": [],
+    "_note": "backfilled from git commit e7352372 (decide_power, 11:47 AM PT)"
+  }
+]

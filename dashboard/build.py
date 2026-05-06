@@ -365,6 +365,8 @@ def main():
                     pass
 
         decisions = []
+        decided_at_formatted = None
+        writer_rejected = []
         if os.path.exists(dec_path):
             with open(dec_path) as f:
                 try:
@@ -385,15 +387,65 @@ def main():
                             "position_size": position_size,
                             "position_size_class": d.get("position_size_class", "standard"),
                         })
+                    # Surface when the writer last produced this decisions.json so
+                    # the dashboard distinguishes morning vs power-hour b_decide
+                    # invocations even when they share a run_id (b_decide reuses
+                    # the b_premarket run dir by design).
+                    gen_at = dec_data.get("generated_at")
+                    if gen_at:
+                        try:
+                            gen_dt = datetime.fromisoformat(gen_at.replace("Z", "+00:00"))
+                            gen_dt = gen_dt.astimezone(ZoneInfo("America/Vancouver"))
+                            decided_at_formatted = gen_dt.strftime("%-I:%M %p PT")
+                        except (ValueError, TypeError):
+                            pass
+                    for r in dec_data.get("rejected", []):
+                        writer_rejected.append({
+                            "ticker": r.get("ticker", "?"),
+                            "reason": r.get("reason", "?"),
+                        })
                 except Exception:
                     pass
+
+        # Per-invocation history (b_decide reuses the b_premarket run dir, so
+        # morning + power-hour decides share a run_id but each appends here).
+        decide_history = []
+        hist_path = os.path.join(folder, "decide_history.json")
+        if os.path.exists(hist_path):
+            try:
+                with open(hist_path) as f:
+                    raw_hist = json.load(f)
+                if isinstance(raw_hist, list):
+                    for entry in raw_hist:
+                        ts = entry.get("decided_at")
+                        formatted_ts = None
+                        if ts:
+                            try:
+                                ts_dt = datetime.fromisoformat(ts.replace("Z", "+00:00"))
+                                ts_dt = ts_dt.astimezone(ZoneInfo("America/Vancouver"))
+                                formatted_ts = ts_dt.strftime("%-I:%M %p PT")
+                            except (ValueError, TypeError):
+                                pass
+                        decide_history.append({
+                            "decided_at_formatted": formatted_ts,
+                            "decided_at_raw": ts,
+                            "approved": entry.get("approved", []),
+                            "judge_approved_count": entry.get("judge_approved_count"),
+                            "writer_rejected": entry.get("writer_rejected", []),
+                            "judge_rejected": entry.get("judge_rejected", []),
+                        })
+            except (json.JSONDecodeError, OSError):
+                pass
 
         all_runs_list.append({
             "run_id": run_id,
             "formatted_date": formatted_date,
+            "decided_at": decided_at_formatted,
             "mode": mode,
             "tickers": tickers,
             "decisions": decisions,
+            "writer_rejected": writer_rejected,
+            "decide_history": decide_history,
         })
 
     runs_template = env.get_template("runs.html")

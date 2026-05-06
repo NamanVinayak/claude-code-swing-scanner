@@ -179,15 +179,27 @@ Build summary:
 
 ```bash
 python - <<'PY' "$RUN_ID"
-import json, sys, pathlib
+import json, sys, pathlib, datetime
 run_id = sys.argv[1]
 jo = json.loads(pathlib.Path(f"runs/{run_id}/judge_output.json").read_text())
-dec = json.loads(pathlib.Path(f"runs/{run_id}/decisions.json").read_text()) if pathlib.Path(f"runs/{run_id}/decisions.json").exists() else {"decisions": {}}
+dec_path = pathlib.Path(f"runs/{run_id}/decisions.json")
+dec = json.loads(dec_path.read_text()) if dec_path.exists() else {"decisions": {}, "rejected": []}
+
+# Count from decisions.json (writer's final word) — not judge_output.json.
+# The writer's defensive budget check can reject judge-approved trades for
+# capital-rule reasons (e.g. risk_budget_exceeded), and those rejections live
+# in decisions.json["rejected"]. We must surface BOTH sources so the summary
+# matches what the simulator actually sees.
+final_approved = list(dec.get("decisions", {}).keys())
+judge_rejected = jo.get("rejected", [])
+writer_rejected = dec.get("rejected", [])
+total_rejected = len(judge_rejected) + len(writer_rejected)
+
 lines = [
     f"# b_decide summary {run_id}",
     "",
-    f"- approved: {len(jo.get('approved', []))}",
-    f"- rejected: {len(jo.get('rejected', []))}",
+    f"- approved: {len(final_approved)}",
+    f"- rejected: {total_rejected} (judge: {len(judge_rejected)}, writer-budget: {len(writer_rejected)})",
     "",
     "## Approved trades",
     ""
@@ -195,9 +207,40 @@ lines = [
 for t, d in dec.get("decisions", {}).items():
     lines.append(f"- {t} {d.get('action','?')} entry={d.get('entry_price','?')} stop={d.get('stop_loss','?')} target={d.get('target_price','?')} qty={d.get('quantity','?')} conv={d.get('confidence','?')}")
 lines += ["", "## Rejections (with reasons)", ""]
-for r in jo.get("rejected", []):
-    lines.append(f"- {r.get('ticker','?')}: {r.get('reason','?')}")
+for r in judge_rejected:
+    lines.append(f"- {r.get('ticker','?')} (judge): {r.get('reason','?')}")
+for r in writer_rejected:
+    lines.append(f"- {r.get('ticker','?')} (writer-budget): {r.get('reason','?')}")
 pathlib.Path(f"runs/{run_id}/summary.md").write_text("\n".join(lines) + "\n")
+
+# Per-invocation history. b_decide reuses the b_premarket run dir, so morning
+# (decide_open) and power-hour (decide_power) invocations share a run_id and
+# overwrite each other's decisions.json. Without this append-only log, the
+# dashboard can only see the LAST invocation. We capture each finalize so the
+# UI can show both passes.
+hist_path = pathlib.Path(f"runs/{run_id}/decide_history.json")
+history = []
+if hist_path.exists():
+    try:
+        history = json.loads(hist_path.read_text())
+        if not isinstance(history, list):
+            history = []
+    except (json.JSONDecodeError, OSError):
+        history = []
+history.append({
+    "decided_at": dec.get("generated_at") or datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    "approved": final_approved,
+    "judge_approved_count": len(jo.get("approved", [])),
+    "writer_rejected": [
+        {"ticker": r.get("ticker"), "reason": r.get("reason")}
+        for r in writer_rejected
+    ],
+    "judge_rejected": [
+        {"ticker": r.get("ticker"), "reason": r.get("reason")}
+        for r in judge_rejected
+    ],
+})
+hist_path.write_text(json.dumps(history, indent=2))
 PY
 ```
 

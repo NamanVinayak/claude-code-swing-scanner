@@ -49,6 +49,27 @@ def _ensure_schema() -> None:
                 continue
             print(f"  [WARN] schema migration for {col_name} failed: {exc}", file=sys.stderr)
 
+    # DB-level dedup guarantee — added 2026-05-07 after a network-timeout
+    # incident let the application-level dedup fall through and create 12
+    # duplicate trade rows. With this UNIQUE INDEX in place, even if every
+    # safety check regresses, the DB will reject duplicate (run_id, ticker,
+    # mode) inserts at write time.
+    additive_indexes = [
+        (
+            "trades_run_ticker_mode_uniq",
+            "CREATE UNIQUE INDEX IF NOT EXISTS trades_run_ticker_mode_uniq "
+            "ON trades(run_id, ticker, mode)",
+        ),
+    ]
+    for idx_name, sql in additive_indexes:
+        try:
+            _execute(sql, [])
+        except Exception as exc:
+            msg = str(exc).lower()
+            if "already exists" in msg:
+                continue
+            print(f"  [WARN] index migration for {idx_name} failed: {exc}", file=sys.stderr)
+
 
 def _load_ingested() -> set[str]:
     if not INGESTED_FILE.exists():
@@ -193,17 +214,37 @@ def main() -> None:
             except (json.JSONDecodeError, OSError):
                 pass
 
-        # Double-safety: check what's already in Turso for this run
+        # Double-safety: check what's already in Turso for this run.
+        # Fail-CLOSED on any exception: if we can't verify dedup, we MUST
+        # abort the run rather than insert blindly. The 2026-05-07 incident
+        # was caused by Turso 15s read timeouts triggering the prior fail-OPEN
+        # fallback (empty set), which let the ingester re-create the same
+        # trades on every cron tick. A transient failure now means "try again
+        # next tick" — never "insert and pray".
         try:
             existing_tickers = _existing_run_tickers(run_id)
-        except Exception:
-            existing_tickers = set()
+        except Exception as exc:
+            print(
+                f"  [ABORT] {run_id}: dedup query _existing_run_tickers failed "
+                f"({type(exc).__name__}: {exc}). Skipping this run; will retry "
+                f"on next cron tick. NOT marking as ingested.",
+                file=sys.stderr,
+            )
+            skipped_runs += 1
+            continue
 
         # Cross-run dedup: tickers already holding an open position (any prior run)
         try:
             open_ticker_directions = _open_positions_by_ticker_direction()
-        except Exception:
-            open_ticker_directions = set()
+        except Exception as exc:
+            print(
+                f"  [ABORT] {run_id}: dedup query _open_positions_by_ticker_direction "
+                f"failed ({type(exc).__name__}: {exc}). Skipping this run; will retry "
+                f"on next cron tick. NOT marking as ingested.",
+                file=sys.stderr,
+            )
+            skipped_runs += 1
+            continue
 
         run_trade_count = 0
         for ticker, dec in decisions.items():

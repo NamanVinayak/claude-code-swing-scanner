@@ -37,6 +37,8 @@ def _ensure_schema() -> None:
 
     additive_columns = [
         ("position_size_class", "ALTER TABLE trades ADD COLUMN position_size_class TEXT"),
+        ("decision_made_at", "ALTER TABLE trades ADD COLUMN decision_made_at TEXT"),
+        ("entry_valid_until", "ALTER TABLE trades ADD COLUMN entry_valid_until TEXT"),
     ]
     for col_name, sql in additive_columns:
         try:
@@ -177,6 +179,10 @@ def main() -> None:
             new_runs += 1
             continue
 
+        # Capture when the agent finished deciding (used by simulator to ensure
+        # it never processes price bars from BEFORE the decision was finalized).
+        decision_made_at = decisions_data.get("generated_at")
+
         # Read mode from metadata.json (default: swing)
         mode = "swing"
         meta_path = run_dir / "metadata.json"
@@ -261,6 +267,10 @@ def main() -> None:
             if position_size_class not in ("standard", "small_scaled"):
                 position_size_class = None
 
+            entry_valid_until = dec.get("entry_valid_until")
+            if entry_valid_until is not None and not isinstance(entry_valid_until, str):
+                entry_valid_until = None
+
             try:
                 insert_trade({
                     "run_id": run_id,
@@ -279,6 +289,8 @@ def main() -> None:
                     "status": "pending",
                     "raw_decision": json.dumps(dec),
                     "position_size_class": position_size_class,
+                    "decision_made_at": decision_made_at,
+                    "entry_valid_until": entry_valid_until,
                 })
                 run_trade_count += 1
                 total_trades += 1

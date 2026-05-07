@@ -69,14 +69,24 @@ log_fill(trade_id, event_type, price, bar_timestamp, reason) -> int
 
 1. Pull pending + entered positions from Turso
 2. Download 1-min yfinance bars for all involved tickers (single batched call)
-3. For each position, walk bars after `last_checked_at` (during 9:30-16:00 ET only)
-4. For pending trades: if bar.low ≤ entry (long) or bar.high ≥ entry (short) → fill at entry, mark `entered`
-5. For entered trades: check stop and target intra-bar; fill at the trigger price (not the bar extreme)
-6. Trailing stop on `target_price_2`: when first target hits, move stop to `entry_price` and replace target with `target_price_2`
-7. Update `last_checked_at` on every cycle whether or not a fill happened (idempotent — no double-process)
-8. Write every fill event to `fills` table
+3. For each position, walk bars **after `max(last_checked_at, decision_made_at + 60s)`** (during 9:30-16:00 ET only). The `decision_made_at` floor (added 2026-05-07) prevents the simulator from filling orders against bars that occurred before the trade was created.
+4. **Expiry pass (added 2026-05-07):** before walking bars, if status is `pending` and `now > entry_valid_until` (or the safety-cap fallback at 16:00 ET on the decision day), mark the trade `status='expired'`, set `pnl=NULL`, `exit_fill_price=NULL`, write an audit row to `fills` with `event_type='expired'`. Skip the bar loop for that trade.
+5. For pending trades: if bar.low ≤ entry (long) or bar.high ≥ entry (short) → fill at entry, mark `entered`
+6. For entered trades: check stop and target intra-bar; fill at the trigger price (not the bar extreme)
+7. Trailing stop on `target_price_2`: when first target hits, move stop to `entry_price` and replace target with `target_price_2`
+8. Update `last_checked_at` on every cycle whether or not a fill happened (idempotent — no double-process)
+9. Write every fill event to `fills` table
 
 `--dry-run` flag prints what would happen without writing.
+
+### Two `trades`-table columns added 2026-05-07 for time discipline
+
+| Column | Source | Used by |
+|---|---|---|
+| `decision_made_at` | `decisions.json.generated_at` (set by `decisions_writer.py`); ingester copies into Turso | Simulator's `_floor_for_fresh_trade()` — never process bars from before this time |
+| `entry_valid_until` | Per-trade ISO timestamp set by judge agent (Gate 7 in `b_judge.md`); null = use safety cap (end of decision-day at 16:00 ET) | Simulator's expiry pass — if past expiry without fill, mark `status='expired'` |
+
+History note: prior to 2026-05-07, the simulator's fallback for fresh trades was `start_of_today` (NY midnight). This caused three real paper trades (ROK id=7, CMI id=8, TLN id=9) to be filled retroactively against 9:30-AM-ET market-open bars even though the orders were created at 10:10+ AM ET. Bug confirmed against yfinance 1-minute data; corrected via `scripts/fix_pre_simulator_bug_trades.py`. See root `CLAUDE.md` for the dated incident write-up.
 
 ## Decision Ingester (closes the loop)
 

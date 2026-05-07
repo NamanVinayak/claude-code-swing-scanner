@@ -26,6 +26,8 @@ TRADE_COLUMNS = [
     "pnl", "created_at", "entered_at", "closed_at", "raw_decision",
     "last_checked_at",
     "position_size_class",
+    "decision_made_at",
+    "entry_valid_until",
 ]
 TRADE_COLUMN_SET = set(TRADE_COLUMNS)
 
@@ -42,7 +44,8 @@ _CREATE_TABLES_SQL = [
         status TEXT DEFAULT 'pending', entry_fill_price REAL,
         exit_fill_price REAL, pnl REAL, created_at TEXT, entered_at TEXT,
         closed_at TEXT, raw_decision TEXT, last_checked_at TEXT,
-        position_size_class TEXT
+        position_size_class TEXT,
+        decision_made_at TEXT, entry_valid_until TEXT
     )""",
     """CREATE TABLE IF NOT EXISTS daily_summary (
         id INTEGER PRIMARY KEY AUTOINCREMENT,

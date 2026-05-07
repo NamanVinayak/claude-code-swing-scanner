@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 
 import argparse
 import logging
-from datetime import datetime, time, timezone
+from datetime import datetime, time, timedelta, timezone
 import pytz
 import yfinance as yf
 import pandas as pd
@@ -25,6 +25,59 @@ MARKET_CLOSE = time(16, 0)
 def is_market_hours(dt: datetime) -> bool:
     ny_dt = dt.astimezone(NY_TZ)
     return MARKET_OPEN <= ny_dt.time() <= MARKET_CLOSE
+
+
+# ---------------------------------------------------------------------------
+# Time-discipline helpers
+#
+# History: prior to 2026-05-07, freshly-inserted trades whose `last_checked_at`
+# was NULL fell back to `start_of_today` (NY midnight) as the bar-scan floor.
+# That meant the simulator processed bars from 9:30 AM ET market open even
+# when the trade was actually inserted hours later, producing impossible
+# retroactive fills. The helpers below replace that fallback with a floor
+# anchored to `decision_made_at` (when the agent finished deciding), and add
+# an expiry pass that respects the judge's per-trade `entry_valid_until`.
+# ---------------------------------------------------------------------------
+
+ORDER_LIVE_BUFFER_SECONDS = 60  # broker-side delay between agent decision and order being live
+
+
+def _floor_for_fresh_trade(trade: dict, fallback_start_of_today: datetime) -> datetime:
+    """For a freshly-inserted trade with no last_checked_at yet, the simulator
+    must NOT process bars from before the agent's decision was finalized.
+    Floor = decision_made_at + ORDER_LIVE_BUFFER_SECONDS.
+    Fallback to start_of_today only if decision_made_at is missing or unparsable
+    (legacy rows from before this fix shipped)."""
+    decision_str = trade.get('decision_made_at')
+    if not decision_str:
+        return fallback_start_of_today
+    try:
+        decision_dt = pd.to_datetime(decision_str).to_pydatetime()
+    except Exception:
+        return fallback_start_of_today
+    if decision_dt.tzinfo is None:
+        decision_dt = decision_dt.replace(tzinfo=timezone.utc)
+    return decision_dt + timedelta(seconds=ORDER_LIVE_BUFFER_SECONDS)
+
+
+def _safety_cap_expiry(trade: dict) -> datetime:
+    """Default expiry when judge set entry_valid_until = null (or it failed to parse):
+    16:00 ET on the day the decision was made. Mirrors how a real broker handles a
+    plain day-order. Falls back to created_at, then now() if neither is available."""
+    decision_str = trade.get('decision_made_at') or trade.get('created_at')
+    if decision_str:
+        try:
+            base = pd.to_datetime(decision_str).to_pydatetime()
+        except Exception:
+            base = datetime.now(timezone.utc)
+    else:
+        base = datetime.now(timezone.utc)
+    if base.tzinfo is None:
+        base = base.replace(tzinfo=timezone.utc)
+    base_ny = base.astimezone(NY_TZ)
+    market_close_ny = base_ny.replace(hour=16, minute=0, second=0, microsecond=0)
+    return market_close_ny.astimezone(timezone.utc)
+
 
 def run_simulator(dry_run: bool = False):
     pending = get_pending_trades()
@@ -62,6 +115,7 @@ def run_simulator(dry_run: bool = False):
     stops_hit = 0
     targets_hit = 0
     unchanged = 0
+    expired_count = 0
 
     now_ny = datetime.now(NY_TZ)
     start_of_today = now_ny.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -82,14 +136,48 @@ def run_simulator(dry_run: bool = False):
             try:
                 last_checked = pd.to_datetime(last_checked_str).to_pydatetime()
             except Exception:
-                last_checked = start_of_today
+                last_checked = _floor_for_fresh_trade(t, start_of_today)
         else:
-            last_checked = start_of_today
-            
+            last_checked = _floor_for_fresh_trade(t, start_of_today)
+
         # Ensure last_checked is tz-aware for comparison
         if last_checked.tzinfo is None:
             last_checked = last_checked.replace(tzinfo=timezone.utc)
-            
+
+        # Expiry pass — applies only to still-pending trades.
+        # If the entry-validity window has closed without a fill, mark the
+        # order expired BEFORE walking any bars. The judge set entry_valid_until
+        # per-trade; null falls back to end-of-decision-day at 16:00 ET.
+        if status == 'pending':
+            now_utc = datetime.now(timezone.utc)
+            expiry_str = t.get('entry_valid_until')
+            if expiry_str:
+                try:
+                    expiry_dt = pd.to_datetime(expiry_str).to_pydatetime()
+                except Exception:
+                    expiry_dt = _safety_cap_expiry(t)
+            else:
+                expiry_dt = _safety_cap_expiry(t)
+
+            if expiry_dt.tzinfo is None:
+                expiry_dt = expiry_dt.replace(tzinfo=timezone.utc)
+
+            if now_utc > expiry_dt:
+                expired_count += 1
+                if not dry_run:
+                    update_trade(
+                        trade_id,
+                        status='expired',
+                        closed_at=expiry_dt.isoformat(),
+                        exit_fill_price=None,
+                        pnl=None,
+                    )
+                    # log_fill requires non-null price; use 0.0 sentinel.
+                    # event_type='expired' is the discriminator.
+                    log_fill(trade_id, "expired", 0.0, expiry_dt.isoformat(), "entry window closed without fill")
+                logger.info(f"  EXPIRED: {direction.upper()} {qty} {ticker} @ entry {entry_price} (window closed at {expiry_dt.isoformat()})")
+                continue  # skip bar loop entirely
+
         try:
             # Handle multi-index columns from yfinance
             if len(tickers) == 1:
@@ -236,7 +324,7 @@ def run_simulator(dry_run: bool = False):
         if latest_bar_time is not None and not dry_run:
             update_trade(trade_id, last_checked_at=latest_bar_time.isoformat())
 
-    print(f"Checked {len(trades)} positions: {entries_filled} entries filled, {stops_hit} stops hit, {targets_hit} targets hit, {unchanged} unchanged")
+    print(f"Checked {len(trades)} positions: {entries_filled} entries filled, {stops_hit} stops hit, {targets_hit} targets hit, {expired_count} expired, {unchanged} unchanged")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Autonomous Fill Engine Simulator")

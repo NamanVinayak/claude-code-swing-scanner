@@ -246,6 +246,7 @@ class JudgeApprovedTrade(BaseModel):
     rationale: str
     risk_usd: float
     position_size_class: Literal["standard", "small_scaled"] = "standard"
+    entry_valid_until: str | None = None  # ISO 8601 UTC; null = end-of-decision-day at 16:00 ET
 
 
 class JudgeOutput(BaseModel):

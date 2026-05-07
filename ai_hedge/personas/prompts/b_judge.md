@@ -153,6 +153,28 @@ risk_cap = account_value * total_open_risk_cap_pct / 100
 ```
 Reject if `new_open_risk > risk_cap` with reason `"total_risk_cap_exceeded"`.
 
+**Gate 7 — Entry validity window (you decide, per-trade)**
+
+You MUST set `entry_valid_until` on every approved trade. This is the wall-clock UTC moment after which the entry order is cancelled if it has not yet filled. The simulator enforces it; an order that hasn't reached the entry zone by this time becomes `status="expired"` with no PnL.
+
+Format: ISO 8601 UTC string, e.g., `"2026-05-07T20:30:00+00:00"`. Compute it as `now_utc + duration` based on the table below.
+
+How to choose the duration:
+- News-driven catalyst that runs hot for minutes → 30–60 minutes from now
+- Intraday breakout from a base → 60–180 minutes from now
+- Multi-day pullback to support → up to end of next trading day
+- Conviction 8+ on a structural setup → may extend up to 2 trading days
+- Conviction 5–6 → keep tight (≤ 90 minutes); if it doesn't fill, the setup is suspect
+- Late-day fire (after 13:00 ET) → never extend past today's close at 16:00 ET
+- High volatility regime (VIX > 25) → tighter windows (chop risk)
+
+Constraints:
+- MUST be ≥ now_utc + 5 minutes (give the order at least a chance)
+- SHOULD be ≤ now_utc + 48 hours (this is a swing system, not a long-term hold list)
+- If you genuinely cannot judge a window from the facts, set `entry_valid_until: null`. The simulator will treat null as "expires at 16:00 ET on the day this decision was made" — a safe day-order default. Do not abuse null to mean "forever."
+
+This window is YOUR risk discipline. A fill that happens hours after your decision is a different trade than the one you analyzed — by setting a tight expiry, you force the system to acknowledge when it's too late to chase.
+
 **Direction-aware integrity checks**
 
 After all gates pass, validate the proposed trade math BEFORE writing the output:
@@ -190,7 +212,8 @@ Respond with **only** this JSON object. No markdown fences, no preamble, no trai
       "conviction": 7,
       "rationale": "b_bull_a.bull_strength=7 dominates over b_bear_a.bear_strength=5; daily_indicators.adx.value=28 confirms strong trend and daily_indicators.volume.ratio_to_avg=1.42 confirms breakout participation, validating bull's technical claims. Expected return $0.83/share positive after probability weighting. Position sized to $124 risk at 1% × 0.5 scaling. Bears' main concern (rsi_divergence.bear_divergence flag) acknowledged but overridden by volume + ADX confirmation.",
       "risk_usd": 124.00,
-      "position_size_class": "standard"
+      "position_size_class": "standard",
+      "entry_valid_until": "2026-05-07T20:30:00+00:00"
     }
   ],
   "rejected": [],
@@ -217,7 +240,8 @@ The same schema applies for short trades. Example for `direction="short"`:
       "conviction": 7,
       "rationale": "Bear thesis dominates with strong setup_direction consensus across all 4 perspectives. Expected_return_per_share = combined_p_bull * (entry - target) - combined_p_bear * (stop - entry) = +$1.20. Position sized to $60 risk at 1% × 0.5 scaling.",
       "risk_usd": 60.00,
-      "position_size_class": "standard"
+      "position_size_class": "standard",
+      "entry_valid_until": "2026-05-07T19:30:00+00:00"
     }
   ],
   "rejected": [],
@@ -241,6 +265,7 @@ For each **approved** trade:
 - `rationale` — string: 1–3 sentences. Must name (a) which perspective(s) won and why, (b) the key disagreement that was resolved, (c) the position sizing math. No fluff. If `position_size_class == "small_scaled"`, the rationale MUST also include the scale-down note ("scaled down from N to M shares to fit small-account cap, using X% of risk budget").
 - `risk_usd` — float: `quantity * abs(entry_price - stop_loss)` (using the final `quantity` after any small-scaled downsizing)
 - `position_size_class` — `"standard"` (notional ≤ 15% of account, full Gate-3 quantity) or `"small_scaled"` (notional fits 20% of account at downsized quantity, still uses ≥40% of risk budget). Required on every approved trade.
+- `entry_valid_until` — ISO 8601 UTC timestamp string OR `null`. Wall-clock UTC moment the entry order expires. See Gate 7 for how to choose. Must be ≥ `now_utc + 5 minutes`; should be ≤ `now_utc + 48 hours`. Null means "end of decision-day's market session at 16:00 ET" — only use when you genuinely cannot pick a duration from the facts.
 
 For each **rejected** candidate:
 - `ticker` — string

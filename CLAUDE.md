@@ -297,3 +297,68 @@ Phase F (short-side signal taxonomy), volatility-adjusted limits, self-grading, 
 ---
 
 _Last updated: 2026-05-05 (~3:00 PM PT). System B is **LIVE with all known bugs fixed**. 0 trades in Turso to date. Tomorrow's 5:30 AM `b_premarket` is the first chance for a real paper trade to land. See `HANDOFF.md` "## 2026-05-05" section for fix-by-fix detail and tomorrow's resume-from-here checklist._
+
+---
+
+## 2026-05-07 (evening) — time-travel simulator bug fixed; agent-driven entry expiry shipped
+
+Today's 7 AM `b_decide` approved one trade (TLN, $411.50 entry, $397 stop, 12 shares) and the simulator recorded it as filled at 9:30 AM ET (market open) and stopped out at 9:45 AM ET for -$174. Investigation against yfinance 1-minute bars revealed both the entry AND the stop-out were retroactively backfilled — the trade was actually inserted into Turso at 10:10 AM ET, by which time TLN had already crashed to ~$391 (well below the $409.44 entry tolerance band) and never returned to the entry zone. The simulator was filling orders against bars from before the orders existed.
+
+Same bug analysis applied to the two open positions from the prior day:
+
+| Trade | Sim said | Reality (after order existed in DB) | Real distortion |
+|---|---|---|---|
+| ROK (id=7) | Filled @ $445.27 at 9:30 ET | Touched zone exactly once at 10:30 ET, low $446.93 | ~$18 too profitable |
+| CMI (id=8) | Filled @ $689.69 at 9:30 ET | Never re-entered entry zone after 10:11 ET | Entire position fictional |
+| TLN (id=9) | Filled @ $411.50 at 9:30 ET, stopped @ $397, -$174 | Never re-entered entry zone after 10:10 ET | Fake $174 loss |
+
+### What shipped (one work session, plan in `~/.claude/plans/humming-meandering-hickey.md`)
+
+**Bug fix.** `tracker/simulator.py:_floor_for_fresh_trade()` replaces the prior `start_of_today` fallback. Fresh trades now floor their bar-scan at `decision_made_at + 60s` (the agent's finished-deciding timestamp + a small broker-side buffer). New `decision_made_at` column on `trades` table; sourced from `decisions.json.generated_at` by the ingester.
+
+**Agent-driven entry expiry.** New Gate 7 in `b_judge.md`: judge sets per-trade `entry_valid_until` (ISO 8601 UTC) based on setup type, conviction, time of day, volatility. New optional field on `JudgeApprovedTrade` Pydantic schema (`schemas.py`), `TradeDecision` dataclass (`decisions_writer.py`), and `entry_valid_until` column in Turso `trades` table. Simulator runs an expiry pass at the top of the per-trade loop: pending trades past expiry get `status='expired'`, `pnl=NULL`, `exit_fill_price=NULL`, audit row in `fills`. If judge sets `entry_valid_until=null`, simulator falls back to a safety cap of 16:00 ET on the decision day (mirrors a real broker's day-order default).
+
+**Retroactive correction.** `scripts/fix_pre_simulator_bug_trades.py` (idempotent, sentinel-gated) updated the 3 tainted rows in Turso:
+- ROK (id=7): `entry_fill_price` 445.27 → 446.93, `entered_at` 13:30 → 14:30 UTC. Still status=`entered`.
+- CMI (id=8): status `entered` → `expired`, fills cleared, `closed_at` set to 16:00 ET 2026-05-06. Real life: never filled.
+- TLN (id=9): status `stop_hit` → `expired`, $-174 PnL erased, fills cleared. Real life: never filled.
+
+Each correction wrote a `retroactive_correction_*` row to the `fills` audit log with the reason.
+
+**Downstream consumers — already supported `expired` status.** Verified during planning: `dashboard/build.py`, `closed.html`, `ticker.html`, `base.html` (yellow EXPIRED badge CSS), `wiki_daily_update.py`, `journal_facts_builder.py`, `journal_writer.py` all already accept and display the `expired` status. No template/journal/wiki code changes needed — just the simulator now produces it.
+
+### Files changed
+
+- `tracker/turso_client.py` — added `decision_made_at`, `entry_valid_until` to `TRADE_COLUMNS` and `CREATE TABLE`
+- `tracker/ingest_decisions.py` — `_ensure_schema()` migrations for both columns; extracts `generated_at` from decisions.json into `decision_made_at`; passes `entry_valid_until` through
+- `tracker/simulator.py` — `_floor_for_fresh_trade()` and `_safety_cap_expiry()` helpers; expiry pass before bar loop; new `expired_count` counter in summary line
+- `ai_hedge/schemas.py` — `entry_valid_until: str | None = None` on `JudgeApprovedTrade`
+- `ai_hedge/personas/prompts/b_judge.md` — Gate 7 (Entry validity window); field added to output schema example (long & short) and field-description list
+- `ai_hedge/scanners/decisions_writer.py` — `entry_valid_until` on `TradeDecision` dataclass; pass-through in `_parse_approved_trade()` and `decisions_dict`
+- `scripts/fix_pre_simulator_bug_trades.py` — NEW. Idempotent retroactive correction
+- `tracker/CLAUDE.md` — Simulator section updated; columns documented
+
+### Smoke tests run live
+
+- Schema migration: `_ensure_schema()` against live Turso → both columns present on rows 7/8/9
+- Simulator helpers: 5 unit tests pass (floor with/without `decision_made_at`, malformed parse, safety cap math)
+- Pydantic round-trip: `JudgeApprovedTrade` accepts string + null + omitted; `_parse_approved_trade` propagates correctly
+- Retroactive script: dry-run shows expected diffs; live apply succeeded; second run is no-op (idempotent sentinel)
+- Simulator dry-run post-correction: only 1 ticker (ROK) being monitored as expected; CMI and TLN now expired
+
+### What runs tomorrow morning (2026-05-08, 5:30 AM PT)
+
+The first `b_decide` fire after this fix should produce a `decisions.json` where every approved trade has an `entry_valid_until` field. Ingester writes it to Turso along with `decision_made_at = generated_at`. Simulator processes bars only AFTER decision time + 60s, never from market open. If price doesn't enter the zone before `entry_valid_until`, trade ends as `status=expired` with the existing yellow EXPIRED badge on the dashboard.
+
+If the judge agent emits `entry_valid_until: null`, the simulator's safety cap kicks in at 16:00 ET on the decision day. Watch for that the first day or two — if every judge output is using null, that's a prompt-tuning signal.
+
+### Out of scope (not fixed today, listed for memory)
+
+- `b_decide_open` schedule still fires at 7:00 AM PT (= 30 min after market open). Discussion of whether to move earlier or change the entry-fill rule from limit to market-at-decision is deferred.
+- Stop-fill realism: simulator still fills exits at the exact stop trigger price, ignoring slippage on violent candles. Separate future fix.
+- Journal prompt does not yet treat expired trades as a distinct learning signal ("decided too late?"). Optional v2 polish.
+- 3 pre-existing test failures in `tests/test_turso_client.py` (mocks vs HTTP path mismatch) confirmed to be unrelated to this fix; existed on `main` before today.
+
+---
+
+_Last updated: 2026-05-07 (evening). System B is **LIVE with the time-travel bug fixed and agent-driven entry expiry shipped**. Turso state: ROK still entered at corrected price ($446.93), CMI/TLN both `expired` with no PnL. Tomorrow's 5:30 AM `b_premarket` is the first run of the corrected pipeline._

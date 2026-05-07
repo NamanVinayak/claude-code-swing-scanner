@@ -1,0 +1,24 @@
+{
+  "ticker": "ROK",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Analyst consensus 12-month avg price target is $428.66 versus current price $459.35 (analyst_consensus_web) — i.e., the stock is already trading ~7% ABOVE the post-raise sell-side consensus PT. Even after multiple analyst raises following the Q2 beat (Benzinga 2026-05-06), the consensus has not caught up to spot. That implies muted further upside from here without yet another upward earnings revision, and earnings.days_until_next = 91 means there is no near-term catalyst to force PT walk-ups. The breakout setup at watch $461 is asking sell-side to chase, not lead.",
+    "The Q2 beat-and-raise catalyst is already priced in: stock gapped +10.72% on 2026-05-05 (recent_prices_5d open $454.50 vs prior close $400.31) and added another +5.37% on 2026-05-06 closing $459.35 — a two-day rip of ~14.7% on the news. Per the b_premarket catalyst_note, premarket on 2026-05-07 is holding flat at +0.06% with zero premarket volume data — i.e., follow-through buyers have stopped showing up the morning after the second post-earnings session. Late entry into a fully digested catalyst with no volume confirmation is the textbook 'buy the rumor, sell the news' trap; FY26 EPS guide $12.50–$13.10 is already known to the market.",
+    "Valuation/positioning is stretched on multiple measures simultaneously: daily z_score_50 = 2.89 (price ~3 stdev above 50d mean), bollinger pct_b = 1.3488 (well outside upper band 438.68 vs price 459.35), price 18.83% above sma_50 and 22.31% above sma_200, and rsi_7 = 81.56 / rsi_14 = 73.55 / rsi_21 = 75.82 (all overbought). Although these are technical, they collectively signal that valuation re-rating from the Q2 beat has been front-loaded — at $50.3B market_cap with 91 days until next catalyst, the marginal long has to underwrite multiple expansion, not just the new guide, which historically mean-reverts from these statistical extremes. Specific forward P/E vs sector median data is NOT in the facts bundle (research_gap)."
+  ],
+  "bull_acknowledgements": [
+    "Q2 FY26 was a genuine fundamental beat-and-raise (EPS $3.30 vs $2.89; revenue $2.24B vs ~$2.18B; FY26 EPS guide raised to $12.50–$13.10 midpoint $12.80 vs prior consensus ~$12.26 per earnings_context_web) — the operating result is real, not engineered.",
+    "Demand commentary in news is broad-based and structural rather than one-off: warehouse automation, data centers, and semiconductors all cited with double-digit growth (Yahoo Finance 2026-05-05) — supports the case that the raised guide is sustainable.",
+    "Insider selling in recent_news_7d is small and isolated — SVP Lifecycle Services sold only 460 shares for ~$206,992 on 2026-05-05; recent_insider_trades is empty (no 30-day insider history available). That is not a meaningful executive distribution signal against the long."
+  ],
+  "web_sources_last_7d": [
+    "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
+    "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
+    "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
+    "https://www.benzinga.com/analyst-stock-ratings/price-target/26/05/52337987/rockwell-automation-analysts-raise-their-forecasts-following-upbeat-q2-results",
+    "https://www.quiverquant.com/news/Insider+Sale:+SVP+Lifecycle+Services+of+$ROK+Sells+460+Shares",
+    "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "ADI",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [404.77, 391.88, 386.53],
+  "top_3_arguments": [
+    "Extreme overbought + extension: daily rsi.rsi_14 = 74.71, rsi_21 = 77.86, bollinger.pct_b = 0.8979 (price riding upper band at 424.81), z_score_50 = 2.07, and price_vs_ma.pct_from_sma_50 = 20.1% above the 50-day. roc_21d = 26.94% and roc_5d = 6.76% — buying a fresh breakout at 415.63 with the stock already 2 sigma stretched and 20% above its 50-day is a textbook chase, with mean-reversion risk to fib_236 = 388.76 (-6.5%) or the 20EMA at 381.14 (-8.3%) on any cooling.",
+    "Volume/OBV divergence undermines breakout quality: daily volume.relative_volume = 1.23 (only marginally above average for a fresh all-time high breakout — institutional breakouts typically print 1.5–2x+) AND daily volume.obv.trend = 'down' with diverging_from_price = true. Price made new highs while OBV ticked lower — classic distribution signature into the move. macd.bullish_crossover = false despite 26.94% 21-day rally means momentum is decelerating at the level a buyer would pay up for.",
+    "Hard binary catalyst risk in 13 days with poor entry math: earnings 2026-05-20 (earnings_context_web.next_earnings_date) means a 13-day hold straight into the print. Analyst avg_price_target = 393.16 is BELOW current 415.63 — Street price target sits 5.4% below entry, so even consensus says the stock is ahead of itself. atr_14 = 12.84 (3.09% daily) → invalidation at 410 is barely 0.4 ATR away, while a realistic measured-move target needs multiple ATRs of follow-through against a 2-sigma extended tape. Plus CEO Roche just sold $3.98M on 2026-05-05 at the highs (recent_news_7d item)."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is unambiguously bullish: ema_aligned_uptrend = true on both daily and hourly, price above every EMA/SMA from 5 through 200, and adx_14 = 59.44 with plus_di = 44.99 vs minus_di = 8.79 confirms an exceptionally strong trend regime.",
+    "Genuine fundamental tailwind in the news bundle: Citi 30-day positive catalyst watch with $400 PT, multiple pre-earnings analyst upgrades (2026-05-02 Yahoo item), and the AI/data center revenue mix story (simplywall.st 2026-05-04) — the breakout has real narrative behind it, not just a chart.",
+    "Daily rsi_divergence.bullish = true (lookback 60 bars) and macd histogram = +1.5936 with macd_line above signal — momentum framework on the daily is intact even at extended levels."
+  ],
+  "web_sources_last_7d": [
+    "https://www.investing.com/news/company-news/analog-devices-stock-hits-alltime-high-at-40875-93CH-4663777",
+    "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-5-6-161542157.html",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261756455-amd-adi-citigroup-ai-datacenter-earnings-semiconductor-catalyst-tradingkey",
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/what-analog-devices-adis-rising-ai-and-data-center-revenue-s",
+    "https://www.marketbeat.com/stocks/NASDAQ/ADI/news/"
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "ticker": "TLN",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 420.0,
+  "invalidation_level": 411.0,
+  "catalyst_note": "TradingView breakout_up + trending_up signals align on a long setup; premarket gap +1.43% keeps the breakout intact but hasn't run away yet.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Talen Energy Q1 EBITDA $473M, Reaffirms 2026 Guidance",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.stocktitan.net/news/TLN/talen-energy-reports-first-quarter-2026-results-reaffirms-2026-ifiux9jegmsw.html",
+      "sentiment": "positive",
+      "summary": "Q1 2026 EBITDA $473M; revenue $1.13B vs $1.05B FactSet estimate; full-year 2026 guidance reaffirmed."
+    },
+    {
+      "title": "Talen Energy Q1 2026 Earnings Transcript",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/talen-energy-tln-q1-2026-earnings-transcript/",
+      "sentiment": "positive",
+      "summary": "Management emphasized rapid regulatory progress on the pending Cornerstone acquisition and continued data-center buildout at Susquehanna with no slowdown."
+    },
+    {
+      "title": "Earnings Flash (TLN) Reports Q1 Revenue $1.13B vs FactSet Est $1.05B",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.marketscreener.com/news/earnings-flash-tln-talen-energy-corporation-reports-q1-revenue-1-13b-vs-factset-est-of-1-05b-ce7f58dcd08bf62c",
+      "sentiment": "positive",
+      "summary": "Q1 revenue $1.13B exceeded FactSet consensus of $1.05B by ~7.6%."
+    },
+    {
+      "title": "Morgan Stanley raises Talen Energy price target to $498 from $479, maintains Buy",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://meyka.com/blog/tln-overweight-rating-maintained-by-morgan-stanley-april-2026-2204/",
+      "sentiment": "positive",
+      "summary": "Morgan Stanley raised PT to $498 (from $479) and maintained Overweight/Buy rating following Q1 results."
+    },
+    {
+      "title": "PJM Base Residual Auction 2027/2028: TLN clears 8,745 MW at $333.44/MW-day",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://ir.talenenergy.com/",
+      "sentiment": "positive",
+      "summary": "Talen cleared 8,745 MW in PJM 2027/2028 Base Residual Auction at $333.44/MW-day, equating to roughly $1,067M in capacity revenues for that planning year."
+    },
+    {
+      "title": "Talen Energy Announces Pricing of Senior Notes",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.stocktitan.net/news/TLN/",
+      "sentiment": "neutral",
+      "summary": "Talen Energy priced a senior notes offering; details on size and coupon released this week."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 409.989990234375,
+  "market_cap": 17956767744.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-04-30",
+      "open": 356.67999267578125,
+      "high": 375.45001220703125,
+      "low": 356.6400146484375,
+      "close": 372.4200134277344,
+      "volume": 675600
+    },
+    {
+      "time": "2026-05-01",
+      "open": 375.3900146484375,
+      "high": 383.82000732421875,
+      "low": 367.94000244140625,
+      "close": 372.1600036621094,
+      "volume": 574600
+    },
+    {
+      "time": "2026-05-04",
+      "open": 375.0899963378906,
+      "high": 385.1300048828125,
+      "low": 373.1000061035156,
+      "close": 384.6400146484375,
+      "volume": 749600
+    },
+    {
+      "time": "2026-05-05",
+      "open": 390.3900146484375,
+      "high": 391.3699951171875,
+      "low": 384.42999267578125,
+      "close": 384.8999938964844,
+      "volume": 615400
+    },
+    {
+      "time": "2026-05-06",
+      "open": 400.6400146484375,
+      "high": 412.8299865722656,
+      "low": 388.7099914550781,
+      "close": 409.989990234375,
+      "volume": 1183300
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 387.3527490449984,
+      "sma_5": 384.82200317382814,
+      "ema_10": 375.07859170258433,
+      "sma_10": 371.64300537109375,
+      "ema_20": 361.6092798570631,
+      "sma_20": 355.93650207519534,
+      "ema_21": 360.71927235383475,
+      "sma_21": 354.6371445428757,
+      "ema_50": 351.408716503471,
+      "sma_50": 341.36320068359373,
+      "ema_200": 344.898378692295,
+      "sma_200": 371.71234939575197,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 409.989990234375,
+    "dist_from_50sma_pct": 20.1,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 5.84,
+      "above_sma_5": true,
+      "pct_from_sma_5": 6.54,
+      "above_ema_10": true,
+      "pct_from_ema_10": 9.31,
+      "above_sma_10": true,
+      "pct_from_sma_10": 10.32,
+      "above_ema_20": true,
+      "pct_from_ema_20": 13.38,
+      "above_sma_20": true,
+      "pct_from_sma_20": 15.19,
+      "above_ema_21": true,
+      "pct_from_ema_21": 13.66,
+      "above_sma_21": true,
+      "pct_from_sma_21": 15.61,
+      "above_ema_50": true,
+      "pct_from_ema_50": 16.67,
+      "above_sma_50": true,
+      "pct_from_sma_50": 20.1,
+      "above_ema_200": true,
+      "pct_from_ema_200": 18.87,
+      "above_sma_200": true,
+      "pct_from_sma_200": 10.3,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 40899.0
+    },
+    "rsi": {
+      "rsi_7": 76.4,
+      "rsi_14": 65.37,
+      "rsi_21": 68.02
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 14.418,
+      "signal_line": 9.1288,
+      "histogram": 5.2892,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 403.59,
+      "middle": 355.94,
+      "lower": 308.28,
+      "width": 0.2678,
+      "pct_b": 1.0672
+    },
+    "atr": {
+      "atr_14": 17.28,
+      "atr_pct": 4.21
+    },
+    "adx": {
+      "adx_14": 27.55,
+      "plus_di": 34.8,
+      "minus_di": 15.25,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1183300,
+      "avg_volume_20": 681690,
+      "relative_volume": 1.74,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 345.29,
+          "tests": 16,
+          "volume_confirmed": false
+        },
+        {
+          "price": 371.0,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 397.4,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 301.45,
+          "tests": 2,
+          "volume_confirmed": true
+        },
+        {
+          "price": 307.79,
+          "tests": 5,
+          "volume_confirmed": false
+        },
+        {
+          "price": 310.98,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 328.32,
+          "tests": 21,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 328.32,
+      "recent_high": 412.83,
+      "recent_low": 310.98,
+      "prev_day_high": 391.37,
+      "prev_day_low": 384.43,
+      "prev_day_close": 384.9
+    },
+    "fibonacci": {
+      "swing_high": 412.83,
+      "swing_low": 302.0,
+      "fib_236": 386.67,
+      "fib_382": 370.49,
+      "fib_500": 357.41,
+      "fib_618": 344.34,
+      "fib_786": 325.72,
+      "fib_ext_1272": 442.98,
+      "fib_ext_1618": 481.32,
+      "fib_ext_2000": 523.66,
+      "fib_ext_low_1272": 271.85,
+      "fib_ext_low_1618": 233.51
+    },
+    "momentum": {
+      "roc_5d": 16.5,
+      "roc_10d": 20.83,
+      "roc_21d": 24.21
+    },
+    "z_score_50": 2.75,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 391.85763106028696,
+      "sma_24": 390.2614491780599,
+      "ema_48": 381.5689139815666,
+      "sma_48": 377.57679557800293,
+      "ema_120": 364.5304597612216,
+      "sma_120": 361.7263033548991,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 392.9700012207031,
+    "dist_from_50sma_pct": 8.64,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 0.28,
+      "above_sma_24": true,
+      "pct_from_sma_24": 0.69,
+      "above_ema_48": true,
+      "pct_from_ema_48": 2.99,
+      "above_sma_48": true,
+      "pct_from_sma_48": 4.08,
+      "above_ema_120": true,
+      "pct_from_ema_120": 7.8,
+      "above_sma_120": true,
+      "pct_from_sma_120": 8.64,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 39197.0
+    },
+    "rsi": {
+      "rsi_21": 58.06
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 11.6432,
+      "signal_line": 9.5993,
+      "histogram": 2.0439,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 410.84,
+      "middle": 377.58,
+      "lower": 344.31,
+      "width": 0.1762,
+      "pct_b": 0.7314
+    },
+    "atr": {
+      "atr_24": 6.52,
+      "atr_pct": 1.66
+    },
+    "adx": {
+      "adx_24": 46.61,
+      "plus_di": 35.76,
+      "minus_di": 13.68,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 106686,
+      "avg_volume_20": 110992,
+      "relative_volume": 0.96,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 369.91,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 383.82,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 391.37,
+          "tests": 8,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 347.0,
+          "tests": 2,
+          "volume_confirmed": false
+        },
+        {
+          "price": 355.0,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 368.0,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 384.43,
+          "tests": 12,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 384.43,
+      "recent_high": 416.68,
+      "recent_low": 377.66,
+      "prev_day_high": 410.4,
+      "prev_day_low": 406.98,
+      "prev_day_close": 410.01
+    },
+    "fibonacci": {
+      "swing_high": 416.68,
+      "swing_low": 368.0,
+      "fib_236": 405.19,
+      "fib_382": 398.08,
+      "fib_500": 392.34,
+      "fib_618": 386.6,
+      "fib_786": 378.42,
+      "fib_ext_1272": 429.92,
+      "fib_ext_1618": 446.76,
+      "fib_ext_2000": 465.36,
+      "fib_ext_low_1272": 354.76,
+      "fib_ext_low_1618": 337.92
+    },
+    "momentum": {
+      "roc_5d": -3.5,
+      "roc_10d": 1.45,
+      "roc_21d": 2.87
+    },
+    "z_score_120": 1.67,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": null,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 467.77,
+    "recent_changes": "Morgan Stanley raised PT to $498 from $479 this week (maintained Buy/Overweight); aggregate consensus from 15 analysts is Strong Buy (15 Buy / 1 Hold / 0 Sell), avg PT $467.77, range $388.56-$548."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-07",
+    "days_until_next": 92,
+    "notes": "Q1 2026 reported 2026-05-05 (revenue $1.13B beat, EBITDA $473M, 2026 guide reaffirmed). Next quarterly print is Q2 in early August. Near-term catalysts: pending Cornerstone acquisition close (expected FCF/share uplift via spark spreads + higher forward price marks), continued Susquehanna data-center buildout, and PJM 2027/2028 capacity revenue (~$1.07B at $333.44/MW-day)."
+  }
+}

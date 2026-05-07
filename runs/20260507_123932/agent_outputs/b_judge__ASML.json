@@ -1,0 +1,11 @@
+{
+  "ticker": "ASML",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "ASML",
+      "reason": "single_position_cap_exceeded: Gate-3 quantity 9 shares at entry $1555 = $13,995 notional (56% of $25k account), far above 15% standard cap. Small-scaled exception path: extended_cap = $5,000 (20%), so M = floor(5000/1555) = 3 shares; risk_M = 3 * $27 = $81, which is below the 40%-of-risk-budget floor of $100. No quantity satisfies both notional <= 20% AND risk used >= 40% of $250 budget. Stock too high-priced ($1555/share) for current $25k account size."
+    }
+  ],
+  "summary": "ASML rejected on Gate 4 single-position cap. Long thesis (bulls 7/7 vs bears 6/6) and expected return are positive (+$26.31/share, R:R 2.67:1 with entry 1555 / stop 1528 / target 1627), but at $1555/share the minimum-viable share count under the 20% small-scaled cap (M=3) only uses $81 of risk budget vs the $100 floor (40% of $250). Account too small to size this name responsibly."
+}

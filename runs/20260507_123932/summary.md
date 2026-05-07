@@ -1,18 +1,25 @@
-# b_premarket summary 20260507_123932
+# b_decide summary 20260507_123932
 
-- candidates in: 40
-- mechanical survivors: 35
-- final today_watchlist: 10
+- approved: 1
+- rejected: 14 (judge: 5, writer-budget: 9)
 
-## Today's setups
+## Approved trades
 
-- ADI (breakout, conv=5, watch=415.63, invalidate=410.0)
-- ASML (breakout, conv=5, watch=1565.0, invalidate=1530.0)
-- DE (breakout, conv=5, watch=593.0, invalidate=585.0)
-- FTAI (breakout, conv=5, watch=285.56, invalidate=279.5)
-- ROK (breakout, conv=5, watch=461.0, invalidate=455.0)
-- TLN (breakout, conv=5, watch=420.0, invalidate=411.0)
-- TSM (breakout, conv=5, watch=420.0, invalidate=415.0)
-- UNP (breakout, conv=5, watch=270.0, invalidate=265.0)
-- VRT (breakout, conv=5, watch=358.0, invalidate=350.0)
-- CIEN (breakout, conv=4, watch=577.5, invalidate=566.0)
+- TLN buy entry=411.5 stop=397.0 target=442.0 qty=12 conv=7
+
+## Rejections (with reasons)
+
+- ADI (judge): single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Entry midpoint=416.065 (avg of b_bull_a.entry_zone 415.63-416.50). Gate 3: risk_dollars=$250 (1% of $25k account), risk_per_share=|416.065-410.00|=6.065, quantity=floor(250/6.065)=41, notional=41*416.065=$17,058.67 vs 15% standard cap of $3,750. Gate 4 small_scaled path: M=floor(5000/416.065)=12, risk_M=12*6.065=$72.78, but risk_dollars_floor=0.40*$250=$100; risk_M ($72.78) < $100 floor (uses only 29% of risk budget), so small_scaled fails. Note Gate 2 expected return WAS positive: p_bull=7/(7+7)=0.500, p_catalyst=7/(7+6)=0.538, combined_p_bull=0.519; target=min(440,432)=432.00, stop=max(409.50,410.00)=410.00; ER/share = 0.519*(432-416.065) - 0.481*(416.065-410) = 8.27 - 2.92 = +$5.36/share. The trade has edge but the $416 share price collides with the $25k account size at Gate 4.
+- ASML (judge): single_position_cap_exceeded: Gate-3 quantity 9 shares at entry $1555 = $13,995 notional (56% of $25k account), far above 15% standard cap. Small-scaled exception path: extended_cap = $5,000 (20%), so M = floor(5000/1555) = 3 shares; risk_M = 3 * $27 = $81, which is below the 40%-of-risk-budget floor of $100. No quantity satisfies both notional <= 20% AND risk used >= 40% of $250 budget. Stock too high-priced ($1555/share) for current $25k account size.
+- DE (judge): single_position_cap_exceeded
+- ROK (judge): single_position_cap_exceeded: Gate 3 quantity = floor($250 / $6.425) = 38 shares; notional = 38 * $460.425 = $17,496 vs 15% standard cap $3,750 — fails standard. Small-scaled path: M = floor(20% cap $5,000 / $460.425) = 10 shares; risk_M = 10 * $6.425 = $64.25, which is < risk_dollars_floor (40% of $250 = $100). Stop is too tight ($6.425/share) relative to share price ($460.425) — at the maximum allowed share count (10) the position uses only 25.7% of risk budget, below the 40% floor, so the small-scaled exception does not unlock. Stock too high-priced for current $25k account size given this stop placement. Note: Gate 0 (direction consensus all-long), Gate 1 (budget healthy, phase=full, daily_pnl=$0), and Gate 2 passed cleanly — combined_p_bull=0.5165 (avg of bull_a 6/13 and bull_b 8/14), expected_return_per_share = 0.5165*($480.50-$460.425) - 0.4835*($460.425-$454.00) = +$7.26 — but Gate 4 sizing math kills the trade.
+- TSM (judge): single_position_cap_exceeded
+- ADI (writer-budget): single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Entry midpoint=416.065 (avg of b_bull_a.entry_zone 415.63-416.50). Gate 3: risk_dollars=$250 (1% of $25k account), risk_per_share=|416.065-410.00|=6.065, quantity=floor(250/6.065)=41, notional=41*416.065=$17,058.67 vs 15% standard cap of $3,750. Gate 4 small_scaled path: M=floor(5000/416.065)=12, risk_M=12*6.065=$72.78, but risk_dollars_floor=0.40*$250=$100; risk_M ($72.78) < $100 floor (uses only 29% of risk budget), so small_scaled fails. Note Gate 2 expected return WAS positive: p_bull=7/(7+7)=0.500, p_catalyst=7/(7+6)=0.538, combined_p_bull=0.519; target=min(440,432)=432.00, stop=max(409.50,410.00)=410.00; ER/share = 0.519*(432-416.065) - 0.481*(416.065-410) = 8.27 - 2.92 = +$5.36/share. The trade has edge but the $416 share price collides with the $25k account size at Gate 4.
+- ASML (writer-budget): single_position_cap_exceeded: Gate-3 quantity 9 shares at entry $1555 = $13,995 notional (56% of $25k account), far above 15% standard cap. Small-scaled exception path: extended_cap = $5,000 (20%), so M = floor(5000/1555) = 3 shares; risk_M = 3 * $27 = $81, which is below the 40%-of-risk-budget floor of $100. No quantity satisfies both notional <= 20% AND risk used >= 40% of $250 budget. Stock too high-priced ($1555/share) for current $25k account size.
+- DE (writer-budget): single_position_cap_exceeded
+- ROK (writer-budget): single_position_cap_exceeded: Gate 3 quantity = floor($250 / $6.425) = 38 shares; notional = 38 * $460.425 = $17,496 vs 15% standard cap $3,750 — fails standard. Small-scaled path: M = floor(20% cap $5,000 / $460.425) = 10 shares; risk_M = 10 * $6.425 = $64.25, which is < risk_dollars_floor (40% of $250 = $100). Stop is too tight ($6.425/share) relative to share price ($460.425) — at the maximum allowed share count (10) the position uses only 25.7% of risk budget, below the 40% floor, so the small-scaled exception does not unlock. Stock too high-priced for current $25k account size given this stop placement. Note: Gate 0 (direction consensus all-long), Gate 1 (budget healthy, phase=full, daily_pnl=$0), and Gate 2 passed cleanly — combined_p_bull=0.5165 (avg of bull_a 6/13 and bull_b 8/14), expected_return_per_share = 0.5165*($480.50-$460.425) - 0.4835*($460.425-$454.00) = +$7.26 — but Gate 4 sizing math kills the trade.
+- TSM (writer-budget): single_position_cap_exceeded
+- CIEN (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$100.00 > available=$76.00)
+- FTAI (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$120.19 > available=$76.00)
+- UNP (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$103.50 > available=$76.00)
+- VRT (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$136.50 > available=$76.00)

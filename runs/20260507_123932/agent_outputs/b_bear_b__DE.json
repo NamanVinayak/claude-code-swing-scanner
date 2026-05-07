@@ -1,0 +1,17 @@
+{
+  "ticker": "DE",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Earnings risk is acute: earnings.days_until_next = 14 (Q2 FY2026 due 2026-05-21 per earnings_context_web). Street expects EPS $5.81 on revenue ~$11.44B; with shares already up ~12% recently and lagging the S&P, the report is the central debate and a guide-down or in-line print can easily kill any breakout above $593 before the trade matures.",
+    "Valuation/upside is capped relative to the entry: analyst_consensus_web shows avg PT ~$640 (range $618-$665) vs current_price $591.64. That's only ~8% headline upside to consensus from the watch_level $593, while the invalidation_level $585 implies ~$8 of risk — a thin reward on a name where 23 analysts already split 13 buy / 11 hold / 0 sell (no fresh upgrade or PT bump in the last 7 days per news_source = 'none').",
+    "Thesis-corroboration gap: news_source = 'none' and recent_news_7d is empty — there is no fresh fundamental catalyst (no contract win, no guidance raise, no upgrade) supporting a breakout into a pre-earnings tape. wiki_context.new_ticker = true means there is also no prior memory of how DE handles this setup, so the bull case is leaning on TradingView signals (tv_strong_buy / tv_trending_up) without an independent fundamental confirmation."
+  ],
+  "bull_acknowledgements": [
+    "Analyst consensus is genuinely supportive: 'Buy' rating, 13 buy / 11 hold / 0 sell across 23 analysts, avg PT $640 — there is no Wall Street sell case to lean on for a deeper short-side fundamental thesis.",
+    "recent_insider_trades is empty — no executive selling cluster or 10b5-1 distribution to point to as a pre-earnings warning sign.",
+    "Price is above all major moving averages (5/10/20/50/200 EMA and SMA per price_vs_ma) and ~14.93% above the SMA200, which is consistent with a healthy uptrend rather than a topping pattern."
+  ],
+  "web_sources_last_7d": []
+}

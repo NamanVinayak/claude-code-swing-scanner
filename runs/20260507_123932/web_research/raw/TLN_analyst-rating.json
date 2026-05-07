@@ -1,0 +1,55 @@
+{
+  "query": "TLN stock 2026-05-07 analyst rating",
+  "fetched_at": "2026-05-07T19:45:00Z",
+  "results": [
+    {
+      "title": "TLN Stock Forecast: Analyst Ratings, Predictions & Price Target 2026",
+      "url": "https://public.com/stocks/tln/forecast-price-target"
+    },
+    {
+      "title": "TLN Overweight Rating Maintained by Morgan Stanley April 2026 | Meyka",
+      "url": "https://meyka.com/blog/tln-overweight-rating-maintained-by-morgan-stanley-april-2026-2204/"
+    },
+    {
+      "title": "Talen Energy (TLN) Stock Forecast & Price Target - Investing.com",
+      "url": "https://www.investing.com/equities/talen-energy-corp-consensus-estimates"
+    },
+    {
+      "title": "TLN Stock: Price, Forecast, Financials & AI Analysis",
+      "url": "https://intellectia.ai/stock/TLN"
+    },
+    {
+      "title": "Talen Energy Analyst Ratings and Price Targets | NASDAQ:TLN | Benzinga",
+      "url": "https://www.benzinga.com/quote/TLN/analyst-ratings"
+    },
+    {
+      "title": "Talen Energy (TLN) Stock Forecast & Analyst Price Targets",
+      "url": "https://stockanalysis.com/stocks/tln/forecast/"
+    },
+    {
+      "title": "Talen Energy Corp (TLN) Stock Forecast, Price Targets and Analysts Predictions - TipRanks.com",
+      "url": "https://www.tipranks.com/stocks/tln/forecast"
+    },
+    {
+      "title": "TLN Stock Quote Price and Forecast | CNN",
+      "url": "https://www.cnn.com/markets/stocks/TLN"
+    },
+    {
+      "title": "Talen Energy Corporation: Target Price Consensus and Analysts Recommendations | TLN | US87422Q1094 | MarketScreener",
+      "url": "https://www.marketscreener.com/quote/stock/TALEN-ENERGY-CORPORATION-155304469/consensus/"
+    },
+    {
+      "title": "Talen Energy Corporation (TLN) Stock Price, Quote, News & Analysis | Seeking Alpha",
+      "url": "https://seekingalpha.com/symbol/TLN"
+    }
+  ],
+  "summary_extract": {
+    "consensus_rating": "Strong Buy",
+    "analyst_breakdown": "15 Buy, 1 Hold, 0 Sell (current month)",
+    "avg_price_target": 467.77,
+    "high_target": 548,
+    "low_target": 388.56,
+    "potential_upside": "+32.40%",
+    "morgan_stanley": "Maintained Overweight, raised PT to $479 from $472 on 2026-04-21; subsequently raised to $498"
+  }
+}

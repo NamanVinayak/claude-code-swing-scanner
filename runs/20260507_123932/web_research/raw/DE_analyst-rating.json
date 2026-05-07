@@ -1,0 +1,29 @@
+{
+  "query": "DE stock 2026-05-07 analyst rating",
+  "fetched_at": "2026-05-07T19:42:00Z",
+  "results": [
+    {"title": "DE Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/de/forecast-price-target"},
+    {"title": "DE Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/DE"},
+    {"title": "Deere & Company (DE) Stock Forecast & Analyst Price Targets", "url": "https://stockanalysis.com/stocks/de/forecast/"},
+    {"title": "DE / Deere & Company (NYSE) - Forecast, Price Target, Estimates, Predictions", "url": "https://fintel.io/sfo/us/de"},
+    {"title": "Deere & Company (DE) Stock Forecast and Price Target 2026 $DE", "url": "https://www.marketbeat.com/stocks/NYSE/DE/forecast/"},
+    {"title": "Deere&Company (DE) Stock Forecast & Price Target", "url": "https://www.investing.com/equities/deere---co-consensus-estimates"},
+    {"title": "DE Analyst Ratings for Deere & Company Stock - Barchart.com", "url": "https://www.barchart.com/stocks/quotes/de/analyst-ratings"},
+    {"title": "Deere & Co Stock Forecast & Predictions: 1Y Price Target $653.73 | Buy or Sell NYSE: DE 2026 | WallStreetZen", "url": "https://www.wallstreetzen.com/stocks/us/nyse/de/stock-forecast"},
+    {"title": "Deere & Company (DE) Stock Price & Overview", "url": "https://stockanalysis.com/stocks/de/"}
+  ],
+  "summary_facts": {
+    "consensus_rating": "Buy",
+    "as_of": "2026-05-06",
+    "n_analysts_buy_rating": 17,
+    "price_targets": {
+      "wallstreet_avg": 636.82,
+      "stockanalysis_avg_18analysts": 618.11,
+      "marketbeat_avg_23analysts": 665.10,
+      "high_estimate": 793.0,
+      "low_estimate": 500.0,
+      "wallstreetzen_1y_target": 653.73
+    },
+    "rating_breakdown_23analysts": {"buy": 13, "hold": 11, "sell": 0}
+  }
+}

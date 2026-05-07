@@ -1,0 +1,49 @@
+{
+  "ticker": "VRT",
+  "researched_at": "2026-05-07T19:42:00Z",
+  "news_items": [
+    {
+      "headline": "Vertiv Stock Jumps 28% in a Month: Buy, Sell, or Hold the Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-jumps-28-month-185100245.html",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Yahoo Finance article noting VRT shares have advanced approximately 28% over the trailing month amid strong AI data center demand and post-Q1-2026 momentum."
+    },
+    {
+      "headline": "CPower and Vertiv Collaborate to Help Data Centers",
+      "url": "https://www.stocktitan.net/news/VRT/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Stocktitan report on a CPower-Vertiv collaboration aimed at helping data centers, reinforcing VRT's data-center power/thermal positioning."
+    },
+    {
+      "headline": "A Look At Vertiv Holdings (VRT) Valuation After Raised 2026 Guidance On Strong AI Data Center Demand",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-vrt/vertiv-holdings-co/news/a-look-at-vertiv-holdings-vrt-valuation-after-raised-2026-gu",
+      "date": "2026-05-02",
+      "sentiment": "positive",
+      "summary": "Simply Wall St valuation review following VRT's raised FY2026 guidance, attributing the upgrade to AI-driven data center demand."
+    },
+    {
+      "headline": "SBI Securities Co. Ltd. Grows Stake in Vertiv Holdings Co. $VRT",
+      "url": "https://www.tickerreport.com/banking-finance/13431753/sbi-securities-co-ltd-grows-stake-in-vertiv-holdings-co-vrt.html",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "Institutional 13F update: SBI Securities increased its position in VRT, indicating continued institutional accumulation."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 327.44,
+    "recent_changes": "Consensus remains Buy across 18-25 covering analysts (22 Buy / 3 Hold / 1 Sell); 12-month avg PT $327.44 (high $394, low $155). No specific upgrade/downgrade actions surfaced in the last 7 days."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 90,
+    "notes": "Q1 2026 beat: net sales $2.65B (+30% YoY), adj operating margin 20.8%, raised full-year guidance citing AI data center demand. Already priced-in driver of the recent ~28% one-month rally. Near-term headwinds flagged: EMEA revenue decline, APAC timing, tariff/supply chain pressure."
+  },
+  "raw_search_files": [
+    "VRT_news-this-week.json",
+    "VRT_analyst-rating.json",
+    "VRT_earnings-catalyst.json"
+  ]
+}

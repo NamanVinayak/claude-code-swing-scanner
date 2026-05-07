@@ -1,0 +1,23 @@
+{
+  "ticker": "ADI",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Earnings risk dominates the trade window: earnings.days_until_next = 13 (May 20, 2026 Q2 release per earnings_context_web). Street already expects ~55.68% YoY EPS growth, meaning the bar is set very high — any in-line print or soft guide on analog cyclicality could gap the stock down through invalidation_level $410. Analyst avg_price_target ($393.16) is BELOW current_price ($415.63), so consensus already views the stock as ~5.4% overvalued.",
+    "CEO insider sale on 2026-05-05 is a fresh red flag, not noise: Vincent Roche sold ~$3.98M in stock (per recent_news_7d, sentiment: negative) the day before the breakout — a CEO open-market or scheduled sale into all-time highs at $408.75 (2026-05-05 ATH) signals limited near-term upside in management's view, especially 15 days before earnings. Note recent_insider_trades is empty in the Finnhub feed but the web research item is unambiguous.",
+    "Stretched extension limits fundamental upside even if thesis is right: price is +20.1% above 50-day SMA, +47.18% above 200-day SMA, daily rsi_21 = 77.86, z_score_50 = 2.07 (>2 standard deviations), and Bollinger pct_b = 0.8979 — at 28.4x trailing P/E equivalent vs. analog-peer historical multiples, even a beat-and-raise often produces sell-the-news given the $400 Citi PT is below spot. Daily volume OBV trend = 'down' with diverging_from_price = true is a real distribution warning that contradicts the breakout."
+  ],
+  "bull_acknowledgements": [
+    "AI/data center revenue mix (~20% of revenue per simplywall.st 2026-05-04) is a genuine secular tailwind and supports the multi-quarter beat-and-raise cadence Citi flagged.",
+    "S&P credit upgrade to A from A- on April 17, 2026 (stable outlook, per earnings_context_web) is a real fundamental positive — balance sheet quality is improving into the print.",
+    "Analyst consensus is overwhelmingly constructive: 29 Buy / 6 Hold / 0 Sell across 32 analysts with multiple upgrades in the past week — there is no fundamental dissent among the sell side."
+  ],
+  "web_sources_last_7d": [
+    "https://www.investing.com/news/company-news/analog-devices-stock-hits-alltime-high-at-40875-93CH-4663777",
+    "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-5-6-161542157.html",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261756455-amd-adi-citigroup-ai-datacenter-earnings-semiconductor-catalyst-tradingkey",
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/what-analog-devices-adis-rising-ai-and-data-center-revenue-s",
+    "https://www.marketbeat.com/stocks/NASDAQ/ADI/news/"
+  ]
+}

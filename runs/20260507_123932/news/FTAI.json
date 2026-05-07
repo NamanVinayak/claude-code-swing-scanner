@@ -1,0 +1,70 @@
+{
+  "ticker": "FTAI",
+  "researched_at": "2026-05-07T19:45:00Z",
+  "news_items": [
+    {
+      "headline": "FTAI Aviation (NASDAQ:FTAI) Trading 14.6% Higher",
+      "url": "https://www.dailypolitical.com/2026/05/06/ftai-aviation-nasdaqftai-trading-14-6-higher-heres-why.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Stock traded up 14.6% on Wednesday, reaching highs of $281.74 amid continued post-Q1 momentum and follow-through buying after the credit facility expansion and dividend hike."
+    },
+    {
+      "headline": "FTAI Q1 CY2026 Deep Dive: Market Share Expansion and Power Platform Progress Drive Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ftai-nasdaq-ftai-q1-cy2026-045255944.html",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Q1 deep-dive coverage highlights aerospace market share expansion and progress on the FTAI Power platform (converting retired CFM56 engines into gas turbines for AI data centers) as the primary outlook drivers."
+    },
+    {
+      "headline": "MRO Memo: FTAI Reports Little Pressure On Current-Gen Fleets",
+      "url": "https://aviationweek.com/mro/aircraft-propulsion/mro-memo-ftai-reports-little-pressure-current-gen-fleets",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Aviation Week reports FTAI sees little maintenance pressure on current-generation fleets, supporting steady CFM56 module demand. 270 modules serviced in Q1, nearly double prior-year volume; Lisbon and Rome facilities still ramping."
+    },
+    {
+      "headline": "Earnings Miss: FTAI Aviation Missed EPS By 15% And Analysts Are Revising Forecasts",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/earnings-miss-ftai-aviation-ltd-missed-eps-by-15-and-analyst",
+      "date": "2026-05-04",
+      "sentiment": "negative",
+      "summary": "Statutory Q1 EPS came in at $1.29, 15% short of analyst expectations despite revenue beating by 13% to $831M. Analysts are now revising their forecasts post-print."
+    },
+    {
+      "headline": "FTAI Aviation Net Margin Breakout Reinforces Bullish Earnings Narrative",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/ftai-aviation-ftai-net-margin-breakout-reinforces-bullish-ea",
+      "date": "2026-05-02",
+      "sentiment": "positive",
+      "summary": "Net margin expansion in Q1 reinforces the bullish long-term narrative; aerospace revenue +104% YoY to $743.8M with Aerospace Products revenue and EBITDA more than doubling."
+    },
+    {
+      "headline": "FTAI Lifts Dividend Again After Aerospace Revenue Rose 104% to $743.8M",
+      "url": "https://www.stocktitan.net/news/FTAI/ftai-aviation-ltd-reports-first-quarter-2026-results-increases-09wjspsqwodk.html",
+      "date": "2026-05-01",
+      "sentiment": "positive",
+      "summary": "Quarterly dividend raised to $0.45/share (third consecutive increase), record May 13, paid May 26. Backed by strong free cash flow; revolving credit facility extended with commitments raised to ~$2.025B."
+    },
+    {
+      "headline": "FTAI Aviation Stock Jumps As Q1 Earnings Power Higher",
+      "url": "https://stockstotrade.com/news/ftai-aviation-ltd-ftai-news-2026_04_30-2/",
+      "date": "2026-04-30",
+      "sentiment": "positive",
+      "summary": "Q1 2026 print: net income $134.2M, basic EPS $1.31, revenue $830.7M (+13% beat), Adj EBITDA $325.6M. Stock jumped on aerospace momentum and dividend increase."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 338.90,
+    "recent_changes": "No analyst rating changes specifically surfaced in last 7 days; analysts are actively revising forecasts after the Q1 EPS miss (Simply Wall St, 2026-05-04). Recent prior activity: Barclays high PT $350 issued 2026-02-27; Morgan Stanley raised PT to $293 from $266 on 2026-03-24. Consensus is Strong Buy from 10 analysts (10 buy / 0 hold / 0 sell)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 already reported ~2026-04-30 (revenue beat, EPS miss). Next quarterly print expected early August 2026 (no firm date confirmed in search). Key forward catalysts: FTAI Power platform commercialization (retired CFM56 engines to gas turbines for AI data centers), Jereh Group JV on Mod-1 CFM56 aeroderivative production, ramp of Lisbon and Rome MRO facilities, continued engine program uptake. Long-term street narrative targets $5.7B revenue / $1.6B earnings by 2029."
+  },
+  "raw_search_files": [
+    "FTAI_news-this-week.json",
+    "FTAI_analyst-rating.json",
+    "FTAI_earnings-catalyst.json"
+  ]
+}

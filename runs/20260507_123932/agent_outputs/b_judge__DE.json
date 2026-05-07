@@ -1,0 +1,12 @@
+{
+  "ticker": "DE",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "DE",
+      "reason": "single_position_cap_exceeded",
+      "detail": "Gate 0/1 passed (all 4 perspectives echo long; budget can_open_new_position=true, phase=full). Gate 2 expected_return_per_share = combined_p_bull*(target-entry) - combined_p_bear*(entry-stop) = 0.375*(614-594) - 0.625*(594-584) = 7.50 - 6.25 = +1.25 (positive, marginal). Gate 3 sizing: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = |594-584| = $10; quantity = floor(250/10) = 25. Gate 4 standard: notional = 594*25 = $14,850 > single_cap $3,750 (15%). Small-scaled path: extended_cap = $5,000; M = floor(5000/594) = 8; risk_M = 8*$10 = $80 < risk_dollars_floor $100 (40% of $250). Stock too high-priced ($594 entry on $25k account) — minimum-viable share count under 20% notional cap (8 shares) only consumes 32% of risk budget, below the 40% floor. Cannot fit even minimum scaled position."
+    }
+  ],
+  "summary": "DE rejected: at $594 entry on $25k account, the small-scaled exception fails — 8 shares fits the 20% notional cap but uses only $80 of the $250 risk budget (32%), below the 40% floor. Notable secondary concerns the rejection sidesteps: combined bear strength (7+6=13) dominates combined bull strength (5+3=8), bearish RSI divergence on both timeframes, ADX 18.58 weak trend, OBV down on both timeframes, and 14-day earnings risk on 2026-05-21 — even if sizing fit, EV of +$1.25/share was thin."
+}

@@ -1,0 +1,26 @@
+{
+  "ticker": "VRT",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 358.00, "high": 360.50},
+  "target": 383.00,
+  "stop": 350.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Raised FY2026 guidance on AI data center demand (per earnings_context_web): Q1 2026 net sales $2.65B (+30% YoY), adj operating margin 20.8%; Simply Wall St valuation review 2026-05-02 confirms guide-up is the rally driver, and Yahoo Finance 2026-05-05 documents the resulting ~28% one-month move — fundamental catalyst confirmed within 7-day window.",
+    "Narrative momentum reinforced 2026-05-04 by CPower-Vertiv data-center collaboration (stocktitan) and 2026-05-01 institutional accumulation (SBI Securities 13F stake increase) — sector flow into AI-power/thermal names is active and smart money is adding, not distributing.",
+    "Price confirmed the catalyst: roc_5d = +17.23%, roc_21d = +36.84%, ema_aligned_uptrend = true on both daily and hourly, ADX 14 = 34.52 (strong trend), MACD histogram +2.42 daily / +2.38 hourly, OBV trend up with no price divergence, hourly relative_volume 1.33 — breakout above watch_level 358 (current 358.92) targets fib_ext_1272 of 394.69; entry mid 359.25, stop 350 (risk $9.25), target 383 (reward $23.75) = 2.57:1 R:R."
+  ],
+  "risks_acknowledged": [
+    "rsi_14 = 76.87 (daily) and pct_b = 1.1353 (price above upper Bollinger Band) signals extreme overbought — chasing a +28% one-month move into raised guidance is the textbook 'priced-in' setup; pullback risk is material.",
+    "Hourly rsi_divergence.bearish = true and hourly roc_5d = -3.12 — short-term momentum is rolling over even as daily trend persists; entry timing risk if the breakout above 358 fails and reverts to 21-hr fib retrace 345.",
+    "analyst_consensus_web avg PT = $327.44 vs current $358.92 — stock is already ~10% above consensus 12-month target, meaning analyst-driven incremental buying is unlikely without fresh PT raises (none surfaced in last 7 days).",
+    "Wiki memory missing (new_ticker = true) — no durable thesis or prior trade history to anchor conviction; relying entirely on 7-day news + technicals."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-jumps-28-month-185100245.html",
+    "https://www.stocktitan.net/news/VRT/",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-vrt/vertiv-holdings-co/news/a-look-at-vertiv-holdings-vrt-valuation-after-raised-2026-gu",
+    "https://www.tickerreport.com/banking-finance/13431753/sbi-securities-co-ltd-grows-stake-in-vertiv-holdings-co-vrt.html"
+  ]
+}

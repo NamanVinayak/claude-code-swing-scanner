@@ -1,0 +1,24 @@
+{
+  "ticker": "UNP",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 270.00, "high": 271.50},
+  "target": 284.50,
+  "stop": 265.00,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Full bullish MA stack with momentum thrust: price 268.23 above EMA 5/10/20/50/200 in order (price_vs_ma.above_ema_200 = true, pct_from_ema_200 = +12.08%, pct_from_ema_50 = +5.81%); daily_indicators.moving_averages.ema_aligned_uptrend = true on BOTH daily and hourly. ROC 21d = +8.99% and ROC 10d = +7.55% confirm fresh acceleration into the breakout zone, not a stale trend.",
+    "Strong directional trend with room above: daily_indicators.adx.adx_14 = 48.4 (trend_strength: 'strong') with plus_di 38.93 vs minus_di 14.68 (a wide bullish DI spread); macd.histogram = +0.4737 with macd_line 5.17 above signal 4.69 and rising; bollinger.pct_b = 0.7646 (upper band at 276.40 — not pinned, room to expand). Z_score_50 = 1.42 confirms statistically meaningful trend without exhaustion.",
+    "Clean breakout trigger over the 268.14 pivot top into open air to 274.79 recent_high, then fib_ext_1272 = 284.76. Setup is supported by fundamental tape: Q1 2026 record EPS $2.87 / net income $1.70B beat lifting price to a fresh 52-week high (web_research 2026-05-01), and the amended merger filing on 2026-04-30 projects $3.5B annual shipper savings. Analyst consensus 'buy' with avg_price_target $275.55 (analyst_consensus_web) corroborates upside to the conservative leg of the target. Stop at 265.00 below invalidation_level gives R:R = (284.50-271.50)/(271.50-265.00) = 13.00/6.50 = 2.00."
+  ],
+  "risks_acknowledged": [
+    "Bearish RSI divergence flagged on daily (rsi_divergence.bearish = true, lookback_bars 60) — momentum is not making new highs alongside price, raising odds of a failed-breakout pullback to the 263.10 hourly pivot low.",
+    "Volume confirmation is soft: daily volume.relative_volume = 0.96 (below the 20-day avg of 3.14M) and OBV trend = 'down' on the daily — institutions are not yet aggressively accumulating into the prior pivot high at 268.14, so a breakout above 270 needs visible volume expansion to be trustworthy.",
+    "Merger headline risk is binary: UNP stated it would exit the Norfolk Southern deal if STB orders widespread line sales/trackage rights — an adverse STB ruling or politicized leak could gap the stock through stop overnight regardless of chart structure."
+  ],
+  "web_sources_last_7d": [
+    "https://meyka.com/blog/unp-stock-today-may-4-union-pacific-merger-savings-surge-0505/",
+    "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings",
+    "https://www.tipranks.com/news/company-announcements/union-pacific-earnings-call-highlights-record-q1-strength"
+  ]
+}

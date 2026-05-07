@@ -1,0 +1,22 @@
+{
+  "ticker": "ASML",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [1496.00, 1454.80, 1414.00],
+  "top_3_arguments": [
+    "Price is severely extended and at statistical exhaustion: daily_indicators.z_score_50 = 2.25 (more than 2 std dev above 50d mean), daily bollinger.pct_b = 1.0783 (closed ABOVE upper band), and hourly bollinger.pct_b = 1.0058 (also above upper hourly band). Price sits 10.55% above sma_50 and roc_5d = 10.81% — a one-week vertical move that historically mean-reverts before continuing. Buying breakouts at z=2.25 above the upper Bollinger is the classic late-entry trap; pullback risk to sma_5 (~$1448) or middle band (~$1448) is materially larger than the 1.3% of upside to watch_level $1565.",
+    "Hourly indicators are flashing exhaustion that the daily timeframe hides: hourly rsi_21 = 76.86 (overbought), hourly_indicators.rsi_divergence.bearish = true, hourly z_score_120 = 2.20, and hourly atr_pct = 1.26% which means a normal one-bar move can wipe out the watch_level $1565 / invalidation_level $1530 buffer (a 35-point band, only ~1.8x the hourly ATR of 19.34). The premarket note even concedes the breakout 'is not playing out' with no premarket volume confirmation — entering near $1545 risks getting filled into the hourly bearish divergence reversal.",
+    "Material fundamental headwind in recent_news_7d that contradicts the breakout thesis: TSMC Co-COO publicly stated 2026-05-04 that the A13 process does NOT require ASML's High-NA EUV machines (manufacturingdigital.com). TSMC is ASML's flagship reference customer for High-NA EUV adoption — losing the A13 node removes a key 2027 revenue catalyst that bulls were pricing in. The earnings_context_web also flags 'slow immersion sales start, Q2 margin compression, 2027 unit targets conditional, export control uncertainty.' Combined with a thin two-pivot resistance structure (only 3 prior tests at $1528.64), the breakout is leaning on positive AI-capex narrative while a real customer-adoption negative just printed."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is genuinely bullish: price above EMA 5/10/20/21/50/200 in textbook bullish alignment with daily_indicators.moving_averages.ema_aligned_uptrend = true, daily MACD bullish_crossover = true (histogram +3.63), and OBV trend = up with no divergence. Daily volume on the breakout day was 2.31M vs 1.81M avg (relative_volume 1.28) — above average, which is real participation.",
+    "No daily bearish RSI divergence (daily rsi_divergence.bearish = false) and daily rsi_14 = 63.71 is strong but not overbought — the daily timeframe still has room. Plus_DI 28.82 > Minus_DI 24.98 confirms buyers in control on the daily.",
+    "Fundamental tailwinds in news are real: hyperscaler 2026 capex >$600B (Yahoo), CEO declaring durable monopoly (TechCrunch), ongoing buyback execution, and analyst_consensus_web avg_price_target $1638.80 (~6% above current) with Buy rating. No earnings risk for 69 days."
+  ],
+  "web_sources_last_7d": [
+    "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
+    "https://finance.yahoo.com/quote/ASML/news/",
+    "https://manufacturingdigital.com/news/tsmc-asml-lockheed-top-manufacturing-news-this-week",
+    "https://www.insidermonkey.com/blog/asml-holding-asml-provides-regular-update-on-share-buyback-program-execution-1755462/"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "TSM",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "TSM",
+      "reason": "single_position_cap_exceeded"
+    }
+  ],
+  "summary": "TSM rejected at Gate 4: $420.85 entry on a $25,000 account makes the position too large to fit even the small-scaled cap while using meaningful risk. Gate 2 expected return was positive (+$6.26/share via combined_p_bull=0.555 vs combined_p_bear=0.445 across entry 420.85, target 437.22, stop 414.50), and Gate 3 produced quantity=39 (risk_dollars=250, risk_per_share=6.35) — but Gate 3 notional of $16,413 (66% of account) blew through the 15% standard cap. Small-scaled path: M = floor(5000/420.85) = 11 shares, risk_M = 11 * 6.35 = $69.85, which is only 27.9% of the $250 risk budget — below the 40% floor ($100). Stock is too high-priced for current account size to fit a meaningful position."
+}

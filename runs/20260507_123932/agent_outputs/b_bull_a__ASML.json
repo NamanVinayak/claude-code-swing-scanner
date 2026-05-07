@@ -1,0 +1,26 @@
+{
+  "ticker": "ASML",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 1545.00, "high": 1565.00},
+  "target": 1627.00,
+  "stop": 1528.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Confirmed breakout day on 2026-05-06: close 1544.74 punched through 1528.64 pivot resistance (3 tests) on 2,307,500 shares vs avg 1,809,455 (relative_volume=1.28); daily bollinger pct_b=1.0783 (above upper band 1531.67) with bb width=0.1152 marking a volatility expansion out of consolidation, and OBV trend up with no divergence.",
+    "EMA stack fully aligned uptrend on both daily and hourly (ema_aligned_uptrend=true on each); price 10.46% above ema_50, 31.34% above ema_200, with daily macd bullish crossover (macd_line 17.28 / signal 13.64 / histogram +3.63 expanding) and ADX 22.28 +DI 28.82 vs -DI 24.98 confirming building directional pressure rather than exhaustion.",
+    "Risk-defined breakout: stop 1528.00 sits just below the broken pivot (1528.64) and inside one daily ATR (atr_14=55.62, atr_pct=3.6%); target 1627.00 maps to fib_ext_1272 = 1627.16 from the 1245.39->1545.52 swing. With entry 1555 mid-zone, R = 27 pts vs reward 72 pts = 2.67:1 R:R, supported by daily roc_5d=10.81 / roc_21d=18.5 momentum thrust."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_7=67.9 and hourly rsi_21=76.86 with daily z_score_50=2.25 and hourly pct_b=1.0058 — extension above bands and z>2 raises risk of a 1-3 day mean-reversion pullback before continuation; chasing above 1565 worsens R:R.",
+    "TSMC A13 High-NA EUV rejection (manufacturingdigital.com 2026-05-04) removes a flagship reference customer for the most advanced tool — a tangible negative catalyst that could cap multiple expansion if more foundries echo it.",
+    "Hourly rsi_divergence flags both bullish=true AND bearish=true (mixed signal on the 60-bar hourly lookback), indicating the very-short-term tape is two-way; demand confirmation above 1545 before sizing up.",
+    "No prior wiki memory for ASML (new_ticker=true) — no setup-history evidence that this name respects breakouts, so position must lean on chart structure alone with strict 1528 invalidation."
+  ],
+  "web_sources_last_7d": [
+    "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
+    "https://finance.yahoo.com/quote/ASML/news/",
+    "https://manufacturingdigital.com/news/tsmc-asml-lockheed-top-manufacturing-news-this-week",
+    "https://www.insidermonkey.com/blog/asml-holding-asml-provides-regular-update-on-share-buyback-program-execution-1755462/"
+  ]
+}

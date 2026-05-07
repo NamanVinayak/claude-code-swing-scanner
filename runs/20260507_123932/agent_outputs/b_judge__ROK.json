@@ -1,0 +1,11 @@
+{
+  "ticker": "ROK",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "ROK",
+      "reason": "single_position_cap_exceeded: Gate 3 quantity = floor($250 / $6.425) = 38 shares; notional = 38 * $460.425 = $17,496 vs 15% standard cap $3,750 — fails standard. Small-scaled path: M = floor(20% cap $5,000 / $460.425) = 10 shares; risk_M = 10 * $6.425 = $64.25, which is < risk_dollars_floor (40% of $250 = $100). Stop is too tight ($6.425/share) relative to share price ($460.425) — at the maximum allowed share count (10) the position uses only 25.7% of risk budget, below the 40% floor, so the small-scaled exception does not unlock. Stock too high-priced for current $25k account size given this stop placement. Note: Gate 0 (direction consensus all-long), Gate 1 (budget healthy, phase=full, daily_pnl=$0), and Gate 2 passed cleanly — combined_p_bull=0.5165 (avg of bull_a 6/13 and bull_b 8/14), expected_return_per_share = 0.5165*($480.50-$460.425) - 0.4835*($460.425-$454.00) = +$7.26 — but Gate 4 sizing math kills the trade."
+    }
+  ],
+  "summary": "ROK rejected at Gate 4 (single_position_cap_exceeded). Direction consensus, budget pre-check, and probability-weighted expected return (+$7.26/share) all passed, but at $460/share the only quantity that fits the 20% extended notional cap (M=10 shares) deploys just 25.7% of the risk budget — below the 40% floor required for the small-scaled exception. The breakout thesis is real (ADX 41.26, ema_aligned_uptrend, Q2 beat-and-raise per web research) but the discrete-share math at this price point with a $6.425 stop is incompatible with $25k account sizing rules."
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "CIEN",
+  "researched_at": "2026-05-07T19:46:30Z",
+  "news_items": [
+    {
+      "headline": "Stifel raises Ciena stock price target to $585 on AI infrastructure demand",
+      "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-ciena-stock-price-target-to-585-on-ai-infrastructure-demand-93CH-4659830",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Stifel raised CIEN price target to $585 from $430, maintaining Buy. Sector-wide upgrade across optical networking after OFC 2026; expects beat-and-raise earnings into mid-2026."
+    },
+    {
+      "headline": "Ciena Stock On Fire: Up 15% With 5-Day Winning Streak",
+      "url": "https://www.trefis.com/articles/598422/ciena-stock-on-fire-up-15-with-5-day-winning-streak/2026-05-06",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "CIEN up ~15% over a 5-day winning streak, trading near $550 (52-week high) on AI optical networking demand from hyperscalers."
+    },
+    {
+      "headline": "Why Ciena (CIEN) Is Up 5.7% After AI-Fueled Cloud Demand Sparks Valuation And Insider Scrutiny",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-cien/ciena/news/why-ciena-cien-is-up-57-after-ai-fueled-cloud-demand-sparks",
+      "date": "2026-05-05",
+      "sentiment": "neutral",
+      "summary": "Shares up 5.7% on AI cloud demand narrative. Note flags valuation stretch and insider-selling scrutiny as offsetting concerns."
+    },
+    {
+      "headline": "Danske Bank A/S purchases 35,000 shares of Ciena Corporation",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-purchases-35000-shares-of-ciena-corporation-cien-2026-05-05/",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Institutional 13F-style filing shows Danske Bank A/S accumulated 35,000 CIEN shares."
+    },
+    {
+      "headline": "Ciena CEO sells 2,952 shares in Rule 10b5-1 trade",
+      "url": "https://www.stocktitan.net/sec-filings/CIEN/form-4-ciena-corp-insider-trading-activity-fbd630ca2705.html",
+      "date": "2026-05-05",
+      "sentiment": "negative",
+      "summary": "CEO disposed 2,952 shares under a pre-arranged 10b5-1 plan. Programmatic but recorded as insider sell."
+    },
+    {
+      "headline": "Why Ciena's Stock Is Breaking Out Higher Now",
+      "url": "https://www.tipranks.com/news/catalyst/why-cienas-stock-is-breaking-out-higher-now",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "TipRanks catalyst note frames CIEN as a technical breakout backed by AI optical demand and analyst upgrades."
+    },
+    {
+      "headline": "Vodafone Idea deploys Ciena's WaveLogic 6 Extreme",
+      "url": "https://www.stocktitan.net/news/CIEN/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Vodafone Idea announced deployment of Ciena's WaveLogic 6 Extreme coherent optics — customer win supporting growth narrative."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 354.01,
+    "recent_changes": "Stifel raised PT to $585 from $430 on 2026-05-06 (Buy maintained); sector-wide upgrades across optical networking after OFC 2026. Average PT was revised up to $354.01 from $261.07 (prior 2026-02-21 baseline). 14-16 analysts cover; 11 Buy / 5 Hold / 1 Sell."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-06-04",
+    "days_until_next": 28,
+    "notes": "Q2 FY26 results scheduled June 4. Street expects beat-and-raise driven by AI-led cloud orders and large AI optical backlog (Hyper-Rail + DCOM expansion cited as multi-year drivers). Key risk: valuation has run ahead of confirmed orders."
+  },
+  "raw_search_files": [
+    "CIEN_news-this-week.json",
+    "CIEN_analyst-rating.json",
+    "CIEN_earnings-catalyst.json"
+  ]
+}

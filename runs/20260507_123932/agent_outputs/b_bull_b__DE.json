@@ -1,0 +1,21 @@
+{
+  "ticker": "DE",
+  "setup_direction": "long",
+  "bull_strength": 3,
+  "entry_zone": {"low": 593.00, "high": 595.00},
+  "target": 614.00,
+  "stop": 584.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "No recent catalyst found: recent_news_7d is empty and news_source = 'none' — researcher's three queries surfaced zero last-7-day catalysts. The only catalyst-adjacent fact is analyst_consensus_web rating 'buy' with avg PT $640 (vs current $591.64, ~8% upside), but recent_changes explicitly notes no upgrades/downgrades or PT changes in the last 7 days, so this is stale background, not a fresh trigger.",
+    "Earnings catalyst is 14 days out (2026-05-21, EPS $5.81 / rev ~$11.44B per earnings_context_web) — outside the 5-day blackout window but close enough that pre-earnings drift into the print is the operative narrative; shares already up ~12% recently, supporting a continuation thesis if the breakout above 593 (prev_day_high 593.55, daily pivot resistance 588.97 already cleared) confirms.",
+    "Technical underpinning is the only fresh evidence: price reclaimed all daily MAs on 2026-05-06 close (591.64 above ema_5/10/20/50/200 and sma equivalents), MACD bullish crossover with histogram +0.466 flipping positive, hourly EMAs aligned uptrend, hourly MACD histogram +1.658, and roc_5d +5.65% — but with bull_strength capped at 3 (no recent catalyst rule) this is positioning, not a catalyst case. R:R math: entry mid 594, stop 584 (risk $10) vs target 614 (BB upper, reward $20) = 2.0:1."
+  ],
+  "risks_acknowledged": [
+    "Empty news window means the move into 593 could be liquidity-driven mean reversion off the 575-577 base, not catalyst-supported demand — first failed retest of 593 invalidates fast.",
+    "Earnings 14 days out is a double-edged risk: any pre-print de-risking by funds (cutting size into the report) caps upside, and a single negative pre-announcement or sector read-through (CAT, AGCO comparables) reverses the entire setup.",
+    "Daily ADX 18.58 (weak trend) and rsi_divergence.bearish=true on both daily and hourly timeframes warn the prior decline's lower-high structure may not be fully repaired — chasing a breakout in a weak-trend, bearish-divergence tape has lower odds than the chart alone suggests.",
+    "OBV trend 'down' on both daily and hourly (with hourly OBV diverging_from_price) means volume is not confirming the price reclaim — a real catalyst-driven breakout would show OBV inflecting up, not continuing down."
+  ],
+  "web_sources_last_7d": []
+}

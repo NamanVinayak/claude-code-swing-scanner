@@ -1,0 +1,22 @@
+{
+  "ticker": "UNP",
+  "approved": [
+    {
+      "ticker": "UNP",
+      "direction": "long",
+      "entry_price": 270.75,
+      "stop_loss": 265.00,
+      "target_price": 278.00,
+      "target_price_2": 284.50,
+      "quantity": 18,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Bulls and bears tied on strength (b_bull_a=7, b_bear_a=6, b_bull_b=7, b_bear_b=6) but combined p_bull=0.538 yields positive expected return: 0.538*(278.00-270.75) - 0.462*(270.75-265.00) = +$1.244/share. Bulls' technical case is corroborated by facts (daily_indicators.adx.adx_14=48.4 trend_strength=strong, plus_di 38.93 vs minus_di 14.68, ema_aligned_uptrend=true, momentum.roc_21d=8.99%); bears' rsi_divergence.bearish=true and volume.relative_volume=0.96 are real headwinds and capped target at conservative 278.00. Gate 3 quantity 43 (risk $250/$5.75) breaches 15% cap (notional $11,642 > $3,750), scaled down from 43 to 18 shares to fit small-account cap (notional $4,873.50 ~19.5% of $25k account), using 41% of risk budget ($103.50 of $250). Earnings 77 days out so no near-term blackout.",
+      "risk_usd": 103.50,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "UNP long approved as small_scaled (18 shares @ $270.75, stop $265.00, target $278.00). Positive expected return $1.244/share survives bearish RSI divergence and soft volume; high share price forced 20% extended-cap path with 41% risk-budget utilization."
+}

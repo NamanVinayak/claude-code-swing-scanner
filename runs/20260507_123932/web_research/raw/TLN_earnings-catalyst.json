@@ -1,0 +1,54 @@
+{
+  "query": "TLN earnings catalyst",
+  "fetched_at": "2026-05-07T19:45:00Z",
+  "results": [
+    {
+      "title": "Talen Energy (TLN) Q1 2026 Earnings Transcript | The Motley Fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/talen-energy-tln-q1-2026-earnings-transcript/"
+    },
+    {
+      "title": "Talen Energy Corporation (TLN) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TLN/"
+    },
+    {
+      "title": "Talen Energy (TLN) Earnings Date and Reports 2026 $TLN",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TLN/earnings/"
+    },
+    {
+      "title": "Investor Relations | Talen Energy Corporation",
+      "url": "https://ir.talenenergy.com/"
+    },
+    {
+      "title": "Talen Energy (TLN) Q1 2026 Earnings Transcript - AOL",
+      "url": "https://www.aol.com/articles/talen-energy-tln-q1-2026-221958675.html"
+    },
+    {
+      "title": "Talen Energy (TLN) Q1 2026 Earnings Transcript - The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/1725955/talen-energy-tln-q1-2026-earnings-transcript/"
+    },
+    {
+      "title": "Talen Energy Corporation Common Stock (TLN) Earnings Report Dates & Earnings Forecasts | Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/tln/earnings"
+    },
+    {
+      "title": "Talen Energy Corporation (TLN) Q1 FY2026 earnings call transcript",
+      "url": "https://finance.yahoo.com/quote/TLN/earnings/TLN-Q1-2026-earnings_call-572259.html"
+    },
+    {
+      "title": "Talen Energy Q1 EBITDA $473M, Reaffirms 2026 Guidance | TLN Stock News",
+      "url": "https://www.stocktitan.net/news/TLN/talen-energy-reports-first-quarter-2026-results-reaffirms-2026-ifiux9jegmsw.html"
+    },
+    {
+      "title": "Events | Talen Energy Corporation",
+      "url": "https://ir.talenenergy.com/news-events/events"
+    }
+  ],
+  "summary_extract": {
+    "q1_2026_results": "Q1 EBITDA $473M, Q1 revenue $1.13B (beat $1.05B estimate); reaffirmed 2026 guidance",
+    "earnings_date": "Reported May 5, 2026 (Q1 2026)",
+    "cornerstone_acquisition": "Pending close; expected to drive material FCF/share uplift via increased spark spreads and higher forward price marks",
+    "data_center_growth": "Susquehanna data center buildout continuing; data halls being filled and electrified, no slowdown observed",
+    "guidance": "2026 reaffirmed; preliminary 2027-2028 projections provided incorporating Cornerstone, spark spreads, forward price marks",
+    "pjm_capacity": "8,745 MW cleared at $333.44/MW-day in 2027/2028 PJM Base Residual Auction (~$1,067M)"
+  }
+}

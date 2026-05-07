@@ -1,0 +1,25 @@
+{
+  "ticker": "UNP",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 268.50, "high": 270.50},
+  "target": 278.00,
+  "stop": 264.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Q1 2026 earnings beat (2026-05-01, seekingalpha.com): net income $1.70B / EPS $2.87 on $6.22B revenue, with freight car velocity +9% to 235 daily miles/car and terminal dwell -11% to 19.7 hours; stock rallied to a 52-week high. Tipranks (2026-05-02) confirms management reiterated mid-single-digit reported EPS growth for 2026 and high-single to low-double-digit 3yr EPS CAGR through 2027 — fresh, confirmed positive catalyst within 7 days.",
+    "Merger catalyst still alive: amended UNP/Norfolk Southern application filed 2026-04-30 with the STB projects $3.5B annual shipper savings (meyka.com 2026-05-04). This is an open multi-billion-dollar synergy narrative providing ongoing positive news flow into the holding window. earnings.days_until_next = 77 — no near-term earnings risk to hold a breakout.",
+    "Smart-money/technical confirmation aligned with catalyst: 23-analyst consensus is Buy with avg PT $275.55 (~3% above current) per analyst_consensus_web; daily ADX_14 = 48.4 with +DI 38.93 vs -DI 14.68 confirms a strong uptrend; price is above EMA 5/10/20/50/200 with ema_aligned_uptrend=true; daily MACD histogram +0.4737, RSI_14 = 67.79, momentum ROC_10d = +7.55%. R:R from entry mid 269.50 to stop 264.50 (-$5) vs target 278.00 (+$8.50) = 1.7:1 base, but adding the fib_ext_1272 = 284.76 as a secondary objective extends R:R to 3.05:1."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_divergence.bearish = true (60-bar lookback) — price is making higher highs while RSI is not confirming, classic late-stage trend warning that merger/earnings catalyst may already be priced in.",
+    "Daily pivot_high at 268.14 has 12 tests and is volume_unconfirmed — heavy overhead supply right at entry; current_volume 3.02M is only 0.96x avg_volume_20 so the breakout candle lacks conviction.",
+    "STB merger approval is binary regulatory risk — the 2026-05-04 filing explicitly says UNP would exit the deal if STB orders widespread line sales; an adverse ruling collapses the merger leg of the thesis.",
+    "Wiki context is empty (new_ticker=true, all slices missing) so we have no prior thesis/lessons memory to anchor against — relying entirely on 7-day news plus indicators."
+  ],
+  "web_sources_last_7d": [
+    "https://meyka.com/blog/unp-stock-today-may-4-union-pacific-merger-savings-surge-0505/",
+    "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings",
+    "https://www.tipranks.com/news/company-announcements/union-pacific-earnings-call-highlights-record-q1-strength"
+  ]
+}

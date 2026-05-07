@@ -1,0 +1,23 @@
+{
+  "query": "ASML earnings catalyst",
+  "fetched_at": "2026-05-07T20:00:00Z",
+  "results": [
+    {"title": "ASML Holding N.V. (ASML) Earnings Dates & Report | Seeking Alpha", "url": "https://seekingalpha.com/symbol/ASML/earnings"},
+    {"title": "ASML Holding N.V. New York Registry Shares (ASML) Earnings Report Dates & Earnings Forecasts | Nasdaq", "url": "https://www.nasdaq.com/market-activity/stocks/asml/earnings"},
+    {"title": "ASML (ASML) Earnings Date and Reports 2026 $ASML", "url": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/"},
+    {"title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ASML/"},
+    {"title": "Earnings Whisper Data for ASML Holding", "url": "https://www.earningswhispers.com/stocks/ASML"},
+    {"title": "TSMC and ASML post-earnings stock moves could be a sign of what's to come from chip companies", "url": "https://www.cnbc.com/2026/04/16/taiwan-semi-tsm-asml-stock-earnings-ai-chips.html"},
+    {"title": "How Investors May Respond To ASML Holding (ENXTAM:ASML) Dividend Hike, Board Changes And Higher 2026 Outlook - Simply Wall St News", "url": "https://simplywall.st/stocks/nl/semiconductors/ams-asml/asml-holding-shares/news/how-investors-may-respond-to-asml-holding-enxtamasml-dividen"},
+    {"title": "Earnings call transcript: ASML Holding's strong Q1 2026 results boost outlook By Investing.com", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-asml-holdings-strong-q1-2026-results-boost-outlook-93CH-4614258"},
+    {"title": "ASML Holding (ASML) Earnings Dates, Call Summary & Reports - TipRanks.com", "url": "https://www.tipranks.com/stocks/asml/earnings"},
+    {"title": "ASML Earnings Dates, Upcoming and Historical (Asml Holding N.V. -...)", "url": "https://marketchameleon.com/Overview/ASML/Earnings/Earnings-Dates/"}
+  ],
+  "summary": {
+    "next_earnings_date": "2026-07-15 BMO",
+    "q1_2026_results": "Net sales EUR 8.8B, gross margin 53%, within/above guidance",
+    "fy2026_guidance": "Raised to EUR 36-40B revenue",
+    "demand_drivers": "AI, memory, logic; orders from SK Hynix, Samsung; non-EUV momentum improved",
+    "risks": "Slow immersion sales start, 2027 unit target conditionality, Q2 margin compression, export control uncertainty"
+  }
+}

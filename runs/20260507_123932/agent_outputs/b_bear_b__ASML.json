@@ -1,0 +1,22 @@
+{
+  "ticker": "ASML",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Stretched extension into resistance: current_price $1544.74 sits at z_score_50 = 2.25 (daily) and z_score_120 = 2.20 (hourly), 10.55% above sma_50 ($1397.36) and 10.46% above ema_50, with daily bollinger pct_b = 1.0783 (above upper band $1531.67) and hourly pct_b = 1.0058. roc_5d = +10.81% on the daily; the watch_level $1565 is just 1.3% away but the buyer is chasing a stock already 2.25 standard deviations above its 50d mean — limited fuel for a clean breakout extension before mean reversion pressure kicks in.",
+    "Genuine thesis crack landed in last 7 days: TSMC Co-COO Kevin Zhang confirmed on 2026-05-04 (manufacturingdigital.com) that the A13 process does NOT require High-NA EUV — removing the most-watched reference customer adoption catalyst for ASML's flagship next-gen tool. ASML's premium valuation rests on High-NA being the forced upgrade path for advanced logic; losing TSMC A13 as the proof-point validates the bear concern that High-NA adoption may slip 1–2 nodes, compressing 2027+ unit-target visibility. earnings_context_web notes flag exactly these risks: '2027 unit targets conditional, slow immersion sales start, Q2 margin compression.'",
+    "No edge from earnings catalyst (earnings.days_until_next = 69, next 2026-07-15) and no insider buying support (recent_insider_trades = []), meaning the trade has no near-term fundamental rescue if the breakout fails. analyst_consensus_web avg_price_target $1638.80 implies only ~6.1% upside from current $1544.74 — already largely priced in — and recent_changes notes 'no specific upgrade/downgrade headlines' in the last 7 days, so consensus is not actively re-rating higher despite the +6.87% AI-rally pop on 2026-05-05. Buying $1565 with $1530 invalidation = $35 risk for ~$74 to consensus PT = ~2.1R, and that PT was set BEFORE the TSMC High-NA news."
+  ],
+  "bull_acknowledgements": [
+    "ASML's competitive moat is real and uncontested — CEO Fouquet's 2026-05-05 framing ('no one is coming for us') is supported by EUV monopoly status and Q1 2026 beat (EUR 8.8B net sales, 53% gross margin) plus FY2026 guidance raise to EUR 36–40B per earnings_context_web.",
+    "Hyperscaler capex backdrop is genuinely supportive: MSFT/META/AMZN/GOOGL combined >$600B in 2026 capex (per 2026-05-05 yahoo finance article) underwrites multi-year lithography demand independent of any single customer's High-NA timing.",
+    "Active buyback program is being executed (4 consecutive trading days, ~EUR 15.87M/day per 2026-05-05 InsiderMonkey item) — ongoing capital return floor and management signaling confidence in valuation."
+  ],
+  "web_sources_last_7d": [
+    "https://manufacturingdigital.com/news/tsmc-asml-lockheed-top-manufacturing-news-this-week",
+    "https://finance.yahoo.com/quote/ASML/news/",
+    "https://www.insidermonkey.com/blog/asml-holding-asml-provides-regular-update-on-share-buyback-program-execution-1755462/",
+    "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/"
+  ]
+}

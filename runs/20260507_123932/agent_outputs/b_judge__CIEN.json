@@ -1,0 +1,22 @@
+{
+  "ticker": "CIEN",
+  "approved": [
+    {
+      "ticker": "CIEN",
+      "direction": "long",
+      "entry_price": 577.50,
+      "stop_loss": 565.00,
+      "target_price": 605.00,
+      "target_price_2": 624.07,
+      "quantity": 8,
+      "expected_holding_days": 7,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "All 4 perspectives agree direction=long; bull_a=6/bear_a=7 and bull_b=7/bear_b=7 give combined_p_bull=0.4808, combined_p_bear=0.5192. Expected_return_per_share = 0.4808*(605-577.50) - 0.5192*(577.50-565) = +$6.73 — positive despite bears' overbought/extension warnings (rsi_14=70.6, bollinger.pct_b=1.1264, rsi_divergence.bearish=true) because trend stack is intact (daily ema_aligned_uptrend=true, adx_14=33.4 strong with plus_di 32.14 vs minus_di 16.28, macd.bullish_crossover=true) and Stifel PT raise to $585 plus Vodafone WaveLogic 6 customer win in last 7d are real catalysts. Gate 3 quantity=20 (risk_dollars $250 / risk_per_share $12.50) but notional $11,550 > 15% cap; scaled down from 20 to 8 shares to fit small-account cap, using 40% of risk budget (notional $4,620 = 18.5% of account, risk $100). Earnings 28d out (no blackout). Wiki new_ticker=true so no prior thesis to corroborate — conviction held to 6 not 7.",
+      "risk_usd": 100.00,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "CIEN long approved as small_scaled (8 shares @ $577.50, stop $565, target $605, risk $100). Bull/bear consensus on direction with positive +$6.73/share expected return; high share price forced 20->8 share scale-down using 40% of risk budget."
+}

@@ -1,0 +1,21 @@
+{
+  "ticker": "VRT",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [350.00, 341.02, 330.60],
+  "top_3_arguments": [
+    "Severely overbought and stretched: daily_indicators.rsi.rsi_14 = 76.87 (rsi_7 = 75.46, rsi_21 = 76.09), daily bollinger.pct_b = 1.1353 (price ABOVE the upper band), z_score_50 = 2.54, and price is 27.47% above the 50-SMA (dist_from_50sma_pct) and 14.04% above the 20-SMA. Entry at $358.92 is buying the third standard deviation of a 36.84% 21-day rip (momentum.roc_21d) — classic mean-reversion setup, not a fresh breakout.",
+    "Hourly chart is already showing exhaustion: hourly_indicators.rsi_divergence.bearish = true on the same swing where daily volume.relative_volume = 0.97 (BELOW average) on the breakout bar. ADX hourly is 61.5 — historically extreme readings that mark trend climaxes, not continuations. hourly momentum.roc_5d = -3.12 means the last 5 hours of trade have been net DOWN even as the daily print closed at the highs.",
+    "Reward-to-risk and valuation are inverted versus the news. Analyst avg_price_target is $327.44 — current price $358.92 is already ~9.6% ABOVE consensus PT, and the 'raised guidance' / '+28% in a month' / AI-data-center narrative is explicitly called out by Yahoo (2026-05-05) and Simply Wall St (2026-05-02) as already-priced-in. From $358.92 watch_level area to nearest meaningful resistance there is no listed daily resistance (nearest_resistance: null) and the only chart magnet up is fib_ext_1272 at $394.69 (~10% away), but invalidation_level = $350 is only 2.5% below — and a clean break of $350 reopens $341.02 (prev_day_close) and $330.60 (last consolidation low). R:R buying extension into thin air against a stretched tape is poor."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is unambiguously bullish: ema_aligned_uptrend = true on both daily and hourly, price above every MA from EMA-5 through SMA-200, and daily ADX 34.52 with plus_di 38.99 vs minus_di 17.85 confirms a strong, intact uptrend.",
+    "MACD is still constructive on both timeframes (daily histogram +2.42, hourly +2.38) and OBV trend is up with no divergence on the daily — institutions are not yet distributing on the higher timeframe.",
+    "Fundamental tailwind is real, not vibes: Q1 2026 beat with +30% YoY sales and raised FY guidance on AI data-center demand (Simply Wall St 2026-05-02), plus continued institutional accumulation (SBI Securities 13F, 2026-05-01). Earnings risk is far away (days_until_next = 83)."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-jumps-28-month-185100245.html",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-vrt/vertiv-holdings-co/news/a-look-at-vertiv-holdings-vrt-valuation-after-raised-2026-gu",
+    "https://www.tickerreport.com/banking-finance/13431753/sbi-securities-co-ltd-grows-stake-in-vertiv-holdings-co-vrt.html"
+  ]
+}

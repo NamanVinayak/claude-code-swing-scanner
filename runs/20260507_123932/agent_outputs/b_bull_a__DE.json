@@ -1,0 +1,21 @@
+{
+  "ticker": "DE",
+  "setup_direction": "long",
+  "bull_strength": 5,
+  "entry_zone": {"low": 593.00, "high": 595.00},
+  "target": 614.00,
+  "stop": 584.00,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Price reclaimed every short-term MA on 2026-05-06 close: price_vs_ma shows above_ema_5/10/20/50/200 all true (pct_from_ema_50 = +2.5%, pct_from_sma_200 = +14.93%); daily MACD has just printed a bullish_crossover with histogram = +0.466 turning positive after a negative-line regime, while plus_di 26.32 > minus_di 15.80 confirms buyers in control on the swing.",
+    "Hourly structure is the cleanest part of the chart: hourly moving_averages.ema_aligned_uptrend = true, hourly adx_24 = 22.84 (moderate trend) with plus_di 25.58 > minus_di 15.85, hourly macd histogram = +1.6581 expanding, and hourly bollinger pct_b = 0.7688 — momentum is pushing through the upper half of the band as price breaks the 590.77 hourly pivot resistance (tested 18x).",
+    "R:R math is acceptable on a 593 trigger: target 614 (just under daily fib_ext_1272 = 638.16 and well below daily nearest_resistance 619.24) gives ~21 points of upside vs stop 584 (below daily fib_500 = 584.46 and watch_level 585) for ~9 points of risk = 2.33:1; momentum.roc_5d = +5.65% confirms the thrust into this level is fresh, not exhausted (rsi_14 = 52.64 leaves headroom before 70)."
+  ],
+  "risks_acknowledged": [
+    "Earnings in 14 days (2026-05-21, Q2 FY2026, EPS $5.81 / rev ~$11.44B expected per earnings_context_web) — swing must be closed or stopped before that date; the report is a binary risk we cannot manage through.",
+    "Daily rsi_divergence.bearish = true over 60-bar lookback and daily volume.obv.trend = down — price is making a higher high while OBV and recent rallies have not been volume-confirmed (today's relative_volume = 0.94, below average); a breakout that prints on sub-average volume can fail at the 619.24 resistance shelf.",
+    "Daily adx_14 = 18.58 (trend_strength = weak) and ema_aligned_uptrend = false on the daily — the 5d/10d/20d EMAs are stacked tightly between 579–582, meaning this is a coil/chop regime, not an established uptrend; a clean rejection at 619.24 (nearest_resistance, 9 prior tests) sends price right back into the range.",
+    "news_source = none and recent_news_7d is empty — no fresh fundamental catalyst is corroborating the technical bid into earnings; thesis rests entirely on chart structure, which lowers conviction. research_gap: no analyst PT changes or sector data inside the 7-day window."
+  ],
+  "web_sources_last_7d": []
+}

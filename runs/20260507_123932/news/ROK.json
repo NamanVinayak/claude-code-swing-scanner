@@ -1,0 +1,63 @@
+{
+  "ticker": "ROK",
+  "researched_at": "2026-05-07T19:45:00Z",
+  "news_items": [
+    {
+      "headline": "Rockwell Automation Q2 EPS $3.30 beats $2.89 consensus; raises FY26 EPS view to $12.50-$13.10",
+      "url": "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Q2 FY26 adjusted EPS $3.30 vs $2.8851 consensus; revenue $2.24B vs ~$2.18B expected. Management raised full-year adjusted EPS guidance to $12.50-$13.10 (midpoint $12.80) versus prior consensus ~$12.26."
+    },
+    {
+      "headline": "ROK stock surges 5.4% on May 6 after strong earnings beat",
+      "url": "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "ROK closed +5.37% at $459.35 on 2026-05-06 following the Q2 beat. Stock outpaced industrial sector gains and trades near 52-week highs."
+    },
+    {
+      "headline": "Rockwell Automation up 8.6% after raising 2026 guidance on strong Q2 results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Demand cited as especially strong in warehouse automation, data centers, and semiconductors with double-digit growth. Updated FY26 outlook well ahead of analyst expectations signaled sustained demand momentum."
+    },
+    {
+      "headline": "Rockwell Automation analysts raise price targets following upbeat Q2 results",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/05/52337987/rockwell-automation-analysts-raise-their-forecasts-following-upbeat-q2-results",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Multiple sell-side analysts raised forecasts and price targets on ROK following the Q2 beat-and-raise."
+    },
+    {
+      "headline": "Insider sale: SVP Lifecycle Services sells 460 shares of ROK for ~$206,992",
+      "url": "https://www.quiverquant.com/news/Insider+Sale:+SVP+Lifecycle+Services+of+$ROK+Sells+460+Shares",
+      "date": "2026-05-05",
+      "sentiment": "neutral",
+      "summary": "Matthew W. Fordenwalt, SVP Lifecycle Services, sold 460 shares on 2026-05-05 for an estimated $206,992. Small relative size; reported same day as Q2 results."
+    },
+    {
+      "headline": "ROK moved up 10.72% on May 5",
+      "url": "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "ROK gained 10.72% on 2026-05-05 on the day of the Q2 earnings release."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 428.66,
+    "recent_changes": "Multiple analysts raised price targets on 2026-05-05 / 2026-05-06 following Q2 beat-and-raise (per Benzinga). Consensus remains Buy (19 buys / 2 holds / 0 sells per one source; 26-analyst panel shows 15 buy / 14 hold / 1 sell). Note: 12-month avg PT of $428.66 sits below the post-earnings price ~$459, suggesting targets may still be catching up."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 90,
+    "notes": "Q2 FY26 (reported 2026-05-05): EPS $3.30 vs $2.92 est, revenue $2.24B vs $2.18B est. Strength in warehouse automation, data centers, semiconductors. FY26 guide raised to $12.50-$13.10 (mid $12.80) vs prior consensus ~$12.26. Next print scheduled August 5, 2026."
+  },
+  "raw_search_files": [
+    "ROK_news-this-week.json",
+    "ROK_analyst-rating.json",
+    "ROK_earnings-catalyst.json"
+  ]
+}

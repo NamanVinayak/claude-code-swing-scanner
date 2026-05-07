@@ -1,0 +1,425 @@
+{
+  "ticker": "TSM",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 420.0,
+  "invalidation_level": 415.0,
+  "catalyst_note": "TradingView trifecta (strong_buy + breakout_up + trending_up) signals a momentum breakout setup; no earnings risk for 70 days.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "TSMC stock surges +6% to fresh 52-week high after AMD Q1 blowout earnings",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://coincentral.com/tsmc-tsm-stock-gains-6-as-amd-revenue-beat-fuels-optimism-over-ai-manufacturing-capacity/",
+      "sentiment": "positive",
+      "summary": "TSM rallied +6% to $418.03 on May 6 after AMD reported Q1 2026 revenue of $10.3B (+38% YoY, beat by 4%+). TSMC is AMD's primary foundry partner for AI accelerators and server CPUs."
+    },
+    {
+      "title": "Why is Taiwan Semiconductor Manufacturing stock surging today?",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.investing.com/news/company-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-4664204",
+      "sentiment": "positive",
+      "summary": "Sector-wide semiconductor rally ignited by AMD's Q1 2026 earnings beat lifted TSM to a new 52-week high; AI chip demand visibility for TSMC fab utilization improved."
+    },
+    {
+      "title": "A Step Forward That TSMC Stock Investors Shouldn't Miss",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html",
+      "sentiment": "positive",
+      "summary": "TSMC said 2nm chip capacity will grow at a 70% CAGR from 2026 through 2028, with 5 fabs (2 in Hsinchu, 3 in Kaohsiung) entering volume production this year. CEO C.C. Wei reiterated capex at upper end of $52-56B."
+    },
+    {
+      "title": "Equitable Trust Co. Buys 5,326 Shares of Taiwan Semiconductor Manufacturing Company Ltd.",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-equitable-trust-co-buys-5326-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-05-06/",
+      "sentiment": "neutral",
+      "summary": "13F-style filing showing Equitable Trust Co. added 5,326 shares of TSM. Routine institutional flow disclosure."
+    },
+    {
+      "title": "TSMC Global acquires fixed-income securities for $42.3 mln",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.marketscreener.com/news/tsmc-s-unit-tsmc-global-acquires-fixed-income-securities-for-42-3-mln-ce7f58ddde8bf423",
+      "sentiment": "neutral",
+      "summary": "TSMC Global subsidiary disclosed a $42.3M fixed-income securities purchase. Treasury management, no operating impact."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 419.5,
+  "market_cap": 2156894224384.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-04-30",
+      "open": 397.80999755859375,
+      "high": 398.7900085449219,
+      "low": 385.7099914550781,
+      "close": 396.05999755859375,
+      "volume": 12788100
+    },
+    {
+      "time": "2026-05-01",
+      "open": 393.44000244140625,
+      "high": 403.989990234375,
+      "low": 392.1300048828125,
+      "close": 397.6700134277344,
+      "volume": 9926400
+    },
+    {
+      "time": "2026-05-04",
+      "open": 404.5199890136719,
+      "high": 407.70001220703125,
+      "low": 395.20001220703125,
+      "close": 401.6099853515625,
+      "volume": 9978500
+    },
+    {
+      "time": "2026-05-05",
+      "open": 404.6000061035156,
+      "high": 406.1300048828125,
+      "low": 392.6000061035156,
+      "close": 394.4100036621094,
+      "volume": 14579000
+    },
+    {
+      "time": "2026-05-06",
+      "open": 402.3999938964844,
+      "high": 419.70001220703125,
+      "low": 400.6499938964844,
+      "close": 419.5,
+      "volume": 17693300
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 404.0491943133874,
+      "sma_5": 401.85,
+      "ema_10": 397.17305136123804,
+      "sma_10": 398.5519989013672,
+      "ema_20": 385.83866082428256,
+      "sma_20": 385.08899993896483,
+      "ema_21": 384.9018481234933,
+      "sma_21": 384.17523774646577,
+      "ema_50": 366.90823395978447,
+      "sma_50": 361.77569702148435,
+      "ema_200": 311.21822545318906,
+      "sma_200": 306.7387866973877,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 419.5,
+    "dist_from_50sma_pct": 15.96,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 3.82,
+      "above_sma_5": true,
+      "pct_from_sma_5": 4.39,
+      "above_ema_10": true,
+      "pct_from_ema_10": 5.62,
+      "above_sma_10": true,
+      "pct_from_sma_10": 5.26,
+      "above_ema_20": true,
+      "pct_from_ema_20": 8.72,
+      "above_sma_20": true,
+      "pct_from_sma_20": 8.94,
+      "above_ema_21": true,
+      "pct_from_ema_21": 8.99,
+      "above_sma_21": true,
+      "pct_from_sma_21": 9.19,
+      "above_ema_50": true,
+      "pct_from_ema_50": 14.33,
+      "above_sma_50": true,
+      "pct_from_sma_50": 15.96,
+      "above_ema_200": true,
+      "pct_from_ema_200": 34.79,
+      "above_sma_200": true,
+      "pct_from_sma_200": 36.76,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 41850.0
+    },
+    "rsi": {
+      "rsi_7": 63.39,
+      "rsi_14": 74.65,
+      "rsi_21": 72.09
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 13.9421,
+      "signal_line": 12.1225,
+      "histogram": 1.8196,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 417.38,
+      "middle": 385.09,
+      "lower": 352.8,
+      "width": 0.1677,
+      "pct_b": 1.0329
+    },
+    "atr": {
+      "atr_14": 14.43,
+      "atr_pct": 3.44
+    },
+    "adx": {
+      "adx_14": 43.37,
+      "plus_di": 37.24,
+      "minus_di": 9.5,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 17693300,
+      "avg_volume_20": 14139910,
+      "relative_volume": 1.25,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 350.45,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 382.16,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 389.11,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 414.5,
+          "tests": 2,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 313.8,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 325.19,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 330.99,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 360.55,
+          "tests": 11,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 360.55,
+      "recent_high": 419.7,
+      "recent_low": 360.55,
+      "prev_day_high": 406.13,
+      "prev_day_low": 392.6,
+      "prev_day_close": 394.41
+    },
+    "fibonacci": {
+      "swing_high": 419.7,
+      "swing_low": 313.8,
+      "fib_236": 394.71,
+      "fib_382": 379.25,
+      "fib_500": 366.75,
+      "fib_618": 354.25,
+      "fib_786": 336.46,
+      "fib_ext_1272": 448.5,
+      "fib_ext_1618": 485.15,
+      "fib_ext_2000": 525.6,
+      "fib_ext_low_1272": 285.0,
+      "fib_ext_low_1618": 248.35
+    },
+    "momentum": {
+      "roc_5d": 6.52,
+      "roc_10d": 8.27,
+      "roc_21d": 21.48
+    },
+    "z_score_50": 2.33,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 406.4110894381123,
+      "sma_24": 404.11643091837567,
+      "ema_48": 400.88888109821755,
+      "sma_48": 399.08361117045087,
+      "ema_120": 388.33040153643725,
+      "sma_120": 387.4773551940918,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 415.71771240234375,
+    "dist_from_50sma_pct": 7.29,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 2.29,
+      "above_sma_24": true,
+      "pct_from_sma_24": 2.87,
+      "above_ema_48": true,
+      "pct_from_ema_48": 3.7,
+      "above_sma_48": true,
+      "pct_from_sma_48": 4.17,
+      "above_ema_120": true,
+      "pct_from_ema_120": 7.05,
+      "above_sma_120": true,
+      "pct_from_sma_120": 7.29,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 41471.77
+    },
+    "rsi": {
+      "rsi_21": 62.18
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 6.2972,
+      "signal_line": 4.5282,
+      "histogram": 1.769,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 415.97,
+      "middle": 399.08,
+      "lower": 382.19,
+      "width": 0.0846,
+      "pct_b": 0.9924
+    },
+    "atr": {
+      "atr_24": 4.84,
+      "atr_pct": 1.16
+    },
+    "adx": {
+      "adx_24": 21.54,
+      "plus_di": 32.57,
+      "minus_di": 19.61,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 2693837,
+      "avg_volume_20": 1827280,
+      "relative_volume": 1.47,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 395.85,
+          "tests": 29,
+          "volume_confirmed": true
+        },
+        {
+          "price": 403.99,
+          "tests": 15,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 385.71,
+          "tests": 5,
+          "volume_confirmed": false
+        },
+        {
+          "price": 395.2,
+          "tests": 27,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 395.2,
+      "recent_high": 420.0,
+      "recent_low": 392.6,
+      "prev_day_high": 419.68,
+      "prev_day_low": 418.14,
+      "prev_day_close": 419.44
+    },
+    "fibonacci": {
+      "swing_high": 420.0,
+      "swing_low": 392.13,
+      "fib_236": 413.42,
+      "fib_382": 409.35,
+      "fib_500": 406.07,
+      "fib_618": 402.78,
+      "fib_786": 398.09,
+      "fib_ext_1272": 427.58,
+      "fib_ext_1618": 437.22,
+      "fib_ext_2000": 447.87,
+      "fib_ext_low_1272": 384.55,
+      "fib_ext_low_1618": 374.91
+    },
+    "momentum": {
+      "roc_5d": -0.14,
+      "roc_10d": 4.74,
+      "roc_21d": 3.4
+    },
+    "z_score_120": 1.87,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 70,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 416.67,
+    "recent_changes": "Per TipRanks, current month shows 13 Buy / 2 Hold / 0 Sell ratings; Buy consensus reaffirmed as of 2026-05-06 across 6 analysts. Price target $416.67 implies ~0% upside from current price after this week's rally."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-17",
+    "days_until_next": 71,
+    "notes": "Last reported Q1 2026 on 2026-04-16 (already priced in): profit +58% YoY, beat estimates; full-year 2026 revenue guidance >30% YoY USD growth; HPC segment 61% of Q1 revenue (up from 55%). Street expects continued AI-driven gross margin expansion and capacity-constrained ramp into Q2."
+  }
+}

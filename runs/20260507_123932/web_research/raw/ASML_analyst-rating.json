@@ -1,0 +1,24 @@
+{
+  "query": "ASML stock 2026-05-07 analyst rating",
+  "fetched_at": "2026-05-07T20:00:00Z",
+  "results": [
+    {"title": "ASML Holding (ASML) Stock Price & Overview", "url": "https://stockanalysis.com/stocks/asml/"},
+    {"title": "ASML Hld (ASML) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/asml/forecast-price-target"},
+    {"title": "ASML Holding N.V. Stock Price: Quote, Forecast, Splits & News (ASML)", "url": "https://www.perplexity.ai/finance/ASML"},
+    {"title": "ASML (ASML) Stock Forecast and Price Target 2026 $ASML", "url": "https://www.marketbeat.com/stocks/NASDAQ/ASML/forecast/"},
+    {"title": "ASML Holding (ASML) Stock Forecast & Analyst Price Targets", "url": "https://stockanalysis.com/stocks/asml/forecast/"},
+    {"title": "ASML Holding N.V. (ASML) Analyst Ratings, Estimates & Forecasts - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ASML/analysis/"},
+    {"title": "ASML Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/ASML"},
+    {"title": "ASML Forecast, Price Target & Analyst Ratings | ASML HOLDING NV-NY REG SHS (NASDAQ:ASML) | ChartMill.com", "url": "https://www.chartmill.com/stock/quote/ASML/analyst-ratings"},
+    {"title": "ASML Holding Analyst Ratings and Price Targets | NASDAQ:ASML | Benzinga", "url": "https://www.benzinga.com/quote/ASML/analyst-ratings"},
+    {"title": "ASML Stock Price Prediction 2025-2026 | ASML Holding NV ADR Forecast | 24/7 Wall St.", "url": "https://247wallst.com/companies/ASML/price-prediction/"}
+  ],
+  "summary": {
+    "consensus_rating": "Buy (across 8-42 analyst surveys)",
+    "buy_percentage": "79% (per 42-analyst consensus)",
+    "avg_price_target_low_set": 1460.63,
+    "avg_price_target_broad_set": 1638.8,
+    "current_price_reference": 1517.65,
+    "implied_upside": "1.23% (low set) to 7.98% (broad set)"
+  }
+}

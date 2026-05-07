@@ -1,0 +1,22 @@
+{
+  "ticker": "VRT",
+  "approved": [
+    {
+      "ticker": "VRT",
+      "direction": "long",
+      "entry_price": 360.50,
+      "stop_loss": 350.00,
+      "target_price": 383.00,
+      "target_price_2": 394.69,
+      "quantity": 13,
+      "expected_holding_days": 7,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "Direction consensus across all 4 perspectives (long). Probability weights: p_bull=6/(6+7)=0.4615, p_catalyst=7/(7+7)=0.5, combined_p_bull=0.4808. Conservative entry=midpoint(359,362)=360.50, target=min(385,383)=383, stop=max(349,350)=350. Expected_return_per_share = 0.4808*(383-360.50) - 0.5192*(360.50-350) = +$5.37/share, positive. Bulls win on trend evidence (daily adx_14=34.52, plus_di 38.99 vs minus_di 17.85, ema_aligned_uptrend=true on both timeframes, daily macd_line 18.46 > signal 16.04, momentum.roc_21d=+36.84%, hourly relative_volume=1.33) and a real raised-FY26-guidance catalyst within the 7-day window; bears (both strength=7) correctly flag overbought risk (rsi_14=76.87, pct_b=1.1353, z_score_50=2.54, price 9.6% above analyst avg PT $327.44). Gate-3 quantity = floor(250/10.50)=23, notional 23*360.50=$8,291.50 exceeds 15% single-position cap ($3,750); scaled down from 23 to 13 shares to fit small-account cap, using 55% of risk budget (M=floor(5000/360.50)=13, risk_M=$136.50 >= 40%-floor of $100). New_deployed $4,686.50 < $15,000 deploy cap; new_open_risk $136.50 < $1,000 total-risk cap. Conviction held at 5 because bear_strength matches/exceeds bull_strength and the AI-data-center catalyst is largely priced in.",
+      "risk_usd": 136.50,
+      "position_size_class": "small_scaled"
+    }
+  ],
+  "rejected": [],
+  "summary": "VRT long approved as small_scaled (13 shares, $136.50 risk, 55% of risk budget). Positive +$5.37/share probability-weighted expected return survives strong bear case (overbought, above-PT) thanks to dominant trend regime + real guide-up catalyst within 7d. Notional fits 20% extended cap; downsized from Gate-3 quantity 23 due to high share price on $25k account."
+}

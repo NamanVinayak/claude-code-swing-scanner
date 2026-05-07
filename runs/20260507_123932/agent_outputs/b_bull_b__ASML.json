@@ -1,0 +1,26 @@
+{
+  "ticker": "ASML",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 1545.00, "high": 1565.00},
+  "target": 1627.00,
+  "stop": 1528.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Fresh AI-demand catalyst within 7 days: 2026-05-05 stock surged 6.87% as hyperscaler capex (MSFT/META/AMZN/GOOGL >$600B in 2026) reinforced multi-year demand for ASML lithography (yahoo finance, recent_news_7d). Confirmed by daily roc_5d = 10.81 and 2026-05-06 candle closing at 1544.74 with relative_volume 1.28 — price following narrative.",
+    "Catalyst stack reinforces direction: CEO Fouquet at Milken on 2026-05-05 framed monopoly as durable (techcrunch, recent_news_7d), and ongoing buyback execution (~EUR 15.87M/day, 4 consecutive sessions, insidermonkey 2026-05-05) signals capital return at the precise moment shares break to highs. analyst_consensus_web Buy with avg PT 1638.80 vs current 1544.74 implies +6.1% headroom — judge can map target to PT proximity.",
+    "Tape backs the breakout: ema_aligned_uptrend=true on both daily and hourly, daily MACD bullish_crossover=true with histogram +3.63, hourly MACD histogram +16.42, hourly +DI 39.12 vs -DI 18.93, OBV trend up on both timeframes, no bearish RSI divergence on daily (rsi_14 = 63.71, not yet overbought). R:R math: midpoint entry 1555 → target 1627 = +72; stop 1528 = -27 → 2.67:1, satisfies ≥2:1. earnings.days_until_next = 69 — zero earnings-window risk."
+  ],
+  "risks_acknowledged": [
+    "TSMC said on 2026-05-04 (manufacturingdigital) that A13 node will NOT use ASML High-NA EUV — removes a key reference-customer adoption catalyst for the most advanced tool and is the only negative-sentiment item in recent_news_7d.",
+    "Daily bollinger pct_b = 1.0783 (price above upper band) and z_score_50 = 2.25 — stock is statistically extended after a 10.81% 5-day rip, raising odds of a mean-reversion pullback before any continuation breakout above 1565.",
+    "Hourly rsi_21 = 76.86 with hourly rsi_divergence.bearish=true flag — short-term exhaustion signal that could stall the breakout trigger at 1565 and force a stop-out below 1528 if the late-session bid fades.",
+    "wiki_context shows new_ticker=true (no thesis/catalysts/technicals memory), so there's no prior-context corroboration of how this name behaves at extension; thesis rests entirely on 7-day catalyst stack."
+  ],
+  "web_sources_last_7d": [
+    "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
+    "https://finance.yahoo.com/quote/ASML/news/",
+    "https://manufacturingdigital.com/news/tsmc-asml-lockheed-top-manufacturing-news-this-week",
+    "https://www.insidermonkey.com/blog/asml-holding-asml-provides-regular-update-on-share-buyback-program-execution-1755462/"
+  ]
+}

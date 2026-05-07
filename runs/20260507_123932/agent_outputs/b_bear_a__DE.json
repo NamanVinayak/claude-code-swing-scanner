@@ -1,0 +1,17 @@
+{
+  "ticker": "DE",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [584.46, 575.79, 564.82],
+  "top_3_arguments": [
+    "Breakout is unconfirmed and on weak participation. current_price 591.64 is still BELOW the watch_level 593.0 and BELOW the daily nearest_resistance 619.24; the so-called breakout is really just a re-test of pivot_high 588.97 (tested 25 times, volume_confirmed=false). daily_indicators.volume.relative_volume = 0.94 (below average) and hourly_indicators.volume.relative_volume = 0.88 with volume_bias_10d = 'down' — there is no institutional accumulation behind this push. The catalyst_note itself flags 'zero premarket volume gives no institutional confirmation'.",
+    "Bearish RSI divergence is flagged on BOTH timeframes simultaneously: daily_indicators.rsi_divergence.bearish = true AND hourly_indicators.rsi_divergence.bearish = true. Daily rsi_14 is only 52.64 (mid-range, no momentum thrust into the breakout) while rsi_7 is already 67.18 (short-term overbought into resistance). Hourly OBV is diverging_from_price (trend 'down' while price grinds up). adx_14 = 18.58 ('weak' trend) and ema_aligned_uptrend = false on the daily — this is a chop-zone push, not a trend breakout. Earnings on 2026-05-21 (days_until_next = 14) further caps any sustained pre-print follow-through.",
+    "Risk/reward at the proposed entry is poor and asymmetric to the downside. From watch_level 593.0 to nearest_resistance 619.24 is +4.4% of available upside before the next supply shelf, while invalidation_level 585.0 sits cleanly inside daily Bollinger middle (584.71) and the 50% Fib retrace (584.46) — meaning a normal pullback equal to ~0.5x ATR (atr_14 = 15.5, atr_pct 2.62%) will trip the stop. From entry 593 to stop 585 is only -1.35%, but ATR-normalized noise alone is ~2.6%/day, so the stop is structurally inside the noise band. Expected R:R after subtracting earnings-event tail risk does not clear a 2:1 hurdle."
+  ],
+  "bull_acknowledgements": [
+    "Price is above every daily MA from EMA5 through SMA200 (price_vs_ma all true; pct_from_sma_200 = +14.93%) and hourly EMAs are stacked in bullish order (ema_aligned_uptrend = true on hourly), so the larger-degree trend is genuinely up.",
+    "Daily MACD has a fresh bullish crossover (histogram +0.466, line -1.08 over signal -1.55) and daily roc_5d = +5.65%, confirming a real near-term momentum impulse off the early-May low at 575.79.",
+    "Plus_DI dominates Minus_DI on both timeframes (daily 26.32 vs 15.80; hourly 25.58 vs 15.85), so directional pressure is on the buy side even if trend strength is only weak-to-moderate."
+  ],
+  "web_sources_last_7d": []
+}

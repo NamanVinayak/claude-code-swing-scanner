@@ -1,0 +1,20 @@
+{
+  "ticker": "DE",
+  "researched_at": "2026-05-07T19:42:00Z",
+  "news_items": [],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 640.0,
+    "recent_changes": "Consensus 'Buy' as of 2026-05-06 from 17-23 analysts (13 buy / 11 hold / 0 sell across 23-analyst panel). 12-month avg PT spans ~$618-$665 across providers (high $793, low $500). No specific upgrade/downgrade or PT change in last 7 days surfaced via WebSearch."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-05-21",
+    "days_until_next": 14,
+    "notes": "Q2 FY2026 earnings due 2026-05-21. Street expects EPS $5.81 on revenue ~$11.44B. Shares are up ~12% recently but lagging S&P 500, leaving valuation/growth questions as the report's central debate."
+  },
+  "raw_search_files": [
+    "DE_news-this-week.json",
+    "DE_analyst-rating.json",
+    "DE_earnings-catalyst.json"
+  ]
+}

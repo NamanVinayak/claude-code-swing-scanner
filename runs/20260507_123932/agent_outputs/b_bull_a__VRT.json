@@ -1,0 +1,26 @@
+{
+  "ticker": "VRT",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 359.00, "high": 362.00},
+  "target": 385.00,
+  "stop": 349.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Powerful trend regime: daily adx_14 = 34.52 with plus_di 38.99 vs minus_di 17.85 (trend_strength 'strong'); ema_aligned_uptrend = true with price above EMA5/10/20/50/200 in order; pct_from_ema_50 = +26.55% and pct_from_sma_200 = +83.92%, confirming dominant institutional buying.",
+    "Fresh 52-week breakout setup: yesterday closed 358.92 above prior pivot resistance at 331.97 (hourly_indicators.support_resistance, 5 tests, volume_confirmed) and printed recent_high 359.84; daily macd_line 18.46 > signal 16.04 with histogram +2.42 (expanding); momentum.roc_5d = +17.23 and roc_10d = +17.62 show acceleration into the breakout level.",
+    "Volume + accumulation confirm: daily volume_bias_10d = 'up' and obv.trend = 'up' (not diverging); hourly relative_volume = 1.33 and z_score_120 = 1.79 show buyers stepping in on the marginal hour; news_source 'web_research' with 4/4 positive items in last 7d (Yahoo +28% one-month note 2026-05-05, raised FY26 guidance simplywall 2026-05-02, SBI 13F stake increase 2026-05-01) corroborates fundamental tailwind."
+  ],
+  "risks_acknowledged": [
+    "Severely overbought: daily rsi_14 = 76.87 (rsi_7 75.46, rsi_21 76.09), bollinger pct_b = 1.1353 (above upper band), z_score_50 = 2.54 — sharp mean-reversion pullback risk on any market wobble.",
+    "Hourly rsi_divergence.bearish = true (60-bar lookback) — short-term momentum is fading even as price prints new highs; entry should wait for breakout confirmation above 362, not chase intraday.",
+    "Price is +27.47% above the 50 SMA and analyst_consensus_web avg_price_target = 327.44 sits BELOW current 358.92 — much of the AI-data-center thesis (Q1 beat, raised guidance) is already priced in per earnings_context_web notes.",
+    "Daily volume relative_volume = 0.97 (just AT average) on yesterday's breakout bar — institutional confirmation is thinner than the price action suggests; failure to expand volume on follow-through invalidates the breakout."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-jumps-28-month-185100245.html",
+    "https://www.stocktitan.net/news/VRT/",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-vrt/vertiv-holdings-co/news/a-look-at-vertiv-holdings-vrt-valuation-after-raised-2026-gu",
+    "https://www.tickerreport.com/banking-finance/13431753/sbi-securities-co-ltd-grows-stake-in-vertiv-holdings-co-vrt.html"
+  ]
+}

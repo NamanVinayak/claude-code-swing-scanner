@@ -1,0 +1,49 @@
+{
+  "ticker": "ASML",
+  "researched_at": "2026-05-07T20:00:00Z",
+  "news_items": [
+    {
+      "headline": "ASML CEO Christophe Fouquet on his company's monopoly: no one is coming for us",
+      "url": "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "CEO Fouquet at Milken Institute Global Conference framed ASML's competitive moat as durable; emphasized accelerating AI-driven chip demand. ASML now Europe's most valuable company at >$530B."
+    },
+    {
+      "headline": "ASML stock surges 6.87% on rising AI demand outlook",
+      "url": "https://finance.yahoo.com/quote/ASML/news/",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Shares outperformed tech sector (2.36%) as hyperscaler capex (MSFT/META/AMZN/GOOGL >$600B in 2026) reinforced multi-year demand for ASML lithography tools."
+    },
+    {
+      "headline": "TSMC will not buy ASML High-NA EUV machines for A13 node",
+      "url": "https://manufacturingdigital.com/news/tsmc-asml-lockheed-top-manufacturing-news-this-week",
+      "date": "2026-05-04",
+      "sentiment": "negative",
+      "summary": "TSMC Co-COO Kevin Zhang said the A13 process does not require High-NA EUV. Removes a key reference customer adoption catalyst for ASML's most advanced tool."
+    },
+    {
+      "headline": "ASML provides regular update on share buyback program execution",
+      "url": "https://www.insidermonkey.com/blog/asml-holding-asml-provides-regular-update-on-share-buyback-program-execution-1755462/",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "ASML repurchased shares on four consecutive trading days, daily volume ~12,895-13,383 shares at ~EUR 15.87M/day. Ongoing capital return signal."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 1638.8,
+    "recent_changes": "Consensus remains Buy across 8-42 analyst surveys (79% buy weighting in broader set). No specific upgrade/downgrade headlines surfaced in last 7 days."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-15",
+    "days_until_next": 69,
+    "notes": "Q1 2026 (reported April) beat with EUR 8.8B net sales and 53% gross margin; FY2026 guidance raised to EUR 36-40B on AI/memory/logic demand. Risks: slow immersion sales start, Q2 margin compression, 2027 unit targets conditional, export control uncertainty."
+  },
+  "raw_search_files": [
+    "ASML_news-this-week.json",
+    "ASML_analyst-rating.json",
+    "ASML_earnings-catalyst.json"
+  ]
+}

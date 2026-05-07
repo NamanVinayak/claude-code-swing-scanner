@@ -1,0 +1,24 @@
+{
+  "ticker": "TLN",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [397.40, 391.37, 384.43],
+  "top_3_arguments": [
+    "Stretch is extreme on every horizon: daily bollinger.pct_b = 1.0672 (price closed ABOVE the upper band), z_score_50 = 2.75 (a 2.75-sigma deviation from the 50-day mean), dist_from_50sma_pct = 20.1%, and rsi_7 = 76.4. Daily momentum.roc_5d = 16.5% and roc_10d = 20.83% — this is what an exhausted move looks like, not a clean breakout entry. Hourly momentum.roc_5d is already -3.5% (rolling over) while daily ADX 27.55 with +DI 34.8 still says strong trend, so the asymmetric risk is a multi-day mean-reversion pullback toward the 20EMA at 361.61 (-12% from 409.99).",
+    "Entry mechanics are unfavorable. watch_level = 420.00 vs current_price = 409.99 means a 2.4% gap up just to trigger; recent_high is 412.83 (today's high), so entry requires a fresh breakout that has NOT happened. invalidation_level = 411.00 sits BETWEEN current price (409.99) and watch_level (420.00) — a long entered at 420 with a stop at 411 is 2.14% of risk for a target unspecified, and any sane near-term target (e.g., daily bollinger upper 403.59 already pierced, fib_ext_1272 = 442.98) gives ~5.5% upside. R:R ~ 2.5:1 only if you hold to fib extension, but daily ATR 4.21% means stop can get hit on a single average-range red bar without thesis violation.",
+    "Volume quality is mixed, not confirming a clean breakout. Daily volume.relative_volume = 1.74 today, but pivot_highs at 397.4 had only 2 tests (volume_confirmed=true) and the prior 11-test pivot at 371.0 was NOT volume_confirmed — there is no deep, well-tested supply zone above to trust as a launchpad. On the hourly, relative_volume = 0.96 (below average), and hourly RSI is only 58.06 vs daily RSI 65.37 — short-term momentum is already cooling while daily looks hot, the classic distribution-into-strength signature. With Q1 already reported 2026-05-05 (positive but now backward-looking) and next earnings 92 days out, the catalyst is exhausted into the move."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is unambiguously bullish on both timeframes: daily ema_aligned_uptrend = true with price above all MAs (5/10/20/21/50/200), and hourly ema_aligned_uptrend = true. ADX 27.55 daily / 46.61 hourly with +DI dominating -DI confirms a real trend, not a chop fade.",
+    "Fundamentals and analyst flow are genuinely strong: Q1 revenue $1.13B beat FactSet $1.05B by ~7.6%, EBITDA $473M, 2026 guidance reaffirmed, Morgan Stanley raised PT to $498 (Buy), 15 Buy / 1 Hold / 0 Sell consensus, avg PT $467.77. Daily MACD histogram +5.29 with no bearish divergence (rsi_divergence.bearish=false) means the trend is healthy on indicator math.",
+    "PJM 2027/2028 capacity clearance ($1.07B revenue) plus the Cornerstone acquisition narrative is a multi-quarter tailwind that can sustain trend continuation even from extended levels — overbought can stay overbought in true momentum names, especially data-center power plays."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/news/TLN/talen-energy-reports-first-quarter-2026-results-reaffirms-2026-ifiux9jegmsw.html",
+    "https://www.fool.com/earnings/call-transcripts/2026/05/05/talen-energy-tln-q1-2026-earnings-transcript/",
+    "https://www.marketscreener.com/news/earnings-flash-tln-talen-energy-corporation-reports-q1-revenue-1-13b-vs-factset-est-of-1-05b-ce7f58dcd08bf62c",
+    "https://meyka.com/blog/tln-overweight-rating-maintained-by-morgan-stanley-april-2026-2204/",
+    "https://ir.talenenergy.com/",
+    "https://www.stocktitan.net/news/TLN/"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "ticker": "TSM",
+  "researched_at": "2026-05-07T19:45:00Z",
+  "news_items": [
+    {
+      "headline": "TSMC stock surges +6% to fresh 52-week high after AMD Q1 blowout earnings",
+      "url": "https://coincentral.com/tsmc-tsm-stock-gains-6-as-amd-revenue-beat-fuels-optimism-over-ai-manufacturing-capacity/",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "TSM rallied +6% to $418.03 on May 6 after AMD reported Q1 2026 revenue of $10.3B (+38% YoY, beat by 4%+). TSMC is AMD's primary foundry partner for AI accelerators and server CPUs."
+    },
+    {
+      "headline": "Why is Taiwan Semiconductor Manufacturing stock surging today?",
+      "url": "https://www.investing.com/news/company-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-4664204",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Sector-wide semiconductor rally ignited by AMD's Q1 2026 earnings beat lifted TSM to a new 52-week high; AI chip demand visibility for TSMC fab utilization improved."
+    },
+    {
+      "headline": "A Step Forward That TSMC Stock Investors Shouldn't Miss",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "TSMC said 2nm chip capacity will grow at a 70% CAGR from 2026 through 2028, with 5 fabs (2 in Hsinchu, 3 in Kaohsiung) entering volume production this year. CEO C.C. Wei reiterated capex at upper end of $52-56B."
+    },
+    {
+      "headline": "Equitable Trust Co. Buys 5,326 Shares of Taiwan Semiconductor Manufacturing Company Ltd.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-equitable-trust-co-buys-5326-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-05-06/",
+      "date": "2026-05-06",
+      "sentiment": "neutral",
+      "summary": "13F-style filing showing Equitable Trust Co. added 5,326 shares of TSM. Routine institutional flow disclosure."
+    },
+    {
+      "headline": "TSMC Global acquires fixed-income securities for $42.3 mln",
+      "url": "https://www.marketscreener.com/news/tsmc-s-unit-tsmc-global-acquires-fixed-income-securities-for-42-3-mln-ce7f58ddde8bf423",
+      "date": "2026-05-06",
+      "sentiment": "neutral",
+      "summary": "TSMC Global subsidiary disclosed a $42.3M fixed-income securities purchase. Treasury management, no operating impact."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 416.67,
+    "recent_changes": "Per TipRanks, current month shows 13 Buy / 2 Hold / 0 Sell ratings; Buy consensus reaffirmed as of 2026-05-06 across 6 analysts. Price target $416.67 implies ~0% upside from current price after this week's rally."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-17",
+    "days_until_next": 71,
+    "notes": "Last reported Q1 2026 on 2026-04-16 (already priced in): profit +58% YoY, beat estimates; full-year 2026 revenue guidance >30% YoY USD growth; HPC segment 61% of Q1 revenue (up from 55%). Street expects continued AI-driven gross margin expansion and capacity-constrained ramp into Q2."
+  },
+  "raw_search_files": [
+    "TSM_news-this-week.json",
+    "TSM_analyst-rating.json",
+    "TSM_earnings-catalyst.json"
+  ]
+}

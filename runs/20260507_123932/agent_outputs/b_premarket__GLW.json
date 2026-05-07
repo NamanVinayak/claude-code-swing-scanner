@@ -1,0 +1,11 @@
+{
+  "ticker": "GLW",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "gap_and_go",
+  "watch_level": 187.50,
+  "invalidation_level": 181.50,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up; premarket gap of +2.89% aligns with breakout direction but entry R/R is reduced, and zero premarket volume (ratio null) provides no confirmation of genuine buying pressure.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup_history or recent_tldr; regime placeholder only. last_regular_close=181.79, premarket last_price=187.04, overnight_gap_pct=+2.89% (below 5% threshold — setup not auto-disqualified). However, premarket volume=0 and volume_ratio=null: the 187.04 quote is either a single thin trade or a stale carryover, not confirmed premarket activity. Cannot assess whether buyers are actually stepping in. Setup is partial: gap-and-go thesis is valid if price holds and confirms above ~187.50 in regular session, but reduced R/R from the gap and absent volume confirmation warrant lower conviction. Watch level set just above premarket quote to require fresh regular-session breakout confirmation. Invalidation at 181.50 (below prior close) treats gap fill as thesis failure. No near-term earnings risk (82 days). Macro regime unknown (bootstrap placeholder) — no adjustment applied."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "VG",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 11.70,
+  "invalidation_level": 12.10,
+  "catalyst_note": "Sector laggard in decline — premarket gapped down 1.33% to $11.84, setup direction intact but zero volume confirmation and earnings 5 days out compress the tradeable window.",
+  "conviction": 3,
+  "notes": "Stage 1 score = 1 (minimum), single reason: sector_laggard_decline. Premarket last_price $11.84 vs close $12.00 = -1.33% gap in the short direction — within the 5% threshold, so setup has not played out yet, but the gap is small. Premarket volume = 0 shares (volume_ratio null) — no institutional confirmation whatsoever; this is the primary reason for low conviction. New ticker (wiki_context.new_ticker=true): no setup_history, no recent_tldr, no prior outcome data to pattern-match against. Regime slice is bootstrap placeholder — cannot assess macro tailwind/headwind for short setups. Earnings days_until_next=5: outside the 3-day hard blackout but close enough to limit holding duration and increase gap risk. Watch level $11.70 is a breakdown below the premarket print with room for spread; invalidation $12.10 is a recovery through the prior close. Setup is directionally valid but thin on evidence — carry into Stage 3 at low priority only if the short candidate roster is sparse."
+}

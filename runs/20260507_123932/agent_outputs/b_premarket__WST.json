@@ -1,0 +1,11 @@
+{
+  "ticker": "WST",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 313.50,
+  "invalidation_level": 308.00,
+  "catalyst_note": "TradingView strong_buy + trending_up signals on a NYSE-listed name with no near-term earnings risk (77 days out); setup is a trend-continuation breakout above prior close.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Overnight gap is immaterial at -0.26% — setup not played out and not broken. Premarket volume is 0 with no 10d average available (volume_ratio null), so there is no premarket confirmation of momentum; this is the primary reason for partial rather than yes. New ticker — no wiki setup_history, no recent_tldr; relying solely on Stage 1 signals. Regime slice is a bootstrap placeholder with no usable content. Earnings 77 days out, no blackout risk. Watch level 313.50 is above prior close (312.55) to confirm trend continuation; invalidation 308.00 is ~1.5% below close representing a reasonable swing-low buffer given no S/R data in facts."
+}

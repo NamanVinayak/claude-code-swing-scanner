@@ -1,0 +1,11 @@
+{
+  "ticker": "TLN",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 420.0,
+  "invalidation_level": 411.0,
+  "catalyst_note": "TradingView breakout_up + trending_up signals align on a long setup; premarket gap +1.43% keeps the breakout intact but hasn't run away yet.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup history, no recent TL;DR, regime placeholder only; rely solely on Stage 1 signals and premarket data. Stage 1: tv_breakout_up + tv_trending_up (score 2). Premarket: last_price $418.795 vs close $412.90, gap +1.43% — within the 5% threshold, setup not played out. Premarket volume = 0, volume_ratio = null — no participation data to confirm institutional interest, which is the primary reason for partial vs yes. Earnings timing unknown (days_since_last and days_until_next both null) — no blackout risk identified but also no clarity. Watch level $420.00 is a clean round-number breakout trigger above current premarket; invalidation $411.00 gives a buffer below yesterday's close. Conviction capped at 5: two solid TradingView signals but zero premarket volume confirmation, no wiki history, no regime context, no earnings clarity."
+}

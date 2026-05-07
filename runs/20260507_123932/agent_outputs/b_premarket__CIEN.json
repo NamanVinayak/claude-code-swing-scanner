@@ -1,0 +1,11 @@
+{
+  "ticker": "CIEN",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 577.50,
+  "invalidation_level": 566.00,
+  "catalyst_note": "TradingView strong_buy + trending_up signals intact but premarket is printing -1.21% below yesterday's close at $569.80, requiring reclaim of $576.79 close before the breakout thesis confirms.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_strong_buy/tv_trending_up (score 2). Premarket gap is -1.21% against the long direction (close $576.79 → premarket $569.80) — small but directionally adverse. Premarket volume is reported as 0 with 10d avg 0.0 and null volume_ratio, meaning there is no volume confirmation available. Earnings are 28 days out — no blackout concern. New ticker: no wiki setup_history or recent_tldr to draw on; regime slice is bootstrap placeholder with no content. Setup is not broken (gap < 5% adverse) but is weakened by the gap-down open and complete absence of premarket volume data. Watch level set at $577.50 (just above yesterday's close, reclaims the session high); invalidation at $566.00 (below today's premarket low, clears a clean swing low). Conviction held at 4 — visible setup on Stage 1 signals but messy entry picture with adverse gap and zero volume confirmation."
+}

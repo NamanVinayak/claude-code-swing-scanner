@@ -1,0 +1,11 @@
+{
+  "ticker": "DVN",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 45.40,
+  "invalidation_level": 46.74,
+  "catalyst_note": "Bearish episodic pivot signal: stock gapped -2.48% overnight in setup direction, but zero premarket volume offers no momentum confirmation for continuation.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged single signal: bearish_episodic_pivot (score=1). Premarket shows gap down to $45.58 from close of $46.74 (-2.48%), which is directionally consistent with the short thesis but below the 8%+ BEP threshold. Critical red flag: premarket volume=0 with volume_ratio=null — the BEP setup requires 3x+ volume surge to confirm; none is present premarket. No near-term earnings risk (days_until_next=89). New ticker with no wiki history; relying solely on Stage 1 signal and premarket data. Regime context is a bootstrap placeholder — no macro color available. Watch level set at $45.40 (breakdown below premarket price, below current level per short direction convention). Invalidation at $46.74 (yesterday's close — recovery above closes the short thesis). Conviction capped at 4: single weak signal, absent volume confirmation, no historical pattern to draw on, and unknown macro regime."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "ROK",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 461.00,
+  "invalidation_level": 455.00,
+  "catalyst_note": "TradingView breakout-up and trending-up signals intact; premarket holding flat (+0.06%) at $459.61 with no adverse overnight gap, but zero premarket volume data prevents volume-confirmation of the breakout.",
+  "conviction": 5,
+  "notes": "Stage 1 flagged tv_breakout_up and tv_trending_up (score 2). Premarket last_price $459.61 vs close $459.35 — gap is negligible (+0.057%), so the setup has not played out. No failure-mode gap trigger. However, premarket volume=0 and volume_ratio=null — no volume confirmation available, which is a meaningful quality gap for a breakout thesis. Watch level $461.00 is a clean buffer above current premarket price to confirm continuation above the breakout zone. Invalidation $455.00 (~1% below close) guards against a failed-breakout reversal back into range. No wiki setup history (setup_history_tldr is empty, recent_tldr missing) — new ticker to the system; relying solely on Stage 1 signals. Macro regime slice is a bootstrap placeholder and cannot be used to calibrate bias. Earnings 91 days out — no blackout risk. Conviction held at 5 (not higher) due to absent volume data and no wiki/regime context to support the thesis."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "ASML",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 1565.00,
+  "invalidation_level": 1530.00,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up; premarket holding +0.87% above yesterday's close without playing out the breakout, but zero premarket volume data prevents confirming institutional participation.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup_history or recent technicals available; relying solely on Stage 1 signals and premarket price. Gap of +0.87% (close $1,544.74 → premarket $1,558.18) is constructive and within normal range — setup not played out. However, premarket volume = 0 with null volume_ratio, meaning there is no volume confirmation of the move; this is a significant data gap for a breakout thesis. Earnings 69 days out — no near-term event risk. Macro regime context is a bootstrap placeholder with no actionable signal; no macro penalty applied but no tailwind cited either. Watch level set at $1,565 (round resistance above premarket price requiring a definitive push to confirm breakout); invalidation at $1,530 (below prior close, taking out the swing base). Conviction held at 5: signals are legitimate but the absence of premarket volume data and no wiki history limit setup clarity."
+}

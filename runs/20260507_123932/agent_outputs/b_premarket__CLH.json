@@ -1,0 +1,11 @@
+{
+  "ticker": "CLH",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 280.00,
+  "invalidation_level": 289.50,
+  "catalyst_note": "Bearish episodic pivot signal with a modest -2.0% overnight gap down, but zero premarket volume removes any momentum confirmation for continued short-side follow-through.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged single reason: bearish_episodic_pivot (BEP requires sharp episodic drop ≥8% on 3x+ volume — that event is in the past). Premarket last_price=$282.25 (gap_pct=-1.99%), but premarket volume=0 and volume_ratio=null — no evidence of fresh distribution or continued seller pressure. Setup has not fully played out (gap is only 2%), so short thesis remains technically alive, but weak. No wiki history (new_ticker=true); setup_history and recent slices both missing — decision relies entirely on Stage 1 signal and premarket data. Regime context is a bootstrap placeholder, providing no macro color. Watch level $280.00 set below premarket price for breakdown confirmation; invalidation $289.50 set above yesterday's close ($287.98) — if buyers reclaim the prior close, bearish thesis is broken. Conviction held at 4: single Stage 1 reason, no volume confirmation, no wiki precedent."
+}

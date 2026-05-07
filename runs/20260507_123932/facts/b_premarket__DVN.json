@@ -1,0 +1,45 @@
+{
+  "ticker": "DVN",
+  "exchange": "NYSE",
+  "direction": "short",
+  "stage1_score": 1,
+  "stage1_reasons": [
+    "bearish_episodic_pivot"
+  ],
+  "last_regular_close": 46.74,
+  "premarket": {
+    "last_price": 45.58,
+    "overnight_gap_pct": -2.4818,
+    "volume": 0,
+    "avg_volume_10d": 0.0,
+    "volume_ratio": null
+  },
+  "earnings": {
+    "days_since_last": null,
+    "days_until_next": 89
+  },
+  "scanner_universe": {
+    "size": 1529,
+    "scan_timestamp_pt": "2026-05-06T14:10:26-07:00"
+  },
+  "wiki_context": {
+    "slices": {
+      "setup_history_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "recent_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "regime_tldr": {
+        "path": "wiki/macro/regime.md",
+        "mode": "tldr",
+        "content": "_Bootstrap placeholder._",
+        "last_updated": "2026-05-03",
+        "stale": false
+      }
+    },
+    "new_ticker": true
+  }
+}

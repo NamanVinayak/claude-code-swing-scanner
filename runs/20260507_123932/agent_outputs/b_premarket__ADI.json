@@ -1,0 +1,11 @@
+{
+  "ticker": "ADI",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 415.63,
+  "invalidation_level": 410.00,
+  "catalyst_note": "Trend momentum intact via tv_strong_buy and tv_trending_up signals; overnight drift of -0.44% is negligible but setup needs reclamation of prior close ($415.63) to confirm continuation.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup history. Premarket last_price=$413.80, overnight_gap_pct=-0.44% (long direction, gap down, but well under -5% disqualification threshold). Premarket volume=0, volume_ratio=null — zero volume confirmation; cannot assess pre-market demand. Earnings 13 days out, no blackout concern. Regime slice is bootstrap placeholder — not actionable. Watch level set at prior close ($415.63): reclaiming it on open confirms long bias. Invalidation at $410 — round-number support ~1.4% below premarket price. Conviction capped at 5: two solid Stage 1 signals offset by no volume data, no wiki history, and a mildly adverse overnight drift."
+}

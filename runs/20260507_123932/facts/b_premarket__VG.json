@@ -1,0 +1,45 @@
+{
+  "ticker": "VG",
+  "exchange": "NYSE",
+  "direction": "short",
+  "stage1_score": 1,
+  "stage1_reasons": [
+    "sector_laggard_decline"
+  ],
+  "last_regular_close": 12.0,
+  "premarket": {
+    "last_price": 11.84,
+    "overnight_gap_pct": -1.3333,
+    "volume": 0,
+    "avg_volume_10d": 0.0,
+    "volume_ratio": null
+  },
+  "earnings": {
+    "days_since_last": null,
+    "days_until_next": 5
+  },
+  "scanner_universe": {
+    "size": 1529,
+    "scan_timestamp_pt": "2026-05-06T14:10:26-07:00"
+  },
+  "wiki_context": {
+    "slices": {
+      "setup_history_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "recent_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "regime_tldr": {
+        "path": "wiki/macro/regime.md",
+        "mode": "tldr",
+        "content": "_Bootstrap placeholder._",
+        "last_updated": "2026-05-03",
+        "stale": false
+      }
+    },
+    "new_ticker": true
+  }
+}

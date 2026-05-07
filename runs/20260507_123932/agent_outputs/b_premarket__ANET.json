@@ -1,0 +1,11 @@
+{
+  "ticker": "ANET",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 146.50,
+  "invalidation_level": 150.00,
+  "catalyst_note": "Bearish episodic pivot setup (Stage 1 single signal) is intact in structure but weakened by a +1.05% premarket gap up against the short thesis — needs to fade back through $147 close before confirming breakdown.",
+  "conviction": 3,
+  "notes": "Direction is short; premarket gapped UP +1.05% to $148.56 vs $147.01 close — this works against the short thesis (price further from breakdown trigger, not below it). Not >5% so not an automatic no, but gap_pct of +1.05 erodes risk/reward. Premarket volume = 0 (avg_10d = 0.0, volume_ratio null) — no premarket activity confirms or denies the setup; data is essentially absent. Stage1 score = 1 (only reason: bearish_episodic_pivot), which is the minimum threshold; single-signal shorts require cleaner technicals. New ticker — no wiki setup history, no regime data (placeholder). Earnings 89 days out, no near-term earnings risk. Watch level set at $146.50 (below yesterday's close, requiring price to fade the gap and break down through prior close); invalidation at $150.00 (round number, sustained above gap open invalidates thesis). Conviction capped at 3: single-signal short, gap working against direction, zero premarket volume, no historical pattern data, unknown regime."
+}

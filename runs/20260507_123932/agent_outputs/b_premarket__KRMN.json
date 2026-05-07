@@ -1,0 +1,11 @@
+{
+  "ticker": "KRMN",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Single sector_laggard_decline signal with zero premarket volume, an adverse premarket gap up (+0.41%), and earnings in 5 days leave no tradeable short setup this morning.",
+  "conviction": 2,
+  "notes": "Direction is short. Setup disqualified on multiple grounds: (1) Premarket gapped UP +0.41% against the short thesis — price moved from $63.19 close to $63.45, the wrong direction for a short entry. (2) Premarket volume = 0 — no evidence of distribution or selling pressure to validate the breakdown thesis. (3) Earnings in 5 days (days_until_next=5) — entering a short this close to earnings carries asymmetric upside-surprise risk that is incompatible with a clean short setup. (4) Stage 1 score = 1, single reason (sector_laggard_decline) — weakest possible signal basis; no confirming signals. (5) New ticker (wiki_context.new_ticker=true) — no setup history or prior performance data available; rely solely on facts bundle. (6) Regime slice is a bootstrap placeholder — no macro context available. All five factors compound; conviction floored at 2."
+}

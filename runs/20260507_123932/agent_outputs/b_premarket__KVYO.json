@@ -1,0 +1,11 @@
+{
+  "ticker": "KVYO",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 15.88,
+  "invalidation_level": 16.50,
+  "catalyst_note": "Stage 4 momentum breakdown + bearish episodic pivot + sector laggard decline signals intact on daily structure, but a +2.08% premarket gap up works against the short thesis and requires intraday fade confirmation before entry.",
+  "conviction": 4,
+  "notes": "Direction: short. Premarket gapped UP +2.08% to $16.21 vs. close of $15.8797 — gap is against the short thesis. Per rules, gap up against a short = setup weakened (not auto-killed since <5%). Premarket volume reported as 0 with null volume_ratio — no premarket volume confirmation of direction in either case; data gap reduces confidence. All 3 Stage 1 reasons are setup-based short screeners (stage4_momentum_breakdown, bearish_episodic_pivot, sector_laggard_decline), which are daily-structure signals and remain structurally valid unless price rallies through recent resistance. Watch level set at $15.88 (yesterday's close / breakdown retest — short triggers if price fades intraday back below this level). Invalidation set at $16.50 (above premarket high with buffer; a rally through this invalidates the Stage 4 breakdown thesis). New ticker (new_ticker: true) — no setup history, no recent wiki context, no regime detail beyond bootstrap placeholder. Relied solely on Stage 1 signals and premarket price data. Earnings 89 days out — no earnings risk. Conviction capped at 4: gap against thesis + zero premarket volume + no wiki history."
+}

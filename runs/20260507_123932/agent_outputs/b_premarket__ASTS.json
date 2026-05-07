@@ -1,0 +1,11 @@
+{
+  "ticker": "ASTS",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gap of +4.06% against the short direction breaks the bearish thesis before market open.",
+  "conviction": 1,
+  "notes": "Hard invalidation: direction is short, but ASTS gapped UP +4.06% overnight (last_price $73.57 vs close $70.70). Per protocol, a premarket gap UP on a short setup = thesis broken. Stage 1 signal was a single reason (sector_laggard_decline, score=1) — minimal conviction to begin with. Premarket volume reported as 0 (no volume confirmation available). Earnings in 4 days adds near-term uncertainty. New ticker — no wiki setup history to draw on. No watch or invalidation levels set; setup is fully disqualified."
+}

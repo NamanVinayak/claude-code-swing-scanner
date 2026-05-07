@@ -1,0 +1,11 @@
+{
+  "ticker": "NBIS",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 195.52,
+  "invalidation_level": 186.50,
+  "catalyst_note": "TradingView strong_buy + trending_up signals remain the basis; price must reclaim yesterday's close at 195.52 for the breakout to remain actionable.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki setup history, no recent TLDRs, regime context is a bootstrap placeholder (no usable macro signal). Stage1 score=2 (tv_strong_buy, tv_trending_up) — generic signals, no specific breakout pattern. Premarket is gapping DOWN -2.93% from 195.52 to 189.80 against the long direction; this does not breach the >5% auto-break threshold but meaningfully weakens risk/reward. Premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null — zero liquidity confirmation; cannot assess institutional participation or conviction. Earnings 6 days out creates binary risk that will weigh on position sizing. Watch level set at yesterday's close 195.52 (reclaim required for long thesis). Invalidation at 186.50 (~1.7% below current premarket price, below any reasonable gap-fill support). Conviction held at 3: new ticker + no volume data + adverse gap + near-term earnings = insufficient evidence to advance with confidence."
+}

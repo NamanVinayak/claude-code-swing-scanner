@@ -1,0 +1,11 @@
+{
+  "ticker": "LYV",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 168.50,
+  "invalidation_level": 165.32,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up on LYV; no premarket volume confirmation available this morning, so breakout thesis is intact but unverified.",
+  "conviction": 3,
+  "notes": "Premarket data is effectively empty: last_price=167.82 mirrors the regular close exactly, volume=0, avg_volume_10d=0.0, volume_ratio=null — no real premarket feed captured. Cannot confirm gap, volume, or price action this morning. New ticker (wiki_context.new_ticker=true); setup_history and recent slices both missing — no prior setup history to reference. Earnings data unavailable (days_since_last=null, days_until_next=null) so earnings blackout risk cannot be assessed. Regime slice is bootstrap placeholder only. Stage 1 signals (tv_breakout_up, tv_trending_up) are the sole basis for keeping setup_valid=partial rather than no. Watch level set just above close at 168.50 as a breakout confirmation trigger; invalidation at 165.32 (~1.5% below close, no support levels available from facts bundle). Conviction capped at 3 due to data gaps across premarket, wiki, and earnings dimensions."
+}

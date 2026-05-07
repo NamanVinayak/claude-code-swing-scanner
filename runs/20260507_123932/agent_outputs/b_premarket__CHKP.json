@@ -1,0 +1,11 @@
+{
+  "ticker": "CHKP",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 113.50,
+  "invalidation_level": 115.00,
+  "catalyst_note": "Sector laggard fade on CHKP — no event catalyst, purely technical: price below 50-day MA with significant 1-month decline; premarket confirming minor continuation gap of -0.52%.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged single reason: sector_laggard_decline (score=1, minimum threshold). Premarket last_price=113.6725, gap_pct=-0.52% — small gap in the short direction, setup not played out. Critical concern: premarket volume=0, avg_volume_10d=0.0, volume_ratio=null — zero premarket participation provides no conviction for a momentum short entry. New ticker (wiki new_ticker=true, all wiki slices missing); regime slice is a bootstrap placeholder dated 2026-05-03 — no usable macro context. Earnings are 91 days out, no near-term event risk. Watch level set at 113.50 (just below premarket price, confirming intraday breakdown); invalidation at 115.00 (reclaim above yesterday's close at 114.27 negates the short thesis). Single-reason signal + zero premarket volume = low-conviction setup; Stage 3 should likely pass unless fundamentals support the laggard thesis more strongly."
+}

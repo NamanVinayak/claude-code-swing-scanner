@@ -1,0 +1,11 @@
+{
+  "ticker": "RRX",
+  "setup_valid": "no",
+  "direction": "long",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Overnight gap of -4.05% against the long direction has negated the tv_breakout_up thesis — price is ~$9.38 below yesterday's close with zero premarket volume, offering no confirmation of the original breakout setup.",
+  "conviction": 2,
+  "notes": "Stage 1 flagged tv_breakout_up + tv_trending_up on a $231.37 close. Premarket price is $221.99, a -4.05% gap DOWN against the long setup. While this falls just below the automatic 5% threshold, a breakout long setup that gaps down ~4% overnight has lost its directional confirmation — the breakout level is now above current price, not below. Premarket volume is 0 (avg_volume_10d also 0.0; volume_ratio null), so there is no price discovery to assess whether this is a temporary gap or sustained selling. No earnings risk (days_until_next=89, days_since_last=null). New ticker — no wiki setup history or regime context (regime.md is bootstrap placeholder). Dropping: setup invalidated by adverse gap with no volume confirmation."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "RY",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 182.50,
+  "invalidation_level": 180.00,
+  "catalyst_note": "Trending up on TradingView strong_buy + trending_up signals; price essentially flat overnight (+0.03%) preserving the setup, but zero premarket volume provides no confirmation of follow-through.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup_history or recent_tldr. Regime context is a bootstrap placeholder; no macro signal available. Stage 1 score of 2 (tv_strong_buy + tv_trending_up) is directionally clean for long. Premarket gap is negligible (+0.03%, ~$0.05 above close of $181.63) — setup not blown out. However, premarket volume = 0 with volume_ratio null: no buying pressure confirmation premarket. RY is a large-cap Canadian bank (NYSE-listed); thin pre-market is common but still removes a key confirmation layer. Earnings 21 days out — no near-term event risk. Watch level $182.50 = modest breakout above open-session early resistance; invalidation $180.00 = round-number support roughly 1% below close. Conviction capped at 4: modest stage1 score, zero premarket volume, no wiki history, no regime context to lean on."
+}

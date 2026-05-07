@@ -1,0 +1,11 @@
+{
+  "ticker": "TSLX",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 17.75,
+  "invalidation_level": 18.20,
+  "catalyst_note": "Stage 4 momentum breakdown + bearish episodic pivot signals point to distribution phase, but zero premarket volume gives no confirmation of continued selling pressure.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki history. Regime context is empty bootstrap placeholder; no macro backdrop available. Premarket: last_price=$17.92 vs close=$17.91 (gap=+0.06%, effectively flat) — gap does not break short thesis. Critical issue: premarket volume=0, avg_volume_10d=0.0, volume_ratio=null. Zero premarket activity means no demand/supply read and no confirmation of breakdown continuation. TSLX is a BDC (~$18/share) — structurally low-volatility, low-liquidity; stage4_momentum_breakdown and bearish_episodic_pivot are valid setup types but require volume confirmation to trade. Earnings 83 days out — no near-term event risk. Watch level $17.75 = intraday breakdown below yesterday's close support zone. Invalidation $18.20 = ~1.6% above close, rally through round number reverses breakdown thesis. Conviction capped at 3: new ticker + zero premarket volume + no regime context = insufficient confirmation to advance confidently to Stage 3."
+}

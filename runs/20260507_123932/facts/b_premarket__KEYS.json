@@ -1,0 +1,46 @@
+{
+  "ticker": "KEYS",
+  "exchange": "NYSE",
+  "direction": "long",
+  "stage1_score": 2,
+  "stage1_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "last_regular_close": 366.68,
+  "premarket": {
+    "last_price": 366.95,
+    "overnight_gap_pct": 0.0736,
+    "volume": 0,
+    "avg_volume_10d": 0.0,
+    "volume_ratio": null
+  },
+  "earnings": {
+    "days_since_last": null,
+    "days_until_next": 12
+  },
+  "scanner_universe": {
+    "size": 1529,
+    "scan_timestamp_pt": "2026-05-06T14:10:26-07:00"
+  },
+  "wiki_context": {
+    "slices": {
+      "setup_history_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "recent_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "regime_tldr": {
+        "path": "wiki/macro/regime.md",
+        "mode": "tldr",
+        "content": "_Bootstrap placeholder._",
+        "last_updated": "2026-05-03",
+        "stale": false
+      }
+    },
+    "new_ticker": true
+  }
+}

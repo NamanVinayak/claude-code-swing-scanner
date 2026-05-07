@@ -1,0 +1,11 @@
+{
+  "ticker": "TECH",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 46.80,
+  "invalidation_level": 48.50,
+  "catalyst_note": "Stage 4 momentum breakdown + bearish episodic pivot signals intact; tiny premarket gap up (+0.45%) does not breach the short thesis but reduces initial risk-reward slightly until price re-tests the breakdown level.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged stage4_momentum_breakdown and bearish_episodic_pivot (Stockbee BEP pattern — sharp prior drop on 3x+ volume). Last close $47.405; premarket last_price $47.62 (+0.45% gap UP). For a short, a gap up is against setup direction but at <0.5% this is well below the 5% disqualifier threshold — setup is weakened, not broken. Premarket volume = 0 (volume_ratio null) — no volume confirmation of either direction in pre-market. Earnings risk is low: days_until_next = 90. New ticker (wiki_context.new_ticker = true) — no setup history or recent technicals to draw on; relying solely on Stage 1 signals. Regime context is a bootstrap placeholder — macro tailwind/headwind unknown. Conviction held at 4: setup patterns are technically valid but thin evidence base (no wiki, no premarket volume, no macro read). Watch level set below close at $46.80 (breakdown confirmation below the prior session support zone); invalidation at $48.50 (rally through premarket high plus buffer would negate bearish momentum thesis)."
+}

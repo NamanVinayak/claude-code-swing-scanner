@@ -1,0 +1,11 @@
+{
+  "ticker": "FTAI",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 285.56,
+  "invalidation_level": 279.50,
+  "catalyst_note": "TradingView flags both tv_strong_buy and tv_breakout_up on FTAI; price is holding within 0.6% of yesterday's close premarket with no adverse gap, but zero premarket volume provides no confirmation of continued breakout momentum.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup history; relying solely on Stage 1 signals and premarket data. Stage 1 flagged tv_strong_buy + tv_breakout_up (score: 2). Overnight gap is -0.63% (last_price $283.76 vs close $285.56) — minor pullback, not a thesis-breaker for a long breakout. Premarket volume = 0 (volume_ratio null) — no institutional premarket conviction visible; reduces confidence that breakout is live. Setup type confirmed as breakout: watch_level set at yesterday's close $285.56 (reclaim and hold triggers long); invalidation set at $279.50 (~2.1% below premarket price, below where a clean breakout base would fail). Earnings 82 days out — no event risk. Macro regime slice is a bootstrap placeholder with no usable signal; no conviction adjustment applied. Setup rated partial because premarket price dipped below close with zero volume support; may resolve at open if price reclaims $285.56 with volume."
+}

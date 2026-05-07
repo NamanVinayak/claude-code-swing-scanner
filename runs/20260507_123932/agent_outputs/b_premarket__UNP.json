@@ -1,0 +1,11 @@
+{
+  "ticker": "UNP",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 270.00,
+  "invalidation_level": 265.00,
+  "catalyst_note": "Trending momentum setup flagged by tv_strong_buy and tv_trending_up; flat overnight hold (+0.28%) preserves the setup but premarket volume data is unavailable, limiting confirmation.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup history or recent technicals. Regime context is a bootstrap placeholder (no macro color). Stage 1 score is 2 (tv_strong_buy + tv_trending_up), which supports a trending long. Premarket gap of +0.28% is negligible — setup not played out. However, premarket volume shows 0 with 0.0 avg_volume_10d and null volume_ratio, which is almost certainly a data fetch artifact on a large-cap NYSE name (UNP trades actively), not true zero volume — but it cannot be confirmed, so it cannot contribute positively to conviction. Earnings are 77 days out, no near-term event risk. Watch level $270.00 is a clean round-number breakout above current premarket price; invalidation $265.00 is ~1.2% below last close, consistent with a trending-stock tight stop. Conviction capped at 5 due to: no volume confirmation (data gap), no wiki history, no macro regime signal, and stage1_score of only 2."
+}

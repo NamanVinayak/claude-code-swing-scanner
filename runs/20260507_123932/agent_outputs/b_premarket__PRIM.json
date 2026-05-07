@@ -1,0 +1,11 @@
+{
+  "ticker": "PRIM",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 101.50,
+  "invalidation_level": 104.50,
+  "catalyst_note": "Bearish episodic pivot + sector laggard decline setup; premarket drifted -0.69% in setup direction but zero volume data prevents confirmation of continued distribution.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged bearish_episodic_pivot and sector_laggard_decline (score: 2). Premarket at $102.29 vs close $103.00 — gap of -0.69%, consistent with short direction but too small to indicate the move played out. Critical weakness: premarket volume = 0, avg_volume_10d = 0.0, volume_ratio = null — no volume confirmation available at all. Bearish episodic pivot thesis requires volume expansion on continuation; we can't verify that pre-market. New ticker (wiki_context.new_ticker=true), no setup_history or recent TLDRs available — relying solely on Stage 1 signals. Regime wiki is a bootstrap placeholder (no macro signal). Earnings not a near-term concern (days_until_next=88). Watch level set at $101.50 (below premarket low, confirms breakdown); invalidation at $104.50 (recovery above yesterday's close busts bearish pivot thesis). Conviction held at 4: setup structurally present but premarket volume blackout and no wiki context prevent higher confidence."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "VEEV",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Stage4 momentum breakdown signal is structurally valid but premarket has gapped UP +1.80% against the short thesis with zero premarket volume confirming the move, removing tradeable entry clarity.",
+  "conviction": 2,
+  "notes": "Direction: short. Stage1 had a single signal (stage4_momentum_breakdown, score=1 — bare minimum). Premarket last_price=$170.11 vs. close of $167.11 — gap of +1.80% AGAINST the short direction. Per direction-aware rules, any gap up against a short thesis weakens the setup; at 1.80% it does not hit the hard >5% threshold but combined with (1) only 1 weak signal, (2) zero premarket volume (volume=0, volume_ratio=null — no flow confirmation), (3) new_ticker=true with no wiki history or setup_history_tldr to corroborate prior behavior, and (4) regime_tldr is a bootstrap placeholder with no actionable macro read — the setup has no conviction basis. Watch and invalidation levels cannot be responsibly set without reliable premarket price action or volume. Dropping to setup_valid=no."
+}

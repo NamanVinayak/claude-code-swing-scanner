@@ -1,0 +1,11 @@
+{
+  "ticker": "DOV",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 228.00,
+  "invalidation_level": 224.50,
+  "catalyst_note": "TradingView strong_buy + trending_up signals flag DOV as a continuation breakout candidate, with overnight price flat at $227.04 — setup intact but zero premarket volume data prevents confirming institutional follow-through.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Last close $227.18; premarket last_price $227.04 (gap -0.06% — essentially flat, no direction-against trigger). Premarket volume = 0 with null volume_ratio — no confirmation of buying interest this morning; this is a material data gap that caps conviction. No earnings risk (days_until_next = 77). New ticker (wiki_context.new_ticker = true): setup_history and recent TL;DR both missing — relying solely on Stage 1 signals and premarket price. Macro regime slice is a bootstrap placeholder with no usable content. Watch level $228.00 set above yesterday's close to require a confirmed upward move before entry; invalidation $224.50 is a ~1.2% structural support break below close. Setup rated partial rather than yes because the absence of any premarket volume leaves the morning momentum unconfirmed — Stage 3 should weight recent-news and intraday action heavily before committing."
+}

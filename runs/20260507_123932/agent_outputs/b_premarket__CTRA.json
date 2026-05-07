@@ -1,0 +1,11 @@
+{
+  "ticker": "CTRA",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "No actionable premarket data available and earnings report due in 1 day, triggering the 3-day earnings blackout — setup cannot be evaluated or traded.",
+  "conviction": 1,
+  "notes": "Two independent disqualifiers. (1) Data unavailable: premarket.last_price=null, overnight_gap_pct=null, volume=null, avg_volume_10d=0.0 — no fresh price data exists to assess whether the bearish_episodic_pivot setup from Stage 1 is still intact. Cannot set watch or invalidation levels without a current price. (2) Earnings blackout: days_until_next=1, which is within the 3-day blackout window — Stage 2 rule requires drop. No wiki history (new_ticker=true); regime context is bootstrap placeholder only. Stage 1 score was weak (1 reason: bearish_episodic_pivot). Drop CTRA; do not advance to Stage 3."
+}

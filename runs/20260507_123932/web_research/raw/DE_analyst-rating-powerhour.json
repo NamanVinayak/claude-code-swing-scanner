@@ -1,0 +1,30 @@
+{
+  "query": "DE stock 2026-05-07 analyst rating",
+  "fetched_at": "2026-05-07T20:00:00Z",
+  "results": [
+    {"title": "DE Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/de/forecast-price-target"},
+    {"title": "DE Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/DE"},
+    {"title": "Deere & Company (DE) Stock Forecast & Analyst Price Targets", "url": "https://stockanalysis.com/stocks/de/forecast/"},
+    {"title": "DE / Deere & Company (NYSE) - Forecast, Price Target, Estimates, Predictions", "url": "https://fintel.io/sfo/us/de"},
+    {"title": "Deere & Company (DE) Stock Forecast and Price Target 2026 $DE", "url": "https://www.marketbeat.com/stocks/NYSE/DE/forecast/"},
+    {"title": "DE Analyst Ratings for Deere & Company Stock - Barchart.com", "url": "https://www.barchart.com/stocks/quotes/de/analyst-ratings"},
+    {"title": "Deere&Company (DE) Stock Forecast & Price Target", "url": "https://www.investing.com/equities/deere---co-consensus-estimates"},
+    {"title": "Deere & Co Stock Forecast & Predictions: 1Y Price Target $653.73 | Buy or Sell NYSE: DE 2026 | WallStreetZen", "url": "https://www.wallstreetzen.com/stocks/us/nyse/de/stock-forecast"},
+    {"title": "Deere & Company (DE) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/DE/"},
+    {"title": "Deere & Company (DE) Stock Price & Overview", "url": "https://stockanalysis.com/stocks/de/"}
+  ],
+  "extracted_findings": {
+    "consensus_rating": "Buy",
+    "as_of": "2026-05-06",
+    "analyst_breakdown_v1": "23 analysts: 13 Buy / 0 Sell / 11 Hold (note: numbers don't sum exactly per source-reporting)",
+    "analyst_breakdown_v2": "15 analysts: 6 Strong Buy (40%) / 2 Buy (13.33%) / 7 Hold (46.67%)",
+    "price_targets": {
+      "wall_street_avg": 636.82,
+      "stockanalysis_18_analyst_avg": 618.11,
+      "marketbeat_23_analyst_avg": 665.10,
+      "high": 793.0,
+      "low": 500.0,
+      "wallstreetzen_1y_target": 653.73
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "ticker": "TSM",
-  "researched_at": "2026-05-07T19:45:00Z",
+  "researched_at": "2026-05-07T20:00:00Z",
   "news_items": [
     {
       "headline": "TSMC stock surges +6% to fresh 52-week high after AMD Q1 blowout earnings",
@@ -21,7 +21,14 @@
       "url": "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html",
       "date": "2026-05-05",
       "sentiment": "positive",
-      "summary": "TSMC said 2nm chip capacity will grow at a 70% CAGR from 2026 through 2028, with 5 fabs (2 in Hsinchu, 3 in Kaohsiung) entering volume production this year. CEO C.C. Wei reiterated capex at upper end of $52-56B."
+      "summary": "TSMC said 2nm chip capacity will grow at a 70% CAGR from 2026 through 2028, with 5 fabs entering volume production this year. CEO C.C. Wei reiterated capex at upper end of $52-56B."
+    },
+    {
+      "headline": "TSMC Stock Jumps as AMD's AI Surge Puts TSMC Capacity in Focus",
+      "url": "https://ts2.tech/en/taiwan-semiconductor-manufacturing-company-stock-jumps-as-amds-ai-surge-puts-tsmc-capacity-in-focus/",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Coverage centers on AMD demand translating directly into incremental TSMC fab utilization for AI accelerators and server CPUs; TSMC capacity reiterated as the binding constraint for the AI buildout."
     },
     {
       "headline": "Equitable Trust Co. Buys 5,326 Shares of Taiwan Semiconductor Manufacturing Company Ltd.",
@@ -36,21 +43,31 @@
       "date": "2026-05-06",
       "sentiment": "neutral",
       "summary": "TSMC Global subsidiary disclosed a $42.3M fixed-income securities purchase. Treasury management, no operating impact."
+    },
+    {
+      "headline": "Apple in initial talks with Intel and Samsung on device processors",
+      "url": "https://ts2.tech/en/taiwan-semiconductor-manufacturing-company-stock-jumps-as-amds-ai-surge-puts-tsmc-capacity-in-focus/",
+      "date": "2026-05-06",
+      "sentiment": "negative",
+      "summary": "Bloomberg report: Apple has had initial talks with Intel and Samsung about manufacturing its main device processors; nothing has been ordered. Headline-only risk to TSMC's Apple share if multi-sourcing eventually happens."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 416.67,
-    "recent_changes": "Per TipRanks, current month shows 13 Buy / 2 Hold / 0 Sell ratings; Buy consensus reaffirmed as of 2026-05-06 across 6 analysts. Price target $416.67 implies ~0% upside from current price after this week's rally."
+    "recent_changes": "Per public.com / TipRanks, Buy consensus reaffirmed as of 2026-05-06 across 6 analysts; current month shows 13 Buy / 2 Hold / 0 Sell. Avg PT $416.67 (~flat to current $418); 3-month avg PT ~$465.00. No specific upgrades or downgrades surfaced in the last 7 days."
   },
   "earnings_context": {
     "next_earnings_date": "2026-07-17",
     "days_until_next": 71,
-    "notes": "Last reported Q1 2026 on 2026-04-16 (already priced in): profit +58% YoY, beat estimates; full-year 2026 revenue guidance >30% YoY USD growth; HPC segment 61% of Q1 revenue (up from 55%). Street expects continued AI-driven gross margin expansion and capacity-constrained ramp into Q2."
+    "notes": "Last reported Q1 2026 on 2026-04-16 (already priced in): profit +58% YoY, revenue NT$1.134T vs NT$1.127T expected; full-year 2026 revenue guidance >30% YoY USD growth; capex 2026 raised to $52-56B (+up to 37%). Street expects capacity-constrained AI-driven ramp into Q2."
   },
   "raw_search_files": [
     "TSM_news-this-week.json",
     "TSM_analyst-rating.json",
-    "TSM_earnings-catalyst.json"
+    "TSM_earnings-catalyst.json",
+    "TSM_powerhour-news-this-week.json",
+    "TSM_powerhour-analyst-rating.json",
+    "TSM_powerhour-earnings-catalyst.json"
   ]
 }

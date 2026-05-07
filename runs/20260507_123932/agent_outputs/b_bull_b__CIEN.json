@@ -3,24 +3,24 @@
   "setup_direction": "long",
   "bull_strength": 7,
   "entry_zone": {"low": 577.50, "high": 583.78},
-  "target": 624.07,
-  "stop": 558.87,
-  "expected_holding_days": 7,
+  "target": 623.64,
+  "stop": 559.13,
+  "expected_holding_days": 10,
   "top_3_arguments": [
-    "Stifel raised PT to $585 from $430 on 2026-05-06 (Buy maintained) on AI infrastructure demand (investing.com); analyst_consensus_web shows sector-wide upgrades after OFC 2026 with 11 Buy / 5 Hold / 1 Sell coverage — fresh catalyst <2 days old confirms institutional re-rating in progress.",
-    "Customer-win catalyst stack: Vodafone Idea deployed Ciena's WaveLogic 6 Extreme on 2026-05-04 (stocktitan), Danske Bank A/S accumulated 35,000 shares on 2026-05-05 (marketbeat 13F filing), and TipRanks framed CIEN as a technical breakout backed by AI optical demand on 2026-05-05 — three independent positive catalysts inside the 7-day window.",
-    "Trend + breakout math intact: daily ema_aligned_uptrend=true, adx_14=33.4 (strong) with plus_di 32.14 vs minus_di 16.28, MACD bullish_crossover=true (histogram +2.05), pct_b=1.13 (closing above upper band), roc_5d=21.33%, volume_bias_10d=up, OBV trend up. Earnings 2026-06-04 is 28 days out (no near-term blackout). R:R from entry mid 580.64 to target 624.07 (+43.43) vs stop 558.87 (-21.77) = 2.0:1 — meets minimum threshold."
+    "Fresh sell-side re-rating stack inside the 7-day window: Stifel raised PT to $585 from $430 on 2026-05-05 (Buy reiterated, AI infrastructure / optical networking demand) and BofA raised PT to $550 on 2026-05-05 (Buy) citing backlog +$2B to $7B tied to hyperscaler capex acceleration. analyst_consensus_web shows 11 Buy / 5 Hold / 1 Sell with high-end PTs above the consensus average $354.01 — institutional re-rating in motion ahead of the 2026-06-04 print.",
+    "Customer-win + institutional accumulation in the same window: Vodafone Idea WaveLogic 6 Extreme deployment announced 2026-05-04 supports the AI/optical growth narrative; Danske Bank A/S filed accumulation of 35,000 CIEN shares on 2026-05-05; CEO 2,952-share sale on 2026-05-05 was a pre-arranged 10b5-1 plan (programmatic, not a signal). Trefis (2026-05-06) confirms the 5-day winning streak with stock breaking out near 52-week highs.",
+    "Technicals corroborate the catalyst case: daily adx_14=33.4 with plus_di 32.14 vs minus_di 16.28 (strong directional uptrend), MACD bullish_crossover=true with histogram +2.05, ema_aligned_uptrend=true, momentum.roc_5d=+21.33, volume.volume_bias_10d=up with OBV trend up. earnings.days_until_next=28 — outside the 3-day forward blackout, leaving a clean window into the June 4 Q2 print where Street expects beat-and-raise. R:R from entry mid 580.64 to target 623.64 = +43.00 vs stop 559.13 = -21.51 → 2.0:1 (meets minimum)."
   ],
   "risks_acknowledged": [
-    "Daily rsi_7=75.95 and rsi_14=70.6 are overbought, and rsi_divergence.bearish=true on 60-bar lookback — momentum exhaustion risk into the breakout.",
-    "Premarket -1.21% to $569.80 (catalyst_note) means the $577.50 reclaim has not yet confirmed; entering before reclaim invalidates the breakout thesis.",
-    "Simplywall.st (2026-05-05) flagged valuation stretch and insider-selling scrutiny; CEO sold 2,952 shares on 2026-05-05 under a 10b5-1 plan — programmatic but adds to optics. Stock is +57% above 50-SMA (z_score_50=1.94), so any AI-narrative wobble snaps back hard.",
-    "Wiki context flags new_ticker=true with all slices missing — no prior thesis/technicals memory to corroborate, lowering conviction floor."
+    "Daily rsi_7=75.95, rsi_14=70.6 with rsi_divergence.bearish=true on 60-bar lookback and bollinger.pct_b=1.13 (closing above the upper band) — extension/exhaustion risk; z_score_50=1.94 means a single mean-reversion bar can erase 5%+ of price.",
+    "Hourly tape is weaker than daily: hourly MACD histogram -4.09 (no bullish crossover), hourly rsi_21=43.4, price below hourly EMA_24/SMA_24 and EMA_48/SMA_48; current_price in hourly bundle (520.13) and catalyst_note premarket -1.21% indicate the $577.50 reclaim has not yet confirmed — entering before reclaim invalidates the breakout thesis.",
+    "Two of the three sell-side PT bumps may already be substantially priced in given the daily roc_5d of +21.33%; chasing the breakout above $577.50 carries buy-the-news risk if the June 4 print disappoints.",
+    "wiki_context.new_ticker=true with thesis_full / catalysts_full / technicals_full all missing — no prior memory to corroborate setup history for CIEN, raising idiosyncratic risk."
   ],
   "web_sources_last_7d": [
     "https://www.investing.com/news/analyst-ratings/stifel-raises-ciena-stock-price-target-to-585-on-ai-infrastructure-demand-93CH-4659830",
     "https://www.trefis.com/articles/598422/ciena-stock-on-fire-up-15-with-5-day-winning-streak/2026-05-06",
-    "https://simplywall.st/stocks/us/tech/nyse-cien/ciena/news/why-ciena-cien-is-up-57-after-ai-fueled-cloud-demand-sparks",
+    "https://www.marketbeat.com/stocks/NYSE/CIEN/",
     "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-purchases-35000-shares-of-ciena-corporation-cien-2026-05-05/",
     "https://www.tipranks.com/news/catalyst/why-cienas-stock-is-breaking-out-higher-now",
     "https://www.stocktitan.net/news/CIEN/"

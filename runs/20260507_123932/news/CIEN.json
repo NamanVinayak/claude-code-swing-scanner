@@ -1,34 +1,34 @@
 {
   "ticker": "CIEN",
-  "researched_at": "2026-05-07T19:46:30Z",
+  "researched_at": "2026-05-07T19:55:30Z",
   "news_items": [
     {
       "headline": "Stifel raises Ciena stock price target to $585 on AI infrastructure demand",
       "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-ciena-stock-price-target-to-585-on-ai-infrastructure-demand-93CH-4659830",
-      "date": "2026-05-06",
+      "date": "2026-05-05",
       "sentiment": "positive",
-      "summary": "Stifel raised CIEN price target to $585 from $430, maintaining Buy. Sector-wide upgrade across optical networking after OFC 2026; expects beat-and-raise earnings into mid-2026."
+      "summary": "Stifel raised CIEN price target to $585 from $430, maintained Buy. Cited optical networking demand from AI infrastructure buildout; expects beat-and-raise earnings reports into mid-CY2026 across optical group."
     },
     {
       "headline": "Ciena Stock On Fire: Up 15% With 5-Day Winning Streak",
       "url": "https://www.trefis.com/articles/598422/ciena-stock-on-fire-up-15-with-5-day-winning-streak/2026-05-06",
       "date": "2026-05-06",
       "sentiment": "positive",
-      "summary": "CIEN up ~15% over a 5-day winning streak, trading near $550 (52-week high) on AI optical networking demand from hyperscalers."
+      "summary": "CIEN up ~15% over a 5-day winning streak, trading near $550 (near 52-week high). Driver cited as AI-led optical networking demand from hyperscalers."
     },
     {
-      "headline": "Why Ciena (CIEN) Is Up 5.7% After AI-Fueled Cloud Demand Sparks Valuation And Insider Scrutiny",
-      "url": "https://simplywall.st/stocks/us/tech/nyse-cien/ciena/news/why-ciena-cien-is-up-57-after-ai-fueled-cloud-demand-sparks",
+      "headline": "BofA raises Ciena price target to $550 on backlog growth",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CIEN/",
       "date": "2026-05-05",
-      "sentiment": "neutral",
-      "summary": "Shares up 5.7% on AI cloud demand narrative. Note flags valuation stretch and insider-selling scrutiny as offsetting concerns."
+      "sentiment": "positive",
+      "summary": "BofA Securities raised PT to $550, maintained Buy, citing backlog +$2B to $7B total tied to anticipated hyperscaler capex acceleration."
     },
     {
       "headline": "Danske Bank A/S purchases 35,000 shares of Ciena Corporation",
       "url": "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-purchases-35000-shares-of-ciena-corporation-cien-2026-05-05/",
       "date": "2026-05-05",
       "sentiment": "positive",
-      "summary": "Institutional 13F-style filing shows Danske Bank A/S accumulated 35,000 CIEN shares."
+      "summary": "Institutional filing shows Danske Bank A/S accumulated 35,000 CIEN shares."
     },
     {
       "headline": "Ciena CEO sells 2,952 shares in Rule 10b5-1 trade",
@@ -42,29 +42,36 @@
       "url": "https://www.tipranks.com/news/catalyst/why-cienas-stock-is-breaking-out-higher-now",
       "date": "2026-05-05",
       "sentiment": "positive",
-      "summary": "TipRanks catalyst note frames CIEN as a technical breakout backed by AI optical demand and analyst upgrades."
+      "summary": "TipRanks catalyst note frames CIEN as a technical breakout backed by AI optical demand and recent analyst upgrades."
     },
     {
       "headline": "Vodafone Idea deploys Ciena's WaveLogic 6 Extreme",
       "url": "https://www.stocktitan.net/news/CIEN/",
       "date": "2026-05-04",
       "sentiment": "positive",
-      "summary": "Vodafone Idea announced deployment of Ciena's WaveLogic 6 Extreme coherent optics — customer win supporting growth narrative."
+      "summary": "Vodafone Idea announced deployment of Ciena's WaveLogic 6 Extreme coherent optics platform — customer win supporting the growth narrative."
+    },
+    {
+      "headline": "Ciena demonstrates quantum secure communications with Quantum Computing Inc. at OFC 2026",
+      "url": "https://www.stocktitan.net/news/CIEN/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Joint demo of quantum-secure communications technology at OFC 2026 conference, positioning CIEN against future cybersecurity threats in optical transport."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 354.01,
-    "recent_changes": "Stifel raised PT to $585 from $430 on 2026-05-06 (Buy maintained); sector-wide upgrades across optical networking after OFC 2026. Average PT was revised up to $354.01 from $261.07 (prior 2026-02-21 baseline). 14-16 analysts cover; 11 Buy / 5 Hold / 1 Sell."
+    "recent_changes": "Stifel raised PT to $585 from $430 (Buy maintained, 2026-05-05); BofA raised PT to $550 (Buy, 2026-05-05) on backlog growth. Average 1Y PT revised to $354.01 (+35.6% vs prior). 14 analysts cover with consensus Buy (11 Buy / 5 Hold / 1 Sell). Range $242.40-$493.50 (high-end PTs from Stifel/BofA exceed top of consensus range)."
   },
   "earnings_context": {
     "next_earnings_date": "2026-06-04",
     "days_until_next": 28,
-    "notes": "Q2 FY26 results scheduled June 4. Street expects beat-and-raise driven by AI-led cloud orders and large AI optical backlog (Hyper-Rail + DCOM expansion cited as multi-year drivers). Key risk: valuation has run ahead of confirmed orders."
+    "notes": "Q2 FY2026 results scheduled June 4, 2026. Street expects beat-and-raise driven by AI-led cloud orders; backlog grew +$2B to $7B. Multi-year drivers cited: Hyper-Rail and DCOM expansion. Recent Q1 FY2026 was a blowout with raised full-year revenue guide. Outside the 3-day forward-earnings blackout window."
   },
   "raw_search_files": [
-    "CIEN_news-this-week.json",
-    "CIEN_analyst-rating.json",
-    "CIEN_earnings-catalyst.json"
+    "CIEN_powerhour-news-this-week.json",
+    "CIEN_powerhour-analyst-rating.json",
+    "CIEN_powerhour-earnings-catalyst.json"
   ]
 }

@@ -65,5 +65,68 @@
         "reason": "single_position_cap_exceeded"
       }
     ]
+  },
+  {
+    "decided_at": "2026-05-07T18:50:11+00:00",
+    "approved": [
+      "TLN"
+    ],
+    "judge_approved_count": 6,
+    "writer_rejected": [
+      {
+        "ticker": "ADI",
+        "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 (direction consensus): all 4 perspectives echo setup_direction=long. Gate 1 (budget): can_open_new_position=true, current_phase=full. Gate 2 (expected return): p_bull = b_bull_a.bull_strength/(b_bull_a.bull_strength + b_bear_a.bear_strength) = 6/(6+7) = 0.4615; p_catalyst = b_bull_b.bull_strength/(b_bull_b.bull_strength + b_bear_b.bear_strength) = 7/(7+7) = 0.500; combined_p_bull = 0.4808. entry = (415.63 + 416.50)/2 = 416.065; target = min(b_bull_a.target=440, b_bull_b.target=430) = 430.00; stop = max(b_bull_a.stop=410.00, b_bull_b.stop=409.50) = 410.00. expected_return_per_share = 0.4808*(430 - 416.065) - 0.5192*(416.065 - 410) = 0.4808*13.935 - 0.5192*6.065 = 6.700 - 3.149 = +$3.55/share, PASS. Gate 3: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = |416.065 - 410.00| = $6.065; quantity = floor(250/6.065) = 41. Gate 4: notional = 41*416.065 = $17,058.66 vs single_cap = 25000*0.15 = $3,750 \u2014 fails standard. Small_scaled path: extended_cap = 25000*0.20 = $5,000; M = floor(5000/416.065) = 12; risk_M = 12*6.065 = $72.78; risk_dollars_floor = 0.40*$250 = $100. risk_M ($72.78) < risk_dollars_floor ($100) \u2014 uses only 29% of risk budget, below 40% floor. Small_scaled rejected. The trade has positive edge but $416/share collides with the $25k account at Gate 4 concentration discipline."
+      },
+      {
+        "ticker": "ASML",
+        "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 (direction consensus 'long' across all 4 perspectives) PASS. Gate 1 (risk_budget.can_open_new_position=true, phase=full) PASS. Gate 2 expected return: p_bull_tech=7/(7+7)=0.500, p_bull_cat=7/(7+6)=0.538, combined_p_bull=0.519; entry=(1545+1565)/2=1555.00; target=min(1627,1627)=1627.00; stop=max(1528,1530)=1530.00; expected_return_per_share = 0.519*(1627-1555) - 0.481*(1555-1530) = +37.37 - 12.03 = +$25.34/share PASS. Gate 3 sizing: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = abs(1555-1530) = $25; quantity = floor(250/25) = 10 shares PASS. Gate 4 single-position cap FAILS: notional = 1555*10 = $15,550 > 15% cap ($3,750); small_scaled path: M = floor(5000/1555) = 3 shares, risk_M = 3*25 = $75, risk_dollars_floor = 0.40*250 = $100; risk_M ($75) < floor ($100), so the small_scaled exception cannot fit either. Even at max allowed 3 shares under the 20% extended cap, only 30% of the risk budget is used (below the 40% floor). ASML at ~$1,555/share is too high-priced for a $25k account to size meaningfully under current capital rules."
+      },
+      {
+        "ticker": "DE",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "TSM",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "CIEN",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$150.00 > available=$76.00)"
+      },
+      {
+        "ticker": "FTAI",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$120.19 > available=$76.00)"
+      },
+      {
+        "ticker": "ROK",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$104.20 > available=$76.00)"
+      },
+      {
+        "ticker": "UNP",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$112.50 > available=$76.00)"
+      },
+      {
+        "ticker": "VRT",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$136.50 > available=$76.00)"
+      }
+    ],
+    "judge_rejected": [
+      {
+        "ticker": "ADI",
+        "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 (direction consensus): all 4 perspectives echo setup_direction=long. Gate 1 (budget): can_open_new_position=true, current_phase=full. Gate 2 (expected return): p_bull = b_bull_a.bull_strength/(b_bull_a.bull_strength + b_bear_a.bear_strength) = 6/(6+7) = 0.4615; p_catalyst = b_bull_b.bull_strength/(b_bull_b.bull_strength + b_bear_b.bear_strength) = 7/(7+7) = 0.500; combined_p_bull = 0.4808. entry = (415.63 + 416.50)/2 = 416.065; target = min(b_bull_a.target=440, b_bull_b.target=430) = 430.00; stop = max(b_bull_a.stop=410.00, b_bull_b.stop=409.50) = 410.00. expected_return_per_share = 0.4808*(430 - 416.065) - 0.5192*(416.065 - 410) = 0.4808*13.935 - 0.5192*6.065 = 6.700 - 3.149 = +$3.55/share, PASS. Gate 3: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = |416.065 - 410.00| = $6.065; quantity = floor(250/6.065) = 41. Gate 4: notional = 41*416.065 = $17,058.66 vs single_cap = 25000*0.15 = $3,750 \u2014 fails standard. Small_scaled path: extended_cap = 25000*0.20 = $5,000; M = floor(5000/416.065) = 12; risk_M = 12*6.065 = $72.78; risk_dollars_floor = 0.40*$250 = $100. risk_M ($72.78) < risk_dollars_floor ($100) \u2014 uses only 29% of risk budget, below 40% floor. Small_scaled rejected. The trade has positive edge but $416/share collides with the $25k account at Gate 4 concentration discipline."
+      },
+      {
+        "ticker": "ASML",
+        "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 (direction consensus 'long' across all 4 perspectives) PASS. Gate 1 (risk_budget.can_open_new_position=true, phase=full) PASS. Gate 2 expected return: p_bull_tech=7/(7+7)=0.500, p_bull_cat=7/(7+6)=0.538, combined_p_bull=0.519; entry=(1545+1565)/2=1555.00; target=min(1627,1627)=1627.00; stop=max(1528,1530)=1530.00; expected_return_per_share = 0.519*(1627-1555) - 0.481*(1555-1530) = +37.37 - 12.03 = +$25.34/share PASS. Gate 3 sizing: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = abs(1555-1530) = $25; quantity = floor(250/25) = 10 shares PASS. Gate 4 single-position cap FAILS: notional = 1555*10 = $15,550 > 15% cap ($3,750); small_scaled path: M = floor(5000/1555) = 3 shares, risk_M = 3*25 = $75, risk_dollars_floor = 0.40*250 = $100; risk_M ($75) < floor ($100), so the small_scaled exception cannot fit either. Even at max allowed 3 shares under the 20% extended cap, only 30% of the risk budget is used (below the 40% floor). ASML at ~$1,555/share is too high-priced for a $25k account to size meaningfully under current capital rules."
+      },
+      {
+        "ticker": "DE",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "TSM",
+        "reason": "single_position_cap_exceeded"
+      }
+    ]
   }
 ]

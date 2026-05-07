@@ -1,27 +1,28 @@
 {
   "ticker": "ADI",
   "setup_direction": "long",
-  "bull_strength": 7,
+  "bull_strength": 6,
   "entry_zone": {"low": 415.63, "high": 416.50},
   "target": 440.00,
-  "stop": 409.50,
-  "expected_holding_days": 7,
+  "stop": 410.00,
+  "expected_holding_days": 6,
   "top_3_arguments": [
-    "Breakout-day momentum is real: yesterday closed at recent_high (415.63 = 416.00 high) with relative_volume 1.23 (3.89M vs 20d avg 3.17M); roc_5d = +6.76%, roc_10d = +8.97%, roc_21d = +26.94%. Daily ADX 59.44 with plus_di 44.99 vs minus_di 8.79 confirms a textbook strong-trend regime, not a blow-off into thin air.",
-    "Full bullish MA stack on both timeframes: daily price_vs_ma shows above_ema_5/10/20/50/200 = true with ema_aligned_uptrend = true; pct_from_ema_50 = +17.32%, pct_from_sma_50 = +20.10%. Hourly mirror confirms (above_ema_24/48/120 = true, hourly ema_aligned_uptrend = true), and hourly OBV trend = up (not diverging) supports the breakout intraday — daily OBV divergence is the one ding, acknowledged in risks.",
-    "Structurally clean breakout above the 408.37 prior pivot high (2 tests) with no nearest_resistance overhead per support_resistance — Fibonacci extension fib_ext_1272 = 447.40 is the next chart-derived target; ATR-based stop at 409.50 (just below watch_level 415.63 - 0.5*atr_14 of 12.84) gives R:R of (440 - 415.63) / (415.63 - 409.50) = 24.37 / 6.13 = 3.97:1, well above the 2:1 minimum."
+    "Powerful trend regime confirmed on daily: moving_averages.ema_aligned_uptrend = true with price above all MAs (pct_from_ema_20 = +9.05%, pct_from_ema_50 = +17.32%, pct_from_ema_200 = +40.84%); daily adx.adx_14 = 59.44 with plus_di 44.99 vs minus_di 8.79 (textbook strong uptrend); daily macd.histogram = +1.5936, macd_line 19.047 above signal 17.4533 — momentum is broad and accelerating across roc_5d +6.76, roc_10d +8.97, roc_21d +26.94.",
+    "Breakout-quality print into watch_level: 2026-05-06 closed $415.63 = recent_high $416.00 on volume.relative_volume = 1.23x with volume_bias_10d = 'up'. Price has cleared daily pivot at 408.37 (2 prior tests) with no overhead daily nearest_resistance, and is sitting against hourly support_resistance.nearest_resistance $415.98 (volume_confirmed = true, 7 tests) — a clear breakout-trigger long entry.",
+    "Risk geometry is clean and confirmed by hourly: stop at $410.00 sits below invalidation_level and ~1× daily atr_14 ($12.84) under entry, giving R:R = ($440 - $415.63) / ($415.63 - $410.00) = 24.37 / 5.63 ≈ 4.3:1. Hourly ema_aligned_uptrend = true, hourly adx_24 = 35.18, hourly bollinger.pct_b = 0.6984 (room before overbought on intraday), and hourly volume.obv.trend = 'up' confirming the intraday breakout."
   ],
   "risks_acknowledged": [
-    "Earnings in 13 days (May 20) — position must be exited or stopped before earnings risk per the 5-day blackout convention; this caps holding period and removes the option to ride an earnings catalyst.",
-    "RSI is stretched: rsi_14 = 74.71, rsi_21 = 77.86, bollinger pct_b = 0.8979, z_score_50 = 2.07 — chase risk and mean-reversion vulnerability if broader market wobbles.",
-    "Daily OBV trend = down with diverging_from_price = true — volume internals on the daily timeframe are not confirming the price highs, raising the probability of a failed breakout or shakeout retest of 408.",
-    "CEO Vincent Roche sold ~$3.98M near all-time highs (2026-05-05) — single insider sale isn't decisive but is a non-trivial signal-against at these levels."
+    "Earnings risk: earnings.days_until_next = 13 (Q2 print May 20, 2026 per earnings_context_web). Position must be closed or stopped before then — caps holding period and removes the option to ride the catalyst itself.",
+    "Statistically extended on daily: rsi.rsi_14 = 74.71, rsi_21 = 77.86 (both well above 70); z_score_50 = 2.07; bollinger.pct_b = 0.8979 — high probability of a 1–2 day mean-reversion pullback toward EMA10 ($396) before continuation; chase risk on the entry.",
+    "Daily volume.obv.trend = 'down' with diverging_from_price = true — accumulation is not confirming new price highs on the daily timeframe, raising odds the breakout is distribution-driven rather than fresh institutional buying.",
+    "Sentiment caveats: 2026-05-05 article notes CEO Vincent Roche sold ~$3.98M with insider sales 'near all-time highs'; analyst_consensus_web avg_price_target $393.16 sits BELOW current $415.63, meaning price is ahead of street consensus and could revert if the May 20 print disappoints."
   ],
   "web_sources_last_7d": [
-    "https://www.investing.com/news/company-news/analog-devices-stock-hits-alltime-high-at-40875-93CH-4663777",
+    "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-7-57-160004196.html",
     "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-5-6-161542157.html",
     "https://www.tradingkey.com/analysis/stocks/us-stocks/261756455-amd-adi-citigroup-ai-datacenter-earnings-semiconductor-catalyst-tradingkey",
     "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/what-analog-devices-adis-rising-ai-and-data-center-revenue-s",
-    "https://www.marketbeat.com/stocks/NASDAQ/ADI/news/"
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/evaluating-analog-devices-adi-valuation-as-earnings-optimism",
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/how-investors-are-reacting-to-analog-devices-adi-balancing-h"
   ]
 }

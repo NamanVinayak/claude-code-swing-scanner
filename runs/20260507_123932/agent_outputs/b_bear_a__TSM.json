@@ -1,21 +1,22 @@
 {
   "ticker": "TSM",
   "setup_direction": "long",
-  "bear_strength": 6,
-  "setup_invalidation_levels": [401.61, 394.41, 385.09],
+  "bear_strength": 7,
+  "setup_invalidation_levels": [414.50, 403.99, 395.85],
   "top_3_arguments": [
-    "Stretched / overbought entry: daily_indicators.rsi.rsi_14 = 74.65 and rsi_21 = 72.09 (both > 70), bollinger.pct_b = 1.0329 (price is ABOVE the upper band), and z_score_50 = 2.33 — entering at $419.50 means buying 15.96% above the 50SMA ($361.78) and 8.94% above the 20SMA ($385.09) the day after a +6.4% gap-up to a fresh 52-week high. Statistically poor R:R for a fresh long.",
-    "R:R is structurally bad against the stated levels: from current $419.50 to invalidation $415 is only $4.50 of risk, but daily atr_14 = $14.43 (atr_pct 3.44%). A normal one-day range will sweep the stop on noise alone. Meanwhile the analyst avg_price_target ($416.67) is BELOW current price — the consensus 12-month target implies ~0% upside, capping reward and giving the long no expert tailwind to lean on.",
-    "Entry is at the catalyst peak with no base: recent_prices_5d shows a single-day +6.4% spike (May 6: $402.40 open → $419.50 close, volume 17.69M vs 20-day avg 14.14M = relative_volume only 1.25x — solid but not the >2x reclaim you want for a clean breakout). The bollinger.pct_b > 1 plus the fact that this print equals recent_high $419.70 means the trade is being chased into resistance the same session AMD-driven news hit, with no consolidation/retest. Hourly fibs confirm exhaustion: hourly_indicators.bollinger.pct_b = 0.9924 at the upper band and hourly momentum.roc_5d is already NEGATIVE (-0.14%) despite the daily spike — short-term momentum is already fading."
+    "Stock is statistically extended and overbought to a degree that historically resolves with a pullback before continuation, not a clean breakout. daily_indicators.rsi.rsi_14 = 74.65 and rsi_21 = 72.09 (overbought), bollinger.pct_b = 1.0329 (price ABOVE the upper band), z_score_50 = 2.33 (more than 2 stddev above 50-day mean), and price is +15.96% above sma_50 and +8.94% above sma_20. momentum.roc_21d = 21.48% in just 21 days. Buying a fresh breakout at this stretch is buying the top of the band, not the base of one — mean-reversion risk dominates over the next 1-5 days.",
+    "The 'breakout' is a one-day news-driven gap, not a structural base breakout, and the move is fully explained by AMD's Q1 beat on 2026-05-06 (recent_news_7d items 1, 2, 4). Daily candle on 2026-05-06: open 402.40, high 419.70, close 419.50, volume 17.69M vs avg 14.14M = relative_volume only 1.25x — not the >1.5-2.0x conviction volume you want for a clean breakout to a 52-week high on a news catalyst. Hourly tape is worse: hourly_indicators.volume.relative_volume = 0.08, volume_bias_10d = 'down', and obv.trend = 'down' — distribution under the surface. Prior pivot high cluster at 414.50 (only 2 tests, volume_confirmed=false) and the round number 420 (hourly pivot, 6 tests) are immediate overhead. A close back below 414.50 on the next session would print a textbook bull-trap / failed-breakout candle.",
+    "Reward-to-risk at the watch_level of $420 is poor relative to the stretch. Entry $420, invalidation $415 = 1.19% risk; the only realistic near-term upside is the daily fib_ext_1272 at $448.50 (+6.79%) and analyst_consensus_web.avg_price_target = $416.67 is BELOW current $419.50 (3-month avg PT $465 implies only ~10.8% upside over 3 months, not days). More importantly, Stage 1's invalidation_level $415 is INSIDE the daily Bollinger upper band ($417.38) and only ~$5 below entry — any normal intraday wiggle (atr_14 = $14.43, atr_pct = 3.44%) flushes the stop on noise. A chart-honest structural stop sits at $403.99 (hourly pivot, 10 tests, volume_confirmed) or $395.85 (29 tests, volume_confirmed) — 4-6% away, collapsing R:R to roughly 1:1 against the $448 target."
   ],
   "bull_acknowledgements": [
-    "Trend structure is genuinely strong: ema_aligned_uptrend = true on both daily and hourly, price above all MAs (5/10/20/50/200), and adx_14 = 43.37 with plus_di 37.24 vs minus_di 9.5 — this is a textbook strong uptrend, not a fade setup.",
-    "OBV trend is up on both daily and hourly with diverging_from_price = false, and rsi_divergence shows no bearish divergence on either timeframe — the rally has real participation rather than being a thin pop.",
-    "Fundamental tape is supportive: AMD blowout (May 6 news), 2nm capacity 70% CAGR guidance (May 5), no earnings risk for ~70 days, and the trade has no insider selling or wiki red flags."
+    "MA stack is unambiguously bullish on both daily and hourly: price above ema_5/10/20/21/50/200 with ema_aligned_uptrend = true, dist_from_50sma_pct = 15.96%, and adx_14 = 43.37 (strong trend) with plus_di 37.24 vs minus_di 9.5 — this is a powerful uptrend, not a fade setup.",
+    "rsi_divergence.bearish = false on both daily and hourly, macd histogram is positive and rising (1.8196 daily, 0.8555 hourly), and the catalyst is a real fundamental tailwind — AMD's Q1 beat directly raises TSMC fab utilization visibility (recent_news_7d items 1, 2, 4) and 2nm capacity 70% CAGR + capex raise to $52-56B (item 3) are durable, not headline noise. There is no earnings risk for 70 days.",
+    "Volume on the breakout day did expand to 1.25x average with daily OBV trend up and not diverging from price — there is institutional participation, just not the textbook 1.5x+ blowout the technical bear would prefer to dismiss it cleanly."
   ],
   "web_sources_last_7d": [
     "https://coincentral.com/tsmc-tsm-stock-gains-6-as-amd-revenue-beat-fuels-optimism-over-ai-manufacturing-capacity/",
     "https://www.investing.com/news/company-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-4664204",
-    "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html"
+    "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html",
+    "https://ts2.tech/en/taiwan-semiconductor-manufacturing-company-stock-jumps-as-amds-ai-surge-puts-tsmc-capacity-in-focus/"
   ]
 }

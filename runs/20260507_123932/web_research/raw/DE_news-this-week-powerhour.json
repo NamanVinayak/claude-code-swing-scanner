@@ -1,0 +1,17 @@
+{
+  "query": "DE news this week",
+  "fetched_at": "2026-05-07T20:00:00Z",
+  "results": [
+    {"title": "wboc.com | Delmarva's News Leader", "url": "https://www.wboc.com/"},
+    {"title": "6abc Action News - WPVI Philadelphia, Pennsylvania, New Jersey and Delaware News", "url": "https://6abc.com/"},
+    {"title": "wdel.com | Delaware's News is on FM and 1150AM", "url": "https://www.wdel.com/"},
+    {"title": "Home - Delaware State News - Bay to Bay News", "url": "https://baytobaynews.com/"},
+    {"title": "The Latest from WDEL News | wdel.com", "url": "https://www.wdel.com/news/"},
+    {"title": "Delaware - Homepage | Delaware Public Media", "url": "https://www.delawarepublic.org/"},
+    {"title": "Latest Delaware news & headlines - CBS Philadelphia", "url": "https://www.cbsnews.com/philadelphia/local-news/delaware/"},
+    {"title": "State of Delaware News - News from Delaware State Government Agencies", "url": "https://news.delaware.gov"},
+    {"title": "Germany: Newsroom", "url": "https://www.deutschland.de/en/news"},
+    {"title": "The Local Germany - News and practical guides in English", "url": "https://www.thelocal.de/"}
+  ],
+  "notes": "Query 'DE news this week' returned generic Delaware-state news and German-domain news. No Deere & Company ticker-specific stock news in this result set."
+}

@@ -1,0 +1,17 @@
+{
+  "query": "ADI news this week",
+  "fetched_at": "2026-05-07T20:00:00Z",
+  "results": [
+    {"title": "ADI: Analog Devices Inc - Stock Price, Quote and News - CNBC", "url": "https://www.cnbc.com/quotes/ADI"},
+    {"title": "Analog Devices, Inc. (ADI) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ADI/"},
+    {"title": "Analog Devices (ADI) Stock Price & Overview", "url": "https://stockanalysis.com/stocks/adi/"},
+    {"title": "Analog Devices, Inc. (ADI) Latest Stock News & Headlines - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ADI/news/"},
+    {"title": "Company News - ADI Global", "url": "https://www.adiglobal.com/company-headlines"},
+    {"title": "Analog Devices, Inc. (ADI) Latest Press Releases & Corporate News - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ADI/press-releases/"},
+    {"title": "Analog Devices: ADI Stock Price Quote & News | Robinhood", "url": "https://robinhood.com/us/en/stocks/ADI/"},
+    {"title": "ADI News Today | Why did Analog Devices stock go down today? $ADI", "url": "https://www.marketbeat.com/stocks/NASDAQ/ADI/news/"},
+    {"title": "Newsroom | Analog Devices", "url": "https://www.analog.com/en/newsroom.html"},
+    {"title": "Analog Devices (ADI) Is Up 7.57% in One Week: What You Should Know", "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-7-57-160004196.html"}
+  ],
+  "summary_text": "ADI shares up 7.57% over past week; Zacks Semiconductor industry up 12.06%. Past quarter +24.88%, last year +107.63%. CEO Vincent Roche sold $3.98m in stock recently. Strong quarterly results with accelerating AI and data center revenue growth, upbeat earnings guidance. Projected 46.1% earnings growth this fiscal year. Zacks Rank #2 (Buy)."
+}

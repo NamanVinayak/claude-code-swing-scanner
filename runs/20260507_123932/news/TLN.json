@@ -1,27 +1,27 @@
 {
   "ticker": "TLN",
-  "researched_at": "2026-05-07T19:45:00Z",
+  "researched_at": "2026-05-07T20:35:00Z",
   "news_items": [
     {
       "headline": "Talen Energy Q1 EBITDA $473M, Reaffirms 2026 Guidance",
       "url": "https://www.stocktitan.net/news/TLN/talen-energy-reports-first-quarter-2026-results-reaffirms-2026-ifiux9jegmsw.html",
       "date": "2026-05-05",
       "sentiment": "positive",
-      "summary": "Q1 2026 EBITDA $473M; revenue $1.13B vs $1.05B FactSet estimate; full-year 2026 guidance reaffirmed."
+      "summary": "Q1 2026 Adjusted EBITDA $473M; Adjusted FCF $350M; revenue $1.13B vs $1.05B FactSet estimate; full-year 2026 guidance reaffirmed. Repurchased 300,000 shares for $100M in Q1; $1.9B authorization remaining through 2028."
     },
     {
       "headline": "Talen Energy Q1 2026 Earnings Transcript",
       "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/talen-energy-tln-q1-2026-earnings-transcript/",
       "date": "2026-05-05",
       "sentiment": "positive",
-      "summary": "Management emphasized rapid regulatory progress on the pending Cornerstone acquisition and continued data-center buildout at Susquehanna with no slowdown."
+      "summary": "Management emphasized rapid regulatory progress on the pending Cornerstone acquisition and continued data-center buildout at Susquehanna with no slowdown observed; preliminary 2027-2028 projections provided incorporating Cornerstone, spark spreads, and forward price marks."
     },
     {
       "headline": "Earnings Flash (TLN) Reports Q1 Revenue $1.13B vs FactSet Est $1.05B",
       "url": "https://www.marketscreener.com/news/earnings-flash-tln-talen-energy-corporation-reports-q1-revenue-1-13b-vs-factset-est-of-1-05b-ce7f58dcd08bf62c",
       "date": "2026-05-05",
       "sentiment": "positive",
-      "summary": "Q1 revenue $1.13B exceeded FactSet consensus of $1.05B by ~7.6%."
+      "summary": "Q1 revenue $1.13B exceeded FactSet consensus of $1.05B by ~7.6%. Stock +3.35% on the print."
     },
     {
       "headline": "Morgan Stanley raises Talen Energy price target to $498 from $479, maintains Buy",
@@ -42,22 +42,25 @@
       "url": "https://www.stocktitan.net/news/TLN/",
       "date": "2026-05-06",
       "sentiment": "neutral",
-      "summary": "Talen Energy priced a senior notes offering; details on size and coupon released this week."
+      "summary": "Talen Energy priced a senior notes offering this week as part of capital structure optimization; lowers interest expense and improves secured debt metrics."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 467.77,
-    "recent_changes": "Morgan Stanley raised PT to $498 from $479 this week (maintained Buy/Overweight); aggregate consensus from 15 analysts is Strong Buy (15 Buy / 1 Hold / 0 Sell), avg PT $467.77, range $388.56-$548."
+    "recent_changes": "Morgan Stanley raised PT to $498 from $479 this week (maintained Buy/Overweight). Aggregate consensus from 16 analysts is Strong Buy (15 Buy / 1 Hold / 0 Sell), avg PT $467.77, range $388.56-$548. Implied upside roughly +32% off ~$392.61 last price (May 7, 12:18 PM EDT)."
   },
   "earnings_context": {
     "next_earnings_date": "2026-08-07",
     "days_until_next": 92,
-    "notes": "Q1 2026 reported 2026-05-05 (revenue $1.13B beat, EBITDA $473M, 2026 guide reaffirmed). Next quarterly print is Q2 in early August. Near-term catalysts: pending Cornerstone acquisition close (expected FCF/share uplift via spark spreads + higher forward price marks), continued Susquehanna data-center buildout, and PJM 2027/2028 capacity revenue (~$1.07B at $333.44/MW-day)."
+    "notes": "Q1 2026 reported 2026-05-05 (revenue $1.13B beat, EBITDA $473M, FCF $350M, 2026 guide reaffirmed). Next quarterly print is Q2 in early August. Near-term catalysts: pending Cornerstone acquisition close (expected FCF/share uplift via spark spreads + higher forward price marks), continued Susquehanna data-center buildout, and PJM 2027/2028 capacity revenue (~$1.07B at $333.44/MW-day)."
   },
   "raw_search_files": [
     "TLN_news-this-week.json",
     "TLN_analyst-rating.json",
-    "TLN_earnings-catalyst.json"
+    "TLN_earnings-catalyst.json",
+    "TLN_powerhour-news-this-week.json",
+    "TLN_powerhour-analyst-rating.json",
+    "TLN_powerhour-earnings-catalyst.json"
   ]
 }

@@ -14,10 +14,10 @@
     {
       "title": "Stifel raises Ciena stock price target to $585 on AI infrastructure demand",
       "source": "web_research",
-      "date": "2026-05-06",
+      "date": "2026-05-05",
       "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-ciena-stock-price-target-to-585-on-ai-infrastructure-demand-93CH-4659830",
       "sentiment": "positive",
-      "summary": "Stifel raised CIEN price target to $585 from $430, maintaining Buy. Sector-wide upgrade across optical networking after OFC 2026; expects beat-and-raise earnings into mid-2026."
+      "summary": "Stifel raised CIEN price target to $585 from $430, maintained Buy. Cited optical networking demand from AI infrastructure buildout; expects beat-and-raise earnings reports into mid-CY2026 across optical group."
     },
     {
       "title": "Ciena Stock On Fire: Up 15% With 5-Day Winning Streak",
@@ -25,15 +25,15 @@
       "date": "2026-05-06",
       "url": "https://www.trefis.com/articles/598422/ciena-stock-on-fire-up-15-with-5-day-winning-streak/2026-05-06",
       "sentiment": "positive",
-      "summary": "CIEN up ~15% over a 5-day winning streak, trading near $550 (52-week high) on AI optical networking demand from hyperscalers."
+      "summary": "CIEN up ~15% over a 5-day winning streak, trading near $550 (near 52-week high). Driver cited as AI-led optical networking demand from hyperscalers."
     },
     {
-      "title": "Why Ciena (CIEN) Is Up 5.7% After AI-Fueled Cloud Demand Sparks Valuation And Insider Scrutiny",
+      "title": "BofA raises Ciena price target to $550 on backlog growth",
       "source": "web_research",
       "date": "2026-05-05",
-      "url": "https://simplywall.st/stocks/us/tech/nyse-cien/ciena/news/why-ciena-cien-is-up-57-after-ai-fueled-cloud-demand-sparks",
-      "sentiment": "neutral",
-      "summary": "Shares up 5.7% on AI cloud demand narrative. Note flags valuation stretch and insider-selling scrutiny as offsetting concerns."
+      "url": "https://www.marketbeat.com/stocks/NYSE/CIEN/",
+      "sentiment": "positive",
+      "summary": "BofA Securities raised PT to $550, maintained Buy, citing backlog +$2B to $7B total tied to anticipated hyperscaler capex acceleration."
     },
     {
       "title": "Danske Bank A/S purchases 35,000 shares of Ciena Corporation",
@@ -41,7 +41,7 @@
       "date": "2026-05-05",
       "url": "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-purchases-35000-shares-of-ciena-corporation-cien-2026-05-05/",
       "sentiment": "positive",
-      "summary": "Institutional 13F-style filing shows Danske Bank A/S accumulated 35,000 CIEN shares."
+      "summary": "Institutional filing shows Danske Bank A/S accumulated 35,000 CIEN shares."
     },
     {
       "title": "Ciena CEO sells 2,952 shares in Rule 10b5-1 trade",
@@ -57,7 +57,7 @@
       "date": "2026-05-05",
       "url": "https://www.tipranks.com/news/catalyst/why-cienas-stock-is-breaking-out-higher-now",
       "sentiment": "positive",
-      "summary": "TipRanks catalyst note frames CIEN as a technical breakout backed by AI optical demand and analyst upgrades."
+      "summary": "TipRanks catalyst note frames CIEN as a technical breakout backed by AI optical demand and recent analyst upgrades."
     },
     {
       "title": "Vodafone Idea deploys Ciena's WaveLogic 6 Extreme",
@@ -65,7 +65,7 @@
       "date": "2026-05-04",
       "url": "https://www.stocktitan.net/news/CIEN/",
       "sentiment": "positive",
-      "summary": "Vodafone Idea announced deployment of Ciena's WaveLogic 6 Extreme coherent optics \u2014 customer win supporting growth narrative."
+      "summary": "Vodafone Idea announced deployment of Ciena's WaveLogic 6 Extreme coherent optics platform \u2014 customer win supporting the growth narrative."
     }
   ],
   "wiki_context": {
@@ -86,7 +86,7 @@
     "new_ticker": true
   },
   "current_price": 576.7899780273438,
-  "market_cap": 74438500352.0,
+  "market_cap": 73545564160.0,
   "recent_prices_5d": [
     {
       "time": "2026-04-30",
@@ -293,35 +293,35 @@
   "hourly_indicators": {
     "timeframe": "hourly",
     "moving_averages": {
-      "ema_24": 550.2919489425425,
-      "sma_24": 550.9656321207682,
-      "ema_48": 535.6223829865,
-      "sma_48": 524.6760419209799,
-      "ema_120": 511.36975728797006,
-      "sma_120": 507.4837092081706,
+      "ema_24": 541.8567033782922,
+      "sma_24": 549.1027119954427,
+      "ema_48": 533.8339541799648,
+      "sma_48": 530.4721876780192,
+      "ema_120": 513.2747924427708,
+      "sma_120": 509.9606465657552,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 526.4450073242188,
-    "dist_from_50sma_pct": 3.74,
+    "current_price": 520.1300048828125,
+    "dist_from_50sma_pct": 1.99,
     "price_vs_ma": {
       "above_ema_24": false,
-      "pct_from_ema_24": -4.33,
+      "pct_from_ema_24": -4.01,
       "above_sma_24": false,
-      "pct_from_sma_24": -4.45,
+      "pct_from_sma_24": -5.28,
       "above_ema_48": false,
-      "pct_from_ema_48": -1.71,
-      "above_sma_48": true,
-      "pct_from_sma_48": 0.34,
+      "pct_from_ema_48": -2.57,
+      "above_sma_48": false,
+      "pct_from_sma_48": -1.95,
       "above_ema_120": true,
-      "pct_from_ema_120": 2.95,
+      "pct_from_ema_120": 1.34,
       "above_sma_120": true,
-      "pct_from_sma_120": 3.74,
+      "pct_from_sma_120": 1.99,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 52544.5
+      "pct_from_ema_aligned_uptrend": 51913.0
     },
     "rsi": {
-      "rsi_21": 49.08
+      "rsi_21": 43.4
     },
     "rsi_divergence": {
       "bullish": false,
@@ -329,36 +329,36 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 16.5632,
-      "signal_line": 14.5781,
-      "histogram": 1.9852,
+      "macd_line": 9.4436,
+      "signal_line": 13.5337,
+      "histogram": -4.0901,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 594.84,
-      "middle": 524.68,
-      "lower": 454.51,
-      "width": 0.2675,
-      "pct_b": 0.5126
+      "upper": 590.32,
+      "middle": 530.47,
+      "lower": 470.63,
+      "width": 0.2256,
+      "pct_b": 0.4136
     },
     "atr": {
       "atr_24": 12.0,
-      "atr_pct": 2.28
+      "atr_pct": 2.31
     },
     "adx": {
-      "adx_24": 73.57,
-      "plus_di": 27.79,
-      "minus_di": 23.5,
+      "adx_24": 57.43,
+      "plus_di": 22.88,
+      "minus_di": 28.6,
       "trend_strength": "strong"
     },
     "volume": {
-      "current_volume": 603625,
-      "avg_volume_20": 229025,
-      "relative_volume": 2.64,
-      "volume_bias_10d": "up",
+      "current_volume": 45842,
+      "avg_volume_20": 278775,
+      "relative_volume": 0.16,
+      "volume_bias_10d": "down",
       "obv": {
-        "trend": "up",
-        "diverging_from_price": true
+        "trend": "down",
+        "diverging_from_price": false
       }
     },
     "support_resistance": {
@@ -392,43 +392,43 @@
         },
         {
           "price": 528.36,
-          "tests": 7,
+          "tests": 10,
           "volume_confirmed": false
         },
         {
           "price": 543.83,
-          "tests": 12,
+          "tests": 13,
           "volume_confirmed": false
         }
       ],
       "nearest_resistance": 550.0,
       "nearest_support": 468.31,
       "recent_high": 583.78,
-      "recent_low": 525.28,
-      "prev_day_high": 577.71,
-      "prev_day_low": 573.45,
-      "prev_day_close": 576.64
+      "recent_low": 519.27,
+      "prev_day_high": 529.78,
+      "prev_day_low": 519.48,
+      "prev_day_close": 520.53
     },
     "fibonacci": {
       "swing_high": 583.78,
-      "swing_low": 518.58,
-      "fib_236": 568.39,
-      "fib_382": 558.87,
-      "fib_500": 551.18,
-      "fib_618": 543.48,
-      "fib_786": 532.53,
-      "fib_ext_1272": 601.51,
-      "fib_ext_1618": 624.07,
-      "fib_ext_2000": 648.97,
-      "fib_ext_low_1272": 500.85,
-      "fib_ext_low_1618": 478.29
+      "swing_low": 519.27,
+      "fib_236": 568.55,
+      "fib_382": 559.13,
+      "fib_500": 551.52,
+      "fib_618": 543.91,
+      "fib_786": 533.07,
+      "fib_ext_1272": 601.32,
+      "fib_ext_1618": 623.64,
+      "fib_ext_2000": 648.28,
+      "fib_ext_low_1272": 501.72,
+      "fib_ext_low_1618": 479.41
     },
     "momentum": {
-      "roc_5d": -7.48,
-      "roc_10d": -4.85,
-      "roc_21d": -0.54
+      "roc_5d": -3.07,
+      "roc_10d": -8.59,
+      "roc_21d": -3.55
     },
-    "z_score_120": 0.64,
+    "z_score_120": 0.36,
     "degraded_indicators": []
   },
   "recent_insider_trades": [],
@@ -440,11 +440,11 @@
   "analyst_consensus_web": {
     "rating": "buy",
     "avg_price_target": 354.01,
-    "recent_changes": "Stifel raised PT to $585 from $430 on 2026-05-06 (Buy maintained); sector-wide upgrades across optical networking after OFC 2026. Average PT was revised up to $354.01 from $261.07 (prior 2026-02-21 baseline). 14-16 analysts cover; 11 Buy / 5 Hold / 1 Sell."
+    "recent_changes": "Stifel raised PT to $585 from $430 (Buy maintained, 2026-05-05); BofA raised PT to $550 (Buy, 2026-05-05) on backlog growth. Average 1Y PT revised to $354.01 (+35.6% vs prior). 14 analysts cover with consensus Buy (11 Buy / 5 Hold / 1 Sell). Range $242.40-$493.50 (high-end PTs from Stifel/BofA exceed top of consensus range)."
   },
   "earnings_context_web": {
     "next_earnings_date": "2026-06-04",
     "days_until_next": 28,
-    "notes": "Q2 FY26 results scheduled June 4. Street expects beat-and-raise driven by AI-led cloud orders and large AI optical backlog (Hyper-Rail + DCOM expansion cited as multi-year drivers). Key risk: valuation has run ahead of confirmed orders."
+    "notes": "Q2 FY2026 results scheduled June 4, 2026. Street expects beat-and-raise driven by AI-led cloud orders; backlog grew +$2B to $7B. Multi-year drivers cited: Hyper-Rail and DCOM expansion. Recent Q1 FY2026 was a blowout with raised full-year revenue guide. Outside the 3-day forward-earnings blackout window."
   }
 }

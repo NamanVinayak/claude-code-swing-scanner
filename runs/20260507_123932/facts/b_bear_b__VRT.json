@@ -12,6 +12,22 @@
   ],
   "recent_news_7d": [
     {
+      "title": "Vertiv Holdings Co Stock (VRT) Moved Down by 4.85% on May 7: Drivers Behind the Movement",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.tradingkey.com/news/market-movers/261870024-market-movers-vrt-20260507",
+      "sentiment": "negative",
+      "summary": "VRT fell 4.85% on May 7 attributed to profit-taking and shifts in investor sentiment after strong YTD gains."
+    },
+    {
+      "title": "Vertiv Stock Rises 100% & Doubles in Price in 2026 (VRT)",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://watcher.guru/news/vertiv-stock-rises-100-doubles-in-price-in-2026-vrt",
+      "sentiment": "positive",
+      "summary": "Coverage noting VRT has more than doubled in price year-to-date 2026 on AI-data-center demand momentum."
+    },
+    {
       "title": "Vertiv Stock Jumps 28% in a Month: Buy, Sell, or Hold the Stock?",
       "source": "web_research",
       "date": "2026-05-05",
@@ -62,7 +78,7 @@
     "new_ticker": true
   },
   "current_price": 358.9200134277344,
-  "market_cap": 132229455872.0,
+  "market_cap": 129840300032.0,
   "recent_prices_5d": [
     {
       "time": "2026-04-30",
@@ -112,14 +128,14 @@
       "sma_5": 337.5419982910156,
       "ema_10": 328.89315386676583,
       "sma_10": 326.65599670410154,
-      "ema_20": 314.34082880559464,
+      "ema_20": 314.3408288056105,
       "sma_20": 314.7199996948242,
-      "ema_21": 313.08342702080364,
+      "ema_21": 313.0834270208318,
       "sma_21": 313.115713936942,
-      "ema_50": 283.61322475471746,
+      "ema_50": 283.61322477098435,
       "sma_50": 281.5746075439453,
-      "ema_200": 207.88590708565883,
-      "sma_200": 195.15241443634034,
+      "ema_200": 207.88590723509463,
+      "sma_200": 195.15241493225096,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
@@ -264,35 +280,35 @@
   "hourly_indicators": {
     "timeframe": "hourly",
     "moving_averages": {
-      "ema_24": 341.5008742504618,
-      "sma_24": 339.2568168640137,
-      "ema_48": 332.66073142289446,
-      "sma_48": 327.1830348968506,
-      "ema_120": 316.84435256333796,
-      "sma_120": 317.3349807739258,
+      "ema_24": 341.145491620725,
+      "sma_24": 342.26879501342773,
+      "ema_48": 334.1731382400373,
+      "sma_48": 331.0152219136556,
+      "ema_120": 318.8337926051706,
+      "sma_120": 318.62668889363607,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 344.25,
-    "dist_from_50sma_pct": 8.48,
+    "current_price": 338.04998779296875,
+    "dist_from_50sma_pct": 6.1,
     "price_vs_ma": {
-      "above_ema_24": true,
-      "pct_from_ema_24": 0.81,
-      "above_sma_24": true,
-      "pct_from_sma_24": 1.47,
+      "above_ema_24": false,
+      "pct_from_ema_24": -0.91,
+      "above_sma_24": false,
+      "pct_from_sma_24": -1.23,
       "above_ema_48": true,
-      "pct_from_ema_48": 3.48,
+      "pct_from_ema_48": 1.16,
       "above_sma_48": true,
-      "pct_from_sma_48": 5.22,
+      "pct_from_sma_48": 2.13,
       "above_ema_120": true,
-      "pct_from_ema_120": 8.65,
+      "pct_from_ema_120": 6.03,
       "above_sma_120": true,
-      "pct_from_sma_120": 8.48,
+      "pct_from_sma_120": 6.1,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 34325.0
+      "pct_from_ema_aligned_uptrend": 33705.0
     },
     "rsi": {
-      "rsi_21": 65.95
+      "rsi_21": 56.75
     },
     "rsi_divergence": {
       "bullish": false,
@@ -300,35 +316,35 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 9.956,
-      "signal_line": 7.5727,
-      "histogram": 2.3833,
+      "macd_line": 7.9941,
+      "signal_line": 8.1261,
+      "histogram": -0.132,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 360.61,
-      "middle": 327.18,
-      "lower": 293.75,
-      "width": 0.2043,
-      "pct_b": 0.7553
+      "upper": 361.32,
+      "middle": 331.02,
+      "lower": 300.71,
+      "width": 0.1831,
+      "pct_b": 0.6161
     },
     "atr": {
-      "atr_24": 5.18,
-      "atr_pct": 1.51
+      "atr_24": 5.37,
+      "atr_pct": 1.59
     },
     "adx": {
-      "adx_24": 61.5,
-      "plus_di": 34.54,
-      "minus_di": 19.32,
+      "adx_24": 53.38,
+      "plus_di": 30.6,
+      "minus_di": 21.77,
       "trend_strength": "strong"
     },
     "volume": {
-      "current_volume": 882365,
-      "avg_volume_20": 661632,
-      "relative_volume": 1.33,
-      "volume_bias_10d": "up",
+      "current_volume": 107687,
+      "avg_volume_20": 670132,
+      "relative_volume": 0.16,
+      "volume_bias_10d": "down",
       "obv": {
-        "trend": "up",
+        "trend": "down",
         "diverging_from_price": false
       }
     },
@@ -336,13 +352,18 @@
       "pivot_highs": [
         {
           "price": 309.97,
-          "tests": 5,
+          "tests": 3,
           "volume_confirmed": true
         },
         {
           "price": 331.97,
           "tests": 5,
           "volume_confirmed": true
+        },
+        {
+          "price": 359.84,
+          "tests": 3,
+          "volume_confirmed": false
         }
       ],
       "pivot_lows": [
@@ -358,17 +379,17 @@
         },
         {
           "price": 321.45,
-          "tests": 11,
+          "tests": 9,
           "volume_confirmed": false
         }
       ],
-      "nearest_resistance": null,
+      "nearest_resistance": 359.84,
       "nearest_support": 321.45,
       "recent_high": 359.84,
-      "recent_low": 321.45,
-      "prev_day_high": 359.84,
-      "prev_day_low": 357.12,
-      "prev_day_close": 358.89
+      "recent_low": 330.6,
+      "prev_day_high": 342.49,
+      "prev_day_low": 336.6,
+      "prev_day_close": 337.38
     },
     "fibonacci": {
       "swing_high": 359.84,
@@ -385,11 +406,11 @@
       "fib_ext_low_1618": 297.73
     },
     "momentum": {
-      "roc_5d": -3.12,
-      "roc_10d": 1.36,
-      "roc_21d": 6.06
+      "roc_5d": -3.22,
+      "roc_10d": -4.86,
+      "roc_21d": 2.7
     },
-    "z_score_120": 1.79,
+    "z_score_120": 1.24,
     "degraded_indicators": []
   },
   "recent_insider_trades": [],
@@ -401,11 +422,11 @@
   "analyst_consensus_web": {
     "rating": "buy",
     "avg_price_target": 327.44,
-    "recent_changes": "Consensus remains Buy across 18-25 covering analysts (22 Buy / 3 Hold / 1 Sell); 12-month avg PT $327.44 (high $394, low $155). No specific upgrade/downgrade actions surfaced in the last 7 days."
+    "recent_changes": "Consensus remains Buy across ~18-25 covering analysts (per public.com 18 Buy; per TipRanks 22 Buy / 1 Sell); 12-month avg PT $327.44 (high $394, low $155). No specific upgrade/downgrade actions surfaced in the last 7 days."
   },
   "earnings_context_web": {
     "next_earnings_date": "2026-08-05",
     "days_until_next": 90,
-    "notes": "Q1 2026 beat: net sales $2.65B (+30% YoY), adj operating margin 20.8%, raised full-year guidance citing AI data center demand. Already priced-in driver of the recent ~28% one-month rally. Near-term headwinds flagged: EMEA revenue decline, APAC timing, tariff/supply chain pressure."
+    "notes": "Q1 2026 beat: ~30% YoY revenue growth, EPS topped expectations, raised FY2026 sales guide to $13.50-$14.00B citing AI-data-center demand and >$15B backlog. Already priced-in driver of the recent ~100% YTD / ~28% one-month rally; today's -4.85% pullback flagged as profit-taking after extended run."
   }
 }

@@ -1,42 +1,45 @@
 {
   "ticker": "UNP",
-  "researched_at": "2026-05-07T19:45:00Z",
+  "researched_at": "2026-05-07T20:30:00Z",
   "news_items": [
     {
-      "headline": "Union Pacific files amended merger application; projects $3.5B annual shipper savings",
+      "headline": "Union Pacific files amended Norfolk Southern merger application; projects $3.5B annual shipper savings",
       "url": "https://meyka.com/blog/unp-stock-today-may-4-union-pacific-merger-savings-surge-0505/",
       "date": "2026-05-04",
       "sentiment": "positive",
-      "summary": "UNP and Norfolk Southern filed an amended merger application on April 30, 2026 with the Surface Transportation Board, projecting $3.5B in annual shipper savings if approved. UNP stated it would exit the deal if STB orders widespread line sales or trackage rights."
+      "summary": "UNP and Norfolk Southern filed an amended merger application with the STB on April 30, 2026 projecting $3.5B in annual shipper savings if approved. UNP stated it will exit the deal if STB orders widespread line sales or trackage rights."
     },
     {
       "headline": "Union Pacific rallies to 52-week high after Q1 earnings beat",
       "url": "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings",
       "date": "2026-05-01",
       "sentiment": "positive",
-      "summary": "UNP shares rallied to a 52-week high following Q1 results: net income $1.70B / EPS $2.87 on revenue $6.22B, with freight car velocity up 9% to 235 daily miles per car and terminal dwell down 11% to 19.7 hours."
+      "summary": "Shares rallied to a 52-week high following Q1: net income $1.70B / EPS $2.87 on revenue $6.22B; freight car velocity +9% to 235 daily miles per car; terminal dwell -11% to 19.7 hours."
     },
     {
       "headline": "Union Pacific earnings call highlights record Q1 operational strength",
       "url": "https://www.tipranks.com/news/company-announcements/union-pacific-earnings-call-highlights-record-q1-strength",
       "date": "2026-05-02",
       "sentiment": "positive",
-      "summary": "Q1 net income $1.7B up 5% YoY; EPS $2.87 up 6%. Both operating income and net income set first-quarter records. Management reiterated mid-single-digit reported EPS growth plan for 2026 and 3-year EPS CAGR target of high single-digit to low double-digit through 2027."
+      "summary": "Q1 net income $1.7B (+5% YoY); EPS $2.87 (+6%). Both operating income and net income set first-quarter records. Management reiterated 2026 mid-single-digit reported EPS growth and further operating-ratio gains."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
-    "avg_price_target": 275.55,
-    "recent_changes": "23-analyst consensus is Buy (32% Strong Buy / 36% Buy / 32% Hold / 0% Sell). 12-month average price target $275.55, ~3% above current price. No specific upgrade/downgrade events surfaced in last 7 days."
+    "avg_price_target": 272.33,
+    "recent_changes": "no analyst-rating changes in last 7 days. Standing consensus across 22-36 covering analysts is Buy: ~17-18 Buy / 8-9 Hold / 1 Sell. Avg 12-month PT $272.33 (range $218-$311); some sources cite $275.55 average / $264.50 median; implied upside ~+8%."
   },
   "earnings_context": {
     "next_earnings_date": "2026-07-23",
     "days_until_next": 77,
-    "notes": "Last quarter (Q1 2026) beat with record net income/operating income; street expects mid-single-digit EPS growth in 2026 driven by PSR 2.0 efficiency gains, with the Norfolk Southern merger approval and fuel trends as the next key catalysts to watch."
+    "notes": "Q1 2026 was a record beat (net income $1.70B, EPS $2.87, revenue $6.22B). Street expects mid-single-digit reported EPS growth in 2026 driven by operational gains. Norfolk Southern $85B merger (expected close H1 2027) is the dominant medium-term catalyst; STB review ongoing with competition-impact scrutiny."
   },
   "raw_search_files": [
     "UNP_news-this-week.json",
     "UNP_analyst-rating.json",
-    "UNP_earnings-catalyst.json"
+    "UNP_earnings-catalyst.json",
+    "UNP_powerhour-news-this-week.json",
+    "UNP_powerhour-analyst-rating.json",
+    "UNP_powerhour-earnings-catalyst.json"
   ]
 }

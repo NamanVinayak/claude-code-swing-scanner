@@ -1,11 +1,23 @@
 {
   "ticker": "ROK",
-  "approved": [],
-  "rejected": [
+  "approved": [
     {
       "ticker": "ROK",
-      "reason": "single_position_cap_exceeded: Gate 3 quantity = floor($250 / $6.425) = 38 shares; notional = 38 * $460.425 = $17,496 vs 15% standard cap $3,750 — fails standard. Small-scaled path: M = floor(20% cap $5,000 / $460.425) = 10 shares; risk_M = 10 * $6.425 = $64.25, which is < risk_dollars_floor (40% of $250 = $100). Stop is too tight ($6.425/share) relative to share price ($460.425) — at the maximum allowed share count (10) the position uses only 25.7% of risk budget, below the 40% floor, so the small-scaled exception does not unlock. Stock too high-priced for current $25k account size given this stop placement. Note: Gate 0 (direction consensus all-long), Gate 1 (budget healthy, phase=full, daily_pnl=$0), and Gate 2 passed cleanly — combined_p_bull=0.5165 (avg of bull_a 6/13 and bull_b 8/14), expected_return_per_share = 0.5165*($480.50-$460.425) - 0.4835*($460.425-$454.00) = +$7.26 — but Gate 4 sizing math kills the trade."
+      "direction": "long",
+      "entry_price": 461.42,
+      "stop_loss": 451.00,
+      "target_price": 483.00,
+      "target_price_2": 495.00,
+      "quantity": 10,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Bull consensus dominates: b_bull_a strength=7 vs b_bear_a strength=6 (p_bull=0.538); b_bull_b strength=8 vs b_bear_b strength=6 (p_catalyst=0.571); combined_p_bull=0.555. Bulls cite real daily_indicators (adx_14=41.26, plus_di=38.46 vs minus_di=10.48, ema_aligned_uptrend=true, volume.relative_volume=1.59, OBV trend=up not diverging) and Q2 FY26 beat-and-raise from recent_news_7d (HSBC PT raised to $490). Bears' overbought case (rsi_14=73.55, z_score_50=2.89, hourly OBV down, hourly relative_volume=0.14) is real and is resolved by using b_bull_b's tighter conservative stop ($451) and target ($483) rather than b_bull_a's wider parameters — this prices in pullback risk while keeping R:R intact. Entry mid = ($459.35+$463.49)/2 = $461.42. Expected_return_per_share = 0.555*($483-$461.42) - 0.445*($461.42-$451) = +$11.98 - $4.64 = +$7.34. Sizing: risk_dollars = $25,000*0.01*1.0 = $250; risk_per_share = $10.42; Gate-3 qty = floor($250/$10.42) = 23, but notional 23*$461.42 = $10,612 exceeds 15% standard cap ($3,750). Scaled down from 23 to 10 shares to fit small-account cap, using 42% of risk budget: M = floor($5,000/$461.42) = 10, risk_M = 10*$10.42 = $104.20 >= $100 floor. Final notional $4,614 < $5,000 (20%) cap; new_deployed $4,614 < $15,000 (60%) cap; new_open_risk $104.20 < $1,000 (4%) cap. earnings.days_until_next=91 — no near-term event risk. Conviction held at 6 (not higher) given hourly distribution warning and price 7.2% above 12-mo consensus avg PT $428.66.",
+      "risk_usd": 104.20,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-08T20:00:00+00:00"
     }
   ],
-  "summary": "ROK rejected at Gate 4 (single_position_cap_exceeded). Direction consensus, budget pre-check, and probability-weighted expected return (+$7.26/share) all passed, but at $460/share the only quantity that fits the 20% extended notional cap (M=10 shares) deploys just 25.7% of the risk budget — below the 40% floor required for the small-scaled exception. The breakout thesis is real (ADX 41.26, ema_aligned_uptrend, Q2 beat-and-raise per web research) but the discrete-share math at this price point with a $6.425 stop is incompatible with $25k account sizing rules."
+  "rejected": [],
+  "summary": "ROK long approved as small_scaled (10 sh @ $461.42, stop $451, target $483, $104 risk). Bull catalyst + elite trend (ADX 41.26, ema_aligned_uptrend, Q2 beat-and-raise) outweighs bear overbought concerns once b_bull_b's tighter stop/target are adopted. Scaled down from Gate-3 quantity 23 to 10 shares to fit 20% small-account notional cap, still using 42% of risk budget — passes all gates with expected return +$7.34/share."
 }

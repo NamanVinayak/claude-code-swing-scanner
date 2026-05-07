@@ -1,27 +1,29 @@
 {
   "ticker": "ROK",
   "setup_direction": "long",
-  "bull_strength": 6,
-  "entry_zone": {"low": 459.35, "high": 461.50},
-  "target": 481.00,
-  "stop": 451.50,
-  "expected_holding_days": 6,
+  "bull_strength": 7,
+  "entry_zone": {"low": 459.35, "high": 463.49},
+  "target": 495.00,
+  "stop": 445.25,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Strong, persistent uptrend confirmed: daily adx_14 = 41.26 with plus_di 38.46 vs minus_di 10.48 (trend_strength 'strong'); ema_aligned_uptrend = true with price above every MA (pct_from_ema_5 +6.94%, pct_from_ema_20 +12.63%, pct_from_ema_50 +15.93%, pct_from_ema_200 +23.70%); momentum.roc_5d = 14.78%, roc_21d = 24.36%.",
-    "Earnings-catalyst breakout with volume confirmation: 2026-05-05 gap day printed volume 1,864,800 vs avg_volume_20 745,325 (relative_volume ~2.5x), 2026-05-06 follow-through 1,181,400 (rel_vol 1.59) closing at $459.35 — well above pivot resistance at 412.73 (12 prior tests) and 421.03; macd histogram daily +3.55 and hourly +5.01 still expanding; obv.trend = 'up', not diverging from price.",
-    "Hard fundamental tailwind in news_source 'web_research': Q2 FY26 EPS $3.30 vs $2.89 consensus and FY26 guide raised to $12.50–$13.10 (mid $12.80 vs prior ~$12.26), with multiple sell-side PT hikes on 2026-05-06 (Benzinga); zero near-term event risk with earnings.days_until_next = 91; fib_ext_1272 daily target $495.03 / hourly $480.67 supports a $481 swing target above prior recent_high $463.49."
+    "Powerful, well-confirmed daily uptrend: adx.adx_14 = 41.26 with plus_di 38.46 vs minus_di 10.48 (trend_strength = 'strong'); moving_averages.ema_aligned_uptrend = true with price_vs_ma showing above_ema_5/10/20/21/50/200 all true (pct_from_ema_20 = +12.63%, pct_from_ema_50 = +15.93%, pct_from_ema_200 = +23.7%); support_resistance.nearest_resistance = null on daily — clean blue-sky structure with no overhead supply between current price and the fib_ext_1272 target at $495.03.",
+    "Volume-confirmed breakout from Q2 catalyst: 2026-05-05 gap-up printed 1,864,800 vs avg_volume_20 745,325 (relative_volume ~2.5x) on a +10.72% close; 2026-05-06 follow-through closed at $459.35 with volume 1,181,400 (relative_volume = 1.59); volume.obv.trend = 'up' not diverging from price; hourly support_resistance.pivot_highs at $454.67 and $463.48 are both volume_confirmed = true. macd.histogram = 3.55 still expanding; momentum.roc_5d = 14.78%, roc_21d = 24.36%.",
+    "Hard catalyst with no near-term event risk and analyst re-rating in progress: Q2 FY26 EPS $3.30 vs $2.88 consensus and revenue $2.24B vs $2.16–2.18B est; FY26 guide raised to $12.50–$13.10 EPS / ~$8.9B revenue. HSBC raised PT to $490 on 2026-05-07 (per analyst_consensus_web); Goldman, BNP Paribas, Evercore all raised targets. earnings.days_until_next = 91 — clean runway. R:R from current price $459.35: target $495 = +$35.65 vs stop $445.25 = -$14.10 → 2.53:1, comfortably above the 2:1 floor."
   ],
   "risks_acknowledged": [
-    "Severely overbought: rsi_7 = 81.56, rsi_14 = 73.55, daily bollinger pct_b = 1.3488 (above upper band), z_score_50 = 2.89 — high risk of mean-reversion pullback to fill part of the May 5 gap (gap-fill bottom ~$435).",
-    "Price ($459.35) sits ABOVE the 12-month avg analyst PT of $428.66 (analyst_consensus_web) — targets are still catching up; rapid stretch leaves limited room before becoming a fade candidate.",
-    "Watch_level $461 is just below daily recent_high $463.49 / hourly_resistance $463.48 with only 3 prior tests — a failure to clear cleanly invalidates breakout-continuation thesis quickly given the catalyst is 2 days old.",
-    "research_gap: catalyst_note flags zero premarket volume data, so today's breakout-trigger lacks volume confirmation pre-open."
+    "Severely overbought across timeframes: daily rsi_7 = 81.56, rsi_14 = 73.55, rsi_21 = 75.82; bollinger.pct_b = 1.3488 (price above upper band); z_score_50 = 2.89 — statistically a mean-reversion pullback toward fib_236 ($436.12) or the May-5 gap-fill zone is overdue, and entry near the recent_high ($463.49) raises whipsaw risk.",
+    "Hourly distribution warning inside the daily uptrend: hourly_indicators.rsi_divergence has BOTH bullish AND bearish flagged true on a 60-bar lookback; hourly volume.obv.trend = 'down' with relative_volume = 0.14 — short-term sellers are absorbing the move, so chasing in size before a clean hourly base could front-run a 1–2 day pullback.",
+    "Two insider sales on 2026-05-05 (SVP Fordenwalt 600 sh @ $449.58 and SVP Lifecycle Services 460 sh) — small relative size and likely 10b5-1 plans on earnings day, but flagging given the parabolic move; recent_insider_trades in facts is empty (only sourced from news), so a research_gap remains on aggregate insider net activity.",
+    "12-month consensus avg PT $428.66 sits BELOW spot $459.35 — Street targets haven't caught up, so price is leading the fundamental re-rating; if upgrade momentum stalls, the gap between price and consensus closes the wrong way."
   ],
   "web_sources_last_7d": [
     "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
     "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
     "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
-    "https://www.benzinga.com/analyst-stock-ratings/price-target/26/05/52337987/rockwell-automation-analysts-raise-their-forecasts-following-upbeat-q2-results",
+    "https://www.dailypolitical.com/2026/05/07/hsbc-issues-positive-forecast-for-rockwell-automation-nyserok-stock-price.html",
+    "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
+    "https://www.dailypolitical.com/2026/05/07/rockwell-automation-nyserok-svp-matthew-fordenwalt-sells-600-shares.html",
     "https://www.quiverquant.com/news/Insider+Sale:+SVP+Lifecycle+Services+of+$ROK+Sells+460+Shares",
     "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505"
   ]

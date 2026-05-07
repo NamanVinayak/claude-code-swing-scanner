@@ -4,23 +4,23 @@
   "bull_strength": 7,
   "entry_zone": {"low": 1545.00, "high": 1565.00},
   "target": 1627.00,
-  "stop": 1528.00,
+  "stop": 1530.00,
   "expected_holding_days": 8,
   "top_3_arguments": [
-    "Fresh AI-demand catalyst within 7 days: 2026-05-05 stock surged 6.87% as hyperscaler capex (MSFT/META/AMZN/GOOGL >$600B in 2026) reinforced multi-year demand for ASML lithography (yahoo finance, recent_news_7d). Confirmed by daily roc_5d = 10.81 and 2026-05-06 candle closing at 1544.74 with relative_volume 1.28 — price following narrative.",
-    "Catalyst stack reinforces direction: CEO Fouquet at Milken on 2026-05-05 framed monopoly as durable (techcrunch, recent_news_7d), and ongoing buyback execution (~EUR 15.87M/day, 4 consecutive sessions, insidermonkey 2026-05-05) signals capital return at the precise moment shares break to highs. analyst_consensus_web Buy with avg PT 1638.80 vs current 1544.74 implies +6.1% headroom — judge can map target to PT proximity.",
-    "Tape backs the breakout: ema_aligned_uptrend=true on both daily and hourly, daily MACD bullish_crossover=true with histogram +3.63, hourly MACD histogram +16.42, hourly +DI 39.12 vs -DI 18.93, OBV trend up on both timeframes, no bearish RSI divergence on daily (rsi_14 = 63.71, not yet overbought). R:R math: midpoint entry 1555 → target 1627 = +72; stop 1528 = -27 → 2.67:1, satisfies ≥2:1. earnings.days_until_next = 69 — zero earnings-window risk."
+    "Fresh AI-demand catalyst confirmed within 7 days: 2026-05-06 +6.87% rally on AI infra capex thesis (Big-4 US tech committing >$600B AI infra capex this year per recent_news_7d, yahoo finance) outpaced tech sector +2.36%; price closed at 1544.74 with daily relative_volume 1.28 and OBV trend=up — institutional confirmation of the breakout above the 1528.64 pivot resistance.",
+    "Active management buyback executing 4 consecutive trading days at ~12,895-13,383 shares/day (~EUR 15.87M/day, insidermonkey 2026-05-05) provides a float-reduction tailwind alongside CEO Fouquet's 2026-05-05 monopoly framing ahead of Milken (techcrunch); analyst_consensus_web shows 11-analyst Buy with avg PT 1688.72, implying ~9.3% upside from 1544.74 to consensus and validating target 1627 (fib_ext_1272).",
+    "Zero binary-event risk in the holding window — earnings.days_until_next = 69 (next print 2026-07-15), and Q1 2026 already beat (EPS $8.44, +$0.63 vs estimate; FY26 guidance raised to EUR 36-40B per earnings_context_web), seeding post-earnings drift fuel. Tape confirms: daily MACD bullish_crossover with histogram +3.63, daily ADX 22.28 with +DI 28.82 > -DI 24.98, ema_aligned_uptrend=true on both daily and hourly. R:R math: entry mid 1555 → target 1627 = +72; stop 1530 = -25; 2.88:1, clears the ≥2:1 hurdle."
   ],
   "risks_acknowledged": [
-    "TSMC said on 2026-05-04 (manufacturingdigital) that A13 node will NOT use ASML High-NA EUV — removes a key reference-customer adoption catalyst for the most advanced tool and is the only negative-sentiment item in recent_news_7d.",
-    "Daily bollinger pct_b = 1.0783 (price above upper band) and z_score_50 = 2.25 — stock is statistically extended after a 10.81% 5-day rip, raising odds of a mean-reversion pullback before any continuation breakout above 1565.",
-    "Hourly rsi_21 = 76.86 with hourly rsi_divergence.bearish=true flag — short-term exhaustion signal that could stall the breakout trigger at 1565 and force a stop-out below 1528 if the late-session bid fades.",
-    "wiki_context shows new_ticker=true (no thesis/catalysts/technicals memory), so there's no prior-context corroboration of how this name behaves at extension; thesis rests entirely on 7-day catalyst stack."
+    "Daily bollinger pct_b = 1.0783 (price above upper band) and z_score_50 = 2.25 indicate the stock is statistically extended after a +10.81% 5-day move; mean-reversion pullback to ema_5 at 1462.64 or fib_236 at 1474.69 is plausible and would breach the 1530 stop.",
+    "China export-control overhang remains live (cited in 2026-05-04 -3.28% pullback news on tradingkey) and TSMC's High-NA EUV deployment delay to 2029+ is a structural demand headwind that could re-emerge as an analyst-downgrade catalyst inside the 8-day window.",
+    "Hourly rsi_21 = 77.42 with hourly rsi_divergence.bearish=true and hourly relative_volume 0.09 (22,138 vs avg 234,771) signal short-term exhaustion and lack of volume confirmation on the late push; entry on a confirmed re-test of 1545-1565 with volume is preferred over chasing.",
+    "recent_insider_trades is empty in the bundle (research gap — no insider-buy cluster to corroborate the catalyst case); thesis leans on buyback disclosure as the management-confidence proxy. wiki_context.new_ticker=true means no prior-run memory to validate behavior at extension."
   ],
   "web_sources_last_7d": [
     "https://techcrunch.com/2026/05/05/asml-ceo-christophe-fouquet-no-one-is-coming-for-us/",
     "https://finance.yahoo.com/quote/ASML/news/",
-    "https://manufacturingdigital.com/news/tsmc-asml-lockheed-top-manufacturing-news-this-week",
-    "https://www.insidermonkey.com/blog/asml-holding-asml-provides-regular-update-on-share-buyback-program-execution-1755462/"
+    "https://www.insidermonkey.com/blog/asml-holding-asml-provides-regular-update-on-share-buyback-program-execution-1755462/",
+    "https://www.tradingkey.com/news/market-movers/261853360-market-movers-asml-20260504"
   ]
 }

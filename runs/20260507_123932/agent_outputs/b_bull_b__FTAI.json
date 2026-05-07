@@ -1,29 +1,29 @@
 {
   "ticker": "FTAI",
   "setup_direction": "long",
-  "bull_strength": 8,
-  "entry_zone": {"low": 285.56, "high": 287.58},
+  "bull_strength": 7,
+  "entry_zone": {"low": 285.56, "high": 288.50},
   "target": 310.63,
   "stop": 279.50,
-  "expected_holding_days": 10,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Multi-catalyst Q1 print stack drove a 14.6% rip on 2026-05-06 (dailypolitical.com): Q1 revenue $830.7M (+13% beat), Adj EBITDA $325.6M, aerospace revenue +104% YoY to $743.8M with Aerospace Products EBITDA more than doubling (stocktitan.net 2026-05-01, simplywall.st 2026-05-02) — fundamental momentum confirmed by price.",
-    "Capital-return + balance-sheet upgrade reinforces the move: dividend raised to $0.45/share (third consecutive increase, record 2026-05-13) and revolving credit facility commitments lifted to ~$2.025B (stocktitan.net 2026-05-01); 270 CFM56 modules serviced in Q1 (~2x prior-year, aviationweek.com 2026-05-05) plus FTAI Power AI-data-center turbine narrative (yahoo finance 2026-05-05) — strong-buy consensus from 10 analysts with avg PT $338.90 (analyst_consensus_web).",
-    "Technical confirmation for the breakout long: daily close 285.56 cleared prior pivot 275.72 on relative_volume 1.54x and rsi_14 = 60.02 (room before overbought); hourly adx_24 = 44.4 with plus_di 45.88 vs minus_di 12.79 = strong uptrend; macd histogram +3.725 daily and +5.29 hourly; earnings.days_until_next = 82 so no near-term print risk. R:R from entry mid 286.57 to stop 279.50 (-7.07) vs target 310.63 (+24.06) = 3.4:1."
+    "Multi-catalyst stack within last 7 days: Q1 2026 print on 2026-04-30 delivered revenue beat (+13% to $830.7M, Adj EBITDA $325.6M, net income $134.2M), third consecutive dividend hike to $0.45/share (record 2026-05-13), and revolving credit facility commitments raised to ~$2.025B (stocktitan.net 2026-05-01); follow-through buying drove +14.6% on 2026-05-06 (dailypolitical.com 2026-05-06) — classic post-earnings drift confirmed by price.",
+    "Aerospace fundamentals corroborate the catalyst: aerospace revenue +104% YoY to $743.8M with Aerospace Products revenue and EBITDA more than doubling, plus 270 CFM56 modules serviced in Q1 (~2x prior-year volume) and Aviation Week 2026-05-05 noting little maintenance pressure on current-gen fleets — supports continued module demand. Analyst panel skewed bullish: 9-analyst consensus 'Strong Buy' avg PT $271.67, separate 10-analyst panel avg PT $338.90 (high $375), individual PT recently raised from $266 to $293 (analyst_consensus_web).",
+    "Technicals confirm the breakout with R:R math working: current_price $285.56 closed above prior pivot resistance $275.72 on relative_volume 1.54 (volume 2.42M vs 20d avg 1.57M); rsi_14 60.02 (room to run, not overbought; rsi_7 75.62 reflects 1-day spike), macd histogram +3.725 with sharp turn higher, momentum.roc_5d +34%, hourly adx_24 47.68 (strong trend) and hourly EMAs aligned uptrend. Earnings.days_until_next = 82 (no near-term earnings risk). R:R = (310.63 - 287.03) / (287.03 - 279.50) = 23.60 / 7.53 = 3.13:1, well above 2:1 minimum."
   ],
   "risks_acknowledged": [
-    "Q1 statutory EPS missed by 15% ($1.29 vs consensus) and analysts are revising forecasts post-print (simplywall.st 2026-05-04) — the rip could reverse if downward revisions accelerate.",
-    "Stretched extension: price is +13.16% above SMA50, daily bollinger pct_b = 1.0318 (above upper band), z_score_50 = 1.48, rsi_7 = 75.62 — chase risk after a 5d ROC of +34%; pullback to 275 pivot is plausible.",
-    "OBV trend on daily is 'down' and diverging from price (volume.obv.diverging_from_price = true) — accumulation quality on the breakout day is questionable despite 1.54x relative volume.",
-    "Wiki context is empty (new_ticker = true); no durable thesis or prior trade history to anchor conviction — purely catalyst-driven entry."
+    "Statutory Q1 EPS missed by 15% ($1.29 vs expected) and analysts are revising forecasts post-print (simplywall.st 2026-05-04) — a downward revision wave could cap upside even with the dividend/credit-facility tailwind.",
+    "Stock is +34% over 5 sessions (momentum.roc_5d) and trading at bollinger pct_b 1.0318 (above upper band) with z_score_50 = 1.48 — chasing here has elevated mean-reversion risk if the broader tape turns.",
+    "OBV trend is 'down' and diverging from price on the daily, signaling that the rally lacks broad accumulation; pullback risk to fib_236 $267.58 or hourly nearest_support $237 is real if the breakout fails.",
+    "wiki_context.new_ticker = true (no thesis/catalysts/technicals slices on file) — no prior history to corroborate setup quality; treat conviction with one-notch caution since this is an untested name in System B."
   ],
   "web_sources_last_7d": [
     "https://www.dailypolitical.com/2026/05/06/ftai-aviation-nasdaqftai-trading-14-6-higher-heres-why.html",
-    "https://finance.yahoo.com/markets/stocks/articles/ftai-nasdaq-ftai-q1-cy2026-045255944.html",
     "https://aviationweek.com/mro/aircraft-propulsion/mro-memo-ftai-reports-little-pressure-current-gen-fleets",
     "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/earnings-miss-ftai-aviation-ltd-missed-eps-by-15-and-analyst",
     "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/ftai-aviation-ftai-net-margin-breakout-reinforces-bullish-ea",
+    "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/did-strong-q1-results-higher-dividend-and-new-shelf-filing-j",
     "https://www.stocktitan.net/news/FTAI/ftai-aviation-ltd-reports-first-quarter-2026-results-increases-09wjspsqwodk.html",
-    "https://stockstotrade.com/news/ftai-aviation-ltd-ftai-news-2026_04_30-2/"
+    "https://stockstotrade.com/news/ftai-aviation-ltd-ftai-news-2026_04_30/"
   ]
 }

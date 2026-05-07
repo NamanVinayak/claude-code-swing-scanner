@@ -4,19 +4,20 @@
     {
       "ticker": "CIEN",
       "direction": "long",
-      "entry_price": 577.50,
-      "stop_loss": 565.00,
-      "target_price": 605.00,
-      "target_price_2": 624.07,
+      "entry_price": 580.75,
+      "stop_loss": 562.00,
+      "target_price": 623.64,
+      "target_price_2": null,
       "quantity": 8,
-      "expected_holding_days": 7,
+      "expected_holding_days": 9,
       "setup_type": "breakout",
       "conviction": 6,
-      "rationale": "All 4 perspectives agree direction=long; bull_a=6/bear_a=7 and bull_b=7/bear_b=7 give combined_p_bull=0.4808, combined_p_bear=0.5192. Expected_return_per_share = 0.4808*(605-577.50) - 0.5192*(577.50-565) = +$6.73 — positive despite bears' overbought/extension warnings (rsi_14=70.6, bollinger.pct_b=1.1264, rsi_divergence.bearish=true) because trend stack is intact (daily ema_aligned_uptrend=true, adx_14=33.4 strong with plus_di 32.14 vs minus_di 16.28, macd.bullish_crossover=true) and Stifel PT raise to $585 plus Vodafone WaveLogic 6 customer win in last 7d are real catalysts. Gate 3 quantity=20 (risk_dollars $250 / risk_per_share $12.50) but notional $11,550 > 15% cap; scaled down from 20 to 8 shares to fit small-account cap, using 40% of risk budget (notional $4,620 = 18.5% of account, risk $100). Earnings 28d out (no blackout). Wiki new_ticker=true so no prior thesis to corroborate — conviction held to 6 not 7.",
-      "risk_usd": 100.00,
-      "position_size_class": "small_scaled"
+      "rationale": "All 4 perspectives agree direction=long. Probability weights: p_bull=6/(6+7)=0.4615, p_catalyst=7/(7+7)=0.5, combined_p_bull=0.4808, combined_p_bear=0.5192. Entry=midpoint of b_bull_a zone=(577.50+584.00)/2=580.75; conservative target=min(623.64,623.64)=623.64; conservative stop=max(562.00,559.13)=562.00. Expected_return_per_share = 0.4808*(623.64-580.75) - 0.5192*(580.75-562.00) = 20.62 - 9.74 = +$10.88 — positive. Bulls win on confirmed daily trend (daily_indicators.adx.adx_14=33.4 with plus_di=32.14 vs minus_di=16.28, moving_averages.ema_aligned_uptrend=true, macd.bullish_crossover=true with histogram=+2.05, momentum.roc_5d=+21.33, volume.obv.trend=up not diverging) plus fresh 7d catalyst stack (Stifel PT raise to $585 dated 2026-05-05, BofA PT $550, WaveLogic 6 Vodafone Idea win 2026-05-04, Danske Bank +35k share filing 2026-05-05). Bears' overbought concerns (rsi_14=70.6, rsi_divergence.bearish=true, bollinger.pct_b=1.1264, z_score_50=1.94) and weak hourly tape (hourly macd.histogram=-4.09, hourly relative_volume=0.16, hourly current_price 520.13 below ema_24/sma_24/ema_48/sma_48) are real risks acknowledged in tighter stop and held conviction at 6 not 8 — but daily trend strength and catalyst confirmation outweigh extension. Gate 3 quantity=floor(250/18.75)=13; notional 13*580.75=$7,549.75 exceeds 15% cap ($3,750); scaled down from 13 to 8 shares to fit small-account cap, using 60% of risk budget (M=8 at notional $4,646=18.6% of account fits 20% extended cap; risk_M=$150 >= $100 risk-floor). Wiki_context.new_ticker=true so no prior CIEN thesis to corroborate. Earnings 28 days out — outside 3-day forward blackout but capped expected_holding_days at 9 to leave a buffer.",
+      "risk_usd": 150.00,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-07T18:00:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "CIEN long approved as small_scaled (8 shares @ $577.50, stop $565, target $605, risk $100). Bull/bear consensus on direction with positive +$6.73/share expected return; high share price forced 20->8 share scale-down using 40% of risk budget."
+  "summary": "CIEN approved long as small_scaled (8 shares @ $580.75, stop $562.00, target $623.64, risk $150). Bulls' confirmed daily trend + fresh analyst PT raises and customer win catalyst overcome bears' extension and hourly-weakness warnings; EV +$10.88/share. Scaled 13->8 shares (60% of risk budget) to fit small-account cap on a $580 stock. Tight entry-valid-until ~1h post cash open since premarket is -1.21% requiring watch-level reclaim."
 }

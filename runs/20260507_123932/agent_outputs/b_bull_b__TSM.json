@@ -2,23 +2,25 @@
   "ticker": "TSM",
   "setup_direction": "long",
   "bull_strength": 8,
-  "entry_zone": {"low": 419.50, "high": 421.00},
-  "target": 437.22,
-  "stop": 410.00,
-  "expected_holding_days": 7,
+  "entry_zone": {"low": 420.00, "high": 422.50},
+  "target": 447.40,
+  "stop": 411.50,
+  "expected_holding_days": 10,
   "top_3_arguments": [
-    "Fresh +6% catalyst on 2026-05-06 to a new 52-week high ($419.50 close, recent_high 419.70) driven by AMD's Q1 2026 revenue beat ($10.3B, +38% YoY) — TSM is AMD's primary AI/server foundry, so the read-through is direct revenue visibility, not sympathy. Volume confirmed: relative_volume 1.25 on daily, 1.47 on hourly with OBV trending up and not diverging.",
-    "Multi-day catalyst stack within 7d: 2026-05-05 Yahoo Finance reported TSMC's 2nm capacity growing at 70% CAGR 2026-2028 with 5 fabs entering volume production this year and capex reaffirmed at $52-56B upper end; 2026-05-06 Investing.com confirmed sector-wide AI chip demand visibility improvement. Earnings risk is null — earnings.days_until_next = 70 (next print 2026-07-17), so no near-term print can de-rate the trade.",
-    "Trend math is decisively bullish and aligned with the catalyst: ema_aligned_uptrend = true, ADX 43.37 (strong) with +DI 37.24 vs -DI 9.5, MACD histogram +1.82, RSI_14 74.65 (hot but ROC_21d = 21.48% confirms genuine trend, not exhaustion). Entry above 419.50 watch_level targets fib_ext_1618 = 437.22 (~$17.7 reward) vs stop below 410 (~$10 risk under invalidation_level 415) for ~1.78:1 R:R; using entry midpoint 420.25, R:R = (437.22-420.25)/(420.25-410) = 1.66:1."
+    "Fresh AI-demand catalyst dated 2026-05-06: AMD reported Q1 2026 revenue of $10.3B (+38% YoY, +4% beat) and TSM rallied +6% to a new 52-week high of $419.70 on 17.69M shares (relative_volume 1.25 vs 20-day avg 14.14M). TSMC is AMD's primary foundry partner for AI accelerators and server CPUs, so AMD's beat reads directly through to TSMC fab utilization — not sympathy, direct revenue visibility (sources: coincentral, investing.com, ts2.tech, all 2026-05-06).",
+    "Capacity-supply narrative reinforced 2026-05-05: Yahoo Finance reported 2nm capacity growing at 70% CAGR 2026-2028 with 5 fabs entering volume production this year, CEO C.C. Wei reaffirmed capex at upper end of $52-56B. Trend confirmation is unambiguous on daily indicators — ADX_14 = 43.37 with plus_di 37.24 vs minus_di 9.5 (strong uptrend), MACD histogram +1.82, EMAs stacked in uptrend (5>10>20>50>200), price 15.96% above sma_50, ROC_21d = 21.48%, OBV trend up and not diverging from price. The breakout is confirmed (close 419.50 above daily Bollinger upper 417.38), not anticipation.",
+    "Risk/reward math with no earnings risk inside the holding window: earnings.days_until_next = 70 (next print 2026-07-17 per earnings_context_web), so the 10-day swing carries zero earnings exposure. Entry zone 420.00-422.50 (just above the 419.70 swing high and hourly resistance at 420.00 with 6 volume_confirmed tests), stop 411.50 (below the hourly fib_236 of 413.53 and below the 414.50 daily pivot/invalidation_level), target 447.40 (= hourly fib_ext_2000 and just under daily fib_ext_1272 of 448.50). Midpoint entry 421.25; risk 9.75; reward 26.15 → R:R = 2.68:1, clears the 2:1 minimum."
   ],
   "risks_acknowledged": [
-    "R:R is below the 2:1 threshold (≈1.66:1 from entry midpoint to fib_ext_1618). Either the target should be stretched toward fib_ext_2000 = 447.87 (giving 2.7:1) on a confirmed breakout, or position size cut — the catalyst is strong but the geometry is tight after the +6% gap day.",
-    "analyst_consensus_web avg_price_target $416.67 sits BELOW current price $419.50 — the rally has front-run the sell-side, so further upside requires PT raises that haven't yet been published. RSI_14 74.65 + bollinger pct_b 1.0329 (price above upper band) flag overbought conditions; a one-to-two-day mean-reversion pullback toward EMA_5 ($404) is possible before continuation.",
-    "Catalyst is a derivative read-through (AMD's earnings, not TSM's own print). If AMD's guide is later questioned or if competing-foundry headlines (Samsung 2nm, Intel Foundry wins) emerge, the narrative-momentum case unwinds quickly. recent_insider_trades is empty — no insider-buying confirmation to anchor the thesis."
+    "Daily RSI_14 = 74.65 and Bollinger pct_b = 1.03 (price above upper band) flag overbought conditions — a one-to-two-day mean-reversion pullback toward 414.50 / EMA_5 area can stop the trade out on routine consolidation rather than thesis failure.",
+    "analyst_consensus_web avg_price_target $416.67 already sits below current $419.50; near-term sell-side upside is exhausted until PT raises print, and none surfaced in the last 7 days per the news researcher.",
+    "Catalyst is a read-through from AMD's beat, not a TSM-specific print. If AMD's Q1 strength gets reframed as inventory pull-forward, or if a competing-foundry headline (Samsung 2nm, Intel Foundry) emerges, the gap-and-go can unwind fast given the extended RSI/%B reading. recent_insider_trades is empty — no insider-buying anchor to corroborate the thesis.",
+    "Hourly volume_bias_10d is 'down' and hourly OBV trend is 'down' — late-session 2026-05-06 buying may have been concentrated rather than broad-based, which weakens follow-through confidence into the next 1-2 sessions."
   ],
   "web_sources_last_7d": [
     "https://coincentral.com/tsmc-tsm-stock-gains-6-as-amd-revenue-beat-fuels-optimism-over-ai-manufacturing-capacity/",
     "https://www.investing.com/news/company-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-4664204",
-    "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html"
+    "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html",
+    "https://ts2.tech/en/taiwan-semiconductor-manufacturing-company-stock-jumps-as-amds-ai-surge-puts-tsmc-capacity-in-focus/"
   ]
 }

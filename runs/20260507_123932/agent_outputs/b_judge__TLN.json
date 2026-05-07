@@ -7,16 +7,17 @@
       "entry_price": 411.50,
       "stop_loss": 397.00,
       "target_price": 442.00,
-      "target_price_2": 481.32,
+      "target_price_2": 465.00,
       "quantity": 12,
       "expected_holding_days": 8,
       "setup_type": "breakout",
       "conviction": 7,
-      "rationale": "Bull thesis dominates: b_bull_a.bull_strength=7 vs b_bear_a.bear_strength=6 (p_bull=0.5385); b_bull_b.bull_strength=8 vs b_bear_b.bear_strength=6 (p_catalyst=0.5714); combined_p_bull=0.5550. Daily indicators corroborate the bulls' numerical claims (adx.adx_14=27.55 strong with plus_di 34.80 vs minus_di 15.25; ema_aligned_uptrend=true; macd.histogram=+5.29; volume.relative_volume=1.74 confirming the breakout day; momentum.roc_5d=+16.5%) — bears' extension argument is real (bollinger.pct_b=1.0672, z_score_50=2.75, dist_from_50sma_pct=20.1%) but the catalyst stack (Q1 EBITDA $473M beat, MS PT $498, PJM 2027/2028 capacity revenue $1.07B) plus zero earnings risk for 92 days tilts the probability-weighted math positive. Expected return per share = 0.5550*(442-411.50) - 0.4450*(411.50-397.00) = 16.93 - 6.45 = +$10.48. Gate-3 quantity = floor(250/14.50) = 17 shares; notional 17*411.50 = $6,995 exceeds the $3,750 single-position cap (15%), so scaled down from 17 to 12 shares to fit small-account cap, using 70% of risk budget (12*14.50=$174 vs $250 budget). Notional $4,938 = 19.75% of account (within 20% extended cap). Conviction 7: trend math is strong but stretch and hourly cooling (hourly roc_5d=-3.5%) warrant restraint vs higher score.",
+      "rationale": "Bull thesis wins: b_bull_b.bull_strength=8 (Q1 EBITDA $473M beat + Morgan Stanley PT $498 + PJM 2027/28 capacity ~$1.07B revenue tailwind) and b_bull_a.bull_strength=7 outweigh b_bear_b=7 / b_bear_a=6. p_bull=7/13=0.538, p_catalyst=8/15=0.533, combined_p_bull=0.536. Expected_return_per_share = 0.536*(442.00-411.50) - 0.464*(411.50-397.00) = 16.35 - 6.73 = +$9.62. Trend corroborated in daily_indicators: adx.adx_14=27.55 strong with plus_di 34.80 vs minus_di 15.25, ema_aligned_uptrend=true, macd.histogram=+5.29, volume.relative_volume=1.74 confirming breakout day, momentum.roc_5d=+16.5%. Bears' extension concern (bollinger.pct_b=1.0672, z_score_50=2.75, dist_from_50sma_pct=20.1%) acknowledged but conservative stop at $397.00 sits just below the 397.40 prior-resistance-flipped-support pivot, giving the trend room. Sizing: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = $14.50; Gate-3 qty = floor(250/14.50) = 17, but notional 17*411.50 = $6,995 exceeds $3,750 single-position cap (15%). Scaled down from 17 to 12 shares to fit small-account cap, using 70% of risk budget; notional 12*411.50 = $4,938 = 19.75% of account, within 20% small_scaled extended cap; risk_M = 12*14.50 = $174 ≥ $100 risk-floor. wiki_context.new_ticker=true (no prior thesis history) noted; conviction held at 7.",
       "risk_usd": 174.00,
-      "position_size_class": "small_scaled"
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-07T21:10:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "TLN long approved as small_scaled (12 shares @ $411.50, $174 risk). Probability-weighted expected return +$10.48/share with target $442 / stop $397; single-position cap exceeded at full Gate-3 size so downsized to 12 shares, still using 70% of risk budget. Bull catalyst stack (Q1 beat + MS PT raise + PJM capacity) + strong daily trend (ADX 27.55, EMA-aligned uptrend) outweigh bears' extension warnings."
+  "summary": "TLN long approved as small_scaled (12 shares @ $411.50, stop $397, target $442, $174 risk). Q1 beat + Morgan Stanley PT raise + PJM capacity catalyst stack with strong daily trend (ADX 27.55, +DI dominant, MACD expanding, RelVol 1.74) overcomes bears' extension concerns; expected_return_per_share = +$9.62. Scaled from Gate-3 qty 17 to 12 to fit 20% notional cap on $25k account, still uses 70% of risk budget."
 }

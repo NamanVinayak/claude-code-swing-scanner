@@ -2,27 +2,27 @@
   "ticker": "ROK",
   "setup_direction": "long",
   "bull_strength": 8,
-  "entry_zone": {"low": 461.00, "high": 463.50},
-  "target": 480.50,
-  "stop": 454.00,
-  "expected_holding_days": 7,
+  "entry_zone": {"low": 460.00, "high": 463.00},
+  "target": 483.00,
+  "stop": 451.00,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Fresh Q2 FY26 beat-and-raise on 2026-05-05: adjusted EPS $3.30 vs $2.89 consensus, revenue $2.24B vs ~$2.18B est, FY26 EPS guide raised to $12.50-$13.10 (mid $12.80 vs prior consensus ~$12.26). Stock gapped +10.72% on 2026-05-05 and added another +5.37% on 2026-05-06 closing at $459.35 — two-day post-earnings drift confirms catalyst is being bought, not faded (chartmill, yahoo finance, tradingkey, meyka).",
-    "Catalyst durability: yahoo article cites double-digit growth in warehouse automation, data centers, and semiconductors as the demand drivers behind the raise — these are durable secular tailwinds, not a one-quarter beat. Sell-side responded same-day: per Benzinga 2026-05-06, multiple analysts raised price targets following the print. Consensus rating Buy; 12-mo avg PT $428.66 sits BELOW current $459.35, meaning targets are still catching up to the new earnings power, providing forward upgrade pressure.",
-    "Technical confirmation aligned with catalyst: daily ADX_14 = 41.26 (strong trend), +DI 38.46 vs -DI 10.48, ema_aligned_uptrend = true on both daily and hourly, MACD histogram +3.55 daily / +5.01 hourly, relative_volume = 1.59 on the breakout follow-through day. Hourly bullish RSI divergence flagged. Earnings.days_until_next = 91 (next print 2026-08-05) so no near-term event risk. Entry $461-$463.50 (above watch_level $461 and prior swing high $463.49), target $480.50 just under daily fib_ext_1272 = $495.03, stop $454.00 below invalidation $455. R:R = ($471 mid - $454) vs ($480.50 - $471) = $17 risk vs $9.50 reward — short of 2:1, so cite math explicitly: tightening stop to invalidation $455 gives entry-mid $462.25 → stop $455 = $7.25 risk vs $480.50 - $462.25 = $18.25 reward = 2.5:1 R:R."
+    "Blowout Q2 FY26 beat-and-raise on 2026-05-05 (recent_news_7d): adjusted EPS $3.30 vs $2.88 consensus, revenue $2.24B vs ~$2.17B est; management raised FY26 EPS guide to $12.50-$13.10 and revenue outlook to ~$8.9B citing data center, semiconductor, energy and warehouse-automation demand. Stock gapped +10.72% on May 5 and added another +5.4% on May 6 closing at $459.35 (recent_prices_5d) - classic two-day post-earnings drift; the FY26 guide reset is still being repriced.",
+    "Sell-side rerating in real time (analyst_consensus_web): HSBC raised PT to $490 on 2026-05-07 (today); Goldman, BNP Paribas, and Evercore also raised targets 2026-05-05/06 per tipranks/dailypolitical coverage. The 12-mo avg PT $428.66 still sits BELOW current $459.35, meaning consensus has not finished catching up to the new guide - that lag historically resolves with continued upward target revisions, supporting upside continuation toward $483.",
+    "Trend structure intact with no near-term event risk: daily ADX_14 = 41.26 (strong trend), +DI 38.46 vs -DI 10.48, ema_aligned_uptrend = true on both daily and hourly, MACD histogram +3.5466 daily, daily relative_volume = 1.59 with OBV trending up; earnings.days_until_next = 91 (next print 2026-08-05 per earnings_context_web), no blackout window. R:R math: entry mid $461.50, stop $451 = $10.50 risk; target $483 (just under daily fib_ext_1272 = $495.03 and inside hourly fib_ext_1272 = $480.67 plus ~$2.50 cushion) = $21.50 reward; R:R = 2.05:1, clearing the 2:1 threshold."
   ],
   "risks_acknowledged": [
-    "RSI extended: daily rsi_7 = 81.56, rsi_14 = 73.55, bollinger pct_b = 1.3488 (above upper band), z_score_50 = 2.89 — chasing here means buying a stock 18.83% above its 50-SMA and 12.30% above 20-SMA. A mean-reversion pullback to $440-$445 (gap-fill / fib_236 = $436.12) is a real possibility before continuation.",
-    "Insider sale on 2026-05-05 (SVP Lifecycle Services Matthew Fordenwalt sold 460 shares for ~$206,992) is small in absolute size but timing-on-day-of-earnings is suboptimal optics; recent_insider_trades from facts is empty so no offsetting cluster of buys to cite.",
-    "Analyst 12-mo avg PT $428.66 is below current $459.35 — if upgrades plateau, the stock may have run ahead of the new fundamentals near-term and need a multi-week digestion before next leg up.",
-    "Setup is post-gap continuation rather than fresh breakout — entry at $461-$463.50 is paying near the 2-day high $463.49, leaving little cushion if the breakout fails and reverses back into the $445-$455 range."
+    "Overbought extension is real: daily rsi_7 = 81.56, rsi_14 = 73.55, bollinger pct_b = 1.3488 (above upper band), z_score_50 = 2.89, dist_from_50sma_pct = 18.83. Two-day gap chase has worse R:R than buying a controlled pullback to $445-$450 (fib_236 = $436.12 / gap-fill); a half-gap-fill move would stop the trade out before any reaccumulation.",
+    "Two SVP insider sales on 2026-05-05 (Fordenwalt 600 shares @ $449.58 = $269,748; SVP Lifecycle Services 460 shares) - small relative sizes and timing on earnings day is consistent with 10b5-1 windows opening, but it is not the cluster-buying signal a catalyst bull would prefer; recent_insider_trades from Finnhub returned empty so there are no offsetting recent buys to cite.",
+    "Hourly volume is degraded: hourly relative_volume = 0.14 and hourly OBV trend = down despite daily OBV up - confirms the gap-fueled move is taking a breather. A $461 breakout needs intraday volume expansion to be trustworthy; if price tags entry zone on shrinking hourly volume, conviction should drop.",
+    "Avg analyst PT $428.66 sits BELOW current $459.35 - even with HSBC's $490 outlier, the median sell-side view is that the post-earnings move has overshot near-term fair value; a single sector risk-off day or a downgrade could compress the multiple back toward consensus quickly."
   ],
   "web_sources_last_7d": [
     "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
     "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
     "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
-    "https://www.benzinga.com/analyst-stock-ratings/price-target/26/05/52337987/rockwell-automation-analysts-raise-their-forecasts-following-upbeat-q2-results",
-    "https://www.quiverquant.com/news/Insider+Sale:+SVP+Lifecycle+Services+of+$ROK+Sells+460+Shares",
+    "https://www.dailypolitical.com/2026/05/07/hsbc-issues-positive-forecast-for-rockwell-automation-nyserok-stock-price.html",
+    "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
     "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505"
   ]
 }

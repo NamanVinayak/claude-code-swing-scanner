@@ -17,7 +17,7 @@
       "date": "2026-05-05",
       "url": "https://www.stocktitan.net/news/TLN/talen-energy-reports-first-quarter-2026-results-reaffirms-2026-ifiux9jegmsw.html",
       "sentiment": "positive",
-      "summary": "Q1 2026 EBITDA $473M; revenue $1.13B vs $1.05B FactSet estimate; full-year 2026 guidance reaffirmed."
+      "summary": "Q1 2026 Adjusted EBITDA $473M; Adjusted FCF $350M; revenue $1.13B vs $1.05B FactSet estimate; full-year 2026 guidance reaffirmed. Repurchased 300,000 shares for $100M in Q1; $1.9B authorization remaining through 2028."
     },
     {
       "title": "Talen Energy Q1 2026 Earnings Transcript",
@@ -25,7 +25,7 @@
       "date": "2026-05-05",
       "url": "https://www.fool.com/earnings/call-transcripts/2026/05/05/talen-energy-tln-q1-2026-earnings-transcript/",
       "sentiment": "positive",
-      "summary": "Management emphasized rapid regulatory progress on the pending Cornerstone acquisition and continued data-center buildout at Susquehanna with no slowdown."
+      "summary": "Management emphasized rapid regulatory progress on the pending Cornerstone acquisition and continued data-center buildout at Susquehanna with no slowdown observed; preliminary 2027-2028 projections provided incorporating Cornerstone, spark spreads, and forward price marks."
     },
     {
       "title": "Earnings Flash (TLN) Reports Q1 Revenue $1.13B vs FactSet Est $1.05B",
@@ -33,7 +33,7 @@
       "date": "2026-05-05",
       "url": "https://www.marketscreener.com/news/earnings-flash-tln-talen-energy-corporation-reports-q1-revenue-1-13b-vs-factset-est-of-1-05b-ce7f58dcd08bf62c",
       "sentiment": "positive",
-      "summary": "Q1 revenue $1.13B exceeded FactSet consensus of $1.05B by ~7.6%."
+      "summary": "Q1 revenue $1.13B exceeded FactSet consensus of $1.05B by ~7.6%. Stock +3.35% on the print."
     },
     {
       "title": "Morgan Stanley raises Talen Energy price target to $498 from $479, maintains Buy",
@@ -57,7 +57,7 @@
       "date": "2026-05-06",
       "url": "https://www.stocktitan.net/news/TLN/",
       "sentiment": "neutral",
-      "summary": "Talen Energy priced a senior notes offering; details on size and coupon released this week."
+      "summary": "Talen Energy priced a senior notes offering this week as part of capital structure optimization; lowers interest expense and improves secured debt metrics."
     }
   ],
   "wiki_context": {
@@ -78,7 +78,7 @@
     "new_ticker": true
   },
   "current_price": 409.989990234375,
-  "market_cap": 17956767744.0,
+  "market_cap": 17656098816.0,
   "recent_prices_5d": [
     {
       "time": "2026-04-30",
@@ -285,35 +285,35 @@
   "hourly_indicators": {
     "timeframe": "hourly",
     "moving_averages": {
-      "ema_24": 391.85763106028696,
-      "sma_24": 390.2614491780599,
-      "ema_48": 381.5689139815666,
-      "sma_48": 377.57679557800293,
-      "ema_120": 364.5304597612216,
-      "sma_120": 361.7263033548991,
+      "ema_24": 391.2648020370319,
+      "sma_24": 393.08385340372723,
+      "ema_48": 383.23268862778735,
+      "sma_48": 380.59289169311523,
+      "ema_120": 366.842862139994,
+      "sma_120": 364.0356999715169,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 392.9700012207031,
-    "dist_from_50sma_pct": 8.64,
+    "current_price": 386.3901062011719,
+    "dist_from_50sma_pct": 6.14,
     "price_vs_ma": {
-      "above_ema_24": true,
-      "pct_from_ema_24": 0.28,
-      "above_sma_24": true,
-      "pct_from_sma_24": 0.69,
+      "above_ema_24": false,
+      "pct_from_ema_24": -1.25,
+      "above_sma_24": false,
+      "pct_from_sma_24": -1.7,
       "above_ema_48": true,
-      "pct_from_ema_48": 2.99,
+      "pct_from_ema_48": 0.82,
       "above_sma_48": true,
-      "pct_from_sma_48": 4.08,
+      "pct_from_sma_48": 1.52,
       "above_ema_120": true,
-      "pct_from_ema_120": 7.8,
+      "pct_from_ema_120": 5.33,
       "above_sma_120": true,
-      "pct_from_sma_120": 8.64,
+      "pct_from_sma_120": 6.14,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 39197.0
+      "pct_from_ema_aligned_uptrend": 38539.01
     },
     "rsi": {
-      "rsi_21": 58.06
+      "rsi_21": 51.77
     },
     "rsi_divergence": {
       "bullish": false,
@@ -321,54 +321,54 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 11.6432,
-      "signal_line": 9.5993,
-      "histogram": 2.0439,
+      "macd_line": 9.2586,
+      "signal_line": 9.8975,
+      "histogram": -0.6389,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 410.84,
-      "middle": 377.58,
-      "lower": 344.31,
-      "width": 0.1762,
-      "pct_b": 0.7314
+      "upper": 412.9,
+      "middle": 380.59,
+      "lower": 348.28,
+      "width": 0.1698,
+      "pct_b": 0.5897
     },
     "atr": {
-      "atr_24": 6.52,
-      "atr_pct": 1.66
+      "atr_24": 7.01,
+      "atr_pct": 1.81
     },
     "adx": {
-      "adx_24": 46.61,
-      "plus_di": 35.76,
-      "minus_di": 13.68,
+      "adx_24": 48.23,
+      "plus_di": 26.02,
+      "minus_di": 17.52,
       "trend_strength": "strong"
     },
     "volume": {
-      "current_volume": 106686,
-      "avg_volume_20": 110992,
-      "relative_volume": 0.96,
-      "volume_bias_10d": "up",
+      "current_volume": 31890,
+      "avg_volume_20": 107609,
+      "relative_volume": 0.3,
+      "volume_bias_10d": "down",
       "obv": {
-        "trend": "up",
+        "trend": "down",
         "diverging_from_price": false
       }
     },
     "support_resistance": {
       "pivot_highs": [
         {
-          "price": 369.91,
-          "tests": 10,
-          "volume_confirmed": false
-        },
-        {
           "price": 383.82,
-          "tests": 12,
+          "tests": 13,
           "volume_confirmed": false
         },
         {
           "price": 391.37,
-          "tests": 8,
+          "tests": 13,
           "volume_confirmed": false
+        },
+        {
+          "price": 416.68,
+          "tests": 1,
+          "volume_confirmed": true
         }
       ],
       "pivot_lows": [
@@ -379,27 +379,27 @@
         },
         {
           "price": 355.0,
-          "tests": 10,
+          "tests": 9,
           "volume_confirmed": false
         },
         {
           "price": 368.0,
-          "tests": 12,
+          "tests": 11,
           "volume_confirmed": false
         },
         {
           "price": 384.43,
-          "tests": 12,
+          "tests": 15,
           "volume_confirmed": false
         }
       ],
-      "nearest_resistance": null,
+      "nearest_resistance": 391.37,
       "nearest_support": 384.43,
       "recent_high": 416.68,
-      "recent_low": 377.66,
-      "prev_day_high": 410.4,
-      "prev_day_low": 406.98,
-      "prev_day_close": 410.01
+      "recent_low": 384.11,
+      "prev_day_high": 393.67,
+      "prev_day_low": 386.32,
+      "prev_day_close": 388.53
     },
     "fibonacci": {
       "swing_high": 416.68,
@@ -416,11 +416,11 @@
       "fib_ext_low_1618": 337.92
     },
     "momentum": {
-      "roc_5d": -3.5,
-      "roc_10d": 1.45,
-      "roc_21d": 2.87
+      "roc_5d": -3.0,
+      "roc_10d": -5.11,
+      "roc_21d": 0.63
     },
-    "z_score_120": 1.67,
+    "z_score_120": 1.19,
     "degraded_indicators": []
   },
   "recent_insider_trades": [],
@@ -432,11 +432,11 @@
   "analyst_consensus_web": {
     "rating": "buy",
     "avg_price_target": 467.77,
-    "recent_changes": "Morgan Stanley raised PT to $498 from $479 this week (maintained Buy/Overweight); aggregate consensus from 15 analysts is Strong Buy (15 Buy / 1 Hold / 0 Sell), avg PT $467.77, range $388.56-$548."
+    "recent_changes": "Morgan Stanley raised PT to $498 from $479 this week (maintained Buy/Overweight). Aggregate consensus from 16 analysts is Strong Buy (15 Buy / 1 Hold / 0 Sell), avg PT $467.77, range $388.56-$548. Implied upside roughly +32% off ~$392.61 last price (May 7, 12:18 PM EDT)."
   },
   "earnings_context_web": {
     "next_earnings_date": "2026-08-07",
     "days_until_next": 92,
-    "notes": "Q1 2026 reported 2026-05-05 (revenue $1.13B beat, EBITDA $473M, 2026 guide reaffirmed). Next quarterly print is Q2 in early August. Near-term catalysts: pending Cornerstone acquisition close (expected FCF/share uplift via spark spreads + higher forward price marks), continued Susquehanna data-center buildout, and PJM 2027/2028 capacity revenue (~$1.07B at $333.44/MW-day)."
+    "notes": "Q1 2026 reported 2026-05-05 (revenue $1.13B beat, EBITDA $473M, FCF $350M, 2026 guide reaffirmed). Next quarterly print is Q2 in early August. Near-term catalysts: pending Cornerstone acquisition close (expected FCF/share uplift via spark spreads + higher forward price marks), continued Susquehanna data-center buildout, and PJM 2027/2028 capacity revenue (~$1.07B at $333.44/MW-day)."
   }
 }

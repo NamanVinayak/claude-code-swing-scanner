@@ -1,0 +1,22 @@
+{
+  "query": "DE earnings catalyst",
+  "fetched_at": "2026-05-07T20:00:00Z",
+  "results": [
+    {"title": "Catalyst Pharmaceuticals, Inc. Common Stock (CPRX) Earnings Report Dates & Earnings Forecasts | Nasdaq", "url": "https://www.nasdaq.com/market-activity/stocks/cprx/earnings"},
+    {"title": "Catalyst Pharmaceuticals, Inc. (CPRX) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CPRX/"},
+    {"title": "Xometry Stock Sinks Ahead of Key Earnings Reveal - TipRanks.com", "url": "https://www.tipranks.com/news/catalyst/xometry-stock-sinks-ahead-of-key-earnings-reveal"},
+    {"title": "Investor Relations | Health Catalyst, Inc.", "url": "https://ir.healthcatalyst.com/"},
+    {"title": "Catalyst Pharmaceuticals (CPRX) Earnings Date and Reports 2026 $CPRX", "url": "https://www.marketbeat.com/stocks/NASDAQ/CPRX/earnings/"},
+    {"title": "Catalyst Pharmaceuticals (CPRX) Earnings: Latest Report, Earnings Call & Financials", "url": "https://public.com/stocks/cprx/earnings"},
+    {"title": "DHT Holdings (DHT) - CANSLIM/Minervini Cheat Setup with an Earnings Catalyst Tomorrow | ChartMill.com", "url": "https://www.chartmill.com/news/DHT/Chartmill-46800-DHT-Holdings-DHT-CANSLIMMinervini-Cheat-Setup-with-an-Earnings-Catalyst-Tomorrow"},
+    {"title": "Company Earnings Calendar - Yahoo Finance", "url": "https://finance.yahoo.com/calendar/earnings/"},
+    {"title": "ACHR Stock Holds Range As Earnings Catalyst Approaches", "url": "https://www.timothysykes.com/news/archer-aviation-inc-achr-news-2026_05_06/"},
+    {"title": "Catalyst Pharmaceuticals, Inc. - Investor Relations", "url": "https://ir.catalystpharma.com/"}
+  ],
+  "extracted_findings": {
+    "next_earnings_date_from_prior_run": "2026-05-21",
+    "expected_eps_from_prior_run": 5.81,
+    "expected_revenue_usd_from_prior_run": 11440000000,
+    "notes": "Generic 'DE earnings catalyst' query returned mostly Catalyst Pharma / Health Catalyst / DHT / ACHR results. Only one Deere-specific link (Yahoo Finance quote page) appeared. Prior run captured a Q2 FY26 earnings date of 2026-05-21 with consensus EPS $5.81 and revenue $11.44B; this powerhour run did not surface fresh data."
+  }
+}

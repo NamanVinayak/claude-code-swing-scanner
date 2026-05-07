@@ -1,7 +1,21 @@
 {
   "ticker": "VRT",
-  "researched_at": "2026-05-07T19:42:00Z",
+  "researched_at": "2026-05-07T20:00:00Z",
   "news_items": [
+    {
+      "headline": "Vertiv Holdings Co Stock (VRT) Moved Down by 4.85% on May 7: Drivers Behind the Movement",
+      "url": "https://www.tradingkey.com/news/market-movers/261870024-market-movers-vrt-20260507",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "VRT fell 4.85% on May 7 attributed to profit-taking and shifts in investor sentiment after strong YTD gains."
+    },
+    {
+      "headline": "Vertiv Stock Rises 100% & Doubles in Price in 2026 (VRT)",
+      "url": "https://watcher.guru/news/vertiv-stock-rises-100-doubles-in-price-in-2026-vrt",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Coverage noting VRT has more than doubled in price year-to-date 2026 on AI-data-center demand momentum."
+    },
     {
       "headline": "Vertiv Stock Jumps 28% in a Month: Buy, Sell, or Hold the Stock?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-stock-jumps-28-month-185100245.html",
@@ -34,16 +48,19 @@
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 327.44,
-    "recent_changes": "Consensus remains Buy across 18-25 covering analysts (22 Buy / 3 Hold / 1 Sell); 12-month avg PT $327.44 (high $394, low $155). No specific upgrade/downgrade actions surfaced in the last 7 days."
+    "recent_changes": "Consensus remains Buy across ~18-25 covering analysts (per public.com 18 Buy; per TipRanks 22 Buy / 1 Sell); 12-month avg PT $327.44 (high $394, low $155). No specific upgrade/downgrade actions surfaced in the last 7 days."
   },
   "earnings_context": {
     "next_earnings_date": "2026-08-05",
     "days_until_next": 90,
-    "notes": "Q1 2026 beat: net sales $2.65B (+30% YoY), adj operating margin 20.8%, raised full-year guidance citing AI data center demand. Already priced-in driver of the recent ~28% one-month rally. Near-term headwinds flagged: EMEA revenue decline, APAC timing, tariff/supply chain pressure."
+    "notes": "Q1 2026 beat: ~30% YoY revenue growth, EPS topped expectations, raised FY2026 sales guide to $13.50-$14.00B citing AI-data-center demand and >$15B backlog. Already priced-in driver of the recent ~100% YTD / ~28% one-month rally; today's -4.85% pullback flagged as profit-taking after extended run."
   },
   "raw_search_files": [
     "VRT_news-this-week.json",
     "VRT_analyst-rating.json",
-    "VRT_earnings-catalyst.json"
+    "VRT_earnings-catalyst.json",
+    "VRT_powerhour-news-this-week.json",
+    "VRT_powerhour-analyst-rating.json",
+    "VRT_powerhour-earnings-catalyst.json"
   ]
 }

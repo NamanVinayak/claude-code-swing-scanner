@@ -1,20 +1,20 @@
 {
   "ticker": "ADI",
-  "researched_at": "2026-05-07T12:43:00Z",
+  "researched_at": "2026-05-07T20:00:00Z",
   "news_items": [
     {
-      "headline": "Analog Devices stock hits all-time high at $408.75",
-      "url": "https://www.investing.com/news/company-news/analog-devices-stock-hits-alltime-high-at-40875-93CH-4663777",
-      "date": "2026-05-05",
+      "headline": "Analog Devices (ADI) Is Up 7.57% in One Week",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-7-57-160004196.html",
+      "date": "2026-05-06",
       "sentiment": "positive",
-      "summary": "ADI shares reached an all-time high of $408.75 amid continued semiconductor sector strength and bullish sentiment ahead of the May 20 earnings release."
+      "summary": "ADI shares are up 7.57% over the past week, outpaced only marginally by the Zacks Semiconductor - Analog and Mixed industry (+12.06%). Past quarter +24.88%, last year +107.63%. Projected 46.1% earnings growth this fiscal year; Zacks Rank #2 (Buy)."
     },
     {
       "headline": "Analog Devices (ADI) Is Up 5.6% After Analyst Upgrades Ahead Of Earnings",
       "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-5-6-161542157.html",
       "date": "2026-05-02",
       "sentiment": "positive",
-      "summary": "ADI rallied 5.6% following analyst upgrades pointing to stronger EPS and revenue ahead of the upcoming Q2 2026 earnings release."
+      "summary": "ADI rallied 5.6% following analyst upgrades pointing to stronger EPS and revenue ahead of the upcoming Q2 2026 earnings release on May 20."
     },
     {
       "headline": "Citi places ADI on 30-day positive catalyst watch list citing AI/data center demand",
@@ -31,26 +31,33 @@
       "summary": "AI and data center exposure now accounts for roughly one-fifth of ADI revenue, becoming central to the business mix and supporting expectations of continued growth."
     },
     {
-      "headline": "ADI CEO Vincent Roche sells $3.98M in stock",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/ADI/news/",
+      "headline": "Evaluating Analog Devices (ADI) Valuation As Earnings Optimism And CEO Stock Sale Draw Attention",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/evaluating-analog-devices-adi-valuation-as-earnings-optimism",
       "date": "2026-05-05",
-      "sentiment": "negative",
-      "summary": "CEO Vincent Roche reported sale of approximately $3.98 million in ADI stock. Insider sales near all-time highs may signal limited near-term upside in management's view."
+      "sentiment": "neutral",
+      "summary": "Article weighs earnings optimism against CEO Vincent Roche's recent ~$3.98M stock sale. Insider sales near all-time highs noted as a flag while broader sentiment remains constructive into May 20 earnings."
+    },
+    {
+      "headline": "How Investors Are Reacting To Analog Devices Balancing Higher Earnings Hopes With Mixed Execution Trends",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/how-investors-are-reacting-to-analog-devices-adi-balancing-h",
+      "date": "2026-05-03",
+      "sentiment": "neutral",
+      "summary": "Investors balance raised earnings expectations against mixed execution trends. Sentiment skews positive but execution risk into the print is flagged."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 393.16,
-    "recent_changes": "Multiple analyst upgrades over the past week ahead of May 20 earnings; Citi reiterated Buy with $400 PT on AI/data center catalyst watch. Consensus: 29 Buy / 6 Hold / 0 Sell across 32 analysts."
+    "recent_changes": "Current month: 27 Buy / 2 Hold / 0 Sell. JPMorgan, Barclays, and UBS have recently raised price targets. Citi reiterated Buy with $400 PT on AI/data center catalyst watch. 12-month consensus PT $393.16 (high $475, low $295); 3-month avg PT $395.95."
   },
   "earnings_context": {
     "next_earnings_date": "2026-05-20",
     "days_until_next": 13,
-    "notes": "Q2 2026 earnings release on May 20, 2026 is the near-term catalyst. Street expects ~55.68% YoY EPS growth driven by AI/data center revenue ramp and higher analog chip pricing. S&P upgraded issuer credit to A from A- on April 17, 2026 (stable outlook)."
+    "notes": "Q2 2026 earnings release on May 20, 2026 is the dominant near-term catalyst. February 2026 guidance was Q2 revenue ~$3.5B and EPS ~$2.19; analyst upgrades suggest street expects a beat driven by AI/data center revenue ramp and higher analog chip pricing. S&P Global upgraded issuer credit rating to 'A' from 'A-' on April 17, 2026 with stable outlook (older context, already priced in)."
   },
   "raw_search_files": [
-    "ADI_news-this-week.json",
-    "ADI_analyst-rating.json",
-    "ADI_earnings-catalyst.json"
+    "ADI_news-this-week-powerhour.json",
+    "ADI_analyst-rating-powerhour.json",
+    "ADI_earnings-catalyst-powerhour.json"
   ]
 }

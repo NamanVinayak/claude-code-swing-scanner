@@ -7,21 +7,20 @@
   "stop": 414.50,
   "expected_holding_days": 10,
   "top_3_arguments": [
-    "Volume-confirmed breakout to fresh 52-week high: 2026-05-06 closed at 419.50 (+6.4% vs prior close 394.41) on 17.69M shares vs 14.14M 20d avg (relative_volume 1.25); recent_high 419.70 cleared the 414.50 prior pivot resistance (support_resistance.pivot_highs) and printed daily bollinger pct_b = 1.0329 (above upper band 417.38) — institutional participation confirmed by AMD-fueled +6% rally and obv.trend = 'up' with no price divergence.",
-    "MA stack textbook bullish with strong directional ADX: price above EMA 5/10/20/21/50/200 in order (price_vs_ma.above_ema_200 = true, pct_from_ema_50 = +14.33%, pct_from_sma_200 = +36.76%); ema_aligned_uptrend = true; daily_indicators.adx.adx_14 = 43.37 with plus_di 37.24 vs minus_di 9.5 (trend_strength = 'strong'); momentum.roc_21d = +21.48% and macd histogram +1.82 expanding above signal line 12.12.",
-    "Clean R:R into Fib extension target with no overhead supply: nearest_resistance = null on the daily (white space above 419.70 to fib_ext_1272 = 448.50); entry 420.85 mid → target 448.50 = +6.6%, stop 414.50 = -1.5%, R:R ~4.4:1; hourly bollinger pct_b = 0.9924 with hourly relative_volume 1.47 confirms the breakout is holding into the close; no earnings risk (days_until_next = 70)."
+    "Volume-confirmed breakout to fresh 52-week high: 2026-05-06 closed 419.50 (+6.4% vs prior close 394.41) on 17.69M shares vs 14.14M 20d avg (volume.relative_volume = 1.25, volume_bias_10d = 'up'); recent_high 419.70 cleared the 414.50 prior pivot (support_resistance.pivot_highs) and bollinger.pct_b = 1.0329 (above upper band 417.38); volume.obv.trend = 'up' with diverging_from_price = false confirms institutional participation, not a thin-tape pop.",
+    "Textbook bullish trend stack with strong directional thrust: price above EMA 5/10/20/21/50/200 in order (price_vs_ma.above_ema_200 = true, pct_from_ema_50 = +14.33%, pct_from_sma_200 = +36.76%, moving_averages.ema_aligned_uptrend = true); daily_indicators.adx.adx_14 = 43.37 with plus_di = 37.24 vs minus_di = 9.50 (trend_strength = 'strong'); macd.macd_line 13.94 above signal_line 12.12 with histogram = +1.82; momentum.roc_21d = +21.48%.",
+    "Clean asymmetric R:R into measured-move target with white space overhead: support_resistance.nearest_resistance = null on the daily; fibonacci.fib_ext_1272 = 448.50 is the natural target on the 313.80 → 419.70 leg. Entry mid 420.85 → target 448.50 = +6.6%, stop 414.50 (below invalidation_level 415 and below pivot_high 414.50) = -1.5%, R:R ≈ 4.4:1; no earnings risk (earnings.days_until_next = 70)."
   ],
   "risks_acknowledged": [
-    "Daily rsi_14 = 74.65 and rsi_21 = 72.09 are overbought; z_score_50 = 2.33 means price is >2 std devs above its 50d mean — a 3–5% mean-reversion pullback into the 405–410 zone is plausible before continuation and could trigger the stop on intraday flush.",
-    "Analyst consensus avg_price_target = $416.67 (per analyst_consensus_web) is BELOW the entry zone — this rally has front-run sell-side targets and could see downgrades or sell-the-news flows on any AI sector wobble.",
-    "Wiki memory is empty (new_ticker = true, all slices missing) — no prior setup history for TSM in System B, so we cannot verify whether this ticker historically respects breakout-to-new-high setups vs fading them.",
-    "Single-catalyst rally: the +6% move on 2026-05-06 was driven by AMD's earnings beat (sector sympathy), not TSM-specific news; if AMD's guidance gets re-priced lower or AI sentiment cools, the breakout could fail back into the $400–405 base."
+    "Extension/overbought risk: daily rsi.rsi_14 = 74.65, rsi_21 = 72.09; bollinger.pct_b = 1.0329 (price ABOVE upper band) and z_score_50 = 2.33 — price is >2 std devs above its 50d mean, so a 3–5% mean-reversion pullback into the 405–410 zone is plausible and could trigger the 414.50 stop on an intraday flush before continuation.",
+    "Sell-side has been front-run: analyst_consensus_web.avg_price_target = $416.67 is BELOW the proposed entry zone — the rally has overshot consensus, which leaves the trade exposed to downgrades or sell-the-news flows if AI sentiment cools.",
+    "Hourly timeframe is NOT yet confirming the daily breakout: hourly current_price = 411.69 (below the daily close 419.50), hourly volume.relative_volume = 0.08 with volume_bias_10d = 'down' and obv.trend = 'down', and hourly nearest_resistance = 420.00 (tests = 6, volume_confirmed) is still overhead — needs an hourly close > 420 on rising volume before this is a high-quality entry.",
+    "Wiki memory is empty (wiki_context.new_ticker = true, all slices missing = true) AND the +6% move was a sector-sympathy reaction to AMD earnings, not TSM-specific news — no prior setup history to validate breakout follow-through, and a single sector headline could unwind the move."
   ],
   "web_sources_last_7d": [
     "https://coincentral.com/tsmc-tsm-stock-gains-6-as-amd-revenue-beat-fuels-optimism-over-ai-manufacturing-capacity/",
     "https://www.investing.com/news/company-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-4664204",
     "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html",
-    "https://www.marketbeat.com/instant-alerts/filing-equitable-trust-co-buys-5326-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-05-06/",
-    "https://www.marketscreener.com/news/tsmc-s-unit-tsmc-global-acquires-fixed-income-securities-for-42-3-mln-ce7f58ddde8bf423"
+    "https://ts2.tech/en/taiwan-semiconductor-manufacturing-company-stock-jumps-as-amds-ai-surge-puts-tsmc-capacity-in-focus/"
   ]
 }

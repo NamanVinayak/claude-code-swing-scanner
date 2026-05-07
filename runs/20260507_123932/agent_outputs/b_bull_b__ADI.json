@@ -2,26 +2,26 @@
   "ticker": "ADI",
   "setup_direction": "long",
   "bull_strength": 7,
-  "entry_zone": {"low": 415.63, "high": 418.00},
-  "target": 432.00,
-  "stop": 410.00,
-  "expected_holding_days": 8,
+  "entry_zone": {"low": 415.63, "high": 417.50},
+  "target": 430.00,
+  "stop": 409.50,
+  "expected_holding_days": 9,
   "top_3_arguments": [
-    "Multi-catalyst stack into May 20 earnings (earnings.days_until_next = 13): Citi placed ADI on 30-day positive catalyst watch with Buy / $400 PT on 2026-05-01 citing AI/data center demand, analyst upgrades drove a +5.6% rally on 2026-05-02, and Simply Wall St (2026-05-04) reframed the earnings power story as AI/data center now ~1/5 of revenue — Street modeling ~55.68% YoY EPS growth per earnings_context_web notes.",
-    "Price action confirms the catalyst: stock printed an all-time high of $408.75 on 2026-05-05 (Investing.com) and closed 2026-05-06 at $415.63 on relative_volume 1.23 with daily ADX 59.44 (plus_di 44.99 vs minus_di 8.79 — exceptionally strong uptrend), MACD histogram +1.5936, EMA stack fully aligned bullish through the 200, and roc_21d = 26.94% — i.e., the upgrade-driven move is being absorbed, not faded.",
-    "R:R math: entry midpoint 416.81, stop 410.00, target 432.00 → reward 15.19 / risk 6.81 = 2.23:1, satisfies the 2:1 floor; target sits below daily Bollinger upper 424.81 only as a near-term checkpoint — actual structural ceiling is fib_ext_1272 = 447.40, leaving room to trail. S&P credit upgrade to A on 2026-04-17 (per earnings_context_web) provides a fundamental tailwind under the technical move."
+    "Multi-source analyst upgrade stack into May 20 earnings (earnings.days_until_next = 13): Citi placed ADI on a 30-day positive catalyst watch with Buy reiterated and $400 PT on 2026-05-01 citing AI/data center demand (recent_news_7d); analyst_consensus_web confirms 27 Buy / 2 Hold / 0 Sell this month with JPMorgan, Barclays, and UBS recently raising targets; stock rallied +5.6% on 2026-05-02 on those upgrades and is up 7.57% on the week per Yahoo (2026-05-06).",
+    "Trend strength is exceptional: daily adx_14 = 59.44 with plus_di 44.99 vs minus_di 8.79 (one of the strongest readings the indicator produces); ema_aligned_uptrend = true across 5/10/20/50/200; daily macd line 19.05 / signal 17.45 / histogram +1.5936 still rising; momentum.roc_5d = +6.76, roc_10d = +8.97, roc_21d = +26.94. Hourly confirms continuation: hourly adx_24 = 35.18 (strong), hourly macd histogram = +0.086, price above all hourly EMAs. Reclaim of watch_level 415.63 = prior daily high 416.0 extends an already-confirmed trend.",
+    "AI/data center is now structural revenue, not a hope-trade: SimplyWallSt 2026-05-04 documents AI/DC at ~one-fifth of mix; earnings_context_web notes Feb-2026 guide of Q2 ~$3.5B revenue / $2.19 EPS with the upgrade chorus expecting a beat. R:R math from entry midpoint 416.57: risk to stop 409.50 = $7.07; reward to target 430 = $13.43; ratio 1.90:1, just below 2:1 — close-call flagged. Target 430 = +1.10 ATR (atr_14 = 12.84) and sits below Bollinger upper 424.81's near-term ceiling extension; reachable inside a 9-day pre-earnings window."
   ],
   "risks_acknowledged": [
-    "CEO Vincent Roche sold ~$3.98M of stock on 2026-05-05 (recent_news_7d, negative sentiment) — insider selling at all-time highs is a real yellow flag and the only short-side data point in the 7-day window.",
-    "Daily RSI is extended: rsi_7 = 72.08, rsi_14 = 74.71, rsi_21 = 77.86, BB %B = 0.8979, z_score_50 = 2.07, and price is 20.1% above the 50-SMA — entries here are chasing a stretched trend rather than buying a pullback.",
-    "Earnings risk in 13 days: while outside the 3-day blackout, much of the catalyst (Citi watch list, AI/data center thesis, analyst upgrades) is already priced into the run from $393 → $415 over 5 sessions, so a beat that doesn't crush guidance could trigger a sell-the-news reaction before the position reaches target.",
-    "Daily OBV trend is 'down' and diverging_from_price = true per volume.obv — bearish volume divergence on the daily despite the price breakout suggests distribution into strength, lowering the quality of the breakout signal."
+    "Overbought + extended: daily rsi_14 = 74.71, rsi_21 = 77.86, bollinger pct_b = 0.8979, z_score_50 = 2.07, dist_from_50sma_pct = 20.1. The trend is real but a mean-reversion pullback toward ema_10 ($396) before earnings would stop the trade out at 409.50 even if the long-term thesis is intact.",
+    "12-month consensus PT $393.16 is BELOW current_price $415.63 (analyst_consensus_web); 3-month avg PT $395.95 also below. Further upside requires PT raises, not just reiterations — the upgrade cycle has front-run consensus fair value.",
+    "CEO Vincent Roche sold ~$3.98M of stock recently (recent_news_7d 2026-05-05); insider sales described as 'near all-time highs.' recent_insider_trades is empty — no offsetting insider buys. Distribution into strength is real.",
+    "Daily volume.obv.trend = 'down' with diverging_from_price = true — bearish volume divergence on the daily despite the price breakout lowers the quality of the technical breakout signal; combined with earnings 13 days out, sell-the-news risk before target is non-trivial."
   ],
   "web_sources_last_7d": [
-    "https://www.investing.com/news/company-news/analog-devices-stock-hits-alltime-high-at-40875-93CH-4663777",
+    "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-7-57-160004196.html",
     "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-5-6-161542157.html",
     "https://www.tradingkey.com/analysis/stocks/us-stocks/261756455-amd-adi-citigroup-ai-datacenter-earnings-semiconductor-catalyst-tradingkey",
     "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/what-analog-devices-adis-rising-ai-and-data-center-revenue-s",
-    "https://www.marketbeat.com/stocks/NASDAQ/ADI/news/"
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-adi/analog-devices/news/evaluating-analog-devices-adi-valuation-as-earnings-optimism"
   ]
 }

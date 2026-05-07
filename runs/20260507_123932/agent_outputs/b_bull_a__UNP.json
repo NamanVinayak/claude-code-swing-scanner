@@ -4,17 +4,18 @@
   "bull_strength": 7,
   "entry_zone": {"low": 270.00, "high": 271.50},
   "target": 284.50,
-  "stop": 265.00,
+  "stop": 263.40,
   "expected_holding_days": 10,
   "top_3_arguments": [
-    "Full bullish MA stack with momentum thrust: price 268.23 above EMA 5/10/20/50/200 in order (price_vs_ma.above_ema_200 = true, pct_from_ema_200 = +12.08%, pct_from_ema_50 = +5.81%); daily_indicators.moving_averages.ema_aligned_uptrend = true on BOTH daily and hourly. ROC 21d = +8.99% and ROC 10d = +7.55% confirm fresh acceleration into the breakout zone, not a stale trend.",
-    "Strong directional trend with room above: daily_indicators.adx.adx_14 = 48.4 (trend_strength: 'strong') with plus_di 38.93 vs minus_di 14.68 (a wide bullish DI spread); macd.histogram = +0.4737 with macd_line 5.17 above signal 4.69 and rising; bollinger.pct_b = 0.7646 (upper band at 276.40 — not pinned, room to expand). Z_score_50 = 1.42 confirms statistically meaningful trend without exhaustion.",
-    "Clean breakout trigger over the 268.14 pivot top into open air to 274.79 recent_high, then fib_ext_1272 = 284.76. Setup is supported by fundamental tape: Q1 2026 record EPS $2.87 / net income $1.70B beat lifting price to a fresh 52-week high (web_research 2026-05-01), and the amended merger filing on 2026-04-30 projects $3.5B annual shipper savings. Analyst consensus 'buy' with avg_price_target $275.55 (analyst_consensus_web) corroborates upside to the conservative leg of the target. Stop at 265.00 below invalidation_level gives R:R = (284.50-271.50)/(271.50-265.00) = 13.00/6.50 = 2.00."
+    "Daily trend is exceptionally strong: adx.adx_14 = 48.4 (trend_strength 'strong') with plus_di 38.93 vs minus_di 14.68, moving_averages.ema_aligned_uptrend = true, and price 268.23 above all EMAs in order (pct_from_ema_20 +3.11%, pct_from_ema_50 +5.81%, pct_from_ema_200 +12.08%). Breakout trigger sits over the 12-tested pivot_high at 268.14 and the hourly pivot resistance at 270.23 (15 tests, volume_confirmed = true), into open air toward fib_ext_1272 = 284.76.",
+    "Daily momentum is accelerating into the breakout: macd.histogram = +0.4737 with macd_line 5.17 above signal 4.69, rsi_14 = 67.79 (still under the 70 line), momentum.roc_10d = +7.55% and roc_21d = +8.99%, bollinger pct_b = 0.7646 (room to upper band at 276.40). recent_prices_5d shows 270.23 high on 2026-04-30 and 270.28 high on 2026-05-06 — the level is being repeatedly probed on rising daily closes (264.01 -> 268.23).",
+    "Fundamentals corroborate the chart, no near-term earnings risk: Q1 2026 record beat 2026-05-01 (EPS $2.87, net income $1.70B) drove the 52-week high; the 2026-04-30 amended Norfolk Southern merger filing projecting $3.5B in annual shipper savings is a fresh medium-term catalyst; analyst_consensus_web rating 'buy' with avg_price_target $272.33 and range up to $311 supports the long leg; earnings.days_until_next = 77 removes earnings-blackout risk over the expected 10-day hold. R:R from entry 271.50 to target 284.50 vs stop 263.40 = 13.0/8.10 = 1.60 inside zone, 14.50/6.60 = 2.20 from zone-low entry — clean ≥2:1 on the standard fill."
   ],
   "risks_acknowledged": [
-    "Bearish RSI divergence flagged on daily (rsi_divergence.bearish = true, lookback_bars 60) — momentum is not making new highs alongside price, raising odds of a failed-breakout pullback to the 263.10 hourly pivot low.",
-    "Volume confirmation is soft: daily volume.relative_volume = 0.96 (below the 20-day avg of 3.14M) and OBV trend = 'down' on the daily — institutions are not yet aggressively accumulating into the prior pivot high at 268.14, so a breakout above 270 needs visible volume expansion to be trustworthy.",
-    "Merger headline risk is binary: UNP stated it would exit the Norfolk Southern deal if STB orders widespread line sales/trackage rights — an adverse STB ruling or politicized leak could gap the stock through stop overnight regardless of chart structure."
+    "rsi_divergence.bearish = true on the daily 60-bar lookback, and hourly macd histogram is negative (-0.1252) with hourly adx_24 only 7.88 (weak trend) — short-term momentum is rolling over right at the breakout level, so a failed-breakout reversal back toward the 263.10 hourly pivot low is a real risk.",
+    "Volume confirmation is soft: daily volume.relative_volume = 0.96 (below 20-day avg of 3.14M) and obv.trend = 'down' on the daily despite the price uptrend — institutional accumulation behind the breakout is not visible yet; a breakout on sub-average volume historically has a higher fail rate.",
+    "STB review of the Norfolk Southern merger is the dominant medium-term variable; UNP has stated it will exit the deal if STB orders widespread line sales/trackage rights — an adverse ruling or leak could gap the stock through the stop overnight regardless of chart structure.",
+    "wiki_context is empty (new_ticker = true), so there is no prior-setup base rate for how UNP has historically respected similar breakouts; conviction rests on current chart and recent news only."
   ],
   "web_sources_last_7d": [
     "https://meyka.com/blog/unp-stock-today-may-4-union-pacific-merger-savings-surge-0505/",

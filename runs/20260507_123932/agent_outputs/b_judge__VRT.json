@@ -6,17 +6,18 @@
       "direction": "long",
       "entry_price": 360.50,
       "stop_loss": 350.00,
-      "target_price": 383.00,
-      "target_price_2": 394.69,
+      "target_price": 378.00,
+      "target_price_2": 385.00,
       "quantity": 13,
       "expected_holding_days": 7,
       "setup_type": "breakout",
       "conviction": 5,
-      "rationale": "Direction consensus across all 4 perspectives (long). Probability weights: p_bull=6/(6+7)=0.4615, p_catalyst=7/(7+7)=0.5, combined_p_bull=0.4808. Conservative entry=midpoint(359,362)=360.50, target=min(385,383)=383, stop=max(349,350)=350. Expected_return_per_share = 0.4808*(383-360.50) - 0.5192*(360.50-350) = +$5.37/share, positive. Bulls win on trend evidence (daily adx_14=34.52, plus_di 38.99 vs minus_di 17.85, ema_aligned_uptrend=true on both timeframes, daily macd_line 18.46 > signal 16.04, momentum.roc_21d=+36.84%, hourly relative_volume=1.33) and a real raised-FY26-guidance catalyst within the 7-day window; bears (both strength=7) correctly flag overbought risk (rsi_14=76.87, pct_b=1.1353, z_score_50=2.54, price 9.6% above analyst avg PT $327.44). Gate-3 quantity = floor(250/10.50)=23, notional 23*360.50=$8,291.50 exceeds 15% single-position cap ($3,750); scaled down from 23 to 13 shares to fit small-account cap, using 55% of risk budget (M=floor(5000/360.50)=13, risk_M=$136.50 >= 40%-floor of $100). New_deployed $4,686.50 < $15,000 deploy cap; new_open_risk $136.50 < $1,000 total-risk cap. Conviction held at 5 because bear_strength matches/exceeds bull_strength and the AI-data-center catalyst is largely priced in.",
+      "rationale": "Direction consensus across all 4 perspectives (long). Probability weights: p_bull = b_bull_a.bull_strength 6 / (6 + b_bear_a.bear_strength 8) = 0.4286; p_catalyst = b_bull_b.bull_strength 6 / (6 + b_bear_b.bear_strength 7) = 0.4615; combined_p_bull = 0.4451. Entry = midpoint(359.00, 362.00) = 360.50; conservative target = min(b_bull_a 385, b_bull_b 378) = 378.00; conservative stop = max(b_bull_a 349, b_bull_b 350) = 350.00. Expected_return_per_share = 0.4451*(378.00-360.50) - 0.5549*(360.50-350.00) = +$1.96/share, positive but thin. Bulls win on trend math (daily adx_14=34.52, plus_di 38.99 vs minus_di 17.85, ema_aligned_uptrend=true, macd histogram +2.42, momentum.roc_21d=+36.84%, daily volume.obv.trend=up not diverging) plus a within-7d catalyst (raised FY2026 guide on AI-data-center demand, days_until_next earnings=83 so no print risk). Bears strong on extension (rsi_14=76.87, bollinger.pct_b=1.1353 above upper band, z_score_50=2.54, dist_from_50sma_pct=27.47%, current price 9.6% above analyst_consensus avg PT $327.44, hourly rsi_divergence.bearish=true with hourly volume.obv.trend=down) — these are acknowledged via downsized conviction (5) and tight stop. Gate-3 quantity = floor(250/10.50)=23 shares, notional 23*360.50 = $8,291.50 exceeds 15% single-position cap ($3,750). Scaled down from 23 to 13 shares to fit small-account cap, using 55% of risk budget (M = floor(5000/360.50) = 13, risk_M = 13*10.50 = $136.50 >= 40%-of-budget floor $100). new_deployed $4,686.50 < $15,000 deploy cap; new_open_risk $136.50 < $1,000 total-risk cap.",
       "risk_usd": 136.50,
-      "position_size_class": "small_scaled"
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-07T20:00:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "VRT long approved as small_scaled (13 shares, $136.50 risk, 55% of risk budget). Positive +$5.37/share probability-weighted expected return survives strong bear case (overbought, above-PT) thanks to dominant trend regime + real guide-up catalyst within 7d. Notional fits 20% extended cap; downsized from Gate-3 quantity 23 due to high share price on $25k account."
+  "summary": "VRT approved as small_scaled long: probability-weighted EV +$1.96/share (combined_p_bull=0.4451) with strong daily trend (ADX 34.52, EMA-aligned uptrend, OBV up) and within-7d guide-up catalyst outweighing overbought extension (RSI 76.87, z-score 2.54, price above analyst PT). Scaled from Gate-3 23 to 13 shares ($136.50 risk, 55% of budget) to fit 20% extended single-position cap; conviction 5 reflects thin EV margin and hourly bearish divergence."
 }

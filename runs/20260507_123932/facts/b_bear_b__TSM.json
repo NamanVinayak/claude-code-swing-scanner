@@ -34,7 +34,15 @@
       "date": "2026-05-05",
       "url": "https://finance.yahoo.com/markets/stocks/articles/step-forward-tsmc-tsm-stock-190210693.html",
       "sentiment": "positive",
-      "summary": "TSMC said 2nm chip capacity will grow at a 70% CAGR from 2026 through 2028, with 5 fabs (2 in Hsinchu, 3 in Kaohsiung) entering volume production this year. CEO C.C. Wei reiterated capex at upper end of $52-56B."
+      "summary": "TSMC said 2nm chip capacity will grow at a 70% CAGR from 2026 through 2028, with 5 fabs entering volume production this year. CEO C.C. Wei reiterated capex at upper end of $52-56B."
+    },
+    {
+      "title": "TSMC Stock Jumps as AMD's AI Surge Puts TSMC Capacity in Focus",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://ts2.tech/en/taiwan-semiconductor-manufacturing-company-stock-jumps-as-amds-ai-surge-puts-tsmc-capacity-in-focus/",
+      "sentiment": "positive",
+      "summary": "Coverage centers on AMD demand translating directly into incremental TSMC fab utilization for AI accelerators and server CPUs; TSMC capacity reiterated as the binding constraint for the AI buildout."
     },
     {
       "title": "Equitable Trust Co. Buys 5,326 Shares of Taiwan Semiconductor Manufacturing Company Ltd.",
@@ -71,7 +79,7 @@
     "new_ticker": true
   },
   "current_price": 419.5,
-  "market_cap": 2156894224384.0,
+  "market_cap": 2135213473792.0,
   "recent_prices_5d": [
     {
       "time": "2026-04-30",
@@ -121,14 +129,14 @@
       "sma_5": 401.85,
       "ema_10": 397.17305136123804,
       "sma_10": 398.5519989013672,
-      "ema_20": 385.83866082428256,
+      "ema_20": 385.8386608242826,
       "sma_20": 385.08899993896483,
-      "ema_21": 384.9018481234933,
+      "ema_21": 384.9018481234934,
       "sma_21": 384.17523774646577,
-      "ema_50": 366.90823395978447,
+      "ema_50": 366.908233961584,
       "sma_50": 361.77569702148435,
-      "ema_200": 311.21822545318906,
-      "sma_200": 306.7387866973877,
+      "ema_200": 311.21822566740036,
+      "sma_200": 306.73878700256347,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
@@ -283,35 +291,35 @@
   "hourly_indicators": {
     "timeframe": "hourly",
     "moving_averages": {
-      "ema_24": 406.4110894381123,
-      "sma_24": 404.11643091837567,
-      "ema_48": 400.88888109821755,
-      "sma_48": 399.08361117045087,
-      "ema_120": 388.33040153643725,
-      "sma_120": 387.4773551940918,
+      "ema_24": 408.4354498587798,
+      "sma_24": 406.912592569987,
+      "ema_48": 403.0716067777626,
+      "sma_48": 401.2863082885742,
+      "ema_120": 390.4790733388201,
+      "sma_120": 388.8898495992025,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 415.71771240234375,
-    "dist_from_50sma_pct": 7.29,
+    "current_price": 411.6947021484375,
+    "dist_from_50sma_pct": 5.86,
     "price_vs_ma": {
       "above_ema_24": true,
-      "pct_from_ema_24": 2.29,
+      "pct_from_ema_24": 0.8,
       "above_sma_24": true,
-      "pct_from_sma_24": 2.87,
+      "pct_from_sma_24": 1.18,
       "above_ema_48": true,
-      "pct_from_ema_48": 3.7,
+      "pct_from_ema_48": 2.14,
       "above_sma_48": true,
-      "pct_from_sma_48": 4.17,
+      "pct_from_sma_48": 2.59,
       "above_ema_120": true,
-      "pct_from_ema_120": 7.05,
+      "pct_from_ema_120": 5.43,
       "above_sma_120": true,
-      "pct_from_sma_120": 7.29,
+      "pct_from_sma_120": 5.86,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 41471.77
+      "pct_from_ema_aligned_uptrend": 41069.47
     },
     "rsi": {
-      "rsi_21": 62.18
+      "rsi_21": 59.79
     },
     "rsi_divergence": {
       "bullish": false,
@@ -319,35 +327,35 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 6.2972,
-      "signal_line": 4.5282,
-      "histogram": 1.769,
+      "macd_line": 6.1507,
+      "signal_line": 5.2952,
+      "histogram": 0.8555,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 415.97,
-      "middle": 399.08,
-      "lower": 382.19,
-      "width": 0.0846,
-      "pct_b": 0.9924
+      "upper": 419.23,
+      "middle": 401.29,
+      "lower": 383.35,
+      "width": 0.0894,
+      "pct_b": 0.7901
     },
     "atr": {
-      "atr_24": 4.84,
+      "atr_24": 4.79,
       "atr_pct": 1.16
     },
     "adx": {
-      "adx_24": 21.54,
-      "plus_di": 32.57,
-      "minus_di": 19.61,
+      "adx_24": 21.79,
+      "plus_di": 25.33,
+      "minus_di": 20.04,
       "trend_strength": "moderate"
     },
     "volume": {
-      "current_volume": 2693837,
-      "avg_volume_20": 1827280,
-      "relative_volume": 1.47,
-      "volume_bias_10d": "up",
+      "current_volume": 159874,
+      "avg_volume_20": 1985254,
+      "relative_volume": 0.08,
+      "volume_bias_10d": "down",
       "obv": {
-        "trend": "up",
+        "trend": "down",
         "diverging_from_price": false
       }
     },
@@ -360,7 +368,12 @@
         },
         {
           "price": 403.99,
-          "tests": 15,
+          "tests": 10,
+          "volume_confirmed": true
+        },
+        {
+          "price": 420.0,
+          "tests": 6,
           "volume_confirmed": true
         }
       ],
@@ -368,7 +381,7 @@
         {
           "price": 385.71,
           "tests": 5,
-          "volume_confirmed": false
+          "volume_confirmed": true
         },
         {
           "price": 395.2,
@@ -376,34 +389,34 @@
           "volume_confirmed": false
         }
       ],
-      "nearest_resistance": null,
+      "nearest_resistance": 420.0,
       "nearest_support": 395.2,
       "recent_high": 420.0,
       "recent_low": 392.6,
-      "prev_day_high": 419.68,
-      "prev_day_low": 418.14,
-      "prev_day_close": 419.44
+      "prev_day_high": 412.83,
+      "prev_day_low": 408.88,
+      "prev_day_close": 411.39
     },
     "fibonacci": {
       "swing_high": 420.0,
-      "swing_low": 392.13,
-      "fib_236": 413.42,
-      "fib_382": 409.35,
-      "fib_500": 406.07,
-      "fib_618": 402.78,
-      "fib_786": 398.09,
-      "fib_ext_1272": 427.58,
-      "fib_ext_1618": 437.22,
-      "fib_ext_2000": 447.87,
-      "fib_ext_low_1272": 384.55,
-      "fib_ext_low_1618": 374.91
+      "swing_low": 392.6,
+      "fib_236": 413.53,
+      "fib_382": 409.53,
+      "fib_500": 406.3,
+      "fib_618": 403.07,
+      "fib_786": 398.46,
+      "fib_ext_1272": 427.45,
+      "fib_ext_1618": 436.93,
+      "fib_ext_2000": 447.4,
+      "fib_ext_low_1272": 385.15,
+      "fib_ext_low_1618": 375.67
     },
     "momentum": {
-      "roc_5d": -0.14,
-      "roc_10d": 4.74,
-      "roc_21d": 3.4
+      "roc_5d": -1.28,
+      "roc_10d": -1.11,
+      "roc_21d": 2.78
     },
-    "z_score_120": 1.87,
+    "z_score_120": 1.44,
     "degraded_indicators": []
   },
   "recent_insider_trades": [],
@@ -415,11 +428,11 @@
   "analyst_consensus_web": {
     "rating": "buy",
     "avg_price_target": 416.67,
-    "recent_changes": "Per TipRanks, current month shows 13 Buy / 2 Hold / 0 Sell ratings; Buy consensus reaffirmed as of 2026-05-06 across 6 analysts. Price target $416.67 implies ~0% upside from current price after this week's rally."
+    "recent_changes": "Per public.com / TipRanks, Buy consensus reaffirmed as of 2026-05-06 across 6 analysts; current month shows 13 Buy / 2 Hold / 0 Sell. Avg PT $416.67 (~flat to current $418); 3-month avg PT ~$465.00. No specific upgrades or downgrades surfaced in the last 7 days."
   },
   "earnings_context_web": {
     "next_earnings_date": "2026-07-17",
     "days_until_next": 71,
-    "notes": "Last reported Q1 2026 on 2026-04-16 (already priced in): profit +58% YoY, beat estimates; full-year 2026 revenue guidance >30% YoY USD growth; HPC segment 61% of Q1 revenue (up from 55%). Street expects continued AI-driven gross margin expansion and capacity-constrained ramp into Q2."
+    "notes": "Last reported Q1 2026 on 2026-04-16 (already priced in): profit +58% YoY, revenue NT$1.134T vs NT$1.127T expected; full-year 2026 revenue guidance >30% YoY USD growth; capex 2026 raised to $52-56B (+up to 37%). Street expects capacity-constrained AI-driven ramp into Q2."
   }
 }

@@ -9,14 +9,15 @@
       "target_price": 310.63,
       "target_price_2": null,
       "quantity": 17,
-      "expected_holding_days": 9,
+      "expected_holding_days": 8,
       "setup_type": "breakout",
       "conviction": 6,
-      "rationale": "All 4 perspectives echo long; catalyst bull (b_bull_b strength=8) dominates fundamental bear (b_bear_b=6) on Q1 revenue beat (+13% to $831M, aerospace +104% YoY) and dividend hike to $0.45 cited in web_sources_last_7d, while technical bull (b_bull_a=6) vs technical bear (b_bear_a=7) is closer — bears' OBV divergence (daily volume.obv.diverging_from_price=true) and bollinger.pct_b=1.0318 extension flagged but offset by hourly adx_24=44.4/plus_di 45.88 vs minus_di 12.79 strong-trend confirmation and earnings.days_until_next=82 (no print risk). Combined p_bull=(6/13 + 8/14)/2 = 0.5165; expected_return_per_share = 0.5165*(310.63-286.57) - 0.4835*(286.57-279.50) = +$9.01. Position math: risk_dollars=25000*0.01*1.0=$250, risk_per_share=|286.57-279.50|=$7.07, Gate-3 qty=floor(250/7.07)=35, notional=$10,029.95 exceeds 15% cap ($3,750); scaled down from 35 to 17 shares to fit small-account cap, using 48% of risk budget (M=floor(5000/286.57)=17, risk_M=$120.19 >= $100 floor).",
+      "rationale": "All 4 perspectives echo long. Tech Bull strength=6 vs Tech Bear strength=7 (p_bull=6/13=0.4615); Catalyst Bull strength=7 vs Fundamental Bear strength=6 (p_catalyst=7/13=0.5385); combined_p_bull=(0.4615+0.5385)/2=0.50. Expected_return_per_share = 0.5*(310.63-286.57) - 0.5*(286.57-279.50) = +$8.50 (positive). Catalyst Bull wins on multi-catalyst stack within 7d (Q1 revenue +13% to $831M, aerospace +104% YoY, third dividend hike to $0.45, credit facility raised to $2.025B per stocktitan.net 2026-05-01) plus full daily MA stack (above_ema_5/10/20/50/200 all true, pct_from_sma_50=+13.16%, daily macd.histogram=+3.725 expanding) and earnings.days_until_next=82 (no near-term print risk). Bears' core concern is mean-reversion, not thesis breakage — extension flags (daily rsi_7=75.62, bollinger.pct_b=1.0318, OBV diverging) acknowledged but stop at $279.50 sits below the broken pivot at $275.72 with hourly adx_24=47.68 (strong) confirming intraday trend. Position math: risk_dollars=25000*0.01*1.0=$250, risk_per_share=|286.57-279.50|=$7.07, Gate-3 quantity=floor(250/7.07)=35; notional 35*286.57=$10,029.95 exceeds 15% cap ($3,750). Scaled down from 35 to 17 shares to fit small-account cap, using 48% of risk budget (M=floor(5000/286.57)=17, risk_M=$120.19 >= $100 floor). Conservative target=min(310.63,310.63)=$310.63 (daily fib_ext_1272 from swing 202.84->287.58); conservative stop=max(275.00,279.50)=$279.50.",
       "risk_usd": 120.19,
-      "position_size_class": "small_scaled"
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-07T21:15:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "FTAI long approved as small_scaled (17 shares @ $286.57, $120 risk) — positive expected return +$9.01/share with catalyst-driven Q1 beat fundamentals plus strong hourly trend offsetting daily extension and OBV divergence concerns; high share price forced 20% extended cap path."
+  "summary": "FTAI long approved as small_scaled (17 shares @ $286.57, $120 risk, 48% of budget). Catalyst-driven post-earnings breakout with positive expected return (+$8.50/share); high share price triggered 20% extended-cap path while preserving per-trade risk discipline."
 }

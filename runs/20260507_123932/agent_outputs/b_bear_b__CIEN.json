@@ -4,20 +4,22 @@
   "bear_strength": 7,
   "thesis_crack_level": "moderate",
   "top_3_arguments": [
-    "Valuation has run far ahead of fundamentals: current_price $576.79 sits 105.23% above the 200-EMA and 136.28% above the 200-SMA, with z_score_50 = 1.94 (near 2-sigma stretch). The web-aggregated avg_price_target is $354.01 — implying ~39% downside to consensus fair value even after the Stifel raise to $585. Buying at watch_level $577.5 means paying for a perfect AI-optical execution that the analyst community has not underwritten in aggregate.",
-    "Earnings risk dominates the holding window: earnings_context_web shows Q2 FY26 results on 2026-06-04 (days_until_next = 28). The street is positioned for beat-and-raise (Stifel target $585, sector-wide upgrades after OFC 2026, '11 Buy / 5 Hold / 1 Sell') — that is a CROWDED LONG into a print where the bar is already raised. The simplywall.st 2026-05-05 piece explicitly flags 'valuation stretch and insider-selling scrutiny as offsetting concerns,' and the earnings_context_web notes 'Key risk: valuation has run ahead of confirmed orders.'",
-    "Insider sell + thesis-confirmation news already saturating: 2026-05-05 stocktitan filing shows the CEO disposed 2,952 shares (10b5-1 plan, but still a record sale at the local high), and the trefis 2026-05-06 note confirms a 5-day +15% winning streak. The bull setup has been advertised: the recent_high $583.78 was tagged on 2026-05-06; premarket is now -1.21% below yesterday's close at $569.80 per catalyst_note, and hourly_indicators show momentum.roc_5d = -7.48 with hourly close $526.45 already below daily watch_level $577.5 — i.e., the sponsorship narrative is fully priced and short-term flow has rolled."
+    "Valuation has run far past consensus fair value: analyst_consensus_web.avg_price_target = $354.01 vs current_price $576.79 — the stock is ~63% ABOVE the 14-analyst consensus 1Y PT (11 Buy / 5 Hold / 1 Sell, range $242.40-$493.50). Even the most aggressive PT raises (Stifel $585, BofA $550) leave only ~1.4% upside to high-end and the consensus range top ($493.50) has already been breached. Buying at watch_level $577.5 means paying for a scenario only Stifel has underwritten — a long here is essentially front-running a re-rating the rest of the Street has not signed off on.",
+    "Stock is technically extended with confirmed exhaustion signals: daily rsi_14 = 70.6, rsi_7 = 75.95 (overbought), daily.rsi_divergence.bearish = true, daily bollinger pct_b = 1.1264 (price ABOVE the upper band), z_score_50 = 1.94 (near 2-sigma stretch), dist_from_50sma_pct = 34.5%, and momentum.roc_5d = 21.33% (validated by the trefis 5-day winning streak headline). Pct_from_ema_200 = 105.23%. After this kind of vertical move into Q2 FY26 earnings 28 days out, mean-reversion risk is materially elevated even if the long-run thesis is intact.",
+    "Hourly tape contradicts the breakout claim and the sponsorship is already advertised: hourly.macd histogram = -4.09 (no bullish_crossover), hourly minus_di (28.6) > plus_di (22.88) with adx_24 = 57.43 (strong DOWN trend on the 1H timeframe), hourly OBV trend = down, hourly relative_volume = 0.16 (no real buyers), and hourly current_price ($520.13) is below ema_24/sma_24/ema_48/sma_48. The breakout narrative is fully publicized (tipranks 'breaking out higher,' trefis 'on fire +15%', simultaneous Stifel and BofA PT raises 2026-05-05) and the CEO disposed 2,952 shares via 10b5-1 on 2026-05-05 at the local high — premarket -1.21% at $569.80 per catalyst_note is consistent with this exhaustion read."
   ],
   "bull_acknowledgements": [
-    "Order-flow tailwind is real and recent: Vodafone Idea's 2026-05-04 deployment of WaveLogic 6 Extreme is a confirmed customer win, and Stifel's 2026-05-06 PT raise to $585 explicitly cites AI-infrastructure demand — this is not a vapor narrative.",
-    "Daily trend structure is genuinely strong: ema_aligned_uptrend = true with adx_14 = 33.4 (strong trend, +DI 32.14 vs -DI 16.28), MACD bullish_crossover = true, and obv.trend = up — momentum bulls have a defensible technical floor at fib_236 $531.37 / nearest_support $461.07 if the breakout consolidates rather than fails.",
-    "Institutional accumulation is visible: Danske Bank A/S 35,000-share purchase filing on 2026-05-05 partially offsets the CEO's 2,952-share programmatic sale — net insider/institutional flow is not unambiguously bearish."
+    "Order-flow narrative is genuinely strong and recent: Vodafone Idea WaveLogic 6 Extreme deployment (2026-05-04), Stifel PT raise to $585 (+36% bump from $430) and BofA to $550 both citing AI-led optical demand and a +$2B backlog growth to $7B — not a vapor thesis.",
+    "Daily trend structure is intact: ema_aligned_uptrend = true across 5/10/20/50/200, adx_14 = 33.4 with +DI 32.14 vs -DI 16.28, MACD bullish_crossover = true on daily, and daily OBV trend up — institutional accumulation is visible (Danske Bank A/S +35,000 shares 2026-05-05).",
+    "No earnings blackout in the immediate window: earnings.days_until_next = 28 (June 4, 2026 print) is outside the 3-day forward-earnings risk band, so the trade has time to work before a binary catalyst."
   ],
   "web_sources_last_7d": [
     "https://www.investing.com/news/analyst-ratings/stifel-raises-ciena-stock-price-target-to-585-on-ai-infrastructure-demand-93CH-4659830",
     "https://www.trefis.com/articles/598422/ciena-stock-on-fire-up-15-with-5-day-winning-streak/2026-05-06",
-    "https://simplywall.st/stocks/us/tech/nyse-cien/ciena/news/why-ciena-cien-is-up-57-after-ai-fueled-cloud-demand-sparks",
+    "https://www.marketbeat.com/stocks/NYSE/CIEN/",
+    "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-purchases-35000-shares-of-ciena-corporation-cien-2026-05-05/",
     "https://www.stocktitan.net/sec-filings/CIEN/form-4-ciena-corp-insider-trading-activity-fbd630ca2705.html",
-    "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-purchases-35000-shares-of-ciena-corporation-cien-2026-05-05/"
+    "https://www.tipranks.com/news/catalyst/why-cienas-stock-is-breaking-out-higher-now",
+    "https://www.stocktitan.net/news/CIEN/"
   ]
 }

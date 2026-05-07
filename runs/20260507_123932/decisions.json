@@ -1,7 +1,7 @@
 {
   "run_id": "20260507_123932",
   "mode": "b_swing",
-  "generated_at": "2026-05-07T14:08:48+00:00",
+  "generated_at": "2026-05-07T18:50:11+00:00",
   "decisions": {
     "TLN": {
       "action": "buy",
@@ -9,35 +9,32 @@
       "entry_price": 411.5,
       "stop_loss": 397.0,
       "target_price": 442.0,
-      "target_price_2": 481.32,
+      "target_price_2": 465.0,
       "quantity": 12,
       "timeframe": "8d",
       "confidence": 7,
       "account_risk_pct": 1.0,
       "entry_tolerance_pct": 0.5,
       "setup_type": "breakout",
-      "rationale": "Bull thesis dominates: b_bull_a.bull_strength=7 vs b_bear_a.bear_strength=6 (p_bull=0.5385); b_bull_b.bull_strength=8 vs b_bear_b.bear_strength=6 (p_catalyst=0.5714); combined_p_bull=0.5550. Daily indicators corroborate the bulls' numerical claims (adx.adx_14=27.55 strong with plus_di 34.80 vs minus_di 15.25; ema_aligned_uptrend=true; macd.histogram=+5.29; volume.relative_volume=1.74 confirming the breakout day; momentum.roc_5d=+16.5%) \u2014 bears' extension argument is real (bollinger.pct_b=1.0672, z_score_50=2.75, dist_from_50sma_pct=20.1%) but the catalyst stack (Q1 EBITDA $473M beat, MS PT $498, PJM 2027/2028 capacity revenue $1.07B) plus zero earnings risk for 92 days tilts the probability-weighted math positive. Expected return per share = 0.5550*(442-411.50) - 0.4450*(411.50-397.00) = 16.93 - 6.45 = +$10.48. Gate-3 quantity = floor(250/14.50) = 17 shares; notional 17*411.50 = $6,995 exceeds the $3,750 single-position cap (15%), so scaled down from 17 to 12 shares to fit small-account cap, using 70% of risk budget (12*14.50=$174 vs $250 budget). Notional $4,938 = 19.75% of account (within 20% extended cap). Conviction 7: trend math is strong but stretch and hourly cooling (hourly roc_5d=-3.5%) warrant restraint vs higher score.",
+      "rationale": "Bull thesis wins: b_bull_b.bull_strength=8 (Q1 EBITDA $473M beat + Morgan Stanley PT $498 + PJM 2027/28 capacity ~$1.07B revenue tailwind) and b_bull_a.bull_strength=7 outweigh b_bear_b=7 / b_bear_a=6. p_bull=7/13=0.538, p_catalyst=8/15=0.533, combined_p_bull=0.536. Expected_return_per_share = 0.536*(442.00-411.50) - 0.464*(411.50-397.00) = 16.35 - 6.73 = +$9.62. Trend corroborated in daily_indicators: adx.adx_14=27.55 strong with plus_di 34.80 vs minus_di 15.25, ema_aligned_uptrend=true, macd.histogram=+5.29, volume.relative_volume=1.74 confirming breakout day, momentum.roc_5d=+16.5%. Bears' extension concern (bollinger.pct_b=1.0672, z_score_50=2.75, dist_from_50sma_pct=20.1%) acknowledged but conservative stop at $397.00 sits just below the 397.40 prior-resistance-flipped-support pivot, giving the trend room. Sizing: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = $14.50; Gate-3 qty = floor(250/14.50) = 17, but notional 17*411.50 = $6,995 exceeds $3,750 single-position cap (15%). Scaled down from 17 to 12 shares to fit small-account cap, using 70% of risk budget; notional 12*411.50 = $4,938 = 19.75% of account, within 20% small_scaled extended cap; risk_M = 12*14.50 = $174 \u2265 $100 risk-floor. wiki_context.new_ticker=true (no prior thesis history) noted; conviction held at 7.",
       "risk_usd": 174.0,
       "expected_holding_days": 8,
-      "position_size_class": "small_scaled"
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-07T21:10:00+00:00"
     }
   },
   "rejected": [
     {
       "ticker": "ADI",
-      "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Entry midpoint=416.065 (avg of b_bull_a.entry_zone 415.63-416.50). Gate 3: risk_dollars=$250 (1% of $25k account), risk_per_share=|416.065-410.00|=6.065, quantity=floor(250/6.065)=41, notional=41*416.065=$17,058.67 vs 15% standard cap of $3,750. Gate 4 small_scaled path: M=floor(5000/416.065)=12, risk_M=12*6.065=$72.78, but risk_dollars_floor=0.40*$250=$100; risk_M ($72.78) < $100 floor (uses only 29% of risk budget), so small_scaled fails. Note Gate 2 expected return WAS positive: p_bull=7/(7+7)=0.500, p_catalyst=7/(7+6)=0.538, combined_p_bull=0.519; target=min(440,432)=432.00, stop=max(409.50,410.00)=410.00; ER/share = 0.519*(432-416.065) - 0.481*(416.065-410) = 8.27 - 2.92 = +$5.36/share. The trade has edge but the $416 share price collides with the $25k account size at Gate 4."
+      "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 (direction consensus): all 4 perspectives echo setup_direction=long. Gate 1 (budget): can_open_new_position=true, current_phase=full. Gate 2 (expected return): p_bull = b_bull_a.bull_strength/(b_bull_a.bull_strength + b_bear_a.bear_strength) = 6/(6+7) = 0.4615; p_catalyst = b_bull_b.bull_strength/(b_bull_b.bull_strength + b_bear_b.bear_strength) = 7/(7+7) = 0.500; combined_p_bull = 0.4808. entry = (415.63 + 416.50)/2 = 416.065; target = min(b_bull_a.target=440, b_bull_b.target=430) = 430.00; stop = max(b_bull_a.stop=410.00, b_bull_b.stop=409.50) = 410.00. expected_return_per_share = 0.4808*(430 - 416.065) - 0.5192*(416.065 - 410) = 0.4808*13.935 - 0.5192*6.065 = 6.700 - 3.149 = +$3.55/share, PASS. Gate 3: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = |416.065 - 410.00| = $6.065; quantity = floor(250/6.065) = 41. Gate 4: notional = 41*416.065 = $17,058.66 vs single_cap = 25000*0.15 = $3,750 \u2014 fails standard. Small_scaled path: extended_cap = 25000*0.20 = $5,000; M = floor(5000/416.065) = 12; risk_M = 12*6.065 = $72.78; risk_dollars_floor = 0.40*$250 = $100. risk_M ($72.78) < risk_dollars_floor ($100) \u2014 uses only 29% of risk budget, below 40% floor. Small_scaled rejected. The trade has positive edge but $416/share collides with the $25k account at Gate 4 concentration discipline."
     },
     {
       "ticker": "ASML",
-      "reason": "single_position_cap_exceeded: Gate-3 quantity 9 shares at entry $1555 = $13,995 notional (56% of $25k account), far above 15% standard cap. Small-scaled exception path: extended_cap = $5,000 (20%), so M = floor(5000/1555) = 3 shares; risk_M = 3 * $27 = $81, which is below the 40%-of-risk-budget floor of $100. No quantity satisfies both notional <= 20% AND risk used >= 40% of $250 budget. Stock too high-priced ($1555/share) for current $25k account size."
+      "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 (direction consensus 'long' across all 4 perspectives) PASS. Gate 1 (risk_budget.can_open_new_position=true, phase=full) PASS. Gate 2 expected return: p_bull_tech=7/(7+7)=0.500, p_bull_cat=7/(7+6)=0.538, combined_p_bull=0.519; entry=(1545+1565)/2=1555.00; target=min(1627,1627)=1627.00; stop=max(1528,1530)=1530.00; expected_return_per_share = 0.519*(1627-1555) - 0.481*(1555-1530) = +37.37 - 12.03 = +$25.34/share PASS. Gate 3 sizing: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = abs(1555-1530) = $25; quantity = floor(250/25) = 10 shares PASS. Gate 4 single-position cap FAILS: notional = 1555*10 = $15,550 > 15% cap ($3,750); small_scaled path: M = floor(5000/1555) = 3 shares, risk_M = 3*25 = $75, risk_dollars_floor = 0.40*250 = $100; risk_M ($75) < floor ($100), so the small_scaled exception cannot fit either. Even at max allowed 3 shares under the 20% extended cap, only 30% of the risk budget is used (below the 40% floor). ASML at ~$1,555/share is too high-priced for a $25k account to size meaningfully under current capital rules."
     },
     {
       "ticker": "DE",
       "reason": "single_position_cap_exceeded"
-    },
-    {
-      "ticker": "ROK",
-      "reason": "single_position_cap_exceeded: Gate 3 quantity = floor($250 / $6.425) = 38 shares; notional = 38 * $460.425 = $17,496 vs 15% standard cap $3,750 \u2014 fails standard. Small-scaled path: M = floor(20% cap $5,000 / $460.425) = 10 shares; risk_M = 10 * $6.425 = $64.25, which is < risk_dollars_floor (40% of $250 = $100). Stop is too tight ($6.425/share) relative to share price ($460.425) \u2014 at the maximum allowed share count (10) the position uses only 25.7% of risk budget, below the 40% floor, so the small-scaled exception does not unlock. Stock too high-priced for current $25k account size given this stop placement. Note: Gate 0 (direction consensus all-long), Gate 1 (budget healthy, phase=full, daily_pnl=$0), and Gate 2 passed cleanly \u2014 combined_p_bull=0.5165 (avg of bull_a 6/13 and bull_b 8/14), expected_return_per_share = 0.5165*($480.50-$460.425) - 0.4835*($460.425-$454.00) = +$7.26 \u2014 but Gate 4 sizing math kills the trade."
     },
     {
       "ticker": "TSM",
@@ -45,20 +42,24 @@
     },
     {
       "ticker": "CIEN",
-      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$100.00 > available=$76.00)"
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$150.00 > available=$76.00)"
     },
     {
       "ticker": "FTAI",
       "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$120.19 > available=$76.00)"
     },
     {
+      "ticker": "ROK",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$104.20 > available=$76.00)"
+    },
+    {
       "ticker": "UNP",
-      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$103.50 > available=$76.00)"
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$112.50 > available=$76.00)"
     },
     {
       "ticker": "VRT",
       "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$136.50 > available=$76.00)"
     }
   ],
-  "summary": "approved=5, rejected=5, candidates=10"
+  "summary": "approved=6, rejected=4, candidates=10"
 }

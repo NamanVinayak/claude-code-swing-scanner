@@ -4,9 +4,9 @@
   "bear_strength": 6,
   "thesis_crack_level": "moderate",
   "top_3_arguments": [
-    "Q1 EPS missed by 15% — statutory EPS came in at $1.29 vs analyst expectations and analysts are actively revising forecasts post-print (Simply Wall St, 2026-05-04). Revenue beat (+13% to $831M) but EPS shortfall signals margin/cost pressure that is incompatible with a stretched 14.6%-single-day melt-up; bottom-line misses on growth-priced names typically get re-rated lower as estimate cuts flow in.",
-    "Valuation is priced for perfection at $285.56 with no near-term earnings catalyst to defend it: market cap ~$28.4B, earnings.days_until_next = 82 (early August). The street's long-term narrative requires $5.7B revenue / $1.6B earnings by 2029 (earnings_context_web). Stock is now only 18.5% below the buy-side avg PT of $338.9 (analyst_consensus_web) — implying ~80% of street upside has already been captured in 5 sessions, leaving thin reward-to-risk.",
-    "Technical extension confirms the fundamental crowding: price is +13.16% above SMA50, +40.45% above SMA200, daily rsi_7 = 75.62, daily Bollinger pct_b = 1.0318 (above upper band), z_score_50 = 1.48, daily ROC_5d = +34.0%. Critically, daily volume.obv.diverging_from_price = true with obv.trend = 'down' — the 14.6% rip on 2026-05-06 happened on relative_volume only 1.54x while OBV diverges. Buying is thin/distributive while price extends; classic exhaustion setup where breakouts above the upper Bollinger fail back into the channel."
+    "Q1 EPS missed by 15% — statutory EPS came in at $1.29 vs consensus and analysts are actively revising forecasts down post-print (Simply Wall St, 2026-05-04). Revenue beat (+13% to $831M) but the bottom-line shortfall signals margin/cost pressure that is incompatible with a stretched 14.6%-single-day melt-up; growth-priced names with EPS misses typically get re-rated lower as estimate cuts flow through over the following weeks.",
+    "Valuation is priced through one segment of the buy-side range with no near-term earnings catalyst to defend it: current_price $285.56 sits ABOVE the 9-analyst consensus avg PT of $271.67 (analyst_consensus_web → implied -4.9% from watch level on that panel) and ABOVE the 17-analyst panel PT of $218.79 (~-23%). earnings.days_until_next = 82 means there is no fundamental print until ~late July/August to bail out a stalled breakout, recent_insider_trades is empty (no insider buying to corroborate the move), and the dividend hike + shelf filing + Q1 print are all already in the 7-day news window — i.e., these catalysts are priced in, not pending.",
+    "Technical extension confirms the fundamental crowding: price is +13.16% above SMA50, +35.25% above EMA200, +40.45% above SMA200, daily rsi_7 = 75.62, daily Bollinger pct_b = 1.0318 (price OUTSIDE upper band), z_score_50 = 1.48, daily ROC_5d = +34.0%. Critically, daily volume.obv.trend = 'down' AND volume.obv.diverging_from_price = true — the 14.6% rip on 2026-05-06 happened on relative_volume of only 1.54x while OBV diverges, indicating distributive flow under a vertical price move. Classic late-move exhaustion conditions where breakouts above the upper Bollinger fail back into the channel."
   ],
   "bull_acknowledgements": [
     "Revenue genuinely accelerated: aerospace revenue +104% YoY to $743.8M with Aerospace Products revenue and EBITDA more than doubling (Simply Wall St, 2026-05-02) — top-line growth is real, not an accounting artifact.",
@@ -17,6 +17,7 @@
     "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/earnings-miss-ftai-aviation-ltd-missed-eps-by-15-and-analyst",
     "https://simplywall.st/stocks/us/capital-goods/nasdaq-ftai/ftai-aviation/news/ftai-aviation-ftai-net-margin-breakout-reinforces-bullish-ea",
     "https://www.stocktitan.net/news/FTAI/ftai-aviation-ltd-reports-first-quarter-2026-results-increases-09wjspsqwodk.html",
-    "https://stockstotrade.com/news/ftai-aviation-ltd-ftai-news-2026_04_30-2/"
+    "https://stockstotrade.com/news/ftai-aviation-ltd-ftai-news-2026_04_30/",
+    "https://www.dailypolitical.com/2026/05/06/ftai-aviation-nasdaqftai-trading-14-6-higher-heres-why.html"
   ]
 }

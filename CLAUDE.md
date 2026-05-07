@@ -362,3 +362,66 @@ If the judge agent emits `entry_valid_until: null`, the simulator's safety cap k
 ---
 
 _Last updated: 2026-05-07 (evening). System B is **LIVE with the time-travel bug fixed and agent-driven entry expiry shipped**. Turso state: ROK still entered at corrected price ($446.93), CMI/TLN both `expired` with no PnL. Tomorrow's 5:30 AM `b_premarket` is the first run of the corrected pipeline._
+
+---
+
+## 2026-05-07 (late afternoon) — duplicate-trades incident discovered + fixed (3rd commit of the day)
+
+After the time-travel fix and wiki corrections shipped (commits `aadd2b59` and `06bb71dc`), the live dashboard suddenly showed 4× TLN, 3× CMI, 3× ROK rows on the History page with $-696 total fake P&L. User caught it. Root cause was a chain failure:
+
+1. **`tracker/ingested_runs.txt` is never committed back** by the dashboard workflow. So the two real run IDs (`20260506_123952` and `20260507_123932`) were missing from the dedup file. Every cron tick treated them as new runs to ingest.
+2. **Application-level dedup safety nets fail-OPEN.** `_existing_run_tickers` and `_open_positions_by_ticker_direction` had `try/except` blocks that fell back to empty sets on any exception. When those Turso queries hit 15-second read timeouts (3+ times today), the empty-set fallback skipped dedup entirely and the ingester re-inserted everything.
+3. **Simulator dutifully filled / expired the duplicates** each cycle, producing phantom stop_hits and phantom expireds with the OLD entry-fill behaviour for the duplicate rows (because the old ingester didn't write `decision_made_at`, so `_floor_for_fresh_trade` fell back to `start_of_today` again — time-travel bug returned for the duplicates).
+
+12 phantom trade rows landed in Turso (ids 12–23) plus 12 orphan fill rows.
+
+### What shipped (commit `07a1369b`)
+
+**Three layers of defense added:**
+
+| Layer | What it does |
+|---|---|
+| **DB-level UNIQUE INDEX** `trades_run_ticker_mode_uniq` on `(run_id, ticker, mode)` | Hardest stop. Even if every line of dedup code regresses, the database itself rejects duplicate inserts at write time. Verified live: a duplicate insert now raises `RuntimeError` with a UNIQUE constraint violation. Applied via `_ensure_schema()` additive index pattern. |
+| **Fail-CLOSED dedup** in `tracker/ingest_decisions.py` | Both `_existing_run_tickers` and `_open_positions_by_ticker_direction` exception handlers now `print [ABORT]` and `continue` (skip the run, don't mark as ingested). Transient timeout = "try again next tick" instead of "insert and pray". |
+| **`tracker/ingested_runs.txt` updated + committed** | Appended the two missing run IDs so cron ticks no longer re-process them. |
+
+**Cleanup:** `scripts/wipe_duplicate_trades.py` (idempotent) removed 12 phantom trades + 12 orphan fills from Turso. Canonical state restored: 3 trades (ROK entered @ $446.93, CMI expired, TLN expired).
+
+**Workflow operations:** `gh workflow disable dashboard.yml` to stop the bleeding while fixing; `gh workflow enable dashboard.yml` after pushing the hardening; manually-triggered fresh build verified clean dashboard.
+
+### Live dashboard state after fix
+
+- Net Worth: **$25,068.42** (was polluted to $24,371)
+- All-Time Return: **+$68.42 (+0.27%)** (was polluted to -$628)
+- Live Positions: **only ROK** at corrected entry $446.93, +$68 unrealized
+- Closed History: **2 trades** — TLN EXPIRED, CMI EXPIRED, both $0 P&L
+
+### Files changed in this 3rd commit
+
+- `tracker/ingest_decisions.py` — fail-closed dedup; new UNIQUE INDEX migration in `_ensure_schema()`
+- `tracker/ingested_runs.txt` — appended `20260506_123952` and `20260507_123932`
+- `scripts/wipe_duplicate_trades.py` — NEW. One-time idempotent duplicate cleanup
+
+### Three commits today, in order
+
+| Commit | Subject |
+|---|---|
+| `aadd2b59` | fix(simulator): kill time-travel filling + ship agent-driven entry expiry |
+| `06bb71dc` | fix(wiki): correct ROK/CMI thesis pages tainted by simulator bug |
+| `07a1369b` | fix(ingester): kill duplicate-insert path; add UNIQUE INDEX as DB-level guard |
+
+### Lesson for future agents
+
+When a chain of safety nets uses `try/except: fallback = empty_set`, you have **fail-OPEN security**: the fallback path is the loosest possible behaviour. For dedup specifically, fail-OPEN means duplicates pour in. **All dedup-style safety nets should fail-CLOSED** — if you can't verify uniqueness, abort and retry. Pair that with a DB-level UNIQUE constraint as a hard floor.
+
+This applies to other Turso queries in the codebase too. Audit anywhere you see `except Exception: x = set()` or `= []` or `= None` and ask "what's the worst that happens if this pattern keeps using the fallback every time? Is fail-OPEN actually safe here?"
+
+### What's queued for tomorrow morning (2026-05-08, 5:30 AM PT)
+
+`b_premarket` will produce a fresh `tomorrow_watchlist.json`. `b_decide_open` at 7:00 AM PT will produce `decisions.json` with `entry_valid_until` on every approved trade (Gate 7 in `b_judge.md`). Ingester writes `decision_made_at` and `entry_valid_until` columns. Simulator floors at decision-time + 60s and respects expiry. UNIQUE INDEX guards against duplicates at the DB layer. End-to-end test of the full fix.
+
+If anything goes sideways, run `.venv/bin/python -c "from tracker.turso_client import get_all_trades; [print(t) for t in get_all_trades()]"` to inspect ground truth. Live dashboard is downstream of Turso, so Turso is always the source of truth.
+
+---
+
+_Last updated: 2026-05-07 (~9:50 AM PT). System B is **LIVE with all 3 today's fixes pushed to main (commits `aadd2b59`, `06bb71dc`, `07a1369b`).** Turso clean (3 canonical trades). Workflow re-enabled. Dashboard rendered correctly. 17/17 tests pass. Next test: tomorrow's 5:30 AM PT `b_premarket`._

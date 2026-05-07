@@ -1,7 +1,7 @@
 ---
 name: scanner state
-last_updated: 2026-05-06
-last_run_id: 20260506_211026
+last_updated: 2026-05-07
+last_run_id: 20260507_211015
 target_words: 500
 stale_after_days: 3
 word_count: 0
@@ -12,69 +12,69 @@ summary: current market breadth + signal density across the universe
 
 ## TL;DR
 
-40 candidates from 1,529-ticker universe: 23 long, 17 short. No scanner errors. Long side dominated by `tv_trending_up` (present in all 23 longs) paired with either `tv_strong_buy` (13 longs) or `tv_breakout_up` (12 longs). Only 1 long scored 3 — TSM (+6.4%, triple: `tv_strong_buy` + `tv_breakout_up` + `tv_trending_up`). Short side: KVYO is sole score-3 short (all three setup types hit, -32.2%). Short-side populated for first time after setup-screener architecture introduced 2026-05-05. FTAI +16.9%, ARM +13.6%, GLW +12.0%, NBIS +10.9% are notable gap moves on the long side. PRIM -50.1%, KVYO -32.2%, NICE -22.5% on the short side — episodic pivot cluster. Capitol Trades: 5 tickers with congressional buys; only ASML advanced (Jared Moskowitz, 1 buy, score=2 long).
+40 candidates from 1,592-ticker universe: 12 long, 28 short. No scanner errors. Long side: 2 score-3 names (NET, MKSI — triple `tv_strong_buy` + `tv_breakout_up` + `tv_trending_up`); remainder are score-2. Short side heavily weighted toward score-1 (22 of 28); only GPGI scored 3 (all three setup types: `stage4_momentum_breakdown` + `bearish_episodic_pivot` + `sector_laggard_decline`, -25.9%). Notable single-day moves: CRWD +8.0%, PANW +7.0%, HWM +6.3%, MIDD +11.0% on long side; FSLY -38.2%, GPGI -25.9%, FUTU -13.8%, INTR -14.5% on short side. Capitol Trades: 4 tickers with congressional buys in the universe; zero overlap with advancing candidates.
 
 ## Sector breadth
 
-Sector labels inferred from ticker identity (not in JSON):
+Sector labels inferred from ticker identity (not in JSON).
 
-**Longs (23)**
-
-| Sector | Tickers | Count |
-|---|---|---|
-| Semis / Semi Equip | TSM, ASML, LRCX, ADI, NBIS, MTSI, MKSI | 7 |
-| Tech / Software / Networking | ARM, GLW, VRT, NET, CIEN, KEYS | 6 |
-| Industrials | DE, UNP, ROK, DOV, RRX | 5 |
-| Aero / Defense | FTAI, TLN | 2 |
-| Financials | RY | 1 |
-| Consumer / Entertainment | LYV | 1 |
-| Healthcare | WST | 1 |
-
-**Shorts (17)**
+**Longs (12)**
 
 | Sector | Tickers | Count |
 |---|---|---|
-| Tech / Software | KVYO, NICE, ANET, VEEV, PTC, CHKP | 6 |
-| Industrials | PRIM, CLH, J | 3 |
-| Energy | DVN, CTRA | 2 |
-| Consumer | CPNG | 1 |
-| Healthcare | TECH | 1 |
-| Financials | TSLX | 1 |
-| Telecom / Space | VG, ASTS | 2 |
-| Aero / Defense | KRMN | 1 |
+| Tech / Cybersecurity / Networking | NET, PANW, CRWD | 3 |
+| Semis / Semi Equip | NVDA, MKSI | 2 |
+| Industrials | HWM, ROK, MIDD | 3 |
+| Consumer / Retail | COST | 1 |
+| Telecom / Materials | GLW | 1 |
+| Healthcare / Biotech | NTRA, BIIB | 2 |
 
-Long side: semiconductors + tech concentration (13 of 23 candidates). Short side: tech/software breakdown dominant (6 of 17).
+**Shorts (28)**
+
+| Sector | Tickers | Count |
+|---|---|---|
+| Tech / Software / Internet | FUTU, RBLX, CHTR, PAYP, CHKP, FSLY, SRAD, LBRDK | 8 |
+| Industrials / Machinery | WHR, RRX, MIDD*, PRIM, DOO | 4 |
+| Healthcare / Biotech | PODD, PCVX, NVST, CHYM | 4 |
+| Consumer Discretionary | TPR, BROS, CELH, COKE | 4 |
+| Energy / Chemicals | WLK, PPC | 2 |
+| Aero / Defense / Space | KTOS, ASTS | 2 |
+| Diversified / Other | GPGI, INTR, VG, CAR | 4 |
+
+Short side: tech/software (8) and healthcare (4) are the two largest clusters.
 
 ## Signal density
 
-Hits across the 1,529-ticker universe:
+Hits across the 1,592-ticker universe:
 
 - `tv_strong_buy`: 400 hits (capped at config max)
 - `tv_strong_sell`: 400 hits (capped at config max)
 - `tv_overbought`: 400 hits (capped at config max)
-- `tv_trending_down`: 297 hits
-- `tv_trending_up`: 242 hits
+- `tv_trending_down`: 322 hits
+- `tv_trending_up`: 201 hits
 - `tv_oversold`: 172 hits
-- `tv_breakout_up`: 47 hits
-- `tv_breakout_down`: 25 hits
-- `capitol_buys` (30-day): 5 tickers with congressional purchases
-- Total signal hits: 1,983 across 1,529 unique tickers
-- Short setups added (setup-based screener): 38
+- `tv_breakout_down`: 23 hits
+- `tv_breakout_up`: 21 hits
+- `capitol_buys` (30-day): 4 tickers with congressional purchases
+- Total signal hits: 1,939 across 1,592 unique tickers
+- Short setups added (setup-based screener): 46
 
-Dropped before scoring: 430 below min price ($5), 156 below min volume (500k), 518 below min market cap ($1B), 0 missing metadata, 70 conflicted (mixed long/short signals). 173 directional singletons long + 159 singletons short below 2-reason threshold.
+Dropped before scoring: 459 below min price ($5), 161 below min volume (500k), 605 below min market cap ($1B), 0 missing metadata, 72 conflicted (mixed long/short signals). 155 directional singletons long + 128 singletons short below 2-reason threshold.
 
 ## Anomalies
 
-1. **Three signal kinds hit the 400-count cap** (`tv_strong_buy`, `tv_strong_sell`, `tv_overbought`). True universe-wide counts unknown — all three were cap-binding.
+1. **Three signal kinds hit the 400-count cap** (`tv_strong_buy`, `tv_strong_sell`, `tv_overbought`). True universe-wide counts unknown for all three — cap-binding again as in yesterday's run.
 
-2. **Short-side now populated (38 setups, 17 candidates).** Prior runs returned 0 shorts. The setup-screener path (`stage4_momentum_breakdown`, `bearish_episodic_pivot`, `sector_laggard_decline`) is live and productive. 11 of 17 short candidates scored 1 — minimum threshold only. Pre-market reviewer should scrutinize score-1 shorts for setup quality.
+2. **Short candidates outnumber longs 28:12** — a notable skew. Yesterday's run was 17 short vs. 23 long. The inversion could reflect broad distribution / sector rotation, but macro regime page remains a bootstrap placeholder so cross-check against regime is not possible.
 
-3. **Four large single-day moves on long side.** FTAI +16.9%, ARM +13.6%, GLW +12.0%, NBIS +10.9% are all advancing. Pre-market reviewer should assess gap-fade risk vs. continuation for each.
+3. **Short side quality thin.** 22 of 28 shorts are score-1 (minimum threshold). Only GPGI (score-3) and FUTU, WHR, INTR (score-2) have multi-signal confluence. Pre-market reviewer should apply high bar to score-1 names — single-setup shorts carry execution timing risk.
 
-4. **PRIM -50.1% is an outlier.** Advancing as short via `bearish_episodic_pivot` + `sector_laggard_decline`. Magnitude suggests news-driven gap rather than a clean setup — pre-market review should flag if gap has already exhausted short opportunity.
+4. **FSLY -38.2% is an outlier move.** Advancing as short via `bearish_episodic_pivot` + `sector_laggard_decline`. Gap of this magnitude may have already exhausted the short opportunity by pre-market — Stage 2 should assess remaining short float and whether the gap will gap-and-grind or gap-and-reverse.
 
-5. **Macro regime and setup pattern history unavailable.** Both `wiki/macro/regime.md` and `wiki/meta/setup_patterns.md` remain bootstrap placeholders. Cannot cross-check signal mix against regime or historical win rates.
+5. **Capitol Trades: zero candidate overlap.** 4 congressional-buy tickers exist in the universe but none advanced as candidates. No insider-buy tailwind available for Stage 3 longs.
+
+6. **Macro regime and setup pattern history unavailable.** Both `wiki/macro/regime.md` and `wiki/meta/setup_patterns.md` remain bootstrap placeholders. Cannot cross-check signal mix against regime or historical win rates.
 
 ## Last updated
 
-20260506_211026 — 2026-05-06T14:10:26-07:00
+20260507_211015 — 2026-05-07T14:10:15-07:00

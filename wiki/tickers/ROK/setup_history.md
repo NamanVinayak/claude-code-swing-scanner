@@ -1,8 +1,8 @@
 ---
 name: ROK setup history
 ticker: ROK
-last_updated: 2026-05-06
-last_run_id: 20260506_213947
+last_updated: 2026-05-07
+last_run_id: manual_correction_post_simulator_bugfix
 target_words: 800
 stale_after_days: 90
 summary: Per-trade setup outcomes for ROK — one row per closed trade
@@ -16,4 +16,4 @@ summary: Per-trade setup outcomes for ROK — one row per closed trade
 
 ## Notes
 
-First trade (trade_id=7) opened 2026-05-06 — breakout long on Q2 FY26 beat-and-raise. Row will be added when trade closes.
+First trade (trade_id=7) opened 2026-05-06 at 10:30 ET — breakout long on Q2 FY26 beat-and-raise. Filled at $446.93 (corrected 2026-05-07 from a buggy $445.27 9:30-ET retroactive fill). Trade still open. Row will be added when trade closes.

@@ -1,8 +1,8 @@
 ---
 name: ROK thesis
 ticker: ROK
-last_updated: 2026-05-06
-last_run_id: 20260506_213947
+last_updated: 2026-05-07
+last_run_id: manual_correction_post_simulator_bugfix
 target_words: 600
 stale_after_days: 30
 summary: Rockwell Automation — breakout long thesis entered 2026-05-06 on Q2 beat-and-raise catalyst
@@ -14,9 +14,11 @@ summary: Rockwell Automation — breakout long thesis entered 2026-05-06 on Q2 b
 
 Rockwell Automation (NYSE: ROK) is an industrial automation and information company. Entered long 2026-05-06 on a post-earnings breakout after a fiscal Q2 2026 beat-and-raise that produced a +10.72% gap on May 5. The thesis is momentum continuation: strong trend indicators, clear catalysts from raised FY26 guidance, and 92 days to next earnings removing near-term event risk.
 
+> **Correction note (2026-05-07)**: This page originally listed the entry as $445.27 from a 09:30 ET fill. That fill was an artifact of the pre-2026-05-07 simulator time-travel bug — the order was actually placed at 10:11 ET. Real-life first touch of the entry zone after the order existed was at 10:30 ET with low $446.93. Entry price corrected to **$446.93** / `entered_at = 2026-05-06T14:30:00Z` via `scripts/fix_pre_simulator_bug_trades.py`. Trade remains open.
+
 ## Entry thesis (2026-05-06, trade_id=7)
 
-- **Setup**: breakout_up. TradingView trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up). Entered at $445.27 (within entry_tolerance of watch level $443.50).
+- **Setup**: breakout_up. TradingView trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up). Entered at **$446.93** at 10:30 ET — first bar where price touched the entry zone after the order was live (watch level $443.50).
 - **Catalyst**: Fiscal Q2 2026 beat — adjusted EPS reported vs consensus, margin expansion, higher volumes. Management raised FY26 adjusted EPS guide to $12.50–$13.10 and lifted organic/reported sales growth ranges citing warehouse automation, data center, and semiconductor demand. Stock gapped +10.72% on May 5.
 - **Technicals at entry**: daily ADX_14 = 40.67 (+DI 37.78 vs -DI 11.65, strong trend), MACD bullish crossover (histogram +0.99), ema_aligned_uptrend = true, relative_volume = 2.54 on the gap day. RSI_7 = 76.57 (elevated but not disqualifying given catalyst strength).
 - **Stop**: $434.50 (below gap-day close $435.93 — gap-fill failure level).

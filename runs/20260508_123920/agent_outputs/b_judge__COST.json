@@ -1,0 +1,12 @@
+{
+  "ticker": "COST",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "COST",
+      "reason": "single_position_cap_exceeded",
+      "detail": "stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 direction consensus PASS (all 4 perspectives = long). Gate 1 risk_budget.can_open_new_position=true, phase=full. Gate 2 expected_return_per_share = 0.5*(1034-1016.50) - 0.5*(1016.50-1005) = +$3.00 (positive). Gate 3 risk_dollars=$250 (1% of $25k * 1.0 multiplier), risk_per_share=|1016.50-1005|=11.50, quantity=floor(250/11.50)=21. Gate 4 notional=1016.50*21=$21,346.50 > single_cap=$3,750 (15% of $25k); extended_cap=$5,000 (20%); M=floor(5000/1016.50)=4 shares, risk_M=4*11.50=$46 < risk_dollars_floor=$100 (40% of risk budget). Even at minimum scaled quantity (4 shares), only 18% of risk budget would be used, below the 40% floor. COST at ~$1,012/share is structurally too expensive for a $25k account."
+    }
+  ],
+  "summary": "COST rejected at Gate 4: $1,012 share price exceeds single-position cap math even under the small_scaled exception (would use only 18% of risk budget at the maximum 20%-notional quantity of 4 shares, below the 40% floor). Setup is otherwise valid (positive expected return, full direction consensus, no earnings blackout) but account size is the binding constraint."
+}

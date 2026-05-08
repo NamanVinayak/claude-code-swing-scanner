@@ -1,0 +1,26 @@
+{
+  "ticker": "FSLY",
+  "setup_direction": "short",
+  "bull_strength": 8,
+  "entry_zone": {"low": 19.30, "high": 19.48},
+  "target": 16.41,
+  "stop": 20.30,
+  "expected_holding_days": 5,
+  "top_3_arguments": [
+    "Catalyst confirmed 2026-05-07: FSLY had its biggest one-day percentage drop ever (~-39%) after Q1 print as core delivery QoQ volumes disappointed despite headline beat-and-raise (revenue $173M, EPS 50% above consensus, FY26 guide $710M-$725M). Stock had rallied ~270% in 3 months — institutional repositioning is unwinding that into a vacuum of support (web_research, chroniclejournal/stocktwits 2026-05-07).",
+    "Two analyst PT cuts in 24 hours both citing the same structural issue (core delivery / network services slowdown): Piper Sandler (2026-05-07) and DA Davidson (2026-05-07). analyst_consensus_web shows avg PT $13.0 with PT range $8-$20 vs current $19.50 — consensus implies ~33% downside; Hold rating with 1 Sell. Post-earnings analyst-cut waves typically continue 3-5 sessions as more sell-side desks revise.",
+    "Direction-math: entry midpoint $19.39 vs stop $20.30 = $0.91 risk; target $16.41 (daily nearest_support, 3 prior tests) = $2.98 reward. R:R = 3.27:1. Daily ADX 34.91 with -DI 27.3 > +DI 21.6 (strong downtrend), hourly RSI_21 = 23.66 (washed but trend strength ADX_24=39.55 with -DI 45.8 vs +DI 26.65 confirms sellers in control), daily MACD histogram -0.1232 (bearish), pct_b 0.0065 (price pinned to lower BB) — all corroborate continuation lower toward fib_ext_low_1272 = $14.10."
+  ],
+  "risks_acknowledged": [
+    "Hourly RSI_21 = 23.66 is deeply oversold — short squeeze risk if any positive headline (e.g., security segment +47% YoY narrative gets re-emphasized) sparks a reflex bounce toward declining hourly EMAs near $24-$26.",
+    "Retail dip-buying flagged in Stocktwits coverage (2026-05-07) — meme/retail flow can produce sharp counter-trend rallies even within a confirmed downtrend.",
+    "FY26 guide was actually RAISED to $710M-$725M and security revenue grew +47% YoY (4th consecutive accelerating quarter); a single positive analyst note re-framing the print as a buying opportunity could invalidate the breakdown thesis above $20.27 (8-test pivot resistance).",
+    "Catalyst-driven gap moves often see one mean-reversion bounce within 2-3 sessions; entering at $19.30-$19.48 risks being shaken out before continuation resumes."
+  ],
+  "web_sources_last_7d": [
+    "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-5-7-why-fastly-fsly-stock-is-nosediving",
+    "https://stocktwits.com/news-articles/markets/equity/fsly-stock-on-track-for-its-biggest-one-day-percentage-drop-ever-retail-thinks-the-dip-is-a-buying-opportunity/cZXbk03ReQL",
+    "https://anachart.com/ticker/fsly/",
+    "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-fastly-stock-price-target-on-network-services-slowdown-93CH-4668711"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 1015.00, "high": 1018.00},
+  "target": 1034.00,
+  "stop": 1005.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Bullish MA stack fully intact: price $1,012.06 above all daily MAs in proper order (ema_5 $1,007.99 > ema_10 $1,006.35 > ema_20 $1,003.30 > ema_50 $993.72 > ema_200 $964.54); price_vs_ma.above_ema_aligned_uptrend=true with ema_aligned_uptrend=true confirming the stack hasn't broken. dist_from_50sma_pct=+1.51% and pct_from_ema_200=+4.93% — pullback is shallow, not structural.",
+    "Reclaim-of-prior-support pullback signature: 5/6 sold from $1,012 to a $992.42 intraday low (touching pivot_low $983.69 zone but closing $995.75), then 5/7 reversed and closed $1,012.06 — recapturing prior pivot_high $1,011.36 (31 prior tests) on relative_volume 1.11x. Daily macd positive and expanding (line 4.01 > signal 3.65, histogram +0.36); rsi.rsi_14=56.38 in healthy mid-range; daily OBV trend=up with no price-OBV divergence. Reclaim of a 31-tested level is the textbook pullback_to_support setup.",
+    "Clean R:R with concrete levels and breathing room: entry $1,015–1,018 (just above watch_level $1,015 trigger and 5/6 open $1,011.31), stop $1,005 (below invalidation_level $1,005 and 1.5x daily ATR $18.30 buffer from entry), target $1,034 (recent_high $1,031.27 / pivot_high $1,034.32 swing-high reclaim). Reward $19 vs risk $11–13 = ~1.7–1.7:1 raw — accept that R:R is below the 2:1 ideal, but analyst_consensus_web avg PT $1,078 (+6.6% upside) and bollinger upper $1,024.24 / fib_236 $1,017.87 confirm the move is mechanically reachable inside expected_holding_days=7 (well clear of 5/28 earnings, 20 days out)."
+  ],
+  "risks_acknowledged": [
+    "R:R is ~1.7:1, below the 2:1 ideal — bull_strength capped at 6 because the trade only works if entry is taken near $1,015 and not chased toward $1,018; chasing tightens R:R further.",
+    "ADX_14=15.28 (weak trend) and momentum.roc_21d=-1.62% — this is consolidation reclaim, not a trending breakout; failure mode is sideways chop until 5/28 earnings drains time-decay-equivalent opportunity cost.",
+    "Hourly chart is weaker than daily: hourly macd histogram -0.6356, hourly ema_aligned_uptrend=false, hourly volume.relative_volume=0.61 — entry timing matters; better to wait for hourly MACD cross above signal before triggering rather than buying first tick above $1,015.",
+    "Earnings on 2026-05-28 (20 days out) — must close or stop before then. Wiki context is missing entirely (new_ticker=true, all 3 slices missing) so no historical setup-respect data is available to calibrate confidence."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/quote/COST/news/",
+    "https://247wallst.com/investing/2026/05/07/prediction-costco-will-trade-at-this-price-in-1-year/",
+    "https://seekingalpha.com/news/4529034-catalyst-watch-spotlight-on-the-fed-costco-earnings-and-nasdaq-100-additions"
+  ]
+}

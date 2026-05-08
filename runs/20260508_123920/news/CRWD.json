@@ -1,0 +1,63 @@
+{
+  "ticker": "CRWD",
+  "researched_at": "2026-05-08T19:43:00Z",
+  "news_items": [
+    {
+      "headline": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 6.71% on May 7: Drivers Behind the Movement",
+      "url": "https://www.tradingkey.com/news/market-movers/261870218-market-movers-crwd-20260507",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "CRWD rose 6.71% on May 7, outperforming the broader software sector amid intensifying market buzz around CrowdStrike's role in Anthropic's Project Glasswing (security for enterprise AI deployments)."
+    },
+    {
+      "headline": "CRWD Stock Breaks $500 on Partner App Launch and Earnings Date Amid AI Concerns",
+      "url": "https://www.fxleaders.com/news/2026/05/07/crwd-stock-breaks-500-on-partner-app-launch-and-earnings-date-amid-ai-concerns/",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "CRWD broke above $500 driven by the Jet partner app launch (mobile app for channel partners on Apple and Google) and confirmation of the June 3, 2026 earnings date."
+    },
+    {
+      "headline": "CrowdStrike launches Falcon OverWatch for Defender",
+      "url": "https://www.stocktitan.net/news/CRWD/crowd-strike-falcon-over-watch-for-defender-extends-managed-threat-t3tfc3raxdsk.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "CrowdStrike announced Falcon OverWatch for Defender, extending managed threat hunting to Microsoft endpoint customers. Expands TAM into the Microsoft Defender installed base."
+    },
+    {
+      "headline": "CrowdStrike Stock (CRWD) Opinions on Anthropic Project Glasswing",
+      "url": "https://www.quiverquant.com/news/CrowdStrike+Stock+(CRWD)+Opinions+on+Anthropic+Project+Glasswing",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "Coverage of CrowdStrike's role providing security for AI deployments under Anthropic's Project Glasswing initiative; shares climbed over 5% on the news."
+    },
+    {
+      "headline": "CrowdStrike Stock Gains On New AI Cybersecurity Push, Partner App Launch",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/05/52382626/crowdstrike-stock-gains-on-new-ai-cybersecurity-push-partner-app-launch",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "CRWD gains attributed to integration of Anthropic's Claude Opus 4.7 across the Falcon platform (May 1) plus the Jet partner app launch. AI integration positioned as the most important near-term catalyst."
+    },
+    {
+      "headline": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 3.03% on May 4: A Full Analysis",
+      "url": "https://www.tradingkey.com/news/market-movers/261853095-market-movers-crwd-20260504",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "CRWD rose 3.03% on May 4 as the Falcon-Claude Opus 4.7 integration (announced May 1) gained traction with investors as a threat-detection differentiator."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 510.52,
+    "recent_changes": "Wells Fargo reiterated Overweight on May 5, 2026. Mizuho upgraded to Outperform from Neutral and raised PT to $520 from $490 on April 27, 2026. Keybanc rating issued April 21, 2026. Range $368 (Bernstein) to $613 (Scotiabank); 35 Buy / 18 Hold / 1 Sell across 43-46 covering analysts."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-06-03",
+    "days_until_next": 26,
+    "notes": "Q1 fiscal report on June 3, 2026 — outside the 3-day forward earnings blackout. Street expectations elevated on AI integration (Claude Opus 4.7 in Falcon) and partner-app momentum; any sign of slower growth could pressure sentiment."
+  },
+  "raw_search_files": [
+    "CRWD_news-this-week.json",
+    "CRWD_analyst-rating.json",
+    "CRWD_earnings-catalyst.json"
+  ]
+}

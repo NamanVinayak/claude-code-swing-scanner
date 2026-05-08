@@ -1,0 +1,23 @@
+{
+  "ticker": "GPGI",
+  "setup_direction": "short",
+  "bear_strength": 4,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Bear-thesis (price falls further) is structurally weakened by valuation reset already taken: per recent_news_7d, GPGI plunged ~12.7% pre-market and total post-earnings decline is reported at 25.52% (chartmill 2026-05-07; simplywall.st reports -18.5%). 5d candles confirm: 5/06 close $17.46 → 5/07 close $12.94 on 16.47M volume vs 20-day avg 3.89M (relative_volume 4.23). Capitulation-volume gaps frequently mark short-term lows; chasing a short here pays peak panic premium.",
+    "Fundamentals are NOT broken — full-year 2026 guide reaffirmed at $1.95B–$2.10B pro forma sales and $550M–$610M EBITDA per tipranks/globenewswire/stocktitan (2026-05-07). Q1 pro forma sales actually grew +3% YoY; the EBITDA miss (-16% YoY) is attributed to Husky's transient oil/resin/tariff exposure (stocktitan 2026-05-07), not a structural demand collapse. analyst_consensus_web shows Buy rating with $26.20 avg PT (vs $12.94 spot) — even with downward revisions, fundamental support undermines a deeper short-side bear case.",
+    "Tactical mean-reversion risk into the short: hourly RSI_21 = 30.43 with rsi_divergence.bullish = true, daily RSI_14 = 30.32, z_score_50 = -1.98 and hourly z_score_120 = -3.09 — statistically extreme oversold. Hourly pct_b = 0.0087 (price riding the lower Bollinger band) and current_price ($12.94) sits below daily fib_786 ($13.44), into the fib_ext_low_1272 ($10.33) zone. Bear case (price keeps falling) faces a high-probability reflex bounce before continuation; a short entered at $12.85 with stop $13.25 ($0.40 risk) is fighting both a bullish hourly divergence and stretched stats."
+  ],
+  "bull_acknowledgements": [
+    "Daily trend structure is genuinely broken to the downside (ema_aligned_downtrend = true, dist_from_50sma_pct = -26.49%, ADX 27.32 with -DI 40.01 vs +DI 16.98), so the short setup is not without merit if a clean breakdown of $12.85 is achieved on continued volume.",
+    "Earnings miss is real and reasons are concrete: Husky tariff/commodity drag plus $235M GAAP loss create an overhang that could trigger downward analyst revisions in coming days (analyst_consensus_web flags ratings 'predate the May 7 Q1 miss and may be revised downward').",
+    "Volume profile (relative_volume 4.23, OBV trend down, volume_bias_10d down) confirms institutional distribution rather than retail noise — supportive of further weakness if the $12.07 recent low fails."
+  ],
+  "web_sources_last_7d": [
+    "https://www.globenewswire.com/news-release/2026/05/07/3289835/0/en/gpgi-reports-first-quarter-2026-results.html",
+    "https://www.stocktitan.net/news/GPGI/gpgi-reports-first-quarter-2026-m434n3sycji7.html",
+    "https://www.chartmill.com/news/GPGI/Chartmill-47672-GPGI-NYSEGPGI-Plunges-127-Pre-Market-After-Q1-Earnings-Miss",
+    "https://www.tipranks.com/news/company-announcements/gpgi-posts-mixed-q1-2026-results-maintains-outlook",
+    "https://simplywall.st/stocks/us/tech/nyse-gpgi/gpgi/news/gpgi-gpgi-is-down-185-after-revenue-collapse-and-rising-loss"
+  ]
+}

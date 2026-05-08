@@ -1,0 +1,465 @@
+{
+  "ticker": "GLW",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 187.75,
+  "invalidation_level": 182.0,
+  "catalyst_note": "TradingView strong buy + trending up signals intact; +2.6% overnight gap is directionally aligned with the long thesis without fully exhausting the move.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Corning lands $500 million Nvidia deal; stock surges to intraday high",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://finance.yahoo.com/markets/stocks/article/corning-stock-surges-to-intraday-high-after-company-lands-500-million-nvidia-deal-144931492.html",
+      "sentiment": "positive",
+      "summary": "Corning signed a $500M deal with Nvidia to supply optical connectivity components for AI data center build-out, part of a multi-year US manufacturing partnership."
+    },
+    {
+      "title": "Corning Stock (GLW) Rallied 12% on Wednesday on NVIDIA partnership",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.tipranks.com/news/corning-stock-glw-rallied-12-on-wednesday-is-there-more-upside-ahead",
+      "sentiment": "positive",
+      "summary": "GLW jumped 12% intraday after announcing three new US factories (Texas and North Carolina) to grow optical connectivity capacity 10x and fiber capacity 50% to meet AI data center demand."
+    },
+    {
+      "title": "GLW Stock Rallies As AI And Solar Growth Targets Jump",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.timothysykes.com/news/corning-incorporated-glw-news-2026_05_06/",
+      "sentiment": "positive",
+      "summary": "Corning extended Springboard growth plan through 2030: high-confidence target of $35B annualized sales (internal goal $40B), with $27B by 2028 (internal $30B) and $20B by end of 2026."
+    },
+    {
+      "title": "Oppenheimer raises GLW price target to $210 from $120, maintains Outperform",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.gurufocus.com/news/8843481/glw-maintained-by-oppenheimer-price-target-raised-to-210",
+      "sentiment": "positive",
+      "summary": "Oppenheimer analyst Martin Yang raised price target from $120 to $210 (75% increase) while maintaining Outperform rating following the NVIDIA partnership and Springboard extension."
+    },
+    {
+      "title": "Why Corning Stock Plummeted This Week",
+      "source": "web_research",
+      "date": "2026-05-03",
+      "url": "https://www.fool.com/investing/2026/05/03/why-corning-stock-plummeted-this-week/",
+      "sentiment": "negative",
+      "summary": "Earlier in the week (pre-NVIDIA news) GLW had fallen sharply per Motley Fool coverage; this preceded the multi-day rally triggered by the Nvidia announcement and growth plan extension."
+    },
+    {
+      "title": "Corning Inc Stock (GLW) Moved Up 3.20% on May 5",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.tradingkey.com/news/market-movers/261858414-market-movers-glw-20260505",
+      "sentiment": "positive",
+      "summary": "GLW gained 3.20% on May 5 in lead-up to the NVIDIA partnership announcement, building on a 3.07% open-up on May 4."
+    },
+    {
+      "title": "Why Corning Stock Skyrocketed Today",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.fool.com/investing/2026/05/06/why-corning-stock-skyrocketed-today/",
+      "sentiment": "positive",
+      "summary": "Motley Fool attributed the May 6 surge to the NVIDIA partnership, three new US factories announcement, and extended Springboard growth targets."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 182.39999389648438,
+  "market_cap": 168366489600.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-01",
+      "open": 162.02000427246094,
+      "high": 163.97000122070312,
+      "low": 157.6999969482422,
+      "close": 158.25999450683594,
+      "volume": 7179600
+    },
+    {
+      "time": "2026-05-04",
+      "open": 163.16000366210938,
+      "high": 163.67999267578125,
+      "low": 158.30999755859375,
+      "close": 159.9600067138672,
+      "volume": 8508500
+    },
+    {
+      "time": "2026-05-05",
+      "open": 164.42999267578125,
+      "high": 170.1999969482422,
+      "low": 160.32000732421875,
+      "close": 162.10000610351562,
+      "volume": 12386700
+    },
+    {
+      "time": "2026-05-06",
+      "open": 189.3800048828125,
+      "high": 195.80999755859375,
+      "low": 175.30999755859375,
+      "close": 181.57000732421875,
+      "volume": 32981100
+    },
+    {
+      "time": "2026-05-07",
+      "open": 186.82000732421875,
+      "high": 187.2100067138672,
+      "low": 178.0,
+      "close": 182.39999389648438,
+      "volume": 20035500
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 172.64248069012714,
+      "sma_5": 168.85800170898438,
+      "ema_10": 168.43759224404036,
+      "sma_10": 165.73800048828124,
+      "ema_20": 164.19159980393485,
+      "sma_20": 167.22150115966798,
+      "ema_21": 163.77016212151344,
+      "sma_21": 167.3442869640532,
+      "ema_50": 151.38795297379943,
+      "sma_50": 150.69420150756835,
+      "ema_200": 110.19515419386256,
+      "sma_200": 102.34489156723022,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 182.39999389648438,
+    "dist_from_50sma_pct": 21.04,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 5.65,
+      "above_sma_5": true,
+      "pct_from_sma_5": 8.02,
+      "above_ema_10": true,
+      "pct_from_ema_10": 8.29,
+      "above_sma_10": true,
+      "pct_from_sma_10": 10.05,
+      "above_ema_20": true,
+      "pct_from_ema_20": 11.09,
+      "above_sma_20": true,
+      "pct_from_sma_20": 9.08,
+      "above_ema_21": true,
+      "pct_from_ema_21": 11.38,
+      "above_sma_21": true,
+      "pct_from_sma_21": 9.0,
+      "above_ema_50": true,
+      "pct_from_ema_50": 20.49,
+      "above_sma_50": true,
+      "pct_from_sma_50": 21.04,
+      "above_ema_200": true,
+      "pct_from_ema_200": 65.52,
+      "above_sma_200": true,
+      "pct_from_sma_200": 78.22,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 18140.0
+    },
+    "rsi": {
+      "rsi_7": 83.65,
+      "rsi_14": 61.56,
+      "rsi_21": 58.75
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 5.8823,
+      "signal_line": 5.4615,
+      "histogram": 0.4208,
+      "bullish_crossover": true
+    },
+    "bollinger": {
+      "upper": 183.45,
+      "middle": 167.22,
+      "lower": 150.99,
+      "width": 0.1941,
+      "pct_b": 0.9676
+    },
+    "atr": {
+      "atr_14": 11.15,
+      "atr_pct": 6.11
+    },
+    "adx": {
+      "adx_14": 35.08,
+      "plus_di": 33.63,
+      "minus_di": 14.68,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 20035500,
+      "avg_volume_20": 11841840,
+      "relative_volume": 1.69,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 150.25,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 161.8,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 176.75,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 179.08,
+          "tests": 3,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 120.01,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 123.9,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 126.68,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 148.17,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 158.5,
+          "tests": 9,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 158.5,
+      "recent_high": 195.81,
+      "recent_low": 148.17,
+      "prev_day_high": 195.81,
+      "prev_day_low": 175.31,
+      "prev_day_close": 181.57
+    },
+    "fibonacci": {
+      "swing_high": 195.81,
+      "swing_low": 126.68,
+      "fib_236": 179.5,
+      "fib_382": 169.4,
+      "fib_500": 161.24,
+      "fib_618": 153.09,
+      "fib_786": 141.47,
+      "fib_ext_1272": 214.61,
+      "fib_ext_1618": 238.53,
+      "fib_ext_2000": 264.94,
+      "fib_ext_low_1272": 107.88,
+      "fib_ext_low_1618": 83.96
+    },
+    "momentum": {
+      "roc_5d": 11.06,
+      "roc_10d": 7.61,
+      "roc_21d": 10.48
+    },
+    "z_score_50": 1.86,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 177.03856185268063,
+      "sma_24": 175.2441635131836,
+      "ema_48": 171.5119421034569,
+      "sma_48": 166.71353975931802,
+      "ema_120": 167.34560142487138,
+      "sma_120": 166.30250676472983,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 195.62989807128906,
+    "dist_from_50sma_pct": 17.63,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 10.5,
+      "above_sma_24": true,
+      "pct_from_sma_24": 11.63,
+      "above_ema_48": true,
+      "pct_from_ema_48": 14.06,
+      "above_sma_48": true,
+      "pct_from_sma_48": 17.34,
+      "above_ema_120": true,
+      "pct_from_ema_120": 16.9,
+      "above_sma_120": true,
+      "pct_from_sma_120": 17.63,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 19462.99
+    },
+    "rsi": {
+      "rsi_21": 72.18
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 6.0385,
+      "signal_line": 3.4876,
+      "histogram": 2.5509,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 190.29,
+      "middle": 166.71,
+      "lower": 143.14,
+      "width": 0.2829,
+      "pct_b": 1.1132
+    },
+    "atr": {
+      "atr_24": 5.74,
+      "atr_pct": 2.94
+    },
+    "adx": {
+      "adx_24": 55.8,
+      "plus_di": 48.37,
+      "minus_di": 8.37,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 5153033,
+      "avg_volume_20": 2857984,
+      "relative_volume": 1.8,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 163.68,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 170.2,
+          "tests": 3,
+          "volume_confirmed": true
+        },
+        {
+          "price": 187.21,
+          "tests": 4,
+          "volume_confirmed": true
+        },
+        {
+          "price": 195.81,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 148.17,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 157.7,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 160.32,
+          "tests": 19,
+          "volume_confirmed": false
+        },
+        {
+          "price": 178.0,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 195.81,
+      "nearest_support": 178.0,
+      "recent_high": 196.66,
+      "recent_low": 160.32,
+      "prev_day_high": 182.83,
+      "prev_day_low": 179.55,
+      "prev_day_close": 182.44
+    },
+    "fibonacci": {
+      "swing_high": 196.66,
+      "swing_low": 158.06,
+      "fib_236": 187.55,
+      "fib_382": 181.91,
+      "fib_500": 177.36,
+      "fib_618": 172.81,
+      "fib_786": 166.32,
+      "fib_ext_1272": 207.16,
+      "fib_ext_1618": 220.51,
+      "fib_ext_2000": 235.26,
+      "fib_ext_low_1272": 147.56,
+      "fib_ext_low_1618": 134.21
+    },
+    "momentum": {
+      "roc_5d": 8.63,
+      "roc_10d": 5.86,
+      "roc_21d": 19.24
+    },
+    "z_score_120": 3.36,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 81,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 159.45,
+    "recent_changes": "Oppenheimer raised PT from $120 to $210 (Outperform) on 2026-05-07. Citi raised PT to $175, Susquehanna moved to $180 (Positive), UBS raised to $179. Consensus 11 Buy / 2 Hold / 1 Sell."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-29",
+    "days_until_next": 82,
+    "notes": "Q1 2026 already reported: beat on EPS and revenue with 18% core sales growth and 30% core EPS growth, powered by Gen AI optical demand and ~80% YoY solar growth. Street expects continued AI data center momentum into Q2."
+  }
+}

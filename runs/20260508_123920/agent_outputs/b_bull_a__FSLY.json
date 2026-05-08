@@ -1,0 +1,28 @@
+{
+  "ticker": "FSLY",
+  "setup_direction": "short",
+  "bull_strength": 8,
+  "entry_zone": {"low": 19.30, "high": 19.50},
+  "target": 16.50,
+  "stop": 20.30,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Bearish Stockbee Episodic Pivot confirmed: 2026-05-07 candle dropped from 31.57 close to 19.50 close (-38.2%) on relative_volume = 3.44 (47.4M vs 13.8M avg_volume_20), with daily_indicators.volume.obv.trend = 'down' and volume_bias_10d = 'down'. Hourly minus_di = 45.80 vs plus_di = 26.65 with adx_24 = 39.55 confirms institutional distribution, not noise.",
+    "MA stack flipped fully bearish on the daily: above_ema_5/10/20/21/50 all FALSE with pct_from_ema_50 = -19.74 and pct_from_sma_50 = -23.81. Hourly ema_aligned_downtrend = true with all above_ema_24/48/120 FALSE. daily_indicators.macd.histogram = -0.1232 (no bullish_crossover); hourly macd.histogram = -1.4723 with macd_line = -1.0806 deeply below signal. ADX_14 = 34.91 daily confirms strong directional trend now pointing down (minus_di 27.3 > plus_di 21.6).",
+    "Clean asymmetric R:R from breakdown trigger: nearest_resistance = 20.27 (8 tests, volume_confirmed) caps the stop; entry just under prev_day_close 19.48 / prev_day_low 19.29 lets the pivot low fail. Target 16.50 sits just above nearest_support = 16.41 and well above fib_ext_low_1272 = 14.10. From entry 19.40, risk to stop 20.30 = $0.90; reward to target 16.50 = $2.90 → 3.2:1 R:R. daily_indicators.bollinger.pct_b = 0.0065 (price pinned at lower band) but ATR_14 = 3.29 (16.85%) gives ample room to extend down before mean-reversion."
+  ],
+  "risks_acknowledged": [
+    "Hourly RSI_21 = 23.66 is deeply oversold and daily pct_b = 0.0065 sits at the Bollinger lower band — a one-to-three day mean-reversion bounce toward the 20.27 resistance / 22.02 fib_786 is plausible before continuation. Entry under 19.50 with stop above 20.30 is required to avoid being squeezed by that bounce.",
+    "The fundamental print was a beat-and-raise (revenue $173M +20% YoY, FY26 guide raised to $710M-$725M, security +47% YoY). Retail dip-buying flagged in stocktwits coverage plus a $13 consensus PT against $19.50 spot (analyst_consensus_web) means downside is partially priced; a sympathy bounce on broader cloud/CDN strength could invalidate the breakdown.",
+    "The 200-day MAs remain far below price (above_ema_200 = true, +23.06%; above_sma_200 = true, +44.39%), so the long-term uptrend is intact — this is a counter-trend short on a single distribution day, not a confirmed Stage 4 breakdown. Wiki context is empty (new_ticker = true), no prior setup history to lean on.",
+    "Earnings just printed (~2026-05-06) and next is ~89 days out, so no near-term earnings catalyst — but elevated post-earnings volatility (atr_pct = 16.85%) means stops can be hit on intraday noise. Position sizing must account for the 3.29 ATR."
+  ],
+  "web_sources_last_7d": [
+    "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-5-7-why-fastly-fsly-stock-is-nosediving",
+    "https://stocktwits.com/news-articles/markets/equity/fsly-stock-on-track-for-its-biggest-one-day-percentage-drop-ever-retail-thinks-the-dip-is-a-buying-opportunity/cZXbk03ReQL",
+    "https://anachart.com/ticker/fsly/",
+    "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-fastly-stock-price-target-on-network-services-slowdown-93CH-4668711",
+    "https://www.dailypolitical.com/2026/05/06/fastly-nysefsly-releases-fy-2026-earnings-guidance.html",
+    "https://finance.yahoo.com/markets/stocks/articles/fastlys-security-revenues-climb-47-145700788.html"
+  ]
+}

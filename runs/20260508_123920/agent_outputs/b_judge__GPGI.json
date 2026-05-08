@@ -1,0 +1,23 @@
+{
+  "ticker": "GPGI",
+  "approved": [
+    {
+      "ticker": "GPGI",
+      "direction": "short",
+      "entry_price": 12.87,
+      "stop_loss": 13.30,
+      "target_price": 11.00,
+      "target_price_2": 10.47,
+      "quantity": 388,
+      "expected_holding_days": 6,
+      "setup_type": "range_break",
+      "conviction": 6,
+      "rationale": "Bulls (short-thesis advocates) win consensus: b_bull_a strength=7 vs b_bear_a strength=4, b_bull_b strength=7 vs b_bear_b strength=4 (combined_p_bull=0.636). Direction-aware EV per share = 0.636*(12.87-11.00) - 0.364*(13.30-12.87) = +$1.033, positive. Bears' top concern (oversold mean-reversion: daily rsi_14=30.32, hourly rsi_divergence.bullish=true, z_score_50=-1.98) acknowledged but outweighed by fresh 2026-05-07 catalyst (Q1 EBITDA -16% YoY, $235M GAAP loss, -25.5% post-print decline) plus distribution-day confirmation (relative_volume=4.23x, ADX_14=27.32 with -DI 40.01 vs +DI 16.98, ema_aligned_downtrend=true on both timeframes). Position sizing: risk_dollars = $25000*1.0%*1.0 = $250, risk_per_share = |12.87-13.30| = $0.43, Gate-3 quantity = 581. Notional 581*$12.87 = $7,477 exceeds 15% standard cap ($3,750), so scaled down from 581 to 388 shares to fit small-account cap (388*$12.87 = $4,993, within 20% extended cap), using 67% of risk budget ($166.84 actual risk).",
+      "risk_usd": 166.84,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-08T17:30:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "GPGI short approved as small_scaled (388 shares @ $12.87, stop $13.30, target $11.00). Fresh negative earnings catalyst + ema_aligned_downtrend + relative_volume 4.23x outweigh the oversold/mean-reversion bear-of-shorts case. Positive expected return $1.03/share; budget caps clear at 67% of risk budget."
+}

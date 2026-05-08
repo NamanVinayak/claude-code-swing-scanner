@@ -1,0 +1,23 @@
+{
+  "ticker": "ROK",
+  "approved": [
+    {
+      "ticker": "ROK",
+      "direction": "long",
+      "entry_price": 460.50,
+      "stop_loss": 445.50,
+      "target_price": 481.00,
+      "target_price_2": 495.00,
+      "quantity": 10,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Direction consensus across all 4 perspectives (long). Bull side: b_bull_a strength 7, b_bull_b strength 8; bear side: b_bear_a strength 7, b_bear_b strength 6. p_bull=0.500, p_catalyst=0.5714, combined_p_bull=0.5357. Expected return per share = 0.5357*(481.00-460.50) - 0.4643*(460.50-445.50) = +$4.02 (positive). Bulls' technical structure is verifiable in facts (daily ADX_14=40.33, +DI 31.25 vs -DI 10.42, MACD hist +4.19, ema_aligned_uptrend=true, roc_21d=+15.02%); bears correctly flag stretch (rsi_7=76.78, pct_b=1.0467, z_score_50=2.30) and analyst PT $420.88 below price, capping conviction at 6. Catalyst (Q2 beat-and-raise, days_until_next earnings=90) supports continuation, but May 7 reversal day (high $463.49 -> close $448.55) means entry must trigger at $457.50 watch level. Position sizing: risk_dollars=25000*0.01*1.0=$250, risk_per_share=$15.00, Gate-3 quantity=floor(250/15)=16, notional=$7,368 exceeds 15% cap ($3,750). Scaled down from 16 to 10 shares to fit small-account cap, using 60% of risk budget (M=floor(5000/460.50)=10, risk_M=10*15.00=$150 >= 40% floor of $100). Existing ROK long from 2026-05-06 at $446.93 means this is a pyramid add; small_scaled sizing keeps fresh notional at $4,605 (18.4% of account) and fresh risk at $150 (0.6% of account), well within deployment (60%) and total open risk (4%) caps.",
+      "risk_usd": 150.00,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-08T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "ROK approved as small_scaled long pyramid (10 shares @ $460.50, stop $445.50, target $481, $150 risk). Positive expected return +$4.02/share survived bull-vs-bear synthesis; conviction held to 6 because bears' stretch case (pct_b=1.0467, analyst PT 6.6% below price) is real and trigger requires $457.50 reclaim."
+}

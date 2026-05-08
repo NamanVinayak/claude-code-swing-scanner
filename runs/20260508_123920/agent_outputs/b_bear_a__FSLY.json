@@ -1,0 +1,24 @@
+{
+  "ticker": "FSLY",
+  "setup_direction": "short",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [20.27, 20.68, 22.02],
+  "top_3_arguments": [
+    "Short entry at $19.40 is mechanically late and mean-reversion-risk-on: daily bollinger.pct_b = 0.0065 (price pinned to lower band $19.42), hourly rsi_21 = 23.66 (deeply oversold), and momentum.roc_5d = -22.79% on daily — the capitulation candle already happened on 2026-05-07 (47.4M volume = 3.44x avg, range $22.89→$18.53). Shorting at the lower BB after a -39% one-day drop is textbook chasing; the next move is statistically a bounce or sideways consolidation, not a fresh breakdown.",
+    "Overhead support shelf is dense and volume-confirmed: pivot_high $20.27 (8 tests, volume_confirmed=true) sits just $0.87 (4.5%) above current $19.50, and pivot_low $20.68 (8 tests) is right behind it. Watch_level $19.40 is barely 0.5% below current — invalidation $20.00 is only 2.6% away, well inside the daily ATR of $3.29 (16.85%). Any normal-volatility intraday wick takes out the stop; from a microstructure standpoint, the trade has roughly 1 ATR of room before invalidation, which is not a tradable edge.",
+    "Fundamental wall against the short thesis: Q1 was a beat-and-raise (revenue $173M +20% YoY, EPS 50% above consensus, FY26 guide raised to $710M-$725M, security +47% YoY for 4th straight accelerating quarter — sources dailypolitical.com 2026-05-06, finance.yahoo.com 2026-05-06). The -39% drop was expectations-reset on a 270%-prior-3-month rally, not a broken thesis. Stocktwits reports retail buying the dip aggressively. Price still sits +23.06% above EMA_200 ($15.85) and +44.39% above SMA_200 ($13.50) — the long-term uptrend is intact. Shorts piling on after the news is fully discounted is exactly the setup that produces a violent short-squeeze rip back to fib_786 = $22.02 or fib_618 = $24.75."
+  ],
+  "bull_acknowledgements": [
+    "Short-thesis-advocate concession: daily MACD histogram = -0.1232 (no bullish crossover), ADX_14 = 34.91 with minus_di (27.3) > plus_di (21.6), and hourly EMAs aligned in downtrend (ema_24/48/120 all above price) — momentum/trend structure does favor continuation lower in the immediate term.",
+    "Analyst PT cuts from Piper Sandler and DA Davidson (both 2026-05-07) plus consensus avg PT of $13.00 (versus current $19.50) provide a real fundamental gravity toward lower prices over a multi-week horizon, even if the immediate path is choppy.",
+    "Daily volume.relative_volume = 3.44x and obv.trend = down confirms institutional distribution on the breakdown day — this isn't a thin-volume fakeout, it's a real repositioning event."
+  ],
+  "web_sources_last_7d": [
+    "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-5-7-why-fastly-fsly-stock-is-nosediving",
+    "https://stocktwits.com/news-articles/markets/equity/fsly-stock-on-track-for-its-biggest-one-day-percentage-drop-ever-retail-thinks-the-dip-is-a-buying-opportunity/cZXbk03ReQL",
+    "https://anachart.com/ticker/fsly/",
+    "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-fastly-stock-price-target-on-network-services-slowdown-93CH-4668711",
+    "https://www.dailypolitical.com/2026/05/06/fastly-nysefsly-releases-fy-2026-earnings-guidance.html",
+    "https://finance.yahoo.com/markets/stocks/articles/fastlys-security-revenues-climb-47-145700788.html"
+  ]
+}

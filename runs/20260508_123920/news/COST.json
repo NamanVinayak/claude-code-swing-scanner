@@ -1,0 +1,42 @@
+{
+  "ticker": "COST",
+  "researched_at": "2026-05-08T12:42:30Z",
+  "news_items": [
+    {
+      "headline": "Costco April net sales rise 13% YoY to $23.92B for four weeks ended May 3",
+      "url": "https://finance.yahoo.com/quote/COST/news/",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Costco reported total net sales of $23.92B for the retail month of April (four weeks ended May 3, 2026), up 13% YoY, ahead of expectations. Sales partially driven by elevated fuel prices benefiting gas station operations."
+    },
+    {
+      "headline": "Prediction: Costco Will Trade At This Price In 1 Year",
+      "url": "https://247wallst.com/investing/2026/05/07/prediction-costco-will-trade-at-this-price-in-1-year/",
+      "date": "2026-05-07",
+      "sentiment": "neutral",
+      "summary": "24/7 Wall St. published a one-year price prediction piece on COST citing the consensus analyst price target around $1,078 and implied modest upside."
+    },
+    {
+      "headline": "Catalyst Watch: Spotlight on the Fed, Costco earnings, and Nasdaq 100 additions",
+      "url": "https://seekingalpha.com/news/4529034-catalyst-watch-spotlight-on-the-fed-costco-earnings-and-nasdaq-100-additions",
+      "date": "2026-05-04",
+      "sentiment": "neutral",
+      "summary": "Seeking Alpha flagged Costco's upcoming May 28 earnings report as a key near-term catalyst alongside Fed decisions and Nasdaq 100 index changes."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 1078.0,
+    "recent_changes": "Most recent analyst actions came on April 9-10, 2026 from DA Davidson, Telsey Advisory Group, and Wells Fargo (priced in pre-window). No analyst-rating changes in last 7 days. Current consensus: 23 Buy / 12 Hold / 2 Sell across 27 analysts; MarketBeat consensus PT $1,070.54, 19-analyst consensus PT $1,078, implied ~6.6% upside."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-05-28",
+    "days_until_next": 20,
+    "notes": "Fiscal Q3 2026 earnings expected May 28 with street modeling ~14% YoY EPS growth. Last quarter (Q2 FY26) beat both top and bottom lines: revenue ~$69.6B, diluted EPS $4.58. Street watching membership growth, comparable-sales momentum, and digital expansion."
+  },
+  "raw_search_files": [
+    "COST_news-this-week.json",
+    "COST_analyst-rating.json",
+    "COST_earnings-catalyst.json"
+  ]
+}

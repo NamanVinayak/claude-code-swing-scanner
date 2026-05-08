@@ -1,0 +1,70 @@
+{
+  "ticker": "HWM",
+  "researched_at": "2026-05-08T12:39:20Z",
+  "news_items": [
+    {
+      "headline": "Howmet Aerospace Reports First Quarter 2026 Results",
+      "url": "https://www.howmet.com/press-release/2026-05-07/howmet-aerospace-reports-first-quarter-2026-results/",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Q1 2026 revenue $2.31B (+19% YoY, 3.2% beat); non-GAAP EPS $1.22 (10.3% beat); adjusted EBITDA margin expanded 320bps YoY to 32.0%."
+    },
+    {
+      "headline": "Howmet surges after Q1 beat, raises outlook on aerospace demand",
+      "url": "https://seekingalpha.com/news/4588308-howmet-surges-after-q1-beat-raises-outlook-on-aerospace-demand",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Company raised FY 2026 revenue guidance to $9.65B midpoint (from $9.1B, +6%) and adjusted EPS guidance to $4.94 midpoint (+11%) on commercial and defense aerospace demand."
+    },
+    {
+      "headline": "Howmet (HWM) Shares Skyrocket - What You Need To Know",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-5-7-howmet-hwm-shares-skyrocket-what-you-need-to-know",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "HWM shares jumped 10.8% intraday after the Q1 beat-and-raise; stock climbed to $276.16 with intraday peak at $290."
+    },
+    {
+      "headline": "Howmet Aerospace Stock Hits 52-Week High; CEO warns Iran conflict could hit demand momentum",
+      "url": "https://www.benzinga.com/markets/earnings/26/05/52374909/howmet-ceo-warns-iran-conflict-could-hit-demand-momentum",
+      "date": "2026-05-07",
+      "sentiment": "neutral",
+      "summary": "Stock hit 52-week high after Q1 earnings; CEO publicly cautioned that an Iran conflict could disrupt aerospace demand momentum despite raised outlook."
+    },
+    {
+      "headline": "How Strong Earnings, Raised Guidance, and Higher Payouts Will Impact Howmet Aerospace Investors",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-hwm/howmet-aerospace/news/how-strong-earnings-raised-guidance-and-higher-payouts-will",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Free cash flow rose to $359M in Q1 (from $134M YoY); company bought back $300M of shares in Q1 plus an additional $150M in April."
+    },
+    {
+      "headline": "Howmet Aerospace Stock Jumps: HWM Raises 2026 Forecast as Jet Demand Powers Profit Beat",
+      "url": "https://ts2.tech/en/howmet-aerospace-stock-jumps-hwm-raises-2026-forecast-as-jet-demand-powers-profit-beat/",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Engine products were the largest contributor to revenue growth; F-35 program orders and gas turbine markets cited as key tailwinds."
+    },
+    {
+      "headline": "Howmet Aerospace Updates Q2 2026 Earnings Guidance",
+      "url": "https://www.dailypolitical.com/2026/05/07/howmet-aerospace-nysehwm-updates-q2-2026-earnings-guidance.html",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Company issued updated Q2 2026 forward guidance alongside the Q1 release, in line with raised full-year outlook."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 277.52,
+    "recent_changes": "Consensus skewed Strong Buy after the May 7 Q1 beat-and-raise; sources cite 20 buys / 3 holds / 0 sells across 21 analysts. Average 12-month PT ~$277.52 (range $214.92 to $315). No specific individual broker upgrade/downgrade actions captured in the last 7 days."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 just reported on 2026-05-07: revenue $2.31B (+19% YoY), Adj EPS $1.22, EBITDA margin 32.0% (+320bps). FY26 revenue guide raised to $9.65B midpoint, FY26 Adj EPS guide raised to $4.94 midpoint. Next quarterly print (Q2 2026) typically falls late July / early August; specific date not confirmed in searches. Street expects continued tailwind from commercial aerospace, F-35 defense orders, and engine spares; CEO flagged Iran conflict as a downside risk to demand."
+  },
+  "raw_search_files": [
+    "HWM_news-this-week.json",
+    "HWM_analyst-rating.json",
+    "HWM_earnings-catalyst.json"
+  ]
+}

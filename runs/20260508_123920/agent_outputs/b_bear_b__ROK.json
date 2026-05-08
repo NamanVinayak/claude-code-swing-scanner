@@ -1,0 +1,25 @@
+{
+  "ticker": "ROK",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Post-earnings analyst reaction is unfavorable for fresh longs at $448.55: avg_price_target = $420.88 per analyst_consensus_web is BELOW current price (~6.6% downside to consensus PT), and multiple firms (Wall Street Zen, Jefferies, Wells Fargo, Barclays) downgraded to Hold and trimmed targets in the May 6-7 window citing valuation now that ROK trades near 52-week high $463.49. The catalyst (Q2 beat-and-raise) is fully reported and being digested by sell-side as 'priced in.'",
+    "Stretched technicals at a known supply zone limit upside: daily rsi_7 = 76.78, bollinger pct_b = 1.0467 (above the upper band), z_score_50 = 2.3, and price sits 15.76% above the 50-SMA. Hourly nearest_resistance = $454.67 (volume_confirmed, 13 tests) sits BETWEEN current price and the watch_level $457.50, meaning the breakout has to chew through a heavily-tested supply shelf just to trigger; meanwhile yesterday's range ($459.27 high → $445.68 low → $448.55 close, a -2.35% reversal day) shows the post-gap distribution is already underway.",
+    "Volume / participation is fading rather than confirming continuation: hourly relative_volume = 0.47 (less than half of average), hourly OBV trend = 'down', and daily volume_bias_10d = 'down'. Stage 1 catalyst_note itself flags 'zero premarket volume reported leaves confirmation quality uncertain.' For a breakout long held into a stretched tape with no near-term earnings catalyst (days_until_next = 90 per earnings field), absence of follow-through volume is the classic exhaustion signature. recent_insider_trades is empty, so there is no insider buying to backstop the bull case from the fundamental side either."
+  ],
+  "bull_acknowledgements": [
+    "The fundamental beat is real and high-quality: per earnings_context_web, fiscal Q2 2026 adj EPS $3.30 vs $2.92 consensus and revenue $2.24B vs $2.18B, with management raising FY2026 guide to ~$8.9B revenue citing data center, semiconductor, and warehouse-automation demand — these are durable secular drivers, not one-off pull-forward.",
+    "Aggregate sell-side rating is still 'Moderate Buy' (19 buys / 2 holds / 0 sells per analyst_consensus_web) and daily ADX_14 = 40.33 with +DI 31.25 vs -DI 10.42 confirms a strong, intact uptrend regime — fading this kind of trend strength has historically been a losing trade.",
+    "Earnings risk is genuinely off the table for the holding window: days_until_next ≈ 89-90 days (next print 2026-08-05 per earnings_context_web), well outside any swing-trade horizon, so the trade does not carry a binary event risk."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",
+    "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
+    "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
+    "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
+    "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-rok/rockwell-automation/news/should-rockwells-stronger-q2-2026-profitability-shift-the-in",
+    "https://www.gurufocus.com/news/8757097/rockwell-automation-rok-sees-analyst-rating-update-from-baird-rok-stock-news"
+  ]
+}

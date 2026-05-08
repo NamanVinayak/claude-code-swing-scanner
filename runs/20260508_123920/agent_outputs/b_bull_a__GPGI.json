@@ -1,0 +1,27 @@
+{
+  "ticker": "GPGI",
+  "setup_direction": "short",
+  "bull_strength": 7,
+  "entry_zone": {"low": 12.80, "high": 12.94},
+  "target": 10.47,
+  "stop": 13.30,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Full Stage 4 breakdown confirmed: ema_aligned_downtrend = true on both daily and hourly; price is below every MA tested — pct_from_sma_50 = -26.49%, pct_from_sma_200 = -33.79%, pct_from_ema_20 = -19.30%. Daily ADX 27.32 with minus_di 40.01 vs plus_di 16.98 (strong downtrend, bears in firm control); hourly ADX 54.60 with minus_di 43.97 confirms acceleration on the lower timeframe.",
+    "May 7 distribution day was textbook capitulation continuation fuel: relative_volume = 4.23x (16.47M vs 20d avg 3.89M), open 13.32 → low 12.07 → close 12.94, a -16.14% roc_5d and -25%+ post-earnings decline. Daily volume.obv trend = down (not diverging), daily bollinger pct_b = -0.2684 (price piercing the lower band), z_score_50 = -1.98 — momentum is one-directional with no reclaim attempt yet.",
+    "Clean R:R on a breakdown trigger with structural levels on both sides. Entry 12.80–12.94 sits right at the breakdown of yesterday's $13.25 prev_day_high (= invalidation_level); stop 13.30 is just above that pivot and above the daily bollinger lower 14.01 reclaim line. Target 10.47 = hourly fib_ext_low_1272 (daily fib_ext_low_1272 = 10.33 corroborates). Risk = $0.40, Reward = $2.43, R:R ≈ 6.1:1. ATR_14 daily = 1.23 → target is ~2 ATRs away, hittable in 4–8 sessions."
+  ],
+  "risks_acknowledged": [
+    "Hourly RSI 30.43 with rsi_divergence.bullish = true (60-bar lookback) is a real short-term oversold signal — a counter-trend bounce to the hourly EMA_24 (14.77) or daily Bollinger lower 14.01 is plausible before continuation; entries chasing below 12.85 risk being caught in a relief squeeze.",
+    "Daily MACD histogram = +0.0168 (just-flipped positive) and macd_line = -0.6385 vs signal_line = -0.6553 — early hint of momentum deceleration on the daily timeframe even as price extends lower.",
+    "Analyst consensus on web is still Buy with a $26.20 average PT (predates the May 7 miss); a wave of downgrades could already be priced in via the -25.5% post-print drop, raising the odds of an oversold mean-reversion bounce as desks reset models.",
+    "Research gap: earnings.days_until_next and days_since_last are both null in the bundle — Q1 was reported May 7, but the bundle does not confirm whether any forward catalyst (Q2 pre-announce, investor day) lands within the planned holding window."
+  ],
+  "web_sources_last_7d": [
+    "https://www.globenewswire.com/news-release/2026/05/07/3289835/0/en/gpgi-reports-first-quarter-2026-results.html",
+    "https://www.stocktitan.net/news/GPGI/gpgi-reports-first-quarter-2026-m434n3sycji7.html",
+    "https://www.chartmill.com/news/GPGI/Chartmill-47672-GPGI-NYSEGPGI-Plunges-127-Pre-Market-After-Q1-Earnings-Miss",
+    "https://www.tipranks.com/news/company-announcements/gpgi-posts-mixed-q1-2026-results-maintains-outlook",
+    "https://simplywall.st/stocks/us/tech/nyse-gpgi/gpgi/news/gpgi-gpgi-is-down-185-after-revenue-collapse-and-rising-loss"
+  ]
+}

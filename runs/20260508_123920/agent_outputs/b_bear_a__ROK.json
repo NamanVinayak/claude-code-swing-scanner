@@ -1,0 +1,25 @@
+{
+  "ticker": "ROK",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [445.27, 435.93],
+  "top_3_arguments": [
+    "Stretch / mean-reversion risk is severe: daily_indicators.bollinger.pct_b = 1.0467 (price above upper band), daily z_score_50 = 2.30, hourly z_score_120 = 2.07, dist_from_50sma_pct = 15.76%, daily rsi_7 = 76.78. The post-earnings gap from $400.31 (May 4 close) to $459.35 (May 6 close) was a +14.7% three-day move — the May 7 session already showed exhaustion (open $459.27, low $445.68, close $448.55, a -2.35% intraday reversal off prev_day_high $463.49). Classic blow-off-then-fade tape; entering long at $457.50 watch level after this reversal is buying the failed retest of the high.",
+    "Breakout follow-through is failing on volume and momentum, not strengthening. May 7 volume = 1,108,400 vs May 6 volume = 1,181,400 — declining volume on the down day means selling outpaced any dip-buying. Hourly volume.relative_volume = 0.47 (less than half average) and hourly volume.obv.trend = 'down' while daily obv is still up — bearish hourly OBV divergence forming. Hourly rsi_divergence reports BOTH bullish and bearish flags fired in lookback (`bullish: true, bearish: true`) which signals chop, not trend continuation. The breakout structure is rolling over intraday.",
+    "Reward-to-risk at the proposed entry is poor and the analyst tape is turning negative. From watch_level $457.50 to invalidation_level $446.00 is -2.51% risk; the nearest meaningful overhead is the May 6 high $463.49 and the recent_high also $463.49 — only +1.31% upside before the prior peak acts as supply. R:R to that resistance is roughly 0.5:1 (well below 2:1 minimum). On top of that, analyst_consensus_web shows multiple post-earnings DOWNGRADES (Wall Street Zen, Jefferies, Wells Fargo, Barclays trimming targets to a $420.88 average — meaning current $448.55 is already +6.6% ABOVE consensus PT). The 'good news is priced in' setup is what gets bought into and faded by institutions."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely strong: daily ADX_14 = 40.33 with +DI 31.25 / -DI 10.42 (strong trend, bull-dominated), ema_aligned_uptrend = true on both daily and hourly, price above every MA from EMA_5 through SMA_200, and daily MACD histogram still positive at +4.19. This is not a broken chart — it is an extended one.",
+    "The catalyst is real and recent: Q2 FY2026 beat-and-raise (adj EPS $3.30 vs $2.92, revenue $2.24B vs $2.18B, FY26 guide raised to ~$8.9B) with 90 days until next earnings, so no near-term event risk. Five separate web-research items in the last 3 days corroborate fundamental strength.",
+    "Wiki memory shows ROK is already a working long (entered $446.93 on 2026-05-06, currently +0.4%) — the existing position partly de-risks adding via the breakout-retest mechanic if $457.50 actually clears."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",
+    "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
+    "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
+    "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
+    "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-rok/rockwell-automation/news/should-rockwells-stronger-q2-2026-profitability-shift-the-in",
+    "https://www.gurufocus.com/news/8757097/rockwell-automation-rok-sees-analyst-rating-update-from-baird-rok-stock-news"
+  ]
+}

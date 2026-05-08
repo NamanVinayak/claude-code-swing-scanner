@@ -1,0 +1,25 @@
+{
+  "ticker": "HWM",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Valuation is fully priced post-beat: at $272.54 the stock sits essentially AT the analyst_consensus_web 12-month average price target of $277.52 — only ~1.8% upside to consensus PT vs. invalidation at $270.50 implying ~0.7% downside before thesis death. Reward/risk on a fresh long here is asymmetric the wrong way; the Q1 beat-and-raise (FY26 revenue guide $9.65B, EPS $4.94) is already in the tape after a +10.8% intraday on 2026-05-07.",
+    "Concrete macro/thesis risk acknowledged by management itself: per the 2026-05-07 Benzinga piece, the CEO publicly cautioned that an Iran conflict could disrupt aerospace demand momentum despite the raised outlook. Aerospace demand is the entire bull thesis (commercial + F-35 + engine spares per the ts2.tech writeup) — when the CEO flags geopolitical demand risk on the same day they raise guidance, that is a real overhang and not noise. Any escalation headline becomes an immediate gap-down catalyst with no near-term earnings catalyst to offset (earnings.days_until_next = 90).",
+    "Stretched extension into the breakout: daily rsi_7 = 84.17, hourly rsi_21 = 73.85, hourly z_score_120 = 2.9, daily z_score_50 = 2.51, price sits 10.94% above the 50-SMA and 27.35% above the 200-EMA, with hourly bollinger pct_b = 1.038 (above the upper band) and daily pct_b = 1.1728. Yesterday's bar already printed a $14.68 intraday range ($266.06 low to $280.74 high) closing $8.20 off the high — that is distribution, not accumulation. Buying a breakout above $275 here means paying the absolute top of a 2-day +13.7% spike with no consolidation, no insider buying in `recent_insider_trades` (empty list — no executive vote of confidence following the print), and no margin of safety to the $270.50 invalidation."
+  ],
+  "bull_acknowledgements": [
+    "The Q1 fundamentals are genuinely strong: revenue +19% YoY ($2.31B, 3.2% beat), non-GAAP EPS $1.22 (10.3% beat), adjusted EBITDA margin +320bps to 32.0%, FCF $359M (vs $134M YoY) with $300M Q1 buybacks plus $150M in April — this is a real beat-and-raise, not financial engineering.",
+    "Analyst consensus is firmly Strong Buy (20 buys / 3 holds / 0 sells of 21 analysts per analyst_consensus_web) and the daily ADX of 27.52 with +DI 33.89 / -DI 19.15 confirms a strong, intact uptrend — fighting this trend without a clear catalyst is itself risky.",
+    "No insider selling cluster appears in `recent_insider_trades` (empty list), so the typical post-beat distribution-by-management red flag is not present here — bears cannot point to executives quietly cashing out into strength."
+  ],
+  "web_sources_last_7d": [
+    "https://www.howmet.com/press-release/2026-05-07/howmet-aerospace-reports-first-quarter-2026-results/",
+    "https://seekingalpha.com/news/4588308-howmet-surges-after-q1-beat-raises-outlook-on-aerospace-demand",
+    "https://markets.financialcontent.com/stocks/article/stockstory-2026-5-7-howmet-hwm-shares-skyrocket-what-you-need-to-know",
+    "https://www.benzinga.com/markets/earnings/26/05/52374909/howmet-ceo-warns-iran-conflict-could-hit-demand-momentum",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-hwm/howmet-aerospace/news/how-strong-earnings-raised-guidance-and-higher-payouts-will",
+    "https://ts2.tech/en/howmet-aerospace-stock-jumps-hwm-raises-2026-forecast-as-jet-demand-powers-profit-beat/",
+    "https://www.dailypolitical.com/2026/05/07/howmet-aerospace-nysehwm-updates-q2-2026-earnings-guidance.html"
+  ]
+}

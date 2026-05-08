@@ -1,0 +1,25 @@
+{
+  "ticker": "BROS",
+  "setup_direction": "short",
+  "bear_strength": 5,
+  "setup_invalidation_levels": [55.09, 56.21, 58.18],
+  "top_3_arguments": [
+    "Price is sitting directly on multi-test daily support: daily support_resistance.pivot_lows shows 50.26 with 16 tests (very strong) and current_price 53.54 is just 6.1% above it; hourly bollinger.pct_b = 0.0014 (price tagging the lower band) and daily rsi_7 = 41.34 is approaching oversold territory — classic conditions for a dead-cat bounce that traps fresh shorts entering on a break of yesterday's $53.58 close.",
+    "The fundamental backdrop directly contradicts the bearish technical signal: recent_news_7d shows Q1 2026 was a beat-and-raise (revenue $464.4M vs $449.37M consensus, +30.8% YoY, same-shop +8.3%, FY guide raised to $2.05B-$2.08B), and analyst_consensus_web shows 33 Buy / 1 Hold / 0 Sell with avg_price_target $76 vs current $53.54 (+42% upside) — UBS ($85), DA Davidson ($75 raised from $70), RBC ($75), TD Cowen ($73) all reiterated/raised post-earnings. Shorting a beat-and-raise into a 33-buy-rating wall is fading a powerful fundamental tailwind.",
+    "Trend structure does NOT confirm a clean short: daily moving_averages.ema_aligned_uptrend = true and price is still above sma_50 (price_vs_ma.above_sma_50 = true, +1.10% from sma_50); daily rsi_14 = 50.23 is dead-neutral (no bearish momentum confirmation); daily rsi_divergence.bearish = false; daily adx_14 = 20.71 is only moderate, not the strong directional trend (>25) needed for a high-conviction breakdown. Stage 1 conviction is just 4/10."
+  ],
+  "bull_acknowledgements": [
+    "The short has real technical support: hourly adx_24 = 27.76 with minus_di 28.59 > plus_di 19.49 (strong bearish hourly trend), hourly macd histogram = -0.6785 (deeply negative), daily volume.relative_volume = 2.61 on yesterday's red bar (high-conviction distribution), and roc_5d = -6.9% confirms acute breakdown momentum.",
+    "Daily price closed below ema_5/10/20/21 and ema_200 — only sma_50 still holds — so the short-term structure has materially deteriorated and the path of least resistance over the next 1-3 days is genuinely lower if support at $50.26 cracks.",
+    "The 'sell-the-news' dynamic is real: chartmill and Fool both flagged the post-earnings selloff as profit-taking after a pre-earnings rally, plus the McDonald's McCafe energy-drink overhang (launching Aug 2026) is a legitimate competitive narrative that can keep a multiple compression trade going."
+  ],
+  "web_sources_last_7d": [
+    "https://www.businesswire.com/news/home/20260506549768/en/Dutch-Bros-Inc.-Reports-First-Quarter-2026-Financial-Results",
+    "https://www.chartmill.com/news/BROS/Chartmill-47380-Dutch-Bros-NYSEBROS-Q1-2026-Beat-and-Raised-Guidance-Cant-Stem-After-Market-Selloff",
+    "https://seekingalpha.com/news/4587404-dutch-bros-reports-strong-q1-growth-guides-for-185-new-shops-this-year",
+    "https://www.fool.com/investing/2026/05/07/why-did-dutch-bros-stock-just-crash/",
+    "https://www.investing.com/news/analyst-ratings/da-davidson-raises-dutch-bros-stock-price-target-on-strong-sales-93CH-4668684",
+    "https://www.investing.com/news/analyst-ratings/ubs-reiterates-dutch-bros-stock-rating-on-food-rollout-momentum-93CH-4629729",
+    "https://ng.investing.com/news/earnings/dutch-bros-earnings-up-next-can-traffic-momentum-outlast-rivals-93CH-2487285"
+  ]
+}

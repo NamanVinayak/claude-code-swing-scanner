@@ -1,0 +1,24 @@
+{
+  "ticker": "FSLY",
+  "setup_direction": "short",
+  "bear_strength": 4,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Fundamentally the print was a beat-and-raise, not a miss: Q1 revenue $173M (+~20% YoY), adjusted EPS 50% above consensus, FY26 guide RAISED to $710M-$725M, and security revenue +47% YoY to $38.8M (4th straight quarter of accelerating growth — 22% of total revenue). The 39% drop is sentiment/positioning unwind off a 270% three-month rally, not a fundamental thesis break — meaning much of the bad news may already be priced in at $19.50, limiting incremental downside for a fresh short.",
+    "Valuation is now CHEAP, not stretched: at $19.50 with $3.23B market cap on FY26 guide of $710M-$725M, FSLY trades at ~4.5x forward EV/sales versus where it traded pre-rally and well below the analyst average PT of $13 only being 33% lower (with PT range $8-$20 and current price already inside that band — top-of-range PT $20 is essentially HERE). 3 Buy / 7 Hold / 1 Sell consensus is far from a unanimous bear setup; cheap valuation + raised guide = squeeze risk on any positive headline.",
+    "Technically the move is exhausted, not just starting: daily rsi_14 = 42.1 (already neutral, not overbought-rolling-over), hourly rsi_21 = 23.66 (deeply oversold), bollinger pct_b = 0.0065 (price pinned to the lower band on the daily — classic mean-reversion bounce setup), z_score_50 = -1.57 (1.57 std-devs below 50-day mean), and recent_low 18.53 sits just $0.97 below current with hourly support at the same level. Volume of 47.4M (3.44x avg) on yesterday's drop is climactic-selling signature; shorting AT the climactic low (entry $19.40, invalidation $20.00 = 0.6 ATR-hourly stop on a 16.85% daily ATR_pct stock) is asymmetric AGAINST you."
+  ],
+  "bull_acknowledgements": [
+    "Core delivery business genuinely showed weaker QoQ volumes — that's a real fundamental concern that justifies SOME multiple compression and explains the analyst PT cuts from Piper Sandler and DA Davidson on 2026-05-07.",
+    "Daily MA stack remains broken (price is -19.74% below ema_50 and -23.81% below sma_50; ema_aligned_uptrend = true but price has fully decoupled), so the trend break is real even if a short here is poorly timed; a failed bounce that rolls over below $18.53 would re-open the short thesis at better R/R.",
+    "ADX 34.91 with minus_di 27.3 > plus_di 21.6 confirms a strong daily downtrend in force, and hourly ema_aligned_downtrend = true with minus_di 45.8 vs plus_di 26.65 — bears do own the tape on both timeframes."
+  ],
+  "web_sources_last_7d": [
+    "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-5-7-why-fastly-fsly-stock-is-nosediving",
+    "https://stocktwits.com/news-articles/markets/equity/fsly-stock-on-track-for-its-biggest-one-day-percentage-drop-ever-retail-thinks-the-dip-is-a-buying-opportunity/cZXbk03ReQL",
+    "https://anachart.com/ticker/fsly/",
+    "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-fastly-stock-price-target-on-network-services-slowdown-93CH-4668711",
+    "https://www.dailypolitical.com/2026/05/06/fastly-nysefsly-releases-fy-2026-earnings-guidance.html",
+    "https://finance.yahoo.com/markets/stocks/articles/fastlys-security-revenues-climb-47-145700788.html"
+  ]
+}

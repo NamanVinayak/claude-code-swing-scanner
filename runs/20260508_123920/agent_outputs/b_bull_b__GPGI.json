@@ -1,0 +1,27 @@
+{
+  "ticker": "GPGI",
+  "setup_direction": "short",
+  "bull_strength": 7,
+  "entry_zone": {"low": 12.70, "high": 12.85},
+  "target": 11.00,
+  "stop": 13.30,
+  "expected_holding_days": 5,
+  "top_3_arguments": [
+    "Fresh 2026-05-07 catalyst is a clean negative narrative shift: Q1 2026 pro forma EBITDA -16% YoY ($82.1M, 19.5% margin) plus $235M GAAP net loss, driven by Husky oil/resin/tariff exposure (globenewswire 2026-05-07, stocktitan 2026-05-07). Stock confirmed the catalyst with a 25.52% post-earnings decline and 12.7% pre-market gap (chartmill 2026-05-07); simplywall.st 2026-05-07 explicitly frames this as a 'narrative shift' driven by revenue weakness and rising losses — the bearish thesis is one trading day old, not stale.",
+    "Price + volume + trend confirm distribution, not a one-day washout: 2026-05-07 close $12.94 on 16.47M volume vs 3.89M 20-day avg (relative_volume 4.23x); daily ADX_14 27.32 with minus_DI 40.01 >> plus_DI 16.98 (strong bearish trend); EMA-aligned downtrend = true; price -26.04% from EMA_50 and -19.30% from EMA_20; daily ROC_5d -16.14% and ROC_21d -23.34%; daily MACD line -0.6385 below signal -0.6553 (no bullish crossover). Below watch_level $12.85, the next visible structure is fib_ext_low_1272 = $10.33 — clean air to the target.",
+    "Analyst risk is asymmetric to the downside: analyst_consensus_web shows pre-print Buy with $26.20 avg PT and $22-$26 range, all dated BEFORE the 2026-05-07 miss (recent_changes: 'Ratings predate the May 7 Q1 miss and may be revised downward in coming days'). The PT-cut wave is a forward catalyst that has not yet hit the tape — every downgrade or PT trim in the next 5 sessions adds bearish pressure with no offsetting upgrade plausible against a fresh EBITDA miss + GAAP loss. R:R math from entry midpoint $12.775: reward to $11.00 = $1.775; risk to $13.30 stop = $0.525; ratio = 3.38:1, comfortably above the 2:1 minimum."
+  ],
+  "risks_acknowledged": [
+    "Daily RSI_14 = 30.32 and hourly RSI_21 = 30.43 are both at oversold levels, and hourly rsi_divergence.bullish = true with hourly BB %B = 0.0087 (price riding the lower band) — a mean-reversion bounce toward the $13.25 invalidation is a real near-term threat before continuation lower.",
+    "Company maintained full-year 2026 guide ($1.95B-$2.1B pro forma sales, $550M-$610M EBITDA) per tipranks 2026-05-07; if a sell-side desk frames this as 'guide intact, transitory Husky issue' the narrative could flip from 'narrative shift' back to 'value buy' faster than a 5-day swing window.",
+    "recent_insider_trades is empty in the bundle — no confirmation of insider selling to corroborate the bearish narrative; thesis rests entirely on the news event and price/volume confirmation, not on smart-money positioning.",
+    "Wiki memory is empty (`new_ticker: true`, all slices missing) — no prior thesis, prior reactions, or known support shelves to anchor the trade; first-touch ticker carries higher model uncertainty than a name with a track record."
+  ],
+  "web_sources_last_7d": [
+    "https://www.globenewswire.com/news-release/2026/05/07/3289835/0/en/gpgi-reports-first-quarter-2026-results.html",
+    "https://www.stocktitan.net/news/GPGI/gpgi-reports-first-quarter-2026-m434n3sycji7.html",
+    "https://www.chartmill.com/news/GPGI/Chartmill-47672-GPGI-NYSEGPGI-Plunges-127-Pre-Market-After-Q1-Earnings-Miss",
+    "https://www.tipranks.com/news/company-announcements/gpgi-posts-mixed-q1-2026-results-maintains-outlook",
+    "https://simplywall.st/stocks/us/tech/nyse-gpgi/gpgi/news/gpgi-gpgi-is-down-185-after-revenue-collapse-and-rising-loss"
+  ]
+}

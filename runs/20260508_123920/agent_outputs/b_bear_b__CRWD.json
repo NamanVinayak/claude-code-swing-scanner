@@ -1,0 +1,24 @@
+{
+  "ticker": "CRWD",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Valuation/extension risk against the trade thesis: current_price $505.72 sits 19.63% above sma_50 ($422.75) and 14.17% above sma_20 ($442.95), with daily z_score_50 = 2.7 and pct_b = 1.019 (above the upper Bollinger band). roc_21d = 18.57% and roc_10d = 13.55% mean nearly all the easy money has already been made — for a $127.7B-cap name (market_cap from facts) to push another leg higher from this extension requires a fresh fundamental catalyst, but earnings.days_until_next = 26 leaves no near-term beat-and-raise to bail out the long. analyst_consensus_web avg_price_target is $510.52, only ~0.95% above current price — Street targets are essentially already met.",
+    "News-driven move is already priced in, and the AI-cybersecurity narrative is fragile: every item in recent_news_7d (6/6) is positive and clusters around two themes — Anthropic Project Glasswing / Claude Opus 4.7 in Falcon (May 1–7) and the Jet partner-app launch / Falcon OverWatch for Defender (May 6–7). The stock already moved +6.71% on May 7 and +3.03% on May 4 specifically on these stories (per tradingkey 2026-05-07 and 2026-05-04). When a single thematic narrative drives consecutive 3–7% gap days into the upper Bollinger band, the marginal buyer is paying for a thesis that is now consensus, not edge. The fxleaders 2026-05-07 piece explicitly frames the $500 break as 'amid AI concerns' — sentiment can flip on any incremental disappointment in AI capex commentary from peers (Microsoft Defender being the integration target also makes Microsoft a competitive risk, not just a TAM gift).",
+    "Setup is already failing in real time, undermining the breakout thesis: catalyst_note flags a -1.3% overnight gap-down to ~$498.89 premarket, which is BELOW yesterday's close ($505.48) and BELOW watch_level ($506.00). daily rsi_7 = 79.45 and rsi_14 = 75.59 are deeply overbought, and daily rsi_divergence.bearish = true (also true on hourly). hourly pct_b = 0.9543 with hourly rsi_21 = 67.48 shows the move stalling at the upper band on the shorter timeframe. invalidation_level is just $494 — only ~$11.72 (2.3%) below current price — which is a tight margin against atr_14 = $19.17 (3.79% daily ATR), meaning normal one-day noise can take the trade out for a full stop. With sector-median P/E and exact short-interest data NOT in the bundle (research gap; analyst_consensus_web does not include valuation multiples or SI), the fundamental case rests on the observation that the price is extended into a thesis that is fully reflected in news flow."
+  ],
+  "bull_acknowledgements": [
+    "Genuine fundamental tailwinds: Falcon OverWatch for Defender (2026-05-06) and the Anthropic Claude Opus 4.7 integration (2026-05-01) materially expand TAM into the Microsoft Defender installed base and differentiate Falcon on threat-detection — these are real product wins, not just press releases.",
+    "Analyst posture is supportive, not stretched: analyst_consensus_web shows 35 Buy / 18 Hold / 1 Sell with rating = 'buy', Mizuho upgraded to Outperform with PT $490 → $520 on 2026-04-27, and Wells Fargo reiterated Overweight on 2026-05-05 — recent direction of analyst revisions is upward, which limits downgrade-driven downside.",
+    "Trend structure is intact on both timeframes: daily ema_aligned_uptrend = true with adx_14 = 26.93 (plus_di 40.59 vs minus_di 17.41) and hourly ema_aligned_uptrend = true with adx_24 = 31.01 — strong directional trend, OBV trending up on both timeframes with no price-OBV divergence, so distribution is not yet visible in the tape."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261870218-market-movers-crwd-20260507",
+    "https://www.fxleaders.com/news/2026/05/07/crwd-stock-breaks-500-on-partner-app-launch-and-earnings-date-amid-ai-concerns/",
+    "https://www.stocktitan.net/news/CRWD/crowd-strike-falcon-over-watch-for-defender-extends-managed-threat-t3tfc3raxdsk.html",
+    "https://www.quiverquant.com/news/CrowdStrike+Stock+(CRWD)+Opinions+on+Anthropic+Project+Glasswing",
+    "https://www.benzinga.com/trading-ideas/movers/26/05/52382626/crowdstrike-stock-gains-on-new-ai-cybersecurity-push-partner-app-launch",
+    "https://www.tradingkey.com/news/market-movers/261853095-market-movers-crwd-20260504"
+  ]
+}

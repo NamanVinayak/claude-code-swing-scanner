@@ -1,0 +1,414 @@
+{
+  "ticker": "NVDA",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 213.5,
+  "invalidation_level": 211.0,
+  "catalyst_note": "TradingView STRONG_BUY + TRENDING_UP signals on a 1592-stock universe; overnight gap of +0.88% is modest and has not exhausted the breakout move, but premarket volume data is entirely unavailable (volume=0, ratio=null), making momentum confirmation impossible pre-open.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Nvidia and Corning announce U.S. co-packaged optics manufacturing partnership; Nvidia invests up to $2.7B",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://nvidianews.nvidia.com/",
+      "sentiment": "positive",
+      "summary": "Nvidia partnered with Corning to build three dedicated U.S. manufacturing plants for co-packaged optics, investing up to $2.7B including warrants for 15M shares. Tech aims to boost data speeds while cutting power consumption up to 20x."
+    },
+    {
+      "title": "Nvidia and IREN announce strategic partnership for up to 5 GW of AI infrastructure; Nvidia to invest up to $2.1B",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+      "sentiment": "positive",
+      "summary": "Nvidia struck a strategic agreement with IREN Limited to accelerate next-generation AI data center deployment, with reports indicating Nvidia investing up to $2.1 billion. IREN stock surged 8% premarket on the news."
+    },
+    {
+      "title": "Nvidia falling behind as semiconductors surge \u2014 NVDA -4.3% on the week vs AMD +3%, MU +7.3%",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.cnbc.com/2026/05/06/nvidia-is-falling-behind-as-semiconductors-surge-heres-what-analysts-say-is-going-on.html",
+      "sentiment": "negative",
+      "summary": "Despite a chip-sector rally that pushed Nasdaq to all-time highs, NVDA fell 4.3% on the week while peers AMD and Micron rallied. Analysts cited rotation concerns and elevated expectations heading into earnings."
+    },
+    {
+      "title": "Nvidia stock gains in pre-market on AI-chip demand optimism",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-gains-in-pre-market-today-whats-driving-the-rally",
+      "sentiment": "positive",
+      "summary": "NVDA shares climbed in Wednesday pre-market trading on positive AI/semi industry developments, reflecting growing optimism that AI-chip demand remains strong."
+    },
+    {
+      "title": "Goldman Sachs raises NVDA forecasts 12% ahead of May 20 earnings; flags 'major re-rating' possible",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-meaningfully-undervalued-ahead-of-earnings-says-goldman-sachs",
+      "sentiment": "positive",
+      "summary": "Goldman Sachs upped NVDA forecasts by 12% ahead of the May 20 earnings report and called the stock meaningfully undervalued, citing continued estimate upgrades and valuation multiple expansion as catalysts."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 211.5,
+  "market_cap": 5291563286528.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-01",
+      "open": 201.27999877929688,
+      "high": 203.0,
+      "low": 197.1199951171875,
+      "close": 198.4499969482422,
+      "volume": 128647000
+    },
+    {
+      "time": "2026-05-04",
+      "open": 199.5,
+      "high": 201.72999572753906,
+      "low": 194.74000549316406,
+      "close": 198.47999572753906,
+      "volume": 125368100
+    },
+    {
+      "time": "2026-05-05",
+      "open": 199.3000030517578,
+      "high": 200.24000549316406,
+      "low": 196.02999877929688,
+      "close": 196.5,
+      "volume": 113406600
+    },
+    {
+      "time": "2026-05-06",
+      "open": 199.88999938964844,
+      "high": 208.27000427246094,
+      "low": 198.61000061035156,
+      "close": 207.8300018310547,
+      "volume": 188362800
+    },
+    {
+      "time": "2026-05-07",
+      "open": 208.33999633789062,
+      "high": 214.1999969482422,
+      "low": 206.5,
+      "close": 211.5,
+      "volume": 167649500
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 205.59871705013225,
+      "sma_5": 202.5519989013672,
+      "ema_10": 204.01791464416155,
+      "sma_10": 205.96300048828124,
+      "ema_20": 200.16283762965136,
+      "sma_20": 201.85299987792968,
+      "ema_21": 199.77985613061375,
+      "sma_21": 200.99857148670014,
+      "ema_50": 192.75315579467292,
+      "sma_50": 188.04302856445312,
+      "ema_200": 177.8949153931686,
+      "sma_200": 184.49435302734375,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 211.5,
+    "dist_from_50sma_pct": 12.47,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.87,
+      "above_sma_5": true,
+      "pct_from_sma_5": 4.42,
+      "above_ema_10": true,
+      "pct_from_ema_10": 3.67,
+      "above_sma_10": true,
+      "pct_from_sma_10": 2.69,
+      "above_ema_20": true,
+      "pct_from_ema_20": 5.66,
+      "above_sma_20": true,
+      "pct_from_sma_20": 4.78,
+      "above_ema_21": true,
+      "pct_from_ema_21": 5.87,
+      "above_sma_21": true,
+      "pct_from_sma_21": 5.22,
+      "above_ema_50": true,
+      "pct_from_ema_50": 9.73,
+      "above_sma_50": true,
+      "pct_from_sma_50": 12.47,
+      "above_ema_200": true,
+      "pct_from_ema_200": 18.89,
+      "above_sma_200": true,
+      "pct_from_sma_200": 14.64,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 21050.0
+    },
+    "rsi": {
+      "rsi_7": 47.37,
+      "rsi_14": 58.16,
+      "rsi_21": 68.2
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 5.3108,
+      "signal_line": 5.6119,
+      "histogram": -0.301,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 216.5,
+      "middle": 201.85,
+      "lower": 187.21,
+      "width": 0.1451,
+      "pct_b": 0.8294
+    },
+    "atr": {
+      "atr_14": 7.22,
+      "atr_pct": 3.41
+    },
+    "adx": {
+      "adx_14": 49.09,
+      "plus_di": 27.24,
+      "minus_di": 16.49,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 167649500,
+      "avg_volume_20": 151872355,
+      "relative_volume": 1.1,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 188.88,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 197.62,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 216.83,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 164.27,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 174.63,
+          "tests": 9,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 216.83,
+      "nearest_support": 174.63,
+      "recent_high": 216.83,
+      "recent_low": 184.3,
+      "prev_day_high": 208.27,
+      "prev_day_low": 198.61,
+      "prev_day_close": 207.83
+    },
+    "fibonacci": {
+      "swing_high": 216.83,
+      "swing_low": 164.27,
+      "fib_236": 204.43,
+      "fib_382": 196.75,
+      "fib_500": 190.55,
+      "fib_618": 184.35,
+      "fib_786": 175.52,
+      "fib_ext_1272": 231.13,
+      "fib_ext_1618": 249.31,
+      "fib_ext_2000": 269.39,
+      "fib_ext_low_1272": 149.97,
+      "fib_ext_low_1618": 131.79
+    },
+    "momentum": {
+      "roc_5d": 5.98,
+      "roc_10d": 5.94,
+      "roc_21d": 16.16
+    },
+    "z_score_50": 1.82,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 207.60802619245624,
+      "sma_24": 205.26956176757812,
+      "ema_48": 205.37409479282056,
+      "sma_48": 203.2254908879598,
+      "ema_120": 201.67182611445307,
+      "sma_120": 203.3735122680664,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 217.7100067138672,
+    "dist_from_50sma_pct": 7.05,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 4.87,
+      "above_sma_24": true,
+      "pct_from_sma_24": 6.06,
+      "above_ema_48": true,
+      "pct_from_ema_48": 6.01,
+      "above_sma_48": true,
+      "pct_from_sma_48": 7.13,
+      "above_ema_120": true,
+      "pct_from_ema_120": 7.95,
+      "above_sma_120": true,
+      "pct_from_sma_120": 7.05,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 21671.0
+    },
+    "rsi": {
+      "rsi_21": 76.56
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.4411,
+      "signal_line": 0.5738,
+      "histogram": 1.8672,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 215.29,
+      "middle": 203.23,
+      "lower": 191.16,
+      "width": 0.1188,
+      "pct_b": 1.1001
+    },
+    "atr": {
+      "atr_24": 2.65,
+      "atr_pct": 1.22
+    },
+    "adx": {
+      "adx_24": 44.69,
+      "plus_di": 41.29,
+      "minus_di": 4.61,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 29577591,
+      "avg_volume_20": 18992715,
+      "relative_volume": 1.56,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 200.24,
+          "tests": 17,
+          "volume_confirmed": true
+        },
+        {
+          "price": 203.0,
+          "tests": 7,
+          "volume_confirmed": true
+        },
+        {
+          "price": 214.2,
+          "tests": 12,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 196.03,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 198.7,
+          "tests": 24,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 198.7,
+      "recent_high": 217.76,
+      "recent_low": 196.03,
+      "prev_day_high": 212.58,
+      "prev_day_low": 211.23,
+      "prev_day_close": 211.51
+    },
+    "fibonacci": {
+      "swing_high": 217.76,
+      "swing_low": 194.74,
+      "fib_236": 212.33,
+      "fib_382": 208.97,
+      "fib_500": 206.25,
+      "fib_618": 203.53,
+      "fib_786": 199.67,
+      "fib_ext_1272": 224.02,
+      "fib_ext_1618": 231.99,
+      "fib_ext_2000": 240.78,
+      "fib_ext_low_1272": 188.48,
+      "fib_ext_low_1618": 180.51
+    },
+    "momentum": {
+      "roc_5d": 1.94,
+      "roc_10d": 5.16,
+      "roc_21d": 9.66
+    },
+    "z_score_120": 2.5,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 12,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 270.73,
+    "recent_changes": "Goldman Sachs raised forecasts ~12% on 2026-05-07 ahead of May 20 earnings, calling NVDA meaningfully undervalued. 37-analyst consensus: 57% Strong Buy, 41% Buy, 3% Hold, 0% Sell."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-05-20",
+    "days_until_next": 12,
+    "notes": "Q1 FY27 report on May 20 (5 p.m. ET conference call). Street expects EPS $1.74 (+115% YoY) and revenue +78.7% YoY. Bar is high \u2014 Goldman says strong execution may already be priced in but flags possible major re-rating."
+  }
+}

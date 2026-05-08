@@ -1,0 +1,23 @@
+{
+  "ticker": "NVDA",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [207.83, 198.61, 196.50],
+  "top_3_arguments": [
+    "Bearish volume/price divergence on a supposed breakout: daily_indicators.volume.obv shows trend='down' with diverging_from_price=true while price pushed to new highs. Yesterday's relative_volume was only 1.10x avg (167.6M vs 151.9M avg_20) — that is NOT conviction volume for a breakout above $211. Compare to 2026-05-06's 188M-share session that built the base. Thin participation on the upside push is a textbook fakeout precursor, especially heading into a binary May 20 earnings catalyst.",
+    "Stretched and overbought into known resistance with negative momentum signals already firing. daily_indicators.bollinger.pct_b = 0.83 (upper-band stretch), z_score_50 = 1.82 (statistically extended), dist_from_50sma_pct = 12.47%, and hourly rsi_21 = 76.56 with hourly bollinger.pct_b = 1.10 (price OUTSIDE the upper hourly band). Daily MACD has already crossed bearish: macd_line 5.31 < signal_line 5.61, histogram = -0.301 (negative and bullish_crossover=false). Daily rsi_7 = 47.37 versus rsi_14 = 58.16 / rsi_21 = 68.20 — short-term momentum has already rolled over while longer-term RSI is still elevated, classic momentum exhaustion fingerprint. Nearest daily resistance sits at $216.83 (only 2.5% away) where heavy supply lives.",
+    "R:R is broken and the catalyst is a coin flip 12 days out. Entry watch_level $213.50, stop/invalidation $211.00 = $2.50 risk; nearest daily resistance $216.83 = $3.33 reward, R:R ≈ 1.3:1 — well below the 2:1 minimum. Tight $2.50 stop is roughly 0.35x the daily ATR of $7.22 (atr_pct 3.41%), meaning normal daily noise will stop this out before the thesis can play. Layer on earnings.days_until_next = 12 with Goldman explicitly flagging the high bar ('strong execution may already be priced in') and the recent_news_7d CNBC item showing NVDA -4.3% on the week vs AMD +3% / MU +7.3% — relative-strength rotation OUT of NVDA into peers is a real risk that argues this 'breakout' is a low-volume mean-reversion bounce inside a distribution range, not the start of a new leg."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is unambiguously bullish: ema_aligned_uptrend=true on both daily and hourly, price above every MA from EMA_5 to SMA_200, and ADX_14 = 49.09 with +DI 27.24 / -DI 16.49 confirms a strong established uptrend — bears fading this trend are fighting tape.",
+    "Real fundamental catalysts in recent_news_7d are net-positive and large: $2.7B Corning co-packaged optics partnership (2026-05-06) and $2.1B IREN AI-infra deal (2026-05-07), plus Goldman raising forecasts 12% with a 'major re-rating' flag and analyst_consensus_web avg_price_target $270.73 vs spot $211.50 (+28%).",
+    "Hourly OBV trend='up' with diverging_from_price=false and hourly +DI 41.29 vs -DI 4.61 shows intraday participation IS confirming the recent push — the daily OBV divergence may be a slower-timeframe artifact that resolves bullishly if today closes strong."
+  ],
+  "web_sources_last_7d": [
+    "https://nvidianews.nvidia.com/",
+    "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+    "https://www.cnbc.com/2026/05/06/nvidia-is-falling-behind-as-semiconductors-surge-heres-what-analysts-say-is-going-on.html",
+    "https://www.tipranks.com/news/nvidia-stock-nvda-gains-in-pre-market-today-whats-driving-the-rally",
+    "https://www.tipranks.com/news/nvidia-stock-nvda-is-meaningfully-undervalued-ahead-of-earnings-says-goldman-sachs"
+  ]
+}

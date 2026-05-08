@@ -1,0 +1,442 @@
+{
+  "ticker": "FSLY",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 19.4,
+  "invalidation_level": 20.0,
+  "catalyst_note": "Stage 1 flagged bearish_episodic_pivot (Stockbee BEP: sharp decline on high volume) and sector_laggard_decline; short thesis requires continuation breakdown below yesterday's close.",
+  "conviction": 4,
+  "source_reasons": [
+    "bearish_episodic_pivot",
+    "sector_laggard_decline"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Fastly stock plunges ~39% after Q1 print despite beat-and-raise; core delivery volumes disappoint",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-5-7-why-fastly-fsly-stock-is-nosediving",
+      "sentiment": "negative",
+      "summary": "FSLY fell 39.4% in its biggest one-day percentage drop ever after Q1 results. Despite revenue of $173M (+~20% YoY), adjusted EPS 50% above consensus, and raised FY26 guidance to $710M-$725M, the core delivery business showed weaker QoQ volumes than expected with stable pricing. Stock had rallied ~270% in the prior three months, setting expectations too high."
+    },
+    {
+      "title": "FSLY on track for biggest one-day percentage drop ever; retail buys the dip",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://stocktwits.com/news-articles/markets/equity/fsly-stock-on-track-for-its-biggest-one-day-percentage-drop-ever-retail-thinks-the-dip-is-a-buying-opportunity/cZXbk03ReQL",
+      "sentiment": "negative",
+      "summary": "Stocktwits coverage notes FSLY shares set a record one-day drop following Q1 results. Retail sentiment on the platform leaned bullish on the dip, but the magnitude of the decline reflects institutional repositioning."
+    },
+    {
+      "title": "Piper Sandler cuts FSLY price target after core delivery slowdown",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://anachart.com/ticker/fsly/",
+      "sentiment": "negative",
+      "summary": "Piper Sandler lowered its FSLY price target citing the core delivery slowdown that crushed the Q1 print. Action follows the Q1 earnings release."
+    },
+    {
+      "title": "DA Davidson cuts Fastly price target on network services slowdown",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-fastly-stock-price-target-on-network-services-slowdown-93CH-4668711",
+      "sentiment": "negative",
+      "summary": "DA Davidson reduced its FSLY price target, citing slowing network services growth as the basis for the downward revision. Adds to a wave of post-earnings analyst cuts."
+    },
+    {
+      "title": "Fastly issues / updates FY 2026 earnings guidance",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://www.dailypolitical.com/2026/05/06/fastly-nysefsly-releases-fy-2026-earnings-guidance.html",
+      "sentiment": "positive",
+      "summary": "Fastly released updated FY2026 guidance projecting total revenue between $710M and $725M, raised from prior outlook. Issued alongside Q1 results."
+    },
+    {
+      "title": "Fastly Q1 security revenue +47% YoY to $38.8M; fourth consecutive quarter of accelerating security growth",
+      "source": "web_research",
+      "date": "2026-05-06",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fastlys-security-revenues-climb-47-145700788.html",
+      "sentiment": "positive",
+      "summary": "Security segment grew 47% YoY to $38.8M, representing 22% of total revenue and the fourth straight quarter of accelerating growth. Diversification away from core delivery is the bull narrative offsetting delivery weakness."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 19.5,
+  "market_cap": 3234854912.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-01",
+      "open": 25.6299991607666,
+      "high": 28.420000076293945,
+      "low": 25.6299991607666,
+      "close": 28.06999969482422,
+      "volume": 8903100
+    },
+    {
+      "time": "2026-05-04",
+      "open": 27.670000076293945,
+      "high": 28.0,
+      "low": 26.579999923706055,
+      "close": 27.489999771118164,
+      "volume": 6267900
+    },
+    {
+      "time": "2026-05-05",
+      "open": 29.110000610351562,
+      "high": 32.77000045776367,
+      "low": 29.0,
+      "close": 32.36000061035156,
+      "volume": 13118100
+    },
+    {
+      "time": "2026-05-06",
+      "open": 31.5,
+      "high": 32.529998779296875,
+      "low": 29.81999969482422,
+      "close": 31.56999969482422,
+      "volume": 16831300
+    },
+    {
+      "time": "2026-05-07",
+      "open": 22.799999237060547,
+      "high": 22.889999389648438,
+      "low": 18.530000686645508,
+      "close": 19.5,
+      "volume": 47421200
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 26.21319205087423,
+      "sma_5": 27.797999954223634,
+      "ema_10": 26.51502942803718,
+      "sma_10": 26.48249969482422,
+      "ema_20": 26.36388283301136,
+      "sma_20": 25.407749748229982,
+      "ema_21": 26.334903798873913,
+      "sma_21": 25.600714002336776,
+      "ema_50": 24.295640447994657,
+      "sma_50": 25.592599983215333,
+      "ema_200": 15.845577579319398,
+      "sma_200": 13.504674985408784,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 19.5,
+    "dist_from_50sma_pct": -23.81,
+    "price_vs_ma": {
+      "above_ema_5": false,
+      "pct_from_ema_5": -25.61,
+      "above_sma_5": false,
+      "pct_from_sma_5": -29.85,
+      "above_ema_10": false,
+      "pct_from_ema_10": -26.46,
+      "above_sma_10": false,
+      "pct_from_sma_10": -26.37,
+      "above_ema_20": false,
+      "pct_from_ema_20": -26.04,
+      "above_sma_20": false,
+      "pct_from_sma_20": -23.25,
+      "above_ema_21": false,
+      "pct_from_ema_21": -25.95,
+      "above_sma_21": false,
+      "pct_from_sma_21": -23.83,
+      "above_ema_50": false,
+      "pct_from_ema_50": -19.74,
+      "above_sma_50": false,
+      "pct_from_sma_50": -23.81,
+      "above_ema_200": true,
+      "pct_from_ema_200": 23.06,
+      "above_sma_200": true,
+      "pct_from_sma_200": 44.39,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 1850.0
+    },
+    "rsi": {
+      "rsi_7": 39.32,
+      "rsi_14": 42.1,
+      "rsi_21": 36.93
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 0.3639,
+      "signal_line": 0.4871,
+      "histogram": -0.1232,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 31.39,
+      "middle": 25.41,
+      "lower": 19.42,
+      "width": 0.4712,
+      "pct_b": 0.0065
+    },
+    "atr": {
+      "atr_14": 3.29,
+      "atr_pct": 16.85
+    },
+    "adx": {
+      "adx_14": 34.91,
+      "plus_di": 21.6,
+      "minus_di": 27.3,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 47421200,
+      "avg_volume_20": 13797190,
+      "relative_volume": 3.44,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 20.27,
+          "tests": 8,
+          "volume_confirmed": true
+        },
+        {
+          "price": 27.35,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 34.82,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 16.41,
+          "tests": 3,
+          "volume_confirmed": false
+        },
+        {
+          "price": 20.68,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 23.14,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 24.61,
+          "tests": 20,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 20.27,
+      "nearest_support": 16.41,
+      "recent_high": 32.77,
+      "recent_low": 18.53,
+      "prev_day_high": 32.53,
+      "prev_day_low": 29.82,
+      "prev_day_close": 31.57
+    },
+    "fibonacci": {
+      "swing_high": 34.82,
+      "swing_low": 18.53,
+      "fib_236": 30.98,
+      "fib_382": 28.6,
+      "fib_500": 26.68,
+      "fib_618": 24.75,
+      "fib_786": 22.02,
+      "fib_ext_1272": 39.25,
+      "fib_ext_1618": 44.89,
+      "fib_ext_2000": 51.11,
+      "fib_ext_low_1272": 14.1,
+      "fib_ext_low_1618": 8.46
+    },
+    "momentum": {
+      "roc_5d": -22.79,
+      "roc_10d": -21.87,
+      "roc_21d": -40.46
+    },
+    "z_score_50": -1.57,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 25.05380148241095,
+      "sma_24": 27.378362735112507,
+      "ema_48": 26.09367060824037,
+      "sma_48": 26.91950221856435,
+      "ema_120": 26.54250789343462,
+      "sma_120": 25.621750911076862,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 20.670000076293945,
+    "dist_from_50sma_pct": -19.33,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -17.5,
+      "above_sma_24": false,
+      "pct_from_sma_24": -24.5,
+      "above_ema_48": false,
+      "pct_from_ema_48": -20.79,
+      "above_sma_48": false,
+      "pct_from_sma_48": -23.22,
+      "above_ema_120": false,
+      "pct_from_ema_120": -22.12,
+      "above_sma_120": false,
+      "pct_from_sma_120": -19.33,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1967.0
+    },
+    "rsi": {
+      "rsi_21": 23.66
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -1.0806,
+      "signal_line": 0.3916,
+      "histogram": -1.4723,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 35.31,
+      "middle": 26.92,
+      "lower": 18.53,
+      "width": 0.6236,
+      "pct_b": 0.1277
+    },
+    "atr": {
+      "atr_24": 1.46,
+      "atr_pct": 7.04
+    },
+    "adx": {
+      "adx_24": 39.55,
+      "plus_di": 26.65,
+      "minus_di": 45.8,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 4909307,
+      "avg_volume_20": 3339492,
+      "relative_volume": 1.47,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 26.86,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 28.42,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 32.51,
+          "tests": 7,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 24.18,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 24.44,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 26.58,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 29.82,
+          "tests": 2,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 26.86,
+      "nearest_support": null,
+      "recent_high": 32.77,
+      "recent_low": 18.53,
+      "prev_day_high": 19.7,
+      "prev_day_low": 19.29,
+      "prev_day_close": 19.48
+    },
+    "fibonacci": {
+      "swing_high": 32.77,
+      "swing_low": 18.53,
+      "fib_236": 29.41,
+      "fib_382": 27.33,
+      "fib_500": 25.65,
+      "fib_618": 23.97,
+      "fib_786": 21.58,
+      "fib_ext_1272": 36.64,
+      "fib_ext_1618": 41.57,
+      "fib_ext_2000": 47.01,
+      "fib_ext_low_1272": 14.66,
+      "fib_ext_low_1618": 9.73
+    },
+    "momentum": {
+      "roc_5d": 7.82,
+      "roc_10d": -35.89,
+      "roc_21d": -35.18
+    },
+    "z_score_120": -1.68,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 89,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "hold",
+    "avg_price_target": 13.0,
+    "recent_changes": "Piper Sandler cut PT (2026-05-07) citing core delivery slowdown; DA Davidson cut PT (2026-05-07) citing network services slowdown. Consensus 3 Buy / 7 Hold / 1 Sell; PT range $8-$20."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 just reported (~2026-05-06). Revenue $173M (+~20% YoY), adjusted EPS 50% above consensus, FY26 guide raised to $710M-$725M, security revenue +47% YoY. Despite the beat-and-raise, stock fell ~39% as core delivery QoQ volumes disappointed elevated expectations from a 270% three-month rally. Next earnings expected early Aug 2026 (Q2 cadence)."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "BIIB",
+  "approved": [
+    {
+      "ticker": "BIIB",
+      "direction": "long",
+      "entry_price": 192.20,
+      "stop_loss": 188.30,
+      "target_price": 197.50,
+      "target_price_2": 203.42,
+      "quantity": 26,
+      "expected_holding_days": 7,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "Direction consensus (all 4 perspectives long). Strength weights: bull_a=6 vs bear_a=6 -> p_bull=0.500; bull_b=5 vs bear_b=6 -> p_catalyst=0.4545; combined_p_bull=0.4773. Entry=(191.40+192.99)/2=192.195; target=min(198.50,197.50)=197.50; stop=max(188.30,187.50)=188.30. Expected return per share = 0.4773*5.305 - 0.5227*3.895 = +$0.496 (positive). Sizing: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = $3.895; Gate-3 quantity = 64. Notional 64*192.195=$12,300 exceeds 15% single-position cap ($3,750), so scaled down from 64 to 26 shares to fit small-account cap (M*entry=26*192.20=$4,997 = 19.99% of account, under 20% extended cap), using 41% of risk budget ($101.27). Bull technical case (ema_aligned_uptrend, ADX 26.45 with +DI 38.47/-DI 14.18, MACD histogram +0.8362, rsi_14 64.78, roc_21d +6.38%) is real, but bears correctly flag relative_volume 0.64 and 14-tested resistance at $192.99 — the small_scaled sizing keeps risk discipline tight while taking the long.",
+      "risk_usd": 101.27,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-08T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "BIIB long approved as small_scaled (26 shares) — positive expected return ($0.496/share) under 50/50 strength split; stop at $188.30 (prev_day_low/below ema_10), target $197.50 (under swing_high $195.98 extension). Sized down from 64 to 26 to fit 20% single-position cap on $25k account, still using 41% of risk budget."
+}

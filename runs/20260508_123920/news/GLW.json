@@ -1,0 +1,70 @@
+{
+  "ticker": "GLW",
+  "researched_at": "2026-05-08T19:45:00Z",
+  "news_items": [
+    {
+      "headline": "Corning lands $500 million Nvidia deal; stock surges to intraday high",
+      "url": "https://finance.yahoo.com/markets/stocks/article/corning-stock-surges-to-intraday-high-after-company-lands-500-million-nvidia-deal-144931492.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Corning signed a $500M deal with Nvidia to supply optical connectivity components for AI data center build-out, part of a multi-year US manufacturing partnership."
+    },
+    {
+      "headline": "Corning Stock (GLW) Rallied 12% on Wednesday on NVIDIA partnership",
+      "url": "https://www.tipranks.com/news/corning-stock-glw-rallied-12-on-wednesday-is-there-more-upside-ahead",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "GLW jumped 12% intraday after announcing three new US factories (Texas and North Carolina) to grow optical connectivity capacity 10x and fiber capacity 50% to meet AI data center demand."
+    },
+    {
+      "headline": "GLW Stock Rallies As AI And Solar Growth Targets Jump",
+      "url": "https://www.timothysykes.com/news/corning-incorporated-glw-news-2026_05_06/",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Corning extended Springboard growth plan through 2030: high-confidence target of $35B annualized sales (internal goal $40B), with $27B by 2028 (internal $30B) and $20B by end of 2026."
+    },
+    {
+      "headline": "Oppenheimer raises GLW price target to $210 from $120, maintains Outperform",
+      "url": "https://www.gurufocus.com/news/8843481/glw-maintained-by-oppenheimer-price-target-raised-to-210",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Oppenheimer analyst Martin Yang raised price target from $120 to $210 (75% increase) while maintaining Outperform rating following the NVIDIA partnership and Springboard extension."
+    },
+    {
+      "headline": "Why Corning Stock Plummeted This Week",
+      "url": "https://www.fool.com/investing/2026/05/03/why-corning-stock-plummeted-this-week/",
+      "date": "2026-05-03",
+      "sentiment": "negative",
+      "summary": "Earlier in the week (pre-NVIDIA news) GLW had fallen sharply per Motley Fool coverage; this preceded the multi-day rally triggered by the Nvidia announcement and growth plan extension."
+    },
+    {
+      "headline": "Corning Inc Stock (GLW) Moved Up 3.20% on May 5",
+      "url": "https://www.tradingkey.com/news/market-movers/261858414-market-movers-glw-20260505",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "GLW gained 3.20% on May 5 in lead-up to the NVIDIA partnership announcement, building on a 3.07% open-up on May 4."
+    },
+    {
+      "headline": "Why Corning Stock Skyrocketed Today",
+      "url": "https://www.fool.com/investing/2026/05/06/why-corning-stock-skyrocketed-today/",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Motley Fool attributed the May 6 surge to the NVIDIA partnership, three new US factories announcement, and extended Springboard growth targets."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 159.45,
+    "recent_changes": "Oppenheimer raised PT from $120 to $210 (Outperform) on 2026-05-07. Citi raised PT to $175, Susquehanna moved to $180 (Positive), UBS raised to $179. Consensus 11 Buy / 2 Hold / 1 Sell."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-29",
+    "days_until_next": 82,
+    "notes": "Q1 2026 already reported: beat on EPS and revenue with 18% core sales growth and 30% core EPS growth, powered by Gen AI optical demand and ~80% YoY solar growth. Street expects continued AI data center momentum into Q2."
+  },
+  "raw_search_files": [
+    "GLW_news-this-week.json",
+    "GLW_analyst-rating.json",
+    "GLW_earnings-catalyst.json"
+  ]
+}

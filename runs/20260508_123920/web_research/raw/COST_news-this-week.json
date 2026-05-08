@@ -1,0 +1,24 @@
+{
+  "query": "COST news this week",
+  "fetched_at": "2026-05-08T12:42:00Z",
+  "results": [
+    {"title": "Costco Wholesale Corporation (COST) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/COST/"},
+    {"title": "Costco: COST Stock Price Quote & News | Robinhood", "url": "https://robinhood.com/us/en/stocks/COST/"},
+    {"title": "COST Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/COST"},
+    {"title": "COST: Costco Wholesale Corp - Stock Price, Quote and News - CNBC", "url": "https://www.cnbc.com/quotes/COST"},
+    {"title": "COSTCO WHOLESALE CORPORATION (COST) Stock, Price, News, Quotes, Forecast and Insights | MSN Money", "url": "https://www.msn.com/en-us/money/stockdetails/cost-us-stock/fi-a1q6k2"},
+    {"title": "Costco Wholesale Corporation (COST) Latest Stock News & Headlines - Yahoo Finance", "url": "https://finance.yahoo.com/quote/COST/news/"}
+  ],
+  "summary_facts": {
+    "april_net_sales_usd_billion": 23.92,
+    "april_sales_yoy_pct": 13,
+    "four_weeks_ended": "2026-05-03",
+    "intraday_move_usd": 16.31,
+    "intraday_move_pct": 1.64,
+    "volume": 2010000,
+    "avg_volume": 1770000,
+    "next_earnings_report": "2026-05-28",
+    "expected_eps_yoy_pct": 14,
+    "analyst_consensus_pt_usd": 1185
+  }
+}

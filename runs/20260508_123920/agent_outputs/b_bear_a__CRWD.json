@@ -1,0 +1,21 @@
+{
+  "ticker": "CRWD",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [494.00, 480.66, 471.81],
+  "top_3_arguments": [
+    "Stretch is extreme: daily_indicators.rsi.rsi_7 = 79.45 and rsi_14 = 75.59 (deep overbought), bollinger.pct_b = 1.019 (price above upper band), z_score_50 = 2.7, dist_from_50sma_pct = 19.63%, and momentum.roc_5d = 13.45% / roc_21d = 18.57%. On top of that daily_indicators.rsi_divergence.bearish = true AND hourly_indicators.rsi_divergence.bearish = true — buyers are exhausting in both timeframes simultaneously. Buying a breakout 19.6% above the 50SMA into a confirmed bear divergence is statistically a chase, not an entry.",
+    "The breakout is already failing in real-time. recent_prices_5d shows yesterday's close at $505.72 (just 0.21% under the recent_high of $506.79), and the catalyst_note states price has gapped down to $498.89 premarket — already BELOW yesterday's close and only $4.89 above the $494 invalidation level. Stage 2 conviction is just 4/10. ATR-wise the $494 stop is barely 0.6 ATR (atr_14 = $19.17) below current — one normal red bar takes the trade out. Meanwhile the ratio_to_avg of 1.65 yesterday came on a +6.71% gap-and-go that's now reversing — classic exhaustion-day signature.",
+    "Reward-to-risk is poor against real overhead. From $506 watch_level to the daily fib_ext_1272 at $546.23 is +7.9%, but to the $494 invalidation is -2.4% — gross R:R of 3.3:1 only if the target is the 1.272 extension and the stop holds. More realistically, hourly nearest_resistance is null (price IS the resistance — recent_high $506.79 = swing top), hourly_indicators.bollinger.pct_b = 0.9543 with hourly bear divergence, and analyst_consensus_web.avg_price_target = $510.52 — only $4.80 (0.95%) of upside before hitting consensus PT. From a $506 entry to a $510.52 PT-anchored target the R:R collapses to ~0.4:1, which is a hard fail."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is unambiguously bullish: ema_aligned_uptrend = true on BOTH daily and hourly, price above every MA from EMA-5 through SMA-200, and ADX 26.93 with +DI 40.59 vs -DI 17.41 confirms a strong, directional uptrend.",
+    "Volume confirmation on the breakout day is real — relative_volume = 1.65 with OBV trend = up and not diverging — and the news_source = web_research bundle is uniformly positive (Anthropic Project Glasswing, Falcon OverWatch for Defender, Jet partner app), so the fundamental tape supports the technical move.",
+    "MACD is genuinely strong: daily macd_line 18.13 above signal 13.37 with histogram +4.76, and hourly MACD also positive with histogram +3.20 — momentum is not yet rolling over despite the RSI stretch."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261870218-market-movers-crwd-20260507",
+    "https://www.fxleaders.com/news/2026/05/07/crwd-stock-breaks-500-on-partner-app-launch-and-earnings-date-amid-ai-concerns/",
+    "https://www.benzinga.com/trading-ideas/movers/26/05/52382626/crowdstrike-stock-gains-on-new-ai-cybersecurity-push-partner-app-launch"
+  ]
+}

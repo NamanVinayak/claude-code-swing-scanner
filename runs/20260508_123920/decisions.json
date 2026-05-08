@@ -1,0 +1,65 @@
+{
+  "run_id": "20260508_123920",
+  "mode": "b_swing",
+  "generated_at": "2026-05-08T14:08:42+00:00",
+  "decisions": {
+    "FSLY": {
+      "action": "short",
+      "direction": "short",
+      "entry_price": 19.4,
+      "stop_loss": 20.3,
+      "target_price": 16.5,
+      "target_price_2": 14.1,
+      "quantity": 257,
+      "timeframe": "6d",
+      "confidence": 7,
+      "account_risk_pct": 1.0,
+      "entry_tolerance_pct": 0.5,
+      "setup_type": "breakout",
+      "rationale": "All 4 perspectives consensus short. p_bull=8/(8+7)=0.533 (technical) and 8/(8+4)=0.667 (catalyst); combined_p_bull=0.600. Expected return per share = 0.600*(19.40-16.50) - 0.400*(20.30-19.40) = +$1.38 (positive). Bull-side dominance driven by daily relative_volume=3.44 + ADX_14=34.91 with minus_di 27.3 > plus_di 21.6 + hourly minus_di 45.8 vs plus_di 26.65 + macd histogram -1.4723 confirming institutional distribution; bear_b's mean-reversion concern (pct_b=0.0065, hourly rsi_21=23.66) acknowledged but resolved by 2 analyst PT cuts (Piper, DA Davidson) on 2026-05-07 + analyst consensus avg PT $13 vs $19.50 spot. Position sizing: risk_dollars = $25000*1.0%*1.0 = $250; risk_per_share = |19.40-20.30| = $0.90; Gate-3 quantity = floor(250/0.90) = 277. Gate-3 notional 277*$19.40=$5,373.80 exceeds both 15% standard cap ($3,750) and 20% extended cap ($5,000). Scaled down from 277 to 257 shares to fit small-account cap, using 93% of risk budget (M=floor($5000/$19.40)=257; risk_M=257*$0.90=$231.30; notional=$4,985.80=19.94% account). Earnings just printed (days_until_next=89), no near-term earnings risk.",
+      "risk_usd": 231.3,
+      "expected_holding_days": 6,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-08T20:30:00+00:00"
+    }
+  },
+  "rejected": [
+    {
+      "ticker": "COST",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "NVDA",
+      "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate-3 quantity=71 (risk_dollars=$250 / risk_per_share=$3.50) yields notional=$15,194 (60.8% of $25k account), exceeding 15% standard cap of $3,750. Small-scaled path: extended_cap=$5,000 (20%) \u2192 M=floor(5000/214.00)=23 shares \u2192 risk_M=23 * 3.50=$80.50, which is only 32% of the $250 risk budget \u2014 below the 40% floor of $100 required. Both standard and small-scaled paths fail. Direction consensus PASSED (all 4 perspectives long). Expected return PASSED: combined_p_bull=(0.500+0.538)/2=0.519, combined_p_bear=0.481, entry=214.00 (mid of b_bull_a 213.50-214.50), target=min(222.00, 224.00)=222.00, stop=max(210.50, 210.00)=210.50, expected_return_per_share = 0.519*(222-214) - 0.481*(214-210.50) = +$2.47/share. Trade is mathematically positive but the $25k account cannot accommodate the $214 share price under capital concentration rules."
+    },
+    {
+      "ticker": "BROS",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$159.03 > available=$18.70)"
+    },
+    {
+      "ticker": "CRWD",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$114.75 > available=$18.70)"
+    },
+    {
+      "ticker": "GLW",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$198.25 > available=$18.70)"
+    },
+    {
+      "ticker": "GPGI",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$166.84 > available=$18.70)"
+    },
+    {
+      "ticker": "HWM",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$148.50 > available=$18.70)"
+    },
+    {
+      "ticker": "ROK",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$150.00 > available=$18.70)"
+    },
+    {
+      "ticker": "BIIB",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$101.40 > available=$18.70)"
+    }
+  ],
+  "summary": "approved=8, rejected=2, candidates=10"
+}

@@ -1,0 +1,17 @@
+{
+  "query": "COST earnings catalyst",
+  "fetched_at": "2026-05-08T12:42:00Z",
+  "results": [
+    {"title": "COST Stock Catalyst Calendar: Earnings Dates, Events & Key Triggers | Catacal", "url": "https://www.catacal.com/stock/COST"},
+    {"title": "Catalyst Watch: Spotlight on the Fed, Costco earnings, and Nasdaq 100 additions | Seeking Alpha", "url": "https://seekingalpha.com/news/4529034-catalyst-watch-spotlight-on-the-fed-costco-earnings-and-nasdaq-100-additions"},
+    {"title": "Costco (COST) Earnings Scorecard - 24/7 Wall St.", "url": "https://247wallst.com/investing/2026/03/06/costco-cost-earnings-scorecard/"}
+  ],
+  "summary_facts": {
+    "next_earnings_report": "2026-05-28",
+    "fiscal_q2_2026_revenue_usd_billion": 69.6,
+    "fiscal_q2_2026_diluted_eps_usd": 4.58,
+    "q2_beat_topline": true,
+    "q2_beat_bottomline": true,
+    "key_catalysts": ["quarterly earnings", "monthly comparable sales", "membership growth", "digital expansion", "consumer discretionary macro"]
+  }
+}

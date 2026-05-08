@@ -1,0 +1,23 @@
+{
+  "ticker": "NVDA",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Earnings binary risk dominates the trade window: earnings.days_until_next = 12 (May 20 per earnings_context_web), Street already prices EPS +115% YoY and revenue +78.7% YoY, and Goldman concedes 'strong execution may already be priced in' (tipranks 2026-05-07). A long entered on a $213.50 breakout has ~10 trading days to work before a binary print where the bar is set extremely high — any miss or in-line guide on the +78.7% comp triggers a multi-day re-rating that blows past the $211 invalidation.",
+    "Relative weakness ahead of the catalyst is a tell — NVDA is -4.3% on the week while AMD +3% and MU +7.3% (CNBC 2026-05-06). When a mega-cap is sold INTO a sector rally and analysts cite 'rotation concerns and elevated expectations' (same article), it usually means smart money is de-risking ahead of the print, not accumulating. The $2.7B Corning and $2.1B IREN announcements (2026-05-06/07) are large capex commitments that REDUCE near-term FCF and the market reaction has been muted — premium AI-capex names don't get rewarded for spending more, they get rewarded for monetizing what they have.",
+    "Daily OBV trend is 'down' and 'diverging_from_price: true' (daily_indicators.volume.obv) while price grinds toward the $216.83 nearest_resistance — classic distribution into a level. Reinforcing: daily MACD histogram is -0.301 with NO bullish crossover, daily RSI_7 = 47.37 (below neutral) even as price is +5.98% over 5 days, and the breakout level $213.50 sits less than 1.5 ATR ($7.22) below resistance at $216.83 — there's almost no room to run before sellers stack up. Hourly z_score_120 = 2.5 and hourly RSI_21 = 76.56 mean any failed-breakout reversal has heavy mean-reversion gravity back toward the hourly EMA_24 at $207.61, well through the $211 stop."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely strong: full daily EMA stack aligned uptrend, ADX_14 = 49.09 (strong trend), price above all MAs from EMA_5 through SMA_200, and 21d ROC = +16.16%. This is not a broken chart.",
+    "Sell-side and analyst posture are supportive — Goldman raised forecasts ~12% on 2026-05-07 and the 37-analyst consensus is 57% Strong Buy / 41% Buy / 0% Sell with $270.73 avg PT (analyst_consensus_web). Sentiment is not a contrarian short.",
+    "recent_insider_trades = [] — no observable insider selling cluster in the bundle, so the 'executives heading for the exits' angle is not available as a bear input here."
+  ],
+  "web_sources_last_7d": [
+    "https://nvidianews.nvidia.com/",
+    "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+    "https://www.cnbc.com/2026/05/06/nvidia-is-falling-behind-as-semiconductors-surge-heres-what-analysts-say-is-going-on.html",
+    "https://www.tipranks.com/news/nvidia-stock-nvda-gains-in-pre-market-today-whats-driving-the-rally",
+    "https://www.tipranks.com/news/nvidia-stock-nvda-is-meaningfully-undervalued-ahead-of-earnings-says-goldman-sachs"
+  ]
+}

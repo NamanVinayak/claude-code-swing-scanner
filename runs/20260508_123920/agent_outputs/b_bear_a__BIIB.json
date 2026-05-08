@@ -1,0 +1,20 @@
+{
+  "ticker": "BIIB",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [187.50, 186.00, 181.24],
+  "top_3_arguments": [
+    "Breakout attempt is unconfirmed and lacking volume conviction. daily_indicators.volume.relative_volume = 0.64 (current 735,600 vs 20-day avg 1,148,580) — yesterday's push to the $191.38 watch level happened on 36% BELOW-average volume. The catalyst_note itself flags a -0.72% premarket gap down on zero volume. Breakouts on thin volume are the textbook fakeout profile, especially into a heavily-tested resistance shelf.",
+    "Price is pinned directly under a wall of overhead supply. daily_indicators.support_resistance.nearest_resistance = 192.99 with 14 prior tests (volume_confirmed=false, meaning sellers consistently emerge there); recent_high = 195.98 (9 tests). Current_price 191.38 is only 0.84% from the 192.99 ceiling and 2.40% from 195.98. Stretch indicators confirm exhaustion risk: daily_indicators.bollinger.pct_b = 0.7957, hourly bollinger.pct_b = 0.8392, hourly rsi_21 = 68.58, daily z_score_50 = 1.35 — extended into resistance, not basing under it.",
+    "Reward-to-risk is mediocre and the analyst board is split. From watch_level 191.38 to nearest meaningful resistance 192.99 is +0.84%; to recent_high 195.98 is +2.40%. Stop at invalidation_level 187.50 is -2.03%. Best-case R:R is roughly 1.18:1 to 195.98 and only 0.41:1 to 192.99 — well below the 2:1 minimum. Compounding the chop risk, analyst_consensus_web shows a split board (11 buy / 13 hold / 1 sell) with avg_price_target $190 — already BELOW current price 191.38 — and Barclays maintained Hold on May 5 (recent_news_7d). No fresh catalyst before earnings on 2026-07-29 (83 days away)."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely bullish: daily_indicators.moving_averages.ema_aligned_uptrend = true with price above all MAs (ema_5/10/20/50/200), ADX 26.45 with +DI 38.47 vs -DI 14.18 confirms a strong, directional uptrend.",
+    "Momentum and accumulation are constructive: MACD histogram +0.8362 with macd_line 2.10 above signal 1.26, daily rsi_14 = 64.78 (firm but not yet overbought), and daily_indicators.volume.obv.trend = 'up' with no bearish divergence flagged on either daily or hourly.",
+    "No imminent earnings risk — earnings.days_until_next = 83 — so the long is not walking into a binary event window."
+  ],
+  "web_sources_last_7d": [
+    "https://www.gurufocus.com/news/8787429/todays-analyst-ratings-update-for-biogen-biib-key-changes-biib-stock-news",
+    "https://www.marketbeat.com/stocks/NASDAQ/BIIB/forecast/"
+  ]
+}

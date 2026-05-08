@@ -1,0 +1,21 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [1005.0, 992.42, 983.69],
+  "top_3_arguments": [
+    "Hourly trend is rolling over while daily looks fine — this is a bull trap signature. hourly_indicators.macd: macd_line=-0.6551, signal_line=-0.0195, histogram=-0.6356 (no bullish crossover). hourly_indicators.moving_averages.ema_aligned_uptrend=false AND ema_aligned_downtrend=false (range/chop). hourly_indicators.adx_24=19.54 (weak trend). hourly_indicators.volume.relative_volume=0.61 (well below average) — there is no buying pressure on the intraday timeframe to push price through the 1015 watch level.",
+    "The 'pullback to support' setup is sitting directly under stacked overhead supply with poor risk-reward to the next pivot. daily_indicators.support_resistance.pivot_highs[0]=1011.36 with 31 tests (massive overhead, exactly at current price 1012.06) — buyers have failed at this level 31 separate times. From watch 1015 to nearest meaningful resistance 1020.78 (hourly pivot, 19 tests) is only +0.57%; to 1031.27 recent_high is +1.60%; from 1015 entry to 1005 invalidation is -0.99%. Even using the further target, R:R is at best ~1.6:1 — below the 2:1 minimum. And daily_indicators.bollinger.pct_b=0.7532 means we're already 75% of the way up the band, leaving little room to run before mean reversion.",
+    "Underlying trend is weakening despite the price-vs-MA stack looking pretty. daily_indicators.momentum.roc_21d=-1.62 (negative 21-day rate of change — net loser over a month). daily_indicators.adx_14=15.28 with plus_di=21.26 vs minus_di=20.23 (weak, near-balanced — no real directional conviction). daily_indicators.rsi_21=45.62 (below 50, bearish on the longer lookback). daily_indicators.volume.volume_bias_10d='down' (10-day volume bias DOWN even though OBV is up — distribution under the surface). 2026-05-06 candle: open 1011.31, low 992.42, close 995.75 on volume 2.62M (1.44x avg) — a -1.5% wide-range down day on heavy volume two sessions ago is fresh distribution that hasn't been worked off."
+  ],
+  "bull_acknowledgements": [
+    "Daily MA stack is genuinely constructive: price above ema_5/10/20/21/50/200 and ema_aligned_uptrend=true, with EMA-200 4.93% below price — the long-term trend is intact.",
+    "Yesterday (2026-05-07) printed a strong recovery candle: open 993.50, close 1012.06, range nearly the full prior down-day — buyers defended the 990–995 zone and OBV trend is up with no price/OBV divergence.",
+    "Earnings are 20 days out (no blackout pressure) and analyst_consensus_web shows buy rating with $1078 PT (~6.6% upside), plus the April sales beat (+13% YoY) is a recent positive fundamental catalyst that supports dip-buying."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/quote/COST/news/",
+    "https://247wallst.com/investing/2026/05/07/prediction-costco-will-trade-at-this-price-in-1-year/",
+    "https://seekingalpha.com/news/4529034-catalyst-watch-spotlight-on-the-fed-costco-earnings-and-nasdaq-100-additions"
+  ]
+}

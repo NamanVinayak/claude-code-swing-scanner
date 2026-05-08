@@ -1,0 +1,29 @@
+{
+  "ticker": "ROK",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 456.00, "high": 458.50},
+  "target": 481.00,
+  "stop": 445.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Fresh blowout earnings catalyst (2026-05-06, Yahoo/TipRanks/ChartMill): fiscal Q2 2026 adj EPS $3.30 vs $2.92 consensus, revenue $2.24B vs $2.18B; management raised FY2026 outlook to ~$8.9B revenue with higher EPS, citing data center, semiconductor, and warehouse automation demand — stock gapped +10.72% on 2026-05-05 then added +5.4% on 2026-05-06 to $459.35, and earnings.days_until_next = 90 means no near-term event risk to derail the post-earnings drift.",
+    "Trend confirmation is unambiguous on both timeframes: daily ADX_14 = 40.33 (strong, +DI 31.25 vs -DI 10.42), MACD histogram +4.19, ema_aligned_uptrend = true, price above all MAs (5/10/20/50/200), roc_21d = +15.02%; hourly ADX_24 = 56.54 with +DI 45.73 vs -DI 13.06 and ema_aligned_uptrend = true — institutional accumulation regime, not a one-day spike.",
+    "R:R math: entry midpoint $457.25 (just above watch_level $457.50 breakout trigger), stop $445.50 below invalidation $446.00 and prev_day_low $445.27, target $481.00 just under fib_ext_1272 $495.03 — risk $11.75, reward $23.75, R:R = 2.02:1. Pullback Tue from $463.49 high to $448.55 close (still above prev_day_close support cluster) sets up the next breakout attempt with overhead 52-week high $463.49 as the only meaningful resistance before extension targets."
+  ],
+  "risks_acknowledged": [
+    "Daily RSI_7 = 76.78, BB pct_b = 1.0467 (price above upper band), z_score_50 = 2.3 — the name is mechanically overbought and prone to a gap-fill pullback toward $435–$440 before any extension.",
+    "Post-earnings analyst response is mixed despite the beat: per analyst_consensus_web, Wall Street Zen, Jefferies, Wells Fargo, and Barclays all downgraded to Hold and trimmed targets after the print; avg PT $420.88 sits ~6% BELOW current $448.55, signaling Wall Street views the move as already pricing in the raised guide.",
+    "Premarket is reportedly +1.86% but with zero premarket volume reported (catalyst_note) — confirmation quality on the breakout trigger is weaker than the daily structure suggests; a low-volume gap-up that fades is a real failure mode.",
+    "recent_insider_trades is empty — no fresh insider buying to corroborate the catalyst case; thesis rests entirely on the earnings/guidance print and trend continuation, with no smart-money confirmation."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",
+    "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
+    "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
+    "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
+    "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
+    "https://simplywall.st/stocks/us/capital-goods/nyse-rok/rockwell-automation/news/should-rockwells-stronger-q2-2026-profitability-shift-the-in",
+    "https://www.gurufocus.com/news/8757097/rockwell-automation-rok-sees-analyst-rating-update-from-baird-rok-stock-news"
+  ]
+}

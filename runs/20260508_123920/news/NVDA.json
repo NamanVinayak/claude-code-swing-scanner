@@ -1,0 +1,56 @@
+{
+  "ticker": "NVDA",
+  "researched_at": "2026-05-08T12:42:00Z",
+  "news_items": [
+    {
+      "headline": "Nvidia and Corning announce U.S. co-packaged optics manufacturing partnership; Nvidia invests up to $2.7B",
+      "url": "https://nvidianews.nvidia.com/",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Nvidia partnered with Corning to build three dedicated U.S. manufacturing plants for co-packaged optics, investing up to $2.7B including warrants for 15M shares. Tech aims to boost data speeds while cutting power consumption up to 20x."
+    },
+    {
+      "headline": "Nvidia and IREN announce strategic partnership for up to 5 GW of AI infrastructure; Nvidia to invest up to $2.1B",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Nvidia struck a strategic agreement with IREN Limited to accelerate next-generation AI data center deployment, with reports indicating Nvidia investing up to $2.1 billion. IREN stock surged 8% premarket on the news."
+    },
+    {
+      "headline": "Nvidia falling behind as semiconductors surge — NVDA -4.3% on the week vs AMD +3%, MU +7.3%",
+      "url": "https://www.cnbc.com/2026/05/06/nvidia-is-falling-behind-as-semiconductors-surge-heres-what-analysts-say-is-going-on.html",
+      "date": "2026-05-06",
+      "sentiment": "negative",
+      "summary": "Despite a chip-sector rally that pushed Nasdaq to all-time highs, NVDA fell 4.3% on the week while peers AMD and Micron rallied. Analysts cited rotation concerns and elevated expectations heading into earnings."
+    },
+    {
+      "headline": "Nvidia stock gains in pre-market on AI-chip demand optimism",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-gains-in-pre-market-today-whats-driving-the-rally",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "NVDA shares climbed in Wednesday pre-market trading on positive AI/semi industry developments, reflecting growing optimism that AI-chip demand remains strong."
+    },
+    {
+      "headline": "Goldman Sachs raises NVDA forecasts 12% ahead of May 20 earnings; flags 'major re-rating' possible",
+      "url": "https://www.tipranks.com/news/nvidia-stock-nvda-is-meaningfully-undervalued-ahead-of-earnings-says-goldman-sachs",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Goldman Sachs upped NVDA forecasts by 12% ahead of the May 20 earnings report and called the stock meaningfully undervalued, citing continued estimate upgrades and valuation multiple expansion as catalysts."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 270.73,
+    "recent_changes": "Goldman Sachs raised forecasts ~12% on 2026-05-07 ahead of May 20 earnings, calling NVDA meaningfully undervalued. 37-analyst consensus: 57% Strong Buy, 41% Buy, 3% Hold, 0% Sell."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-05-20",
+    "days_until_next": 12,
+    "notes": "Q1 FY27 report on May 20 (5 p.m. ET conference call). Street expects EPS $1.74 (+115% YoY) and revenue +78.7% YoY. Bar is high — Goldman says strong execution may already be priced in but flags possible major re-rating."
+  },
+  "raw_search_files": [
+    "NVDA_news-this-week.json",
+    "NVDA_analyst-rating.json",
+    "NVDA_earnings-catalyst.json"
+  ]
+}

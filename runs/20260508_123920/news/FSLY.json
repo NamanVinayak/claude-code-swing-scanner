@@ -1,0 +1,63 @@
+{
+  "ticker": "FSLY",
+  "researched_at": "2026-05-08T19:31:30Z",
+  "news_items": [
+    {
+      "headline": "Fastly stock plunges ~39% after Q1 print despite beat-and-raise; core delivery volumes disappoint",
+      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-5-7-why-fastly-fsly-stock-is-nosediving",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "FSLY fell 39.4% in its biggest one-day percentage drop ever after Q1 results. Despite revenue of $173M (+~20% YoY), adjusted EPS 50% above consensus, and raised FY26 guidance to $710M-$725M, the core delivery business showed weaker QoQ volumes than expected with stable pricing. Stock had rallied ~270% in the prior three months, setting expectations too high."
+    },
+    {
+      "headline": "FSLY on track for biggest one-day percentage drop ever; retail buys the dip",
+      "url": "https://stocktwits.com/news-articles/markets/equity/fsly-stock-on-track-for-its-biggest-one-day-percentage-drop-ever-retail-thinks-the-dip-is-a-buying-opportunity/cZXbk03ReQL",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "Stocktwits coverage notes FSLY shares set a record one-day drop following Q1 results. Retail sentiment on the platform leaned bullish on the dip, but the magnitude of the decline reflects institutional repositioning."
+    },
+    {
+      "headline": "Piper Sandler cuts FSLY price target after core delivery slowdown",
+      "url": "https://anachart.com/ticker/fsly/",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "Piper Sandler lowered its FSLY price target citing the core delivery slowdown that crushed the Q1 print. Action follows the Q1 earnings release."
+    },
+    {
+      "headline": "DA Davidson cuts Fastly price target on network services slowdown",
+      "url": "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-fastly-stock-price-target-on-network-services-slowdown-93CH-4668711",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "DA Davidson reduced its FSLY price target, citing slowing network services growth as the basis for the downward revision. Adds to a wave of post-earnings analyst cuts."
+    },
+    {
+      "headline": "Fastly issues / updates FY 2026 earnings guidance",
+      "url": "https://www.dailypolitical.com/2026/05/06/fastly-nysefsly-releases-fy-2026-earnings-guidance.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Fastly released updated FY2026 guidance projecting total revenue between $710M and $725M, raised from prior outlook. Issued alongside Q1 results."
+    },
+    {
+      "headline": "Fastly Q1 security revenue +47% YoY to $38.8M; fourth consecutive quarter of accelerating security growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fastlys-security-revenues-climb-47-145700788.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Security segment grew 47% YoY to $38.8M, representing 22% of total revenue and the fourth straight quarter of accelerating growth. Diversification away from core delivery is the bull narrative offsetting delivery weakness."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "hold",
+    "avg_price_target": 13.0,
+    "recent_changes": "Piper Sandler cut PT (2026-05-07) citing core delivery slowdown; DA Davidson cut PT (2026-05-07) citing network services slowdown. Consensus 3 Buy / 7 Hold / 1 Sell; PT range $8-$20."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 just reported (~2026-05-06). Revenue $173M (+~20% YoY), adjusted EPS 50% above consensus, FY26 guide raised to $710M-$725M, security revenue +47% YoY. Despite the beat-and-raise, stock fell ~39% as core delivery QoQ volumes disappointed elevated expectations from a 270% three-month rally. Next earnings expected early Aug 2026 (Q2 cadence)."
+  },
+  "raw_search_files": [
+    "FSLY_news-this-week.json",
+    "FSLY_analyst-rating.json",
+    "FSLY_earnings-catalyst.json"
+  ]
+}

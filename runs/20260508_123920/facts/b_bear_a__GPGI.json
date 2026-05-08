@@ -1,0 +1,415 @@
+{
+  "ticker": "GPGI",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 12.85,
+  "invalidation_level": 13.25,
+  "catalyst_note": "Three distinct short-setup signals (Stage 4 momentum breakdown, bearish episodic pivot, sector laggard decline) intact overnight with only a -0.23% gap; breakdown below $12.85 would confirm continuation lower.",
+  "conviction": 4,
+  "source_reasons": [
+    "stage4_momentum_breakdown",
+    "bearish_episodic_pivot",
+    "sector_laggard_decline"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "GPGI Reports First Quarter 2026 Results",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.globenewswire.com/news-release/2026/05/07/3289835/0/en/gpgi-reports-first-quarter-2026-results.html",
+      "sentiment": "negative",
+      "summary": "Q1 2026 pro forma adjusted net sales of $421.2M (+3% YoY) and pro forma adjusted EBITDA of $82.1M (-16% YoY, 19.5% margin). GAAP net loss of $235M. Maintains 2026 guide of $1.95B-$2.1B pro forma sales and $550M-$610M EBITDA."
+    },
+    {
+      "title": "GPGI Q1 pro forma sales rise 3%, EBITDA falls 16%",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.stocktitan.net/news/GPGI/gpgi-reports-first-quarter-2026-m434n3sycji7.html",
+      "sentiment": "negative",
+      "summary": "Mixed quarter: CompoSecure delivered record ROS-driven performance; Husky hit by sharp oil and resin price volatility and ongoing tariff uncertainty, driving the EBITDA decline."
+    },
+    {
+      "title": "GPGI (NYSE:GPGI) Plunges 12.7% Pre-Market After Q1 Earnings Miss",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.chartmill.com/news/GPGI/Chartmill-47672-GPGI-NYSEGPGI-Plunges-127-Pre-Market-After-Q1-Earnings-Miss",
+      "sentiment": "negative",
+      "summary": "Shares fell roughly 12.7% in pre-market trading following the Q1 print. Total post-earnings decline reported at 25.52%, reflecting strong negative market reaction to the EBITDA miss and GAAP loss."
+    },
+    {
+      "title": "GPGI Posts Mixed Q1 2026 Results, Maintains Outlook",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.tipranks.com/news/company-announcements/gpgi-posts-mixed-q1-2026-results-maintains-outlook",
+      "sentiment": "neutral",
+      "summary": "Company maintains full-year 2026 guidance for higher sales, earnings and cash flow despite Q1 miss; emphasized accelerated ROS (Resolute Operating System) deployment across portfolio."
+    },
+    {
+      "title": "GPGI is Down 18.5% After Revenue Collapse And Rising Losses Reveal Shifting Investment Narrative",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-gpgi/gpgi/news/gpgi-gpgi-is-down-185-after-revenue-collapse-and-rising-loss",
+      "sentiment": "negative",
+      "summary": "Coverage frames the post-earnings decline as a narrative shift driven by revenue weakness and rising losses, with Husky tariff/commodity exposure as the principal drag."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 12.9399995803833,
+  "market_cap": 3626161408.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-01",
+      "open": 15.449999809265137,
+      "high": 15.75,
+      "low": 15.210000038146973,
+      "close": 15.640000343322754,
+      "volume": 2453900
+    },
+    {
+      "time": "2026-05-04",
+      "open": 15.680000305175781,
+      "high": 16.200000762939453,
+      "low": 15.585000038146973,
+      "close": 15.930000305175781,
+      "volume": 2436000
+    },
+    {
+      "time": "2026-05-05",
+      "open": 16.18000030517578,
+      "high": 16.729999542236328,
+      "low": 15.970000267028809,
+      "close": 16.68000030517578,
+      "volume": 2345900
+    },
+    {
+      "time": "2026-05-06",
+      "open": 17.0,
+      "high": 17.959999084472656,
+      "low": 16.709999084472656,
+      "close": 17.459999084472656,
+      "volume": 3274200
+    },
+    {
+      "time": "2026-05-07",
+      "open": 13.324999809265137,
+      "high": 14.609999656677246,
+      "low": 12.069999694824219,
+      "close": 12.9399995803833,
+      "volume": 16472600
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 15.290395923809788,
+      "sma_5": 15.729999923706055,
+      "ema_10": 15.607123147967584,
+      "sma_10": 15.547999954223632,
+      "ema_20": 16.033865890424874,
+      "sma_20": 16.014500045776366,
+      "ema_21": 16.081011334935003,
+      "sma_21": 16.03238096691313,
+      "ema_50": 17.495374608882926,
+      "sma_50": 17.604000053405763,
+      "ema_200": 18.344598060682756,
+      "sma_200": 19.54424732208252,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 12.9399995803833,
+    "dist_from_50sma_pct": -26.49,
+    "price_vs_ma": {
+      "above_ema_5": false,
+      "pct_from_ema_5": -15.37,
+      "above_sma_5": false,
+      "pct_from_sma_5": -17.74,
+      "above_ema_10": false,
+      "pct_from_ema_10": -17.09,
+      "above_sma_10": false,
+      "pct_from_sma_10": -16.77,
+      "above_ema_20": false,
+      "pct_from_ema_20": -19.3,
+      "above_sma_20": false,
+      "pct_from_sma_20": -19.2,
+      "above_ema_21": false,
+      "pct_from_ema_21": -19.53,
+      "above_sma_21": false,
+      "pct_from_sma_21": -19.29,
+      "above_ema_50": false,
+      "pct_from_ema_50": -26.04,
+      "above_sma_50": false,
+      "pct_from_sma_50": -26.49,
+      "above_ema_200": false,
+      "pct_from_ema_200": -29.46,
+      "above_sma_200": false,
+      "pct_from_sma_200": -33.79,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1194.0
+    },
+    "rsi": {
+      "rsi_7": 37.18,
+      "rsi_14": 30.32,
+      "rsi_21": 35.01
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.6385,
+      "signal_line": -0.6553,
+      "histogram": 0.0168,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 18.01,
+      "middle": 16.01,
+      "lower": 14.01,
+      "width": 0.2498,
+      "pct_b": -0.2684
+    },
+    "atr": {
+      "atr_14": 1.23,
+      "atr_pct": 9.48
+    },
+    "adx": {
+      "adx_14": 27.32,
+      "plus_di": 16.98,
+      "minus_di": 40.01,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 16472600,
+      "avg_volume_20": 3889890,
+      "relative_volume": 4.23,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 17.22,
+          "tests": 18,
+          "volume_confirmed": false
+        },
+        {
+          "price": 18.83,
+          "tests": 2,
+          "volume_confirmed": false
+        },
+        {
+          "price": 24.02,
+          "tests": 3,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 15.48,
+          "tests": 5,
+          "volume_confirmed": false
+        },
+        {
+          "price": 16.41,
+          "tests": 21,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 17.22,
+      "nearest_support": null,
+      "recent_high": 17.96,
+      "recent_low": 12.07,
+      "prev_day_high": 17.96,
+      "prev_day_low": 16.71,
+      "prev_day_close": 17.46
+    },
+    "fibonacci": {
+      "swing_high": 18.46,
+      "swing_low": 12.07,
+      "fib_236": 16.95,
+      "fib_382": 16.02,
+      "fib_500": 15.26,
+      "fib_618": 14.51,
+      "fib_786": 13.44,
+      "fib_ext_1272": 20.2,
+      "fib_ext_1618": 22.41,
+      "fib_ext_2000": 24.85,
+      "fib_ext_low_1272": 10.33,
+      "fib_ext_low_1618": 8.12
+    },
+    "momentum": {
+      "roc_5d": -16.14,
+      "roc_10d": -20.9,
+      "roc_21d": -23.34
+    },
+    "z_score_50": -1.98,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 14.770030687107301,
+      "sma_24": 15.475433349609375,
+      "ema_48": 15.254309094229264,
+      "sma_48": 15.38375836610794,
+      "ema_120": 15.766203466651504,
+      "sma_120": 15.826245061556499,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 12.510000228881836,
+    "dist_from_50sma_pct": -20.95,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -15.3,
+      "above_sma_24": false,
+      "pct_from_sma_24": -19.16,
+      "above_ema_48": false,
+      "pct_from_ema_48": -17.99,
+      "above_sma_48": false,
+      "pct_from_sma_48": -18.68,
+      "above_ema_120": false,
+      "pct_from_ema_120": -20.65,
+      "above_sma_120": false,
+      "pct_from_sma_120": -20.95,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1151.0
+    },
+    "rsi": {
+      "rsi_21": 30.43
+    },
+    "rsi_divergence": {
+      "bullish": true,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.5262,
+      "signal_line": -0.0655,
+      "histogram": -0.4607,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 18.31,
+      "middle": 15.38,
+      "lower": 12.46,
+      "width": 0.3802,
+      "pct_b": 0.0087
+    },
+    "atr": {
+      "atr_24": 0.59,
+      "atr_pct": 4.73
+    },
+    "adx": {
+      "adx_24": 54.6,
+      "plus_di": 31.43,
+      "minus_di": 43.97,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 869065,
+      "avg_volume_20": 1050447,
+      "relative_volume": 0.83,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 15.69,
+          "tests": 6,
+          "volume_confirmed": true
+        },
+        {
+          "price": 16.2,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 17.96,
+          "tests": 2,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 14.07,
+          "tests": 3,
+          "volume_confirmed": false
+        },
+        {
+          "price": 14.32,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 15.69,
+      "nearest_support": null,
+      "recent_high": 17.96,
+      "recent_low": 12.07,
+      "prev_day_high": 13.25,
+      "prev_day_low": 12.92,
+      "prev_day_close": 12.94
+    },
+    "fibonacci": {
+      "swing_high": 17.96,
+      "swing_low": 12.07,
+      "fib_236": 16.57,
+      "fib_382": 15.71,
+      "fib_500": 15.01,
+      "fib_618": 14.32,
+      "fib_786": 13.33,
+      "fib_ext_1272": 19.56,
+      "fib_ext_1618": 21.6,
+      "fib_ext_2000": 23.85,
+      "fib_ext_low_1272": 10.47,
+      "fib_ext_low_1618": 8.43
+    },
+    "momentum": {
+      "roc_5d": 2.33,
+      "roc_10d": -29.12,
+      "roc_21d": -22.54
+    },
+    "z_score_120": -3.09,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": null,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 26.2,
+    "recent_changes": "No analyst-rating changes in last 7 days surfaced. Pre-print consensus: Buy with PTs ranging $22-$26 (5-analyst average $26.20); TipRanks AI (Spark) rates Neutral. Ratings predate the May 7 Q1 miss and may be revised downward in coming days."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 already reported May 7, 2026 \u2014 EBITDA miss (-16% YoY) and $235M GAAP loss; full-year guide reaffirmed at $1.95B-$2.1B pro forma sales and $550M-$610M EBITDA. Forward catalysts: stabilizing revenue growth, Husky operational fixes (oil/resin/tariffs), continued ROS deployment. Next earnings date not formally announced; Q2 2026 typically reports early August."
+  }
+}

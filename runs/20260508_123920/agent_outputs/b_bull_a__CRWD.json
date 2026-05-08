@@ -1,0 +1,28 @@
+{
+  "ticker": "CRWD",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 505.50, "high": 508.00},
+  "target": 539.00,
+  "stop": 494.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Strong trend stack with rising momentum: daily moving_averages.ema_aligned_uptrend = true; price_vs_ma shows above_ema_20 (+12.36%), above_ema_50 (+16.38%), above_ema_200 (+14.58%); daily adx.adx_14 = 26.93 with plus_di 40.59 vs minus_di 17.41 (strong directional bullish trend); macd.histogram = 4.7587 expanding above signal_line 13.3748.",
+    "Breakout day printed with confirming volume and follow-through structure: 2026-05-07 candle closed 505.72 on 5,102,900 shares vs avg_volume_20 = 3,100,185 (relative_volume = 1.65), closing at the daily high (high 506.79); volume_bias_10d = 'up' and obv.trend = 'up' with diverging_from_price = false; daily.momentum.roc_5d = 13.45 and roc_21d = 18.57.",
+    "Catalyst-supported continuation with no near-term earnings risk: earnings.days_until_next = 26 (well outside the 3-day blackout); analyst_consensus_web rating = 'buy' with avg_price_target = 510.52 and Mizuho upgrade to Outperform / PT $520 (Apr 27); fib_ext_1272 on daily = 546.23 anchors the next measured-move objective above the prior swing high 506.79."
+  ],
+  "risks_acknowledged": [
+    "Extended/overbought tape: daily rsi.rsi_7 = 79.45, rsi_14 = 75.59, bollinger.pct_b = 1.019 (price above upper band), z_score_50 = 2.7, and price 19.63% above sma_50 — high probability of a mean-reversion pullback that could clip a tight stop.",
+    "Bearish RSI divergence flagged on both daily (rsi_divergence.bearish = true) and hourly (bearish = true) — momentum is making lower highs while price prints new highs, a classic exhaustion warning.",
+    "Catalyst note flags an overnight gap-down to ~$498.89 premarket; if 505.48/506 is not reclaimed at the open, the breakout is failed and stop near 494 (just under invalidation) is the line in the sand.",
+    "Elevated street expectations on AI integration (Claude Opus 4.7 in Falcon, Project Glasswing) mean any negative datapoint into June 3 earnings could deflate the recent rally; analyst PT range $368–$613 shows wide disagreement on fair value."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261870218-market-movers-crwd-20260507",
+    "https://www.fxleaders.com/news/2026/05/07/crwd-stock-breaks-500-on-partner-app-launch-and-earnings-date-amid-ai-concerns/",
+    "https://www.stocktitan.net/news/CRWD/crowd-strike-falcon-over-watch-for-defender-extends-managed-threat-t3tfc3raxdsk.html",
+    "https://www.quiverquant.com/news/CrowdStrike+Stock+(CRWD)+Opinions+on+Anthropic+Project+Glasswing",
+    "https://www.benzinga.com/trading-ideas/movers/26/05/52382626/crowdstrike-stock-gains-on-new-ai-cybersecurity-push-partner-app-launch",
+    "https://www.tradingkey.com/news/market-movers/261853095-market-movers-crwd-20260504"
+  ]
+}

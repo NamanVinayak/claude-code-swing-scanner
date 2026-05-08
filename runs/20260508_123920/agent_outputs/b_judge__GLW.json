@@ -1,0 +1,23 @@
+{
+  "ticker": "GLW",
+  "approved": [
+    {
+      "ticker": "GLW",
+      "direction": "long",
+      "entry_price": 185.625,
+      "stop_loss": 178.00,
+      "target_price": 207.00,
+      "target_price_2": 214.61,
+      "quantity": 26,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "All 4 perspectives consensus long. p_bull (tech) = 7/(7+7)=0.50, p_catalyst = 8/(8+7)=0.533, combined_p_bull=0.517. Expected return/share = 0.517*(207-185.625) - 0.483*(185.625-178) = +$7.36 (positive). Bull case dominated on hard catalyst stack (NVIDIA $500M deal + Springboard extension to $35B by 2030 + Oppenheimer PT raise to $210), confirmed by daily_indicators.adx_14=35.08 strong trend with plus_di=33.63 vs minus_di=14.68, daily macd bullish_crossover=true, ema_aligned_uptrend on both daily and hourly, daily relative_volume=1.69, and earnings.days_until_next=81 (no earnings risk in window). Bears' core concern (z_score_50=1.86, hourly z_score_120=3.36, OBV diverging on hourly, avg PT $159.45 below spot) acknowledged and priced into the conservative target via Gate 2 expected-return math. Position sizing: risk_dollars=$250 (1% × 1.0 multiplier), risk_per_share=$7.625, Gate-3 quantity=32 → notional $5940 > 15% cap ($3750), so scaled down from 32 to 26 shares to fit small-account cap, using 79% of risk budget (extended cap notional $4826 ≤ 20%, risk_M=$198.25 ≥ 40% floor of $100).",
+      "risk_usd": 198.25,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-08T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "GLW long approved as small_scaled (26 shares @ ~$185.63, stop $178, target $207). All 4 perspectives consensus long; expected return +$7.36/share positive. Catalyst-driven breakout backed by strong daily trend (ADX 35.08, MACD bullish crossover) and structural NVIDIA/Springboard re-rate; deciding factor was hard near-term catalyst + zero earnings risk overriding bears' overextension concerns, with conservative target ($207 < daily fib_ext_1272 $214.61) keeping math defensible."
+}

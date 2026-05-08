@@ -1,0 +1,380 @@
+{
+  "ticker": "BIIB",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 191.38,
+  "invalidation_level": 187.5,
+  "catalyst_note": "TradingView strong_buy + trending_up signals intact, but premarket shows a mild -0.72% gap down with zero volume \u2014 setup is alive but unconfirmed; needs a reclaim of yesterday's close ($191.38) on real volume to validate the long.",
+  "conviction": 4,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Barclays maintains Hold rating on Biogen",
+      "source": "web_research",
+      "date": "2026-05-05",
+      "url": "https://www.gurufocus.com/news/8787429/todays-analyst-ratings-update-for-biogen-biib-key-changes-biib-stock-news",
+      "sentiment": "neutral",
+      "summary": "Barclays reiterated its Hold rating on BIIB on May 5, 2026, signaling continued caution on near-term setup."
+    },
+    {
+      "title": "Canaccord Genuity reiterates Buy rating on Biogen",
+      "source": "web_research",
+      "date": "2026-05-04",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/BIIB/forecast/",
+      "sentiment": "positive",
+      "summary": "Canaccord Genuity stuck with its Buy rating on BIIB on May 4, 2026, citing pipeline and growth-product momentum."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 191.3800048828125,
+  "market_cap": 28405381120.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-01",
+      "open": 189.27999877929688,
+      "high": 190.57000732421875,
+      "low": 186.13999938964844,
+      "close": 187.05999755859375,
+      "volume": 696800
+    },
+    {
+      "time": "2026-05-04",
+      "open": 186.27999877929688,
+      "high": 187.50999450683594,
+      "low": 185.44000244140625,
+      "close": 187.2100067138672,
+      "volume": 626600
+    },
+    {
+      "time": "2026-05-05",
+      "open": 187.3800048828125,
+      "high": 189.69000244140625,
+      "low": 186.0,
+      "close": 189.1300048828125,
+      "volume": 586100
+    },
+    {
+      "time": "2026-05-06",
+      "open": 189.1300048828125,
+      "high": 191.1699981689453,
+      "low": 188.3000030517578,
+      "close": 190.67999267578125,
+      "volume": 741300
+    },
+    {
+      "time": "2026-05-07",
+      "open": 190.33999633789062,
+      "high": 192.10000610351562,
+      "low": 188.86000061035156,
+      "close": 191.3800048828125,
+      "volume": 735600
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 189.73379311428937,
+      "sma_5": 189.09200134277344,
+      "ema_10": 188.19218380141496,
+      "sma_10": 187.7550018310547,
+      "ema_20": 186.1501193732235,
+      "sma_20": 184.3500015258789,
+      "ema_21": 186.0268289399899,
+      "sma_21": 184.00523957752046,
+      "ema_50": 184.27648128193164,
+      "sma_50": 184.39500061035156,
+      "ema_200": 168.90203538131772,
+      "sma_200": 165.71685024261475,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 191.3800048828125,
+    "dist_from_50sma_pct": 3.79,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 0.87,
+      "above_sma_5": true,
+      "pct_from_sma_5": 1.21,
+      "above_ema_10": true,
+      "pct_from_ema_10": 1.69,
+      "above_sma_10": true,
+      "pct_from_sma_10": 1.93,
+      "above_ema_20": true,
+      "pct_from_ema_20": 2.81,
+      "above_sma_20": true,
+      "pct_from_sma_20": 3.81,
+      "above_ema_21": true,
+      "pct_from_ema_21": 2.88,
+      "above_sma_21": true,
+      "pct_from_sma_21": 4.01,
+      "above_ema_50": true,
+      "pct_from_ema_50": 3.85,
+      "above_sma_50": true,
+      "pct_from_sma_50": 3.79,
+      "above_ema_200": true,
+      "pct_from_ema_200": 13.31,
+      "above_sma_200": true,
+      "pct_from_sma_200": 15.49,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 19038.0
+    },
+    "rsi": {
+      "rsi_7": 67.67,
+      "rsi_14": 64.78,
+      "rsi_21": 58.46
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.1007,
+      "signal_line": 1.2645,
+      "histogram": 0.8362,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 196.24,
+      "middle": 184.35,
+      "lower": 172.46,
+      "width": 0.129,
+      "pct_b": 0.7957
+    },
+    "atr": {
+      "atr_14": 5.66,
+      "atr_pct": 2.96
+    },
+    "adx": {
+      "adx_14": 26.45,
+      "plus_di": 38.47,
+      "minus_di": 14.18,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 735600,
+      "avg_volume_20": 1148580,
+      "relative_volume": 0.64,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 192.99,
+          "tests": 14,
+          "volume_confirmed": false
+        },
+        {
+          "price": 195.98,
+          "tests": 9,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 168.64,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 181.24,
+          "tests": 18,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 192.99,
+      "nearest_support": 181.24,
+      "recent_high": 195.98,
+      "recent_low": 171.22,
+      "prev_day_high": 191.17,
+      "prev_day_low": 188.3,
+      "prev_day_close": 190.68
+    },
+    "fibonacci": {
+      "swing_high": 195.98,
+      "swing_low": 168.64,
+      "fib_236": 189.53,
+      "fib_382": 185.54,
+      "fib_500": 182.31,
+      "fib_618": 179.08,
+      "fib_786": 174.49,
+      "fib_ext_1272": 203.42,
+      "fib_ext_1618": 212.88,
+      "fib_ext_2000": 223.32,
+      "fib_ext_low_1272": 161.2,
+      "fib_ext_low_1618": 151.74
+    },
+    "momentum": {
+      "roc_5d": 1.11,
+      "roc_10d": 1.86,
+      "roc_21d": 6.38
+    },
+    "z_score_50": 1.35,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 189.82164337440213,
+      "sma_24": 189.48515828450522,
+      "ema_48": 188.7863927459855,
+      "sma_48": 189.4049243927002,
+      "ema_120": 186.00341358879777,
+      "sma_120": 185.70737419128417,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 192.39999389648438,
+    "dist_from_50sma_pct": 3.6,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 1.36,
+      "above_sma_24": true,
+      "pct_from_sma_24": 1.54,
+      "above_ema_48": true,
+      "pct_from_ema_48": 1.91,
+      "above_sma_48": true,
+      "pct_from_sma_48": 1.58,
+      "above_ema_120": true,
+      "pct_from_ema_120": 3.44,
+      "above_sma_120": true,
+      "pct_from_sma_120": 3.6,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 19140.0
+    },
+    "rsi": {
+      "rsi_21": 68.58
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 1.1983,
+      "signal_line": 0.9952,
+      "histogram": 0.2032,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 193.82,
+      "middle": 189.4,
+      "lower": 184.99,
+      "width": 0.0466,
+      "pct_b": 0.8392
+    },
+    "atr": {
+      "atr_24": 1.36,
+      "atr_pct": 0.7
+    },
+    "adx": {
+      "adx_24": 39.37,
+      "plus_di": 30.68,
+      "minus_di": 4.65,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 82146,
+      "avg_volume_20": 65769,
+      "relative_volume": 1.25,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 191.0,
+          "tests": 23,
+          "volume_confirmed": false
+        },
+        {
+          "price": 195.98,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 180.18,
+          "tests": 4,
+          "volume_confirmed": true
+        },
+        {
+          "price": 186.0,
+          "tests": 14,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 195.98,
+      "nearest_support": 186.0,
+      "recent_high": 192.94,
+      "recent_low": 187.6,
+      "prev_day_high": 191.61,
+      "prev_day_low": 190.45,
+      "prev_day_close": 191.5
+    },
+    "fibonacci": {
+      "swing_high": 192.94,
+      "swing_low": 185.44,
+      "fib_236": 191.17,
+      "fib_382": 190.08,
+      "fib_500": 189.19,
+      "fib_618": 188.31,
+      "fib_786": 187.05,
+      "fib_ext_1272": 194.98,
+      "fib_ext_1618": 197.58,
+      "fib_ext_2000": 200.44,
+      "fib_ext_low_1272": 183.4,
+      "fib_ext_low_1618": 180.81
+    },
+    "momentum": {
+      "roc_5d": 1.44,
+      "roc_10d": 1.3,
+      "roc_21d": 2.54
+    },
+    "z_score_120": 1.37,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 83,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 190.0,
+    "recent_changes": "Barclays maintained Hold (May 5 2026); Canaccord Genuity reiterated Buy (May 4 2026). TipRanks consensus: Moderate Buy (11 buy / 13 hold / 1 sell). Median PT $190; some sources cite $208\u2013$214 12-month avg target."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-29",
+    "days_until_next": 82,
+    "notes": "Q1 2026 reported April 29, 2026 (already priced in): revenue $2.48B, EPS beat, but FY guidance lowered on Apellis acquisition costs and pressure on legacy MS drugs. Growth drivers LEQEMBI ($168M, +74% YoY) and SKYCLARYS ($151M, +22% YoY) flagged as bull case; pending $5.6B Apellis deal and felzartamab Greater China rights ($850M from TJ Biopharma) are next catalyst clusters. Pivotal pipeline readouts beginning fiscal Q2 2026."
+  }
+}

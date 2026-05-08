@@ -1,0 +1,25 @@
+{
+  "ticker": "BROS",
+  "setup_direction": "short",
+  "bear_strength": 4,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Fundamentals are NOT supportive of a sustained short: Q1 2026 (reported 2026-05-06) was a clean beat-and-raise — revenue $464.4M (+30.8% YoY) vs $449.37M consensus, adj EPS $0.16 vs $0.15, system same-shop sales +8.3%, and FY2026 guide raised to $2.05B-$2.08B revenue / $370M-$380M adj EBITDA / 185+ new shops. Shorting a stock that just raised guidance is fighting the tape — bear thesis requires fundamental deterioration that simply isn't in the print.",
+    "Analyst sentiment is overwhelmingly long: analyst_consensus_web shows 33 Buy / 1 Hold / 0 Sell with avg_price_target $76 (vs current $53.54, ~42% upside). Post-earnings (May 6-7) UBS reiterated Buy at $85, RBC Outperform $75, TD Cowen Buy $73, DA Davidson RAISED PT to $75 from $70. Every covering analyst has a price target materially above current price — short squeeze risk is real if any positive news lands while the stock is oversold.",
+    "Setup is technically a 'sell-the-news' fade, not a fundamental short: the ChartMill article (2026-05-06) explicitly attributes the -4.8% after-hours selloff to 'buy the rumor, sell the news' dynamics following a pre-earnings rally. roc_5d = -6.9% and yesterday's -9.3% drop ($59.06 → $53.54 on 2.61x relvol) suggest the profit-taking move is largely complete. With earnings.days_until_next = 89, there is no near-term fundamental catalyst to drive further downside — the bear thesis lacks a forward fuel source."
+  ],
+  "bull_acknowledgements": [
+    "McDonald's McCafe expansion (crafted sodas, refreshers, Red Bull-based energy drink launching Aug 2026) is a real competitive overhang on Dutch Bros' Rebel energy drink franchise per the 2026-05-05 Investing.com preview — that competitive concern is the one durable bear thread, though UBS argues it is overblown.",
+    "Hourly technicals are genuinely weak: hourly RSI_21 = 34.06, MACD histogram = -0.6785, ADX_24 = 27.76 with minus_DI > plus_DI, price -5.46% from EMA_120, sitting near hourly Bollinger lower band (pct_b = 0.0014). Short-term momentum favors continuation lower if $53.58 watch level breaks.",
+    "Daily price has broken below all short/medium MAs (EMA_5/10/20/21 stack), volume bias is down on 12.8M shares (2.61x avg), and OBV trend is down — the tape did sell aggressively yesterday."
+  ],
+  "web_sources_last_7d": [
+    "https://www.businesswire.com/news/home/20260506549768/en/Dutch-Bros-Inc.-Reports-First-Quarter-2026-Financial-Results",
+    "https://www.chartmill.com/news/BROS/Chartmill-47380-Dutch-Bros-NYSEBROS-Q1-2026-Beat-and-Raised-Guidance-Cant-Stem-After-Market-Selloff",
+    "https://seekingalpha.com/news/4587404-dutch-bros-reports-strong-q1-growth-guides-for-185-new-shops-this-year",
+    "https://www.fool.com/investing/2026/05/07/why-did-dutch-bros-stock-just-crash/",
+    "https://www.investing.com/news/analyst-ratings/da-davidson-raises-dutch-bros-stock-price-target-on-strong-sales-93CH-4668684",
+    "https://www.investing.com/news/analyst-ratings/ubs-reiterates-dutch-bros-stock-rating-on-food-rollout-momentum-93CH-4629729",
+    "https://ng.investing.com/news/earnings/dutch-bros-earnings-up-next-can-traffic-momentum-outlast-rivals-93CH-2487285"
+  ]
+}

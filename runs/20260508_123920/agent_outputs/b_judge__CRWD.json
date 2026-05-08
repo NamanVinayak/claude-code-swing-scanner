@@ -1,0 +1,23 @@
+{
+  "ticker": "CRWD",
+  "approved": [
+    {
+      "ticker": "CRWD",
+      "direction": "long",
+      "entry_price": 506.75,
+      "stop_loss": 494.00,
+      "target_price": 528.00,
+      "target_price_2": 539.00,
+      "quantity": 9,
+      "expected_holding_days": 7,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "All 4 perspectives echo direction=long (Gate 0 pass). Bull strengths 6/8 vs bear strengths 7/7 yield combined_p_bull=0.4974, combined_p_bear=0.5026; expected_return_per_share = 0.4974*(528-506.75) - 0.5026*(506.75-494) = +$4.16, positive. Conservative target=min(539,528)=528 from b_bull_b; conservative stop=max(494,494)=494; entry=midpoint of b_bull_a zone (505.50,508.00)=506.75. Bull case: daily ema_aligned_uptrend=true, adx_14=26.93 with plus_di 40.59 vs minus_di 17.41, breakout candle 5,102,900 vs avg_volume_20=3,100,185 (relative_volume=1.65), OBV up not diverging, roc_5d=13.45%, no near-term earnings (days_until_next=26). Bears flag genuine extension (rsi_7=79.45, rsi_14=75.59, bollinger.pct_b=1.019, z_score_50=2.7, dist_from_50sma_pct=19.63%) AND bearish RSI divergence on both daily and hourly — credible mean-reversion risk reflected in modest 6/10 conviction and downsized position. Sizing math: risk_budget=25000*0.01*1.0=$250; risk_per_share=$12.75; Gate-3 quantity=19 → notional=$9,628 exceeds 15% cap ($3,750); Gate-4 small_scaled path: M=floor(5000/506.75)=9, risk_M=9*12.75=$114.75 ≥ 40% floor ($100). Scaled down from 19 to 9 shares to fit small-account cap, using 46% of risk budget. Notional $4,560.75 (18.2% of account) within 20% extended cap; new deployed 18.2% under 60% cap; new open risk $114.75 under 4% cap ($1,000). Entry valid until 16:00 UTC (~12:00 PM ET) to allow open reclaim of $506 with ~2.5h post-open window before chasing risk dominates.",
+      "risk_usd": 114.75,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-08T16:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "CRWD long approved as small_scaled (9 shares @ $506.75, stop $494, target $528, risk $114.75). Bull/bear strengths near-balanced (combined p_bull 49.7%) but reward leg is wider, producing +$4.16/share expected return. High-priced name on $25k account triggered 20%-cap small-scaled path; conviction trimmed to 6 to reflect bears' valid extension/divergence concerns."
+}

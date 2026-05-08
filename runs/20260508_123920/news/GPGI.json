@@ -1,0 +1,63 @@
+{
+  "ticker": "GPGI",
+  "researched_at": "2026-05-08T19:42:00Z",
+  "news_items": [
+    {
+      "headline": "GPGI Reports First Quarter 2026 Results",
+      "url": "https://www.globenewswire.com/news-release/2026/05/07/3289835/0/en/gpgi-reports-first-quarter-2026-results.html",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "Q1 2026 pro forma adjusted net sales of $421.2M (+3% YoY) and pro forma adjusted EBITDA of $82.1M (-16% YoY, 19.5% margin). GAAP net loss of $235M. Maintains 2026 guide of $1.95B-$2.1B pro forma sales and $550M-$610M EBITDA."
+    },
+    {
+      "headline": "GPGI Q1 pro forma sales rise 3%, EBITDA falls 16%",
+      "url": "https://www.stocktitan.net/news/GPGI/gpgi-reports-first-quarter-2026-m434n3sycji7.html",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "Mixed quarter: CompoSecure delivered record ROS-driven performance; Husky hit by sharp oil and resin price volatility and ongoing tariff uncertainty, driving the EBITDA decline."
+    },
+    {
+      "headline": "GPGI (NYSE:GPGI) Plunges 12.7% Pre-Market After Q1 Earnings Miss",
+      "url": "https://www.chartmill.com/news/GPGI/Chartmill-47672-GPGI-NYSEGPGI-Plunges-127-Pre-Market-After-Q1-Earnings-Miss",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "Shares fell roughly 12.7% in pre-market trading following the Q1 print. Total post-earnings decline reported at 25.52%, reflecting strong negative market reaction to the EBITDA miss and GAAP loss."
+    },
+    {
+      "headline": "GPGI Posts Mixed Q1 2026 Results, Maintains Outlook",
+      "url": "https://www.tipranks.com/news/company-announcements/gpgi-posts-mixed-q1-2026-results-maintains-outlook",
+      "date": "2026-05-07",
+      "sentiment": "neutral",
+      "summary": "Company maintains full-year 2026 guidance for higher sales, earnings and cash flow despite Q1 miss; emphasized accelerated ROS (Resolute Operating System) deployment across portfolio."
+    },
+    {
+      "headline": "GPGI is Down 18.5% After Revenue Collapse And Rising Losses Reveal Shifting Investment Narrative",
+      "url": "https://simplywall.st/stocks/us/tech/nyse-gpgi/gpgi/news/gpgi-gpgi-is-down-185-after-revenue-collapse-and-rising-loss",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "Coverage frames the post-earnings decline as a narrative shift driven by revenue weakness and rising losses, with Husky tariff/commodity exposure as the principal drag."
+    },
+    {
+      "headline": "GPGI Board Declares Quarterly Cash Dividend of $0.0025",
+      "url": "https://www.globenewswire.com/news-release/2026/05/07/3289835/0/en/gpgi-reports-first-quarter-2026-results.html",
+      "date": "2026-05-06",
+      "sentiment": "neutral",
+      "summary": "Board declared a quarterly cash dividend of $0.0025 per Class A share on May 6, 2026, payable June 1, 2026 to shareholders of record on May 18, 2026."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 26.20,
+    "recent_changes": "No analyst-rating changes in last 7 days surfaced. Pre-print consensus: Buy with PTs ranging $22-$26 (5-analyst average $26.20); TipRanks AI (Spark) rates Neutral. Ratings predate the May 7 Q1 miss and may be revised downward in coming days."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 already reported May 7, 2026 — EBITDA miss (-16% YoY) and $235M GAAP loss; full-year guide reaffirmed at $1.95B-$2.1B pro forma sales and $550M-$610M EBITDA. Forward catalysts: stabilizing revenue growth, Husky operational fixes (oil/resin/tariffs), continued ROS deployment. Next earnings date not formally announced; Q2 2026 typically reports early August."
+  },
+  "raw_search_files": [
+    "GPGI_news-this-week.json",
+    "GPGI_analyst-rating.json",
+    "GPGI_earnings-catalyst.json"
+  ]
+}

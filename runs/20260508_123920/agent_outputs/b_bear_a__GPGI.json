@@ -1,0 +1,23 @@
+{
+  "ticker": "GPGI",
+  "setup_direction": "short",
+  "bear_strength": 4,
+  "setup_invalidation_levels": [13.25, 14.01, 14.51],
+  "top_3_arguments": [
+    "Short is chasing into deeply oversold conditions, not initiating from strength: daily_indicators.rsi.rsi_14 = 30.32 (textbook oversold), bollinger.pct_b = -0.2684 (price BELOW the lower band), and z_score_50 = -1.98. Hourly confirms exhaustion with hourly_indicators.rsi_divergence.bullish = true and hourly bollinger.pct_b = 0.0087 (right at lower band). Entries from here historically face mean-reversion bounces back toward fib_786 = 13.44 or fib_618 = 14.51 before any continuation lower.",
+    "The 'breakdown volume' has already been spent: 2026-05-07 traded 16.47M shares vs 20-day avg of 3.89M (relative_volume = 4.23x) — a one-day capitulation print, not the start of fresh distribution. Hourly relative_volume has already collapsed to 0.83x and volume_bias_10d is 'down' but obv.diverging_from_price = false, meaning sellers are not accelerating beyond what price already reflects. Stage4 momentum_breakdown signals fire late on names that just dumped 25%+ post-earnings; the asymmetric move is behind us.",
+    "R:R is poor at watch_level 12.85 entry: stop at invalidation_level 13.25 = $0.40 risk (3.1%); nearest meaningful downside magnet is fib_ext_low_1272 = 10.33 = $2.52 reward, but daily atr_14 = 1.23 (atr_pct 9.48%) means a single ATR-day chop easily round-trips through both the entry and stop. Hourly atr_pct = 4.73% means the $0.40 stop is less than one hourly ATR — trivially noise-stoppable. Conviction = 4 from Stage 2 already flags this as low-confidence."
+  ],
+  "bull_acknowledgements": [
+    "The macro/technical regime IS bearish: ema_aligned_downtrend = true on both daily and hourly, price -26.49% from sma_50 and -33.79% from sma_200, adx_14 = 27.32 with minus_di 40.01 vs plus_di 16.98 (strong downtrend), and momentum.roc_21d = -23.34. The trend direction the short is betting on is real.",
+    "Fundamental catalyst is genuinely negative and fresh (5 web sources, 2026-05-07): Q1 EBITDA -16% YoY, $235M GAAP loss, -25.52% post-earnings cumulative decline. Analyst PTs ($22-$26 buy consensus) predate the miss and are likely to be cut, providing a forward bearish narrative tailwind.",
+    "macd histogram on hourly is -0.4607 with no bullish crossover, and minus_di on hourly = 43.97 — short-term momentum has not yet reversed despite the oversold reading, so a continuation print below 12.85 is plausible before any bounce."
+  ],
+  "web_sources_last_7d": [
+    "https://www.globenewswire.com/news-release/2026/05/07/3289835/0/en/gpgi-reports-first-quarter-2026-results.html",
+    "https://www.stocktitan.net/news/GPGI/gpgi-reports-first-quarter-2026-m434n3sycji7.html",
+    "https://www.chartmill.com/news/GPGI/Chartmill-47672-GPGI-NYSEGPGI-Plunges-127-Pre-Market-After-Q1-Earnings-Miss",
+    "https://www.tipranks.com/news/company-announcements/gpgi-posts-mixed-q1-2026-results-maintains-outlook",
+    "https://simplywall.st/stocks/us/tech/nyse-gpgi/gpgi/news/gpgi-gpgi-is-down-185-after-revenue-collapse-and-rising-loss"
+  ]
+}

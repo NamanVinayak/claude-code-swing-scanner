@@ -1,0 +1,20 @@
+{
+  "ticker": "BIIB",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Analyst consensus is unenthusiastic and price has already met the target: avg_price_target = $190.0 vs current_price = $191.38 — the stock is already above the consensus PT. TipRanks consensus is only 'Moderate Buy' (11 buy / 13 hold / 1 sell), and Barclays specifically REITERATED a Hold on 2026-05-05 (one trading day ago). With the stock at the watch_level and analysts already neutral, a long here is fading the very pros who cover it; upside is gated until estimates move.",
+    "Thesis-integrity crack from the most recent earnings: per earnings_context_web, FY guidance was LOWERED on the Q1 2026 print (April 29) due to Apellis acquisition costs and pressure on legacy MS drugs. Growth from LEQEMBI (+74% YoY) and SKYCLARYS (+22% YoY) is real but small in absolute dollars vs the legacy MS franchise that is rolling over. days_until_next earnings = 83 means there is NO near-term print to bail out a disappointing tape — the stock has to grind 12 weeks on flow/positioning alone with a freshly cut guide hanging over it.",
+    "Mechanical setup is weak at the level it must clear: today's tape is a -0.72% premarket gap-DOWN with zero premarket volume per catalyst_note, and recent_prices_5d shows yesterday closed AT $191.38 — the exact watch_level — on relative_volume = 0.64 (daily) and avg_volume_20 = 1,148,580 vs current 735,600. Daily ADX = 26.45 with +DI 38.47 / -DI 14.18 looks strong, but with pct_b = 0.7957 (upper third of Bollinger) and nearest_resistance = $192.99 (14 prior tests, volume_confirmed = false), the breakout has to clear a heavily-tested ceiling on declining volume. Failure pattern (gap-down open, fade through $187.5 invalidation) is an ATR_14 = 5.66 move — roughly one normal day — so the stop is uncomfortably tight relative to noise."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely intact: ema_aligned_uptrend = true on both daily and hourly, price above all MAs (ema_5/10/20/21/50/200), pct_from_sma_200 = +15.49%, and momentum.roc_21d = +6.38% — this is not a falling knife, it is a stock in a steady uptrend digesting under resistance.",
+    "Pipeline/catalyst optionality is real: Canaccord Genuity reiterated Buy on 2026-05-04 citing pipeline and growth-product momentum, and earnings_context_web flags pivotal pipeline readouts beginning fiscal Q2 2026 plus a $5.6B Apellis deal and felzartamab Greater China rights ($850M from TJ Biopharma) as upcoming catalyst clusters.",
+    "No insider red flags in the bundle: recent_insider_trades is empty (no executive selling cluster), and there is no rsi_divergence (bearish = false) or OBV divergence (diverging_from_price = false) — distribution signals are absent, so the bear case is about valuation/positioning, not active deterioration."
+  ],
+  "web_sources_last_7d": [
+    "https://www.gurufocus.com/news/8787429/todays-analyst-ratings-update-for-biogen-biib-key-changes-biib-stock-news",
+    "https://www.marketbeat.com/stocks/NASDAQ/BIIB/forecast/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "query": "FSLY news this week",
+  "fetched_at": "2026-05-08T19:30:00Z",
+  "results": [
+    {"title": "Fastly, Inc. (FSLY) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/FSLY/"},
+    {"title": "FSLY: Fastly Inc - Stock Price, Quote and News - CNBC", "url": "https://www.cnbc.com/quotes/FSLY"},
+    {"title": "Fastly (FSLY) Stock Price & Overview", "url": "https://stockanalysis.com/stocks/fsly/"},
+    {"title": "Fastly Inc (FSLY) Stock Price & News - Google Finance", "url": "https://www.google.com/finance/beta/quote/FSLY:NASDAQ"},
+    {"title": "Fastly: FSLY Stock Price Quote & News | Robinhood", "url": "https://robinhood.com/us/en/stocks/FSLY/"},
+    {"title": "Fastly, Inc. (FSLY) Latest Stock News & Headlines - Yahoo Finance", "url": "https://finance.yahoo.com/quote/FSLY/news/"},
+    {"title": "FSLY Stock On Track For Its Biggest One-Day Percentage Drop Ever - Retail Thinks The Dip Is A Buying Opportunity", "url": "https://stocktwits.com/news-articles/markets/equity/fsly-stock-on-track-for-its-biggest-one-day-percentage-drop-ever-retail-thinks-the-dip-is-a-buying-opportunity/cZXbk03ReQL"},
+    {"title": "FSLY: Fastly Inc Latest Stock Price, Analysis, News and Trading Ideas", "url": "https://stocktwits.com/symbol/FSLY"},
+    {"title": "Why Fastly (FSLY) Stock Is Nosediving", "url": "http://markets.chroniclejournal.com/chroniclejournal/article/stockstory-2026-5-7-why-fastly-fsly-stock-is-nosediving"},
+    {"title": "FSLY Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/FSLY"}
+  ],
+  "narrative_summary": "Fastly shares fell 39.4% after Q1 results and upgraded guidance failed to meet lofty expectations following a ~270% three-month rally. Q1 revenue $173M (+20% YoY), adjusted EPS 50% above consensus, raised FY26 guidance to $710M-$725M. Disappointment driven by lower-than-expected QoQ volumes in core delivery business with stable pricing. Piper Sandler cut PT citing core delivery slowdown."
+}

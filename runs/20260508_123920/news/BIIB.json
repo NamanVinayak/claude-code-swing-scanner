@@ -1,0 +1,35 @@
+{
+  "ticker": "BIIB",
+  "researched_at": "2026-05-08T12:39:20Z",
+  "news_items": [
+    {
+      "headline": "Barclays maintains Hold rating on Biogen",
+      "url": "https://www.gurufocus.com/news/8787429/todays-analyst-ratings-update-for-biogen-biib-key-changes-biib-stock-news",
+      "date": "2026-05-05",
+      "sentiment": "neutral",
+      "summary": "Barclays reiterated its Hold rating on BIIB on May 5, 2026, signaling continued caution on near-term setup."
+    },
+    {
+      "headline": "Canaccord Genuity reiterates Buy rating on Biogen",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/BIIB/forecast/",
+      "date": "2026-05-04",
+      "sentiment": "positive",
+      "summary": "Canaccord Genuity stuck with its Buy rating on BIIB on May 4, 2026, citing pipeline and growth-product momentum."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 190.0,
+    "recent_changes": "Barclays maintained Hold (May 5 2026); Canaccord Genuity reiterated Buy (May 4 2026). TipRanks consensus: Moderate Buy (11 buy / 13 hold / 1 sell). Median PT $190; some sources cite $208–$214 12-month avg target."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-29",
+    "days_until_next": 82,
+    "notes": "Q1 2026 reported April 29, 2026 (already priced in): revenue $2.48B, EPS beat, but FY guidance lowered on Apellis acquisition costs and pressure on legacy MS drugs. Growth drivers LEQEMBI ($168M, +74% YoY) and SKYCLARYS ($151M, +22% YoY) flagged as bull case; pending $5.6B Apellis deal and felzartamab Greater China rights ($850M from TJ Biopharma) are next catalyst clusters. Pivotal pipeline readouts beginning fiscal Q2 2026."
+  },
+  "raw_search_files": [
+    "BIIB_news-this-week.json",
+    "BIIB_analyst-rating.json",
+    "BIIB_earnings-catalyst.json"
+  ]
+}

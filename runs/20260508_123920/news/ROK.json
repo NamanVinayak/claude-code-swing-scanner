@@ -1,0 +1,70 @@
+{
+  "ticker": "ROK",
+  "researched_at": "2026-05-08T19:40:00Z",
+  "news_items": [
+    {
+      "headline": "Rockwell Automation Inc Stock (ROK) Moved Up by 10.72% on May 5",
+      "url": "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",
+      "date": "2026-05-05",
+      "sentiment": "positive",
+      "summary": "ROK shares gained 10.72% on May 5, 2026 in pre-earnings/earnings-day momentum, a notably above-average move for an industrial automation large-cap."
+    },
+    {
+      "headline": "ROK Stock Surges 5.4% on May 6, 2026 After Strong Earnings Beat",
+      "url": "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "ROK closed at $459.35 (+5.37%) on May 6, 2026 after fiscal Q2 2026 earnings beat. Volume hit 1.18M shares, well above average. Stock now near 52-week high of $463.49 with $51.7B market cap."
+    },
+    {
+      "headline": "Why Rockwell Automation (ROK) Is Up 8.6% After Raising 2026 Guidance On Strong Q2 Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Q2 FY2026 adjusted EPS $3.30 vs $2.92 consensus; revenue $2.24B vs ~$2.18B expected. Management raised FY2026 outlook to ~$8.9B revenue with higher EPS guidance, citing strong demand from data centers, semiconductors, and warehouse automation."
+    },
+    {
+      "headline": "Rockwell Automation Surges After Blowout Earnings Beat",
+      "url": "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "TipRanks reports ROK posted top- and bottom-line beats with double-digit growth in warehouse automation, data centers, and semiconductors driving the revised full-year outlook."
+    },
+    {
+      "headline": "Rockwell Automation Inc (NYSE:ROK) Q2 Results and Guidance Beat Smashes Expectations",
+      "url": "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "ChartMill highlights Q2 earnings and guidance both surpassed expectations, reinforcing ROK's leadership in industrial automation and digital transformation."
+    },
+    {
+      "headline": "Should Rockwell's Stronger Q2 2026 Profitability Shift the Investment Thesis?",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-rok/rockwell-automation/news/should-rockwells-stronger-q2-2026-profitability-shift-the-in",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Simply Wall St examines whether the stronger Q2 2026 profitability profile warrants a thesis upgrade for ROK investors."
+    },
+    {
+      "headline": "Rockwell Automation (ROK) Sees Analyst Rating Update from Baird",
+      "url": "https://www.gurufocus.com/news/8757097/rockwell-automation-rok-sees-analyst-rating-update-from-baird-rok-stock-news",
+      "date": "2026-05-07",
+      "sentiment": "neutral",
+      "summary": "Baird issued a post-earnings analyst rating update on ROK. Sentiment direction not specified in the result snippet."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 420.88,
+    "recent_changes": "Post-earnings (May 6-7, 2026) saw multiple firms downgrade to Hold and trim price targets — Wall Street Zen, Jefferies, Wells Fargo, and Barclays — suggesting valuation concerns now that ROK trades near its 52-week high ($463.49) above the $420.88 average PT. Baird also issued an update. Aggregate consensus remains 19 buys / 2 holds / 0 sells (Moderate Buy)."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 89,
+    "notes": "Most recent print (fiscal Q2 2026, reported ~May 6) beat on both lines: adj EPS $3.30 vs $2.92 consensus, revenue $2.24B vs $2.18B. Management raised FY2026 guidance to ~$8.9B revenue with higher EPS. Demand strength cited in data centers, semiconductors, energy, and warehouse automation. Next catalyst is Q3 FY2026 print on Aug 5, 2026 — well outside the 3-day blackout window."
+  },
+  "raw_search_files": [
+    "ROK_news-this-week.json",
+    "ROK_analyst-rating.json",
+    "ROK_earnings-catalyst.json"
+  ]
+}

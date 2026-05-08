@@ -1,0 +1,70 @@
+{
+  "ticker": "BROS",
+  "researched_at": "2026-05-08T19:50:00Z",
+  "news_items": [
+    {
+      "headline": "Dutch Bros Inc. Reports First Quarter 2026 Financial Results",
+      "url": "https://www.businesswire.com/news/home/20260506549768/en/Dutch-Bros-Inc.-Reports-First-Quarter-2026-Financial-Results",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Q1 2026 revenue $464.4M (+30.8% YoY) beat $449.37M consensus; adj EPS $0.16 vs $0.15 est; system same-shop sales +8.3%; 41 new shops opened to 1,177 total."
+    },
+    {
+      "headline": "Dutch Bros (NYSE:BROS) Q1 2026 Beat and Raised Guidance Can't Stem After-Market Selloff",
+      "url": "https://www.chartmill.com/news/BROS/Chartmill-47380-Dutch-Bros-NYSEBROS-Q1-2026-Beat-and-Raised-Guidance-Cant-Stem-After-Market-Selloff",
+      "date": "2026-05-06",
+      "sentiment": "negative",
+      "summary": "Despite the clean beat-and-raise, BROS sold off ~4.8% after-hours on classic 'buy the rumor, sell the news' dynamics following a strong pre-earnings rally."
+    },
+    {
+      "headline": "Dutch Bros reports strong Q1 growth, guides for 185 new shops this year",
+      "url": "https://seekingalpha.com/news/4587404-dutch-bros-reports-strong-q1-growth-guides-for-185-new-shops-this-year",
+      "date": "2026-05-06",
+      "sentiment": "positive",
+      "summary": "Company raised FY2026 revenue guide to $2.05B-$2.08B and adj EBITDA to $370M-$380M; now expects to open at least 185 new shops in 2026 vs prior plan."
+    },
+    {
+      "headline": "Why Did Dutch Bros Stock Just Crash?",
+      "url": "https://www.fool.com/investing/2026/05/07/why-did-dutch-bros-stock-just-crash/",
+      "date": "2026-05-07",
+      "sentiment": "negative",
+      "summary": "Motley Fool covers post-earnings crash; cites profit-taking after pre-earnings rally and McCafe/McDonald's beverage competition overhang despite strong fundamentals."
+    },
+    {
+      "headline": "DA Davidson raises Dutch Bros stock price target on strong sales",
+      "url": "https://www.investing.com/news/analyst-ratings/da-davidson-raises-dutch-bros-stock-price-target-on-strong-sales-93CH-4668684",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "DA Davidson raised price target to $75 from $70, maintained Buy rating, citing strong sales execution and same-shop sales growth."
+    },
+    {
+      "headline": "UBS reiterates Dutch Bros stock rating on food rollout momentum",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-reiterates-dutch-bros-stock-rating-on-food-rollout-momentum-93CH-4629729",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "UBS reiterated Buy rating with $85 price target citing food rollout momentum; analyst Dennis Geiger argues McDonald's competition concerns are overblown."
+    },
+    {
+      "headline": "Dutch Bros earnings up next: Can traffic momentum outlast rivals?",
+      "url": "https://ng.investing.com/news/earnings/dutch-bros-earnings-up-next-can-traffic-momentum-outlast-rivals-93CH-2487285",
+      "date": "2026-05-05",
+      "sentiment": "neutral",
+      "summary": "Pre-earnings preview noting McDonald's McCafe expansion (crafted sodas, refreshers, Red Bull-based energy drink launching Aug 2026) as competitive overhang on Dutch Bros' Rebel energy drink franchise."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 76.0,
+    "recent_changes": "Post-Q1 (May 6-7): UBS reiterated Buy at $85 PT; RBC Capital Outperform $75 PT; TD Cowen reiterated Buy $73 PT; DA Davidson raised PT to $75 from $70 (Buy). Aggregated: 33 Buy / 1 Hold / 0 Sell."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 earnings just reported May 6, 2026 (revenue $464.4M, adj EPS $0.16, beat-and-raise). Next quarterly report (Q2 2026) expected early August 2026. Street focus shifts to FY2026 raised guide ($2.05B-$2.08B revenue, $370M-$380M adj EBITDA, 185+ new shops) and McDonald's McCafe competitive response."
+  },
+  "raw_search_files": [
+    "BROS_news-this-week.json",
+    "BROS_analyst-rating.json",
+    "BROS_earnings-catalyst.json"
+  ]
+}

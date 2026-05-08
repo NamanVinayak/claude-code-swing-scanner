@@ -1,0 +1,21 @@
+{
+  "ticker": "COST",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Implied upside to consensus is thin: analyst_consensus_web shows avg_price_target $1,078 vs current_price $1,012.06 — only ~6.5% upside to consensus over 12 months. Setup is a long entry on a pullback bouncing into the watch_level $1,015 (within 0.3% of current price), giving a poor reward profile if the stock simply mean-reverts to its $1,078 target trajectory rather than breaking above $1,034.32 nearest_resistance. Most recent analyst actions (DA Davidson, Telsey, Wells Fargo) were April 9-10 and are already priced in — no fresh upgrade catalyst inside the 7-day window.",
+    "Earnings risk inside the trade window: earnings_context_web confirms next_earnings_date 2026-05-28 (days_until_next=20). For a typical swing hold of 5-15 sessions, the trade is squarely in the run-up to a binary event with the stock already trading above EMA50/EMA200 and z_score_50=0.99 (~1 standard deviation above 50-day mean). Pre-earnings de-risking by funds is a known headwind, and Catalyst Watch (Seeking Alpha, 2026-05-04) explicitly flagged the May 28 print as the key near-term event — meaning option-implied volatility crush works against a pre-print long that fails to break $1,034.",
+    "Fundamental top-line tailwind is partially fuel-driven, not core: Yahoo/web_research item dated 2026-05-07 reports April net sales +13% YoY but explicitly notes the gain was 'partially driven by elevated fuel prices benefiting gas station operations.' Fuel is a low-margin pass-through — strips out, the comparable membership/merchandise growth is meaningfully softer than the headline suggests. Combined with 21-day momentum (roc_21d=-1.62) being negative and daily volume_bias_10d='down', the stock is not behaving like a name with thesis-confirming demand acceleration; it's grinding. Premium retailer multiples (data not available in current bundle to cite specific P/E vs sector) compress quickly when comp growth disappoints into a hyped print."
+  ],
+  "bull_acknowledgements": [
+    "April net sales of $23.92B (+13% YoY) is genuinely ahead of expectations, and last quarter's revenue (~$69.6B) and EPS ($4.58) beat both lines — fundamental momentum is real, not deteriorating.",
+    "Analyst consensus is constructive: 23 Buy / 12 Hold / 2 Sell across 27 analysts with no downgrades in the last 7 days, and the trend is firmly intact (above EMA 5/10/20/50/200 simultaneously, ema_aligned_uptrend=true).",
+    "recent_insider_trades is empty for the last 30 days — no executive selling cluster to point at, which removes one of the strongest fundamental bear tells."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/quote/COST/news/",
+    "https://247wallst.com/investing/2026/05/07/prediction-costco-will-trade-at-this-price-in-1-year/",
+    "https://seekingalpha.com/news/4529034-catalyst-watch-spotlight-on-the-fed-costco-earnings-and-nasdaq-100-additions"
+  ]
+}

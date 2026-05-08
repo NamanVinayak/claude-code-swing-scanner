@@ -1,0 +1,28 @@
+{
+  "ticker": "CRWD",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 506.00, "high": 509.00},
+  "target": 528.00,
+  "stop": 494.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Multi-catalyst stack confirmed within 7 days: (1) Anthropic Project Glasswing AI-security partnership drove +6.71% on 2026-05-07 (tradingkey.com); (2) Falcon OverWatch for Defender launch on 2026-05-06 expands TAM into Microsoft Defender installed base (stocktitan.net); (3) Falcon-Claude Opus 4.7 integration positioned as key threat-detection differentiator (benzinga.com 2026-05-04). Sentiment on all 6 recent_news_7d items = positive.",
+    "Analyst tape supportive into June 3 earnings: analyst_consensus_web rating = buy with avg PT $510.52 (current $505.72, ~1% to consensus); Mizuho upgraded to Outperform and raised PT to $520 from $490 on 2026-04-27; Wells Fargo reiterated Overweight on 2026-05-05; 35 Buy / 18 Hold / 1 Sell across 43-46 analysts. earnings.days_until_next = 26 — well outside the 3-day forward earnings blackout.",
+    "Trend math confirms breakout regime: ADX(14) = 26.93 with +DI 40.59 vs -DI 17.41 (strong directional uptrend); EMAs aligned uptrend across 5/10/20/50/200; price +13.45% over 5 days (roc_5d) on relative_volume 1.65x with OBV trending up; 2026-05-07 candle closed at $505.72 on the high (high $506.79 = recent_high), pushing daily Bollinger %B to 1.019 (upper band breach). R:R math: midpoint entry $507.50, stop $494 = $13.50 risk; target $528 = $20.50 reward = 1.52:1 — close call, sized accordingly. Acknowledge: rsi_14 = 75.59 and rsi_7 = 79.45 are extended (z_score_50 = 2.7), so this is a momentum continuation trade not a fresh-ground entry."
+  ],
+  "risks_acknowledged": [
+    "rsi_14 = 75.59, rsi_7 = 79.45, daily Bollinger %B = 1.019 (above upper band), and z_score_50 = 2.7 all signal extended/overbought conditions — pullback to $494 invalidation is a real possibility before continuation.",
+    "Daily and hourly rsi_divergence.bearish = true — momentum has been weakening relative to price on the last leg up; classic warning sign that the breakout could fail.",
+    "Stage 2 catalyst_note flagged a -1.3% overnight gap down ($505.48 -> $498.89 premarket), so the breakout requires a reclaim of $506 to confirm; entry zone is calibrated to that reclaim trigger.",
+    "recent_insider_trades is empty — no insider buying confirmation to corroborate the catalyst case; reliance is entirely on news flow + analyst tape + price action."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261870218-market-movers-crwd-20260507",
+    "https://www.fxleaders.com/news/2026/05/07/crwd-stock-breaks-500-on-partner-app-launch-and-earnings-date-amid-ai-concerns/",
+    "https://www.stocktitan.net/news/CRWD/crowd-strike-falcon-over-watch-for-defender-extends-managed-threat-t3tfc3raxdsk.html",
+    "https://www.quiverquant.com/news/CrowdStrike+Stock+(CRWD)+Opinions+on+Anthropic+Project+Glasswing",
+    "https://www.benzinga.com/trading-ideas/movers/26/05/52382626/crowdstrike-stock-gains-on-new-ai-cybersecurity-push-partner-app-launch",
+    "https://www.tradingkey.com/news/market-movers/261853095-market-movers-crwd-20260504"
+  ]
+}

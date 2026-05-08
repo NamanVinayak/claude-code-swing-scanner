@@ -1,0 +1,11 @@
+{
+  "ticker": "PPC",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 30.0,
+  "invalidation_level": 31.0,
+  "catalyst_note": "Sector laggard decline setup — stock already in downtrend below 50-day MA, watching for breakdown below $30 round-number support to confirm continuation.",
+  "conviction": 2,
+  "notes": "Stage 1 score: 1 (weakest possible — single signal: sector_laggard_decline only). Premarket volume is exactly 0 with avg_volume_10d of 0.0 — no premarket trading data at all, cannot confirm momentum or institutional interest pre-open. Overnight gap: 0.0% — setup not played out but also zero confirmation of continuation. No earnings risk (days_until_next=82). New ticker — no wiki setup history, no recent_tldr, regime context is a bootstrap placeholder with no actionable content. Watch level set at $30.00 (round-number support break below last close of $30.40); invalidation at $31.00 (above close, swing resistance area). With only one weak Stage 1 signal, zero premarket volume data, and no historical context, conviction is 2. Would recommend deprioritizing in favor of candidates with multiple signals and confirmed premarket activity."
+}

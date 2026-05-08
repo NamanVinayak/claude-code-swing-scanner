@@ -1,0 +1,11 @@
+{
+  "ticker": "SRAD",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Price gapping UP +1.98% against the short thesis with zero premarket volume and a single weak Stage 1 signal (sector_laggard_decline); no evidence of sellers stepping in.",
+  "conviction": 2,
+  "notes": "Setup broken. Direction is short, but premarket last_price=$13.91 vs close=$13.64 is an adverse gap of +1.98% — price moving the wrong way before the open. Premarket volume=0 (volume_ratio=null) means there is no premarket confirmation of selling pressure or continuation of the decline that Stage 1 flagged. Stage 1 score=1 (only sector_laggard_decline) — the weakest possible signal count; no multi-reason trifecta supporting the short. New ticker with no wiki history (new_ticker=true, setup_history and recent slices both missing) — no prior setup context to lean on. Macro regime slice is a bootstrap placeholder with no actionable content. With an adverse premarket gap, zero volume, and a single-reason Stage 1 trigger, there is no credible short setup to monitor at open."
+}

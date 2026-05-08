@@ -1,0 +1,11 @@
+{
+  "ticker": "COKE",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Bearish episodic pivot setup requires heavy volume confirmation of a sharp down-move, but premarket volume is zero and price has ticked up +0.73% against the short thesis.",
+  "conviction": 2,
+  "notes": "Stage 1 flagged bearish_episodic_pivot (score=1, single reason). BEP setup requires -8%+ daily drop with 3x+ volume — that move is NOT visible in premarket: last_price=$179.30 vs close=$178.00, gap=+0.73% (against short direction). Premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null — no volume data at all, so there is zero confirmation that the pivot momentum is carrying forward. Gap against the short thesis is below the 5% hard-invalidation threshold but directionally adverse. With a single weak signal, no wiki history (new_ticker=true), no premarket volume, and a slight bid-side bounce, the setup cannot be validated this morning. Dropping."
+}

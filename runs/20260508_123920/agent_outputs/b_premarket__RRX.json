@@ -1,0 +1,11 @@
+{
+  "ticker": "RRX",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "mean_reversion",
+  "watch_level": 204.00,
+  "invalidation_level": 210.00,
+  "catalyst_note": "Bearish episodic pivot setup expects a bounce before shorting — the +0.80% overnight gap UP is the anticipated dead-cat recovery; short triggers only on failure below $204 confirming rejection.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged single reason: bearish_episodic_pivot (score=1). Direction is short. Premarket gap is +0.80% UP — for a BEP short this is the expected post-pivot bounce, not a thesis-breaker (well below the 5% invalidation threshold). However, premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null — zero volume confirmation of directional intent in either direction. Cannot assess whether the bounce is weak (shorting opportunity) or gaining momentum. New ticker with no wiki history; all slices missing. Regime page is a bootstrap placeholder, unusable. Stage1 score of 1 (single signal) is thin — no corroborating signals. No earnings risk (88 days out). Watch level $204.00 is below yesterday's close ($205.60), requiring a confirmed rejection of the bounce before entry. Invalidation $210.00 is ~2.3% above current premarket price — a rally through that level would suggest the BEP pivot is being absorbed by buyers, not sellers. Conviction capped at 3: single signal, zero volume data, no wiki history, unknowable regime, and setup confirmation requires a price move that has not yet occurred."
+}

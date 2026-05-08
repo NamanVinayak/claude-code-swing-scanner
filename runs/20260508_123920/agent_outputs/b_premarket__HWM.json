@@ -1,0 +1,11 @@
+{
+  "ticker": "HWM",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 275.00,
+  "invalidation_level": 270.50,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up; premarket is holding a modest +0.86% gap above yesterday's $272.39 close, but zero premarket volume data prevents confirmation of institutional participation.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup history, no recent_tldr, regime context is a bootstrap placeholder (empty). Rely solely on Stage 1 signals and premarket data. Two Stage 1 signals (tv_breakout_up, tv_trending_up) both point long and are internally consistent — trending stock attempting a breakout. Premarket gap of +0.86% ($272.39 → $274.75) is constructive and well below the 5% played-out threshold, so the setup has NOT already run. However, premarket volume = 0 and volume_ratio = null — there is no evidence of above-average pre-open participation, which meaningfully reduces conviction on the breakout read. Earnings are 90 days out (no near-term risk). Watch level $275.00 represents a clean break above the premarket print; invalidation $270.50 gives a cushion below the prior close to filter noise. Conviction capped at 5 due to absent volume confirmation and no wiki/regime context."
+}

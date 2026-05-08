@@ -1,0 +1,11 @@
+{
+  "ticker": "CAR",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 152.00,
+  "invalidation_level": 155.00,
+  "catalyst_note": "Sector laggard decline signal intact with small overnight gap down (-0.77%), but setup requires a clean break below $152 on real volume to confirm continuation pressure.",
+  "conviction": 3,
+  "notes": "Stage1 score = 1 (minimum), single reason: sector_laggard_decline. Premarket price $153.11, gap down -0.77% — directionally aligned for short but tiny move with zero premarket volume (volume=0, avg_volume_10d=0.0, ratio=null). No volume confirmation of seller presence whatsoever; cannot distinguish genuine weakness from illiquid overnight drift. New ticker — no wiki setup history, no recent_tldr, regime_tldr is bootstrap placeholder (treated as no macro context). No near-term earnings risk (days_until_next=82). Watch level $152.00 = break below premarket low and round support; invalidation $155.00 = recapture above yesterday's close ($154.30) kills the laggard thesis. Conviction capped at 3: thin Stage1 case, absent premarket volume, and no wiki base to draw pattern confidence from. Passes to Stage3 only if volume materializes at open."
+}

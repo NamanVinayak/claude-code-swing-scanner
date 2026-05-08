@@ -1,0 +1,11 @@
+{
+  "ticker": "KTOS",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket price gapped UP +1.77% against the short thesis on zero volume, with no corroborating signals beyond a single weak sector_laggard_decline reason.",
+  "conviction": 2,
+  "notes": "Setup invalid. Direction is short, but KTOS gapped up from $56.95 close to $57.96 premarket (+1.77%), which is counter-directional for a short setup. Per short-setup rules, a premarket gap up that breaks the bearish thesis = no. Stage 1 score is only 1 (weakest possible), with a single reason code (sector_laggard_decline) and no corroborating signals. Premarket volume is 0 — no confirmation of any directional move whatsoever. New ticker with no wiki history; relying solely on Stage 1 data. Earnings 90 days out (no near-term risk, but not a positive catalyst either). Macro regime wiki is a bootstrap placeholder — no usable regime context. With a counter-direction gap, a single weak signal, and zero premarket volume, this name has no actionable short setup this morning."
+}

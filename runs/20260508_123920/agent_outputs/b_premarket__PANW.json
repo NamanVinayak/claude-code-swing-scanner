@@ -1,0 +1,11 @@
+{
+  "ticker": "PANW",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 196.33,
+  "invalidation_level": 192.00,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_strong_buy, but price faded -0.76% overnight against the long setup; breakout thesis survives only if regular session reclaims prior close at $196.33.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup history; rely solely on Stage 1 signals and premarket data. Overnight gap is -0.764% (adverse for long, but well under the 5% kill threshold). Premarket volume = 0, volume_ratio = null — no premarket confirmation of buying interest whatsoever. For a breakout setup, price holding below prior close ($196.33) is a yellow flag: the breakout level has not been defended overnight. Watch level set at the prior close ($196.33) as the line the stock must reclaim intraday to confirm the breakout is still live. Invalidation at $192.00 (~2.5% below last close), a round number below the premarket price that would signal the move is failing. No earnings risk (25 days out). Regime context is a bootstrap placeholder — no macro read available; cannot assess risk-off discount. Conviction capped at 4: setup is structurally intact but weakened by adverse fade, zero premarket volume, and no wiki history to cross-reference."
+}

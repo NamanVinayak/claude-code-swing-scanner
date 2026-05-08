@@ -1,0 +1,11 @@
+{
+  "ticker": "WLK",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 96.90,
+  "invalidation_level": 98.60,
+  "catalyst_note": "Sector laggard showing relative weakness; short thesis intact on a breakdown below $97 but no premarket volume or secondary signal provides confirmation.",
+  "conviction": 3,
+  "notes": "Single Stage 1 signal (sector_laggard_decline, score=1 — minimum threshold). Premarket gap is +0.01% ($97.38 → $97.39), negligible — does not break the short thesis. Premarket volume = 0 shares (avg_volume_10d = 0.0, volume_ratio null): zero price discovery pre-market, no institutional engagement visible. New ticker — no wiki setup_history, no recent_tldr. Regime slice is a bootstrap placeholder with no usable macro context. Earnings 88 days out — no near-term event risk. Setup is technically alive (flat pre-market, no gap against thesis, no earnings blackout) but evidence base is extremely thin: one mechanical screener hit, no volume, no wiki history, no macro overlay, no catalyst. Watch level set at $96.90 (breakdown below round-number support at $97.00). Invalidation at $98.60 (~1.25% above close, clears prior day's implied range top). Conviction capped at 3 — single-signal short with zero premarket engagement."
+}

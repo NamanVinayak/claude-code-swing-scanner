@@ -1,0 +1,11 @@
+{
+  "ticker": "VG",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Single sector_laggard_decline signal with premarket gap UP (+0.86%) against the short thesis, zero premarket volume, and earnings in 4 days — setup does not meet the bar for Stage 3.",
+  "conviction": 2,
+  "notes": "Stage 1 score = 1 (minimum threshold, weakest possible signal: sector_laggard_decline only). Premarket: last_price=$11.79 vs close=$11.69, overnight_gap_pct=+0.86% — gap is UP, which is directionally against a short setup; per rules a gap UP on a short thesis is a warning flag. Premarket volume = 0 shares with no volume_ratio — cannot confirm any premarket participation or genuine directional conviction. Earnings days_until_next = 4: just outside the 3-day hard blackout but entering the earnings event risk window; shorting 4 days before earnings is structurally high-risk (binary outcome risk). New ticker (wiki_context.new_ticker=true): no setup history, no recent wiki, regime is bootstrap placeholder — zero historical context to lean on. Combination of single weak signal + gap against direction + no premarket volume + near-earnings risk disqualifies this candidate."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "CHKP",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Sector laggard decline signal with zero premarket volume and a single Stage 1 reason provides insufficient evidence to confirm a tradeable short setup this morning.",
+  "conviction": 2,
+  "notes": "Stage 1 score is 1 (minimum) with only `sector_laggard_decline` as the reason — the weakest possible short qualification. Premarket volume is 0 shares (avg_volume_10d: 0.0, volume_ratio: null), meaning there is no premarket participation to confirm directional bias. Overnight gap is +0.087% (essentially flat) — no disqualifying move against direction, but also no confirmation. New ticker (wiki_context.new_ticker: true); no setup history, no recent TL;DR, no regime context (bootstrap placeholder only). Facts bundle contains no OHLCV or indicator data from which to derive precise support/resistance levels — watch_level and invalidation_level cannot be responsibly set. With a single weak signal, zero premarket volume confirmation, and no wiki or macro context, this name does not clear the bar for Stage 3 adversarial review today."
+}

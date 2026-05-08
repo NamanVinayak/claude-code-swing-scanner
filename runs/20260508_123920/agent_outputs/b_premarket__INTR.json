@@ -1,0 +1,11 @@
+{
+  "ticker": "INTR",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 6.60,
+  "invalidation_level": 7.00,
+  "catalyst_note": "Stage 4 momentum breakdown + bearish episodic pivot signal pair on a downtrending small cap; short triggers on a break below yesterday's $6.70 close.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup history or recent technicals. Regime page is bootstrap placeholder only. Stage 1 reasons are both short-setup screener hits (stage4_momentum_breakdown + bearish_episodic_pivot), score 2. Premarket gap is +0.597% UP ($6.70 → $6.74) — adverse for a short but well under the 5% threshold; does not break the thesis. Premarket volume = 0, avg_volume_10d = 0.0 — no premarket liquidity data available, consistent with a low-priced small cap ($6.74). Earnings 89 days out, no near-term risk. Watch level $6.60 is a break below yesterday's close confirming renewed selling pressure; invalidation $7.00 is a round-number reclaim that would invalidate Stage 4 breakdown logic. Conviction held at 4: setup signals are valid but new ticker with zero wiki context, zero premarket volume confirmation, and a small adverse premarket gap collectively limit confidence. Short-borrow availability risk on a $6.74 small cap is an additional unquantified factor."
+}

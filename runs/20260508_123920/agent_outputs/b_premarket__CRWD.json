@@ -1,0 +1,11 @@
+{
+  "ticker": "CRWD",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 506.00,
+  "invalidation_level": 494.00,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy + tv_breakout_up, but a -1.3% overnight gap down has pushed price back below yesterday's close ($505.48 → $498.89 premarket), requiring reclaim of that level to confirm the breakout is still in play.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup_history or recent technicals available; regime context is a bootstrap placeholder. Relying solely on Stage 1 signals and premarket data. Gap of -1.304% is against the long direction, weakening but not breaking the thesis (< 5% threshold). Premarket volume is 0 with avg_volume_10d = 0.0 — volume confirmation is entirely absent, which is a meaningful data gap for a breakout setup that depends on volume participation. Watch level set at $506.00 (clearing yesterday's close re-confirms the breakout); invalidation at $494.00 (round-number support ~2% below current premarket, loss of which signals a more serious breakdown). Conviction reduced to 4: weak premarket action, no volume data, no wiki history, and a gap-down against the long setup direction all compound uncertainty."
+}

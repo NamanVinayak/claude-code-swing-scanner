@@ -1,0 +1,11 @@
+{
+  "ticker": "WHR",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 47.50,
+  "invalidation_level": 49.50,
+  "catalyst_note": "Minervini Stage 4 structural breakdown (close below inverted SMA50/SMA200 stack) and bearish episodic pivot signal intact, but zero premarket volume and a small +0.60% counter-gap provide no short-side confirmation this morning.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki setup history, no recent_tldr, regime is a bootstrap placeholder (no usable macro context). Stage 1 signals: stage4_momentum_breakdown + bearish_episodic_pivot (stage1_score=2). Premarket: last_price=$48.29 vs close=$48.00, gap_pct=+0.60% (against short thesis but within noise tolerance — not a thesis-breaker). Premarket volume=0, volume_ratio=null — zero premarket participation means no short-side follow-through on either signal. Bearish episodic pivot requires heavy volume confirmation; that confirmation is absent. Stage 4 breakdown is structural and survives a 0.60% bounce, but entry needs intraday breakdown below $48.00 to confirm. Watch level set at $47.50 (clean break below close); invalidation at $49.50 (3%+ rally above close would negate momentum breakdown thesis). Conviction capped at 3: new ticker, zero premarket volume data, no wiki, no usable regime, weak premarket action."
+}

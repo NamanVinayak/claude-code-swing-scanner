@@ -1,0 +1,11 @@
+{
+  "ticker": "CHTR",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 160.0,
+  "invalidation_level": 162.5,
+  "catalyst_note": "Sector laggard decline signal — CHTR below key moving averages in a weak telecom sector; needs a breakdown below $160 to confirm the short setup is active.",
+  "conviction": 3,
+  "notes": "Single Stage 1 reason (sector_laggard_decline) — minimum signal strength. Premarket gap is +0.112% ($160.90 vs $160.72 close), negligible and not a directional threat to the short thesis. However, premarket volume is 0 with a null volume ratio — no institutional participation visible in pre-market, no momentum confirmation. New ticker: no wiki setup history, no recent_tldr, no prior setups to pattern-match against; regime context is a bootstrap placeholder only. Earnings risk is absent (77 days out). Direction not invalidated by the flat overnight, but the setup is thin: single weak signal + zero premarket volume = conviction capped at 3. Watch level set at $160.00 (breakdown below yesterday's intraday support zone near the close); invalidation at $162.50 (rally above close + ~1.1% buffer — would signal buyers stepping in and negating the laggard thesis). Stage 3 should only proceed if CHTR shows actual selling pressure at open."
+}

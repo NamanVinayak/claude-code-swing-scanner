@@ -1,0 +1,11 @@
+{
+  "ticker": "DOO",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Sector laggard decline setup flagged by Stage 1, but premarket is gapping UP +1.13% against the short thesis with zero premarket volume confirming no institutional participation.",
+  "conviction": 2,
+  "notes": "Setup rejected. Direction is short; per rules, a premarket gap UP against the short thesis = setup_valid no. Gap is modest (+1.13%, last_price $56.40 vs close $55.77) but combined with a Stage 1 score of 1 (minimum — only sector_laggard_decline fired, no technical signal confirmation), zero premarket volume (volume=0, volume_ratio=null), no wiki history (new_ticker=true, all slices missing), and a regime placeholder (bootstrap content only), there is no basis to advance. The single short-setup reason and adverse premarket drift leave insufficient edge for a short entry today."
+}

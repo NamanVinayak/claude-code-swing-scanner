@@ -1,0 +1,11 @@
+{
+  "ticker": "GPGI",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 12.85,
+  "invalidation_level": 13.25,
+  "catalyst_note": "Three distinct short-setup signals (Stage 4 momentum breakdown, bearish episodic pivot, sector laggard decline) intact overnight with only a -0.23% gap; breakdown below $12.85 would confirm continuation lower.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki history. Relying solely on Stage 1 signals and premarket data. Stage 1 flagged stage4_momentum_breakdown + bearish_episodic_pivot + sector_laggard_decline (score=3), all structurally valid short setups. Overnight gap is -0.23% ($13.00 → $12.97 premarket last), which is negligible — setup not played out and thesis not broken. Critical concern: premarket volume = 0 shares (avg_volume_10d also 0.0, volume_ratio null). Zero premarket volume signals an illiquid or inactive name at $13; no premarket confirmation of selling pressure. Watch level $12.85 is below the premarket last ($12.97) and below the prior close ($13.00), requiring an intraday breakdown to trigger. Invalidation at $13.25 gives ~2% buffer above close — any rally through that level negates the bearish setup. Earnings unknown (days_since_last=null, days_until_next=null) — cannot assess earnings risk; treat as latent risk. Macro regime is a bootstrap placeholder — treated as neutral (no adjustment applied). Conviction held at 4 (moderate-low): three clean signal types support the short thesis structurally, but zero volume and no wiki history prevent higher confidence. Do not enter without seeing actual intraday volume develop and price approaching watch level."
+}

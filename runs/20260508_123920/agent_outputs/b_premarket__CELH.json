@@ -1,0 +1,11 @@
+{
+  "ticker": "CELH",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Stage 4 momentum breakdown setup is invalidated by a premarket gap UP (+1.75%) against the short thesis, with zero premarket volume confirming no bearish participation.",
+  "conviction": 2,
+  "notes": "Direction is short (stage4_momentum_breakdown, stage1_score=1). Premarket last_price=$34.89 vs close=$34.2885 = +1.75% gap UP against short thesis. Per protocol, a premarket gap up that breaks the bearish thesis = setup_valid no. Premarket volume=0 and avg_volume_10d=0.0 (volume_ratio null) — no confirmation of breakdown momentum whatsoever. Earnings data unavailable (days_since_last and days_until_next both null), adding uncertainty. New ticker with no wiki history (setup_history and recent slices both missing; regime is bootstrap placeholder) — no edge from prior setups. Stage 1 score of 1 is the minimum threshold, making this already a borderline inclusion. Combined: gap direction wrong, zero volume signal, no wiki context, single weak Stage 1 reason — setup not tradeable."
+}

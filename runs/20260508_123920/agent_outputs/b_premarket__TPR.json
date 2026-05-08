@@ -1,0 +1,11 @@
+{
+  "ticker": "TPR",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "mean_reversion",
+  "watch_level": 130.00,
+  "invalidation_level": 135.00,
+  "catalyst_note": "Bearish episodic pivot flagged by Stage 1 (single signal); price is bouncing +1.92% pre-market but on zero volume, suggesting the short re-entry would trigger only if today's open rolls back below the prior close of $130.52.",
+  "conviction": 3,
+  "notes": "Direction: short. Stage 1 score = 1 (bearish_episodic_pivot only — weakest possible signal count). Premarket gap UP +1.92% ($130.52 close → $133.02) is a counter-thesis move; for a short, a gap up weakens the setup. However, gap does not exceed the 5% hard threshold, so setup is degraded rather than outright broken. Premarket volume = 0, avg_volume_10d = 0.0 — the $133.02 quote is on zero share volume and is unreliable; no confirmation of real buying interest. New ticker: no wiki setup history available — relying entirely on Stage 1 signal and premarket data. Earnings data unavailable (days_since_last and days_until_next both null) — cannot rule out a recent earnings release driving the bounce. Regime context is bootstrap placeholder; no macro weight applied. Watch level set at $130.00 (below prior regular-session close $130.52) to confirm resumption of downtrend; invalidation at $135.00 (gap-fill above would signal bounce has legs and thesis is broken). Low conviction (3) reflects: single Stage 1 reason, counter-direction gap, zero premarket volume, no wiki history, no earnings clarity."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "ROK",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 457.50,
+  "invalidation_level": 446.00,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up; premarket is holding +1.86% above yesterday's close at $456.89, consistent with a breakout continuation setup — but zero premarket volume reported leaves confirmation quality uncertain.",
+  "conviction": 5,
+  "notes": "Setup partially intact. The +1.86% overnight gap is within tolerance (well under the 5% played-out threshold) and aligns with the long direction. Stage 1 score of 2 (tv_breakout_up + tv_trending_up) is a clean directional read. However, premarket volume is reported as 0 with a null volume_ratio — cannot confirm demand-side participation, which is the key variable for a breakout entry. Watch level set at $457.50 (above premarket high of $456.89) to require intraday follow-through before entry. Invalidation at $446.00 (below prior close of $448.55, cushions against a fade back into range). Wiki has no setup history for ROK — relying solely on Stage 1 signals and premarket price action. Regime context is a bootstrap placeholder and cannot be weighted. Earnings clear at 90 days out. Conviction held at 5 (not higher) due to missing volume confirmation and empty wiki/regime context."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "PCVX",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Bearish episodic pivot setup requires sustained downward momentum, but PCVX gapped UP +1.77% overnight against the short thesis with zero premarket volume, providing no confirmation of continued selling pressure.",
+  "conviction": 2,
+  "notes": "Stage 1 flagged a single reason (bearish_episodic_pivot, score=1) — the weakest possible signal count. Premarket: last_price=$52.39 vs close=$51.48, gap=+1.77% against short direction. Premarket volume=0 shares (volume_ratio=null) — no institutional or retail participation in either direction. Gap up against a short thesis is a bearish-thesis breach; combined with zero premarket confirmation volume, the BEP setup has no morning follow-through evidence. New ticker — no wiki setup history to cross-reference. Macro regime placeholder only (no usable regime signal). Earnings 89 days out — not a factor. Rejecting: gap direction conflict + zero premarket volume + single lone signal = insufficient basis to carry into Stage 3."
+}

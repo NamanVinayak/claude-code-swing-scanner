@@ -1,0 +1,11 @@
+{
+  "ticker": "BIIB",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 191.38,
+  "invalidation_level": 187.50,
+  "catalyst_note": "TradingView strong_buy + trending_up signals intact, but premarket shows a mild -0.72% gap down with zero volume — setup is alive but unconfirmed; needs a reclaim of yesterday's close ($191.38) on real volume to validate the long.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup history, no recent_tldr, no regime context (bootstrap placeholder). Stage 1 signals are tv_strong_buy and tv_trending_up (score 2, moderate). Premarket last_price $190.00 vs close $191.38 is a small gap DOWN against the long direction — does not break the setup but reduces risk/reward. Premarket volume is 0 with null volume_ratio: no pre-market participant confirmation at all. Earnings blackout not a concern (days_until_next=83). Watch level set at $191.38 (reclaim of yesterday's close = minimal long confirmation); invalidation at $187.50 (approx 2% below close, below any reasonable near-term support given absence of wiki/price-level history). Conviction capped at 4: new ticker, no wiki, no premarket volume data, mild adverse gap, weak stage1 score."
+}

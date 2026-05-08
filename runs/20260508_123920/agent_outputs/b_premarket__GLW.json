@@ -1,0 +1,11 @@
+{
+  "ticker": "GLW",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 187.75,
+  "invalidation_level": 182.00,
+  "catalyst_note": "TradingView strong buy + trending up signals intact; +2.6% overnight gap is directionally aligned with the long thesis without fully exhausting the move.",
+  "conviction": 5,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Premarket last_price $187.23 vs close $182.40 — gap of +2.648%, within the <5% threshold so setup not played out. Gap direction aligns with long thesis. Watch level set just above premarket high ($187.75) for confirmed breakout continuation; invalidation at $182.00 just below the prior regular close to give the gap fill a small buffer. Premarket volume is 0 (volume_ratio null) — no confirmation of institutional participation, which is the primary reason for partial rather than yes. New ticker (new_ticker: true): no setup history, no recent wiki context. Macro regime slice is bootstrap placeholder only — no regime signal available. Earnings 81 days out — no event risk. Conviction capped at 5: clean signal pair and favorable gap, but zero premarket volume data prevents higher conviction."
+}

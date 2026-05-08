@@ -1,0 +1,11 @@
+{
+  "ticker": "MIDD",
+  "setup_valid": "no",
+  "direction": "long",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_breakout_up at $158.23 close, but no premarket price data is available to assess whether the breakout is holding or has reversed.",
+  "conviction": 2,
+  "notes": "Hard data gap: premarket.last_price is null, overnight_gap_pct is null, premarket volume is null. Cannot determine current price relative to the breakout trigger, cannot set meaningful watch or invalidation levels. New ticker (no wiki history) — no setup history or prior outcomes to draw on. Regime is a bootstrap placeholder providing no macro context. Stage 1 score of 2 (tv_strong_buy + tv_breakout_up) is valid signal quality, but with zero premarket data the setup cannot be verified as intact this morning. Earnings not a concern (89 days out). Drop from today's watchlist and re-scan tomorrow if premarket data becomes available."
+}

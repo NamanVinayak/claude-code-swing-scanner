@@ -1,0 +1,11 @@
+{
+  "ticker": "PRIM",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Short thesis (sector_laggard_decline) broken by a premarket gap UP of +1.30% to $108.90, moving price away from, not toward, downside entry.",
+  "conviction": 2,
+  "notes": "Direction is short. Premarket gapped UP +1.30% ($107.50 close → $108.90), which is counter-directional for a short setup — price is moving against the thesis before the open. Single Stage 1 reason (sector_laggard_decline, score=1), the minimum possible signal strength. Premarket volume is 0 with no volume_ratio — zero confirmation of any move. New ticker: no wiki history, no setup_history_tldr, no recent_tldr. Regime context is a bootstrap placeholder with no usable information. With the gap working against the short, no volume, and minimum signal score, there is no valid setup to pass to Stage 3."
+}

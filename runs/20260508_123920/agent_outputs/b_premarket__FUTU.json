@@ -1,0 +1,11 @@
+{
+  "ticker": "FUTU",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "FUTU gapped UP +4.67% overnight to $151.95 against a short thesis built on Stage 4 momentum breakdown and bearish episodic pivot — upside gap directly negates both bearish signals.",
+  "conviction": 2,
+  "notes": "Stage 1 flagged stage4_momentum_breakdown and bearish_episodic_pivot (score=2), both predicated on sustained downward momentum. Premarket shows last_price=$151.95 vs. prior close $145.17, a +4.67% gap UP — nearly at the 5% threshold and directionally contrary to the short setup. A Stage 4 breakdown thesis cannot survive a strong premarket gap up; a bearish episodic pivot is similarly negated by bullish overnight buying. No entry or invalidation levels set because the setup is structurally broken. New ticker (no wiki history) — relying solely on technical state from Stage 1 and premarket data. Premarket volume data is unavailable (volume=0, volume_ratio=null), which prevents confirming or dismissing the gap as a thin-market artifact; given the gap magnitude the benefit of the doubt goes to thesis invalidation. Macro regime slice is a bootstrap placeholder — no regime adjustment applied. Earnings 20 days out, no near-term earnings risk."
+}

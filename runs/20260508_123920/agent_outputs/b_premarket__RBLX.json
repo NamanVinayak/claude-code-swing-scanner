@@ -1,0 +1,11 @@
+{
+  "ticker": "RBLX",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 44.50,
+  "invalidation_level": 46.00,
+  "catalyst_note": "Sector laggard candidate holding just below yesterday's close with zero premarket volume — no confirmation of downside momentum, but short thesis not invalidated by an overnight bid.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki history. Regime context is a bootstrap placeholder (no usable macro signal). Single Stage 1 reason (sector_laggard_decline) is the weakest short signal class; no technical trifecta, no price/volume confirmation. Premarket is flat (-0.05%), premarket volume = 0 — short side needs a catalyst or breakdown to have edge. Short thesis is technically intact (no gap up through resistance), but zero premarket participation makes this speculative. Watch level set just below the close ($44.50) as a range-break trigger; invalidation at $46.00 (rally through prior session high breaks the laggard narrative). Conviction capped at 3: one weak signal, no wiki history, no premarket volume, no readable macro regime."
+}

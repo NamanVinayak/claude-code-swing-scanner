@@ -1,0 +1,11 @@
+{
+  "ticker": "NVST",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 23.80,
+  "invalidation_level": 24.60,
+  "catalyst_note": "Bearish episodic pivot signal (Stockbee BEP) flagged a sharp breakdown move; premarket flat at $24.19 (-0.41%) with no recovery, keeping the short thesis intact pending continuation below the pivot low.",
+  "conviction": 4,
+  "notes": "Stage 1 single signal: bearish_episodic_pivot (score=1). Premarket last_price=$24.19 vs close=$24.29 — gap of -0.41%, well within normal noise; no against-thesis gap (no gap UP), so short setup is not broken. However, premarket volume=0 and volume_ratio=null — zero confirmation of follow-through selling. New ticker (new_ticker=true): no wiki setup_history, no recent_tldr to draw on; analysis relies entirely on Stage 1 signal and premarket data. Macro regime is a bootstrap placeholder — no usable regime context; cannot assess VIX environment. Earnings 89 days out, no blackout risk. Watch level $23.80 is a clean continuation break below the premarket range for a short; invalidation $24.60 is a recovery above yesterday's close that would negate the bearish episodic pivot thesis. Conviction capped at 4: minimum signal count, zero premarket volume, no wiki history, no macro regime data."
+}

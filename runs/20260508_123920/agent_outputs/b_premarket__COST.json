@@ -1,0 +1,11 @@
+{
+  "ticker": "COST",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "pullback_to_support",
+  "watch_level": 1015.00,
+  "invalidation_level": 1005.00,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up; overnight gap is negligible (-0.04%), setup intact but zero premarket volume provides no directional confirmation.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup_history, no recent_tldr. Regime context is a bootstrap placeholder (uninformative). Relying solely on Stage 1 signals and premarket data. Premarket last_price $1,012.05 vs. close $1,012.50 — essentially flat, no disqualifying move. Premarket volume = 0 shares (volume_ratio null) — COST is a mega-cap where thin premarket is common, but absence of any activity means no confirmation of today's trend continuation. Stage 1 signals (tv_strong_buy + tv_trending_up, no tv_breakout_up) point to uptrend continuation rather than fresh breakout; best classified as pullback-to-support. Watch level $1,015 requires intraday buyers to step in above the flat open. Invalidation $1,005 is a clean break below the prior close + buffer, negating the trending thesis. Earnings 20 days out — no blackout. Conviction held at 4: setup is intact but unconfirmed, new ticker with no history, and regime context unavailable."
+}

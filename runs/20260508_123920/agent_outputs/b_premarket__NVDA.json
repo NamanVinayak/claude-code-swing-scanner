@@ -1,0 +1,11 @@
+{
+  "ticker": "NVDA",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 213.50,
+  "invalidation_level": 211.00,
+  "catalyst_note": "TradingView STRONG_BUY + TRENDING_UP signals on a 1592-stock universe; overnight gap of +0.88% is modest and has not exhausted the breakout move, but premarket volume data is entirely unavailable (volume=0, ratio=null), making momentum confirmation impossible pre-open.",
+  "conviction": 5,
+  "notes": "New ticker — no wiki setup_history or recent_tldr to reference; relying solely on Stage 1 signals and premarket data. Stage 1 score=2 (tv_strong_buy, tv_trending_up): both are top-tier TradingView signals and give a clean directional read. Overnight gap of +0.879% from $211.61 close to $213.47 premarket is well below the 5% played-out threshold — setup not exhausted. However, premarket.volume=0 and volume_ratio=null indicate no reliable volume confirmation; this alone warrants downgrading from 'yes' to 'partial' — a breakout without volume is a weaker breakout. Watch level set at $213.50 (above current premarket price, confirming intraday continuation). Invalidation set at $211.00 (below yesterday's close of $211.61; a break here negates the trend signal). Earnings in 12 days — clear of the 3-day blackout. Macro regime wiki slice is a bootstrap placeholder ('_Bootstrap placeholder._') — no macro adjustment applied; if VIX is elevated today, this conviction should be trimmed by 1-2 points. No stale markers present."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "LBRDK",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gapped UP +2.1% against the short thesis, directly breaking the bearish setup before the session opens.",
+  "conviction": 2,
+  "notes": "Short thesis from Stage 1 was based solely on sector_laggard_decline (stage1_score=1, minimum signal strength). Premarket shows last_price=$38.16 vs close=$37.37, an overnight gap of +2.114% — a gap UP against a short setup invalidates the thesis per direction-aware rules. Premarket volume is 0 (no volume data available), providing no confirming bearish flow. Earnings fields are both null. New ticker with no wiki history; regime context is a bootstrap placeholder with no usable information. Drop: gap-against-direction + single weak signal + no supporting data."
+}

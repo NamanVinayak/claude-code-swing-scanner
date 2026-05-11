@@ -1,0 +1,9 @@
+{
+  "today_watchlist": [],
+  "meta": {
+    "total_evaluated": 0,
+    "total_kept": 0,
+    "dropped_count": 40,
+    "ranking_rationale": "no survivors from premarket filter \u2014 stage1 watchlist is 87.7h old (max 24h); need fresh b_scan"
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "run_id": "20260512_124040",
+  "review_timestamp_pt": "2026-05-12T05:40:40-07:00",
+  "source_run_id": "20260507_211015",
+  "source_path": "runs/20260507_211015/tomorrow_watchlist.json",
+  "candidates_in": 40,
+  "survivors": [],
+  "decisions": [
+    {
+      "ticker": "NET",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "MKSI",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "GPGI",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "NVDA",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "COST",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "PANW",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "GLW",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "CRWD",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "HWM",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "ROK",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "NTRA",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "BIIB",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "FUTU",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "MIDD",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "WHR",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "FSLY",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "INTR",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "RBLX",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "VG",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "TPR",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "ASTS",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "CHTR",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "PAYP",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "RRX",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "WLK",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "CHKP",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "COKE",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "PODD",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "KTOS",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "BROS",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "CELH",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "PCVX",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "CHYM",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "PPC",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "PRIM",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "CAR",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "LBRDK",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "SRAD",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "DOO",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    },
+    {
+      "ticker": "NVST",
+      "keep": false,
+      "drop_reasons": [
+        "stage1_too_old"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": null
+    }
+  ],
+  "errors": [],
+  "elapsed_seconds": 0.001065958000253886
+}

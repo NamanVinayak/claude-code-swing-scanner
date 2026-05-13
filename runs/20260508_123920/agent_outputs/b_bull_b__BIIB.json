@@ -2,20 +2,20 @@
   "ticker": "BIIB",
   "setup_direction": "long",
   "bull_strength": 5,
-  "entry_zone": {"low": 191.40, "high": 192.50},
-  "target": 197.50,
-  "stop": 187.50,
-  "expected_holding_days": 7,
+  "entry_zone": {"low": 191.50, "high": 192.50},
+  "target": 200.50,
+  "stop": 188.00,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Catalyst stack from earnings_context_web: Q1 2026 (reported 2026-04-29) delivered revenue $2.48B with EPS beat; growth drivers LEQEMBI ($168M, +74% YoY) and SKYCLARYS ($151M, +22% YoY) flagged as bull case, with pending $5.6B Apellis deal and $850M felzartamab Greater China rights (TJ Biopharma) as next catalyst clusters and pivotal pipeline readouts beginning fiscal Q2 2026 — narrative momentum into pipeline catalysts.",
-    "Recent analyst flow per recent_news_7d: Canaccord Genuity reiterated Buy on 2026-05-04 citing pipeline and growth-product momentum (marketbeat); Barclays maintained Hold on 2026-05-05 (gurufocus). analyst_consensus_web shows Moderate Buy (11 buy / 13 hold / 1 sell), median PT $190 with longer-dated 12-month avg targets cited at $208–$214 — sell-side floor is at/near current price with upside skew.",
-    "Trend confirmation in facts: ema_aligned_uptrend=true with price stacked above all MAs (price_vs_ma above_ema_5/10/20/50/200 all true; pct_from_sma_50=3.79, pct_from_sma_200=15.49); daily ADX 26.45 plus_di 38.47 vs minus_di 14.18 = strong uptrend, MACD histogram +0.836 expanding, daily OBV trend up, hourly relative_volume 1.25 with hourly RSI_21 68.58 — entry above watch_level 191.38 targets prior pivot 192.99 then swing high 195.98 / fib_ext_1272 daily 203.42; entry-mid 191.95 to stop 187.50 = $4.45 risk vs target 197.50 = $5.55 reward, R:R 1.25:1 (below 2:1, flagged as research gap)."
+    "Fresh analyst catalyst within last 7d: Canaccord Genuity reiterated Buy on 2026-05-04 citing pipeline and growth-product momentum (marketbeat URL in recent_news_7d); analyst_consensus_web is Moderate Buy (11 buy / 13 hold / 1 sell) with sources citing $208-$214 12-month avg targets — provides narrative cover for a breakout reclaim of watch_level 191.38.",
+    "Growth-product narrative still intact post Q1 2026 print (April 29, already priced in per earnings_context_web): LEQEMBI revenue $168M (+74% YoY) and SKYCLARYS $151M (+22% YoY) flagged as bull case; pending $5.6B Apellis acquisition + $850M felzartamab Greater China rights (TJ Biopharma) are next catalyst clusters with pivotal pipeline readouts beginning fiscal Q2 2026 — earnings.days_until_next = 83 means no near-term earnings landmine in the 8-day holding window.",
+    "Trend confirms catalyst direction: daily ema_aligned_uptrend=true (ema_5 189.73 > ema_10 188.19 > ema_20 186.15 > ema_50 184.28 > ema_200 168.90), ADX 26.45 strong with +DI 38.47 vs -DI 14.18, MACD histogram +0.836 expanding, daily OBV trend up; tape closed up 4 of 5 sessions ($187.06 -> $191.38) into watch_level. R:R from entry-mid $192.00 to stop $188.00 = $4.00 risk vs target $200.50 = $8.50 reward = 2.13:1 — clears the 2:1 threshold; target $200.50 sits between prior pivot $195.98 and daily fib_ext_1272 $203.42."
   ],
   "risks_acknowledged": [
-    "R:R math is sub-2:1 from the proposed entry midpoint (1.25:1); to reach a 2:1 setup the trade either needs a better fill closer to 188–189 or a target extension to ~201, which is above nearest daily resistance 192.99 and prior swing high 195.98.",
-    "Catalyst note flags premarket gap-down -0.72% on zero volume — setup is unconfirmed; needs reclaim of 191.38 on real volume. Daily relative_volume is only 0.64 (avg 1.15M, today 735k), so the 'breakout' is happening on below-average participation.",
-    "FY guidance was lowered on Apellis acquisition costs and pressure on legacy MS drugs (per earnings_context_web) — the long thesis depends on growth-product offset working, which is not yet confirmed in price action beyond the recent multi-day uptrend.",
-    "Wiki context is missing (new_ticker=true, all 3 slices missing); no prior thesis/catalyst/technicals memory, no recent_insider_trades evidence (empty list), and earnings.days_until_next=83 means no near-term earnings catalyst to anchor the move within the 7-day holding window."
+    "Barclays maintained Hold on 2026-05-05 (one day after Canaccord's Buy) — split analyst tape; analyst_consensus_web median PT $190 sits AT current price ($191.38), capping near-term upside narrative without a fresh upgrade catalyst.",
+    "Premarket gap -0.72% on zero volume per catalyst_note — setup unconfirmed; daily relative_volume 0.64 (735k vs 1.15M avg) and hourly relative_volume 0.09 show fading participation. Catalyst-driven longs without volume confirmation often fail at resistance ($192.99 nearest_resistance, tested 14x).",
+    "Q1 2026 print included LOWERED FY guidance on Apellis acquisition costs and pressure on legacy MS drugs (per earnings_context_web) — bear narrative on legacy franchise erosion remains live and could resurface on any sector weakness.",
+    "Wiki context is empty (new_ticker=true, all slices missing) and recent_insider_trades is an empty list — no prior thesis memory and no insider buying to corroborate the catalyst case; conviction rests entirely on 2 news items and the technical stack."
   ],
   "web_sources_last_7d": [
     "https://www.gurufocus.com/news/8787429/todays-analyst-ratings-update-for-biogen-biib-key-changes-biib-stock-news",

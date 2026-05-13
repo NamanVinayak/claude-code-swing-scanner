@@ -1,7 +1,7 @@
 ---
 name: scanner state
-last_updated: 2026-05-07
-last_run_id: 20260507_211015
+last_updated: 2026-05-13
+last_run_id: 20260513_084338
 target_words: 500
 stale_after_days: 3
 word_count: 0
@@ -12,69 +12,58 @@ summary: current market breadth + signal density across the universe
 
 ## TL;DR
 
-40 candidates from 1,592-ticker universe: 12 long, 28 short. No scanner errors. Long side: 2 score-3 names (NET, MKSI — triple `tv_strong_buy` + `tv_breakout_up` + `tv_trending_up`); remainder are score-2. Short side heavily weighted toward score-1 (22 of 28); only GPGI scored 3 (all three setup types: `stage4_momentum_breakdown` + `bearish_episodic_pivot` + `sector_laggard_decline`, -25.9%). Notable single-day moves: CRWD +8.0%, PANW +7.0%, HWM +6.3%, MIDD +11.0% on long side; FSLY -38.2%, GPGI -25.9%, FUTU -13.8%, INTR -14.5% on short side. Capitol Trades: 4 tickers with congressional buys in the universe; zero overlap with advancing candidates.
+40 candidates from 1,760-ticker universe: 9 long, 31 short. No scanner errors. Long side: all 9 are score-2 (`tv_strong_buy` + one confirming signal); CI is the only breakout candidate (`tv_strong_buy` + `tv_breakout_up`); the other 8 are trend-continuation (`tv_strong_buy` + `tv_trending_up`). Short side heavily skewed to score-1 (26 of 31); score-2 shorts — LIF, INTR, BRSL, CDRE, DFH — all carry multi-setup confluence (`stage4_momentum_breakdown` + `bearish_episodic_pivot` the most common pairing). Notable single-day moves: DFH -13.4%, HUBG -12.5%, LIF -10.8%, ASTS -11.6%, BRSL -9.6%, CDRE -9.5% on short side; INSM +11.7% and SCCO +3.5% on respective sides. Capitol Trades: 12 tickers with congressional buys in the universe; zero overlap with advancing candidates.
 
 ## Sector breadth
 
-Sector labels inferred from ticker identity (not in JSON).
+Sector labels not present in JSON. Breakdown by ticker identity:
 
-**Longs (12)**
+**Longs (9)**
 
-| Sector | Tickers | Count |
+| Sector (inferred) | Tickers | Count |
 |---|---|---|
-| Tech / Cybersecurity / Networking | NET, PANW, CRWD | 3 |
-| Semis / Semi Equip | NVDA, MKSI | 2 |
-| Industrials | HWM, ROK, MIDD | 3 |
+| Industrials / Machinery | DE, CMI, MTZ | 3 |
+| Semis / Optical Networking | LITE, AAOI, TTMI | 3 |
 | Consumer / Retail | COST | 1 |
-| Telecom / Materials | GLW | 1 |
-| Healthcare / Biotech | NTRA, BIIB | 2 |
+| Mining / Materials | SCCO | 1 |
+| Healthcare / Insurance | CI | 1 |
 
-**Shorts (28)**
+**Shorts (31)**
 
-| Sector | Tickers | Count |
-|---|---|---|
-| Tech / Software / Internet | FUTU, RBLX, CHTR, PAYP, CHKP, FSLY, SRAD, LBRDK | 8 |
-| Industrials / Machinery | WHR, RRX, MIDD*, PRIM, DOO | 4 |
-| Healthcare / Biotech | PODD, PCVX, NVST, CHYM | 4 |
-| Consumer Discretionary | TPR, BROS, CELH, COKE | 4 |
-| Energy / Chemicals | WLK, PPC | 2 |
-| Aero / Defense / Space | KTOS, ASTS | 2 |
-| Diversified / Other | GPGI, INTR, VG, CAR | 4 |
-
-Short side: tech/software (8) and healthcare (4) are the two largest clusters.
+Sector data not available in this run's JSON. Short-side names span healthcare/biotech (INSM, PODD, INSP, OLMA, ERAS, ATEC), tech/software (FSLY, VISN, CNXC, TYL), industrials/transportation (HUBG, PRIM, PATK), consumer (BOOT, FIGS, LCID, ONON, CAR), and diversified small-cap laggards. Inferences only — do not treat as ground truth.
 
 ## Signal density
 
-Hits across the 1,592-ticker universe:
+Hits across the 1,760-ticker universe:
 
 - `tv_strong_buy`: 400 hits (capped at config max)
 - `tv_strong_sell`: 400 hits (capped at config max)
 - `tv_overbought`: 400 hits (capped at config max)
-- `tv_trending_down`: 322 hits
-- `tv_trending_up`: 201 hits
-- `tv_oversold`: 172 hits
-- `tv_breakout_down`: 23 hits
-- `tv_breakout_up`: 21 hits
-- `capitol_buys` (30-day): 4 tickers with congressional purchases
-- Total signal hits: 1,939 across 1,592 unique tickers
-- Short setups added (setup-based screener): 46
+- `tv_trending_down`: 336 hits
+- `tv_trending_up`: 203 hits
+- `tv_oversold`: 277 hits
+- `tv_breakout_down`: 20 hits
+- `tv_breakout_up`: 9 hits — lowest of this cycle; only 1 long candidate advanced on this signal
+- `capitol_buys` (30-day): 12 tickers with congressional purchases
+- Total signal hits: 2,045 across 1,760 unique tickers
+- Short setups added (setup-based screener): 33
 
-Dropped before scoring: 459 below min price ($5), 161 below min volume (500k), 605 below min market cap ($1B), 0 missing metadata, 72 conflicted (mixed long/short signals). 155 directional singletons long + 128 singletons short below 2-reason threshold.
+Dropped before scoring: 488 below min price ($5), 175 below min volume (500k), 657 below min market cap ($1B), 0 missing metadata, 60 conflicted (mixed signals). 227 directional long singletons + 144 short singletons below the 2-reason threshold.
 
 ## Anomalies
 
-1. **Three signal kinds hit the 400-count cap** (`tv_strong_buy`, `tv_strong_sell`, `tv_overbought`). True universe-wide counts unknown for all three — cap-binding again as in yesterday's run.
+1. **Three signal kinds hit the 400-count cap** (`tv_strong_buy`, `tv_strong_sell`, `tv_overbought`). True universe-wide counts unknown for all three — same cap-binding as prior runs.
 
-2. **Short candidates outnumber longs 28:12** — a notable skew. Yesterday's run was 17 short vs. 23 long. The inversion could reflect broad distribution / sector rotation, but macro regime page remains a bootstrap placeholder so cross-check against regime is not possible.
+2. **Short candidates outnumber longs 31:9** — most lopsided ratio recorded so far (prior run was 28:12). Macro regime page is a bootstrap placeholder; cross-check against regime not possible.
 
-3. **Short side quality thin.** 22 of 28 shorts are score-1 (minimum threshold). Only GPGI (score-3) and FUTU, WHR, INTR (score-2) have multi-signal confluence. Pre-market reviewer should apply high bar to score-1 names — single-setup shorts carry execution timing risk.
+3. **`tv_breakout_up` at only 9 hits** — lowest signal in the run. Long side lacks broad breakout participation; trend-continuation (`tv_trending_up`) is carrying the long thesis on 8 of 9 candidates.
 
-4. **FSLY -38.2% is an outlier move.** Advancing as short via `bearish_episodic_pivot` + `sector_laggard_decline`. Gap of this magnitude may have already exhausted the short opportunity by pre-market — Stage 2 should assess remaining short float and whether the gap will gap-and-grind or gap-and-reverse.
+4. **Short quality thin.** 26 of 31 shorts are score-1 (minimum threshold, single setup). Only 5 (LIF, INTR, BRSL, CDRE, DFH) have multi-setup confluence. Stage 2 should apply a high bar to score-1 names — single-setup shorts carry execution timing risk.
 
-5. **Capitol Trades: zero candidate overlap.** 4 congressional-buy tickers exist in the universe but none advanced as candidates. No insider-buy tailwind available for Stage 3 longs.
+5. **Capitol Trades: zero candidate overlap.** 12 congressional-buy tickers exist in the universe but none advanced as candidates. No insider-buy tailwind on any Stage 3 long.
 
-6. **Macro regime and setup pattern history unavailable.** Both `wiki/macro/regime.md` and `wiki/meta/setup_patterns.md` remain bootstrap placeholders. Cannot cross-check signal mix against regime or historical win rates.
+6. **Setup pattern history unavailable.** `wiki/meta/setup_patterns.md` has fewer than 5 closed trades with realized P&L. Cannot calibrate win rates for `stage4_momentum_breakdown` or `sector_laggard_decline` setups that dominate the short side.
 
 ## Last updated
 
-20260507_211015 — 2026-05-07T14:10:15-07:00
+20260513_084338 — 2026-05-13T01:43:38-07:00

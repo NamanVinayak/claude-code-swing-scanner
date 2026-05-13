@@ -1,21 +1,21 @@
 {
   "ticker": "ROK",
   "setup_direction": "long",
-  "bull_strength": 8,
-  "entry_zone": {"low": 456.00, "high": 458.50},
+  "bull_strength": 7,
+  "entry_zone": {"low": 457.50, "high": 460.50},
   "target": 481.00,
   "stop": 445.50,
-  "expected_holding_days": 8,
+  "expected_holding_days": 7,
   "top_3_arguments": [
-    "Fresh blowout earnings catalyst (2026-05-06, Yahoo/TipRanks/ChartMill): fiscal Q2 2026 adj EPS $3.30 vs $2.92 consensus, revenue $2.24B vs $2.18B; management raised FY2026 outlook to ~$8.9B revenue with higher EPS, citing data center, semiconductor, and warehouse automation demand — stock gapped +10.72% on 2026-05-05 then added +5.4% on 2026-05-06 to $459.35, and earnings.days_until_next = 90 means no near-term event risk to derail the post-earnings drift.",
-    "Trend confirmation is unambiguous on both timeframes: daily ADX_14 = 40.33 (strong, +DI 31.25 vs -DI 10.42), MACD histogram +4.19, ema_aligned_uptrend = true, price above all MAs (5/10/20/50/200), roc_21d = +15.02%; hourly ADX_24 = 56.54 with +DI 45.73 vs -DI 13.06 and ema_aligned_uptrend = true — institutional accumulation regime, not a one-day spike.",
-    "R:R math: entry midpoint $457.25 (just above watch_level $457.50 breakout trigger), stop $445.50 below invalidation $446.00 and prev_day_low $445.27, target $481.00 just under fib_ext_1272 $495.03 — risk $11.75, reward $23.75, R:R = 2.02:1. Pullback Tue from $463.49 high to $448.55 close (still above prev_day_close support cluster) sets up the next breakout attempt with overhead 52-week high $463.49 as the only meaningful resistance before extension targets."
+    "Fresh blowout earnings catalyst, May 6 2026: Q2 FY26 adj EPS $3.30 vs $2.92 consensus; revenue $2.24B vs $2.18B; management raised FY26 guide to ~$8.9B with higher EPS, citing data-center, semiconductor and warehouse-automation demand (Yahoo Finance / TipRanks / ChartMill in recent_news_7d). Stock gapped +10.72% May 5, closed +5.37% at $459.35 May 6 on 1.18M shares (relative_volume 1.45 May 7 per daily_indicators.volume) — a 2-session-old, multi-source-confirmed catalyst, with earnings.days_until_next = 90 so the entire 7-day hold is outside any earnings blackout.",
+    "Trend math says continuation, not exhaustion: daily ADX_14 = 40.33 with +DI 31.25 vs -DI 10.42 ('strong'); ema_aligned_uptrend = true on both daily and hourly; MACD line 13.92 over signal 9.73, histogram +4.19; daily OBV trend 'up' not diverging; momentum.roc_21d = +15.02. Crucially RSI_14 = 63.91 (NOT overbought on the standard period; only rsi_7 76.78 is stretched). Watch level $457.50 sits 2 cents below the May 7 high $462.99 / 52-week high $463.49 — a clean trigger for the next leg.",
+    "R:R passes the 2:1 bar with conservative target. Entry zone midpoint $459.00; stop $445.50 sits below invalidation_level $446.00 and prev_day_low $445.27 (structural support cluster); target $481.00 sits well below daily fib_ext_1272 $495.03 and matches the prior wiki Target 2 from trade_id=7 (entry $446.93 May 6, still open). Math: from entry_zone.low $457.50 -> $445.50 stop = $12.00 risk; $481.00 - $457.50 = $23.50 reward = 1.96:1; from midpoint $459.00 = $13.50 risk vs $22.00 reward = 1.63:1 — passing on lower-bound fill, marginal at midpoint. State explicitly: this is a fill-the-low or pass setup, not a chase-into-high setup."
   ],
   "risks_acknowledged": [
-    "Daily RSI_7 = 76.78, BB pct_b = 1.0467 (price above upper band), z_score_50 = 2.3 — the name is mechanically overbought and prone to a gap-fill pullback toward $435–$440 before any extension.",
-    "Post-earnings analyst response is mixed despite the beat: per analyst_consensus_web, Wall Street Zen, Jefferies, Wells Fargo, and Barclays all downgraded to Hold and trimmed targets after the print; avg PT $420.88 sits ~6% BELOW current $448.55, signaling Wall Street views the move as already pricing in the raised guide.",
-    "Premarket is reportedly +1.86% but with zero premarket volume reported (catalyst_note) — confirmation quality on the breakout trigger is weaker than the daily structure suggests; a low-volume gap-up that fades is a real failure mode.",
-    "recent_insider_trades is empty — no fresh insider buying to corroborate the catalyst case; thesis rests entirely on the earnings/guidance print and trend continuation, with no smart-money confirmation."
+    "Analyst flow turned defensive AFTER the print: analyst_consensus_web shows post-earnings downgrades to Hold and PT trims from Wall Street Zen, Jefferies, Wells Fargo and Barclays; avg PT $420.88 sits BELOW current $448.55, signaling Wall Street views the move as already pricing in the raised guide. Caps upside conviction beyond $481.",
+    "Extension risk is real even if RSI_14 doesn't flag it: bollinger pct_b = 1.0467 (above upper band), z_score_50 = 2.30, price 15.76% above sma_50, hourly rsi_divergence.bearish = true. A mean-reversion drop to ema_5 $435.88 or daily fib_236 $436.12 would stop us out before the breakout extends.",
+    "No insider buying to anchor the catalyst: recent_insider_trades = [] (research gap — empty list per facts bundle). Thesis rests entirely on the earnings/guidance print and price action; no Form 4 corroboration.",
+    "Chasing risk: this is a breakout-trigger entry on a name that already moved +10.7% then +5.4% on consecutive sessions, then sold off intraday May 7 from the $462.99 high to a $448.55 close (-2.35% from the high, hourly rsi bearish-diverging). If May 8 opens flat or red on light volume, the trigger may not fire at all and a better long entry is the gap-fill at $435–$436."
   ],
   "web_sources_last_7d": [
     "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",

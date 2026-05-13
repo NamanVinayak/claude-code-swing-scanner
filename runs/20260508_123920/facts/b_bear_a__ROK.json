@@ -10,64 +10,7 @@
     "tv_breakout_up",
     "tv_trending_up"
   ],
-  "recent_news_7d": [
-    {
-      "title": "Rockwell Automation Inc Stock (ROK) Moved Up by 10.72% on May 5",
-      "source": "web_research",
-      "date": "2026-05-05",
-      "url": "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",
-      "sentiment": "positive",
-      "summary": "ROK shares gained 10.72% on May 5, 2026 in pre-earnings/earnings-day momentum, a notably above-average move for an industrial automation large-cap."
-    },
-    {
-      "title": "ROK Stock Surges 5.4% on May 6, 2026 After Strong Earnings Beat",
-      "source": "web_research",
-      "date": "2026-05-06",
-      "url": "https://meyka.com/blog/rok-stock-surges-54-on-may-6-2026-after-strong-earnings-beat-0705/",
-      "sentiment": "positive",
-      "summary": "ROK closed at $459.35 (+5.37%) on May 6, 2026 after fiscal Q2 2026 earnings beat. Volume hit 1.18M shares, well above average. Stock now near 52-week high of $463.49 with $51.7B market cap."
-    },
-    {
-      "title": "Why Rockwell Automation (ROK) Is Up 8.6% After Raising 2026 Guidance On Strong Q2 Results",
-      "source": "web_research",
-      "date": "2026-05-06",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-rockwell-automation-rok-8-131757552.html",
-      "sentiment": "positive",
-      "summary": "Q2 FY2026 adjusted EPS $3.30 vs $2.92 consensus; revenue $2.24B vs ~$2.18B expected. Management raised FY2026 outlook to ~$8.9B revenue with higher EPS guidance, citing strong demand from data centers, semiconductors, and warehouse automation."
-    },
-    {
-      "title": "Rockwell Automation Surges After Blowout Earnings Beat",
-      "source": "web_research",
-      "date": "2026-05-06",
-      "url": "https://www.tipranks.com/news/catalyst/rockwell-automation-surges-after-blowout-earnings-beat",
-      "sentiment": "positive",
-      "summary": "TipRanks reports ROK posted top- and bottom-line beats with double-digit growth in warehouse automation, data centers, and semiconductors driving the revised full-year outlook."
-    },
-    {
-      "title": "Rockwell Automation Inc (NYSE:ROK) Q2 Results and Guidance Beat Smashes Expectations",
-      "source": "web_research",
-      "date": "2026-05-06",
-      "url": "https://www.chartmill.com/news/ROK/Chartmill-47036-Rockwell-Automation-Inc-NYSEROK-Q2-Results-and-Guidance-Beat-Smashes-Expectations",
-      "sentiment": "positive",
-      "summary": "ChartMill highlights Q2 earnings and guidance both surpassed expectations, reinforcing ROK's leadership in industrial automation and digital transformation."
-    },
-    {
-      "title": "Should Rockwell's Stronger Q2 2026 Profitability Shift the Investment Thesis?",
-      "source": "web_research",
-      "date": "2026-05-07",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-rok/rockwell-automation/news/should-rockwells-stronger-q2-2026-profitability-shift-the-in",
-      "sentiment": "positive",
-      "summary": "Simply Wall St examines whether the stronger Q2 2026 profitability profile warrants a thesis upgrade for ROK investors."
-    },
-    {
-      "title": "Rockwell Automation (ROK) Sees Analyst Rating Update from Baird",
-      "source": "web_research",
-      "date": "2026-05-07",
-      "url": "https://www.gurufocus.com/news/8757097/rockwell-automation-rok-sees-analyst-rating-update-from-baird-rok-stock-news",
-      "sentiment": "neutral",
-      "summary": "Baird issued a post-earnings analyst rating update on ROK. Sentiment direction not specified in the result snippet."
-    }
-  ],
+  "recent_news_7d": [],
   "wiki_context": {
     "slices": {
       "thesis_full": {
@@ -87,17 +30,9 @@
       }
     }
   },
-  "current_price": 448.54998779296875,
-  "market_cap": 50102767616.0,
+  "current_price": 453.8900146484375,
+  "market_cap": 51015770112.0,
   "recent_prices_5d": [
-    {
-      "time": "2026-05-01",
-      "open": 410.1099853515625,
-      "high": 410.1099853515625,
-      "low": 404.05999755859375,
-      "close": 407.42999267578125,
-      "volume": 665900
-    },
     {
       "time": "2026-05-04",
       "open": 406.5299987792969,
@@ -129,60 +64,68 @@
       "low": 445.67999267578125,
       "close": 448.54998779296875,
       "volume": 1108400
+    },
+    {
+      "time": "2026-05-08",
+      "open": 451.44000244140625,
+      "high": 453.8999938964844,
+      "low": 446.1099853515625,
+      "close": 453.8900146484375,
+      "volume": 898500
     }
   ],
   "daily_indicators": {
     "timeframe": "daily",
     "moving_averages": {
-      "ema_5": 435.8811074384125,
-      "sma_5": 430.3139953613281,
-      "ema_10": 424.0641633665553,
-      "sma_10": 417.0070007324219,
-      "ema_20": 411.71535257384016,
-      "sma_20": 411.7365005493164,
-      "ema_21": 410.8200259224487,
-      "sma_21": 410.9347621372768,
-      "ema_50": 398.2892126229113,
-      "sma_50": 387.4793994140625,
-      "ema_200": 370.75563049570917,
-      "sma_200": 376.06221282958984,
+      "ema_5": 441.8840765084209,
+      "sma_5": 439.6059997558594,
+      "ema_10": 429.4870454178066,
+      "sma_10": 422.2780029296875,
+      "ema_20": 415.73198705712247,
+      "sma_20": 414.6310012817383,
+      "ema_21": 414.7354794429463,
+      "sma_21": 413.74381074451264,
+      "ema_50": 400.46944702392153,
+      "sma_50": 388.33119995117187,
+      "ema_200": 370.85658834077,
+      "sma_200": 376.561236114502,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 448.54998779296875,
-    "dist_from_50sma_pct": 15.76,
+    "current_price": 453.8900146484375,
+    "dist_from_50sma_pct": 16.88,
     "price_vs_ma": {
       "above_ema_5": true,
-      "pct_from_ema_5": 2.91,
+      "pct_from_ema_5": 2.72,
       "above_sma_5": true,
-      "pct_from_sma_5": 4.24,
+      "pct_from_sma_5": 3.25,
       "above_ema_10": true,
-      "pct_from_ema_10": 5.77,
+      "pct_from_ema_10": 5.68,
       "above_sma_10": true,
-      "pct_from_sma_10": 7.56,
+      "pct_from_sma_10": 7.49,
       "above_ema_20": true,
-      "pct_from_ema_20": 8.95,
+      "pct_from_ema_20": 9.18,
       "above_sma_20": true,
-      "pct_from_sma_20": 8.94,
+      "pct_from_sma_20": 9.47,
       "above_ema_21": true,
-      "pct_from_ema_21": 9.18,
+      "pct_from_ema_21": 9.44,
       "above_sma_21": true,
-      "pct_from_sma_21": 9.15,
+      "pct_from_sma_21": 9.7,
       "above_ema_50": true,
-      "pct_from_ema_50": 12.62,
+      "pct_from_ema_50": 13.34,
       "above_sma_50": true,
-      "pct_from_sma_50": 15.76,
+      "pct_from_sma_50": 16.88,
       "above_ema_200": true,
-      "pct_from_ema_200": 20.98,
+      "pct_from_ema_200": 22.39,
       "above_sma_200": true,
-      "pct_from_sma_200": 19.28,
+      "pct_from_sma_200": 20.54,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 44755.0
+      "pct_from_ema_aligned_uptrend": 45289.0
     },
     "rsi": {
-      "rsi_7": 76.78,
-      "rsi_14": 63.91,
-      "rsi_21": 67.81
+      "rsi_7": 79.02,
+      "rsi_14": 66.57,
+      "rsi_21": 67.89
     },
     "rsi_divergence": {
       "bullish": false,
@@ -190,33 +133,33 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 13.9226,
-      "signal_line": 9.728,
-      "histogram": 4.1946,
+      "macd_line": 15.5192,
+      "signal_line": 10.8862,
+      "histogram": 4.633,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 445.41,
-      "middle": 411.74,
-      "lower": 378.07,
-      "width": 0.1635,
-      "pct_b": 1.0467
+      "upper": 452.32,
+      "middle": 414.63,
+      "lower": 376.94,
+      "width": 0.1818,
+      "pct_b": 1.0209
     },
     "atr": {
-      "atr_14": 14.17,
+      "atr_14": 14.32,
       "atr_pct": 3.16
     },
     "adx": {
-      "adx_14": 40.33,
-      "plus_di": 31.25,
-      "minus_di": 10.42,
+      "adx_14": 38.99,
+      "plus_di": 30.93,
+      "minus_di": 10.31,
       "trend_strength": "strong"
     },
     "volume": {
-      "current_volume": 1108400,
-      "avg_volume_20": 763570,
-      "relative_volume": 1.45,
-      "volume_bias_10d": "down",
+      "current_volume": 898500,
+      "avg_volume_20": 787725,
+      "relative_volume": 1.14,
+      "volume_bias_10d": "up",
       "obv": {
         "trend": "up",
         "diverging_from_price": false
@@ -226,12 +169,12 @@
       "pivot_highs": [
         {
           "price": 412.73,
-          "tests": 11,
+          "tests": 10,
           "volume_confirmed": false
         },
         {
           "price": 421.03,
-          "tests": 3,
+          "tests": 2,
           "volume_confirmed": false
         }
       ],
@@ -250,10 +193,10 @@
       "nearest_resistance": null,
       "nearest_support": 396.3,
       "recent_high": 463.49,
-      "recent_low": 393.11,
-      "prev_day_high": 463.49,
-      "prev_day_low": 445.27,
-      "prev_day_close": 459.35
+      "recent_low": 393.78,
+      "prev_day_high": 462.99,
+      "prev_day_low": 445.68,
+      "prev_day_close": 448.55
     },
     "fibonacci": {
       "swing_high": 463.49,
@@ -270,99 +213,94 @@
       "fib_ext_low_1618": 275.87
     },
     "momentum": {
-      "roc_5d": 9.69,
-      "roc_10d": 9.69,
-      "roc_21d": 15.02
+      "roc_5d": 11.4,
+      "roc_10d": 13.14,
+      "roc_21d": 14.94
     },
-    "z_score_50": 2.3,
+    "z_score_50": 2.34,
     "degraded_indicators": []
   },
   "hourly_indicators": {
     "timeframe": "hourly",
     "moving_averages": {
-      "ema_24": 442.7730912216432,
-      "sma_24": 444.72729110717773,
-      "ema_48": 431.69255286562213,
-      "sma_48": 425.0529136657715,
-      "ema_120": 417.4499085147831,
-      "sma_120": 414.0744145711263,
+      "ema_24": 447.03976817029917,
+      "sma_24": 450.76954142252606,
+      "ema_48": 436.872861734652,
+      "sma_48": 432.4494565327962,
+      "ema_120": 421.8074949033598,
+      "sma_120": 417.2246147155762,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 450.2650146484375,
-    "dist_from_50sma_pct": 8.74,
+    "current_price": 458.4700012207031,
+    "dist_from_50sma_pct": 9.89,
     "price_vs_ma": {
       "above_ema_24": true,
-      "pct_from_ema_24": 1.69,
+      "pct_from_ema_24": 2.56,
       "above_sma_24": true,
-      "pct_from_sma_24": 1.25,
+      "pct_from_sma_24": 1.71,
       "above_ema_48": true,
-      "pct_from_ema_48": 4.3,
+      "pct_from_ema_48": 4.94,
       "above_sma_48": true,
-      "pct_from_sma_48": 5.93,
+      "pct_from_sma_48": 6.02,
       "above_ema_120": true,
-      "pct_from_ema_120": 7.86,
+      "pct_from_ema_120": 8.69,
       "above_sma_120": true,
-      "pct_from_sma_120": 8.74,
+      "pct_from_sma_120": 9.89,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 44926.5
+      "pct_from_ema_aligned_uptrend": 45747.0
     },
     "rsi": {
-      "rsi_21": 52.7
+      "rsi_21": 61.27
     },
     "rsi_divergence": {
-      "bullish": true,
+      "bullish": false,
       "bearish": true,
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 12.4093,
-      "signal_line": 10.4807,
-      "histogram": 1.9286,
+      "macd_line": 11.5257,
+      "signal_line": 11.0762,
+      "histogram": 0.4495,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 470.29,
-      "middle": 425.05,
-      "lower": 379.82,
-      "width": 0.2128,
-      "pct_b": 0.7787
+      "upper": 476.08,
+      "middle": 432.45,
+      "lower": 388.82,
+      "width": 0.2018,
+      "pct_b": 0.7982
     },
     "atr": {
-      "atr_24": 7.95,
-      "atr_pct": 1.77
+      "atr_24": 5.31,
+      "atr_pct": 1.16
     },
     "adx": {
-      "adx_24": 56.54,
-      "plus_di": 45.73,
-      "minus_di": 13.06,
+      "adx_24": 52.22,
+      "plus_di": 35.53,
+      "minus_di": 12.77,
       "trend_strength": "strong"
     },
     "volume": {
-      "current_volume": 66525,
-      "avg_volume_20": 141649,
-      "relative_volume": 0.47,
-      "volume_bias_10d": "down",
+      "current_volume": 65757,
+      "avg_volume_20": 110795,
+      "relative_volume": 0.59,
+      "volume_bias_10d": "up",
       "obv": {
-        "trend": "down",
+        "trend": "up",
         "diverging_from_price": false
       }
     },
     "support_resistance": {
       "pivot_highs": [
         {
-          "price": 403.53,
-          "tests": 18,
-          "volume_confirmed": false
-        },
-        {
           "price": 410.41,
-          "tests": 13,
+          "tests": 11,
           "volume_confirmed": false
         },
         {
           "price": 454.67,
-          "tests": 13,
+          "tests": 17,
           "volume_confirmed": true
         },
         {
@@ -374,22 +312,27 @@
       "pivot_lows": [
         {
           "price": 396.3,
-          "tests": 6,
+          "tests": 4,
           "volume_confirmed": false
         },
         {
           "price": 404.06,
-          "tests": 19,
+          "tests": 15,
+          "volume_confirmed": false
+        },
+        {
+          "price": 445.67,
+          "tests": 11,
           "volume_confirmed": false
         }
       ],
-      "nearest_resistance": 454.67,
-      "nearest_support": 404.06,
-      "recent_high": 463.48,
-      "recent_low": 433.07,
-      "prev_day_high": 449.55,
-      "prev_day_low": 446.43,
-      "prev_day_close": 448.54
+      "nearest_resistance": 463.48,
+      "nearest_support": 445.67,
+      "recent_high": 462.99,
+      "recent_low": 445.67,
+      "prev_day_high": 453.9,
+      "prev_day_low": 451.89,
+      "prev_day_close": 453.87
     },
     "fibonacci": {
       "swing_high": 463.48,
@@ -406,27 +349,16 @@
       "fib_ext_low_1618": 361.28
     },
     "momentum": {
-      "roc_5d": -0.47,
-      "roc_10d": -0.83,
-      "roc_21d": 0.75
+      "roc_5d": 2.0,
+      "roc_10d": 2.0,
+      "roc_21d": 2.29
     },
-    "z_score_120": 2.07,
+    "z_score_120": 2.16,
     "degraded_indicators": []
   },
   "recent_insider_trades": [],
   "earnings": {
-    "days_until_next": 90,
+    "days_until_next": 87,
     "days_since_last": null
-  },
-  "news_source": "web_research",
-  "analyst_consensus_web": {
-    "rating": "buy",
-    "avg_price_target": 420.88,
-    "recent_changes": "Post-earnings (May 6-7, 2026) saw multiple firms downgrade to Hold and trim price targets \u2014 Wall Street Zen, Jefferies, Wells Fargo, and Barclays \u2014 suggesting valuation concerns now that ROK trades near its 52-week high ($463.49) above the $420.88 average PT. Baird also issued an update. Aggregate consensus remains 19 buys / 2 holds / 0 sells (Moderate Buy)."
-  },
-  "earnings_context_web": {
-    "next_earnings_date": "2026-08-05",
-    "days_until_next": 89,
-    "notes": "Most recent print (fiscal Q2 2026, reported ~May 6) beat on both lines: adj EPS $3.30 vs $2.92 consensus, revenue $2.24B vs $2.18B. Management raised FY2026 guidance to ~$8.9B revenue with higher EPS. Demand strength cited in data centers, semiconductors, energy, and warehouse automation. Next catalyst is Q3 FY2026 print on Aug 5, 2026 \u2014 well outside the 3-day blackout window."
   }
 }

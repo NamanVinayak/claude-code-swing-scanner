@@ -3,19 +3,19 @@
   "setup_direction": "long",
   "bull_strength": 7,
   "entry_zone": {"low": 213.50, "high": 214.50},
-  "target": 222.00,
-  "stop": 210.50,
-  "expected_holding_days": 5,
+  "target": 223.72,
+  "stop": 209.50,
+  "expected_holding_days": 6,
   "top_3_arguments": [
-    "Full bullish MA stack with daily ema_aligned_uptrend=true: price 211.50 above EMA 5/10/20/50/200 (pct_from_ema_50=+9.73, pct_from_sma_200=+14.64); ADX_14=49.09 with plus_di=27.24 > minus_di=16.49 confirms strong-trend regime, and momentum.roc_21d=+16.16% shows a 3-week thrust still in force.",
-    "Hourly tape is breaking out ahead of daily: hourly close 217.71 above hourly bollinger.upper 215.29 (pct_b=1.10), hourly macd.histogram=+1.87 expanding, hourly adx_24=44.69 with plus_di=41.29 vs minus_di=4.61 (8.96x ratio), hourly relative_volume=1.56x avg, and hourly volume.obv.trend='up' — a textbook intraday breakout into the daily watch_level 213.50.",
-    "Catalyst stack from recent_news_7d is one-sided long: Corning co-packaged optics partnership with up to $2.7B Nvidia investment (2026-05-06), IREN 5GW AI infra deal up to $2.1B (2026-05-07), and Goldman Sachs raising forecasts ~12% on 2026-05-07 calling NVDA 'meaningfully undervalued' with avg_price_target 270.73 vs current 211.50 (+28% headroom)."
+    "Full bullish MA stack with daily ema_aligned_uptrend=true: price 211.50 above EMA 5/10/20/50/200 (pct_from_ema_50=+9.73%, pct_from_sma_200=+14.64%); 50-EMA 192.75 sits cleanly above 200-EMA 177.89; daily adx_14=49.09 (trend_strength='strong') with plus_di 27.24 > minus_di 16.49, and momentum.roc_21d=+16.16% confirms a multi-week trend thrust still in force.",
+    "Hourly tape is leading the daily breakout: hourly macd.histogram=+1.6751 (macd_line 3.29 > signal 1.62 and expanding), hourly adx_24=54.66 with plus_di 41.0 vs minus_di only 3.91 (extreme long-side directional spread), hourly bollinger.pct_b=0.9144 pressing the upper band, hourly volume.obv.trend='up' with diverging_from_price=false, and hourly z_score_120=1.84 — a textbook intraday breakout pushing into the daily watch_level 213.50.",
+    "Clean R:R into open air toward fib extension: 5/7 closed 211.50 with high 214.20 on relative_volume 1.10 (167.6M vs 20-day avg 151.9M), reclaiming the 207–208 prior-day-high zone. Entry trigger 213.50–214.50 (above 5/7 high), stop 209.50 (below 5/7 low 206.50 buffer + above daily ema_5=205.60 → uses ATR_14 7.22 cushion), target 223.72 (hourly fib_ext_1272 and approaches daily nearest_resistance 216.83 then breakout extension). Risk ≈ 4.00–5.00 vs reward ≈ 9.22–10.22 → ~2.05:1 R:R from mid-zone, with analyst avg_price_target 270.73 as a much larger backstop."
   ],
   "risks_acknowledged": [
-    "Earnings on 2026-05-20 (earnings.days_until_next=12) — position must be sized to exit or stop before report; high-bar setup (Goldman flags expectations may already be priced in).",
-    "Daily macd.histogram=-0.30 has NOT yet flipped bullish (signal_line 5.61 > macd_line 5.31); breakout is ahead of daily MACD confirmation, so a failed-breakout is a real tape risk.",
-    "Daily volume.obv.trend='down' diverging_from_price=true and z_score_50=1.82 with hourly z_score_120=2.5 — extension/divergence pair argues for tight stops and a partial-target plan.",
-    "CNBC 2026-05-06 piece flags rotation risk: NVDA -4.3% on the week vs AMD +3% / MU +7.3%; if semis-leadership rotates further, breakout can fail back into the 198–200 hourly support shelf."
+    "Earnings on 2026-05-20 (earnings.days_until_next=12) — position must be exited or stopped well before report; with a 3-day pre-earnings blackout, planned holding window narrows to ~9 trading sessions and Goldman explicitly flags that strong execution may already be priced in.",
+    "Daily MACD has NOT yet confirmed: macd_line 5.31 < signal_line 5.61, histogram=-0.301 (negative) and rsi_7=47.37 cooled even as price made a new local high — a failed-breakout back into the 207–208 shelf is a real tape risk if the daily MACD does not cross.",
+    "Daily volume.obv.trend='down' with diverging_from_price=true means the move is not being confirmed by accumulation on the longer timeframe; daily z_score_50=1.82 + hourly rsi_21=80.04 (overbought) argue for tight stops and a partial-take plan rather than full hold to extension.",
+    "Peer-rotation risk is documented in recent_news_7d (CNBC 2026-05-06: NVDA -4.3% wk vs AMD +3% / MU +7.3%); if semis-leadership keeps rotating, the breakout can fail back into the 198.70 hourly support shelf even with the 5/6 Corning ($2.7B) and 5/7 IREN ($2.1B) catalysts already digested."
   ],
   "web_sources_last_7d": [
     "https://nvidianews.nvidia.com/",

@@ -9,64 +9,7 @@
   "source_reasons": [
     "bearish_episodic_pivot"
   ],
-  "recent_news_7d": [
-    {
-      "title": "Dutch Bros Inc. Reports First Quarter 2026 Financial Results",
-      "source": "web_research",
-      "date": "2026-05-06",
-      "url": "https://www.businesswire.com/news/home/20260506549768/en/Dutch-Bros-Inc.-Reports-First-Quarter-2026-Financial-Results",
-      "sentiment": "positive",
-      "summary": "Q1 2026 revenue $464.4M (+30.8% YoY) beat $449.37M consensus; adj EPS $0.16 vs $0.15 est; system same-shop sales +8.3%; 41 new shops opened to 1,177 total."
-    },
-    {
-      "title": "Dutch Bros (NYSE:BROS) Q1 2026 Beat and Raised Guidance Can't Stem After-Market Selloff",
-      "source": "web_research",
-      "date": "2026-05-06",
-      "url": "https://www.chartmill.com/news/BROS/Chartmill-47380-Dutch-Bros-NYSEBROS-Q1-2026-Beat-and-Raised-Guidance-Cant-Stem-After-Market-Selloff",
-      "sentiment": "negative",
-      "summary": "Despite the clean beat-and-raise, BROS sold off ~4.8% after-hours on classic 'buy the rumor, sell the news' dynamics following a strong pre-earnings rally."
-    },
-    {
-      "title": "Dutch Bros reports strong Q1 growth, guides for 185 new shops this year",
-      "source": "web_research",
-      "date": "2026-05-06",
-      "url": "https://seekingalpha.com/news/4587404-dutch-bros-reports-strong-q1-growth-guides-for-185-new-shops-this-year",
-      "sentiment": "positive",
-      "summary": "Company raised FY2026 revenue guide to $2.05B-$2.08B and adj EBITDA to $370M-$380M; now expects to open at least 185 new shops in 2026 vs prior plan."
-    },
-    {
-      "title": "Why Did Dutch Bros Stock Just Crash?",
-      "source": "web_research",
-      "date": "2026-05-07",
-      "url": "https://www.fool.com/investing/2026/05/07/why-did-dutch-bros-stock-just-crash/",
-      "sentiment": "negative",
-      "summary": "Motley Fool covers post-earnings crash; cites profit-taking after pre-earnings rally and McCafe/McDonald's beverage competition overhang despite strong fundamentals."
-    },
-    {
-      "title": "DA Davidson raises Dutch Bros stock price target on strong sales",
-      "source": "web_research",
-      "date": "2026-05-07",
-      "url": "https://www.investing.com/news/analyst-ratings/da-davidson-raises-dutch-bros-stock-price-target-on-strong-sales-93CH-4668684",
-      "sentiment": "positive",
-      "summary": "DA Davidson raised price target to $75 from $70, maintained Buy rating, citing strong sales execution and same-shop sales growth."
-    },
-    {
-      "title": "UBS reiterates Dutch Bros stock rating on food rollout momentum",
-      "source": "web_research",
-      "date": "2026-05-07",
-      "url": "https://www.investing.com/news/analyst-ratings/ubs-reiterates-dutch-bros-stock-rating-on-food-rollout-momentum-93CH-4629729",
-      "sentiment": "positive",
-      "summary": "UBS reiterated Buy rating with $85 price target citing food rollout momentum; analyst Dennis Geiger argues McDonald's competition concerns are overblown."
-    },
-    {
-      "title": "Dutch Bros earnings up next: Can traffic momentum outlast rivals?",
-      "source": "web_research",
-      "date": "2026-05-05",
-      "url": "https://ng.investing.com/news/earnings/dutch-bros-earnings-up-next-can-traffic-momentum-outlast-rivals-93CH-2487285",
-      "sentiment": "neutral",
-      "summary": "Pre-earnings preview noting McDonald's McCafe expansion (crafted sodas, refreshers, Red Bull-based energy drink launching Aug 2026) as competitive overhang on Dutch Bros' Rebel energy drink franchise."
-    }
-  ],
+  "recent_news_7d": [],
   "wiki_context": {
     "slices": {
       "thesis_full": {
@@ -84,17 +27,9 @@
     },
     "new_ticker": true
   },
-  "current_price": 53.540000915527344,
-  "market_cap": 9235511296.0,
+  "current_price": 52.709999084472656,
+  "market_cap": 9314119680.0,
   "recent_prices_5d": [
-    {
-      "time": "2026-05-01",
-      "open": 57.939998626708984,
-      "high": 58.61000061035156,
-      "low": 56.630001068115234,
-      "close": 56.95000076293945,
-      "volume": 3241400
-    },
     {
       "time": "2026-05-04",
       "open": 56.4900016784668,
@@ -125,61 +60,69 @@
       "high": 55.0,
       "low": 51.54999923706055,
       "close": 53.540000915527344,
-      "volume": 12785100
+      "volume": 12790900
+    },
+    {
+      "time": "2026-05-08",
+      "open": 54.22999954223633,
+      "high": 54.38999938964844,
+      "low": 51.54499816894531,
+      "close": 52.709999084472656,
+      "volume": 5793400
     }
   ],
   "daily_indicators": {
     "timeframe": "daily",
     "moving_averages": {
-      "ema_5": 56.21565788432219,
-      "sma_5": 56.7120002746582,
-      "ema_10": 56.141093508487394,
-      "sma_10": 56.66100006103515,
-      "ema_20": 55.289718749954844,
-      "sma_20": 55.104000091552734,
-      "ema_21": 55.21127776658378,
-      "sma_21": 55.13952382405599,
-      "ema_50": 54.29549167252573,
-      "sma_50": 52.957399978637696,
-      "ema_200": 56.60861513325342,
-      "sma_200": 57.34574993133545,
+      "ema_5": 55.04710495103902,
+      "sma_5": 55.863999938964845,
+      "ema_10": 55.51725815866653,
+      "sma_10": 56.18800010681152,
+      "ema_20": 55.04403116276201,
+      "sma_20": 54.94549999237061,
+      "ema_21": 54.98388879546767,
+      "sma_21": 54.99000004359654,
+      "ema_50": 54.23325294964171,
+      "sma_50": 52.9333999633789,
+      "ema_200": 56.32672275624375,
+      "sma_200": 57.295249919891354,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 53.540000915527344,
-    "dist_from_50sma_pct": 1.1,
+    "current_price": 52.709999084472656,
+    "dist_from_50sma_pct": -0.42,
     "price_vs_ma": {
       "above_ema_5": false,
-      "pct_from_ema_5": -4.76,
+      "pct_from_ema_5": -4.25,
       "above_sma_5": false,
-      "pct_from_sma_5": -5.59,
+      "pct_from_sma_5": -5.65,
       "above_ema_10": false,
-      "pct_from_ema_10": -4.63,
+      "pct_from_ema_10": -5.06,
       "above_sma_10": false,
-      "pct_from_sma_10": -5.51,
+      "pct_from_sma_10": -6.19,
       "above_ema_20": false,
-      "pct_from_ema_20": -3.16,
+      "pct_from_ema_20": -4.24,
       "above_sma_20": false,
-      "pct_from_sma_20": -2.84,
+      "pct_from_sma_20": -4.07,
       "above_ema_21": false,
-      "pct_from_ema_21": -3.03,
+      "pct_from_ema_21": -4.14,
       "above_sma_21": false,
-      "pct_from_sma_21": -2.9,
+      "pct_from_sma_21": -4.15,
       "above_ema_50": false,
-      "pct_from_ema_50": -1.39,
-      "above_sma_50": true,
-      "pct_from_sma_50": 1.1,
+      "pct_from_ema_50": -2.81,
+      "above_sma_50": false,
+      "pct_from_sma_50": -0.42,
       "above_ema_200": false,
-      "pct_from_ema_200": -5.42,
+      "pct_from_ema_200": -6.42,
       "above_sma_200": false,
-      "pct_from_sma_200": -6.64,
+      "pct_from_sma_200": -8.0,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 5254.0
+      "pct_from_ema_aligned_uptrend": 5171.0
     },
     "rsi": {
-      "rsi_7": 41.34,
-      "rsi_14": 50.23,
-      "rsi_21": 46.76
+      "rsi_7": 38.48,
+      "rsi_14": 45.53,
+      "rsi_21": 44.89
     },
     "rsi_divergence": {
       "bullish": false,
@@ -187,32 +130,32 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 1.1129,
-      "signal_line": 1.1522,
-      "histogram": -0.0393,
+      "macd_line": 0.7692,
+      "signal_line": 1.0756,
+      "histogram": -0.3064,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 59.65,
-      "middle": 55.1,
-      "lower": 50.56,
-      "width": 0.165,
-      "pct_b": 0.3279
+      "upper": 59.6,
+      "middle": 54.95,
+      "lower": 50.29,
+      "width": 0.1693,
+      "pct_b": 0.2597
     },
     "atr": {
       "atr_14": 2.86,
-      "atr_pct": 5.33
+      "atr_pct": 5.43
     },
     "adx": {
-      "adx_14": 20.71,
-      "plus_di": 21.34,
-      "minus_di": 24.89,
-      "trend_strength": "moderate"
+      "adx_14": 19.71,
+      "plus_di": 20.51,
+      "minus_di": 24.84,
+      "trend_strength": "weak"
     },
     "volume": {
-      "current_volume": 12785100,
-      "avg_volume_20": 4899995,
-      "relative_volume": 2.61,
+      "current_volume": 5793400,
+      "avg_volume_20": 5068825,
+      "relative_volume": 1.14,
       "volume_bias_10d": "down",
       "obv": {
         "trend": "down",
@@ -228,7 +171,7 @@
         },
         {
           "price": 55.09,
-          "tests": 15,
+          "tests": 14,
           "volume_confirmed": false
         },
         {
@@ -263,9 +206,9 @@
       "nearest_support": 50.26,
       "recent_high": 59.74,
       "recent_low": 50.26,
-      "prev_day_high": 59.74,
-      "prev_day_low": 57.32,
-      "prev_day_close": 59.06
+      "prev_day_high": 55.0,
+      "prev_day_low": 51.55,
+      "prev_day_close": 53.54
     },
     "fibonacci": {
       "swing_high": 59.74,
@@ -282,43 +225,45 @@
       "fib_ext_low_1618": 35.21
     },
     "momentum": {
-      "roc_5d": -6.9,
-      "roc_10d": -1.83,
-      "roc_21d": -3.53
+      "roc_5d": -7.45,
+      "roc_10d": -8.23,
+      "roc_21d": -5.62
     },
-    "z_score_50": 0.2,
+    "z_score_50": -0.08,
     "degraded_indicators": []
   },
   "hourly_indicators": {
     "timeframe": "hourly",
     "moving_averages": {
-      "ema_24": 55.59062427422914,
-      "sma_24": 56.458333333333336,
-      "ema_48": 56.13080089468605,
-      "sma_48": 56.63002093633016,
-      "ema_120": 55.922901996735376,
-      "sma_120": 55.45509163538615,
+      "ema_24": 54.197049557658666,
+      "sma_24": 54.996875286102295,
+      "ema_48": 55.1826903366567,
+      "sma_48": 56.11189595858256,
+      "ema_120": 55.208048582022386,
+      "sma_120": 55.44980001449585,
       "ema_aligned_uptrend": false,
-      "ema_aligned_downtrend": false
+      "ema_aligned_downtrend": true
     },
-    "current_price": 52.869998931884766,
-    "dist_from_50sma_pct": -4.66,
+    "current_price": 53.31999969482422,
+    "dist_from_50sma_pct": -3.84,
     "price_vs_ma": {
       "above_ema_24": false,
-      "pct_from_ema_24": -4.89,
+      "pct_from_ema_24": -1.62,
       "above_sma_24": false,
-      "pct_from_sma_24": -6.36,
+      "pct_from_sma_24": -3.05,
       "above_ema_48": false,
-      "pct_from_ema_48": -5.81,
+      "pct_from_ema_48": -3.38,
       "above_sma_48": false,
-      "pct_from_sma_48": -6.64,
+      "pct_from_sma_48": -4.98,
       "above_ema_120": false,
-      "pct_from_ema_120": -5.46,
+      "pct_from_ema_120": -3.42,
       "above_sma_120": false,
-      "pct_from_sma_120": -4.66
+      "pct_from_sma_120": -3.84,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 5232.0
     },
     "rsi": {
-      "rsi_21": 34.06
+      "rsi_21": 31.55
     },
     "rsi_divergence": {
       "bullish": false,
@@ -326,43 +271,48 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": -0.5559,
-      "signal_line": 0.1226,
-      "histogram": -0.6785,
+      "macd_line": -1.0547,
+      "signal_line": -0.4329,
+      "histogram": -0.6218,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 60.4,
-      "middle": 56.63,
-      "lower": 52.86,
-      "width": 0.1332,
-      "pct_b": 0.0014
+      "upper": 60.9,
+      "middle": 56.11,
+      "lower": 51.32,
+      "width": 0.1708,
+      "pct_b": 0.2088
     },
     "atr": {
       "atr_24": 1.3,
-      "atr_pct": 2.45
+      "atr_pct": 2.44
     },
     "adx": {
-      "adx_24": 27.76,
-      "plus_di": 19.49,
-      "minus_di": 28.59,
+      "adx_24": 29.67,
+      "plus_di": 16.02,
+      "minus_di": 31.37,
       "trend_strength": "strong"
     },
     "volume": {
-      "current_volume": 765274,
-      "avg_volume_20": 1146525,
-      "relative_volume": 0.67,
-      "volume_bias_10d": "down",
+      "current_volume": 635171,
+      "avg_volume_20": 1227206,
+      "relative_volume": 0.52,
+      "volume_bias_10d": "up",
       "obv": {
-        "trend": "down",
+        "trend": "up",
         "diverging_from_price": false
       }
     },
     "support_resistance": {
       "pivot_highs": [
         {
+          "price": 54.39,
+          "tests": 6,
+          "volume_confirmed": true
+        },
+        {
           "price": 58.18,
-          "tests": 17,
+          "tests": 16,
           "volume_confirmed": false
         },
         {
@@ -373,60 +323,54 @@
       ],
       "pivot_lows": [
         {
+          "price": 51.55,
+          "tests": 4,
+          "volume_confirmed": true
+        },
+        {
           "price": 54.94,
           "tests": 9,
           "volume_confirmed": false
         },
         {
           "price": 57.02,
-          "tests": 24,
+          "tests": 18,
           "volume_confirmed": false
         }
       ],
-      "nearest_resistance": 58.18,
-      "nearest_support": null,
+      "nearest_resistance": 54.39,
+      "nearest_support": 51.55,
       "recent_high": 59.74,
-      "recent_low": 51.55,
-      "prev_day_high": 54.15,
-      "prev_day_low": 52.42,
-      "prev_day_close": 53.53
+      "recent_low": 51.54,
+      "prev_day_high": 52.85,
+      "prev_day_low": 51.83,
+      "prev_day_close": 52.72
     },
     "fibonacci": {
       "swing_high": 59.74,
-      "swing_low": 51.55,
+      "swing_low": 51.54,
       "fib_236": 57.81,
       "fib_382": 56.61,
-      "fib_500": 55.65,
+      "fib_500": 55.64,
       "fib_618": 54.68,
       "fib_786": 53.3,
       "fib_ext_1272": 61.97,
       "fib_ext_1618": 64.8,
-      "fib_ext_2000": 67.93,
+      "fib_ext_2000": 67.94,
       "fib_ext_low_1272": 49.32,
-      "fib_ext_low_1618": 46.49
+      "fib_ext_low_1618": 46.48
     },
     "momentum": {
-      "roc_5d": -1.98,
-      "roc_10d": -10.34,
-      "roc_21d": -8.12
+      "roc_5d": 1.57,
+      "roc_10d": 2.92,
+      "roc_21d": -9.22
     },
-    "z_score_120": -1.2,
+    "z_score_120": -0.98,
     "degraded_indicators": []
   },
   "recent_insider_trades": [],
   "earnings": {
-    "days_until_next": 89,
+    "days_until_next": 86,
     "days_since_last": null
-  },
-  "news_source": "web_research",
-  "analyst_consensus_web": {
-    "rating": "buy",
-    "avg_price_target": 76.0,
-    "recent_changes": "Post-Q1 (May 6-7): UBS reiterated Buy at $85 PT; RBC Capital Outperform $75 PT; TD Cowen reiterated Buy $73 PT; DA Davidson raised PT to $75 from $70 (Buy). Aggregated: 33 Buy / 1 Hold / 0 Sell."
-  },
-  "earnings_context_web": {
-    "next_earnings_date": null,
-    "days_until_next": null,
-    "notes": "Q1 2026 earnings just reported May 6, 2026 (revenue $464.4M, adj EPS $0.16, beat-and-raise). Next quarterly report (Q2 2026) expected early August 2026. Street focus shifts to FY2026 raised guide ($2.05B-$2.08B revenue, $370M-$380M adj EBITDA, 185+ new shops) and McDonald's McCafe competitive response."
   }
 }

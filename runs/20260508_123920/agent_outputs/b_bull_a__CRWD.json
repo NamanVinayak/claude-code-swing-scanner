@@ -3,19 +3,19 @@
   "setup_direction": "long",
   "bull_strength": 6,
   "entry_zone": {"low": 505.50, "high": 508.00},
-  "target": 539.00,
-  "stop": 494.00,
+  "target": 545.00,
+  "stop": 493.50,
   "expected_holding_days": 7,
   "top_3_arguments": [
-    "Strong trend stack with rising momentum: daily moving_averages.ema_aligned_uptrend = true; price_vs_ma shows above_ema_20 (+12.36%), above_ema_50 (+16.38%), above_ema_200 (+14.58%); daily adx.adx_14 = 26.93 with plus_di 40.59 vs minus_di 17.41 (strong directional bullish trend); macd.histogram = 4.7587 expanding above signal_line 13.3748.",
-    "Breakout day printed with confirming volume and follow-through structure: 2026-05-07 candle closed 505.72 on 5,102,900 shares vs avg_volume_20 = 3,100,185 (relative_volume = 1.65), closing at the daily high (high 506.79); volume_bias_10d = 'up' and obv.trend = 'up' with diverging_from_price = false; daily.momentum.roc_5d = 13.45 and roc_21d = 18.57.",
-    "Catalyst-supported continuation with no near-term earnings risk: earnings.days_until_next = 26 (well outside the 3-day blackout); analyst_consensus_web rating = 'buy' with avg_price_target = 510.52 and Mizuho upgrade to Outperform / PT $520 (Apr 27); fib_ext_1272 on daily = 546.23 anchors the next measured-move objective above the prior swing high 506.79."
+    "Daily breakout to a new recent high on confirming volume: 2026-05-07 closed at 505.72 with volume 5,102,900 vs avg_volume_20 = 3,100,185 (relative_volume = 1.65), pushing price above the prior pivot resistance cluster at 467.95/471.81 with no remaining nearest_resistance on the daily S/R map (recent_high 506.79).",
+    "Trend stack and momentum strongly aligned long: daily moving_averages.ema_aligned_uptrend = true with price above all of EMA 5/10/20/21/50/200 (pct_from_ema_50 = +16.38%, pct_from_sma_200 = +10.5%); ADX_14 = 26.93 (strong) with plus_di 40.59 vs minus_di 17.41; MACD line 18.13 over signal 13.37 with histogram +4.7587; momentum.roc_5d = +13.45% / roc_21d = +18.57%; OBV trending up and not diverging.",
+    "Measured-move target backed by daily Fibonacci extension fib_ext_1272 = 546.23 above the swing_high 506.79; entry near 506 with stop 493.50 (just under invalidation_level 494) gives ~12.5 pts of risk vs ~38.5 pts to target (R:R ~3:1); daily ATR_14 = 19.17 means the target is roughly 2 ATRs of room — clean swing geometry."
   ],
   "risks_acknowledged": [
-    "Extended/overbought tape: daily rsi.rsi_7 = 79.45, rsi_14 = 75.59, bollinger.pct_b = 1.019 (price above upper band), z_score_50 = 2.7, and price 19.63% above sma_50 — high probability of a mean-reversion pullback that could clip a tight stop.",
-    "Bearish RSI divergence flagged on both daily (rsi_divergence.bearish = true) and hourly (bearish = true) — momentum is making lower highs while price prints new highs, a classic exhaustion warning.",
-    "Catalyst note flags an overnight gap-down to ~$498.89 premarket; if 505.48/506 is not reclaimed at the open, the breakout is failed and stop near 494 (just under invalidation) is the line in the sand.",
-    "Elevated street expectations on AI integration (Claude Opus 4.7 in Falcon, Project Glasswing) mean any negative datapoint into June 3 earnings could deflate the recent rally; analyst PT range $368–$613 shows wide disagreement on fair value."
+    "Stretched/overbought conditions: daily rsi_7 = 79.45, rsi_14 = 75.59, bollinger.pct_b = 1.019 (above the upper band), z_score_50 = 2.7, dist_from_50sma_pct = 19.63%; rsi_divergence.bearish = true on both daily and hourly — pullback risk is real.",
+    "Premarket gap-down per catalyst_note ($505.48 -> $498.89, -1.3%) means the breakout is unconfirmed until price reclaims and holds the 505-506 watch_level on volume; a failure to reclaim risks a bull-trap reversal back toward EMA 10 (~466) or pivot 467.95.",
+    "Earnings 2026-06-03 (26 days out) is outside the 3-day blackout but Street expectations are elevated on the AI integration narrative; analyst PT range $368-$613 shows wide disagreement on fair value, so position must be closed or stop tightened well before the print.",
+    "research_gap: wiki_context is empty (new_ticker = true) — no prior thesis/setup history for CRWD to corroborate that this ticker has historically respected breakout-and-hold patterns."
   ],
   "web_sources_last_7d": [
     "https://www.tradingkey.com/news/market-movers/261870218-market-movers-crwd-20260507",

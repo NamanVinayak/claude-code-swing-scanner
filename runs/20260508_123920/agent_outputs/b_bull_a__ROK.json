@@ -2,20 +2,20 @@
   "ticker": "ROK",
   "setup_direction": "long",
   "bull_strength": 7,
-  "entry_zone": {"low": 457.50, "high": 463.50},
-  "target": 495.00,
-  "stop": 445.00,
-  "expected_holding_days": 10,
+  "entry_zone": {"low": 457.50, "high": 461.00},
+  "target": 480.50,
+  "stop": 445.50,
+  "expected_holding_days": 7,
   "top_3_arguments": [
-    "Daily MA stack is fully bullish-aligned (ema_aligned_uptrend=true): price $448.55 above EMA5/10/20/50/200 with pct_from_ema_50=+12.62% and pct_from_ema_200=+20.98%; the 5-day ROC is +9.69% and 21-day ROC is +15.02%, confirming durable trend continuation rather than a one-day spike.",
-    "Trend strength is exceptional and one-sided: daily adx_14 = 40.33 with plus_di 31.25 vs minus_di 10.42 (trend_strength='strong'); macd line 13.92 above signal 9.73 with histogram +4.19 still expanding; OBV trend='up' and not diverging from price — institutional accumulation matches the +5.4% earnings-day move on relative_volume 1.45 (May 6 saw 1.18M shares, well above avg_volume_20 763,570).",
-    "Catalyst-confirmed breakout setup: Q2 FY2026 beat (adj EPS $3.30 vs $2.92 consensus, revenue $2.24B vs $2.18B) with management raising FY2026 revenue guide to ~$8.9B citing data-center / semiconductor / warehouse-automation demand; daily fib_ext_1272 target sits at $495.03 against entry at $460.50 mid and stop at $445 (below invalidation $446 and prev_day_low $445.27), giving R:R ≈ 2.23:1; 90 days to next earnings removes near-term event risk."
+    "Strong-trend regime with full MA alignment: daily adx_14 = 40.33 (plus_di 31.25 vs minus_di 10.42, trend_strength = 'strong'); ema_aligned_uptrend = true with price above every MA from EMA5 through EMA200 (pct_from_ema_20 = +8.95%, pct_from_ema_50 = +12.62%, pct_from_ema_200 = +20.98%); macd histogram = +4.1946 (line 13.92 over signal 9.73). Daily roc_5d = +9.69%, roc_21d = +15.02% — this is durable continuation, not a one-day spike.",
+    "Volume and OBV confirm institutional bid behind the catalyst: May 6 earnings-day volume was 1.18M shares vs avg_volume_20 = 763,570 (rel_vol 1.45 today and yesterday), daily volume.obv.trend = 'up' with diverging_from_price = false. Q2 FY26 print (adj EPS $3.30 vs $2.92, revenue $2.24B vs $2.18B) and raised FY26 guide to ~$8.9B citing data-center/semis/warehouse-automation demand — fundamental fuel matches the technical breakout; 90 days to next earnings (Aug 5) removes near-term event risk inside the hold window.",
+    "Defined breakout trigger with clean R:R: entry $457.50 (watch_level) sits above hourly nearest_resistance 454.67 (volume_confirmed = true, 15 tests) and just under recent_high 463.49; hourly fib_ext_1272 = 480.67 is the natural first target; stop $445.50 sits below daily prev_day_low 445.27 and invalidation 446. R:R from $459.25 entry midpoint ($21.25 reward to $480.50 / $13.75 risk to $445.50) = 1.55:1 outright but improves to 2.27:1 if filled at the lower end ($457.50 entry → $23.00 reward / $12.00 risk)."
   ],
   "risks_acknowledged": [
-    "Extension risk is real: bollinger pct_b=1.0467 (price above upper band), z_score_50=2.30, daily rsi_7=76.78 — a mean-reversion pullback toward the daily 20-EMA at $411.72 or fib_236 at $436.12 is a credible scenario before the next leg up.",
-    "Analyst headwind: analyst_consensus_web avg_price_target is $420.88 — well BELOW current $448.55 — and post-earnings May 6–7 saw multiple firms (Wall Street Zen, Jefferies, Wells Fargo, Barclays) downgrade to Hold and trim PTs on valuation. Sustained breakout above $463.49 needs to absorb that supply.",
-    "Hourly tape is softening: hourly volume relative_volume=0.47, hourly OBV trend='down', hourly roc_5d=-0.47% — the 1h chart shows consolidation/digestion, not fresh accumulation, so the entry trigger at $457.50 is required (no chasing below it).",
-    "Wiki context (already-open position from 2026-05-06 at $446.93) means a fresh add here would stack same-direction risk on a single name; judge must apply small_scaled position sizing under the 20% single-position cap."
+    "Statistical extension is severe: daily rsi_7 = 76.78, bollinger pct_b = 1.0467 (price above upper band), z_score_50 = 2.3 — mean reversion to ema_5 ($435.88) or fib_236 ($436.12) is a real near-term scenario; chasing above $461 materially compresses R:R.",
+    "Hourly momentum is fading even as daily structure stays bullish: hourly rsi_divergence.bearish = true, hourly macd histogram has compressed to +0.5611 vs the daily +4.19, and hourly roc_10d = +0.09% — short-term tape is digesting, not accelerating. A failed retest of 454.67 could flush quickly to 445.67 hourly support.",
+    "Analyst tape is fading the rip: analyst_consensus_web avg_price_target = $420.88 sits ~6% BELOW current price; post-earnings May 6–7 brought downgrades to Hold from Wells Fargo, Jefferies, Barclays, and Wall Street Zen on valuation — institutional supply above $463.49 is real and the $480 fib target may be ambitious.",
+    "Position-stacking risk: wiki shows ROK already long from 2026-05-06 at $446.93 (trade_id=7, still open). A fresh add here is same-direction stacking on a single name and must be sized as small_scaled / share the 20% single-position cap with the existing fill — judge should treat this as scale-in math, not a fresh full-size entry."
   ],
   "web_sources_last_7d": [
     "https://www.tradingkey.com/news/market-movers/261858412-market-movers-rok-20260505",

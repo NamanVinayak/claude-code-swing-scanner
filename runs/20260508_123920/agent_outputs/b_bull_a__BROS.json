@@ -1,21 +1,21 @@
 {
   "ticker": "BROS",
   "setup_direction": "short",
-  "bull_strength": 6,
-  "entry_zone": {"low": 53.10, "high": 53.58},
-  "target": 50.40,
-  "stop": 55.05,
+  "bull_strength": 7,
+  "entry_zone": {"low": 53.30, "high": 53.58},
+  "target": 50.50,
+  "stop": 55.10,
   "expected_holding_days": 5,
   "top_3_arguments": [
-    "Distribution-grade breakdown on May 7: close $53.54 sliced through the 22-test pivot at $53.80 on relative_volume 2.61 (12.78M vs avg_volume_20 4.90M); daily roc_5d = -6.9% and volume.volume_bias_10d = down with obv.trend = down — institutions are exiting, not accumulating.",
-    "Daily MA stack has flipped bearish under price: price_vs_ma shows above_ema_5 = false / above_ema_10 = false / above_ema_20 = false / above_ema_50 = false / above_ema_200 = false, with pct_from_ema_200 = -5.42; only the lone above_sma_50 = true (+1.1%) remains and that thin cushion sits right at fib_382 = 53.95 — first failed bounce loses it.",
-    "Hourly trend is decisively short-side: hourly adx.adx_24 = 27.76 (strong) with minus_di 28.59 > plus_di 19.49, hourly macd.histogram = -0.6785 with no bullish_crossover, hourly rsi_21 = 34.06 (weak, not yet washed out), and hourly momentum.roc_10d = -10.34 — the lower-timeframe trend is aligned with the daily breakdown, giving a clean rolling-down structure from $53.58 toward fib_618 = 50.37 and the 16-test pivot low at 50.26."
+    "Distribution-grade breakdown bar 2026-05-07: open 54.00, low 51.55, close 53.54, volume 12,785,100 vs avg_volume_20 4,899,995 (volume.relative_volume = 2.61), daily momentum.roc_5d = -6.9, volume.volume_bias_10d = down, volume.obv.trend = down. Price gapped through the 22-test pivot_high at $53.80 and the prior-day close $59.06 — institutional distribution, not retail panic.",
+    "Daily MA stack has flipped bearish under price: price_vs_ma.above_ema_5/10/20/21/50/200 ALL false (pct_from_ema_50 = -1.39, pct_from_ema_200 = -5.42); only above_sma_50 = true and that cushion is just +1.1% (SMA_50 = 52.96). The thin cushion sits right at fibonacci.fib_382 = 53.95 and ema_20 = 55.29 — first failed bounce loses both. Daily macd.histogram = -0.0393 with macd_line 1.1129 < signal 1.1522 (no bullish_crossover) confirms the daily trend has rolled.",
+    "Hourly is decisively short-aligned: hourly moving_averages.ema_aligned_downtrend = true, hourly adx.adx_24 = 28.81 (strong) with minus_di 33.5 vs plus_di 12.49, hourly macd.histogram = -0.7387 with no bullish_crossover, hourly rsi.rsi_21 = 30.45 (weak but not washed out — room to run), hourly momentum.roc_21d = -10.27. Clean R:R against $55 invalidation: entry zone $53.30-$53.58 (yesterday's close = watch_level), target $50.50 sits one tick above pivot_low $50.26 (tested 16x) and fibonacci.fib_618 = 50.37; stop $55.10 above invalidation $55.00. Mid-zone $53.44 → target $2.94 reward vs stop $1.66 risk = R:R ~1.77:1; entry at upper band $53.58 → $3.08 reward vs $1.52 risk = R:R ~2.03:1."
   ],
   "risks_acknowledged": [
-    "Strong fundamentals against the short: Q1 2026 was a beat-and-raise (revenue $464.4M +30.8% YoY, raised FY guide to $2.05–2.08B) and analyst tape is heavily long (33 Buy/1 Hold/0 Sell, avg PT $76, UBS $85, DA Davidson raised to $75); a sentiment reversal could squeeze the short fast.",
-    "Hourly bollinger.pct_b = 0.0014 (price pinned to lower band) and daily atr_pct = 5.33 — price is already extended into short-term oversold; an opening reflex bounce back toward $55–56 (fib_236 = 56.16, ema_20 = 55.29) is a real risk before any continuation lower.",
-    "Wiki context is missing for BROS (new_ticker = true, all slices missing) — no prior setup history to lean on; thesis rests entirely on the single-day breakdown candle holding.",
-    "Research gap: no data in the bundle on overall consumer-discretionary / restaurant-sector tape for the next 1–3 sessions; a strong sector bid could lift BROS independent of its own technical damage."
+    "Fundamentals are strongly bullish against the short: Q1 2026 beat-and-raise (revenue $464.4M +30.8% YoY, system same-shop sales +8.3%, FY guide raised to $2.05B-$2.08B per recent_news_7d 2026-05-06); analyst_consensus_web shows 33 Buy / 1 Hold / 0 Sell, avg_price_target $76 vs current $53.54 (UBS Buy $85, DA Davidson Buy raised to $75) — institutional dip-buying could short-squeeze the entry zone.",
+    "Trade is being entered into short-term oversold: hourly bollinger.pct_b = 0.0106 (price pinned to lower band), daily atr.atr_pct = 5.33, daily rsi.rsi_7 = 41.34. A reflex bounce toward $54.40 (hourly nearest_resistance), $55.10 (daily ema_20), or even fibonacci.fib_236 = 56.16 is plausible before continuation; chasing below $51.55 hourly pivot_low risks a bear trap.",
+    "Wiki memory is empty (wiki_context.new_ticker = true; thesis_full / catalysts_full / technicals_full all missing) — no prior setup history confirms how BROS handles post-earnings breakdown patterns. Research gap: recent_insider_trades = [] (no insider transaction data in last 30 days), so insider-buy floor risk is unquantified.",
+    "earnings.days_until_next = 89 (next quarterly early August per earnings_context_web) means no near-term catalyst to accelerate the breakdown — trade depends purely on technical follow-through and broader market beta over the next 5 trading days; sector strength in restaurants/consumer-discretionary could lift BROS independent of its own damage."
   ],
   "web_sources_last_7d": [
     "https://www.businesswire.com/news/home/20260506549768/en/Dutch-Bros-Inc.-Reports-First-Quarter-2026-Financial-Results",

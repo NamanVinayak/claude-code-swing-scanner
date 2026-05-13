@@ -4,18 +4,18 @@
   "bull_strength": 6,
   "entry_zone": {"low": 1012.00, "high": 1016.00},
   "target": 1034.00,
-  "stop": 1002.00,
-  "expected_holding_days": 7,
+  "stop": 1005.00,
+  "expected_holding_days": 10,
   "top_3_arguments": [
-    "Fresh catalyst (2026-05-07): Costco April net sales up 13% YoY to $23.92B for the four weeks ended May 3 — strong topline acceleration heading into May 28 fiscal Q3 print; price reclaimed the entire 2026-05-06 down-bar (closed 1012.06 vs prior close 995.75) on relative volume 1.11x, confirming demand at the 990–1000 zone (recent_prices_5d).",
-    "Trend stack intact and bullish: ema_aligned_uptrend = true on daily; price above EMA5/10/20/21/50/200 (price_vs_ma all true); MACD histogram positive at +0.36 with macd_line 4.01 above signal 3.65; daily OBV trend up and not diverging — buyers absorbed the 2026-05-06 dip and reclaimed prior_day_high 1012.23.",
-    "Catalyst pipeline: Seeking Alpha (2026-05-04) flagged May 28 fiscal Q3 as a near-term catalyst with the street modeling ~14% YoY EPS growth on the back of a Q2 FY26 beat ($69.6B revenue, $4.58 EPS); analyst_consensus_web shows 23 Buy / 12 Hold / 2 Sell with $1,078 PT (~6.6% upside) and earnings.days_until_next = 20 — clean window with no earnings risk; R:R math from entry mid 1014 to target 1034 (+20) vs stop 1002 (-12) ≈ 1.67:1, slightly under 2:1 — flagged as the weakest leg of the case."
+    "Fresh fundamental catalyst within 7d: COST reported April net sales of $23.92B, +13% YoY for the four weeks ended May 3 (web_research, 2026-05-07, finance.yahoo.com). 13% top-line growth at a $447B-cap retailer reaffirms the membership/comp engine into fiscal Q3 earnings on 2026-05-28 (earnings.days_until_next = 20) — a real bullish narrative pull while price pulls back into watch_level 1015.",
+    "Trend structure intact: daily ema_aligned_uptrend = true, price above EMA5/10/20/21/50/200 (price_vs_ma all true), MACD positive (line 4.01, signal 3.65, histogram +0.36), daily OBV trend up and not diverging from price. The 2026-05-07 candle reclaimed the entire 2026-05-06 down-day (close 1012.06 vs prior close 995.75) on relative_volume 1.11x — buyers absorbed the dip at the 990–1000 zone (recent_prices_5d).",
+    "Buy-side analyst backdrop is supportive: analyst_consensus_web shows 23 Buy / 12 Hold / 2 Sell with avg PT $1,078 (~6.6% upside from $1,012.06); no downgrades in the 7-day window. Seeking Alpha (2026-05-04) explicitly flagged May 28 fiscal Q3 as a near-term catalyst with street modeling ~14% YoY EPS growth on a Q2 FY26 beat (rev $69.6B, EPS $4.58). R:R from entry midpoint 1014 → target 1034 (+20) vs stop 1005 (-9) = 2.22:1 — meets the ≥2:1 threshold; lower-band fill at 1012 yields 22/7 = 3.14:1."
   ],
   "risks_acknowledged": [
-    "ADX 14 = 15.28 (weak trend) and rsi_21 = 45.62 daily / 46.74 hourly — momentum is not confirming the higher-timeframe uptrend, so a pullback-to-support setup can easily roll into a range-bound chop instead of a clean bounce.",
-    "Hourly MACD bearish (line -0.66, histogram -0.64) and hourly relative_volume only 0.61 — short-term tape is soft; a failure to reclaim hourly nearest_resistance 1020.78 keeps price trapped between 1002 and 1020.",
-    "April net sales beat (2026-05-07) is partially attributed to elevated fuel prices in gas stations (per the Yahoo Finance summary) — quality of beat is debatable and could be already priced in given the strong reclaim bar same-day.",
-    "R:R from entry midpoint to stop and target is ~1.67:1, below the prompt's 2:1 minimum threshold — a tighter stop near 1005 (invalidation_level) or a target push toward fib_ext_1272 = 1053 would be required to satisfy strict R:R; flagged as a structural weakness of the setup at current price."
+    "ADX_14 = 15.28 ('weak') and daily rsi_21 = 45.62; momentum.roc_21d = -1.62% — trend strength is unimpressive and a pullback-to-support setup can easily devolve into range-bound chop instead of a clean bounce toward 1034.",
+    "wiki_context.new_ticker = true (no prior thesis/catalyst/technicals memory in System B) and recent_insider_trades is empty — no insider-buy confirmation; bull case rests entirely on a 3-item news window plus indicators.",
+    "Hourly tape is soft: hourly relative_volume 0.09 (current vs 20-bar avg 181,854), hourly rsi_21 = 42.03, hourly MACD line just 0.25; failure to reclaim hourly nearest_resistance 1020.78 keeps price stuck between hourly support 992.50 and 1020.78.",
+    "April net-sales beat is partially attributed to elevated fuel prices in gas stations (per the Yahoo Finance summary) — quality of beat is debatable and may already be priced in via the same-day reclaim bar."
   ],
   "web_sources_last_7d": [
     "https://finance.yahoo.com/quote/COST/news/",

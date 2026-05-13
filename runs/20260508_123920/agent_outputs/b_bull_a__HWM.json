@@ -1,21 +1,21 @@
 {
   "ticker": "HWM",
   "setup_direction": "long",
-  "bull_strength": 7,
-  "entry_zone": {"low": 273.00, "high": 275.50},
+  "bull_strength": 6,
+  "entry_zone": {"low": 273.50, "high": 275.50},
   "target": 290.00,
-  "stop": 266.00,
+  "stop": 268.00,
   "expected_holding_days": 7,
   "top_3_arguments": [
-    "Daily MA stack fully bullish: price ($272.54) above ema_5/10/20/50/200 with ema_aligned_uptrend = true; pct_from_ema_50 = +12.22%, pct_from_ema_200 = +27.35%; daily_indicators.adx.adx_14 = 27.52 with plus_di 33.89 vs minus_di 19.15 (trend_strength = strong) confirms a real directional move, not noise.",
-    "Earnings-driven breakout on confirmed institutional volume: 2026-05-07 candle printed high $280.74 / close $272.54 on volume 5,793,200 vs avg_volume_20 = 2,382,625 (relative_volume 2.43x); momentum.roc_5d = +12.14, roc_10d = +10.72; obv.trend = up, not diverging. Q1 beat-and-raise (revenue +19% YoY, FY26 revenue guide raised to $9.65B from $9.1B, FCF $359M vs $134M) is the catalyst, and it's a fresh 1-day-old event still being absorbed.",
-    "Clean R:R into prior swing high: entry 273-275.50, stop 266 (below yesterday's $266.06 low and just under bollinger.upper $266.36 flip-to-support), target 290 just below the $290 intraday peak cited in news; risk ~$8.50, reward ~$15.50, R:R ~1.8:1 — slightly under 2:1 acknowledged. fibonacci.fib_ext_1272 = $297.12 sits as a higher stretch target if momentum carries; daily_indicators.macd histogram = +1.88 expanding (macd_line 2.61 vs signal 0.73)."
+    "Strong confirmed-volume trend on the breakout: daily_indicators.adx.adx_14 = 27.52 (trend_strength = strong) with plus_di 33.89 vs minus_di 19.15; volume.relative_volume = 2.43 on 2026-05-07 (5.79M vs avg_volume_20 of 2.38M), volume_bias_10d = up, OBV trend up not diverging — signature of institutional participation on the post-earnings expansion candle.",
+    "Full bullish MA stack with momentum extension across timeframes: daily price_vs_ma above_ema_5/10/20/50/200 all true, ema_aligned_uptrend = true, pct_from_ema_50 = +12.22%, pct_from_sma_200 = +28.93%; daily macd_line 2.6103 > signal 0.7299 with histogram +1.88 expanding; hourly ADX 53.16 with plus_di 45.98 vs minus_di 14.16; momentum.roc_5d = +12.14% capturing the breakout.",
+    "Fresh fundamental catalyst justifies the breakout and removes near-term blackout risk: 2026-05-07 Q1 2026 beat (revenue $2.31B +19% YoY, +3.2% beat; adj EPS $1.22 +10.3% beat; EBITDA margin +320bps to 32.0%) plus FY26 revenue guide raised to $9.65B and EPS to $4.94; FCF $359M vs $134M YoY plus $300M Q1 buyback + $150M April buyback; analyst_consensus_web rating buy, avg PT $277.52 (range to $315); earnings.days_until_next = 90."
   ],
   "risks_acknowledged": [
-    "daily_indicators.rsi.rsi_7 = 84.17 and hourly rsi_21 = 73.85 with bollinger.pct_b = 1.17 (price ABOVE upper band) and z_score_50 = 2.51 — extended; high probability of a 1-2 day mean-reversion pullback before continuation, which could trip a tight stop.",
-    "CEO publicly flagged Iran conflict as a downside risk to aerospace demand momentum on the same day as the beat (Benzinga, 2026-05-07) — overhang on otherwise clean tape; geopolitical headline could erase the breakout intraday.",
-    "Hourly relative_volume = 0.59 (below average) and pre-market gap is only +0.86% with no premarket volume confirmation per catalyst_note — risk that the institutional volume was a one-day earnings reaction and follow-through buying does not materialize at the open.",
-    "Research gap: wiki_context is fully missing (new_ticker = true) and analyst_consensus_web avg_price_target is $277.52 — only ~2% above current price, meaning street targets already largely reflect the move and offer limited fundamental upside cushion if technicals fail."
+    "Stretched/overbought across timeframes: daily rsi_7 = 84.17, bollinger pct_b = 1.1728 (price above upper band), z_score_50 = 2.51, hourly rsi_21 = 73.51 — high probability of a 1–3 day mean-reversion pullback before continuation, which can stop out a tight long entry.",
+    "2026-05-07 was a wide-range outside bar (high $280.74 / low $266.06 / close $272.54) closing in the lower half of its range — sellers defended the prior $267.31 / $280 pivot zone (support_resistance.pivot_highs); a clean continuation breakout above $280.74 has not yet been confirmed and entry near $275 risks buying mid-range.",
+    "CEO publicly flagged Iran conflict as a downside risk to aerospace demand momentum (Benzinga, 2026-05-07) on the same day as the beat — exogenous geopolitical tape-bomb could invalidate the technical setup intraday regardless of chart quality.",
+    "Research gap: wiki_context.new_ticker = true (thesis_full / catalysts_full / technicals_full all missing) — no prior System B history on how HWM resolves similar breakouts; recent_insider_trades is empty (no 30-day insider-buy confirmation to corroborate the breakout)."
   ],
   "web_sources_last_7d": [
     "https://www.howmet.com/press-release/2026-05-07/howmet-aerospace-reports-first-quarter-2026-results/",

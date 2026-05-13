@@ -2,20 +2,20 @@
   "ticker": "HWM",
   "setup_direction": "long",
   "bull_strength": 8,
-  "entry_zone": {"low": 273.50, "high": 276.50},
-  "target": 292.00,
+  "entry_zone": {"low": 273.00, "high": 275.50},
+  "target": 290.00,
   "stop": 266.00,
   "expected_holding_days": 7,
   "top_3_arguments": [
-    "Beat-and-raise catalyst dated 2026-05-07 (one day old): Q1 2026 revenue $2.31B (+19% YoY, 3.2% beat), non-GAAP EPS $1.22 (10.3% beat), adjusted EBITDA margin +320bps YoY to 32.0%; FY26 revenue guidance raised to $9.65B midpoint (from $9.1B, +6%) and FY26 Adj EPS guide raised to $4.94 midpoint (+11%) on commercial + F-35 defense aerospace demand (Howmet PR + Seeking Alpha + ts2.tech).",
-    "Capital-return + cash-flow confirmation per simplywall.st 2026-05-07: Q1 free cash flow jumped to $359M from $134M YoY; $300M buyback in Q1 plus an additional $150M in April — management is putting raised cash flow directly back into the float, supporting the post-earnings drift; analyst_consensus_web shows 20 buys / 3 holds / 0 sells with avg PT $277.52 (Strong Buy skew after the print).",
-    "Price action confirms the catalyst: daily ADX 27.52 (strong trend) with +DI 33.89 vs -DI 19.15, MACD histogram +1.88 with macd_line 2.61 above signal 0.73, hourly ADX 47.52 with +DI 50.32 vs -DI 12.05, daily relative volume 2.43x (5.79M vs 20-day avg 2.38M) on the breakout day, OBV trending up — daily RSI_14 61.57 leaves room before overbought; entry mid 275 to target 292 vs stop 266 = ~$17 reward / ~$9 risk, R:R ~1.9:1 (target $292 sits just below fib_ext_1272 $297.12, conservative)."
+    "Beat-and-raise catalyst dated 2026-05-07 (one day old): Q1 2026 revenue $2.31B (+19% YoY, 3.2% beat), non-GAAP EPS $1.22 (10.3% beat), adjusted EBITDA margin +320bps YoY to 32.0%; FY26 revenue guide raised to $9.65B midpoint (from $9.1B, +6%) and FY26 Adj EPS guide raised to $4.94 midpoint (+11%) on commercial + F-35 defense aerospace demand (Howmet PR + Seeking Alpha + ts2.tech 2026-05-07).",
+    "Capital-return + cash-flow confirmation (simplywall.st 2026-05-07): Q1 FCF jumped to $359M from $134M YoY; $300M buyback in Q1 plus $150M in April — management is recycling raised cash flow into the float, supporting post-earnings drift. analyst_consensus_web shows 20 buys / 3 holds / 0 sells with avg PT $277.52 (Strong Buy skew post-print). earnings.days_until_next = 90, so zero earnings risk inside the 7-day window.",
+    "Price action confirms catalyst with healthy R:R: daily ADX_14 27.52 (strong trend) with +DI 33.89 vs -DI 19.15, MACD histogram +1.88 (macd_line 2.61 > signal 0.73), hourly ADX_24 53.16 with +DI 45.98 vs -DI 14.16, daily relative_volume 2.43x (5.79M vs 20-day avg 2.38M) on the breakout day, OBV trending up. Daily RSI_14 = 61.57 leaves room before overbought. Math: entry mid $274.25, stop $266 (risk $8.25), target $290 (reward $15.75) = 1.91:1; tightening entry low to $273 lifts R:R to 2.06:1, clearing the 2:1 floor. Target $290 sits below fib_ext_1272 $297.12 — conservative."
   ],
   "risks_acknowledged": [
-    "CEO publicly cautioned on 2026-05-07 (Benzinga) that an Iran conflict could disrupt aerospace demand momentum — a real geopolitical tail risk that could rerate the entire sector despite the raised guide.",
-    "Stretched short-term technicals: daily RSI_7 = 84.17, daily Bollinger %B = 1.17 (above upper band), hourly RSI_21 = 73.85, daily z_score_50 = 2.51, price 10.94% above 50SMA — gap-and-go entries here have shown a wide $266.06 to $280.74 range on 2026-05-07 alone, so a back-fill toward the 5/6 close ($256) before continuation is plausible.",
-    "Wiki memory is empty for HWM (new_ticker=true, all wiki slices missing) and recent_insider_trades is an empty list — no insider-buying confirmation of the post-print thesis, so the bull case rests entirely on the 7-day news catalyst plus tape, with no internal-conviction signal.",
-    "R:R is just 1.9:1 from the entry midpoint, slightly under the prompt's strict 2:1 floor — conviction would tighten if the entry filled near the lower edge ($273.50, R:R ~2.2:1) rather than the upper edge."
+    "CEO publicly cautioned on 2026-05-07 (Benzinga) that an Iran conflict could disrupt aerospace demand momentum — a real geopolitical tail risk that could rerate the sector despite the raised guide.",
+    "Stretched short-term technicals: daily RSI_7 = 84.17, daily Bollinger %B = 1.17 (above upper band), hourly RSI_21 = 73.51, daily z_score_50 = 2.51, price 10.94% above 50SMA — 2026-05-07 had a wide $266.06 to $280.74 range, so a back-fill toward the 5/6 close ($256) before continuation is plausible.",
+    "Wiki memory is empty for HWM (new_ticker=true, all wiki slices missing) and recent_insider_trades is an empty list — no insider-buying confirmation of the post-print thesis, so the bull case rests on the 7-day news catalyst plus tape, with no durable internal-conviction signal.",
+    "Stage 2 catalyst_note flagged that premarket volume could not be confirmed; institutional follow-through demand on day 2 is unverified — a first hourly close below the $270.50 invalidation level would unwind the gap quickly."
   ],
   "web_sources_last_7d": [
     "https://www.howmet.com/press-release/2026-05-07/howmet-aerospace-reports-first-quarter-2026-results/",

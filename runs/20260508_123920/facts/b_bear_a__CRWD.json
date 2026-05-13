@@ -10,56 +10,7 @@
     "tv_strong_buy",
     "tv_breakout_up"
   ],
-  "recent_news_7d": [
-    {
-      "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 6.71% on May 7: Drivers Behind the Movement",
-      "source": "web_research",
-      "date": "2026-05-07",
-      "url": "https://www.tradingkey.com/news/market-movers/261870218-market-movers-crwd-20260507",
-      "sentiment": "positive",
-      "summary": "CRWD rose 6.71% on May 7, outperforming the broader software sector amid intensifying market buzz around CrowdStrike's role in Anthropic's Project Glasswing (security for enterprise AI deployments)."
-    },
-    {
-      "title": "CRWD Stock Breaks $500 on Partner App Launch and Earnings Date Amid AI Concerns",
-      "source": "web_research",
-      "date": "2026-05-07",
-      "url": "https://www.fxleaders.com/news/2026/05/07/crwd-stock-breaks-500-on-partner-app-launch-and-earnings-date-amid-ai-concerns/",
-      "sentiment": "positive",
-      "summary": "CRWD broke above $500 driven by the Jet partner app launch (mobile app for channel partners on Apple and Google) and confirmation of the June 3, 2026 earnings date."
-    },
-    {
-      "title": "CrowdStrike launches Falcon OverWatch for Defender",
-      "source": "web_research",
-      "date": "2026-05-06",
-      "url": "https://www.stocktitan.net/news/CRWD/crowd-strike-falcon-over-watch-for-defender-extends-managed-threat-t3tfc3raxdsk.html",
-      "sentiment": "positive",
-      "summary": "CrowdStrike announced Falcon OverWatch for Defender, extending managed threat hunting to Microsoft endpoint customers. Expands TAM into the Microsoft Defender installed base."
-    },
-    {
-      "title": "CrowdStrike Stock (CRWD) Opinions on Anthropic Project Glasswing",
-      "source": "web_research",
-      "date": "2026-05-05",
-      "url": "https://www.quiverquant.com/news/CrowdStrike+Stock+(CRWD)+Opinions+on+Anthropic+Project+Glasswing",
-      "sentiment": "positive",
-      "summary": "Coverage of CrowdStrike's role providing security for AI deployments under Anthropic's Project Glasswing initiative; shares climbed over 5% on the news."
-    },
-    {
-      "title": "CrowdStrike Stock Gains On New AI Cybersecurity Push, Partner App Launch",
-      "source": "web_research",
-      "date": "2026-05-04",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/05/52382626/crowdstrike-stock-gains-on-new-ai-cybersecurity-push-partner-app-launch",
-      "sentiment": "positive",
-      "summary": "CRWD gains attributed to integration of Anthropic's Claude Opus 4.7 across the Falcon platform (May 1) plus the Jet partner app launch. AI integration positioned as the most important near-term catalyst."
-    },
-    {
-      "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 3.03% on May 4: A Full Analysis",
-      "source": "web_research",
-      "date": "2026-05-04",
-      "url": "https://www.tradingkey.com/news/market-movers/261853095-market-movers-crwd-20260504",
-      "sentiment": "positive",
-      "summary": "CRWD rose 3.03% on May 4 as the Falcon-Claude Opus 4.7 integration (announced May 1) gained traction with investors as a threat-detection differentiator."
-    }
-  ],
+  "recent_news_7d": [],
   "wiki_context": {
     "slices": {
       "thesis_full": {
@@ -77,17 +28,9 @@
     },
     "new_ticker": true
   },
-  "current_price": 505.7200012207031,
-  "market_cap": 127717523456.0,
+  "current_price": 527.77001953125,
+  "market_cap": 134504734720.0,
   "recent_prices_5d": [
-    {
-      "time": "2026-05-01",
-      "open": 454.69000244140625,
-      "high": 457.9700012207031,
-      "low": 445.56500244140625,
-      "close": 455.6400146484375,
-      "volume": 1522000
-    },
     {
       "time": "2026-05-04",
       "open": 456.8999938964844,
@@ -118,61 +61,69 @@
       "high": 506.7900085449219,
       "low": 486.0899963378906,
       "close": 505.7200012207031,
-      "volume": 5102900
+      "volume": 5114500
+    },
+    {
+      "time": "2026-05-08",
+      "open": 499.17498779296875,
+      "high": 528.9149780273438,
+      "low": 492.3299865722656,
+      "close": 527.77001953125,
+      "volume": 4036500
     }
   ],
   "daily_indicators": {
     "timeframe": "daily",
     "moving_averages": {
-      "ema_5": 478.69705285608796,
-      "sma_5": 475.0400024414063,
-      "ema_10": 466.0788095377369,
-      "sma_10": 463.1059997558594,
-      "ema_20": 450.0944029460652,
-      "sma_20": 442.94749908447267,
-      "ema_21": 448.9291334491438,
-      "sma_21": 440.64904639834447,
-      "ema_50": 434.54551756429595,
-      "sma_50": 422.74539855957033,
-      "ema_200": 441.3642040214698,
-      "sma_200": 457.6627000427246,
+      "ema_5": 495.05470841447533,
+      "sma_5": 489.46600341796875,
+      "ema_10": 477.2953931729211,
+      "sma_10": 471.07000122070315,
+      "ema_20": 457.4920807160574,
+      "sma_20": 450.38500061035154,
+      "ema_21": 456.09648672924106,
+      "sma_21": 446.9866667247954,
+      "ema_50": 438.2009981680375,
+      "sma_50": 425.678798828125,
+      "ema_200": 440.7534905505916,
+      "sma_200": 457.9939501953125,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 505.7200012207031,
-    "dist_from_50sma_pct": 19.63,
+    "current_price": 527.77001953125,
+    "dist_from_50sma_pct": 23.98,
     "price_vs_ma": {
       "above_ema_5": true,
-      "pct_from_ema_5": 5.65,
+      "pct_from_ema_5": 6.61,
       "above_sma_5": true,
-      "pct_from_sma_5": 6.46,
+      "pct_from_sma_5": 7.83,
       "above_ema_10": true,
-      "pct_from_ema_10": 8.51,
+      "pct_from_ema_10": 10.58,
       "above_sma_10": true,
-      "pct_from_sma_10": 9.2,
+      "pct_from_sma_10": 12.04,
       "above_ema_20": true,
-      "pct_from_ema_20": 12.36,
+      "pct_from_ema_20": 15.36,
       "above_sma_20": true,
-      "pct_from_sma_20": 14.17,
+      "pct_from_sma_20": 17.18,
       "above_ema_21": true,
-      "pct_from_ema_21": 12.65,
+      "pct_from_ema_21": 15.71,
       "above_sma_21": true,
-      "pct_from_sma_21": 14.77,
+      "pct_from_sma_21": 18.07,
       "above_ema_50": true,
-      "pct_from_ema_50": 16.38,
+      "pct_from_ema_50": 20.44,
       "above_sma_50": true,
-      "pct_from_sma_50": 19.63,
+      "pct_from_sma_50": 23.98,
       "above_ema_200": true,
-      "pct_from_ema_200": 14.58,
+      "pct_from_ema_200": 19.74,
       "above_sma_200": true,
-      "pct_from_sma_200": 10.5,
+      "pct_from_sma_200": 15.24,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 50472.0
+      "pct_from_ema_aligned_uptrend": 52677.0
     },
     "rsi": {
-      "rsi_7": 79.45,
-      "rsi_14": 75.59,
-      "rsi_21": 65.25
+      "rsi_7": 85.71,
+      "rsi_14": 77.41,
+      "rsi_21": 76.63
     },
     "rsi_divergence": {
       "bullish": false,
@@ -180,32 +131,32 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 18.1335,
-      "signal_line": 13.3748,
-      "histogram": 4.7587,
+      "macd_line": 22.0243,
+      "signal_line": 15.1047,
+      "histogram": 6.9196,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 503.42,
-      "middle": 442.95,
-      "lower": 382.48,
-      "width": 0.273,
-      "pct_b": 1.019
+      "upper": 514.25,
+      "middle": 450.39,
+      "lower": 386.52,
+      "width": 0.2836,
+      "pct_b": 1.1059
     },
     "atr": {
-      "atr_14": 19.17,
-      "atr_pct": 3.79
+      "atr_14": 20.58,
+      "atr_pct": 3.9
     },
     "adx": {
-      "adx_14": 26.93,
-      "plus_di": 40.59,
-      "minus_di": 17.41,
+      "adx_14": 29.09,
+      "plus_di": 45.48,
+      "minus_di": 15.05,
       "trend_strength": "strong"
     },
     "volume": {
-      "current_volume": 5102900,
-      "avg_volume_20": 3100185,
-      "relative_volume": 1.65,
+      "current_volume": 4036500,
+      "avg_volume_20": 2855640,
+      "relative_volume": 1.41,
       "volume_bias_10d": "up",
       "obv": {
         "trend": "up",
@@ -244,66 +195,66 @@
       ],
       "nearest_resistance": null,
       "nearest_support": 432.55,
-      "recent_high": 506.79,
-      "recent_low": 364.47,
-      "prev_day_high": 475.3,
-      "prev_day_low": 457.46,
-      "prev_day_close": 468.07
+      "recent_high": 528.91,
+      "recent_low": 378.25,
+      "prev_day_high": 506.79,
+      "prev_day_low": 486.09,
+      "prev_day_close": 505.72
     },
     "fibonacci": {
-      "swing_high": 506.79,
+      "swing_high": 528.91,
       "swing_low": 361.81,
-      "fib_236": 472.57,
-      "fib_382": 451.41,
-      "fib_500": 434.3,
-      "fib_618": 417.19,
-      "fib_786": 392.83,
-      "fib_ext_1272": 546.23,
-      "fib_ext_1618": 596.39,
-      "fib_ext_2000": 651.77,
-      "fib_ext_low_1272": 322.37,
-      "fib_ext_low_1618": 272.21
+      "fib_236": 489.48,
+      "fib_382": 465.08,
+      "fib_500": 445.36,
+      "fib_618": 425.64,
+      "fib_786": 397.57,
+      "fib_ext_1272": 574.37,
+      "fib_ext_1618": 632.19,
+      "fib_ext_2000": 696.02,
+      "fib_ext_low_1272": 316.35,
+      "fib_ext_low_1618": 258.53
     },
     "momentum": {
-      "roc_5d": 13.45,
-      "roc_10d": 13.55,
-      "roc_21d": 18.57
+      "roc_5d": 15.83,
+      "roc_10d": 17.77,
+      "roc_21d": 33.72
     },
-    "z_score_50": 2.7,
+    "z_score_50": 3.05,
     "degraded_indicators": []
   },
   "hourly_indicators": {
     "timeframe": "hourly",
     "moving_averages": {
-      "ema_24": 484.0785331951301,
-      "sma_24": 482.05531819661456,
-      "ema_48": 473.166456911918,
-      "sma_48": 467.91294542948407,
-      "ema_120": 456.0883442777207,
-      "sma_120": 450.960769144694,
+      "ema_24": 502.3797030706131,
+      "sma_24": 496.7231305440267,
+      "ema_48": 486.3271195581268,
+      "sma_48": 479.1386540730794,
+      "ema_120": 461.071710328611,
+      "sma_120": 457.8006851196289,
       "ema_aligned_uptrend": true,
       "ema_aligned_downtrend": false
     },
-    "current_price": 501.7650146484375,
-    "dist_from_50sma_pct": 11.27,
+    "current_price": 528.4299926757812,
+    "dist_from_50sma_pct": 15.43,
     "price_vs_ma": {
       "above_ema_24": true,
-      "pct_from_ema_24": 3.65,
+      "pct_from_ema_24": 5.19,
       "above_sma_24": true,
-      "pct_from_sma_24": 4.09,
+      "pct_from_sma_24": 6.38,
       "above_ema_48": true,
-      "pct_from_ema_48": 6.04,
+      "pct_from_ema_48": 8.66,
       "above_sma_48": true,
-      "pct_from_sma_48": 7.23,
+      "pct_from_sma_48": 10.29,
       "above_ema_120": true,
-      "pct_from_ema_120": 10.01,
+      "pct_from_ema_120": 14.61,
       "above_sma_120": true,
-      "pct_from_sma_120": 11.27,
+      "pct_from_sma_120": 15.43,
       "above_ema_aligned_uptrend": true,
-      "pct_from_ema_aligned_uptrend": 50076.5
+      "pct_from_ema_aligned_uptrend": 52743.0
     },
     "rsi": {
-      "rsi_21": 67.48
+      "rsi_21": 82.28
     },
     "rsi_divergence": {
       "bullish": false,
@@ -311,32 +262,32 @@
       "lookback_bars": 60
     },
     "macd": {
-      "macd_line": 12.3034,
-      "signal_line": 9.0988,
-      "histogram": 3.2046,
+      "macd_line": 18.0326,
+      "signal_line": 13.0994,
+      "histogram": 4.9332,
       "bullish_crossover": false
     },
     "bollinger": {
-      "upper": 505.17,
-      "middle": 467.91,
-      "lower": 430.65,
-      "width": 0.1593,
-      "pct_b": 0.9543
+      "upper": 529.84,
+      "middle": 479.14,
+      "lower": 428.43,
+      "width": 0.2116,
+      "pct_b": 0.9861
     },
     "atr": {
-      "atr_24": 7.08,
-      "atr_pct": 1.41
+      "atr_24": 7.7,
+      "atr_pct": 1.46
     },
     "adx": {
-      "adx_24": 31.01,
-      "plus_di": 32.91,
-      "minus_di": 20.28,
+      "adx_24": 31.62,
+      "plus_di": 33.16,
+      "minus_di": 19.36,
       "trend_strength": "strong"
     },
     "volume": {
-      "current_volume": 578844,
-      "avg_volume_20": 395703,
-      "relative_volume": 1.46,
+      "current_volume": 502244,
+      "avg_volume_20": 470999,
+      "relative_volume": 1.07,
       "volume_bias_10d": "up",
       "obv": {
         "trend": "up",
@@ -347,13 +298,13 @@
       "pivot_highs": [
         {
           "price": 453.16,
-          "tests": 23,
+          "tests": 16,
           "volume_confirmed": false
         },
         {
           "price": 457.97,
-          "tests": 15,
-          "volume_confirmed": true
+          "tests": 11,
+          "volume_confirmed": false
         },
         {
           "price": 471.81,
@@ -373,60 +324,49 @@
           "volume_confirmed": true
         },
         {
-          "price": 443.24,
-          "tests": 8,
-          "volume_confirmed": false
+          "price": 457.46,
+          "tests": 11,
+          "volume_confirmed": true
         },
         {
-          "price": 457.46,
-          "tests": 17,
+          "price": 492.33,
+          "tests": 2,
           "volume_confirmed": true
         }
       ],
       "nearest_resistance": null,
-      "nearest_support": 457.46,
-      "recent_high": 506.79,
-      "recent_low": 457.46,
-      "prev_day_high": 506.79,
-      "prev_day_low": 501.63,
-      "prev_day_close": 505.7
+      "nearest_support": 492.33,
+      "recent_high": 530.0,
+      "recent_low": 465.38,
+      "prev_day_high": 527.83,
+      "prev_day_low": 524.21,
+      "prev_day_close": 527.68
     },
     "fibonacci": {
-      "swing_high": 506.79,
-      "swing_low": 454.63,
-      "fib_236": 494.48,
-      "fib_382": 486.86,
-      "fib_500": 480.71,
-      "fib_618": 474.56,
-      "fib_786": 465.79,
-      "fib_ext_1272": 520.98,
-      "fib_ext_1618": 539.02,
-      "fib_ext_2000": 558.95,
-      "fib_ext_low_1272": 440.44,
-      "fib_ext_low_1618": 422.4
+      "swing_high": 530.0,
+      "swing_low": 457.46,
+      "fib_236": 512.88,
+      "fib_382": 502.29,
+      "fib_500": 493.73,
+      "fib_618": 485.17,
+      "fib_786": 472.98,
+      "fib_ext_1272": 549.73,
+      "fib_ext_1618": 574.83,
+      "fib_ext_2000": 602.54,
+      "fib_ext_low_1272": 437.73,
+      "fib_ext_low_1618": 412.63
     },
     "momentum": {
-      "roc_5d": 0.34,
-      "roc_10d": 7.1,
-      "roc_21d": 5.88
+      "roc_5d": 1.96,
+      "roc_10d": 5.83,
+      "roc_21d": 11.54
     },
-    "z_score_120": 2.22,
+    "z_score_120": 2.69,
     "degraded_indicators": []
   },
   "recent_insider_trades": [],
   "earnings": {
-    "days_until_next": 26,
+    "days_until_next": 23,
     "days_since_last": null
-  },
-  "news_source": "web_research",
-  "analyst_consensus_web": {
-    "rating": "buy",
-    "avg_price_target": 510.52,
-    "recent_changes": "Wells Fargo reiterated Overweight on May 5, 2026. Mizuho upgraded to Outperform from Neutral and raised PT to $520 from $490 on April 27, 2026. Keybanc rating issued April 21, 2026. Range $368 (Bernstein) to $613 (Scotiabank); 35 Buy / 18 Hold / 1 Sell across 43-46 covering analysts."
-  },
-  "earnings_context_web": {
-    "next_earnings_date": "2026-06-03",
-    "days_until_next": 26,
-    "notes": "Q1 fiscal report on June 3, 2026 \u2014 outside the 3-day forward earnings blackout. Street expectations elevated on AI integration (Claude Opus 4.7 in Falcon) and partner-app momentum; any sign of slower growth could pressure sentiment."
   }
 }

@@ -1,0 +1,6 @@
+{
+  "lessons_filled": 0,
+  "theses_updated": [],
+  "setup_histories_updated": [],
+  "notes": "Quiet day — closed_today is empty. No lesson placeholders to fill (trade_id=9 TLN is the only lesson in lessons.md and already has a complete WHY; trade_id=8 CMI and trade_id=24 FSLY have no Python-added placeholder bullets to fill). No per-ticker thesis edits needed (no closed trades today). No setup_history rows to append. Updated wiki/meta/setup_patterns.md Notes section to reflect 2026-05-14 state and mention ROK approaching its 8-day expected holding window. Open position: ROK long entered $446.93 on 2026-05-06, ~7 trading days held vs 8 expected, stop at $434.50, target $469.00 — no thesis changes warranted from today's action."
+}

@@ -1,0 +1,704 @@
+{
+  "run_id": "20260514_211306",
+  "scan_timestamp_pt": "2026-05-14T14:13:06-07:00",
+  "universe_size": 1702,
+  "candidate_count": 36,
+  "candidates": [
+    {
+      "ticker": "NBIS",
+      "exchange": "NASDAQ",
+      "last_close": 221.15,
+      "market_cap_usd": 55665764306.620346,
+      "volume": 29645293,
+      "change_pct_today": 6.696579340956238,
+      "score": 3,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "MRVL",
+      "exchange": "NASDAQ",
+      "last_close": 182.58,
+      "market_cap_usd": 159658584903.098,
+      "volume": 32550535,
+      "change_pct_today": 2.6018544534981873,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_breakout_up",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "BE",
+      "exchange": "NYSE",
+      "last_close": 303.41,
+      "market_cap_usd": 86303119984.90813,
+      "volume": 8013650,
+      "change_pct_today": 4.710795140806196,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "ALAB",
+      "exchange": "NASDAQ",
+      "last_close": 228.64,
+      "market_cap_usd": 39190711613.21112,
+      "volume": 4605472,
+      "change_pct_today": 2.0304342005444167,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "CINF",
+      "exchange": "NASDAQ",
+      "last_close": 165.31,
+      "market_cap_usd": 25571263643.30718,
+      "volume": 630452,
+      "change_pct_today": 1.2556658091388042,
+      "score": 2,
+      "direction": "long",
+      "reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "long_reasons": [
+        "tv_strong_buy",
+        "tv_trending_up"
+      ],
+      "short_reasons": [],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "RBLX",
+      "exchange": "NYSE",
+      "last_close": 43.72,
+      "market_cap_usd": 31302591500.146805,
+      "volume": 10263654,
+      "change_pct_today": 4.194470924690176,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "INSM",
+      "exchange": "NASDAQ",
+      "last_close": 115.62,
+      "market_cap_usd": 25060918586.002037,
+      "volume": 2761302,
+      "change_pct_today": -2.008644800406806,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "KEP",
+      "exchange": "NYSE",
+      "last_close": 13.35,
+      "market_cap_usd": 17448743377.975143,
+      "volume": 2184753,
+      "change_pct_today": -3.1204644412191564,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "KTOS",
+      "exchange": "NASDAQ",
+      "last_close": 54.85,
+      "market_cap_usd": 10285471726.22023,
+      "volume": 5470817,
+      "change_pct_today": 4.496094494189369,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "BILI",
+      "exchange": "NASDAQ",
+      "last_close": 20.32,
+      "market_cap_usd": 8994594554.57124,
+      "volume": 5844669,
+      "change_pct_today": -9.042076991942702,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "KRMN",
+      "exchange": "NYSE",
+      "last_close": 66.02,
+      "market_cap_usd": 8749385566.495243,
+      "volume": 4214057,
+      "change_pct_today": -1.8727705112960835,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "NCLH",
+      "exchange": "NYSE",
+      "last_close": 15.93,
+      "market_cap_usd": 7313624254.05355,
+      "volume": 22535632,
+      "change_pct_today": -0.809464508094639,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "AUGO",
+      "exchange": "NASDAQ",
+      "last_close": 79.99,
+      "market_cap_usd": 6702300715.799141,
+      "volume": 624677,
+      "change_pct_today": 0.9210194297249428,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "PRIM",
+      "exchange": "NYSE",
+      "last_close": 115.52,
+      "market_cap_usd": 6267529926.624403,
+      "volume": 1603708,
+      "change_pct_today": 2.2843987958207883,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "IBP",
+      "exchange": "NYSE",
+      "last_close": 217.31,
+      "market_cap_usd": 5854485722.113103,
+      "volume": 618363,
+      "change_pct_today": 5.306260903275823,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "CAR",
+      "exchange": "NASDAQ",
+      "last_close": 148.76,
+      "market_cap_usd": 5254944714.2292385,
+      "volume": 787912,
+      "change_pct_today": -0.05374899220640453,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "LBRDK",
+      "exchange": "NASDAQ",
+      "last_close": 34.55,
+      "market_cap_usd": 4956387643.95958,
+      "volume": 1903596,
+      "change_pct_today": 3.4431137724550855,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "PLNT",
+      "exchange": "NYSE",
+      "last_close": 51.5,
+      "market_cap_usd": 4089108637.6260123,
+      "volume": 3321982,
+      "change_pct_today": 1.7987744613559924,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "GPGI",
+      "exchange": "NYSE",
+      "last_close": 12.42,
+      "market_cap_usd": 3600079245.3487225,
+      "volume": 2678512,
+      "change_pct_today": 2.3907666941467363,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "BMI",
+      "exchange": "NYSE",
+      "last_close": 117.54,
+      "market_cap_usd": 3430471861.445335,
+      "volume": 508651,
+      "change_pct_today": 1.2664771258723297,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "CLBT",
+      "exchange": "NASDAQ",
+      "last_close": 13.12,
+      "market_cap_usd": 3272650532.733884,
+      "volume": 6613888,
+      "change_pct_today": 8.429752066115698,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "ERAS",
+      "exchange": "NASDAQ",
+      "last_close": 10.37,
+      "market_cap_usd": 3224909562.418738,
+      "volume": 3212262,
+      "change_pct_today": -0.8604206500956179,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "FSLY",
+      "exchange": "NASDAQ",
+      "last_close": 17.68,
+      "market_cap_usd": 2766919918.890224,
+      "volume": 11107030,
+      "change_pct_today": -3.440742763517198,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "GPCR",
+      "exchange": "NASDAQ",
+      "last_close": 39.84,
+      "market_cap_usd": 2706320343.0,
+      "volume": 822481,
+      "change_pct_today": 4.621848739495812,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "INTR",
+      "exchange": "NASDAQ",
+      "last_close": 6.06,
+      "market_cap_usd": 2666431765.651466,
+      "volume": 9988409,
+      "change_pct_today": -1.3029315960912065,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "VISN",
+      "exchange": "NASDAQ",
+      "last_close": 11.43,
+      "market_cap_usd": 2578260874.5742836,
+      "volume": 9400897,
+      "change_pct_today": -0.6950477845351875,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "LCID",
+      "exchange": "NASDAQ",
+      "last_close": 6.27,
+      "market_cap_usd": 2446910119.3192487,
+      "volume": 15402308,
+      "change_pct_today": -1.8779342723004713,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "WB",
+      "exchange": "NASDAQ",
+      "last_close": 8.34,
+      "market_cap_usd": 2059113365.74604,
+      "volume": 4648011,
+      "change_pct_today": -4.247990815155005,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "PDFS",
+      "exchange": "NASDAQ",
+      "last_close": 46.05,
+      "market_cap_usd": 1838366145.1192553,
+      "volume": 5406650,
+      "change_pct_today": -10.703897614892385,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "bearish_episodic_pivot"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "bearish_episodic_pivot"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "FMC",
+      "exchange": "NYSE",
+      "last_close": 13.56,
+      "market_cap_usd": 1695614252.021995,
+      "volume": 3483795,
+      "change_pct_today": 6.520031421838178,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "WWW",
+      "exchange": "NYSE",
+      "last_close": 15.22,
+      "market_cap_usd": 1247750841.5608501,
+      "volume": 2987672,
+      "change_pct_today": -1.9961365099806745,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "stage4_momentum_breakdown"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "RCAT",
+      "exchange": "NASDAQ",
+      "last_close": 9.74,
+      "market_cap_usd": 1195510566.712766,
+      "volume": 17405095,
+      "change_pct_today": 3.617021276595743,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "ATEC",
+      "exchange": "NASDAQ",
+      "last_close": 7.57,
+      "market_cap_usd": 1164185080.209272,
+      "volume": 2905043,
+      "change_pct_today": 0.26490066225166176,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "WGS",
+      "exchange": "NASDAQ",
+      "last_close": 38.85,
+      "market_cap_usd": 1153379785.716487,
+      "volume": 1471825,
+      "change_pct_today": -0.23112480739598434,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "sector_laggard_decline"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "sector_laggard_decline"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "CRVS",
+      "exchange": "NASDAQ",
+      "last_close": 13.655,
+      "market_cap_usd": 1148254744.754419,
+      "volume": 3945160,
+      "change_pct_today": -13.794191919191922,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "bearish_episodic_pivot"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "bearish_episodic_pivot"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    },
+    {
+      "ticker": "BTGO",
+      "exchange": "NYSE",
+      "last_close": 9.86,
+      "market_cap_usd": 1138504245.3200002,
+      "volume": 1797477,
+      "change_pct_today": -17.212426532325782,
+      "score": 1,
+      "direction": "short",
+      "reasons": [
+        "bearish_episodic_pivot"
+      ],
+      "long_reasons": [],
+      "short_reasons": [
+        "bearish_episodic_pivot"
+      ],
+      "capitol_buys_30d": 0,
+      "capitol_buys_politicians": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "today_watchlist": [],
+  "meta": {
+    "total_evaluated": 0,
+    "total_kept": 0,
+    "dropped_count": 36,
+    "ranking_rationale": "Stage 1 watchlist stale (101.9h old, max 24h) \u2014 all 36 candidates dropped with stage1_too_old"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "lessons_filled": 1,
+  "theses_updated": ["ROK"],
+  "setup_histories_updated": ["ROK"],
+  "notes": "One closed trade today: ROK trade_id=7 stop_hit at $434.50 after 12 days, -$136.73. Lesson appended to wiki/meta/lessons.md. ROK thesis.md updated with falsification record (overbought extension at entry proved correct; post-earnings gap momentum did not sustain to $469 target). ROK setup_history.md placeholder row replaced with actual outcome row. No new tickers bootstrapped today (new_tickers_today=[])."
+}

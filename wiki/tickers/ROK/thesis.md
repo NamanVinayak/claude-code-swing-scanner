@@ -1,18 +1,18 @@
 ---
 name: ROK thesis
 ticker: ROK
-last_updated: 2026-05-07
-last_run_id: manual_correction_post_simulator_bugfix
+last_updated: 2026-05-18
+last_run_id: 20260519_030755
 target_words: 600
 stale_after_days: 30
-summary: Rockwell Automation — breakout long thesis entered 2026-05-06 on Q2 beat-and-raise catalyst
+summary: Rockwell Automation — breakout long thesis entered 2026-05-06 on Q2 beat-and-raise catalyst; stopped out 2026-05-18 at $434.50 (-$136.73)
 ---
 
 # ROK — Thesis
 
 ## TL;DR
 
-Rockwell Automation (NYSE: ROK) is an industrial automation and information company. Entered long 2026-05-06 on a post-earnings breakout after a fiscal Q2 2026 beat-and-raise that produced a +10.72% gap on May 5. The thesis is momentum continuation: strong trend indicators, clear catalysts from raised FY26 guidance, and 92 days to next earnings removing near-term event risk.
+Rockwell Automation (NYSE: ROK) is an industrial automation and information company. Entered long 2026-05-06 on a post-earnings breakout after a fiscal Q2 2026 beat-and-raise that produced a +10.72% gap on May 5. Thesis was momentum continuation on strong trend indicators and raised FY26 guidance. **CLOSED 2026-05-18**: stopped out at $434.50 after 12 days (expected 8), -$136.73. Overbought extension at entry (RSI_7=76.57, pct_b=1.2876) that bears flagged proved correct — post-earnings gap momentum faded without reaching target $469.
 
 > **Correction note (2026-05-07)**: This page originally listed the entry as $445.27 from a 09:30 ET fill. That fill was an artifact of the pre-2026-05-07 simulator time-travel bug — the order was actually placed at 10:11 ET. Real-life first touch of the entry zone after the order existed was at 10:30 ET with low $446.93. Entry price corrected to **$446.93** / `entered_at = 2026-05-06T14:30:00Z` via `scripts/fix_pre_simulator_bug_trades.py`. Trade remains open.
 
@@ -36,9 +36,10 @@ Rockwell Automation (NYSE: ROK) is an industrial automation and information comp
 
 ## What falsified the prior thesis
 
-_No prior thesis to falsify — first entry for this ticker._
+**2026-05-18 — stop hit at $434.50, trade_id=7, -$136.73:**
+The momentum continuation thesis was falsified by the overbought extension risk that bear_a identified at entry (RSI_7=76.57, bollinger pct_b=1.2876, z_score_50=2.19). The post-Q2-earnings gap momentum did not sustain through the 8-day expected holding window. Price drifted lower over 12 days and eventually closed below the gap-day low ($435.93), triggering the stop at $434.50. The bear concern that RSI extension and high z_score would lead to mean-reversion proved correct, even though the fundamental catalyst (beat-and-raise) was real. Lesson: strong earnings catalyst alone does not overcome stretched technicals at entry on a high-momentum name; wait for RSI to cool below 65 or for a pullback to the 20-day EMA before entering post-earnings breakouts.
 
 ## Open questions
 
-- Will gap-day momentum extend above $450 in first 2–3 sessions, or does RSI exhaustion trigger a retest of $435–$440?
-- Data center / warehouse automation cycle: is this a one-quarter beat or durable demand re-rating?
+- Is ROK's industrial automation demand cycle (warehouse, data center, semiconductor) durable, or was the Q2 beat a one-quarter catch-up?
+- Would a re-entry make sense if RSI cools and price retests the gap-fill zone ($440–$445)?

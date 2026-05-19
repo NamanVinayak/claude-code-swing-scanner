@@ -1,14 +1,8 @@
-# b_premarket summary 20260519_030508
+# b_decide summary 20260519_030508
 
-- candidates in: 36
-- mechanical survivors: 0
-- final today_watchlist: 0
+- approved: 0
+- rejected: 0 (judge: 0, writer-budget: 0)
 
-## Reason
+## No candidates
 
-Stage 1 watchlist stale (101.9h old, max 24h). Last scan: 20260514_211306.
-All 36 candidates dropped. No setups today.
-
-## Today's setups
-
-(none)
+today_watchlist.json was empty — Stage 1 watchlist was 101.9h stale (max 24h), all 36 candidates dropped with stage1_too_old. No Stage 3 facts, perspectives, or judges dispatched. No-op decide run.

@@ -1,0 +1,10 @@
+[
+  {
+    "decided_at": "2026-05-19T23:53:09+00:00",
+    "approved": [],
+    "judge_approved_count": 0,
+    "writer_rejected": [],
+    "judge_rejected": [],
+    "note": "no-op: today_watchlist empty (stage1_too_old)"
+  }
+]

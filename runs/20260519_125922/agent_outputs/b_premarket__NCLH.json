@@ -1,0 +1,11 @@
+{
+  "ticker": "NCLH",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket price of $15.22 is gapping UP +1.84% against the short thesis, directly contradicting the sector_laggard_decline setup flagged at Stage 1.",
+  "conviction": 2,
+  "notes": "Setup invalidated. Direction is short; a premarket gap UP breaks the bearish thesis. Stage 1 score was only 1 (single reason: sector_laggard_decline — the weakest possible short signal). Premarket volume is 0 — no volume confirmation of any move. New ticker with no wiki history; regime_tldr is STALE (last updated 2026-05-03, threshold exceeded). With a gap against direction, no volume, a single weak Stage 1 signal, and no historical context, there is no basis to carry this to Stage 3."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "SRAD",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 12.90,
+  "invalidation_level": 13.55,
+  "catalyst_note": "Sector laggard decline setup; price already gapped down 3.8% overnight toward the short thesis, but lacks premarket volume confirmation for continuation.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged single signal: sector_laggard_decline (stage1_score=1). Premarket price $13.00 vs last close $13.51 — gap of -3.775% in the short direction partially plays out the breakdown setup. Gap is below the 5% threshold so setup is not fully spent, but the best entry was missed. Premarket volume = 0 (volume_ratio null) — no institutional participation visible to confirm continuation. New ticker with no wiki history. Macro regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) — cannot assess risk-on/risk-off context, applying -2 conviction penalty. Watch level set at $12.90 (breakdown below premarket low for continuation). Invalidation at $13.55 (reclaim of prior regular close + small buffer). Weak single-signal catalyst, zero volume confirmation, and stale regime cap conviction at 3."
+}

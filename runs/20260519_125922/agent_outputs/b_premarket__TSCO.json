@@ -1,0 +1,11 @@
+{
+  "ticker": "TSCO",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 31.50,
+  "invalidation_level": 32.20,
+  "catalyst_note": "Sector laggard decline setup on a single Stage 1 signal; tiny premarket gap down (-0.28%) is directionally consistent but provides no meaningful confirmation.",
+  "conviction": 3,
+  "notes": "Only 1 Stage 1 signal (sector_laggard_decline) — weakest short screener, no trifecta or episodic pivot. Premarket volume is exactly 0 with null volume_ratio: no institutional or retail participation overnight. Last premarket price $31.73 vs close $31.82 — gap is -0.28%, setup has not played out but also not confirming. New ticker with no wiki history. Macro regime wiki is STALE (placeholder, threshold exceeded) — cannot assess context; lowering conviction by 1 per staleness rule. Watch level $31.50 = breakdown below premarket low with noise buffer; invalidation $32.20 = reclaim above prior close + ~$0.38 buffer. Stage 3 should weight heavily the weak single-signal foundation and zero premarket volume before approving."
+}

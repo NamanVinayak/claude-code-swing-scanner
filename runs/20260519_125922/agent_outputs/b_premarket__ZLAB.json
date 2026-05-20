@@ -1,0 +1,11 @@
+{
+  "ticker": "ZLAB",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gapped UP +1.46% against the short thesis on zero volume, with only one Stage 1 signal and no wiki history to support conviction.",
+  "conviction": 2,
+  "notes": "Direction is short. Premarket last_price $18.76 vs close $18.49 = +1.46% gap UP — moves against the short setup. Per short-direction rules, a premarket rally that works against the bearish thesis is a setup-breaker. Gap is sub-5% so not catastrophic, but combined with stage1_score=1 (minimum: only `stage4_momentum_breakdown`), zero premarket volume (volume=0, volume_ratio=null), new_ticker with no wiki history, and a STALE regime placeholder (2026-05-03, bootstrap placeholder only), there is no positive evidence to keep this short alive. Earnings risk is not imminent (79 days). Setup rejected on direction-gap conflict + thin signal + no volume confirmation."
+}

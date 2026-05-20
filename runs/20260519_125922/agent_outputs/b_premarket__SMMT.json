@@ -1,0 +1,11 @@
+{
+  "ticker": "SMMT",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 15.50,
+  "invalidation_level": 16.20,
+  "catalyst_note": "Sector laggard decline setup: stock below 50-day MA with significant 1-month decline, but zero premarket volume provides no confirmation of continued selling pressure.",
+  "conviction": 3,
+  "notes": "Stage1 score=1 (minimum), single reason: sector_laggard_decline. Premarket gap +0.32% (UP) is marginally adverse for short but within noise — not a hard invalidation. Critical weakness: premarket volume=0, avg_volume_10d=0.0, volume_ratio=null — zero premarket activity means no directional confirmation. New ticker (no wiki history). Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder — conviction reduced 2 points per staleness rule). Earnings data unavailable (both days_since_last and days_until_next null). Watch level $15.50 = breakdown below yesterday's close confirming continued sector weakness. Invalidation $16.20 = rally above recent resistance invalidates bearish thesis. Low conviction due to single Stage1 signal, zero volume confirmation, no wiki history, and stale macro context."
+}

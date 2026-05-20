@@ -1,0 +1,11 @@
+{
+  "ticker": "NSC",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 321.00,
+  "invalidation_level": 315.30,
+  "catalyst_note": "TradingView strong_buy + trending_up signals intact; price essentially flat overnight (-0.025%), setup has not played out but zero premarket volume data prevents momentum confirmation.",
+  "conviction": 3,
+  "notes": "Stage 1: tv_strong_buy + tv_trending_up (score 2). Premarket price $320.00 vs close $320.08 — negligible gap, direction not violated. Premarket volume=0 and avg_volume_10d=0.0 — no volume data available at all; cannot confirm institutional participation or pre-market follow-through. Earnings data unavailable (days_since_last and days_until_next both null) — no blackout determination possible. New ticker: no wiki setup history. Regime context is STALE (last updated 2026-05-03, 16 days ago) — treated as untrusted; conviction reduced by 2 per stale-wiki rule. Base conviction 5 for partial setup with valid signals → 3 after staleness penalty. Watch level $321.00 = intraday break above flat overnight consolidation. Invalidation $315.30 = ~1.5% below close, reasonable swing low proxy absent indicator data."
+}

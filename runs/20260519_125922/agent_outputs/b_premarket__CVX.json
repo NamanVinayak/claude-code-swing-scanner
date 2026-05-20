@@ -1,0 +1,11 @@
+{
+  "ticker": "CVX",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 196.50,
+  "invalidation_level": 193.50,
+  "catalyst_note": "TradingView strong buy + trending up signals on a large-cap energy name; no discrete catalyst in facts but momentum structure intact with minor overnight fade.",
+  "conviction": 4,
+  "notes": "Stage 1 signals: tv_strong_buy + tv_trending_up (score 2). Premarket last price $195.04 vs close $196.12 — gap of -0.55%, slight fade against the long thesis but not disqualifying. Premarket volume data is 0 with avg_volume_10d 0.0 and null ratio — no volume confirmation available, which weakens conviction. New ticker: no wiki setup history or recent technicals to reference. Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only — not a real regime read). Per staleness rule, conviction reduced by 2; thesis is not regime-dependent so full -2 applied. Earnings safe at 73 days out. Watch level $196.50 — confirms if price recovers above yesterday's close and pushes into momentum territory. Invalidation $193.50 — below the overnight drift zone, would signal sellers in control."
+}

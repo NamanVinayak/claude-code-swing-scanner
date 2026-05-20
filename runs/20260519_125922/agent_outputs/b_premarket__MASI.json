@@ -1,0 +1,11 @@
+{
+  "ticker": "MASI",
+  "setup_valid": "no",
+  "direction": "long",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Technical breakout/uptrend setup flagged by Stage 1 (tv_breakout_up + tv_trending_up) but no premarket price data is available to confirm the setup remains intact this morning.",
+  "conviction": 2,
+  "notes": "premarket.last_price is null; overnight_gap_pct, volume, and volume_ratio are all null. Cannot confirm whether the Stage 1 breakout setup has played out, reversed, or is still pending — watch levels cannot be derived without a current price anchor. New ticker (no wiki history). Regime slice is stale (last updated 2026-05-03, bootstrap placeholder only — treated as untrusted). Stage 1 signals (tv_breakout_up, tv_trending_up, score=2) are valid but insufficient to clear this ticker without premarket data. Drop from today_watchlist. Earnings are 77 days out — no near-term event risk, but irrelevant given data unavailability."
+}

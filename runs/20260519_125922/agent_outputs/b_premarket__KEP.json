@@ -1,0 +1,11 @@
+{
+  "ticker": "KEP",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 12.92,
+  "invalidation_level": 13.20,
+  "catalyst_note": "Stage 1 flagged stage4_momentum_breakdown (Minervini Stage 4 inverted stack); premarket is essentially flat (+0.39%) with zero volume — breakdown thesis intact but unconfirmed.",
+  "conviction": 3,
+  "notes": "Single Stage 1 signal (stage4_momentum_breakdown). Premarket gap up is negligible (+$0.05, +0.39%) and does not breach the short thesis. However, zero premarket volume (0 shares vs 0.0 avg) provides no momentum confirmation in either direction. New ticker — no wiki setup history. Regime slice is STALE (last updated 2026-05-03, >14 days) and contains only a bootstrap placeholder — no usable macro context; conviction lowered by 2 per staleness rule. Watch level is breakdown below yesterday's close ($12.92); invalidation is a rally through $13.20 (~2.3% above current $12.97). Setup is partial: structure is valid but premarket data is essentially empty, making it low-confidence heading into open."
+}

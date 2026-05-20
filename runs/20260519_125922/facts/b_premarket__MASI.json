@@ -1,0 +1,46 @@
+{
+  "ticker": "MASI",
+  "exchange": "NASDAQ",
+  "direction": "long",
+  "stage1_score": 2,
+  "stage1_reasons": [
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "last_regular_close": 178.8300018310547,
+  "premarket": {
+    "last_price": null,
+    "overnight_gap_pct": null,
+    "volume": null,
+    "avg_volume_10d": 0.0,
+    "volume_ratio": null
+  },
+  "earnings": {
+    "days_since_last": null,
+    "days_until_next": 77
+  },
+  "scanner_universe": {
+    "size": 1635,
+    "scan_timestamp_pt": "2026-05-18T20:05:12-07:00"
+  },
+  "wiki_context": {
+    "slices": {
+      "setup_history_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "recent_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "regime_tldr": {
+        "path": "wiki/macro/regime.md",
+        "mode": "tldr",
+        "content": "[STALE \u2014 last updated 2026-05-03, threshold 14 days exceeded. Verify via web search before relying on these claims.]\n\n_Bootstrap placeholder._",
+        "last_updated": "2026-05-03",
+        "stale": true
+      }
+    },
+    "new_ticker": true
+  }
+}

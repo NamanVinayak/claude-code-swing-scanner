@@ -1,0 +1,11 @@
+{
+  "ticker": "WING",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 127.50,
+  "invalidation_level": 132.50,
+  "catalyst_note": "Sector laggard decline setup — WING gapped down 2.97% overnight to $128.50, partially confirming short bias, but zero premarket volume provides no institutional confirmation of follow-through.",
+  "conviction": 3,
+  "notes": "Stage1 score: 1 (sole reason: sector_laggard_decline — weakest signal base). Premarket: $128.50 vs close $132.43, gap -2.97% in short direction — below the 5% played-out threshold so setup not fully exhausted, but gap reduces remaining downside before watch level. Premarket volume: 0 shares, volume_ratio: null — no participation at all, which is a significant red flag for a short setup requiring sellers to press. New ticker: no wiki setup history. Regime slice stale (2026-05-03 placeholder) — cannot inform macro context. Earnings: 71 days out, no near-term binary risk. Watch level $127.50 is below current premarket consolidation; invalidation $132.50 is above prior regular close. Conviction capped at 3: single-reason signal + zero premarket volume + no prior history = insufficient evidence to advance with confidence."
+}

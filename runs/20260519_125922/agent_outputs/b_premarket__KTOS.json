@@ -1,0 +1,11 @@
+{
+  "ticker": "KTOS",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Short thesis broken by premarket gap UP of +2.22% — price moved against the setup direction before market open.",
+  "conviction": 2,
+  "notes": "Stage 1 flagged single signal (sector_laggard_decline, score=1) with direction=short. Premarket last_price=$54.42 vs last_regular_close=$53.24 = +2.22% gap UP. Per short-direction rules, a premarket gap UP that breaks the bearish thesis = setup_valid no. Additionally: premarket volume=0 (no volume confirmation), volume_ratio=null, new_ticker with no wiki history, regime_tldr is STALE (last updated 2026-05-03, 16+ days, threshold exceeded). Single-signal short with zero premarket volume confirmation and a gap against the thesis offers no tradeable setup."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "RY",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "pullback_to_support",
+  "watch_level": 185.25,
+  "invalidation_level": 182.50,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up on Royal Bank of Canada; premarket shows a negligible -0.43% dip from yesterday's $184.79 close with trend intact, but zero premarket volume provides no confirmation of morning demand.",
+  "conviction": 4,
+  "notes": "Stage 1 signals: tv_strong_buy + tv_trending_up (score=2). Premarket last_price=$184.00, gap=-0.43% — minor pullback against long direction, well within acceptable range (far below 5% threshold). However, premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null — no premarket volume data at all, making it impossible to judge whether buyers are present. New ticker (no wiki history). Macro regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) — treating macro context as unknown; conviction docked 2 points per staleness rule. Watch level set at $185.25 (above yesterday's close and current premarket, requires reclaim of close to confirm trend continuation). Invalidation at $182.50 (~1.2% below close, meaningful support break for a large-cap bank). Setup degrades to 'partial' due to absent volume confirmation and no macro/wiki context."
+}

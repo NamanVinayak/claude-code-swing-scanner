@@ -1,0 +1,11 @@
+{
+  "ticker": "JBHT",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 262.50,
+  "invalidation_level": 254.50,
+  "catalyst_note": "TradingView strong_buy + trending_up signals flagged upward momentum continuation; +2.38% premarket gap confirms directional bias but partially consumes the anticipated breakout move.",
+  "conviction": 4,
+  "notes": "Stage 1 reasons: tv_strong_buy + tv_trending_up (score 2). Premarket gap +2.38% ($255.90 → $262.00) is in the long direction and below the 5% disqualifying threshold, so setup is not fully played out — rated partial rather than yes because the gap compresses R/R. Premarket volume = 0 with no volume_ratio available: no confirmation that the gap is supported by real buying interest; this is a meaningful data gap that prevents a clean entry call. New ticker (no wiki history) — no prior setup outcomes to factor in. Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder) — provides no usable macro context; conviction reduced by 2 per staleness rule. Watch level set at $262.50 (marginal above current premarket price to confirm continuation); invalidation at $254.50 (just below yesterday's regular close of $255.90 — gap fill signals setup broken). Earnings 56 days out, no near-term event risk."
+}

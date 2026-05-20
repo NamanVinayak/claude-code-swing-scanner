@@ -1,0 +1,11 @@
+{
+  "ticker": "CTSH",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 51.20,
+  "invalidation_level": 53.50,
+  "catalyst_note": "Stage 4 momentum breakdown signal — price already gapping down 3.18% premarket, confirming bearish structure below SMA50/SMA200 inversion, but gap compresses remaining risk/reward for session entry.",
+  "conviction": 4,
+  "notes": "Stage 1 fired single signal: stage4_momentum_breakdown (score=1). Premarket shows $51.40 vs last close $53.09, a -3.18% gap in the short direction — directionally confirming but not yet played out (under 5% threshold). Zero premarket volume (volume_ratio null) — no price discovery or conviction signal from premarket participants. New ticker: no wiki setup history. Regime context is STALE (last updated 2026-05-03, bootstrap placeholder only) — macro environment unknown; conviction lowered 2 points per staleness rule. Earnings 71 days out, no near-term event risk. Watch level $51.20 is a marginal break below premarket print to confirm continuation; invalidation $53.50 is a clear reclaim above yesterday's close. Single signal + zero premarket volume + stale regime + gap already in place keeps conviction at 4."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "PONY",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 8.05,
+  "invalidation_level": 8.40,
+  "catalyst_note": "Sector laggard decline setup — stock drifting lower near $8.17 premarket but zero volume prevents confirming any breakdown momentum.",
+  "conviction": 3,
+  "notes": "Stage 1 single-signal short (sector_laggard_decline only; score=1). Premarket price $8.17 vs close $8.215 — gap -0.55%, trivially in-direction for short but no confirmation. Premarket volume=0, volume_ratio=null — zero price discovery, no institutional participation visible. Earnings in 7 days adds event risk (not within 3-day blackout but elevated). New ticker — no wiki setup history. Macro regime slice is STALE (last updated 2026-05-03, 16 days past 14-day threshold); treated as untrusted — conviction reduced by 2 per staleness rule. Watch level $8.05 is breakdown below recent close support; invalidation $8.40 is recovery above yesterday's close that would negate bearish drift thesis. Net conviction 3: weak single signal + zero premarket volume + earnings proximity + stale macro + no history."
+}

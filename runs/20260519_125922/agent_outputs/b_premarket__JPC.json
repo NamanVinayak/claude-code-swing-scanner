@@ -1,0 +1,11 @@
+{
+  "ticker": "JPC",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Stage 4 momentum breakdown signal on a closed-end fixed-income fund with zero premarket volume and a slight gap up against the short thesis — liquidity and setup integrity do not support a tradeable short entry.",
+  "conviction": 2,
+  "notes": "Direction is short. Premarket price $7.6703 vs last close $7.6350 — gap of +0.46% UP, directly against short direction. While below the 5% auto-reject threshold, any gap up on a short setup is an adverse sign. More critically, premarket volume = 0 (avg_volume_10d = 0.0, volume_ratio null) — there is no premarket participation at all, making it impossible to confirm momentum breakdown is continuing or institutional sellers are active. Stage1_score = 1 (single reason: stage4_momentum_breakdown). No corroborating signals. Wiki is new_ticker=true with all slices missing; regime slice is STALE (2026-05-03 bootstrap placeholder, 16 days stale). No macro regime context available. No earnings data. JPC is a Nuveen closed-end preferred/income fund — structurally illiquid, low float, rarely exhibits clean directional momentum setups; stage4 mechanical filters can fire on low-liquidity names where the signal is noise. With zero premarket volume, single weak signal, adverse gap, no wiki history, and stale macro context, the setup does not meet the bar for Stage 3 review."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "QXO",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "No premarket price data available; sector_laggard_decline signal cannot be confirmed without fresh price action this morning.",
+  "conviction": 1,
+  "notes": "premarket.last_price is null — all premarket fields unavailable. Cannot establish watch or invalidation levels. Stage 1 score is only 1 (sector_laggard_decline), the weakest short setup type. New ticker with no wiki history. Macro regime wiki is a stale bootstrap placeholder (last updated 2026-05-03, 16 days stale) — treated as untrusted. No earnings data. Rejecting on data unavailability grounds."
+}

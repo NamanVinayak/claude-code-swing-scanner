@@ -1,0 +1,11 @@
+{
+  "ticker": "UNP",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "pullback_to_support",
+  "watch_level": 275.50,
+  "invalidation_level": 271.50,
+  "catalyst_note": "Shallow -0.24% overnight drift in an established uptrend flagged by tv_strong_buy + tv_trending_up; no event risk (next earnings 65 days out), waiting for intraday reclaim of yesterday's close to confirm continuation.",
+  "conviction": 4,
+  "notes": "Stage 1 signals: tv_strong_buy + tv_trending_up (score 2). Premarket last_price $274.06 vs close $274.719 — gap is -0.24%, immaterial, setup not blown out. However premarket volume = 0 with null volume_ratio — no premarket participation data to confirm strength; this is a data gap, not a clean confirmation. New ticker (new_ticker=true), both setup_history_tldr and recent_tldr are missing — cannot assess fakeout history. Regime slice is STALE (last updated 2026-05-03, threshold 14 days exceeded, content is bootstrap placeholder only) — treated as untrusted; conviction lowered by 2 per staleness rule. Watch level $275.50 set above yesterday's close to require a confirmed reclaim before entry. Invalidation $271.50 set ~1.2% below close, below the premarket low with buffer. Setup is partial rather than yes due to absence of premarket volume confirmation and no wiki context to validate the trend."
+}

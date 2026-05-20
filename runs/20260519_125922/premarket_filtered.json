@@ -1,0 +1,662 @@
+{
+  "run_id": "20260519_125922",
+  "review_timestamp_pt": "2026-05-19T05:59:22-07:00",
+  "source_run_id": "20260519_030512",
+  "source_path": "runs/20260519_030512/tomorrow_watchlist.json",
+  "candidates_in": 40,
+  "survivors": [
+    "XOM",
+    "CVX",
+    "RY",
+    "UNP",
+    "VLO",
+    "PSX",
+    "NSC",
+    "ALL",
+    "JBHT",
+    "CPAY",
+    "MASI",
+    "CTSH",
+    "LI",
+    "TSCO",
+    "KEP",
+    "SMMT",
+    "QXO",
+    "KTOS",
+    "NCLH",
+    "AUGO",
+    "PRIM",
+    "CAR",
+    "M",
+    "CAI",
+    "SRAD",
+    "PONY",
+    "WAY",
+    "WING",
+    "GPGI",
+    "DLO",
+    "ERAS",
+    "JPC",
+    "NIQ",
+    "FSLY",
+    "STNE",
+    "ZLAB"
+  ],
+  "decisions": [
+    {
+      "ticker": "XOM",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "XOM",
+        "last_regular_close": 160.49,
+        "premarket_last": 161.08,
+        "overnight_gap_pct": 0.36762415103746005,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T12:59:22+00:00"
+      }
+    },
+    {
+      "ticker": "CVX",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "CVX",
+        "last_regular_close": 196.12,
+        "premarket_last": 195.0359,
+        "overnight_gap_pct": -0.5527738119518677,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T12:59:25+00:00"
+      }
+    },
+    {
+      "ticker": "RY",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "RY",
+        "last_regular_close": 184.79,
+        "premarket_last": 184.0,
+        "overnight_gap_pct": -0.427512311272249,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T12:59:26+00:00"
+      }
+    },
+    {
+      "ticker": "UNP",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "UNP",
+        "last_regular_close": 274.719,
+        "premarket_last": 274.06,
+        "overnight_gap_pct": -0.23988147889297817,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T12:59:27+00:00"
+      }
+    },
+    {
+      "ticker": "VLO",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "VLO",
+        "last_regular_close": 258.54,
+        "premarket_last": 259.95,
+        "overnight_gap_pct": 0.5453701554885004,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T12:59:27+00:00"
+      }
+    },
+    {
+      "ticker": "PSX",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "PSX",
+        "last_regular_close": 179.8,
+        "premarket_last": 178.0,
+        "overnight_gap_pct": -1.001112347052291,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T12:59:28+00:00"
+      }
+    },
+    {
+      "ticker": "NSC",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "NSC",
+        "last_regular_close": 320.08,
+        "premarket_last": 320.0,
+        "overnight_gap_pct": -0.024993751562107924,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T13:16:47+00:00"
+      }
+    },
+    {
+      "ticker": "ALL",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "ALL",
+        "last_regular_close": 221.3699951171875,
+        "premarket_last": 220.82,
+        "overnight_gap_pct": -0.2484506163070388,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T13:32:08+00:00"
+      }
+    },
+    {
+      "ticker": "JBHT",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "JBHT",
+        "last_regular_close": 255.89999389648438,
+        "premarket_last": 262.0,
+        "overnight_gap_pct": 2.3837460918358477,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T13:49:29+00:00"
+      }
+    },
+    {
+      "ticker": "CPAY",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "CPAY",
+        "last_regular_close": 351.1075134277344,
+        "premarket_last": 351.05,
+        "overnight_gap_pct": -0.016380574477847798,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T13:49:32+00:00"
+      }
+    },
+    {
+      "ticker": "MASI",
+      "keep": true,
+      "drop_reasons": [
+        "data_unavailable"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "MASI",
+        "last_regular_close": 178.8300018310547,
+        "premarket_last": null,
+        "overnight_gap_pct": null,
+        "premarket_volume": null,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T13:49:33+00:00"
+      }
+    },
+    {
+      "ticker": "CTSH",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "CTSH",
+        "last_regular_close": 53.09000015258789,
+        "premarket_last": 51.4,
+        "overnight_gap_pct": -3.1832739644577113,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:06:01+00:00"
+      }
+    },
+    {
+      "ticker": "LI",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "LI",
+        "last_regular_close": 16.02090072631836,
+        "premarket_last": 15.9298,
+        "overnight_gap_pct": -0.5686367319454377,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:09:21+00:00"
+      }
+    },
+    {
+      "ticker": "AS",
+      "keep": false,
+      "drop_reasons": [
+        "earnings_blackout_3d"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "AS",
+        "last_regular_close": 34.369998931884766,
+        "premarket_last": 34.68,
+        "overnight_gap_pct": 0.901952510180748,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:26:10+00:00"
+      }
+    },
+    {
+      "ticker": "TSCO",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "TSCO",
+        "last_regular_close": 31.81999969482422,
+        "premarket_last": 31.73,
+        "overnight_gap_pct": -0.28284002415894793,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:26:11+00:00"
+      }
+    },
+    {
+      "ticker": "KEP",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "KEP",
+        "last_regular_close": 12.920000076293945,
+        "premarket_last": 12.97,
+        "overnight_gap_pct": 0.38699631122911526,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:26:12+00:00"
+      }
+    },
+    {
+      "ticker": "SMMT",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "SMMT",
+        "last_regular_close": 15.800000190734863,
+        "premarket_last": 15.85,
+        "overnight_gap_pct": 0.3164544851996576,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:26:13+00:00"
+      }
+    },
+    {
+      "ticker": "QXO",
+      "keep": true,
+      "drop_reasons": [
+        "data_unavailable"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "QXO",
+        "last_regular_close": 0.0,
+        "premarket_last": null,
+        "overnight_gap_pct": null,
+        "premarket_volume": null,
+        "avg_premarket_volume_10d": null,
+        "fetched_at": "2026-05-19T14:26:14+00:00"
+      }
+    },
+    {
+      "ticker": "KTOS",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "KTOS",
+        "last_regular_close": 53.2400016784668,
+        "premarket_last": 54.42,
+        "overnight_gap_pct": 2.2163754401429037,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:59:35+00:00"
+      }
+    },
+    {
+      "ticker": "BILI",
+      "keep": false,
+      "drop_reasons": [
+        "gap_down_exhausted",
+        "earnings_blackout_3d"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "BILI",
+        "last_regular_close": 19.649999618530273,
+        "premarket_last": 18.38,
+        "overnight_gap_pct": -6.463102509847607,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:59:36+00:00"
+      }
+    },
+    {
+      "ticker": "NCLH",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "NCLH",
+        "last_regular_close": 14.944999694824219,
+        "premarket_last": 15.22,
+        "overnight_gap_pct": 1.8400823739797012,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:59:38+00:00"
+      }
+    },
+    {
+      "ticker": "AUGO",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "AUGO",
+        "last_regular_close": 71.30000305175781,
+        "premarket_last": 73.15,
+        "overnight_gap_pct": 2.5946660155109047,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T14:59:39+00:00"
+      }
+    },
+    {
+      "ticker": "PRIM",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "PRIM",
+        "last_regular_close": 104.1322021484375,
+        "premarket_last": 108.2,
+        "overnight_gap_pct": 3.906378399415744,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:10:20+00:00"
+      }
+    },
+    {
+      "ticker": "CAR",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "CAR",
+        "last_regular_close": 149.99000549316406,
+        "premarket_last": 144.7,
+        "overnight_gap_pct": -3.5269053266386963,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:10:22+00:00"
+      }
+    },
+    {
+      "ticker": "M",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "M",
+        "last_regular_close": 18.65999984741211,
+        "premarket_last": 18.6,
+        "overnight_gap_pct": -0.32154259326229173,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:10:23+00:00"
+      }
+    },
+    {
+      "ticker": "CAI",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "CAI",
+        "last_regular_close": 14.920000076293945,
+        "premarket_last": 15.15,
+        "overnight_gap_pct": 1.5415544405492199,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:10:24+00:00"
+      }
+    },
+    {
+      "ticker": "SRAD",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "SRAD",
+        "last_regular_close": 13.510000228881836,
+        "premarket_last": 13.0,
+        "overnight_gap_pct": -3.774983125400333,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:10:25+00:00"
+      }
+    },
+    {
+      "ticker": "PONY",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "PONY",
+        "last_regular_close": 8.21500015258789,
+        "premarket_last": 8.17,
+        "overnight_gap_pct": -0.5477803013030358,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:10:26+00:00"
+      }
+    },
+    {
+      "ticker": "WAY",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "WAY",
+        "last_regular_close": 19.93000030517578,
+        "premarket_last": 19.56,
+        "overnight_gap_pct": -1.8564992449081608,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:10:27+00:00"
+      }
+    },
+    {
+      "ticker": "WING",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "WING",
+        "last_regular_close": 132.42999267578125,
+        "premarket_last": 128.5,
+        "overnight_gap_pct": -2.9676001609414637,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:28:15+00:00"
+      }
+    },
+    {
+      "ticker": "GPGI",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "GPGI",
+        "last_regular_close": 11.680000305175781,
+        "premarket_last": 11.95,
+        "overnight_gap_pct": 2.311641162411382,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:43:50+00:00"
+      }
+    },
+    {
+      "ticker": "DLO",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "DLO",
+        "last_regular_close": 11.954999923706055,
+        "premarket_last": 11.5,
+        "overnight_gap_pct": -3.8059383237955213,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:43:54+00:00"
+      }
+    },
+    {
+      "ticker": "YSS",
+      "keep": false,
+      "drop_reasons": [
+        "gap_up_setup_broken"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "YSS",
+        "last_regular_close": 25.050100326538086,
+        "premarket_last": 26.44,
+        "overnight_gap_pct": 5.54847946852115,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T15:59:00+00:00"
+      }
+    },
+    {
+      "ticker": "ERAS",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "ERAS",
+        "last_regular_close": 10.470000267028809,
+        "premarket_last": 10.38,
+        "overnight_gap_pct": -0.8596013823631732,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T16:11:21+00:00"
+      }
+    },
+    {
+      "ticker": "JPC",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "JPC",
+        "last_regular_close": 7.635000228881836,
+        "premarket_last": 7.6703,
+        "overnight_gap_pct": 0.462341454616233,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T16:11:22+00:00"
+      }
+    },
+    {
+      "ticker": "NIQ",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "NIQ",
+        "last_regular_close": 8.899999618530273,
+        "premarket_last": 8.96,
+        "overnight_gap_pct": 0.6741616184432475,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T16:11:23+00:00"
+      }
+    },
+    {
+      "ticker": "FSLY",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "FSLY",
+        "last_regular_close": 16.260000228881836,
+        "premarket_last": 16.62,
+        "overnight_gap_pct": 2.214020701418651,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T16:11:24+00:00"
+      }
+    },
+    {
+      "ticker": "STNE",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "STNE",
+        "last_regular_close": 10.125,
+        "premarket_last": 10.2,
+        "overnight_gap_pct": 0.7407407407407307,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T16:11:25+00:00"
+      }
+    },
+    {
+      "ticker": "INFQ",
+      "keep": false,
+      "drop_reasons": [
+        "gap_up_setup_broken"
+      ],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "INFQ",
+        "last_regular_close": 10.45989990234375,
+        "premarket_last": 11.13,
+        "overnight_gap_pct": 6.406371991247273,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T16:11:26+00:00"
+      }
+    },
+    {
+      "ticker": "ZLAB",
+      "keep": true,
+      "drop_reasons": [],
+      "earnings_recent_days": null,
+      "snapshot": {
+        "ticker": "ZLAB",
+        "last_regular_close": 18.489999771118164,
+        "premarket_last": 18.76,
+        "overnight_gap_pct": 1.460250039070221,
+        "premarket_volume": 0,
+        "avg_premarket_volume_10d": 0.0,
+        "fetched_at": "2026-05-19T16:11:27+00:00"
+      }
+    }
+  ],
+  "errors": [],
+  "elapsed_seconds": 84.67748350001057
+}

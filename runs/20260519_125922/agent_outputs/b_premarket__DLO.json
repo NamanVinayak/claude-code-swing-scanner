@@ -1,0 +1,11 @@
+{
+  "ticker": "DLO",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 11.35,
+  "invalidation_level": 12.00,
+  "catalyst_note": "Stage 4 Minervini momentum breakdown on DLO with price already gapping down -3.81% premarket, confirming the bearish structural breakdown thesis — but zero premarket volume provides no institutional confirmation.",
+  "conviction": 3,
+  "notes": "Stage 1 score=1 (single reason: stage4_momentum_breakdown). Premarket gap of -3.81% is in the short direction, confirming breakdown but partially consuming the anticipated move before the open. Premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null — no evidence of volume-driven conviction driving this gap. New ticker (wiki: new_ticker=true), no setup history available. Regime slice is STALE (last updated 2026-05-03, bootstrap placeholder only) — treated as no-info; conviction reduced by 1 per stale rule but content was a bootstrap placeholder so no real directional conflict. Watch level set at $11.35 (below current premarket $11.50) for short continuation confirmation. Invalidation at $12.00 (reclaim of yesterday's close $11.955 rounded up to a clean level signals breakdown failure). Overall conviction low: weak signal count, zero premarket volume, no ticker history, partial play-out from gap."
+}

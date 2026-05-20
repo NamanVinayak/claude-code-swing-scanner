@@ -1,0 +1,11 @@
+{
+  "ticker": "M",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 18.40,
+  "invalidation_level": 19.10,
+  "catalyst_note": "Stage 4 momentum breakdown pattern: Macy's is trading below key moving averages per Minervini Stage 4 criteria, with a minor premarket dip (-0.32%) that keeps the short setup technically intact but unconfirmed.",
+  "conviction": 3,
+  "notes": "Single Stage 1 signal (stage4_momentum_breakdown, score=1) — minimum signal quality. Premarket shows last_price $18.60 vs close $18.66, gap -0.32% in setup direction (short-side), setup not yet played out. However, premarket volume is 0 with avg_volume_10d=0.0 and volume_ratio=null — zero confirmation of premarket participation, cannot validate institutional interest or momentum. New ticker (no wiki history). Regime context is STALE (last updated 2026-05-03, 16 days ago, threshold 14 days exceeded) — treated as untrusted; conviction reduced by 2 per staleness rule. Watch level $18.40 set below current premarket price as a technical breakdown trigger; invalidation $19.10 above the close as a round-number resistance clear. Earnings 15 days out, no blackout concern. Overall: setup is structurally valid but data quality is too thin (no volume, stale regime, no history) to warrant confidence above 3."
+}

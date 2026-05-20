@@ -1,0 +1,11 @@
+{
+  "ticker": "CAI",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gapped UP +1.54% to $15.15 against the short thesis, with zero premarket volume confirming no institutional short-side pressure; single-signal Stage 1 score (sector_laggard_decline) does not support a clean short entry today.",
+  "conviction": 2,
+  "notes": "Direction is short. Premarket moved against the trade: last_price $15.15 vs close $14.92 (+1.54%). Gap is below 5% threshold but directionally adverse on an already-weak setup. Premarket volume = 0 (avg_volume_10d = 0.0, volume_ratio = null) — no tradeable premarket activity to confirm continuation of the laggard trend. stage1_score = 1 (minimum); sole reason is sector_laggard_decline, one of the weakest short setups. No wiki history (new_ticker: true). Regime context stale (last updated 2026-05-03, 16 days ago). Earnings timing unknown. All factors converge: gap against direction + zero volume + minimal signal + no history = setup broken."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "STNE",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Single sector_laggard_decline signal with a counter-direction premarket gap (+0.74% up) and zero premarket volume leaves no tradeable short setup this morning.",
+  "conviction": 2,
+  "notes": "Stage1_score=1 (sector_laggard_decline only) — weakest possible signal basis. Premarket last_price=$10.20 vs close=$10.125, gap=+0.74% UP against short direction; per rules, any gap against setup direction with no countering evidence warrants no. Premarket volume=0 and volume_ratio=null — no price discovery or directional confirmation available. New ticker: no wiki setup history. Macro regime wiki slice is STALE (last updated 2026-05-03, bootstrap placeholder) — regime context entirely untrustworthy. Earnings blackout not a concern (days_until_next=86). With a single weak signal, counter-direction gap, zero premarket volume, and no supporting context, setup does not survive pre-market review."
+}

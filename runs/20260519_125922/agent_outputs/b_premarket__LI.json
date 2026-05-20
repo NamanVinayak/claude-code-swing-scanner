@@ -1,0 +1,11 @@
+{
+  "ticker": "LI",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 15.90,
+  "invalidation_level": 16.20,
+  "catalyst_note": "Stage 4 momentum breakdown setup (price below inverted SMA200/SMA50 stack) with small confirming premarket gap down of -0.57%; awaiting a clean break below $15.90 to confirm continuation.",
+  "conviction": 4,
+  "notes": "Single Stage 1 signal (stage4_momentum_breakdown). Premarket gap is -0.57% in setup direction — small, does not indicate setup already played out. However, premarket volume is 0 with volume_ratio null — zero confirmation of active selling pressure premarket. New ticker with no wiki history. Regime context is stale (2026-05-03 bootstrap placeholder, threshold exceeded) — treated as useless; conviction penalized -1 per staleness rule. Earnings 9 days out, no blackout concern. Watch level set at $15.90 (below premarket last price of $15.93, breakdown below intraday support). Invalidation at $16.20 (above yesterday's close $16.02, reclaim of prior range negates Stage 4 structure). Low conviction due to: only 1 signal, zero premarket volume, no wiki history, stale macro context."
+}

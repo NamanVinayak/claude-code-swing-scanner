@@ -1,0 +1,11 @@
+{
+  "ticker": "AUGO",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Short setup (sector_laggard_decline) invalidated by a +2.59% premarket gap UP — price moving against the short thesis before market open.",
+  "conviction": 2,
+  "notes": "Direction is short but premarket last_price ($73.15) is above yesterday's close ($71.30), a +$1.85 / +2.59% gap against the short thesis. Per rules, a premarket gap up that breaks the bearish thesis = setup_valid: no. Stage1_score is only 1 (sector_laggard_decline alone — weakest possible signal set). Premarket volume = 0, avg_volume_10d = 0.0, volume_ratio = null — no liquidity confirmation available at all. New ticker: no wiki history, no setup precedent, no recent_tldr. regime_tldr is STALE (last updated 2026-05-03, exceeds 14-day threshold) — macro context untrusted. Earnings risk is not a concern (days_until_next = 78). Dropping: weak signal, adverse gap, zero volume data, no history."
+}

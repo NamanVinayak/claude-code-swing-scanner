@@ -1,0 +1,11 @@
+{
+  "ticker": "NIQ",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 8.75,
+  "invalidation_level": 9.10,
+  "catalyst_note": "Stage 4 momentum breakdown setup (close < SMA200 < SMA50 inverted stack) with price needing to break below $8.75 for continuation; premarket gapped slightly against the short thesis with zero volume confirmation.",
+  "conviction": 3,
+  "notes": "Single stage4_momentum_breakdown signal (stage1_score=1 — minimal). Premarket gapped UP +0.67% to $8.96 vs short direction — mild headwind but below the 5% threshold that would auto-invalidate. Premarket volume=0 shares (volume_ratio=null) — zero institutional premarket confirmation of breakdown momentum. New ticker (new_ticker=true): no setup history, no recent_tldr in wiki — cannot factor prior fakeouts. Regime data stale (last updated 2026-05-03, >14d threshold exceeded) — lowered conviction by 2 per staleness rule. No earnings risk (days_until_next=86). Watch level $8.75 = breakdown below yesterday's close ($8.90) with margin; invalidation $9.10 = above premarket high with buffer. Setup technically intact but extremely weak — single signal, no premarket volume, slight adverse gap, no history."
+}

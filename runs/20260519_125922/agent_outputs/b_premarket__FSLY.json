@@ -1,0 +1,11 @@
+{
+  "ticker": "FSLY",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gapped UP +2.21% to $16.62 against the short thesis, with zero premarket volume and a single weak signal (sector_laggard_decline, stage1_score=1).",
+  "conviction": 2,
+  "notes": "Direction is short but premarket moved against the thesis: last_price $16.62 vs close $16.26 (+2.21% gap up). For a short setup, a gap in the wrong direction with no volume confirmation (volume=0, volume_ratio=null) invalidates same-day entry. Stage1_score=1 is minimum signal strength — weakest possible case. No wiki history (new_ticker=true, all slices missing). Regime wiki is STALE (last updated 2026-05-03, 16 days past 14-day threshold) — no trusted macro context. Earnings 78 days out, no event risk. Setup does not survive premarket conditions."
+}

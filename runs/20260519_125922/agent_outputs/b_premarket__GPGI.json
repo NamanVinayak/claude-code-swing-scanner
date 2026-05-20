@@ -1,0 +1,11 @@
+{
+  "ticker": "GPGI",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gap UP +2.31% ($11.68 close → $11.95 last) moves directly against the short thesis, with zero premarket volume offering no bearish confirmation.",
+  "conviction": 1,
+  "notes": "Direction is short (sector_laggard_decline, stage1_score=1 — minimum signal strength). Premarket gapped UP +2.31% against the short setup — per direction-aware rules, a gap UP against a short thesis invalidates the setup. Premarket volume is 0 with volume_ratio null — no momentum data whatsoever. Single-reason Stage 1 signal is the weakest possible entry. New ticker with no wiki history (new_ticker: true), no setup_history_tldr, no recent_tldr. Regime data is STALE (last updated 2026-05-03, >14 days) and contains only a bootstrap placeholder — no actionable macro context. All factors point to rejection: gap against direction + single weak signal + zero premarket volume + no historical context."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "PRIM",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gap UP +3.91% ($104.13 close to $108.20 last) directly breaks the short thesis — price is moving away from the breakdown zone, not toward it.",
+  "conviction": 1,
+  "notes": "Short setup flagged on a single Stage 1 reason (sector_laggard_decline, score=1 — minimum threshold). Premarket gapped UP +3.91% against the short direction; per direction-aware rules this invalidates the setup outright. Premarket volume is 0 (volume_ratio null) — no confirmation of any directional follow-through. New ticker with no wiki history. Regime context is STALE (last updated 2026-05-03, bootstrap placeholder). With a gap that moved price $4 above yesterday's close and only one weak short signal, there is no tradeable short setup remaining."
+}

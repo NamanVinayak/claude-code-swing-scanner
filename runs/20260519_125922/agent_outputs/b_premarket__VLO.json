@@ -1,0 +1,11 @@
+{
+  "ticker": "VLO",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 260.00,
+  "invalidation_level": 257.50,
+  "catalyst_note": "TradingView strong_buy + trending_up on VLO with a modest +0.55% overnight gap; momentum continuation breakout above $260 is the trigger.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_strong_buy score=2 — moderate signal strength only. Premarket last_price=$259.95 shows a minor gap up (+0.545%) which does not exhaust the setup. However, premarket volume=0 and volume_ratio=null — zero volume confirmation available, cannot assess premarket conviction. New ticker with no wiki history (new_ticker=true). Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder — treated as untrusted); macro context unknown, applying -2 conviction penalty per staleness rule. Earnings clear at 65 days out. Watch level set at $260.00 (above premarket price to confirm continuation); invalidation at $257.50 (below yesterday's close of $258.54 with small buffer). Overall: setup technically intact but lacks volume confirmation and macro context — partial validity, low conviction."
+}

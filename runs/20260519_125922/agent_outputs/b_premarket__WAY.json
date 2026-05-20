@@ -1,0 +1,11 @@
+{
+  "ticker": "WAY",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 19.40,
+  "invalidation_level": 20.20,
+  "catalyst_note": "Sector laggard decline setup with premarket confirming direction (-1.86% gap down), but zero premarket volume provides no momentum confirmation.",
+  "conviction": 2,
+  "notes": "Single Stage 1 signal (sector_laggard_decline, score=1) — weakest possible signal count. Premarket gapped down -1.86% to $19.56, consistent with short direction and under the 5% played-out threshold, so setup is not disqualified. However, premarket volume is 0 with avg_volume_10d=0.0 and volume_ratio=null — no active participation to validate the move. New ticker (no wiki history). Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) — macro context unreliable, conviction reduced by 2 per staleness rule. Watch level $19.40 is a breakdown below the premarket low zone; invalidation $20.20 is above yesterday's close ($19.93) where bearish thesis breaks. Base conviction of 4 reduced to 2 after stale regime penalty."
+}

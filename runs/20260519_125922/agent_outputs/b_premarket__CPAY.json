@@ -1,0 +1,11 @@
+{
+  "ticker": "CPAY",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 353.00,
+  "invalidation_level": 346.00,
+  "catalyst_note": "TradingView tv_strong_buy + tv_trending_up signals intact; premarket flat at $351.05 with zero volume — momentum setup survives but lacks overnight confirmation.",
+  "conviction": 4,
+  "notes": "Stage 1: tv_strong_buy + tv_trending_up (score=2, minimum threshold). Premarket last_price=$351.05 vs close=$351.11 — gap of -0.016%, negligible, setup not played out. However, premarket volume=0 (volume_ratio=null) means no institutional pre-positioning or news catalyst is visible pre-open. New ticker (no wiki history) — cannot assess prior fakeout pattern. Regime tldr is STALE (last updated 2026-05-03, 16 days exceeded 14-day threshold); treating as untrusted; applying -2 conviction per staleness rule. Watch level $353.00: modest buffer above current price for breakout confirmation on open. Invalidation $346.00: ~1.5% below close, below likely intraday support for a trending name. Conviction base ~6 reduced to 4: -1 for zero premarket volume, -1 for new ticker with no history (cannot confirm signal quality), -1 for stale regime context (partially offset since only 1 of the 3 wiki slices was stale but it's the macro regime which is the most systemically important). No earnings risk (78 days out)."
+}

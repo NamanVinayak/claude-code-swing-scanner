@@ -1,0 +1,11 @@
+{
+  "ticker": "ERAS",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 10.30,
+  "invalidation_level": 10.62,
+  "catalyst_note": "Sector laggard decline signal with premarket gap down -0.86% maintaining short bias, but zero premarket volume provides no liquidity or momentum confirmation.",
+  "conviction": 3,
+  "notes": "Stage1 single-reason (sector_laggard_decline, score=1) — weakest possible signal basis. Premarket last_price $10.38 vs close $10.47, gap -0.86% in setup direction (short-favorable) but not large enough to call setup played out. Premarket volume=0 and avg_volume_10d=0.0 — no premarket trading activity at all, which is a significant red flag for a short momentum setup requiring liquidity. New ticker (no wiki history). Regime context stale (bootstrap placeholder, 2026-05-03, 16 days past 14-day threshold) — treated as untrusted; lowering conviction by 2 per staleness rule. Watch level $10.30 set just below premarket price for breakdown confirmation; invalidation $10.62 above last close to protect against a recovery that breaks the bearish thesis. Conviction floored at 3 given zero liquidity data and single weak signal."
+}

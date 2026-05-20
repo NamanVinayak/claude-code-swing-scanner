@@ -1,0 +1,11 @@
+{
+  "ticker": "CAR",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "mean_reversion",
+  "watch_level": 143.5,
+  "invalidation_level": 147.5,
+  "catalyst_note": "Sector laggard (rental car / travel) gapped down -3.53% overnight, confirming short-side directional bias, but most of the immediate move may already be priced in at the open.",
+  "conviction": 3,
+  "notes": "Stage 1 score of 1 (sector_laggard_decline only) — thin signal base. Premarket shows $144.70 vs $149.99 close, a -3.53% gap down aligned with the short direction. Per rules, a gap down on a short setup means the move may have already played out — downgraded to 'partial'. Premarket volume is 0 with avg_volume_10d also 0, meaning there is no volume confirmation whatsoever; cannot gauge institutional participation or intraday momentum. New ticker with no wiki setup history. Macro regime_tldr is STALE (last updated 2026-05-03, threshold 14 days exceeded) and is only a bootstrap placeholder — zero usable regime context, conviction reduced by 2 per staleness rules. Earnings 71 days out — no blackout risk. Watch level $143.50 is a breakdown below premarket low support; invalidation $147.50 is a reclaim toward the prior close that negates the bearish gap thesis. Overall: setup is structurally weak — 1 signal reason, no volume, stale regime, gap already consumed. Pass to Stage 3 only if no stronger shorts available."
+}

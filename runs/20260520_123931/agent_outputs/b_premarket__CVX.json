@@ -1,0 +1,11 @@
+{
+  "ticker": "CVX",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "pullback_to_support",
+  "watch_level": 197.28,
+  "invalidation_level": 193.50,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up on a trending large-cap energy name; premarket gap down to $195.06 has reduced risk-reward but not broken the trend structure.",
+  "conviction": 3,
+  "notes": "Gap -1.13% against long direction — not enough to auto-reject (threshold is >5%) but meaningfully weakens the setup. Premarket volume is 0 (volume_ratio null), so there is zero buyer confirmation in the pre-open session. Stage 1 score is 2 with generic trend signals only — no breakout-specific trigger. New ticker: no wiki setup history, no recent_tldr, no regime_tldr available (regime slice is STALE, last updated 2026-05-03, 17 days past the 14-day threshold — treated as untrusted; conviction reduced by 2 per staleness rule). No earnings risk (72 days out). Watch level set at the prior regular close $197.28 — CVX must reclaim that to confirm the trend signal is still valid. Invalidation at $193.50, approximately 1.9% below the last close, giving a defined risk floor below the current premarket print. Recommend passing to Stage 3 only if today_watchlist has limited alternatives — this is a weak entry with no premarket volume support."
+}

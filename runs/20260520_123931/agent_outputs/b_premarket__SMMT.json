@@ -1,0 +1,11 @@
+{
+  "ticker": "SMMT",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gapped UP +1.96% against the short thesis on zero volume, breaking the bearish setup before the open.",
+  "conviction": 2,
+  "notes": "Stage 1 flagged only sector_laggard_decline (score=1, weakest short signal). Premarket last_price=$16.16 vs close=$15.85 = +1.96% gap UP — per protocol, a gap up against a short thesis invalidates the setup. Premarket volume=0 with avg_volume_10d=0.0 — no liquidity signal to support any entry thesis. New ticker (wiki_context.new_ticker=true): no setup_history, no recent technicals, no prior trade context. Regime context is stale (last updated 2026-05-03, threshold 14 days exceeded, content is only a bootstrap placeholder) — no macro confirmation. Single weak signal + gap against direction + zero liquidity = drop."
+}

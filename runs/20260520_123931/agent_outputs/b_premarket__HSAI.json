@@ -1,0 +1,11 @@
+{
+  "ticker": "HSAI",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 19.90,
+  "invalidation_level": 21.00,
+  "catalyst_note": "Minervini Stage 4 momentum breakdown structure (price below SMA200 below SMA50) flagged by scanner; premarket flat at $20.28 with no adverse gap — setup structurally intact but awaits a confirmed breakdown below $20 support.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki setup_history or recent_tldr available; relying solely on Stage 1 signal and premarket data. Stage 1 score=1 (single reason: stage4_momentum_breakdown). Premarket: last_price=$20.28 vs close=$20.30, overnight_gap=-0.10% — essentially flat, no adverse gap against the short. Zero premarket volume (volume=0, avg_volume_10d=0.0, volume_ratio=null) — no liquidity confirmation; HSAI may trade thinly pre-open. Earnings not a near-term risk (days_until_next=85). Watch level set at $20.00 round-number breakdown; invalidation at $21.00 (rally above prior close + buffer breaks bearish structure). Regime slice is STALE (last updated 2026-05-03, >14 days, bootstrap placeholder only) — conviction reduced by 2 per staleness rule. Base conviction was 5 (setup structurally present, no adverse overnight event), net after staleness penalty = 3. Single Stage 1 signal with zero premarket volume confirmation makes this a low-priority short candidate for Stage 3."
+}

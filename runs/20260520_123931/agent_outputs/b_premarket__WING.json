@@ -1,0 +1,11 @@
+{
+  "ticker": "WING",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 125.50,
+  "invalidation_level": 128.50,
+  "catalyst_note": "Sector laggard continuation short: WING sits below its 50-day MA with a 1-month decline pattern, requiring an intraday breakdown below recent consolidation to confirm the short entry.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged single signal only (sector_laggard_decline, score=1) — weakest possible entry signal. Premarket data is effectively absent: last_price=$127.00 (+0.16% vs $126.80 close), but premarket volume=0 and avg_volume_10d=0.0 with volume_ratio null — no premarket tape to read at all. The trivial gap (+0.16%) does not break the short thesis, but also provides zero confirmation. New ticker (new_ticker=true): no setup_history, no recent_tldr — cannot factor in prior fakeout patterns. Regime context is stale (2026-05-03 bootstrap placeholder) and unusable. Earnings are 70 days out — no near-term event risk. Watch level set at $125.50 (intraday break below current consolidation to confirm continuation); invalidation at $128.50 (reclaim above the close + 1.5% buffer). Conviction capped at 3: single weak signal, zero premarket volume confirmation, no wiki history, no usable regime context. This name needs to prove itself intraday before size can be committed."
+}

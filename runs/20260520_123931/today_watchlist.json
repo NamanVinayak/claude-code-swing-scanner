@@ -1,0 +1,130 @@
+{
+  "today_watchlist": [
+    {
+      "ticker": "ALAB",
+      "direction": "long",
+      "setup_type": "gap_and_go",
+      "setup_valid": "partial",
+      "watch_level": 254.50,
+      "invalidation_level": 248.00,
+      "catalyst_note": "Stage 1 trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up) confirmed by a +4.09% overnight gap; price needs to hold above the premarket level and continue through $254.50 for gap-and-go continuation.",
+      "conviction": 5,
+      "source_reasons": [],
+      "mini_agent_notes": "New ticker — no setup history, no recent wiki, no regime context (wiki_context.new_ticker=true; all three slices missing or stale). Stage 1 score=3 with the strongest signal combination (strong_buy + breakout_up + trending_up). Premarket at $253.98 vs close of $244.00 = +4.09% gap up, directionally aligned with long setup. Gap is under the 5% auto-partial threshold but has already consumed meaningful R/R — entry nearly $10 above yesterday's close compresses the risk-reward. Premarket volume data is unavailable (volume=0, avg_volume_10d=0.0, volume_ratio=null); cannot confirm institutional participation or gap-and-go momentum quality. Earnings 76 days out — no blackout concern. Regime slice is STALE (last updated 2026-05-03, 17 days ago, bootstrap placeholder only) — no macro context usable; conviction reduced by 2 per staleness rule. Watch level $254.50 is just above premarket price for continuation confirmation. Invalidation $248.00 is inside the gap (~midpoint) — a pullback this deep signals gap-fill pressure and breaks the momentum thesis. Base conviction 7 (clean trifecta + confirming gap direction), minus 2 (stale regime), minus 1 (zero volume data): final conviction 5."
+    },
+    {
+      "ticker": "ALL",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 225.50,
+      "invalidation_level": 221.50,
+      "catalyst_note": "TradingView trifecta (strong_buy + breakout_up + trending_up) on a flat overnight session — breakout thesis intact but unconfirmed by any premarket volume.",
+      "conviction": 5,
+      "source_reasons": [],
+      "mini_agent_notes": "Stage 1 fired tv_strong_buy + tv_breakout_up + tv_trending_up (score 3). Premarket last_price $224.75 vs close $224.91 = -0.07% gap, well within noise; long thesis not broken by overnight action. However, premarket volume is 0 (volume_ratio null) — zero premarket participation means there is no buyer confirmation of the breakout this morning; watch_level set at $225.50 (clear above close) to require fresh buying to validate. Invalidation at $221.50 (~1.5% below close) captures a failed breakout reversal. New ticker (new_ticker: true) — no setup history, no fakeout pattern to penalize. Earnings data unavailable (days_since_last and days_until_next both null) — cannot rule out near-term earnings risk; mild negative. Regime slice is STALE (last updated 2026-05-03, >14 days, bootstrap placeholder only) — treated as uninformative; conviction docked 1 per staleness protocol. Net: setup structurally valid but partially degraded by absent volume confirmation and missing earnings/regime data."
+    },
+    {
+      "ticker": "ARM",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 228.50,
+      "invalidation_level": 221.50,
+      "catalyst_note": "ARM gapped +2.02% overnight on TradingView strong_buy + trending_up signals, holding above yesterday's close ($223.03) in premarket at $227.54 with no near-term earnings risk (70 days out).",
+      "conviction": 4,
+      "source_reasons": [],
+      "mini_agent_notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Premarket price $227.54 vs close $223.03 = +2.02% gap — within range, setup not played out. Critical gap: premarket volume = 0 and avg_volume_10d = 0.0 (volume_ratio null) — no confirmation of institutional participation behind the gap. New ticker (no wiki history); relying solely on Stage 1 signals and premarket price action. Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) — conviction reduced by 2 per staleness rule. Watch level $228.50 set above current premarket price to require intraday breakout confirmation. Invalidation $221.50 set below yesterday's close with a small buffer against noise. Setup rated partial rather than yes due to zero premarket volume data preventing gap quality assessment."
+    },
+    {
+      "ticker": "CPAY",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 347.00,
+      "invalidation_level": 341.00,
+      "catalyst_note": "TradingView strong_buy + trending_up signals on a trend-continuation setup; premarket gap of +0.96% holds above prior close without overextending.",
+      "conviction": 4,
+      "source_reasons": [],
+      "mini_agent_notes": "New ticker — no setup_history or recent wiki context. Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) and cannot inform bias; conviction reduced by 2 per staleness rule. Stage 1 score is 2 (minimum: tv_strong_buy + tv_trending_up). Premarket price $346.43 vs close $343.14 (+0.96% gap) is modest and does not indicate the move has played out. Premarket volume = 0 (volume_ratio null) — no premarket participation data to confirm institutional interest; this is the primary weakness. No near-term earnings risk (77 days out). Watch level $347.00 set just above current premarket price for intraday breakout confirmation; invalidation $341.00 gives a small buffer below prior close. Setup is alive but thin on confirmation."
+    },
+    {
+      "ticker": "LAMR",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 150.00,
+      "invalidation_level": 147.50,
+      "catalyst_note": "TradingView strong_buy + trending_up signals on a flat overnight hold suggest momentum intact, but no premarket volume or news catalyst to confirm directional conviction this morning.",
+      "conviction": 4,
+      "source_reasons": [],
+      "mini_agent_notes": "New ticker — no wiki setup history or recent TL;DR; relying solely on Stage 1 signals (tv_strong_buy, tv_trending_up, score=2). Premarket last_price=$149.45 vs close $149.41 — gap +0.03%, effectively flat; setup has not played out. However, premarket volume=0 with volume_ratio=null — no volume confirmation at all, which is the primary weakness. Earnings safe at 79 days out. Regime wiki is STALE (placeholder from 2026-05-03, exceeds 14-day threshold) — cannot rely on macro context; conviction reduced by 1 per staleness rule. Setup is 'partial' because the technical signals are intact but absence of premarket participation makes this a wait-and-see at open — only acts if price clears $150.00 on meaningful volume. Invalidation at $147.50 gives ~1.3% buffer below last close, appropriate for a $149 mid-cap."
+    },
+    {
+      "ticker": "RVMD",
+      "direction": "long",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 150.50,
+      "invalidation_level": 147.30,
+      "catalyst_note": "Trending up with TradingView strong_buy signal, holding a modest +1.76% overnight gap; needs to clear the $150 round-number level with volume to confirm continuation.",
+      "conviction": 4,
+      "source_reasons": [],
+      "mini_agent_notes": "Stage 1 flagged tv_strong_buy + tv_trending_up (score=2, minimal pass). Premarket price $149.89 vs close $147.30 — gap of +1.76%, within acceptable range (not yet played out). Critical issue: premarket volume = 0 and volume_ratio = null — no premarket participation data available, making it impossible to gauge institutional interest or momentum behind the gap. New ticker (wiki_context.new_ticker=true) — no setup_history_tldr or recent_tldr to reference; decision relies solely on Stage 1 signals and premarket price. Regime slice is STALE (last updated 2026-05-03, placeholder content) — applying -2 conviction per staleness rule. Watch level set at $150.50 (clean break above $150 round number with room above premarket high). Invalidation at $147.30 (yesterday's close — gap failure). Base conviction would be 6 for a clean trending_up + strong_buy gap, reduced to 4 due to zero volume data and stale macro regime. Recommend Stage 3 validate with news researcher before committing capital."
+    },
+    {
+      "ticker": "BILI",
+      "direction": "short",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 18.80,
+      "invalidation_level": 20.15,
+      "catalyst_note": "Stage4 momentum breakdown setup with a -4.9% premarket gap already in short direction; short thesis remains intact only if price holds below yesterday's $20.00 close and continues lower after open.",
+      "conviction": 3,
+      "source_reasons": [],
+      "mini_agent_notes": "Stage 1 flagged single signal: stage4_momentum_breakdown (score=1, minimum threshold). Premarket gapped down -4.9% to $19.02 — just under the 5% 'already played out' threshold but meaningfully close; much of the immediate short move may be captured pre-open. Premarket volume is 0 with null volume_ratio — no liquidity confirmation whatsoever, making the $19.02 gap reference price unreliable. New ticker (new_ticker=true): no setup_history, no recent_tldr in wiki; decision relies solely on Stage 1 signal and premarket data. Regime context is STALE (last updated 2026-05-03, >14 days exceeded) — cannot assess macro tailwind/headwind for the short; conviction docked 2 points per staleness rule. Earnings data fully null (days_since_last and days_until_next both unknown) — no earnings blackout confirmation. Watch level $18.80 set below today's premarket print for continuation breakdown after open; invalidation $20.15 set just above yesterday's close — if BILI reclaims the close the Stage 4 breakdown thesis fails."
+    },
+    {
+      "ticker": "CAI",
+      "direction": "short",
+      "setup_type": "range_break",
+      "setup_valid": "partial",
+      "watch_level": 14.80,
+      "invalidation_level": 15.30,
+      "catalyst_note": "Sector laggard decline setup — short triggers on breakdown below $14.80 support; no premarket volume confirmation and single weak signal leaves setup thin.",
+      "conviction": 3,
+      "source_reasons": [],
+      "mini_agent_notes": "Stage 1 score=1, sole reason=sector_laggard_decline — minimum threshold signal strength. Premarket: last_price=$15.00, gap=+0.27% against short direction but well under the 5% disqualifying threshold. Premarket volume=0 shares (avg_volume_10d=0.0, ratio=null) — zero liquidity pre-open is a red flag for a short setup; no institutional footprint visible. Earnings: both days_since_last and days_until_next are null — earnings risk cannot be assessed. Wiki: new_ticker=true, setup_history_tldr and recent_tldr both missing — no prior setup context; relying solely on Stage 1 signal and premarket data per prompt instructions. Regime: regime_tldr is STALE (last updated 2026-05-03, bootstrap placeholder text only — 'Bootstrap placeholder.') — no usable macro context; conviction reduced by 2 per staleness rule. Watch level $14.80 set just below yesterday's close ($14.96) as the breakdown trigger for this short. Invalidation $15.30 (~2.3% above close) represents a rally that would break the sector laggard thesis. Overall: very thin setup — single weak signal, zero premarket volume, missing earnings data, stale regime, no wiki history. Passing as partial only because the directional gap is negligible and the mechanical sector laggard criteria may still hold at open; Stage 3 should likely reject unless other shorts are weaker."
+    },
+    {
+      "ticker": "CVX",
+      "direction": "long",
+      "setup_type": "pullback_to_support",
+      "setup_valid": "partial",
+      "watch_level": 197.28,
+      "invalidation_level": 193.50,
+      "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up on a trending large-cap energy name; premarket gap down to $195.06 has reduced risk-reward but not broken the trend structure.",
+      "conviction": 3,
+      "source_reasons": [],
+      "mini_agent_notes": "Gap -1.13% against long direction — not enough to auto-reject (threshold is >5%) but meaningfully weakens the setup. Premarket volume is 0 (volume_ratio null), so there is zero buyer confirmation in the pre-open session. Stage 1 score is 2 with generic trend signals only — no breakout-specific trigger. New ticker: no wiki setup history, no recent_tldr, no regime_tldr available (regime slice is STALE, last updated 2026-05-03, 17 days past the 14-day threshold — treated as untrusted; conviction reduced by 2 per staleness rule). No earnings risk (72 days out). Watch level set at the prior regular close $197.28 — CVX must reclaim that to confirm the trend signal is still valid. Invalidation at $193.50, approximately 1.9% below the last close, giving a defined risk floor below the current premarket print. Recommend passing to Stage 3 only if today_watchlist has limited alternatives — this is a weak entry with no premarket volume support."
+    },
+    {
+      "ticker": "HSAI",
+      "direction": "short",
+      "setup_type": "breakout",
+      "setup_valid": "partial",
+      "watch_level": 19.90,
+      "invalidation_level": 21.00,
+      "catalyst_note": "Minervini Stage 4 momentum breakdown structure (price below SMA200 below SMA50) flagged by scanner; premarket flat at $20.28 with no adverse gap — setup structurally intact but awaits a confirmed breakdown below $20 support.",
+      "conviction": 3,
+      "source_reasons": [],
+      "mini_agent_notes": "New ticker — no wiki setup_history or recent_tldr available; relying solely on Stage 1 signal and premarket data. Stage 1 score=1 (single reason: stage4_momentum_breakdown). Premarket: last_price=$20.28 vs close=$20.30, overnight_gap=-0.10% — essentially flat, no adverse gap against the short. Zero premarket volume (volume=0, avg_volume_10d=0.0, volume_ratio=null) — no liquidity confirmation; HSAI may trade thinly pre-open. Earnings not a near-term risk (days_until_next=85). Watch level set at $20.00 round-number breakdown; invalidation at $21.00 (rally above prior close + buffer breaks bearish structure). Regime slice is STALE (last updated 2026-05-03, >14 days, bootstrap placeholder only) — conviction reduced by 2 per staleness rule. Base conviction was 5 (setup structurally present, no adverse overnight event), net after staleness penalty = 3. Single Stage 1 signal with zero premarket volume confirmation makes this a low-priority short candidate for Stage 3."
+    }
+  ],
+  "meta": {
+    "total_evaluated": 36,
+    "total_kept": 10,
+    "dropped_count": 26,
+    "ranking_rationale": "11 tickers dropped for setup_valid=no (AS, CAR, ENHA, ERAS, FSLY, GPGI, PRIM, QXO, RBLX, SMMT, YSS); 15 additional conviction=2-3 partials (AUGO, CHYM, IBP, INFQ, JHX, KRMN, KTOS, LCID, LI, PLNT, STNE, W, WING, WRBY, XOM) excluded by the 10-name cap. Ranked by conviction descending: conviction-5 longs (ALAB, ALL) first; conviction-4 longs (ARM, CPAY, LAMR, RVMD) next; conviction-3 partials fill slots 7-10 (BILI, CAI, CVX, HSAI). Within conviction-3 tier, setup_patterns.md contains no data (bootstrap placeholder only), so ordering preserves original agent-output file sequence. No tie-breaking by win rate was possible."
+  }
+}

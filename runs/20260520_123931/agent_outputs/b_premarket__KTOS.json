@@ -1,0 +1,11 @@
+{
+  "ticker": "KTOS",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 52.50,
+  "invalidation_level": 55.00,
+  "catalyst_note": "Sector laggard decline setup requires a breakdown below recent support (~$52.50); price has gapped marginally UP against the short thesis with zero confirmed premarket volume.",
+  "conviction": 3,
+  "notes": "Stage 1 score is 1 (minimum threshold; only signal: sector_laggard_decline). Premarket gap is +0.44% UP ($53.465 close → $53.70 premarket) — directionally against the short thesis but below the 5% disqualifying threshold. Premarket volume is 0 with no 10d average data (volume_ratio null) — zero confirmatory evidence of selling pressure or breakdown initiation. New ticker: no setup_history, no recent wiki slice. Regime slice is STALE (last updated 2026-05-03, >14 days) — cannot rely on macro context; conviction reduced by 2 per staleness rule. Earnings not a concern (78 days out). Setup is technically alive (price hasn't gapped through invalidation at ~$55), but the gap-against-direction plus absent premarket volume makes this the weakest possible read. Watch for a clean break below $52.50 intraday before considering entry; any rally through $55 kills the thesis outright. Do not advance to Stage 3 unless premarket volume materializes and gap reverses."
+}

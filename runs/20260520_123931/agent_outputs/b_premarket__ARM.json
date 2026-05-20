@@ -1,0 +1,11 @@
+{
+  "ticker": "ARM",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 228.50,
+  "invalidation_level": 221.50,
+  "catalyst_note": "ARM gapped +2.02% overnight on TradingView strong_buy + trending_up signals, holding above yesterday's close ($223.03) in premarket at $227.54 with no near-term earnings risk (70 days out).",
+  "conviction": 4,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_trending_up (score 2). Premarket price $227.54 vs close $223.03 = +2.02% gap — within range, setup not played out. Critical gap: premarket volume = 0 and avg_volume_10d = 0.0 (volume_ratio null) — no confirmation of institutional participation behind the gap. New ticker (no wiki history); relying solely on Stage 1 signals and premarket price action. Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) — conviction reduced by 2 per staleness rule. Watch level $228.50 set above current premarket price to require intraday breakout confirmation. Invalidation $221.50 set below yesterday's close with a small buffer against noise. Setup rated partial rather than yes due to zero premarket volume data preventing gap quality assessment."
+}

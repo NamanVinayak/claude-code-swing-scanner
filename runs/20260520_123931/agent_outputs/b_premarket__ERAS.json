@@ -1,0 +1,11 @@
+{
+  "ticker": "ERAS",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Single sector_laggard_decline signal with zero premarket volume, a small gap against the short thesis, and no corroborating technical or fundamental data available.",
+  "conviction": 2,
+  "notes": "Stage 1 score=1 (weakest possible), sole reason is sector_laggard_decline — a lagging setup signal, not a momentum breakdown. Premarket gap is +0.90% UP (last_price $10.4133 vs close $10.32), which works against the short thesis; while under the 5% auto-disqualifier, it removes any short-side edge premarket. Premarket volume=0 shares (avg_volume_10d=0.0, volume_ratio=null) — no price discovery, no institutional activity visible. Earnings data entirely unavailable (both days fields null). New ticker with no wiki setup history — relying solely on Stage 1 data. Regime wiki is STALE (last updated 2026-05-03, 17 days, placeholder content only) — cannot inform conviction. Combined: one weak signal, gap against thesis, zero volume confirmation, no earnings visibility. Setup does not meet minimum threshold for Stage 3 dispatch."
+}

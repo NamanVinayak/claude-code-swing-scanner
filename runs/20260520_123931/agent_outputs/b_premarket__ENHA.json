@@ -1,0 +1,11 @@
+{
+  "ticker": "ENHA",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Single sector_laggard_decline signal with zero premarket volume and no wiki history provides insufficient confirmation for a short entry.",
+  "conviction": 2,
+  "notes": "Stage1 score=1 (minimum threshold), sole reason is sector_laggard_decline. Premarket volume=0 (avg_volume_10d=0.0, volume_ratio=null) — no price discovery or directional confirmation pre-open. Last close $5.26, premarket last_price=$5.28 (+0.38% gap up) — minor gap against short direction but not a thesis-breaker on its own. New ticker (wiki_context.new_ticker=true), setup_history and recent_tldr both missing — no historical setup pattern to reference. Regime slice is STALE (last updated 2026-05-03, >14 days, bootstrap placeholder only) — no usable macro context. Earnings dates unknown (days_since_last=null, days_until_next=null). The combination of single weak signal, zero premarket activity, and complete absence of wiki/regime context makes this untradeably thin. Dropping rather than passing to Stage 3 with marginal data."
+}

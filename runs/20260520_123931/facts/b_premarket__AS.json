@@ -1,0 +1,45 @@
+{
+  "ticker": "AS",
+  "exchange": "NYSE",
+  "direction": "short",
+  "stage1_score": 1,
+  "stage1_reasons": [
+    "stage4_momentum_breakdown"
+  ],
+  "last_regular_close": 33.83,
+  "premarket": {
+    "last_price": 34.2385,
+    "overnight_gap_pct": 1.2075,
+    "volume": 0,
+    "avg_volume_10d": 0.0,
+    "volume_ratio": null
+  },
+  "earnings": {
+    "days_since_last": null,
+    "days_until_next": 90
+  },
+  "scanner_universe": {
+    "size": 1644,
+    "scan_timestamp_pt": "2026-05-19T14:16:33-07:00"
+  },
+  "wiki_context": {
+    "slices": {
+      "setup_history_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "recent_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "regime_tldr": {
+        "path": "wiki/macro/regime.md",
+        "mode": "tldr",
+        "content": "[STALE \u2014 last updated 2026-05-03, threshold 14 days exceeded. Verify via web search before relying on these claims.]\n\n_Bootstrap placeholder._",
+        "last_updated": "2026-05-03",
+        "stale": true
+      }
+    },
+    "new_ticker": true
+  }
+}

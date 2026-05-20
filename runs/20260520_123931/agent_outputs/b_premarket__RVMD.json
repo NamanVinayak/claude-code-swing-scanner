@@ -1,0 +1,11 @@
+{
+  "ticker": "RVMD",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 150.50,
+  "invalidation_level": 147.30,
+  "catalyst_note": "Trending up with TradingView strong_buy signal, holding a modest +1.76% overnight gap; needs to clear the $150 round-number level with volume to confirm continuation.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged tv_strong_buy + tv_trending_up (score=2, minimal pass). Premarket price $149.89 vs close $147.30 — gap of +1.76%, within acceptable range (not yet played out). Critical issue: premarket volume = 0 and volume_ratio = null — no premarket participation data available, making it impossible to gauge institutional interest or momentum behind the gap. New ticker (wiki_context.new_ticker=true) — no setup_history_tldr or recent_tldr to reference; decision relies solely on Stage 1 signals and premarket price. Regime slice is STALE (last updated 2026-05-03, placeholder content) — applying -2 conviction per staleness rule. Watch level set at $150.50 (clean break above $150 round number with room above premarket high). Invalidation at $147.30 (yesterday's close — gap failure). Base conviction would be 6 for a clean trending_up + strong_buy gap, reduced to 4 due to zero volume data and stale macro regime. Recommend Stage 3 validate with news researcher before committing capital."
+}

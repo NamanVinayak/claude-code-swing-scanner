@@ -1,0 +1,11 @@
+{
+  "ticker": "QXO",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "QXO gapped UP +1.45% overnight ($15.95 close → $16.18 premarket), directly contradicting the short thesis and invalidating the bearish setup before the open.",
+  "conviction": 1,
+  "notes": "Setup broken on three compounding grounds: (1) Direction is short but price gapped UP +1.45% overnight — per prompt rules, a gap against short direction = setup_valid no. (2) Stage 1 score is only 1 (sector_laggard_decline only) — the weakest possible single-signal qualification, no momentum confirmation signals. (3) Premarket volume is 0 with volume_ratio null — zero confirmation of selling pressure. New ticker (no wiki history); regime slice is STALE (placeholder, last updated 2026-05-03, 17 days ago) — cannot support any conviction from macro context. No earnings data available. All three factors point the same direction: drop this candidate."
+}

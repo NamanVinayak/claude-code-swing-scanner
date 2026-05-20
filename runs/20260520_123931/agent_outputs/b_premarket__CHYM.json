@@ -1,0 +1,11 @@
+{
+  "ticker": "CHYM",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 16.50,
+  "invalidation_level": 17.40,
+  "catalyst_note": "Sector laggard decline pattern — price below 50-day MA with significant 1-month drawdown — but zero premarket volume and a single Stage 1 signal provide no morning confirmation of continued downside pressure.",
+  "conviction": 2,
+  "notes": "Single-signal candidate (stage1_score=1, sector_laggard_decline only). Premarket gap is flat (+0.06%, $16.91 → $16.92) — no adverse gap-against-thesis. However, premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null: there is zero premarket activity to confirm the short thesis. New ticker (wiki_context.new_ticker=true): no setup history, no recent_tldr — relying solely on Stage 1 signal and premarket data per prompt rules. Regime slice is STALE (last updated 2026-05-03, beyond 14-day threshold; content is a bootstrap placeholder) — cannot inform macro context; conviction reduced by 2 per staleness rule. Watch level $16.50 is a breakdown below current range; invalidation $17.40 is a rally through recent resistance above close. Base conviction would be 4 (messy single-signal short with no vol confirmation) minus 2 for stale regime = 2. Recommend Stage 3 deprioritize unless stronger volume or a second signal emerges in the regular session open."
+}

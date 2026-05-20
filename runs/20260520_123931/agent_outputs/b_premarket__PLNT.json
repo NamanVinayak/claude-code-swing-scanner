@@ -1,0 +1,11 @@
+{
+  "ticker": "PLNT",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 51.00,
+  "invalidation_level": 52.60,
+  "catalyst_note": "Sector laggard decline setup — short triggers only if price breaks back below yesterday's close ($51.65) into $51.00 range floor; premarket gap up (+0.77%) has not violated the short thesis but zero premarket volume provides no directional confirmation.",
+  "conviction": 3,
+  "notes": "Stage 1: single signal only (sector_laggard_decline, score=1) — minimum threshold, no confluence. Premarket: last_price=$52.05, gap +0.77% UP against short direction; gap is sub-5% so does not auto-invalidate, but it does weaken risk-reward. Premarket volume=0 (avg_volume_10d=0.0, volume_ratio=null) — no premarket participation at all, cannot confirm setup is resuming. New ticker (wiki_context.new_ticker=true): no setup_history, no recent_tldr — relying solely on Stage 1 data. Regime: STALE (last updated 2026-05-03, bootstrap placeholder only) — no macro read available; per staleness rules, conviction reduced by 2 from base. Watch level $51.00 is below yesterday's close ($51.65) — short triggers on renewed selling below that base. Invalidation $52.60 is above premarket high with buffer — a rally through that level breaks the bearish thesis. Overall: thin signal, no volume conviction, gap working against entry, no history. Marginal pass only because gap is sub-5%; Stage 3 should weight this low."
+}

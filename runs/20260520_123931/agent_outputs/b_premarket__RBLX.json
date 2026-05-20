@@ -1,0 +1,11 @@
+{
+  "ticker": "RBLX",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "RBLX gapped UP +2.99% overnight against the short thesis, with no premarket volume data confirming continued selling pressure — bearish setup invalidated before the open.",
+  "conviction": 2,
+  "notes": "Short thesis based on single Stage 1 signal (sector_laggard_decline, score=1 — thin conviction). Premarket shows last_price=$45.78 vs close=$44.45, an overnight gap of +2.99% in the wrong direction for a short. Per direction-aware rules, a gap UP on a short setup breaks the bearish thesis. Premarket volume=0 with avg_volume_10d=0.0 — no volume confirmation in either direction, but price action is bullish. New ticker (wiki_context.new_ticker=true): no setup history, no recent technicals, no prior trades to reference — relying solely on Stage 1 data. Regime data is STALE (last updated 2026-05-03, >14 days) and cannot inform macro tailwinds for the short. No earnings catalyst risk (days_until_next=71). Setup is invalidated: gap direction is hostile to the trade side, single weak signal, no volume confirmation, no wiki history."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "GPGI",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Sector laggard decline signal with zero premarket volume and no price discovery — no confirmation of continued selling pressure available this morning.",
+  "conviction": 2,
+  "notes": "Stage 1 score=1, sole reason=sector_laggard_decline — the weakest short qualifier. Premarket volume=0 (avg_volume_10d=0.0, volume_ratio=null): there is literally no premarket activity for GPGI, making any watch or invalidation level uninferrable from current data. Last price equals prior close ($11.57) with a 0.0% gap — no overnight move to validate or invalidate the setup. Earnings data entirely absent (days_since_last=null, days_until_next=null). New ticker (wiki_context.new_ticker=true); setup_history_tldr and recent_tldr both missing. Regime context is STALE (last updated 2026-05-03, threshold 14 days exceeded) and contains only a bootstrap placeholder — zero usable macro signal. With a single weak signal, no premarket volume, and no supporting context, this name has no actionable short setup this morning. Dropping."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "YSS",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gapping UP +2.02% against the short thesis on a single weak sector_laggard_decline signal with zero premarket volume.",
+  "conviction": 1,
+  "notes": "Setup invalid. Direction is short; premarket moved to $26.20 vs last_regular_close $25.68 (+2.02% gap UP), which is directionally against the short. Per prompt rules, a premarket gap up that breaks the bearish thesis = setup_valid no. Stage 1 score was only 1 (single reason: sector_laggard_decline) — weakest possible signal strength. Premarket volume is 0 shares (volume_ratio null) — no conviction from market participants in either direction. New ticker (wiki new_ticker=true), no setup_history or recent technicals available; relying solely on Stage 1 data. Regime context is a stale placeholder (last updated 2026-05-03, bootstrap text only) — unusable. No earnings risk (days_until_next=84). With the gap working against the short, minimal signal score, and no volume participation, this setup does not pass Stage 2."
+}

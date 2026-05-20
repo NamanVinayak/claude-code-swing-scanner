@@ -1,0 +1,11 @@
+{
+  "ticker": "JHX",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 18.85,
+  "invalidation_level": 19.40,
+  "catalyst_note": "Minervini Stage 4 momentum breakdown structure (close below inverted SMA200/SMA50 stack) with no near-term earnings risk (90 days out), awaiting confirmed intraday break below $18.85 to trigger short entry.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki setup history or recent technicals available; relying solely on Stage 1 signal and premarket data. Single signal reason (stage4_momentum_breakdown, stage1_score=1) is a thin technical base. Premarket action is essentially flat (+0.16%, last_price $19.05 vs close $19.02) with zero premarket volume (volume=0, avg_volume_10d=0.0, volume_ratio=null) — no institutional premarket conviction in either direction. Gap is not against the short thesis (<5% up) so setup is not invalidated, but the lack of any premarket follow-through on the breakdown is a negative signal. Setup marked 'partial' rather than 'yes' because: (1) single signal only, (2) zero premarket volume provides no confirmation, (3) regime slice is STALE (last updated 2026-05-03, threshold 14 days exceeded) — macro context unknown, applying -1 conviction penalty for staleness uncertainty. Conviction reduced to 3: base 4 (single signal, no news, new ticker) minus 1 (stale regime). Watch level $18.85 = breakdown below yesterday's intraday support zone / round number floor. Invalidation $19.40 = rally above yesterday's close by ~2%, negating the Stage 4 structural thesis."
+}

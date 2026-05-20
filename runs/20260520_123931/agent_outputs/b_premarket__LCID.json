@@ -1,0 +1,11 @@
+{
+  "ticker": "LCID",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 5.45,
+  "invalidation_level": 5.80,
+  "catalyst_note": "Structural sector laggard (EV sector weakness, persistent losses) with short thesis intact but premarket gapping slightly against direction — needs regular-session breakdown below $5.45 to confirm.",
+  "conviction": 3,
+  "notes": "Single Stage 1 signal (sector_laggard_decline) — minimum threshold, no signal confluence. Premarket gapped UP +1.07% against the short direction; below the 5% auto-invalidation threshold but still directionally adverse. Premarket volume = 0 — no conviction from participants. New ticker (new_ticker: true): no setup_history_tldr, no recent_tldr — relying solely on Stage 1 data. Regime context is STALE (last updated 2026-05-03, bootstrap placeholder) — lowering conviction by 2 per staleness rule. Watch level $5.45 is a break below the current premarket price and recent close, confirming sector weakness continuation. Invalidation $5.80 is a clear bounce above the pre-market gap high, which would negate the laggard thesis. Overall: weak candidate — single signal, no volume confirmation, adverse gap, no wiki history. Pass to Stage 3 only if watchlist is thin."
+}

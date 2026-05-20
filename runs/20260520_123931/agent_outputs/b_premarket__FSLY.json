@@ -1,0 +1,11 @@
+{
+  "ticker": "FSLY",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "FSLY gapped UP +2.08% premarket to $16.70 against the short thesis, directly invalidating the sector_laggard_decline setup.",
+  "conviction": 1,
+  "notes": "Direction is short; premarket gap is +2.08% (close $16.36 → premarket $16.70), which moves AGAINST the short thesis. Per direction-aware rules, a premarket gap up that breaks the bearish thesis = setup_valid no. Stage 1 score is 1 (minimum viable), based solely on sector_laggard_decline — the weakest short signal in the toolkit. Premarket volume is 0 with volume_ratio null — zero confirmation of downside interest. New ticker (wiki_context.new_ticker=true); setup_history and recent slices both missing — no historical pattern data to offset the unfavorable gap. Regime slice is STALE (last updated 2026-05-03, 17 days past 14-day threshold) and contains only a bootstrap placeholder — zero useful macro context. No earnings risk (days_until_next=77). Setup ruled out: wrong direction gap + single weak signal + no volume + no wiki history."
+}

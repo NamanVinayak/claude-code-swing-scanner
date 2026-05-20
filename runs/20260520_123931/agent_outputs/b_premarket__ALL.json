@@ -1,0 +1,11 @@
+{
+  "ticker": "ALL",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 225.50,
+  "invalidation_level": 221.50,
+  "catalyst_note": "TradingView trifecta (strong_buy + breakout_up + trending_up) on a flat overnight session — breakout thesis intact but unconfirmed by any premarket volume.",
+  "conviction": 5,
+  "notes": "Stage 1 fired tv_strong_buy + tv_breakout_up + tv_trending_up (score 3). Premarket last_price $224.75 vs close $224.91 = -0.07% gap, well within noise; long thesis not broken by overnight action. However, premarket volume is 0 (volume_ratio null) — zero premarket participation means there is no buyer confirmation of the breakout this morning; watch_level set at $225.50 (clear above close) to require fresh buying to validate. Invalidation at $221.50 (~1.5% below close) captures a failed breakout reversal. New ticker (new_ticker: true) — no setup history, no fakeout pattern to penalize. Earnings data unavailable (days_since_last and days_until_next both null) — cannot rule out near-term earnings risk; mild negative. Regime slice is STALE (last updated 2026-05-03, >14 days, bootstrap placeholder only) — treated as uninformative; conviction docked 1 per staleness protocol. Net: setup structurally valid but partially degraded by absent volume confirmation and missing earnings/regime data."
+}

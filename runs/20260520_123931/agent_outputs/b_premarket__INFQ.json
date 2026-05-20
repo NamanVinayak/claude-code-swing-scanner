@@ -1,0 +1,11 @@
+{
+  "ticker": "INFQ",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 10.65,
+  "invalidation_level": 10.85,
+  "catalyst_note": "Sector laggard in structural decline; short thesis requires a break below yesterday's $10.71 close on real volume — premarket shows a small gap against the thesis with zero volume, offering no confirmation.",
+  "conviction": 2,
+  "notes": "Single Stage 1 signal (sector_laggard_decline), the weakest possible score. Premarket gapped +0.93% to $10.81 — directionally against the short thesis, though under the 5% automatic-no threshold. Premarket volume is 0 with volume_ratio null — no tradeable price discovery. New ticker with no wiki setup history, no recent_tldr, and a stale bootstrap-only regime page (last updated 2026-05-03, well past 14-day threshold). With no regime read, no prior setups, zero premarket participation, and price moving the wrong way, this setup has no confirming evidence. Watch level set at $10.65 (below close, requires actual breakdown); invalidation at $10.85 (above premarket print). Conviction 2: single weak signal, contra-direction gap, zero volume — do not advance unless Stage 3 has independent bearish thesis."
+}

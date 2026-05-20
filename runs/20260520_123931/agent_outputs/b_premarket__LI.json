@@ -1,0 +1,11 @@
+{
+  "ticker": "LI",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 15.70,
+  "invalidation_level": 16.25,
+  "catalyst_note": "Stage 4 momentum breakdown setup — stock gapped down -2.22% premarket, confirming deteriorating trend, but zero premarket volume provides no institutional confirmation.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged stage4_momentum_breakdown only (score=1, minimum threshold). Premarket: last_price=$15.83 vs close=$16.19, gap -2.22% — moves in short direction but has partially consumed opening risk/reward. Critical concern: premarket volume=0, avg_volume_10d=0.0, volume_ratio=null — no premarket volume data at all, cannot confirm momentum. Earnings in 8 days (not in 3-day blackout, but creates elevated binary risk for short positions). New ticker: no wiki setup history, no prior fakeout patterns to reference. Regime wiki is STALE (last updated 2026-05-03, >14 days) — treating as untrusted; conviction docked 2 points per staleness rule. Watch level $15.70 is a clean breakdown below premarket lows for short entry trigger. Invalidation $16.25 is a reclaim above yesterday's close breakout zone, which would negate the Stage 4 structure. Setup is partial: directional gap is favorable but single-reason Stage 1 score, zero volume confirmation, and upcoming earnings all limit quality."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "ALAB",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "gap_and_go",
+  "watch_level": 254.50,
+  "invalidation_level": 248.00,
+  "catalyst_note": "Stage 1 trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up) confirmed by a +4.09% overnight gap; price needs to hold above the premarket level and continue through $254.50 for gap-and-go continuation.",
+  "conviction": 5,
+  "notes": "New ticker — no setup history, no recent wiki, no regime context (wiki_context.new_ticker=true; all three slices missing or stale). Stage 1 score=3 with the strongest signal combination (strong_buy + breakout_up + trending_up). Premarket at $253.98 vs close of $244.00 = +4.09% gap up, directionally aligned with long setup. Gap is under the 5% auto-partial threshold but has already consumed meaningful R/R — entry nearly $10 above yesterday's close compresses the risk-reward. Premarket volume data is unavailable (volume=0, avg_volume_10d=0.0, volume_ratio=null); cannot confirm institutional participation or gap-and-go momentum quality. Earnings 76 days out — no blackout concern. Regime slice is STALE (last updated 2026-05-03, 17 days ago, bootstrap placeholder only) — no macro context usable; conviction reduced by 2 per staleness rule. Watch level $254.50 is just above premarket price for continuation confirmation. Invalidation $248.00 is inside the gap (~midpoint) — a pullback this deep signals gap-fill pressure and breaks the momentum thesis. Base conviction 7 (clean trifecta + confirming gap direction), minus 2 (stale regime), minus 1 (zero volume data): final conviction 5."
+}

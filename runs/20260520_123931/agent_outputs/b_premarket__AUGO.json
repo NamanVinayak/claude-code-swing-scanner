@@ -1,0 +1,11 @@
+{
+  "ticker": "AUGO",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 70.00,
+  "invalidation_level": 71.50,
+  "catalyst_note": "Sector laggard continuing overnight decline with -1.37% premarket gap consistent with short direction, but zero premarket volume raises serious liquidity concerns.",
+  "conviction": 2,
+  "notes": "Stage 1: single signal (sector_laggard_decline, score=1) — minimum threshold. Premarket: last_price=$70.48 vs close $71.46, gap=-1.37% in short direction (setup not blown out). Critical issue: premarket volume=0, avg_volume_10d=0.0, volume_ratio=null — zero liquidity signal, no price discovery, execution risk is high. New ticker (wiki_context.new_ticker=true): no setup history, no recent page, no prior outcome data to reference. Regime data is STALE (last updated 2026-05-03, 17 days past 14-day threshold) — cannot use for conviction adjustment; lowering conviction by 1 per staleness rule. No near-term earnings risk (days_until_next=77). Watch level set at $70.00 (round-number support below premarket price); invalidation at $71.50 (above prior close, thesis broken if price rallies back). Setup is 'partial' because the structural thesis (sector laggard breaking down) is unrefuted and direction-aligned, but zero premarket volume makes this nearly untradeable. Conviction 2: single weak signal + zero volume + new ticker + stale regime = borderline pass-through only."
+}

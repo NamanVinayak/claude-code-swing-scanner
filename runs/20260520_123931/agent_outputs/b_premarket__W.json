@@ -1,0 +1,11 @@
+{
+  "ticker": "W",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 56.80,
+  "invalidation_level": 58.50,
+  "catalyst_note": "Stage 4 momentum breakdown signal (close < SMA50 < SMA200 stack inverted) flagged by scanner; premarket shows a minor +0.57% counter-direction drift with zero volume, suggesting no conviction from either side at open.",
+  "conviction": 3,
+  "notes": "Single stage1 signal (stage4_momentum_breakdown, score=1) — weak confirmation. Premarket last_price=$57.73 vs close=$57.40, gap=+0.57% against the short thesis; below the 5% threshold so thesis not technically broken, but any gap UP on a short is a negative. Premarket volume=0 and volume_ratio=null — no liquidity signal whatsoever; cannot confirm sellers are present pre-open. Earnings both null — unknown event risk. New ticker (wiki_context.new_ticker=true); no setup_history or recent_tldr available — relying solely on Stage 1 signal. Regime_tldr is STALE (last updated 2026-05-03, bootstrap placeholder) — treated as untrusted; conviction reduced by 2 per staleness rule. Final conviction=3: one real short signal but no supporting volume, no wiki history, no macro context, and slight counter-direction premarket drift. Watch level $56.80 = breakdown below recent close/support; invalidation $58.50 = rally through intraday resistance above the premarket high."
+}

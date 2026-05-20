@@ -1,0 +1,11 @@
+{
+  "ticker": "KRMN",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 63.50,
+  "invalidation_level": 65.50,
+  "catalyst_note": "Sector laggard decline setup requires a break below yesterday's close ($64.20) into new weakness; premarket gap UP to $64.95 is directionally adverse and reduces urgency.",
+  "conviction": 2,
+  "notes": "Stage 1 score: 1 (sole reason: sector_laggard_decline — weakest possible signal; no multi-signal confluence). Premarket gap: +1.17% UP, adverse for a short thesis — price has drifted away from a breakdown entry, not toward it. Premarket volume: 0 shares (avg_volume_10d: 0.0) — no price discovery, no premarket participation at all; watch level is based on yesterday's close as the line in the sand, not a fresh intraday pivot. Earnings: clear (78 days out). New ticker — no wiki setup history; relying solely on Stage 1 signal and premarket data per failure-mode rules. Regime wiki slice is STALE (last updated 2026-05-03, exceeds 14-day threshold; content is a bootstrap placeholder with no usable data) — cannot factor macro regime; conviction reduced by 2 per staleness rule. Combined: single weak signal + adverse gap + zero premarket volume + no history + stale regime = very low conviction. Setup is technically still watchable (gap < 5% threshold) but conditions are poor. Watch for breakdown below $63.50 (below yesterday's close with buffer); invalidate on any print above $65.50."
+}

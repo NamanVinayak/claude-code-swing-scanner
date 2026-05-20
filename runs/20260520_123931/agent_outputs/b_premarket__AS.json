@@ -1,0 +1,11 @@
+{
+  "ticker": "AS",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Ares Capital (AS) gapped UP +1.21% overnight against the short thesis, with zero premarket volume on both today and 10d avg — price moved directionally wrong and volume data is unreliable.",
+  "conviction": 1,
+  "notes": "Setup invalidated on three counts. (1) Direction: short thesis requires price to move down; premarket last_price $34.24 vs close $33.83 = +$0.41 gap UP against the trade. Per prompt rules, gap UP that breaks bearish thesis = setup_valid no. (2) Volume: premarket volume = 0 shares, avg_volume_10d = 0.0, volume_ratio = null — no premarket participation data at all, making any entry/invalidation level unactionable. (3) Signal strength: stage1_score = 1 (single reason: stage4_momentum_breakdown) — minimum possible scanner conviction. New ticker with no wiki history (new_ticker: true, setup_history and recent_tldr both missing) — cannot rely on any historical setup context. Regime wiki is stale (last updated 2026-05-03, bootstrap placeholder only) — applying -2 conviction penalty per staleness rules. Starting conviction would have been 3 at best given single signal; after staleness penalty and gap-wrong-direction disqualifier, conviction floor = 1. No watch or invalidation levels set."
+}

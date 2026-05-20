@@ -1,0 +1,11 @@
+{
+  "ticker": "STNE",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 10.20,
+  "invalidation_level": 10.60,
+  "catalyst_note": "Sector laggard decline setup requires breakdown below recent close ($10.29); premarket is gapping slightly against the short at $10.35 with zero volume, so entry requires intraday confirmation of downside continuation.",
+  "conviction": 3,
+  "notes": "Direction: short. Stage 1 score: 1 (single reason: sector_laggard_decline — weakest possible signal count). Premarket last_price $10.3488 vs close $10.29 = +0.57% gap UP, which is directional headwind for a short but below the 5% auto-invalidation threshold. Critically, premarket volume is 0 shares (volume_ratio null) — no institutional interest, no price discovery, no confirmation of selling pressure. New ticker (new_ticker=true); no setup_history, no recent_tldr to draw from. Regime slice is a stale bootstrap placeholder (last updated 2026-05-03, 17 days stale) — regime context unavailable; conviction lowered 2 per staleness rule. Earnings clear (85 days out). Watch level $10.20: breakdown below the prior close and any near-term intraday support would confirm the short. Invalidation $10.60: a rally above that level signals buyers in control and breaks the laggard narrative. Conviction set at 3 (floor): one weak signal, gap against direction, zero premarket volume, no wiki history, stale regime. Pass to Stage 3 only if premarket volume materializes and price drifts back below $10.29 before open."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "CAR",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Sector laggard decline setup (single signal) with zero premarket volume, a mild gap against the short thesis, and no wiki history — insufficient data to confirm a tradeable short entry.",
+  "conviction": 2,
+  "notes": "Stage 1 score is 1 (minimum), driven solely by sector_laggard_decline. Premarket volume is 0 shares (volume_ratio null) — no liquidity confirmation in either direction, and no way to assess whether bears are pressing or covering. Overnight gap is +0.22% (long direction), which is a mild adverse signal for a short but below the 5% threshold. However, the combination of: zero premarket volume, single weak signal, new_ticker (no setup_history_tldr, no recent_tldr), and a fully stale regime slice (last updated 2026-05-03, bootstrap placeholder only) leaves no basis to set credible watch or invalidation levels. Per prompt rules, stale wiki dependency lowers conviction by 2. Setup ruled no rather than partial because zero premarket volume on a short with a single signal and no wiki history provides no actionable entry or invalidation anchor — Stage 3 cannot trade this without fabricating levels."
+}

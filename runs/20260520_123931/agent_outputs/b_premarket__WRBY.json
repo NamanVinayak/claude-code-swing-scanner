@@ -1,0 +1,11 @@
+{
+  "ticker": "WRBY",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 25.40,
+  "invalidation_level": 26.10,
+  "catalyst_note": "Stage 1 flagged a bearish episodic pivot (sharp drop on high volume), but a +1.28% premarket gap up partially counters the distribution thesis; setup survives only if price breaks back below yesterday's close.",
+  "conviction": 3,
+  "notes": "Single Stage 1 signal (bearish_episodic_pivot, score=1) — weakest possible entry. Premarket gapped UP +1.28% to $25.79 against the short direction; not above the 5% threshold for automatic invalidation but does undermine the BEP continuation thesis. Premarket volume is 0 — no momentum confirmation in either direction. New ticker (new_ticker=true): no setup_history, no recent_tldr. Regime slice is STALE (last updated 2026-05-03, >14 days; only a bootstrap placeholder) — cannot inform macro picture, so conviction further reduced per staleness rule. Watch level set at $25.40 (just below yesterday's close of $25.46) — break here would confirm distribution resumption. Invalidation at $26.10 (above premarket high of $25.79, round-number buffer above current price). Single-reason short candidates with gap-against-thesis and zero premarket volume warrant low conviction."
+}

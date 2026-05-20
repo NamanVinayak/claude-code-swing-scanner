@@ -1,0 +1,17 @@
+{
+  "ticker": "CAI",
+  "setup_direction": "short",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [15.30, 15.67, 15.90],
+  "top_3_arguments": [
+    "Price is deeply oversold and stretched well below mean: daily rsi.rsi_21 = 30.57 (textbook oversold), z_score_50 = -2.11, bollinger.pct_b = 0.1677 (near lower band), momentum.roc_10d = -21.06 and roc_21d = -29.57. Stocks this stretched (-19.07% from sma_50, -41.98% from sma_200) routinely produce mean-reversion bounces rather than clean breakdowns — shorting into this much downside extension is fighting the rubber band.",
+    "Hourly tape is already turning UP against the short thesis: hourly current_price = 15.26 is ABOVE daily current_price = 14.96 (i.e., gapping up into the setup), hourly macd.histogram = +0.1582 (rising, no bearish crossover), hourly plus_di = 29.32 vs minus_di = 11.55 with adx_24 = 28.18 (STRONG short-term uptrend), hourly rsi_21 = 51.57 (neutral, not weak), and hourly momentum.roc_5d = +3.6. Daily volume.relative_volume = 0.82 and hourly relative_volume = 0.28 — no seller conviction; this is a drifting tape, not a breakdown in progress.",
+    "Setup is structurally thin and the catalyst note flags it: conviction = 3/10, source_reasons = [] (empty — no Stage 1 signal codes backing it), recent_news_7d empty, news_source = 'none', no insider trades. Analyst consensus is BUY with avg PT $34.71 (132% above current price) — institutional positioning is constructive, not deteriorating. With watch_level $14.80 only 1.07% below current $14.96 and invalidation $15.30 only 2.27% above, the R:R window is tiny and the prev_day_high of $15.70 sits as a magnet above; a single squeeze candle invalidates the setup."
+  ],
+  "bull_acknowledgements": [
+    "Daily trend structure is unambiguously bearish: ema_aligned_downtrend = true, price below every MA from ema_5 through ema_200, dist_from_50sma_pct = -19.07%, daily adx_14 = 30.55 with minus_di 29.2 > plus_di 16.53 — a real downtrend is in force.",
+    "Daily momentum confirms weakness: macd.histogram = -0.3742 (negative and no bullish crossover), obv.trend = 'down', volume_bias_10d = 'down' — distribution is the prevailing regime on the daily timeframe.",
+    "If $14.80 breaks on volume, Fibonacci extension targets ($12.02 at fib_ext_low_1272, $9.26 at fib_ext_low_1618) open meaningful downside — the structural short case is real, just timed poorly into oversold conditions."
+  ],
+  "web_sources_last_7d": []
+}

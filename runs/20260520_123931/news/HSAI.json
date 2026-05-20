@@ -1,0 +1,63 @@
+{
+  "ticker": "HSAI",
+  "researched_at": "2026-05-20T19:40:00Z",
+  "news_items": [
+    {
+      "headline": "Hesai Q1 2026 revenue up 29.6%, net income RMB18M",
+      "url": "https://www.stocktitan.net/news/HSAI/hesai-group-reports-first-quarter-2026-unaudited-financial-wgvrptc5slt8.html",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Q1 2026 revenue RMB680.6M (+29.6% YoY); GAAP net income RMB18.3M, a turnaround from a RMB17.5M net loss in Q1 2025. 471,723 lidar units shipped (+140.9% YoY)."
+    },
+    {
+      "headline": "Hesai Group (NASDAQ:HSAI) Q1 2026 Earnings Beat Profit Estimates on Robust Lidar Growth",
+      "url": "https://www.chartmill.com/news/HSAI/Chartmill-48721-Hesai-Group-NASDAQHSAI-Q1-2026-Earnings-Beat-Profit-Estimates-on-Robust-Lidar-Growth",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Q1 earnings beat profit estimates. ADAS lidar units +141.9% YoY to 353,441; robotics lidar +137.8% to 118,282. Q2 guidance RMB850-900M (+20-27% YoY) above consensus."
+    },
+    {
+      "headline": "Hesai (HSAI) Q1 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/19/hesai-hsai-q1-2026-earnings-call-transcript/",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Management emphasized accelerating multi-lidar platform adoption and higher content per vehicle as L3 autonomy expands. Backlog exceeds 6 million units with significant new design wins in automotive and robotics."
+    },
+    {
+      "headline": "HESAI GROUP ($HSAI) Releases Q1 2026 Earnings",
+      "url": "https://www.quiverquant.com/news/HESAI+GROUP+%28%24HSAI%29+Releases+Q1+2026+Earnings",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Q1 release confirmed Mercedes-Benz strategic lidar partnership for L3 autonomy models. Pre-market shares rose ~9% on the beat plus above-consensus guidance."
+    },
+    {
+      "headline": "Why Hesai Group (HSAI) Is Up After Profit Rebound and Hong Kong Listing Plans",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-hsai/hesai-group/news/why-hesai-group-hsai-is-up-after-profit-rebound-and-hong-kon",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Shares higher after profit rebound and disclosure of Hong Kong secondary listing plans. New ETX lidar reveal also cited as a catalyst."
+    },
+    {
+      "headline": "Hesai Group Is Up 13.1% After Profit Turnaround and New ETX Lidar Reveal",
+      "url": "https://www.webull.com/news/13344204497183744",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Stock +13.1% on the session following profit turnaround and ETX lidar product reveal. Picasso 6D SPAD-SoC and Kosmo spatial intelligence device cited as moves into higher-margin software/data."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 32.09,
+    "recent_changes": "No analyst-rating changes in the last 7 days found in this search. Standing consensus is Strong Buy with average 12-month price target $32.09 (range $24.95-$40.28); TipRanks cites 5-analyst Strong Buy with 2026 PT $29.96 as of 2026-04-18."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 just reported 2026-05-19: revenue +29.6% YoY, GAAP profit turnaround, Q2 guide RMB850-900M (+20-27% YoY) above consensus. Next earnings (Q2) typically falls in August; no confirmed date in search results. Forward catalysts: Mercedes-Benz L3 ramp, ETX lidar adoption, Picasso 6D/Kosmo software-margin shift, 6M+ unit backlog, planned Hong Kong listing."
+  },
+  "raw_search_files": [
+    "HSAI_news-this-week.json",
+    "HSAI_analyst-rating.json",
+    "HSAI_earnings-catalyst.json"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "ticker": "ALL",
+  "researched_at": "2026-05-20T19:42:00Z",
+  "news_items": [
+    {
+      "headline": "Virginia Retirement Systems acquires 29,200 shares of The Allstate Corporation",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-29200-shares-of-the-allstate-corporation-all-2026-05-14/",
+      "date": "2026-05-14",
+      "sentiment": "positive",
+      "summary": "Institutional 13F filing disclosed Virginia Retirement Systems added 29,200 shares of ALL. Incremental institutional accumulation."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": null,
+    "recent_changes": "Piper Sandler and Citi raised price targets on ALL following Q1 2026 results (specific PT figures and exact dates not surfaced in search; treat as recent-but-undated)."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 77,
+    "notes": "Q1 2026 (reported earlier this period) beat with adj EPS $10.65, revenue $16.9B, 82% combined ratio, $2.7B underwriting income. Co announced 8% dividend increase and $4B buyback. Already priced in; no near-term earnings catalyst before August. Stock hit all-time high $222.23 on 2026-05-05; +1.67% over the last week per search."
+  },
+  "raw_search_files": [
+    "ALL_news-this-week.json",
+    "ALL_analyst-rating.json",
+    "ALL_earnings-catalyst.json"
+  ]
+}

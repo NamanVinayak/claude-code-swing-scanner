@@ -1,0 +1,390 @@
+{
+  "ticker": "RVMD",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 150.5,
+  "invalidation_level": 147.3,
+  "catalyst_note": "Trending up with TradingView strong_buy signal, holding a modest +1.76% overnight gap; needs to clear the $150 round-number level with volume to confirm continuation.",
+  "conviction": 4,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "Revolution Medicines announces NEJM publication of daraxonrasib Phase 1/2 data in pancreatic cancer",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://www.stocktitan.net/news/RVMD/revolution-medicines-announces-publication-in-new-england-journal-of-6xcapekbzv3p.html",
+      "sentiment": "positive",
+      "summary": "NEJM published Phase 1/2 daraxonrasib data supporting rationale for the pivotal RASolute 302 Phase 3 trial in metastatic pancreatic cancer. Peer-reviewed validation of lead asset."
+    },
+    {
+      "title": "FDA grants expanded access for daraxonrasib following positive RASolute 302 Phase 3 data; NDA submission planned",
+      "source": "web_research",
+      "date": "2026-05-14",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-rvmd/revolution-medicines/news/is-wider-losses-and-fda-expanded-access-for-daraxonrasib-alt",
+      "sentiment": "positive",
+      "summary": "FDA expanded access program for daraxonrasib granted on the back of Phase 3 RASolute 302 results; company guided to NDA submission. Regulatory progression catalyst."
+    },
+    {
+      "title": "Wedbush, Piper Sandler, and Needham reiterate/initiate bullish on RVMD",
+      "source": "web_research",
+      "date": "2026-05-07",
+      "url": "https://www.benzinga.com/quote/RVMD/analyst-ratings",
+      "sentiment": "positive",
+      "summary": "Three sell-side notes from Wedbush, Piper Sandler, and Needham issued same day in the wake of daraxonrasib Phase 3 data \u2014 contributed to the 20/0/0 buy/hold/sell consensus."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 147.3000030517578,
+  "market_cap": 31980883968.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 146.88999938964844,
+      "high": 150.3000030517578,
+      "low": 145.25799560546875,
+      "close": 149.94000244140625,
+      "volume": 1844100
+    },
+    {
+      "time": "2026-05-14",
+      "open": 150.0,
+      "high": 150.7899932861328,
+      "low": 146.5,
+      "close": 149.47000122070312,
+      "volume": 1804600
+    },
+    {
+      "time": "2026-05-15",
+      "open": 147.83999633789062,
+      "high": 148.85499572753906,
+      "low": 141.25,
+      "close": 145.66000366210938,
+      "volume": 2475700
+    },
+    {
+      "time": "2026-05-18",
+      "open": 145.02999877929688,
+      "high": 146.91000366210938,
+      "low": 141.0,
+      "close": 144.3699951171875,
+      "volume": 2344800
+    },
+    {
+      "time": "2026-05-19",
+      "open": 144.52999877929688,
+      "high": 147.92999267578125,
+      "low": 141.7899932861328,
+      "close": 147.3000030517578,
+      "volume": 1995700
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 146.44604859382827,
+      "sma_5": 147.3480010986328,
+      "ema_10": 145.76127653576927,
+      "sma_10": 146.2,
+      "ema_20": 141.9902067331414,
+      "sma_20": 143.45199966430664,
+      "ema_21": 141.5056381785611,
+      "sma_21": 143.71142796107702,
+      "ema_50": 128.31037630747085,
+      "sma_50": 122.37079956054687,
+      "ema_200": 92.05790517626613,
+      "sma_200": 82.86029985427857,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 147.3000030517578,
+    "dist_from_50sma_pct": 20.37,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 0.58,
+      "above_sma_5": false,
+      "pct_from_sma_5": -0.03,
+      "above_ema_10": true,
+      "pct_from_ema_10": 1.06,
+      "above_sma_10": true,
+      "pct_from_sma_10": 0.75,
+      "above_ema_20": true,
+      "pct_from_ema_20": 3.74,
+      "above_sma_20": true,
+      "pct_from_sma_20": 2.68,
+      "above_ema_21": true,
+      "pct_from_ema_21": 4.09,
+      "above_sma_21": true,
+      "pct_from_sma_21": 2.5,
+      "above_ema_50": true,
+      "pct_from_ema_50": 14.8,
+      "above_sma_50": true,
+      "pct_from_sma_50": 20.37,
+      "above_ema_200": true,
+      "pct_from_ema_200": 60.01,
+      "above_sma_200": true,
+      "pct_from_sma_200": 77.77,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 14630.0
+    },
+    "rsi": {
+      "rsi_7": 66.51,
+      "rsi_14": 57.17,
+      "rsi_21": 50.62
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 6.2269,
+      "signal_line": 7.5629,
+      "histogram": -1.336,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 153.88,
+      "middle": 143.45,
+      "lower": 133.03,
+      "width": 0.1453,
+      "pct_b": 0.6846
+    },
+    "atr": {
+      "atr_14": 6.25,
+      "atr_pct": 4.24
+    },
+    "adx": {
+      "adx_14": 21.55,
+      "plus_di": 17.58,
+      "minus_di": 12.9,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 1995700,
+      "avg_volume_20": 2877815,
+      "relative_volume": 0.69,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 101.0,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 150.0,
+          "tests": 13,
+          "volume_confirmed": true
+        },
+        {
+          "price": 155.7,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 91.52,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 94.67,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 131.02,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 150.0,
+      "nearest_support": 131.02,
+      "recent_high": 151.43,
+      "recent_low": 131.02,
+      "prev_day_high": 146.91,
+      "prev_day_low": 141.0,
+      "prev_day_close": 144.37
+    },
+    "fibonacci": {
+      "swing_high": 155.7,
+      "swing_low": 94.63,
+      "fib_236": 141.29,
+      "fib_382": 132.37,
+      "fib_500": 125.16,
+      "fib_618": 117.96,
+      "fib_786": 107.7,
+      "fib_ext_1272": 172.31,
+      "fib_ext_1618": 193.44,
+      "fib_ext_2000": 216.77,
+      "fib_ext_low_1272": 78.02,
+      "fib_ext_low_1618": 56.89
+    },
+    "momentum": {
+      "roc_5d": 1.08,
+      "roc_10d": 0.06,
+      "roc_21d": 0.73
+    },
+    "z_score_50": 1.02,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 145.64371888421618,
+      "sma_24": 144.97958374023438,
+      "ema_48": 145.34448809231367,
+      "sma_48": 145.39827982584634,
+      "ema_120": 145.04618489188584,
+      "sma_120": 143.96831029256185,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 150.42999267578125,
+    "dist_from_50sma_pct": 4.49,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 3.29,
+      "above_sma_24": true,
+      "pct_from_sma_24": 3.76,
+      "above_ema_48": true,
+      "pct_from_ema_48": 3.5,
+      "above_sma_48": true,
+      "pct_from_sma_48": 3.46,
+      "above_ema_120": true,
+      "pct_from_ema_120": 3.71,
+      "above_sma_120": true,
+      "pct_from_sma_120": 4.49,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 14943.0
+    },
+    "rsi": {
+      "rsi_21": 59.25
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 0.341,
+      "signal_line": 0.0995,
+      "histogram": 0.2415,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 150.76,
+      "middle": 145.4,
+      "lower": 140.03,
+      "width": 0.0738,
+      "pct_b": 0.9689
+    },
+    "atr": {
+      "atr_24": 2.25,
+      "atr_pct": 1.5
+    },
+    "adx": {
+      "adx_24": 16.89,
+      "plus_di": 32.18,
+      "minus_di": 25.1,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 372545,
+      "avg_volume_20": 259712,
+      "relative_volume": 1.43,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 145.52,
+          "tests": 18,
+          "volume_confirmed": false
+        },
+        {
+          "price": 150.47,
+          "tests": 7,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 141.25,
+          "tests": 20,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 150.47,
+      "nearest_support": 141.25,
+      "recent_high": 153.55,
+      "recent_low": 141.0,
+      "prev_day_high": 147.57,
+      "prev_day_low": 146.31,
+      "prev_day_close": 147.47
+    },
+    "fibonacci": {
+      "swing_high": 153.55,
+      "swing_low": 141.0,
+      "fib_236": 150.59,
+      "fib_382": 148.76,
+      "fib_500": 147.28,
+      "fib_618": 145.79,
+      "fib_786": 143.69,
+      "fib_ext_1272": 156.96,
+      "fib_ext_1618": 161.31,
+      "fib_ext_2000": 166.1,
+      "fib_ext_low_1272": 137.59,
+      "fib_ext_low_1618": 133.24
+    },
+    "momentum": {
+      "roc_5d": 3.52,
+      "roc_10d": 6.03,
+      "roc_21d": 2.82
+    },
+    "z_score_120": 1.6,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 77,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 176.95,
+    "recent_changes": "Wedbush, Piper Sandler, Needham all issued ratings on 2026-05-07 in wake of Phase 3 RASolute 302 data; sweep of PT hikes industry-wide post-ASCO Plenary. Consensus 20 buy / 0 hold / 0 sell with high $263 / low $140."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 77,
+    "notes": "Q1 2026 reported 2026-05-06: $0 revenue (clinical-stage), non-GAAP EPS -$2.29 vs -$1.86 expected (miss on loss size). Street focus shifted from financials to daraxonrasib clinical/regulatory cadence \u2014 Phase 3 RASolute 302 readout already in hand, NDA submission and FDA expanded access are the live catalysts. Stock +52.9% over past month."
+  }
+}

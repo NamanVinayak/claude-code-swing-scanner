@@ -1,0 +1,65 @@
+{
+  "run_id": "20260520_123931",
+  "mode": "b_swing",
+  "generated_at": "2026-05-20T14:10:29+00:00",
+  "decisions": {
+    "ALAB": {
+      "action": "buy",
+      "direction": "long",
+      "entry_price": 256.0,
+      "stop_loss": 248.0,
+      "target_price": 278.0,
+      "target_price_2": 288.86,
+      "quantity": 19,
+      "timeframe": "6d",
+      "confidence": 6,
+      "account_risk_pct": 1.0,
+      "entry_tolerance_pct": 0.5,
+      "setup_type": "gap_and_go",
+      "rationale": "Catalyst bull (b_bull_b.bull_strength=8) and technical bull (b_bull_a=7) edge out matched bears (b_bear_a=7, b_bear_b=7); fresh 7-day catalyst stack (RBC PT to $250 and Evercore PT to $297 on 2026-05-19, +13.14% breakout on daily relative_volume=1.59 and hourly relative_volume=2.21) plus textbook trend (daily ADX_14=44.63, plus_di=30.77 vs minus_di=4.39, MACD bullish_crossover=true, ema_aligned_uptrend on both timeframes) outweigh the bears' extension argument (daily z_score_50=1.89, bollinger.pct_b=1.0918, RSI_7=76.3) because earnings.days_until_next=76 removes near-term blackout risk and analyst distribution (16 Buy / 7 Hold / 0 Sell) is supportive. Expected return = 0.5167*(278-256) - 0.4833*(256-248) = +$7.50/share. Gate 3 quantity = floor(250/8)=31 \u2192 notional $7,936 exceeds 15% cap ($3,750); scaled down from 31 to 19 shares to fit small-account cap, using 61% of risk budget (M=floor(5000/256)=19, risk_M=$152, notional=$4,864 \u2264 20% cap).",
+      "risk_usd": 152.0,
+      "expected_holding_days": 6,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-20T20:00:00+00:00"
+    }
+  },
+  "rejected": [
+    {
+      "ticker": "CPAY",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "CVX",
+      "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 2 expected_return_per_share = 0.5*(205.00-196.77) - 0.5*(196.77-193.50) = +$2.48 (POSITIVE, passes). Gate 3 quantity = floor($250 risk / $3.27 risk_per_share) = 76 shares. Gate 4: notional = 196.77 * 76 = $14,955 >> $3,750 (15% cap). Small-scaled path: M = floor($5,000 / $196.77) = 25 shares; risk_M = 25 * $3.27 = $81.75; risk_dollars_floor = 0.40 * $250 = $100. risk_M ($81.75) < floor ($100) \u2014 small-scaled path fails the 40%-of-risk-budget minimum. Even at extended 20% notional cap, a $196.77 stock with a tight $3.27 stop cannot use enough risk budget to be meaningful on a $25k account."
+    },
+    {
+      "ticker": "LAMR",
+      "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 3 quantity=floor(250/2.975)=84 at entry $150.375 \u2192 notional $12,631.50 exceeds 15% cap ($3,750). Small-scaled path: M=floor(5000/150.375)=33 shares \u2192 notional $4,962 fits 20% extended cap, but risk_M = 33 \u00d7 2.975 = $98.18 falls below 40%-of-risk-budget floor ($100). Single-share entry uses only ~39% of risk budget \u2014 fails small_scaled floor by $1.83. Direction consensus PASS, Gate 1 budget PASS, Gate 2 expected return PASS (+$1.575/share with combined_p_bull=0.5), but discrete-share constraint at $150 price point on a $25k account with $2.975 risk-per-share means no valid quantity satisfies both caps simultaneously."
+    },
+    {
+      "ticker": "ARM",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$164.85 > available=$98.00)"
+    },
+    {
+      "ticker": "RVMD",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$132.00 > available=$98.00)"
+    },
+    {
+      "ticker": "ALL",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$111.32 > available=$98.00)"
+    },
+    {
+      "ticker": "BILI",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$249.40 > available=$98.00)"
+    },
+    {
+      "ticker": "CAI",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$177.45 > available=$98.00)"
+    },
+    {
+      "ticker": "HSAI",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$248.97 > available=$98.00)"
+    }
+  ],
+  "summary": "approved=7, rejected=3, candidates=10"
+}

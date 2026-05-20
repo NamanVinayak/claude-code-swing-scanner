@@ -1,0 +1,384 @@
+{
+  "ticker": "ALL",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 225.5,
+  "invalidation_level": 221.5,
+  "catalyst_note": "TradingView trifecta (strong_buy + breakout_up + trending_up) on a flat overnight session \u2014 breakout thesis intact but unconfirmed by any premarket volume.",
+  "conviction": 5,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "Virginia Retirement Systems acquires 29,200 shares of The Allstate Corporation",
+      "source": "web_research",
+      "date": "2026-05-14",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-29200-shares-of-the-allstate-corporation-all-2026-05-14/",
+      "sentiment": "positive",
+      "summary": "Institutional 13F filing disclosed Virginia Retirement Systems added 29,200 shares of ALL. Incremental institutional accumulation."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 224.5800018310547,
+  "market_cap": 57362395136.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 213.27999877929688,
+      "high": 217.8800048828125,
+      "low": 212.39999389648438,
+      "close": 215.5399932861328,
+      "volume": 1586400
+    },
+    {
+      "time": "2026-05-14",
+      "open": 216.00999450683594,
+      "high": 217.3000030517578,
+      "low": 213.57000732421875,
+      "close": 216.4499969482422,
+      "volume": 1695100
+    },
+    {
+      "time": "2026-05-15",
+      "open": 218.22000122070312,
+      "high": 220.30999755859375,
+      "low": 216.33999633789062,
+      "close": 217.3699951171875,
+      "volume": 1483300
+    },
+    {
+      "time": "2026-05-18",
+      "open": 217.5500030517578,
+      "high": 222.69000244140625,
+      "low": 216.8800048828125,
+      "close": 221.2100067138672,
+      "volume": 1741400
+    },
+    {
+      "time": "2026-05-19",
+      "open": 222.0,
+      "high": 227.6199951171875,
+      "low": 220.38999938964844,
+      "close": 224.5800018310547,
+      "volume": 3937600
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 220.10494169254682,
+      "sma_5": 219.02999877929688,
+      "ema_10": 218.25901147617955,
+      "sma_10": 216.91599884033204,
+      "ema_20": 216.6175124664061,
+      "sma_20": 216.39599838256837,
+      "ema_21": 216.4824359811788,
+      "sma_21": 216.39333161853608,
+      "ema_50": 213.2765804967383,
+      "sma_50": 212.05879974365234,
+      "ema_200": 205.8662782075582,
+      "sma_200": 205.43878631591798,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 224.5800018310547,
+    "dist_from_50sma_pct": 5.9,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.03,
+      "above_sma_5": true,
+      "pct_from_sma_5": 2.53,
+      "above_ema_10": true,
+      "pct_from_ema_10": 2.9,
+      "above_sma_10": true,
+      "pct_from_sma_10": 3.53,
+      "above_ema_20": true,
+      "pct_from_ema_20": 3.68,
+      "above_sma_20": true,
+      "pct_from_sma_20": 3.78,
+      "above_ema_21": true,
+      "pct_from_ema_21": 3.74,
+      "above_sma_21": true,
+      "pct_from_sma_21": 3.78,
+      "above_ema_50": true,
+      "pct_from_ema_50": 5.3,
+      "above_sma_50": true,
+      "pct_from_sma_50": 5.9,
+      "above_ema_200": true,
+      "pct_from_ema_200": 9.09,
+      "above_sma_200": true,
+      "pct_from_sma_200": 9.32,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 22358.0
+    },
+    "rsi": {
+      "rsi_7": null,
+      "rsi_14": 72.66,
+      "rsi_21": 60.7
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.0102,
+      "signal_line": 1.511,
+      "histogram": 0.4993,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 222.48,
+      "middle": 216.4,
+      "lower": 210.31,
+      "width": 0.0562,
+      "pct_b": 1.1726
+    },
+    "atr": {
+      "atr_14": 5.43,
+      "atr_pct": 2.42
+    },
+    "adx": {
+      "adx_14": 21.28,
+      "plus_di": 25.92,
+      "minus_di": 18.13,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 3937600,
+      "avg_volume_20": 1680450,
+      "relative_volume": 2.34,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 212.15,
+          "tests": 25,
+          "volume_confirmed": false
+        },
+        {
+          "price": 215.13,
+          "tests": 27,
+          "volume_confirmed": false
+        },
+        {
+          "price": 219.48,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 222.23,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 203.03,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 209.51,
+          "tests": 28,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 209.51,
+      "recent_high": 227.62,
+      "recent_low": 209.51,
+      "prev_day_high": 222.69,
+      "prev_day_low": 216.88,
+      "prev_day_close": 221.21
+    },
+    "fibonacci": {
+      "swing_high": 227.62,
+      "swing_low": 208.3,
+      "fib_236": 223.06,
+      "fib_382": 220.24,
+      "fib_500": 217.96,
+      "fib_618": 215.68,
+      "fib_786": 212.43,
+      "fib_ext_1272": 232.88,
+      "fib_ext_1618": 239.56,
+      "fib_ext_2000": 246.94,
+      "fib_ext_low_1272": 203.04,
+      "fib_ext_low_1618": 196.36
+    },
+    "momentum": {
+      "roc_5d": 4.23,
+      "roc_10d": 2.78,
+      "roc_21d": 4.38
+    },
+    "z_score_50": 2.37,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 221.75943863683386,
+      "sma_24": 221.19072596232095,
+      "ema_48": 219.5848786947019,
+      "sma_48": 218.15535831451416,
+      "ema_120": 217.79471803328386,
+      "sma_120": 216.98451499938966,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 222.8350067138672,
+    "dist_from_50sma_pct": 2.7,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 0.49,
+      "above_sma_24": true,
+      "pct_from_sma_24": 0.74,
+      "above_ema_48": true,
+      "pct_from_ema_48": 1.48,
+      "above_sma_48": true,
+      "pct_from_sma_48": 2.15,
+      "above_ema_120": true,
+      "pct_from_ema_120": 2.31,
+      "above_sma_120": true,
+      "pct_from_sma_120": 2.7,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 22183.5
+    },
+    "rsi": {
+      "rsi_21": 59.48
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.3945,
+      "signal_line": 1.5549,
+      "histogram": 0.8395,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 226.24,
+      "middle": 218.16,
+      "lower": 210.07,
+      "width": 0.0741,
+      "pct_b": 0.7894
+    },
+    "atr": {
+      "atr_24": 1.84,
+      "atr_pct": 0.82
+    },
+    "adx": {
+      "adx_24": 30.52,
+      "plus_di": 35.11,
+      "minus_di": 17.49,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 126131,
+      "avg_volume_20": 394259,
+      "relative_volume": 0.32,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 216.0,
+          "tests": 26,
+          "volume_confirmed": false
+        },
+        {
+          "price": 220.3,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 227.62,
+          "tests": 5,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 212.4,
+          "tests": 18,
+          "volume_confirmed": false
+        },
+        {
+          "price": 220.39,
+          "tests": 10,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 227.62,
+      "nearest_support": 220.39,
+      "recent_high": 227.62,
+      "recent_low": 216.34,
+      "prev_day_high": 224.68,
+      "prev_day_low": 223.51,
+      "prev_day_close": 224.54
+    },
+    "fibonacci": {
+      "swing_high": 227.62,
+      "swing_low": 213.57,
+      "fib_236": 224.3,
+      "fib_382": 222.25,
+      "fib_500": 220.6,
+      "fib_618": 218.94,
+      "fib_786": 216.58,
+      "fib_ext_1272": 231.44,
+      "fib_ext_1618": 236.3,
+      "fib_ext_2000": 241.67,
+      "fib_ext_low_1272": 209.75,
+      "fib_ext_low_1618": 204.89
+    },
+    "momentum": {
+      "roc_5d": -1.53,
+      "roc_10d": 0.51,
+      "roc_21d": 1.66
+    },
+    "z_score_120": 1.77,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": null,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": null,
+    "recent_changes": "Piper Sandler and Citi raised price targets on ALL following Q1 2026 results (specific PT figures and exact dates not surfaced in search; treat as recent-but-undated)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 77,
+    "notes": "Q1 2026 (reported earlier this period) beat with adj EPS $10.65, revenue $16.9B, 82% combined ratio, $2.7B underwriting income. Co announced 8% dividend increase and $4B buyback. Already priced in; no near-term earnings catalyst before August. Stock hit all-time high $222.23 on 2026-05-05; +1.67% over the last week per search."
+  }
+}

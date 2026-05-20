@@ -1,0 +1,517 @@
+{
+  "ticker": "RVMD",
+  "direction": "long",
+  "candidates": [
+    {
+      "ticker": "ALAB",
+      "setup_type": "gap_and_go",
+      "watch_level": 254.5,
+      "invalidation_level": 248.0,
+      "catalyst_note": "Stage 1 trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up) confirmed by a +4.09% overnight gap; price needs to hold above the premarket level and continue through $254.50 for gap-and-go continuation.",
+      "conviction": 5,
+      "source_reasons": [],
+      "direction": "long"
+    },
+    {
+      "ticker": "ALL",
+      "setup_type": "breakout",
+      "watch_level": 225.5,
+      "invalidation_level": 221.5,
+      "catalyst_note": "TradingView trifecta (strong_buy + breakout_up + trending_up) on a flat overnight session \u2014 breakout thesis intact but unconfirmed by any premarket volume.",
+      "conviction": 5,
+      "source_reasons": [],
+      "direction": "long"
+    },
+    {
+      "ticker": "ARM",
+      "setup_type": "breakout",
+      "watch_level": 228.5,
+      "invalidation_level": 221.5,
+      "catalyst_note": "ARM gapped +2.02% overnight on TradingView strong_buy + trending_up signals, holding above yesterday's close ($223.03) in premarket at $227.54 with no near-term earnings risk (70 days out).",
+      "conviction": 4,
+      "source_reasons": [],
+      "direction": "long"
+    },
+    {
+      "ticker": "CPAY",
+      "setup_type": "breakout",
+      "watch_level": 347.0,
+      "invalidation_level": 341.0,
+      "catalyst_note": "TradingView strong_buy + trending_up signals on a trend-continuation setup; premarket gap of +0.96% holds above prior close without overextending.",
+      "conviction": 4,
+      "source_reasons": [],
+      "direction": "long"
+    },
+    {
+      "ticker": "LAMR",
+      "setup_type": "breakout",
+      "watch_level": 150.0,
+      "invalidation_level": 147.5,
+      "catalyst_note": "TradingView strong_buy + trending_up signals on a flat overnight hold suggest momentum intact, but no premarket volume or news catalyst to confirm directional conviction this morning.",
+      "conviction": 4,
+      "source_reasons": [],
+      "direction": "long"
+    },
+    {
+      "ticker": "RVMD",
+      "setup_type": "breakout",
+      "watch_level": 150.5,
+      "invalidation_level": 147.3,
+      "catalyst_note": "Trending up with TradingView strong_buy signal, holding a modest +1.76% overnight gap; needs to clear the $150 round-number level with volume to confirm continuation.",
+      "conviction": 4,
+      "source_reasons": [],
+      "direction": "long"
+    },
+    {
+      "ticker": "BILI",
+      "setup_type": "breakout",
+      "watch_level": 18.8,
+      "invalidation_level": 20.15,
+      "catalyst_note": "Stage4 momentum breakdown setup with a -4.9% premarket gap already in short direction; short thesis remains intact only if price holds below yesterday's $20.00 close and continues lower after open.",
+      "conviction": 3,
+      "source_reasons": [],
+      "direction": "short"
+    },
+    {
+      "ticker": "CAI",
+      "setup_type": "range_break",
+      "watch_level": 14.8,
+      "invalidation_level": 15.3,
+      "catalyst_note": "Sector laggard decline setup \u2014 short triggers on breakdown below $14.80 support; no premarket volume confirmation and single weak signal leaves setup thin.",
+      "conviction": 3,
+      "source_reasons": [],
+      "direction": "short"
+    },
+    {
+      "ticker": "CVX",
+      "setup_type": "pullback_to_support",
+      "watch_level": 197.28,
+      "invalidation_level": 193.5,
+      "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up on a trending large-cap energy name; premarket gap down to $195.06 has reduced risk-reward but not broken the trend structure.",
+      "conviction": 3,
+      "source_reasons": [],
+      "direction": "long"
+    },
+    {
+      "ticker": "HSAI",
+      "setup_type": "breakout",
+      "watch_level": 19.9,
+      "invalidation_level": 21.0,
+      "catalyst_note": "Minervini Stage 4 momentum breakdown structure (price below SMA200 below SMA50) flagged by scanner; premarket flat at $20.28 with no adverse gap \u2014 setup structurally intact but awaits a confirmed breakdown below $20 support.",
+      "conviction": 3,
+      "source_reasons": [],
+      "direction": "short"
+    }
+  ],
+  "perspectives": {
+    "b_bull_a": null,
+    "b_bull_b": null,
+    "b_bear_a": null,
+    "b_bear_b": null
+  },
+  "risk_budget": {
+    "account_value": 25000.0,
+    "cash": 25000.0,
+    "deployed": 0.0,
+    "deployed_pct": 0.0,
+    "positions_open": 0,
+    "open_risk_usd": 0.0,
+    "open_risk_pct": 0.0,
+    "available_risk_usd": 250.0,
+    "available_risk_pct": 1.0,
+    "can_open_new_position": true,
+    "can_open_reasons_blocked": [],
+    "rules": {
+      "risk_per_trade_pct": 1.0,
+      "total_open_risk_cap_pct": 4.0,
+      "max_simultaneous_positions": 5,
+      "max_deployed_pct": 60.0,
+      "single_position_cap_pct": 15.0,
+      "daily_loss_stop_pct": -2.0,
+      "weekly_loss_stop_pct": -5.0,
+      "scaling_phase_size_multiplier": 1.0,
+      "vix_cut_threshold": 25.0,
+      "vix_pause_threshold": 30.0
+    },
+    "state": {
+      "starting_capital_usd": 25000.0,
+      "current_cash_usd": 25000.0,
+      "deployed_usd": 0.0,
+      "open_risk_usd": 0.0,
+      "open_risk_pct": 0.0,
+      "positions_open_count": 0,
+      "daily_pnl_usd": 0.0,
+      "weekly_pnl_usd": 0.0,
+      "current_phase": "full",
+      "paused_reason": null
+    }
+  },
+  "market_context": "",
+  "wiki_context": {
+    "slices": {
+      "thesis_tldr": {
+        "missing": true,
+        "mode": "tldr"
+      },
+      "trades_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "lessons_full": {
+        "path": "wiki/meta/lessons.md",
+        "mode": "full",
+        "content": "## Format\n\nEach lesson is one dated bullet:\n\n`[DATE] | [TICKER] | [SETUP TYPE] | [OUTCOME: +$X / -$X] | [WHY it worked or failed in 1 sentence]`\n\nThe \"why\" should reference: the thesis at the time, the macro regime, which scanner setup triggered it.\n\n---\n\n## Patterns (auto-generated by Sunday compactor, last 30 days)\n\n| Setup Type | Trades | Wins | Win Rate | Avg P&L | Total P&L |\n|---|---|---|---|---|---|\n| _no data yet_ | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 |\n\n## Lessons\n\n- 2026-05-07 | TLN | breakout | $0 (expired) | Order placed at 10:10 ET after bears' hourly cooling signal (roc_5d=-3.5%, pct_b=1.0672) was confirmed \u2014 TLN had already crashed below the $409.44 entry band and never returned; same late-order structural issue as CMI, now addressed by Gate 7 entry_valid_until. <!-- trade_id=9 -->\n- 2026-05-18 | ROK | breakout | -$136.73 | Stop hit at $434.50 after 12 days (expected 8) \u2014 overbought extension flagged by bear_a at entry (RSI_7=76.57, pct_b=1.2876, z_score_50=2.19) proved correct; post-earnings gap momentum faded without reaching target $469 as mean-reversion risk that the conservative stop was designed to catch materialized. <!-- trade_id=7 -->\n",
+        "last_updated": "2026-05-18",
+        "stale": false
+      },
+      "setup_patterns_full": {
+        "path": "wiki/meta/setup_patterns.md",
+        "mode": "full",
+        "content": "# Setup Patterns\n\n## TL;DR\n\n_Bootstrap placeholder. Populated by Stage 4 (Journal) compactor on Sundays._\n\n## Last 30 days\n\n| setup_type | trades | wins | win_rate | avg_pnl | total_pnl |\n|---|---|---|---|---|---|\n| _no data_ | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 |\n\n## Last 90 days\n\n| setup_type | trades | wins | win_rate | avg_pnl | total_pnl |\n|---|---|---|---|---|---|\n| _no data_ | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 |\n\n## Notes\n\nInsufficient data \u2014 fewer than 5 closed trades with realized P&L. All 3 resolved setups (FSLY stop_hit -$231, CMI expired $0, TLN expired $0) were breakout_up type; the 2 expireds were structural failures (order placed 30+ min after open, price already through the zone) rather than thesis failures. Gate 7 entry_valid_until addresses the structural issue. FSLY short stop_hit is the only real directional outcome: mean-reversion concern from bear_b (pct_b=0.0065, hourly rsi_21=23.66) was confirmed when price reversed to the stop within minutes of fill. ROK breakout_up (trade_id=7) is the only live position \u2014 entered $446.93 on 2026-05-06, approaching its 8-day expected holding window; no closed P&L yet.\n\n## Last updated\n\n2026-05-14\n",
+        "last_updated": "2026-05-11",
+        "stale": false
+      },
+      "budget_state_full": {
+        "path": "wiki/meta/budget_state.md",
+        "mode": "full",
+        "content": "[STALE \u2014 last updated 2026-05-05, threshold 2 days exceeded. Verify via web search before relying on these claims.]\n\n# Budget State\n\n## TL;DR\n\nStarting capital $25,000. No trades executed yet. System operating under FULL framework (scaling phase skipped \u2014 paper-trading does not need dollar-loss protection). All capital rules active.\n\n## Rules (locked)\n\n- Risk per trade max:       1.0% of account\n- Total open risk cap:      4.0% of account\n- Max simultaneous positions: 5\n- Max % deployed:           60% (40% cash floor)\n- Single-position cap:      15% of account\n- Daily loss stop:          -2% account \u2192 pause for the day\n- Weekly loss stop:         -5% account \u2192 system review\n- Scaling: SKIPPED for paper trading. Full size from day one. (Re-enable if/when transitioning to real money \u2014 toggle `Phase` below to `scaling_week_1_2`.)\n- Volatility: VIX > 25 \u2192 cut size 50%; VIX > 30 \u2192 no new entries\n\n### Position size classes\n\nGate 4 (single-position cap) has two outcome classes:\n\n- **`standard`** \u2014 notional \u2264 15% of account at the Gate-3 quantity. Full risk-budget utilization. The default path; applies to most candidates.\n- **`small_scaled`** \u2014 Gate-3 quantity would push notional past 15%, BUT a smaller quantity `M` exists where:\n  - `M \u00d7 entry_price \u2264 20% of account` (extended cap), AND\n  - `M \u00d7 risk_per_share \u2265 40% of risk_budget` (still uses meaningful risk)\n\n  Judge downsizes `quantity` to `M`, sets `position_size_class = \"small_scaled\"`, and notes the scale-down in the rationale. Risk per trade is unchanged (\u2264 0.5% \u00d7 scaling multiplier of account); only notional concentration is bumped from 15% \u2192 up to 20%.\n\n  Why this exists: high-priced names (e.g. $400+ stocks) on a $25k account run into discrete-share constraints \u2014 the minimum-viable share count at full risk budget exceeds the 15% notional cap before the position is otherwise meaningful. The 20% cap with a 40%-of-risk-budget floor unlocks these names without softening per-trade risk discipline.\n\nIf neither path fits (notional > 20% even at minimum-viable quantity), reject with `single_position_cap_exceeded`.\n\nThe 60%-deployment cap and 4%-total-open-risk cap still apply to all classes, so portfolio-level concentration remains bounded.\n\n## Current account state\n\n| field | value |\n|---|---|\n| Starting capital | $25,000 |\n| Cash on hand | $25,000 |\n| Deployed | $0 |\n| Open risk | $0 (0.0% of account) |\n| Positions open | 0 |\n\n## Today's status\n\n- Paused: no\n- Daily P&L: $0\n- Weekly P&L: $0\n\n## Scaling phase\n\n- Phase: full\n- Size multiplier: 1.0\n\n## Volatility regime\n\n- VIX bucket: _pending (check at run time)_\n- Size adjustment: none (default)\n\n## Last updated\n\n_pending_\n",
+        "last_updated": "2026-05-05",
+        "stale": true
+      },
+      "open_positions_full": {
+        "path": "wiki/meta/open_positions.md",
+        "mode": "full",
+        "content": "[STALE \u2014 last updated 2026-05-03, threshold 2 days exceeded. Verify via web search before relying on these claims.]\n\n# Open Positions \u2014 Snapshot\n\nSnapshot taken: _pending_. Refreshed nightly by Stage 4 (b_journal).\n\n## Summary\n\n- Open positions: 0\n- Pending orders: 0\n- Net long count: 0\n- Net short count: 0\n- Tickers held: _none_\n\n## Open positions\n\n_none_\n\n## Pending orders\n\n_none_\n\n## Field definitions\n\n- **Dir**: `long` or `short`.\n- **Entry**: actual fill price for open positions; limit price for pending orders.\n- **Current**: most recent traded price at snapshot time.\n- **Days**: trading days between entry and snapshot (open positions only).\n- **Unreal $/%**: unrealized P&L from entry to current price.\n- **Run**: the run_id that originated this position.\n",
+        "last_updated": "2026-05-03",
+        "stale": true
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 147.3000030517578,
+  "market_cap": 32031907840.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 146.88999938964844,
+      "high": 150.3000030517578,
+      "low": 145.25799560546875,
+      "close": 149.94000244140625,
+      "volume": 1844100
+    },
+    {
+      "time": "2026-05-14",
+      "open": 150.0,
+      "high": 150.7899932861328,
+      "low": 146.5,
+      "close": 149.47000122070312,
+      "volume": 1804600
+    },
+    {
+      "time": "2026-05-15",
+      "open": 147.83999633789062,
+      "high": 148.85499572753906,
+      "low": 141.25,
+      "close": 145.66000366210938,
+      "volume": 2475700
+    },
+    {
+      "time": "2026-05-18",
+      "open": 145.02999877929688,
+      "high": 146.91000366210938,
+      "low": 141.0,
+      "close": 144.3699951171875,
+      "volume": 2344800
+    },
+    {
+      "time": "2026-05-19",
+      "open": 144.52999877929688,
+      "high": 147.92999267578125,
+      "low": 141.7899932861328,
+      "close": 147.3000030517578,
+      "volume": 1995700
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 146.44604859382827,
+      "sma_5": 147.3480010986328,
+      "ema_10": 145.76127653576927,
+      "sma_10": 146.2,
+      "ema_20": 141.9902067331414,
+      "sma_20": 143.45199966430664,
+      "ema_21": 141.5056381785611,
+      "sma_21": 143.71142796107702,
+      "ema_50": 128.31037630747085,
+      "sma_50": 122.37079956054687,
+      "ema_200": 92.05790517626613,
+      "sma_200": 82.86029985427857,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 147.3000030517578,
+    "dist_from_50sma_pct": 20.37,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 0.58,
+      "above_sma_5": false,
+      "pct_from_sma_5": -0.03,
+      "above_ema_10": true,
+      "pct_from_ema_10": 1.06,
+      "above_sma_10": true,
+      "pct_from_sma_10": 0.75,
+      "above_ema_20": true,
+      "pct_from_ema_20": 3.74,
+      "above_sma_20": true,
+      "pct_from_sma_20": 2.68,
+      "above_ema_21": true,
+      "pct_from_ema_21": 4.09,
+      "above_sma_21": true,
+      "pct_from_sma_21": 2.5,
+      "above_ema_50": true,
+      "pct_from_ema_50": 14.8,
+      "above_sma_50": true,
+      "pct_from_sma_50": 20.37,
+      "above_ema_200": true,
+      "pct_from_ema_200": 60.01,
+      "above_sma_200": true,
+      "pct_from_sma_200": 77.77,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 14630.0
+    },
+    "rsi": {
+      "rsi_7": 66.51,
+      "rsi_14": 57.17,
+      "rsi_21": 50.62
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 6.2269,
+      "signal_line": 7.5629,
+      "histogram": -1.336,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 153.88,
+      "middle": 143.45,
+      "lower": 133.03,
+      "width": 0.1453,
+      "pct_b": 0.6846
+    },
+    "atr": {
+      "atr_14": 6.25,
+      "atr_pct": 4.24
+    },
+    "adx": {
+      "adx_14": 21.55,
+      "plus_di": 17.58,
+      "minus_di": 12.9,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 1995700,
+      "avg_volume_20": 2877815,
+      "relative_volume": 0.69,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 101.0,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 150.0,
+          "tests": 13,
+          "volume_confirmed": true
+        },
+        {
+          "price": 155.7,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 91.52,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 94.67,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 131.02,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 150.0,
+      "nearest_support": 131.02,
+      "recent_high": 151.43,
+      "recent_low": 131.02,
+      "prev_day_high": 146.91,
+      "prev_day_low": 141.0,
+      "prev_day_close": 144.37
+    },
+    "fibonacci": {
+      "swing_high": 155.7,
+      "swing_low": 94.63,
+      "fib_236": 141.29,
+      "fib_382": 132.37,
+      "fib_500": 125.16,
+      "fib_618": 117.96,
+      "fib_786": 107.7,
+      "fib_ext_1272": 172.31,
+      "fib_ext_1618": 193.44,
+      "fib_ext_2000": 216.77,
+      "fib_ext_low_1272": 78.02,
+      "fib_ext_low_1618": 56.89
+    },
+    "momentum": {
+      "roc_5d": 1.08,
+      "roc_10d": 0.06,
+      "roc_21d": 0.73
+    },
+    "z_score_50": 1.02,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 145.64371888421618,
+      "sma_24": 144.97958374023438,
+      "ema_48": 145.34448809231367,
+      "sma_48": 145.39827982584634,
+      "ema_120": 145.04618489188584,
+      "sma_120": 143.96831029256185,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 150.42999267578125,
+    "dist_from_50sma_pct": 4.49,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 3.29,
+      "above_sma_24": true,
+      "pct_from_sma_24": 3.76,
+      "above_ema_48": true,
+      "pct_from_ema_48": 3.5,
+      "above_sma_48": true,
+      "pct_from_sma_48": 3.46,
+      "above_ema_120": true,
+      "pct_from_ema_120": 3.71,
+      "above_sma_120": true,
+      "pct_from_sma_120": 4.49,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 14943.0
+    },
+    "rsi": {
+      "rsi_21": 59.25
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 0.341,
+      "signal_line": 0.0995,
+      "histogram": 0.2415,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 150.76,
+      "middle": 145.4,
+      "lower": 140.03,
+      "width": 0.0738,
+      "pct_b": 0.9689
+    },
+    "atr": {
+      "atr_24": 2.25,
+      "atr_pct": 1.5
+    },
+    "adx": {
+      "adx_24": 16.89,
+      "plus_di": 32.18,
+      "minus_di": 25.1,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 372545,
+      "avg_volume_20": 259712,
+      "relative_volume": 1.43,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 145.52,
+          "tests": 18,
+          "volume_confirmed": false
+        },
+        {
+          "price": 150.47,
+          "tests": 7,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 141.25,
+          "tests": 20,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 150.47,
+      "nearest_support": 141.25,
+      "recent_high": 153.55,
+      "recent_low": 141.0,
+      "prev_day_high": 147.57,
+      "prev_day_low": 146.31,
+      "prev_day_close": 147.47
+    },
+    "fibonacci": {
+      "swing_high": 153.55,
+      "swing_low": 141.0,
+      "fib_236": 150.59,
+      "fib_382": 148.76,
+      "fib_500": 147.28,
+      "fib_618": 145.79,
+      "fib_786": 143.69,
+      "fib_ext_1272": 156.96,
+      "fib_ext_1618": 161.31,
+      "fib_ext_2000": 166.1,
+      "fib_ext_low_1272": 137.59,
+      "fib_ext_low_1618": 133.24
+    },
+    "momentum": {
+      "roc_5d": 3.52,
+      "roc_10d": 6.03,
+      "roc_21d": 2.82
+    },
+    "z_score_120": 1.6,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 77,
+    "days_since_last": null
+  }
+}

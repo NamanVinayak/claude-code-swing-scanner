@@ -1,0 +1,21 @@
+{
+  "ticker": "CAI",
+  "setup_direction": "short",
+  "bull_strength": 5,
+  "entry_zone": {"low": 14.75, "high": 14.80},
+  "target": 13.55,
+  "stop": 15.32,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Confirmed Stage 4 downtrend: daily moving_averages.ema_aligned_downtrend = true with price -19.07% below sma_50 and -41.98% below sma_200; price_vs_ma shows below_ema_10/20/50/200 all true, no overhead supply needed to roll over.",
+    "Trend strength supports continuation: daily adx_14 = 30.55 (strong) with minus_di 29.2 > plus_di 16.53; macd histogram = -0.3742 (negative and widening below signal -0.8357), and momentum.roc_21d = -29.57% / roc_10d = -21.06% confirms persistent sellers.",
+    "Breakdown trigger sits at a clean structural fail: watch_level 14.80 is just below prev_day_low 14.74 and recent_low 14.19; daily bollinger.pct_b = 0.1677 (lower-band pressure), z_score_50 = -2.11, and fib_ext_low_1272 = 12.02 gives a measured-move objective below entry — risk $0.52 to stop 15.32, reward ~$1.20+ to 13.55 (R:R ≈ 2.4:1)."
+  ],
+  "risks_acknowledged": [
+    "daily rsi_14 = 38.16 and rsi_21 = 30.57 are near oversold — short entries here risk a counter-trend bounce off the BB lower band (pct_b 0.17) before resumption.",
+    "Hourly tape is mixed against the daily: hourly macd histogram = +0.1582, hourly obv trend = up, and hourly plus_di 29.32 > minus_di 11.55 — short-term squeeze risk into the watch level.",
+    "Stage 2 conviction = 3 with no premarket volume confirmation and single weak signal; news_source = none and analyst_consensus_web shows Buy rating with avg PT $34.71 — fundamentals lean against the short if a positive catalyst hits.",
+    "Today's relative_volume = 0.82 (below average) — breakdown needs RelVol expansion at 14.80 trigger, otherwise high false-break probability."
+  ],
+  "web_sources_last_7d": []
+}

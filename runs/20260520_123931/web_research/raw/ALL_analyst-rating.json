@@ -1,0 +1,16 @@
+{
+  "query": "ALL stock 2026-05-20 analyst rating",
+  "fetched_at": "2026-05-20T19:40:30Z",
+  "results": [
+    {"title": "Today's Analyst Stock Ratings | Upgrades, Downgrades", "url": "https://www.benzinga.com/analyst-stock-ratings"},
+    {"title": "Top Wall Street analysts suggest these 3 stocks for their long-term prospects", "url": "https://www.cnbc.com/2026/05/17/top-analysts-suggest-these-3-stocks-for-their-long-term-prospects.html"},
+    {"title": "The Best-Performing Stocks in 2026 (By One-Year Returns) - NerdWallet", "url": "https://www.nerdwallet.com/investing/learn/best-performing-stocks"},
+    {"title": "Best Stocks to Buy Now: Our Picks for May 2026 | The Motley Fool", "url": "https://www.fool.com/investing/top-stocks-to-buy-and-hold/"},
+    {"title": "NVIDIA (NVDA) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/nvda/forecast-price-target"},
+    {"title": "Stock Analyst Ratings: Upgrades and Downgrades - Investing.com", "url": "https://www.investing.com/news/analyst-ratings/23"},
+    {"title": "10 of the Best Stocks to Buy for 2026 | Investing | U.S. News", "url": "https://money.usnews.com/investing/articles/best-stocks-to-buy-this-year"},
+    {"title": "5 Stocks Wall Street Repriced Higher Heading Into 2026 | Investing.com", "url": "https://www.investing.com/analysis/5-stocks-wall-street-repriced-higher-heading-into-2026-200672763"},
+    {"title": "Top Wall Street analysts suggest these 3 stocks for their growth prospects", "url": "https://www.cnbc.com/2026/01/04/top-wall-street-analysts-suggest-these-3-stocks-for-their-growth-prospects.html"}
+  ],
+  "note": "Search returned generic analyst rating resources. No ticker-specific results for ALL (Allstate Corporation)."
+}

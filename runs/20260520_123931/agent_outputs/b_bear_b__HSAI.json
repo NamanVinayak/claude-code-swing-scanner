@@ -1,0 +1,24 @@
+{
+  "ticker": "HSAI",
+  "setup_direction": "short",
+  "bear_strength": 8,
+  "thesis_crack_level": "severe",
+  "top_3_arguments": [
+    "Fundamental thesis just inverted on 2026-05-19: Q1 2026 revenue +29.6% YoY (RMB680.6M), GAAP net income RMB18.3M turnaround from a RMB17.5M loss YoY, 471,723 lidar units shipped (+140.9% YoY), AND Q2 guide RMB850-900M (+20-27% YoY) ABOVE consensus. Shorting a name that just printed a profit turnaround with above-consensus guide is structurally backwards — these are the conditions that produce short squeezes, not breakdowns.",
+    "Catalyst stack is supportive, not deteriorating: Mercedes-Benz strategic lidar partnership for L3 autonomy confirmed, ETX lidar + Picasso 6D SPAD-SoC + Kosmo spatial-intelligence product reveals shift mix toward higher-margin software/data, 6M+ unit backlog, and planned Hong Kong secondary listing (per Webull/SimplyWallSt/Quiverquant 2026-05-19). Stock was +13.1% on the session post-print. Analyst consensus (analyst_consensus_web) is Strong Buy with avg PT $32.09 vs current_price $20.02 — a 60% upside gap that creates persistent buy-the-dip demand and limits sustainable downside.",
+    "Setup mechanics for the short are weak: earnings.days_until_next = 85 means no near-term negative catalyst, recent_insider_trades is empty (no insider selling to corroborate distribution), daily ADX = 14.97 ('weak' trend) means the alleged Stage 4 breakdown lacks trend conviction, and pct_b = -0.0668 says price is already at/below the lower Bollinger band — late entry into an oversold short right after a fundamentally bullish print. Daily relative_volume 2.59 on 2026-05-19's -9% sell-off looks more like exhaustion/capitulation into the news than fresh institutional distribution."
+  ],
+  "bull_acknowledgements": [
+    "Tape is genuinely broken: price closed $20.02, below SMA50 ($22.20) and SMA200 ($23.81) with ema_aligned_downtrend = true; daily MACD histogram -0.0878 and minus_di 29.19 > plus_di 21.17 confirm sellers in control short-term.",
+    "Momentum is decisively negative: roc_5d -6.38%, roc_10d -6.34%, roc_21d -8.56%, z_score_50 -1.22, and OBV trend down — so a continuation flush below $19.51 swing low toward fib_ext_low_1272 $18.03 is technically possible even with bullish fundamentals.",
+    "Hourly ADX = 34.38 'strong' with minus_di 45.65 >> plus_di 11.29 means the very near-term downtrend has real force, so the short can grind a bit lower before the fundamental gravity reasserts."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/news/HSAI/hesai-group-reports-first-quarter-2026-unaudited-financial-wgvrptc5slt8.html",
+    "https://www.chartmill.com/news/HSAI/Chartmill-48721-Hesai-Group-NASDAQHSAI-Q1-2026-Earnings-Beat-Profit-Estimates-on-Robust-Lidar-Growth",
+    "https://www.fool.com/earnings/call-transcripts/2026/05/19/hesai-hsai-q1-2026-earnings-call-transcript/",
+    "https://www.quiverquant.com/news/HESAI+GROUP+%28%24HSAI%29+Releases+Q1+2026+Earnings",
+    "https://simplywall.st/stocks/us/automobiles/nasdaq-hsai/hesai-group/news/why-hesai-group-hsai-is-up-after-profit-rebound-and-hong-kon",
+    "https://www.webull.com/news/13344204497183744"
+  ]
+}

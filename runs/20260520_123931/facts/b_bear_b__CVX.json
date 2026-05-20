@@ -1,0 +1,393 @@
+{
+  "ticker": "CVX",
+  "direction": "long",
+  "setup_type": "pullback_to_support",
+  "watch_level": 197.28,
+  "invalidation_level": 193.5,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up on a trending large-cap energy name; premarket gap down to $195.06 has reduced risk-reward but not broken the trend structure.",
+  "conviction": 3,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "Chevron declares $1.78 quarterly dividend, ex-date May 19, 2026",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://finance.yahoo.com/quote/CVX/press-releases/",
+      "sentiment": "positive",
+      "summary": "CVX declared a $1.78 quarterly cash dividend with ex-date May 19, 2026, reinforcing shareholder return commitment alongside ongoing buybacks."
+    },
+    {
+      "title": "CVX shares tick up; upside capped by resistance at $198 (weekly report)",
+      "source": "web_research",
+      "date": "2026-05-16",
+      "url": "https://tradersunion.com/news/financial-news/show/1996369-chevron-gains-0-73percent-this-week/",
+      "sentiment": "neutral",
+      "summary": "Chevron closed the week at $191.96, +$1.37 (+0.73%) over seven trading days. Weekly indicators on Buy/Strong Buy signals; main scenario is consolidation near current highs with potential breakout above $198."
+    },
+    {
+      "title": "Berkshire Hathaway trims Chevron stake; analysts still see strong growth",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CVX/",
+      "sentiment": "neutral",
+      "summary": "Berkshire Hathaway reduced its CVX position in latest 13F. Analysts maintain Buy/Strong Buy consensus, citing rising oil prices and recent asset divestments."
+    },
+    {
+      "title": "Chevron expands Venezuela heavy-oil footprint via asset swaps; RBC raises PT",
+      "source": "web_research",
+      "date": "2026-05-14",
+      "url": "https://www.benzinga.com/quote/CVX/analyst-ratings",
+      "sentiment": "positive",
+      "summary": "Chevron expanded its Venezuelan presence through recent asset swaps, enhancing its heavy-oil footprint. RBC Capital raised its price target on the strategic moves and rising crude prices."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 197.25,
+  "market_cap": 392265105408.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 184.12358115658526,
+      "high": 184.32176292728963,
+      "low": 182.29038087719482,
+      "close": 184.31185913085938,
+      "volume": 7554700
+    },
+    {
+      "time": "2026-05-14",
+      "open": 184.5001321696436,
+      "high": 185.86761205543277,
+      "low": 183.5686612399205,
+      "close": 184.946044921875,
+      "volume": 6222400
+    },
+    {
+      "time": "2026-05-15",
+      "open": 186.88826023031334,
+      "high": 189.76193359432702,
+      "low": 186.194601379421,
+      "close": 189.36557006835938,
+      "volume": 11210800
+    },
+    {
+      "time": "2026-05-18",
+      "open": 189.43492590782486,
+      "high": 194.41927206673662,
+      "low": 187.31434930216636,
+      "close": 194.33999633789062,
+      "volume": 9869700
+    },
+    {
+      "time": "2026-05-19",
+      "open": 194.92999267578125,
+      "high": 198.8699951171875,
+      "low": 193.47000122070312,
+      "close": 197.25,
+      "volume": 11811800
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 191.58318286840768,
+      "sma_5": 190.04269409179688,
+      "ema_10": 189.00364927483992,
+      "sma_10": 186.1833755493164,
+      "ema_20": 188.09058923939645,
+      "sma_20": 186.89998092651368,
+      "ema_21": 188.09382858895867,
+      "sma_21": 186.77579316638764,
+      "ema_50": 187.16579595802295,
+      "sma_50": 191.60617614746093,
+      "ema_200": 169.04837843167059,
+      "sma_200": 165.4067855834961,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 197.25,
+    "dist_from_50sma_pct": 2.95,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.96,
+      "above_sma_5": true,
+      "pct_from_sma_5": 3.79,
+      "above_ema_10": true,
+      "pct_from_ema_10": 4.36,
+      "above_sma_10": true,
+      "pct_from_sma_10": 5.94,
+      "above_ema_20": true,
+      "pct_from_ema_20": 4.87,
+      "above_sma_20": true,
+      "pct_from_sma_20": 5.54,
+      "above_ema_21": true,
+      "pct_from_ema_21": 4.87,
+      "above_sma_21": true,
+      "pct_from_sma_21": 5.61,
+      "above_ema_50": true,
+      "pct_from_ema_50": 5.39,
+      "above_sma_50": true,
+      "pct_from_sma_50": 2.95,
+      "above_ema_200": true,
+      "pct_from_ema_200": 16.68,
+      "above_sma_200": true,
+      "pct_from_sma_200": 19.25,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 19625.0
+    },
+    "rsi": {
+      "rsi_7": null,
+      "rsi_14": 59.98,
+      "rsi_21": 66.18
+    },
+    "rsi_divergence": {
+      "bullish": true,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 0.4262,
+      "signal_line": -0.9807,
+      "histogram": 1.407,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 196.04,
+      "middle": 186.9,
+      "lower": 177.76,
+      "width": 0.0978,
+      "pct_b": 1.0662
+    },
+    "atr": {
+      "atr_14": 4.51,
+      "atr_pct": 2.29
+    },
+    "adx": {
+      "adx_14": 10.88,
+      "plus_di": 31.94,
+      "minus_di": 21.03,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 11811800,
+      "avg_volume_20": 9767455,
+      "relative_volume": 1.21,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 192.37,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 212.76,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 177.9,
+          "tests": 2,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 212.76,
+      "nearest_support": 177.9,
+      "recent_high": 198.87,
+      "recent_low": 177.9,
+      "prev_day_high": 194.42,
+      "prev_day_low": 187.31,
+      "prev_day_close": 194.34
+    },
+    "fibonacci": {
+      "swing_high": 198.87,
+      "swing_low": 176.13,
+      "fib_236": 193.5,
+      "fib_382": 190.18,
+      "fib_500": 187.5,
+      "fib_618": 184.81,
+      "fib_786": 180.99,
+      "fib_ext_1272": 205.06,
+      "fib_ext_1618": 212.93,
+      "fib_ext_2000": 221.61,
+      "fib_ext_low_1272": 169.94,
+      "fib_ext_low_1618": 162.07
+    },
+    "momentum": {
+      "roc_5d": 7.05,
+      "roc_10d": 3.33,
+      "roc_21d": 8.63
+    },
+    "z_score_50": 0.71,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 193.6151451294953,
+      "sma_24": 193.15721575419107,
+      "ema_48": 191.0044198797594,
+      "sma_48": 189.34665075937906,
+      "ema_120": 188.7401613150078,
+      "sma_120": 188.6085142771403,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 196.9600067138672,
+    "dist_from_50sma_pct": 4.43,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 1.73,
+      "above_sma_24": true,
+      "pct_from_sma_24": 1.97,
+      "above_ema_48": true,
+      "pct_from_ema_48": 3.12,
+      "above_sma_48": true,
+      "pct_from_sma_48": 4.02,
+      "above_ema_120": true,
+      "pct_from_ema_120": 4.36,
+      "above_sma_120": true,
+      "pct_from_sma_120": 4.43,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 19596.0
+    },
+    "rsi": {
+      "rsi_21": 78.27
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.8714,
+      "signal_line": 1.8963,
+      "histogram": 0.9751,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 198.63,
+      "middle": 189.35,
+      "lower": 180.06,
+      "width": 0.0981,
+      "pct_b": 0.91
+    },
+    "atr": {
+      "atr_24": 1.4,
+      "atr_pct": 0.71
+    },
+    "adx": {
+      "adx_24": 46.02,
+      "plus_di": 38.54,
+      "minus_di": 13.47,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 834347,
+      "avg_volume_20": 1156880,
+      "relative_volume": 0.72,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 185.2,
+          "tests": 25,
+          "volume_confirmed": true
+        },
+        {
+          "price": 187.57,
+          "tests": 8,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 180.74,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 183.96,
+          "tests": 17,
+          "volume_confirmed": false
+        },
+        {
+          "price": 193.47,
+          "tests": 6,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 193.47,
+      "recent_high": 198.87,
+      "recent_low": 188.75,
+      "prev_day_high": 198.87,
+      "prev_day_low": 197.02,
+      "prev_day_close": 197.32
+    },
+    "fibonacci": {
+      "swing_high": 198.87,
+      "swing_low": 185.25,
+      "fib_236": 195.66,
+      "fib_382": 193.67,
+      "fib_500": 192.06,
+      "fib_618": 190.45,
+      "fib_786": 188.16,
+      "fib_ext_1272": 202.57,
+      "fib_ext_1618": 207.29,
+      "fib_ext_2000": 212.49,
+      "fib_ext_low_1272": 181.55,
+      "fib_ext_low_1618": 176.83
+    },
+    "momentum": {
+      "roc_5d": 0.53,
+      "roc_10d": 0.76,
+      "roc_21d": 4.32
+    },
+    "z_score_120": 1.86,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 72,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 214.7,
+    "recent_changes": "RBC Capital set PT to $220 on 2026-05-05 (~21.73% upside). Wells Fargo maintained Buy. Latest consensus (May 18, 2026): 23 analysts \u2014 18 Buy, 6 Hold, 1 Sell; high PT $236, low $170."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-31",
+    "days_until_next": 72,
+    "notes": "Q1 2026 (reported 2026-05-01): EPS $1.41 vs $0.96 expected (+46.87% beat) despite lowest quarterly profit in five years; record oil output. Next earnings projected EPS $4.56. Near-term tailwind: Middle East conflict-driven crude price surge estimated to add ~$1.7B in Q1 earnings; $2.5B in Q1 2026 buybacks plus continued dividend."
+  }
+}

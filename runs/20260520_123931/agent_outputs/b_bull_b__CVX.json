@@ -1,0 +1,26 @@
+{
+  "ticker": "CVX",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 197.28, "high": 199.00},
+  "target": 207.00,
+  "stop": 193.50,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Catalyst stack from recent_news_7d: RBC raised PT on 2026-05-14 citing Venezuela heavy-oil asset swaps and rising crude (analyst_consensus_web avg PT $214.7, high $236, 18 Buy / 6 Hold / 1 Sell per 2026-05-18 update); $1.78 quarterly dividend declared 2026-05-19 reinforces shareholder-return narrative.",
+    "Earnings_context_web: Q1 2026 EPS $1.41 vs $0.96 (+46.87% beat) reported 2026-05-01 plus $2.5B Q1 buyback and ~$1.7B Middle East crude tailwind — post-earnings drift still in force with next print 72 days out (earnings.days_until_next=72, no near-term risk).",
+    "Technical confirmation of breakout: daily ema_aligned_uptrend=true with price 5.39% above ema_50 and 16.68% above ema_200; rsi_14=59.98 (not yet overbought), MACD histogram +1.407, bullish rsi_divergence=true on 60-bar lookback; 5-day ROC +7.05% on relative_volume 1.21 — breakout above the 10-test $192.37 pivot resistance with watch_level $197.28 confirms. Math: entry mid $198.14 → stop $193.50 = $4.64 risk; target $207 = $8.86 reward → 1.9:1 R:R, tight but justified by the multi-catalyst stack."
+  ],
+  "risks_acknowledged": [
+    "Hourly rsi_21=78.27 and hourly pct_b=0.91 with hourly OBV trend 'down' diverging from price — short-term overbought into resistance; pullback to $193-195 (fib_236 daily $193.5) is realistic before continuation.",
+    "Berkshire Hathaway trimmed CVX stake (2026-05-15 news) — smart-money distribution into strength is a real overhang on narrative momentum.",
+    "recent_insider_trades is empty (no fresh insider buy confirmation), and weekly report flags $198 as capped resistance — breakout may stall and require multiple attempts.",
+    "R:R is 1.9:1, slightly below the 2:1 guideline; if entry fills near the top of the zone ($199) vs $193.50 stop, R:R compresses further."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/quote/CVX/press-releases/",
+    "https://tradersunion.com/news/financial-news/show/1996369-chevron-gains-0-73percent-this-week/",
+    "https://www.marketbeat.com/stocks/NYSE/CVX/",
+    "https://www.benzinga.com/quote/CVX/analyst-ratings"
+  ]
+}

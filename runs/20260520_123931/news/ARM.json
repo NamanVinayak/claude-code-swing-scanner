@@ -1,0 +1,63 @@
+{
+  "ticker": "ARM",
+  "researched_at": "2026-05-20T19:40:00Z",
+  "news_items": [
+    {
+      "headline": "Arm Holdings Has Doubled in 2026 — outpacing Synopsys, Cadence, and Qualcomm",
+      "url": "https://247wallst.com/investing/2026/05/19/arm-holdings-has-doubled-in-2026-is-it-outperforming-other-chip-ip-stocks-like-synopsys-cadence-and-qualcomm/",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "ARM is up 102% YTD through May 18, doubling in under five months and outperforming chip-IP peers Synopsys, Cadence, and Qualcomm."
+    },
+    {
+      "headline": "Arm stock climbs 3.73% as upcoming earnings report fuels optimism",
+      "url": "https://tradersunion.com/news/financial-news/show/2084796-arm-jumps-3-73percent-today-to/",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "ARM shares rose 3.73% to $223.15 on bullish momentum ahead of the next earnings catalyst, with traders citing AI infrastructure optimism."
+    },
+    {
+      "headline": "Bernstein initiates Arm Holdings at Outperform with $300 price target",
+      "url": "https://www.benzinga.com/quote/ARM/analyst-ratings",
+      "date": "2026-05-18",
+      "sentiment": "positive",
+      "summary": "Bernstein began coverage of ARM at Outperform with a $300 price target, citing AGI CPU demand and royalty growth."
+    },
+    {
+      "headline": "Arm shares rise as AI-infrastructure optimism and price-target hikes stay in focus ahead of earnings",
+      "url": "https://www.quiverquant.com/news/Arm+shares+rise+as+AI-infrastructure+optimism+and+recent+price-target+hikes+stay+in+focus+ahead+of+earnings",
+      "date": "2026-05-15",
+      "sentiment": "positive",
+      "summary": "ARM advanced on AI-infrastructure optimism with multiple sell-side price-target hikes keeping focus on the upcoming earnings print."
+    },
+    {
+      "headline": "FTC opens antitrust probe into Arm's licensing practices",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ARM/news/",
+      "date": "2026-05-14",
+      "sentiment": "negative",
+      "summary": "The U.S. FTC opened an antitrust investigation into Arm Holdings' chip-IP licensing practices, creating regulatory overhang on the business model."
+    },
+    {
+      "headline": "Arm AGI CPU demand exceeds $2B for FY27-FY28; supply gap of ~$1B flagged",
+      "url": "https://www.tikr.com/blog/arm-holdings-stock-surges-80-in-2026-as-the-agi-cpu-bets-on-a-100-billion-market-heres-whats-next",
+      "date": "2026-05-13",
+      "sentiment": "neutral",
+      "summary": "Arm reported AGI CPU customer demand above $2B for fiscal 2027-2028, more than double launch projections; however supply chain initially sized for ~$1B leaves an unmet supply gap in wafers, memory, packaging and test capacity."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 230.92,
+    "recent_changes": "Bernstein initiated at Outperform with $300 PT (2026-05-18). Per 40-analyst panel, consensus Buy with 12-mo PT $230.92 (+3.48% from current); per 23-analyst panel, 35% Strong Buy, 48% Buy, 13% Hold."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 77,
+    "notes": "Last quarter (Q4 FY26) was record: revenue $1.49B (+20% YoY), non-GAAP EPS $0.60 record, FY26 EPS $1.77. Data center royalty more than doubled YoY; license revenue +29% to $819M, royalty +11% to $671M. Street expects continued AGI CPU ramp and data center AI royalty acceleration."
+  },
+  "raw_search_files": [
+    "ARM_news-this-week.json",
+    "ARM_analyst-rating.json",
+    "ARM_earnings-catalyst.json"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ticker": "ARM",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Valuation/extension risk: ARM is up 102% YTD (247wallst, 2026-05-19) and trades 29.79% above SMA50 and 54.08% above SMA200 (daily price_vs_ma), with daily z_score_50 = 1.38 and hourly z_score_120 = 4.13. Analyst consensus PT is $230.92 (analyst_consensus_web) vs current $223.15 — only +3.48% upside to consensus, so even the sell-side average implies the breakout above $228.50 immediately runs into PT resistance and limits the long's mathematical edge.",
+    "Thesis-integrity crack: FTC opened an antitrust probe into Arm's licensing practices on 2026-05-14 (marketbeat.com) — a direct attack on the royalty/license model that underpins the AGI CPU bull case. This is fresh (within 7d window) and unresolved; regulatory overhang on a chip-IP business is exactly the kind of headline that caps multiple expansion regardless of beat-and-raise execution.",
+    "Daily momentum is rolling over despite price strength: daily MACD histogram = -1.8714 with signal_line (15.16) ABOVE macd_line (13.29) and bullish_crossover=false, daily rsi_divergence.bearish=true on 60-bar lookback, OBV trend=down on the daily, and relative_volume = 0.94 on 2026-05-19 (below average) even on a +3.73% green day. This is classic late-stage exhaustion — buyers are paying up on shrinking volume while the underlying momentum oscillators are deteriorating, undercutting the breakout's quality."
+  ],
+  "bull_acknowledgements": [
+    "Fundamentals are genuinely strong per earnings_context_web: last quarter revenue $1.49B (+20% YoY), record non-GAAP EPS $0.60, data center royalty more than doubled YoY, and AGI CPU demand of $2B+ for FY27-28 against ~$1B initial supply (tikr.com 2026-05-13) — real structural tailwind, not a story stock.",
+    "Sell-side is firmly constructive: Bernstein initiation at Outperform with $300 PT (2026-05-18), 35% Strong Buy / 48% Buy on the 23-analyst panel, and no near-term earnings risk (earnings.days_until_next = 70, next print 2026-08-05) so there is no scheduled catalyst to break the trend before the breakout has time to work.",
+    "No insider selling pressure visible: recent_insider_trades is empty, so the fundamental bear case cannot lean on executive distribution — a meaningful concession given how often that's the cleanest tell."
+  ],
+  "web_sources_last_7d": [
+    "https://247wallst.com/investing/2026/05/19/arm-holdings-has-doubled-in-2026-is-it-outperforming-other-chip-ip-stocks-like-synopsys-cadence-and-qualcomm/",
+    "https://www.marketbeat.com/stocks/NASDAQ/ARM/news/",
+    "https://www.tikr.com/blog/arm-holdings-stock-surges-80-in-2026-as-the-agi-cpu-bets-on-a-100-billion-market-heres-whats-next",
+    "https://www.benzinga.com/quote/ARM/analyst-ratings"
+  ]
+}

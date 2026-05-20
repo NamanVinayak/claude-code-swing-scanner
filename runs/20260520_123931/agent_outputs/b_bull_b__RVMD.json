@@ -1,0 +1,25 @@
+{
+  "ticker": "RVMD",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 150.50, "high": 151.50},
+  "target": 160.00,
+  "stop": 147.00,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Triple catalyst stack in last 7 days: NEJM publication of daraxonrasib Phase 1/2 pancreatic data (2026-05-15), FDA expanded access program granted with NDA submission guided (2026-05-14), and same-day sell-side sweep from Wedbush/Piper Sandler/Needham (2026-05-07) supporting the 20/0/0 buy consensus at avg PT $176.95 (high $263 / low $140) — every leg is regulatory or peer-reviewed validation of the lead asset, not noise.",
+  "Price structure confirms the catalyst: stock +52.9% over past month per earnings_context_web, daily EMAs aligned uptrend (ema_5 146.45 > ema_10 145.76 > ema_20 141.99 > ema_50 128.31 > ema_200 92.06), price 20.37% above sma_50 and 60.01% above ema_200; hourly is the breakout-trigger setup — current_price 150.43 with hourly BB %B = 0.9689, MACD histogram +0.2415, OBV trending up, relative_volume 1.43x — clearing the $150 pivot (13 tests, volume_confirmed=true) with hourly volume expansion is the exact tape you want.",
+    "Zero near-term invalidation risk: earnings.days_until_next = 77 (next print 2026-08-05) so no surprise gap; with avg analyst PT $176.95 vs current $147.30 there is +20% implied upside cushion that lets the trade ride out chop. R:R math: entry midpoint $151.00, stop $147.00 (below current price and below hourly fib_236 $150.59 invalidation), target $160.00 below recent_high $151.43 extension and well under analyst avg PT — risk $4.00, reward $9.00 = 2.25:1."
+  ],
+  "risks_acknowledged": [
+    "Daily MACD still bearish (histogram -1.336, no bullish crossover) and 20-day daily volume bias is DOWN with relative_volume 0.69 — the daily tape has not yet confirmed the hourly breakout; if $150 rejects again on light daily volume the setup fizzles.",
+    "Catalysts are 3–13 days old (NEJM 2026-05-15, FDA 2026-05-14, analyst sweep 2026-05-07); the +52.9% one-month run means a meaningful portion of the news is already priced in — chasing here has lower R:R than buying a pullback to $141–143 support.",
+    "recent_insider_trades is empty in the bundle — no insider-buying confirmation of the institutional thesis (data gap, not necessarily absence).",
+    "Clinical-stage biotech with $0 revenue (Q1 2026 print) is binary-risk by nature; any negative regulatory headline on daraxonrasib voids the entire thesis instantly."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/news/RVMD/revolution-medicines-announces-publication-in-new-england-journal-of-6xcapekbzv3p.html",
+    "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-rvmd/revolution-medicines/news/is-wider-losses-and-fda-expanded-access-for-daraxonrasib-alt",
+    "https://www.benzinga.com/quote/RVMD/analyst-ratings"
+  ]
+}

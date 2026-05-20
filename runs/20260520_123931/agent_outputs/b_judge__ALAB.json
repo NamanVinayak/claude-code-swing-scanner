@@ -1,0 +1,23 @@
+{
+  "ticker": "ALAB",
+  "approved": [
+    {
+      "ticker": "ALAB",
+      "direction": "long",
+      "entry_price": 256.00,
+      "stop_loss": 248.00,
+      "target_price": 278.00,
+      "target_price_2": 288.86,
+      "quantity": 19,
+      "expected_holding_days": 6,
+      "setup_type": "gap_and_go",
+      "conviction": 6,
+      "rationale": "Catalyst bull (b_bull_b.bull_strength=8) and technical bull (b_bull_a=7) edge out matched bears (b_bear_a=7, b_bear_b=7); fresh 7-day catalyst stack (RBC PT to $250 and Evercore PT to $297 on 2026-05-19, +13.14% breakout on daily relative_volume=1.59 and hourly relative_volume=2.21) plus textbook trend (daily ADX_14=44.63, plus_di=30.77 vs minus_di=4.39, MACD bullish_crossover=true, ema_aligned_uptrend on both timeframes) outweigh the bears' extension argument (daily z_score_50=1.89, bollinger.pct_b=1.0918, RSI_7=76.3) because earnings.days_until_next=76 removes near-term blackout risk and analyst distribution (16 Buy / 7 Hold / 0 Sell) is supportive. Expected return = 0.5167*(278-256) - 0.4833*(256-248) = +$7.50/share. Gate 3 quantity = floor(250/8)=31 → notional $7,936 exceeds 15% cap ($3,750); scaled down from 31 to 19 shares to fit small-account cap, using 61% of risk budget (M=floor(5000/256)=19, risk_M=$152, notional=$4,864 ≤ 20% cap).",
+      "risk_usd": 152.00,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-20T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "ALAB approved long as small_scaled (19 sh @ ~$256, stop $248, target $278): catalyst-confirmed gap_and_go with strong trend internals beats the extension concern, expected return +$7.50/share, $152 risk used."
+}

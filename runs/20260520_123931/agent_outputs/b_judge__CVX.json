@@ -1,0 +1,11 @@
+{
+  "ticker": "CVX",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "CVX",
+      "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 2 expected_return_per_share = 0.5*(205.00-196.77) - 0.5*(196.77-193.50) = +$2.48 (POSITIVE, passes). Gate 3 quantity = floor($250 risk / $3.27 risk_per_share) = 76 shares. Gate 4: notional = 196.77 * 76 = $14,955 >> $3,750 (15% cap). Small-scaled path: M = floor($5,000 / $196.77) = 25 shares; risk_M = 25 * $3.27 = $81.75; risk_dollars_floor = 0.40 * $250 = $100. risk_M ($81.75) < floor ($100) — small-scaled path fails the 40%-of-risk-budget minimum. Even at extended 20% notional cap, a $196.77 stock with a tight $3.27 stop cannot use enough risk budget to be meaningful on a $25k account."
+    }
+  ],
+  "summary": "CVX rejected on Gate 4 single_position_cap_exceeded. Direction consensus (all 4 perspectives long), positive expected return (+$2.48/share with bull/bear strengths tied at 6/6), and budget capacity all passed — but at $196.77 entry with a tight $3.27 stop, the math forces either a 76-share standard position (notional $14,955, 60% of account, blows 15% cap) or a 25-share small-scaled position that only uses $81.75 of the $250 risk budget (33%, below the 40% floor). Tight stop on a high-priced large-cap is structurally incompatible with the $25k account size."
+}

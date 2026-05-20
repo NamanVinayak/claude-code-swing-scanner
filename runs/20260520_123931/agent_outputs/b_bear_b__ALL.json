@@ -1,0 +1,19 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Stock is extended and overbought into the breakout: daily rsi_14 = 72.66, z_score_50 = 2.37 (>2 sigma above 50d mean), bollinger pct_b = 1.1726 (price ABOVE upper band), and price sits +5.9% above sma_50 / +9.32% above sma_200. Daily rsi_divergence.bearish = true on a 60-bar lookback. Mean-reversion risk is elevated — chasing $225.50 here gives a long entry near the statistical extreme, which caps near-term upside even if the longer trend is intact.",
+   "No near-term fundamental catalyst to sustain the breakout: earnings_context_web.next_earnings_date = 2026-08-05 (days_until_next = 77). The last quarter's beat (adj EPS $10.65, $16.9B revenue, 82% combined ratio, $4B buyback, 8% dividend bump) is already priced in per the same researcher note, and the stock has only added +1.67% over the last week despite hitting an all-time high $222.23 on 2026-05-05. With no earnings, no guidance update, and the only 7-day news item being a routine 29,200-share 13F top-up by Virginia Retirement Systems (2026-05-14), the breakout has to be carried by flows/technicals alone for 11+ weeks.",
+    "Hourly tape is already showing distribution under the breakout level: hourly volume.relative_volume = 0.32 (current 126,131 vs avg 394,259), volume_bias_10d = 'down', and hourly OBV trend = 'down' with diverging_from_price = true. Catalyst_note itself flags 'unconfirmed by any premarket volume,' and the watch_level 225.50 sits between hourly nearest_support 220.39 and the recent_high/resistance 227.62 (tests = 5, volume_confirmed). A failed breakout that reverses to the hourly fib_500 at 220.60 or pivot_low 220.39 would tag the 221.50 invalidation almost immediately — a tight 4-point window with ATR_14 = 5.43 means ordinary noise can stop the trade out."
+  ],
+  "bull_acknowledgements": [
+    "Underlying trend is genuinely intact: daily EMAs are aligned uptrend (5>10>20>50>200), price above all major MAs, daily ADX 21.28 with +DI > -DI, and hourly ADX 30.52 = 'strong' trend strength. This is not a broken chart.",
+    "Fundamental backdrop from the last reported quarter is strong (82% combined ratio, $2.7B underwriting income, $4B buyback authorization, 8% dividend increase) and analyst_consensus_web.rating = 'buy' with Piper Sandler and Citi raising PTs post-Q1. Insider trades list is empty (no executive selling cluster to flag).",
+    "Breakout volume on 2026-05-19 was real: 3,937,600 shares vs 20d avg 1,680,450 (relative_volume = 2.34) on a close at the day's high — that is institutional accumulation, not a low-volume drift."
+  ],
+  "web_sources_last_7d": [
+    "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-29200-shares-of-the-allstate-corporation-all-2026-05-14/"
+  ]
+}

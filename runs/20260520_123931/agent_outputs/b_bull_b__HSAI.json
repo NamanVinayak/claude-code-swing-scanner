@@ -1,0 +1,28 @@
+{
+  "ticker": "HSAI",
+  "setup_direction": "short",
+  "bull_strength": 3,
+  "entry_zone": {"low": 19.80, "high": 19.90},
+  "target": 17.56,
+  "stop": 21.00,
+  "expected_holding_days": 5,
+  "top_3_arguments": [
+    "No bearish catalyst found in recent_news_7d — all 6 items dated 2026-05-19 are positive (Q1 beat +29.6% YoY rev, GAAP profit turnaround RMB18.3M vs -RMB17.5M YoY, Q2 guide RMB850-900M above consensus, Mercedes-Benz L3 partnership, +13.1% session). The SHORT case rests entirely on a 'good news already in the spike' exhaustion thesis, not a fresh negative catalyst.",
+    "Technical exhaustion after the catalyst pop is the strongest available short argument: on 2026-05-19 HSAI gapped/spiked then closed at 20.02 (daily low 19.51) — full reversal of the +13.1% intraday move on relative_volume 2.59x. Daily EMA stack is downtrend-aligned (ema_aligned_downtrend=true), price -15.91% from sma_200, ROC_21d=-8.56, hourly ADX_24=34.38 with minus_di 45.65 vs plus_di 11.29 (strong downtrend on the hourly). The post-news intraday rejection at 21.82 supports the 'sell the news' read.",
+    "R:R math from entry midpoint 19.85 → target 17.56 (nearest daily support, fib_ext_low_1272=18.03 nearby) = 2.29 risk. Stop 21.00 (above invalidation, above 2026-05-19 high 21.82 NOT covered — see risk #1) = 1.15 risk. Reward:risk ≈ 2.29 / 1.15 = 1.99:1, marginally below the 2:1 floor — this is a thin catalyst short, hence bull_strength=3."
+  ],
+  "risks_acknowledged": [
+    "The catalyst stack is unambiguously LONG: profit turnaround + above-consensus guide + Mercedes-Benz L3 design win + new ETX/Picasso 6D/Kosmo product reveals + 6M+ unit backlog + planned Hong Kong listing + analyst_consensus_web Strong Buy with avg PT $32.09 (~60% above current). Shorting into this news flow is fighting a fundamental tape.",
+    "Stop at 21.00 sits BELOW the 2026-05-19 intraday high of 21.82 — a retest of that high would stop the trade before the breakdown structure has a chance to confirm; widening the stop above 21.82 collapses R:R below 2:1.",
+    "earnings.days_until_next = 85 means no near-term catalyst to force the breakdown; the short relies on technical mean reversion alone over 5 days against a strongly positive narrative.",
+    "Daily ADX_14 = 14.97 (weak trend) and RSI_14 = 39.71 (already in the lower half — not overbought, less room to fall before a bounce); hourly RSI_21 = 36.45 already approaching oversold short-term."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/news/HSAI/hesai-group-reports-first-quarter-2026-unaudited-financial-wgvrptc5slt8.html",
+    "https://www.chartmill.com/news/HSAI/Chartmill-48721-Hesai-Group-NASDAQHSAI-Q1-2026-Earnings-Beat-Profit-Estimates-on-Robust-Lidar-Growth",
+    "https://www.fool.com/earnings/call-transcripts/2026/05/19/hesai-hsai-q1-2026-earnings-call-transcript/",
+    "https://www.quiverquant.com/news/HESAI+GROUP+%28%24HSAI%29+Releases+Q1+2026+Earnings",
+    "https://simplywall.st/stocks/us/automobiles/nasdaq-hsai/hesai-group/news/why-hesai-group-hsai-is-up-after-profit-rebound-and-hong-kon",
+    "https://www.webull.com/news/13344204497183744"
+  ]
+}

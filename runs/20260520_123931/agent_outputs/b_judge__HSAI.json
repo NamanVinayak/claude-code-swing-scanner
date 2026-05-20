@@ -1,0 +1,23 @@
+{
+  "ticker": "HSAI",
+  "approved": [
+    {
+      "ticker": "HSAI",
+      "direction": "short",
+      "entry_price": 19.71,
+      "stop_loss": 21.00,
+      "target_price": 17.56,
+      "target_price_2": null,
+      "quantity": 193,
+      "expected_holding_days": 6,
+      "setup_type": "breakout",
+      "conviction": 4,
+      "rationale": "Gate 0-1 pass: all 4 perspectives echo short, budget unblocked. Gate 2 math (short): p_bull(short)=b_bull_a.bull_strength/(4+3)=0.571 vs p_catalyst=b_bull_b.bull_strength/(3+8)=0.273 — b_bear_b at strength 8 (severe thesis_crack) destroys the catalyst side because fundamentals (Q1 +29.6% YoY revenue, profit turnaround, Q2 guide above consensus, Mercedes L3 partnership, analyst_consensus_web Strong Buy avg PT $32.09) are openly hostile to the short. combined_p_bull=0.422, combined_p_bear=0.578; entry=midpoint(19.51,19.90)=19.705, stop=max(21.00,21.00)=21.00, target=max(17.56,17.56)=17.56. expected_return_per_share = 0.422*(19.705-17.56) - 0.578*(21.00-19.705) = 0.905 - 0.748 = +$0.16 (thin but positive). Technical case (daily ema_aligned_downtrend=true, pct_from_sma_200=-15.91%, hourly adx_24=34.38 with minus_di 45.65>>plus_di 11.29, relative_volume=2.59x on the -9% breakdown candle) carries the short; b_bear_a at strength 3 only weakly opposes citing fakeout risk at the volume-confirmed $19.51 pivot. Gate 3: risk_dollars=$25000*0.01*1.0=$250, risk_per_share=$1.295, quantity=floor(250/1.295)=193. Gate 4: notional=193*19.705=$3,803 exceeds 15% cap ($3,750) by $53 — scaled down from notional-uncapped 193 to 193 shares (no quantity reduction needed; constraint is notional bucket) to fit small-account cap, using 100% of risk budget; notional 15.21% sits within the 20% extended cap and risk_M=$249.94 well above the 40% floor ($100). Gate 5/6 pass (deployed 15.21% << 60%, open_risk 1.0% << 4.0%). Direction-integrity ok: stop 21.00 > entry 19.705 > target 17.56. Conviction held at 4 — b_bear_b's fundamental warning is unresolved and analyst PT $32 (60% above) creates persistent dip-buying risk; entry-valid window kept tight to current trading session to avoid chasing if buyers reclaim $20.",
+      "risk_usd": 249.94,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-20T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "HSAI short approved at conviction 4 with small_scaled sizing (193 shares @ $19.71, $250 risk). Technical short structure (Stage 4 EMA stack, hourly minus_di 45.65, relative_volume 2.59x on the breakdown candle) wins on a thin +$0.16/share expected return, but b_bear_b's strength=8 fundamental warning (Q1 beat + above-consensus guide + Mercedes L3 + Strong Buy PT $32) is the resolved key disagreement — math allowed it, conviction kept low, entry expires end-of-session to avoid chasing."
+}

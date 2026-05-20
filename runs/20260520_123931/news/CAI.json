@@ -1,0 +1,20 @@
+{
+  "ticker": "CAI",
+  "researched_at": "2026-05-20T19:40:00Z",
+  "news_items": [],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 34.71,
+    "recent_changes": "no analyst-rating changes in last 7 days. Standing consensus (as of 2026-03-30): 9 analysts Buy / 7 analysts Strong Buy with avg PT $34.71; distribution 13 Buy (86.67%) and 2 Hold (13.33%); cross-source avg PTs range $31.33-$37.43."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-11",
+    "days_until_next": 83,
+    "notes": "Next earnings call scheduled Aug 11, 2026 — outside the 3-day blackout. Last reported quarter (Q1 2026) showed 4 consecutive quarters of positive adjusted EBITDA + FCF, ChromaSeq launch with MolDX reimbursement, MI Clarity for breast cancer, Caris Detect early-detection data, and sales force realignment lifting case exit velocity."
+  },
+  "raw_search_files": [
+    "CAI_news-this-week.json",
+    "CAI_analyst-rating.json",
+    "CAI_earnings-catalyst.json"
+  ]
+}

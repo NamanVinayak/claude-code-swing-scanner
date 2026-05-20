@@ -1,0 +1,23 @@
+{
+  "ticker": "BILI",
+  "approved": [
+    {
+      "ticker": "BILI",
+      "direction": "short",
+      "entry_price": 18.70,
+      "stop_loss": 20.15,
+      "target_price": 15.80,
+      "target_price_2": 15.73,
+      "quantity": 172,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "Gate 0 PASS: all 4 perspectives echo setup_direction=short. Bull strengths 6/4 vs bear strengths 6/4; combined_p_bull (short thesis works) = 0.50. Conservative levels: entry=mid 18.70, stop=min(20.20, 20.15)=20.15, target=max(15.73, 15.80)=15.80. expected_return_per_share = 0.50*(18.70-15.80) - 0.50*(20.15-18.70) = +$0.725 (positive). Daily ema_aligned_downtrend=true with adx_14=33.68 (minus_di=32.12 vs plus_di=16.78) and momentum.roc_21d=-19.9 validate the breakdown structure; bears' mean-reversion concern (daily rsi_21=28.96, bollinger pct_b=0.1169, hourly hammer reversal at 18.30 on 2026-05-19 with relative_volume=4.25) drove the modest conviction and the trade is sized for it. Position sizing: risk_dollars = 25000 * 0.01 * 1.0 = $250; risk_per_share = |18.70-20.15| = $1.45; quantity = floor(250/1.45) = 172; notional = 18.70*172 = $3,216.40 (12.87% of account, below 15% standard cap). Final risk_usd = 172*1.45 = $249.40. Entry valid until US session close (20:00 UTC) — intraday breakdown setup that should not chase late.",
+      "risk_usd": 249.40,
+      "position_size_class": "standard",
+      "entry_valid_until": "2026-05-20T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "BILI short approved at 172 shares: strong daily/hourly downtrend (adx 33.68/56.57, ema_aligned_downtrend=true on both timeframes, roc_21d=-19.9%) with positive probability-weighted expected return (+$0.725/share) and full budget capacity; conviction held to 5 due to oversold RSI (daily rsi_21=28.96) and yesterday's high-volume hammer reversal off 18.30 that bears correctly flagged as bounce risk."
+}

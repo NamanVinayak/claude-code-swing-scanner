@@ -1,0 +1,19 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [221.5, 220.39, 216.4],
+  "top_3_arguments": [
+    "Extension and overbought stretch: daily rsi.rsi_14 = 72.66 (above the classic 70 overbought threshold) AND daily bollinger.pct_b = 1.1726 (price is OUTSIDE the upper Bollinger Band — a statistical >2σ stretch above the 20SMA). Daily z_score_50 = 2.37 confirms the move is >2 std-dev above its 50-day mean. price_vs_ma.pct_from_sma_50 = 5.9% and pct_from_sma_200 = 9.32% — all four conditions describe a ticker that has already made its breakout move, not one entering it. Buying $225.50 on a long-side breakout with these readings is chasing.",
+    "Daily bearish RSI divergence confirmed and hourly volume rejecting the move: daily_indicators.rsi_divergence.bearish = true (lookback 60 bars) — price made fresh highs while RSI failed to confirm, the textbook exhaustion signature. Hourly volume confirms the bull conviction is thin overnight: hourly volume.relative_volume = 0.32, volume_bias_10d = 'down', and hourly obv.trend = 'down' with diverging_from_price = true. The catalyst_note itself flags 'unconfirmed by any premarket volume' — combined with hourly OBV bearish divergence, the breakout lacks participation right at the watch level.",
+    "Reward-to-risk is broken at the listed watch/invalidation: from $225.50 entry to the listed $221.50 invalidation = $4.00 risk (1.77%). To justify even a 2:1 R:R, target must be $233.50+, which is essentially at the daily fib_ext_1272 of $232.88 and well beyond hourly nearest_resistance = $227.62 (the very recent_high tested 5x, volume_confirmed = true). The trade has to punch through a volume-confirmed hourly ceiling 1.4% above entry just to make minimum R:R math work. Daily atr_14 = $5.43 (2.42%) means the $4 stop is INSIDE one ATR — likely to be knocked out on normal noise before any thesis resolves."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is genuinely bullish: daily moving_averages.ema_aligned_uptrend = true with price above all EMAs (5/10/20/50/200) and daily adx 21.28 + plus_di 25.92 > minus_di 18.13 confirms a real (not flat) uptrend. Hourly ADX 30.52 is even stronger.",
+    "Daily volume on the 2026-05-19 breakout bar was legitimate: relative_volume = 2.34 (3.94M vs 1.68M avg) with daily OBV trending up and not diverging — the daily breakout candle itself had real participation, even if the overnight follow-through is weak.",
+    "No near-term earnings risk: earnings_context_web.days_until_next = 77 (Aug 5), so the breakout cannot be killed by an event print. Q1 was a clean beat with a buyback + dividend hike — a real fundamental tailwind underneath the chart."
+  ],
+  "web_sources_last_7d": [
+    "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-29200-shares-of-the-allstate-corporation-all-2026-05-14/"
+  ]
+}

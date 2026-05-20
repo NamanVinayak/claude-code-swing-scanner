@@ -1,0 +1,17 @@
+{
+  "query": "ARM news this week",
+  "fetched_at": "2026-05-20T19:40:00Z",
+  "results": [
+    {"title": "Arm Newsroom", "url": "https://newsroom.arm.com/"},
+    {"title": "Arm Holdings plc (ARM) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ARM/"},
+    {"title": "News Archive - Arm Newsroom", "url": "https://newsroom.arm.com/news"},
+    {"title": "ARM: Arm Holdings PLC - Stock Price, Quote and News - CNBC", "url": "https://www.cnbc.com/quotes/ARM"},
+    {"title": "Arm stock climbs 3.73% as upcoming earnings report fuels optimism", "url": "https://tradersunion.com/news/financial-news/show/2084796-arm-jumps-3-73percent-today-to/"},
+    {"title": "Arm Holdings Has Doubled in 2026. Is It Outperforming Other Chip-IP Stocks Like Synopsys, Cadence, and Qualcomm? - 24/7 Wall St.", "url": "https://247wallst.com/investing/2026/05/19/arm-holdings-has-doubled-in-2026-is-it-outperforming-other-chip-ip-stocks-like-synopsys-cadence-and-qualcomm/"},
+    {"title": "ARM News Today | Why did ARM stock go up today? $ARM", "url": "https://www.marketbeat.com/stocks/NASDAQ/ARM/news/"},
+    {"title": "Arm Holdings Extends Lead With Record Earnings - TipRanks.com", "url": "https://www.tipranks.com/news/company-announcements/arm-holdings-extends-lead-with-record-earnings"},
+    {"title": "Arm Holdings plc (ARM) Latest Stock News & Headlines - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ARM/news/"},
+    {"title": "Arm Holdings plc American Depositary Shares (ARM) News, Articles, and Updates | Nasdaq", "url": "https://www.nasdaq.com/market-activity/stocks/arm/news-headlines"}
+  ],
+  "summary_text": "ARM stock traded at $223.15, up 3.73% as bullish momentum persists. ARM is up 102% YTD, doubling in under five months. Bernstein initiated coverage at Outperform with $300 price target. ARM's annualized contract value grew 22% YoY. Demand for ARM AGI CPUs is above $2 billion for fiscal 2027-2028, but supply chain initially sized for $1 billion, with constraints in wafers, memory, packaging and test capacity. ARM facing FTC antitrust probe into licensing practices."
+}

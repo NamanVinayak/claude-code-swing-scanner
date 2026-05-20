@@ -1,0 +1,12 @@
+{
+  "ticker": "CPAY",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "CPAY",
+      "reason": "single_position_cap_exceeded",
+      "detail": "stock too high-priced for current account size, cannot fit even minimum scaled position. Entry midpoint 345.43 (bull_a zone 343.56-347.30), stop 340.30 (max of bull stops 340.30/340.00), risk_per_share=5.13. Gate-3 quantity=floor(250/5.13)=48, notional=345.43*48=16580.64 which exceeds single_cap=3750 (15% of 25000). Small-scaled path: extended_cap=5000, M=floor(5000/345.43)=14, risk_M=14*5.13=71.82 which is BELOW risk_dollars_floor=100 (40% of 250), so small-scaled exception fails. Gate 0 direction consensus passed (all 4 perspectives long). Gate 2 expected_return_per_share = 0.542*(370.55-345.43) - 0.458*(345.43-340.30) = +11.27 was positive, but Gate 4 capital concentration constraint binds. Account too small for a $343 stock at meaningful risk."
+    }
+  ],
+  "summary": "CPAY rejected on Gate 4: $343 share price too high for the $25k account to fit even a small-scaled position (M=14 shares would use only 28.7% of the 1% risk budget, below the 40% floor). Bull thesis (combined_p_bull=0.542) is positive-EV but uninvestable here."
+}

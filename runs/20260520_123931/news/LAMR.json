@@ -1,0 +1,49 @@
+{
+  "ticker": "LAMR",
+  "researched_at": "2026-05-20T19:42:00Z",
+  "news_items": [
+    {
+      "headline": "TD Cowen maintains Buy on Lamar Advertising, raises PT to $170 from $150",
+      "url": "https://www.gurufocus.com/news/8859444/lamr-maintained-by-td-cowen-price-target-raised-to-170",
+      "date": "2026-05-14",
+      "sentiment": "positive",
+      "summary": "TD Cowen reiterated a Buy rating on LAMR and raised its 12-month price target to $170 from $150, citing continued execution."
+    },
+    {
+      "headline": "Lamar Advertising declares $1.60 quarterly dividend, reaffirms 2026 distribution guidance of at least $6.40/share",
+      "url": "https://www.tipranks.com/news/company-announcements/lamar-advertising-declares-quarterly-dividend-reaffirms-2026-payouts",
+      "date": "2026-05-15",
+      "sentiment": "positive",
+      "summary": "Board declared a $1.60 quarterly cash dividend (ex-date Jun 16, 2026) and reaffirmed 2026 distributions of at least $6.40 per share, supporting the REIT income thesis."
+    },
+    {
+      "headline": "Lamar Advertising CEO Sean Reilly to appear at J.P. Morgan 2026 Global TMT Conference",
+      "url": "https://www.stocktitan.net/news/LAMR/lamar-advertising-to-appear-at-the-j-p-morgan-2026-global-technology-pt7ux7gsjqf1.html",
+      "date": "2026-05-18",
+      "sentiment": "neutral",
+      "summary": "CEO Sean Reilly participated in a Q&A session at the J.P. Morgan 2026 Global Technology, Media and Communications Conference on May 18, 2026 at ~3:30 pm EST."
+    },
+    {
+      "headline": "Lamar Advertising valuation check after reaffirmed dividend and 2026 distribution guidance",
+      "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-lamr/lamar-advertising/news/lamar-advertising-lamr-valuation-check-after-reaffirmed-divi",
+      "date": "2026-05-16",
+      "sentiment": "neutral",
+      "summary": "Simply Wall St review of LAMR valuation following the dividend reaffirmation and 2026 payout guidance; piece weighs income story versus current multiple."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 139.5,
+    "recent_changes": "TD Cowen reiterated Buy and raised PT to $170 (from $150) on 2026-05-14. TipRanks shows month-to-date 13 Buy / 40 Hold / 0 Sell with overall consensus Buy; 3-month avg PT $139.50 (range $128-$145)."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-07",
+    "days_until_next": 79,
+    "notes": "Q1 2026 already reported; next call Aug 7, 2026. Management signaled possible upward AFFO guidance revision on August call (current 2025 AFFO/share guide $8.13-$8.28). Programmatic revenue +~25% YoY to ~$11M; digital billboards ~31% of billings."
+  },
+  "raw_search_files": [
+    "LAMR_news-this-week.json",
+    "LAMR_analyst-rating.json",
+    "LAMR_earnings-catalyst.json"
+  ]
+}

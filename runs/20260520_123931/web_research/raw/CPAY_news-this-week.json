@@ -1,0 +1,17 @@
+{
+  "query": "CPAY news this week",
+  "fetched_at": "2026-05-20T19:40:00Z",
+  "results": [
+    {"title": "CPAY: Corpay Inc - Stock Price, Quote and News - CNBC", "url": "https://www.cnbc.com/quotes/CPAY"},
+    {"title": "Corpay, Inc. (CPAY) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CPAY/"},
+    {"title": "Corpay, Inc. (CPAY) Latest Stock News & Headlines - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CPAY/news/"},
+    {"title": "Investor Relations | Corpay, Inc.", "url": "https://investor.corpay.com/"},
+    {"title": "Corpay Inc (CPAY): New Buy Recommendation for This Technology Giant - The Globe and Mail", "url": "https://www.theglobeandmail.com/investing/markets/stocks/CPAY-N/pressreleases/1957929/corpay-inc-cpay-new-buy-recommendation-for-this-technology-giant/"},
+    {"title": "Corpay (CPAY) Stock Price, News & Analysis - NYSE", "url": "https://www.marketbeat.com/stocks/NYSE/CPAY/"},
+    {"title": "Corpay Earnings Dates, Reports, Calls 2016-2026 (NYSE: CPAY) | WallStreetZen", "url": "https://www.wallstreetzen.com/stocks/us/nyse/cpay/earnings"},
+    {"title": "Corpay, Inc. (CPAY) Stock Price, Quote, News & Analysis | Seeking Alpha", "url": "https://seekingalpha.com/symbol/CPAY"},
+    {"title": "CPAY Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/CPAY"},
+    {"title": "Corpay Q1 2026 earnings call set for May 7 | CPAY Stock News", "url": "https://www.stocktitan.net/news/CPAY/corpay-to-announce-first-quarter-2026-results-on-may-7-qg1tw27h7qg3.html"}
+  ],
+  "summary_notes": "Q1 2026 results: $1.26B revenue, adj EPS $5.80, beat expectations, raised full-year guidance. Analyst consensus Strong Buy, PT $384.56 (~16% upside). BofA raised PT to $380 from $377. Morgan Stanley raised PT to $400 from $390. Corpay partnered with BVNK to add stablecoin wallets. New investor presentation highlighting cross-border business. Shareholders backed board/auditor amid pay scrutiny."
+}

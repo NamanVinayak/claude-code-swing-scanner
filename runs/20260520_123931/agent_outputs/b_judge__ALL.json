@@ -1,0 +1,23 @@
+{
+  "ticker": "ALL",
+  "approved": [
+    {
+      "ticker": "ALL",
+      "direction": "long",
+      "entry_price": 226.56,
+      "stop_loss": 221.50,
+      "target_price": 232.88,
+      "target_price_2": null,
+      "quantity": 22,
+      "expected_holding_days": 7,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "Direction consensus 'long' across all 4 perspectives. p_bull = 6/(6+7) = 0.4615 (technical) and p_catalyst = 5/(5+6) = 0.4545 (catalyst), combined_p_bull = 0.458; bears edge bulls on weight but bull volume confirmation wins the tiebreak (relative_volume = 2.34 on 2026-05-19 breakout candle, daily OBV trend up, ema_aligned_uptrend = true, hourly ADX 30.52). Expected_return_per_share = 0.458 * (232.88 - 226.56) - 0.542 * (226.56 - 221.50) = +$0.152, positive but thin. Bears' overbought concern (rsi_14 = 72.66, pct_b = 1.1726, z_score_50 = 2.37, bearish RSI divergence) is acknowledged and is the reason for low conviction (5) and tight entry window. Position sizing: risk_dollars = $25,000 * 1.0% * 1.0 = $250, risk_per_share = 5.06, Gate-3 quantity = 49, notional = $11,101 exceeds 15% single-position cap ($3,750). Scaled down from 49 to 22 shares to fit small-account cap, using 45% of risk budget (risk_M = 22 * 5.06 = $111.32 >= $100 floor, notional 22 * 226.56 = $4,984 <= 20% extended cap $5,000). Wiki lesson 2026-05-18 ROK (RSI 76 + pct_b 1.29 + z_score 2.19 stop-hit) is a direct parallel — sizing kept minimal and entry window kept tight as discipline.",
+      "risk_usd": 111.32,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-20T16:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "ALL approved small_scaled long: 22 shares @ $226.56 entry, $221.50 stop, $232.88 target, $111.32 risk. Bull volume confirmation (relvol 2.34, OBV up) and aligned MA stack edge out bears' overbought stretch (RSI 72.66, pct_b > 1, z_score 2.37, bearish divergence); expected return barely positive at +$0.15/share, so conviction is 5 and the entry window is tight (~80 min) to enforce discipline against the ROK 2026-05-18 parallel."
+}

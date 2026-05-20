@@ -1,0 +1,17 @@
+{
+  "ticker": "CAI",
+  "setup_direction": "short",
+  "bear_strength": 4,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Analyst consensus is firmly constructive against the short: analyst_consensus_web shows 'buy' rating with avg PT $34.71 (cross-source range $31.33-$37.43) vs current_price $14.96 — that implies ~132% upside in the standing consensus, and no rating downgrades occurred in the last 7 days. Shorting into a stock priced at <45% of consensus PT is fighting a wall of sell-side support.",
+    "Fundamental narrative is improving, not deteriorating: earnings_context_web flags 4 consecutive quarters of positive adjusted EBITDA + FCF, ChromaSeq launch with MolDX reimbursement, MI Clarity for breast cancer, Caris Detect early-detection data, and sales-force realignment lifting case exit velocity. None of that is consistent with a thesis-cracking deterioration — it argues the recent selloff (roc_21d = -29.57%) is sentiment/positioning, not business fundamentals, and is more likely to mean-revert than continue.",
+    "Stock is already washed out, limiting incremental downside: rsi_21 = 30.57 (oversold), z_score_50 = -2.11 (2+ std below 50d mean), pct_b = 0.1677 (lower Bollinger band region), daily price -41.98% below sma_200 and -19.07% below sma_50, and hourly MACD histogram has flipped positive (+0.1582) with hourly OBV trending up. Entering a short at $14.96 with invalidation only $0.34 above (15.30) into an oversold, no-near-term-earnings (next earnings 2026-08-11, 83 days out) tape leaves no fundamental catalyst to drive the next leg lower before squeeze risk dominates."
+  ],
+  "bull_acknowledgements": [
+    "Daily trend is genuinely broken: EMAs aligned in a downtrend, ADX 30.55 with -DI > +DI, MACD line -1.21 well below signal, roc_21d -29.57% — the directional bearish bias for the trade is real.",
+    "No insider buying has shown up in recent_insider_trades to defend the stock at these levels, so there is no visible C-suite signal that management views $14.96 as a bargain.",
+    "Setup-level downside extension is mathematically open: fib_ext_low_1272 = $12.02 and fib_ext_low_1618 = $9.26 give the short room if $14.80 actually breaks on volume."
+  ],
+  "web_sources_last_7d": []
+}

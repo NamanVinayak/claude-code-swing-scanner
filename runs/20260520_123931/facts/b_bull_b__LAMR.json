@@ -1,0 +1,388 @@
+{
+  "ticker": "LAMR",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 150.0,
+  "invalidation_level": 147.5,
+  "catalyst_note": "TradingView strong_buy + trending_up signals on a flat overnight hold suggest momentum intact, but no premarket volume or news catalyst to confirm directional conviction this morning.",
+  "conviction": 4,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "TD Cowen maintains Buy on Lamar Advertising, raises PT to $170 from $150",
+      "source": "web_research",
+      "date": "2026-05-14",
+      "url": "https://www.gurufocus.com/news/8859444/lamr-maintained-by-td-cowen-price-target-raised-to-170",
+      "sentiment": "positive",
+      "summary": "TD Cowen reiterated a Buy rating on LAMR and raised its 12-month price target to $170 from $150, citing continued execution."
+    },
+    {
+      "title": "Lamar Advertising declares $1.60 quarterly dividend, reaffirms 2026 distribution guidance of at least $6.40/share",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://www.tipranks.com/news/company-announcements/lamar-advertising-declares-quarterly-dividend-reaffirms-2026-payouts",
+      "sentiment": "positive",
+      "summary": "Board declared a $1.60 quarterly cash dividend (ex-date Jun 16, 2026) and reaffirmed 2026 distributions of at least $6.40 per share, supporting the REIT income thesis."
+    },
+    {
+      "title": "Lamar Advertising CEO Sean Reilly to appear at J.P. Morgan 2026 Global TMT Conference",
+      "source": "web_research",
+      "date": "2026-05-18",
+      "url": "https://www.stocktitan.net/news/LAMR/lamar-advertising-to-appear-at-the-j-p-morgan-2026-global-technology-pt7ux7gsjqf1.html",
+      "sentiment": "neutral",
+      "summary": "CEO Sean Reilly participated in a Q&A session at the J.P. Morgan 2026 Global Technology, Media and Communications Conference on May 18, 2026 at ~3:30 pm EST."
+    },
+    {
+      "title": "Lamar Advertising valuation check after reaffirmed dividend and 2026 distribution guidance",
+      "source": "web_research",
+      "date": "2026-05-16",
+      "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-lamr/lamar-advertising/news/lamar-advertising-lamr-valuation-check-after-reaffirmed-divi",
+      "sentiment": "neutral",
+      "summary": "Simply Wall St review of LAMR valuation following the dividend reaffirmation and 2026 payout guidance; piece weighs income story versus current multiple."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 149.41000366210938,
+  "market_cap": 15243590656.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 148.11000061035156,
+      "high": 150.99000549316406,
+      "low": 145.3300018310547,
+      "close": 146.6199951171875,
+      "volume": 1206300
+    },
+    {
+      "time": "2026-05-14",
+      "open": 149.0800018310547,
+      "high": 150.7100067138672,
+      "low": 147.0,
+      "close": 147.41000366210938,
+      "volume": 696700
+    },
+    {
+      "time": "2026-05-15",
+      "open": 147.41000366210938,
+      "high": 147.41000366210938,
+      "low": 144.11000061035156,
+      "close": 145.5399932861328,
+      "volume": 672300
+    },
+    {
+      "time": "2026-05-18",
+      "open": 145.58999633789062,
+      "high": 148.3000030517578,
+      "low": 145.58999633789062,
+      "close": 147.49000549316406,
+      "volume": 878000
+    },
+    {
+      "time": "2026-05-19",
+      "open": 148.0500030517578,
+      "high": 149.77000427246094,
+      "low": 146.57000732421875,
+      "close": 149.41000366210938,
+      "volume": 664600
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 147.95487390918953,
+      "sma_5": 147.29400024414062,
+      "ema_10": 146.78979497244464,
+      "sma_10": 148.65499725341797,
+      "ema_20": 143.60181241260875,
+      "sma_20": 142.5264991760254,
+      "ema_21": 143.31642729088654,
+      "sma_21": 142.12047540573846,
+      "ema_50": 137.96214925757008,
+      "sma_50": 135.297547454834,
+      "ema_200": 127.80130506115367,
+      "sma_200": 126.71049476623536,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 149.41000366210938,
+    "dist_from_50sma_pct": 10.43,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 0.98,
+      "above_sma_5": true,
+      "pct_from_sma_5": 1.44,
+      "above_ema_10": true,
+      "pct_from_ema_10": 1.79,
+      "above_sma_10": true,
+      "pct_from_sma_10": 0.51,
+      "above_ema_20": true,
+      "pct_from_ema_20": 4.04,
+      "above_sma_20": true,
+      "pct_from_sma_20": 4.83,
+      "above_ema_21": true,
+      "pct_from_ema_21": 4.25,
+      "above_sma_21": true,
+      "pct_from_sma_21": 5.13,
+      "above_ema_50": true,
+      "pct_from_ema_50": 8.3,
+      "above_sma_50": true,
+      "pct_from_sma_50": 10.43,
+      "above_ema_200": true,
+      "pct_from_ema_200": 16.91,
+      "above_sma_200": true,
+      "pct_from_sma_200": 17.91,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 14841.0
+    },
+    "rsi": {
+      "rsi_7": 26.12,
+      "rsi_14": 65.45,
+      "rsi_21": 64.26
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 4.124,
+      "signal_line": 3.9908,
+      "histogram": 0.1332,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 156.95,
+      "middle": 142.53,
+      "lower": 128.1,
+      "width": 0.2025,
+      "pct_b": 0.7385
+    },
+    "atr": {
+      "atr_14": 4.75,
+      "atr_pct": 3.18
+    },
+    "adx": {
+      "adx_14": 55.6,
+      "plus_di": 38.37,
+      "minus_di": 15.68,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 664600,
+      "avg_volume_20": 766585,
+      "relative_volume": 0.87,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 138.09,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 158.69,
+          "tests": 1,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 122.31,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 130.43,
+          "tests": 7,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 158.69,
+      "nearest_support": 130.43,
+      "recent_high": 158.69,
+      "recent_low": 132.5,
+      "prev_day_high": 148.3,
+      "prev_day_low": 145.59,
+      "prev_day_close": 147.49
+    },
+    "fibonacci": {
+      "swing_high": 158.69,
+      "swing_low": 130.84,
+      "fib_236": 152.12,
+      "fib_382": 148.05,
+      "fib_500": 144.76,
+      "fib_618": 141.48,
+      "fib_786": 136.8,
+      "fib_ext_1272": 166.27,
+      "fib_ext_1618": 175.9,
+      "fib_ext_2000": 186.54,
+      "fib_ext_low_1272": 123.26,
+      "fib_ext_low_1618": 113.63
+    },
+    "momentum": {
+      "roc_5d": 1.27,
+      "roc_10d": 7.86,
+      "roc_21d": 10.53
+    },
+    "z_score_50": 1.76,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 148.10611309130422,
+      "sma_24": 147.22395833333334,
+      "ema_48": 147.60970256827613,
+      "sma_48": 148.0055046081543,
+      "ema_120": 144.73323381650636,
+      "sma_120": 144.02235666910806,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 150.22000122070312,
+    "dist_from_50sma_pct": 4.3,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 1.43,
+      "above_sma_24": true,
+      "pct_from_sma_24": 2.04,
+      "above_ema_48": true,
+      "pct_from_ema_48": 1.77,
+      "above_sma_48": true,
+      "pct_from_sma_48": 1.5,
+      "above_ema_120": true,
+      "pct_from_ema_120": 3.79,
+      "above_sma_120": true,
+      "pct_from_sma_120": 4.3,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 14922.0
+    },
+    "rsi": {
+      "rsi_21": 76.48
+    },
+    "rsi_divergence": {
+      "bullish": true,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 0.6218,
+      "signal_line": 0.5045,
+      "histogram": 0.1174,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 151.96,
+      "middle": 148.01,
+      "lower": 144.05,
+      "width": 0.0534,
+      "pct_b": 0.7801
+    },
+    "atr": {
+      "atr_24": 1.13,
+      "atr_pct": 0.75
+    },
+    "adx": {
+      "adx_24": 10.21,
+      "plus_di": 23.53,
+      "minus_di": 19.53,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 14877,
+      "avg_volume_20": 83037,
+      "relative_volume": 0.18,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 150.71,
+          "tests": 13,
+          "volume_confirmed": false
+        },
+        {
+          "price": 158.27,
+          "tests": 3,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 145.32,
+          "tests": 11,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 150.71,
+      "nearest_support": 145.32,
+      "recent_high": 150.41,
+      "recent_low": 144.11,
+      "prev_day_high": 149.57,
+      "prev_day_low": 148.99,
+      "prev_day_close": 149.4
+    },
+    "fibonacci": {
+      "swing_high": 150.71,
+      "swing_low": 144.11,
+      "fib_236": 149.15,
+      "fib_382": 148.19,
+      "fib_500": 147.41,
+      "fib_618": 146.63,
+      "fib_786": 145.52,
+      "fib_ext_1272": 152.5,
+      "fib_ext_1618": 154.79,
+      "fib_ext_2000": 157.31,
+      "fib_ext_low_1272": 142.32,
+      "fib_ext_low_1618": 140.03
+    },
+    "momentum": {
+      "roc_5d": 0.84,
+      "roc_10d": 2.18,
+      "roc_21d": 3.45
+    },
+    "z_score_120": 0.98,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 79,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 139.5,
+    "recent_changes": "TD Cowen reiterated Buy and raised PT to $170 (from $150) on 2026-05-14. TipRanks shows month-to-date 13 Buy / 40 Hold / 0 Sell with overall consensus Buy; 3-month avg PT $139.50 (range $128-$145)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-07",
+    "days_until_next": 79,
+    "notes": "Q1 2026 already reported; next call Aug 7, 2026. Management signaled possible upward AFFO guidance revision on August call (current 2025 AFFO/share guide $8.13-$8.28). Programmatic revenue +~25% YoY to ~$11M; digital billboards ~31% of billings."
+  }
+}

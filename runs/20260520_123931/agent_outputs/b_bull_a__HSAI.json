@@ -1,0 +1,28 @@
+{
+  "ticker": "HSAI",
+  "setup_direction": "short",
+  "bull_strength": 4,
+  "entry_zone": {"low": 19.51, "high": 19.90},
+  "target": 17.56,
+  "stop": 21.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Full Stage 4 downtrend stack: price $20.02 below EMA5/10/20/50/200 with moving_averages.ema_aligned_downtrend = true; pct_from_sma_200 = -15.91% and pct_from_ema_50 = -11.16%; daily momentum.roc_21d = -8.56% confirming sustained distribution.",
+    "Hourly trend is strongly bearish: hourly adx_24 = 34.38 (strong) with minus_di 45.65 vs plus_di 11.29, hourly macd histogram = -0.3383, hourly z_score_120 = -1.72 — institutional selling pressure not yet exhausted despite the rebound off $19.51.",
+    "Volume confirms the breakdown: yesterday's 19.51 low printed on relative_volume 2.59x (4.43M vs 1.71M avg-20) with daily volume_bias_10d = 'down' and OBV trending down; sellers showed up in size at the prior $20.48 pivot-low support breach."
+  ],
+  "risks_acknowledged": [
+    "News flow is overwhelmingly POSITIVE and very fresh: Q1 2026 beat (revenue +29.6% YoY, profit turnaround), Q2 guide RMB850-900M above consensus, Mercedes-Benz L3 partnership, ETX lidar reveal, planned Hong Kong listing — premarket gapped +9% on the print. A short into this fundamental backdrop fights the tape.",
+    "Analyst consensus is Strong Buy with avg PT $32.09 (range $24.95-$40.28) — ~60% above current $20.02; any analyst upgrade post-earnings can squeeze the short violently.",
+    "daily_indicators.rsi_14 = 39.71 and bollinger.pct_b = -0.0668 (price below lower band) signal short-term oversold — risk of mean-reversion bounce toward EMA20 ($22.10) before resumption of downtrend; entry at $19.51-$19.90 is chasing the breakdown candle.",
+    "ADX_14 = 14.97 (weak daily trend strength) contradicts the hourly strong-bear reading; daily timeframe says the move is not yet a confirmed sustained trend, raising whiplash risk."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/news/HSAI/hesai-group-reports-first-quarter-2026-unaudited-financial-wgvrptc5slt8.html",
+    "https://www.chartmill.com/news/HSAI/Chartmill-48721-Hesai-Group-NASDAQHSAI-Q1-2026-Earnings-Beat-Profit-Estimates-on-Robust-Lidar-Growth",
+    "https://www.fool.com/earnings/call-transcripts/2026/05/19/hesai-hsai-q1-2026-earnings-call-transcript/",
+    "https://www.quiverquant.com/news/HESAI+GROUP+%28%24HSAI%29+Releases+Q1+2026+Earnings",
+    "https://simplywall.st/stocks/us/automobiles/nasdaq-hsai/hesai-group/news/why-hesai-group-hsai-is-up-after-profit-rebound-and-hong-kon",
+    "https://www.webull.com/news/13344204497183744"
+  ]
+}

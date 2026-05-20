@@ -1,0 +1,429 @@
+{
+  "ticker": "HSAI",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 19.9,
+  "invalidation_level": 21.0,
+  "catalyst_note": "Minervini Stage 4 momentum breakdown structure (price below SMA200 below SMA50) flagged by scanner; premarket flat at $20.28 with no adverse gap \u2014 setup structurally intact but awaits a confirmed breakdown below $20 support.",
+  "conviction": 3,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "Hesai Q1 2026 revenue up 29.6%, net income RMB18M",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.stocktitan.net/news/HSAI/hesai-group-reports-first-quarter-2026-unaudited-financial-wgvrptc5slt8.html",
+      "sentiment": "positive",
+      "summary": "Q1 2026 revenue RMB680.6M (+29.6% YoY); GAAP net income RMB18.3M, a turnaround from a RMB17.5M net loss in Q1 2025. 471,723 lidar units shipped (+140.9% YoY)."
+    },
+    {
+      "title": "Hesai Group (NASDAQ:HSAI) Q1 2026 Earnings Beat Profit Estimates on Robust Lidar Growth",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.chartmill.com/news/HSAI/Chartmill-48721-Hesai-Group-NASDAQHSAI-Q1-2026-Earnings-Beat-Profit-Estimates-on-Robust-Lidar-Growth",
+      "sentiment": "positive",
+      "summary": "Q1 earnings beat profit estimates. ADAS lidar units +141.9% YoY to 353,441; robotics lidar +137.8% to 118,282. Q2 guidance RMB850-900M (+20-27% YoY) above consensus."
+    },
+    {
+      "title": "Hesai (HSAI) Q1 2026 Earnings Call Transcript",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/19/hesai-hsai-q1-2026-earnings-call-transcript/",
+      "sentiment": "positive",
+      "summary": "Management emphasized accelerating multi-lidar platform adoption and higher content per vehicle as L3 autonomy expands. Backlog exceeds 6 million units with significant new design wins in automotive and robotics."
+    },
+    {
+      "title": "HESAI GROUP ($HSAI) Releases Q1 2026 Earnings",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.quiverquant.com/news/HESAI+GROUP+%28%24HSAI%29+Releases+Q1+2026+Earnings",
+      "sentiment": "positive",
+      "summary": "Q1 release confirmed Mercedes-Benz strategic lidar partnership for L3 autonomy models. Pre-market shares rose ~9% on the beat plus above-consensus guidance."
+    },
+    {
+      "title": "Why Hesai Group (HSAI) Is Up After Profit Rebound and Hong Kong Listing Plans",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://simplywall.st/stocks/us/automobiles/nasdaq-hsai/hesai-group/news/why-hesai-group-hsai-is-up-after-profit-rebound-and-hong-kon",
+      "sentiment": "positive",
+      "summary": "Shares higher after profit rebound and disclosure of Hong Kong secondary listing plans. New ETX lidar reveal also cited as a catalyst."
+    },
+    {
+      "title": "Hesai Group Is Up 13.1% After Profit Turnaround and New ETX Lidar Reveal",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.webull.com/news/13344204497183744",
+      "sentiment": "positive",
+      "summary": "Stock +13.1% on the session following profit turnaround and ETX lidar product reveal. Picasso 6D SPAD-SoC and Kosmo spatial intelligence device cited as moves into higher-margin software/data."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 20.024999618530273,
+  "market_cap": 3226129664.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 22.219999313354492,
+      "high": 24.40999984741211,
+      "low": 22.040000915527344,
+      "close": 24.040000915527344,
+      "volume": 3043300
+    },
+    {
+      "time": "2026-05-14",
+      "open": 23.399999618530273,
+      "high": 23.719999313354492,
+      "low": 22.760000228881836,
+      "close": 23.610000610351562,
+      "volume": 1112000
+    },
+    {
+      "time": "2026-05-15",
+      "open": 22.559999465942383,
+      "high": 22.649999618530273,
+      "low": 21.920000076293945,
+      "close": 22.440000534057617,
+      "volume": 1079100
+    },
+    {
+      "time": "2026-05-18",
+      "open": 22.6299991607666,
+      "high": 22.770000457763672,
+      "low": 21.299999237060547,
+      "close": 22.010000228881836,
+      "volume": 2040700
+    },
+    {
+      "time": "2026-05-19",
+      "open": 21.600000381469727,
+      "high": 21.81999969482422,
+      "low": 19.510000228881836,
+      "close": 20.024999618530273,
+      "volume": 4428000
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 21.66158164731544,
+      "sma_5": 22.425000381469726,
+      "ema_10": 21.968470885469095,
+      "sma_10": 22.122500228881837,
+      "ema_20": 22.095995224926344,
+      "sma_20": 22.10275001525879,
+      "ema_21": 22.105477867775136,
+      "sma_21": 22.06833330790202,
+      "ema_50": 22.540513019385372,
+      "sma_50": 22.20129997253418,
+      "ema_200": 22.398697308341166,
+      "sma_200": 23.812475047111512,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 20.024999618530273,
+    "dist_from_50sma_pct": -9.8,
+    "price_vs_ma": {
+      "above_ema_5": false,
+      "pct_from_ema_5": -7.56,
+      "above_sma_5": false,
+      "pct_from_sma_5": -10.7,
+      "above_ema_10": false,
+      "pct_from_ema_10": -8.85,
+      "above_sma_10": false,
+      "pct_from_sma_10": -9.48,
+      "above_ema_20": false,
+      "pct_from_ema_20": -9.37,
+      "above_sma_20": false,
+      "pct_from_sma_20": -9.4,
+      "above_ema_21": false,
+      "pct_from_ema_21": -9.41,
+      "above_sma_21": false,
+      "pct_from_sma_21": -9.26,
+      "above_ema_50": false,
+      "pct_from_ema_50": -11.16,
+      "above_sma_50": false,
+      "pct_from_sma_50": -9.8,
+      "above_ema_200": false,
+      "pct_from_ema_200": -10.6,
+      "above_sma_200": false,
+      "pct_from_sma_200": -15.91,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1902.5
+    },
+    "rsi": {
+      "rsi_7": 39.18,
+      "rsi_14": 39.71,
+      "rsi_21": 44.09
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.1506,
+      "signal_line": -0.0628,
+      "histogram": -0.0878,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 23.94,
+      "middle": 22.1,
+      "lower": 20.27,
+      "width": 0.1659,
+      "pct_b": -0.0668
+    },
+    "atr": {
+      "atr_14": 1.28,
+      "atr_pct": 6.4
+    },
+    "adx": {
+      "adx_14": 14.97,
+      "plus_di": 21.17,
+      "minus_di": 29.19,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 4428000,
+      "avg_volume_20": 1709660,
+      "relative_volume": 2.59,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 23.69,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 24.96,
+          "tests": 9,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 17.56,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 20.48,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 22.64,
+          "tests": 16,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 23.69,
+      "nearest_support": 17.56,
+      "recent_high": 24.41,
+      "recent_low": 19.51,
+      "prev_day_high": 22.77,
+      "prev_day_low": 21.3,
+      "prev_day_close": 22.01
+    },
+    "fibonacci": {
+      "swing_high": 24.96,
+      "swing_low": 19.51,
+      "fib_236": 23.67,
+      "fib_382": 22.88,
+      "fib_500": 22.23,
+      "fib_618": 21.59,
+      "fib_786": 20.68,
+      "fib_ext_1272": 26.44,
+      "fib_ext_1618": 28.33,
+      "fib_ext_2000": 30.41,
+      "fib_ext_low_1272": 18.03,
+      "fib_ext_low_1618": 16.14
+    },
+    "momentum": {
+      "roc_5d": -6.38,
+      "roc_10d": -6.34,
+      "roc_21d": -8.56
+    },
+    "z_score_50": -1.22,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 21.19638278601311,
+      "sma_24": 21.490083535512287,
+      "ema_48": 21.683239073393835,
+      "sma_48": 22.06380848089854,
+      "ema_120": 21.94366591650619,
+      "sma_120": 22.13057085673014,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 20.530000686645508,
+    "dist_from_50sma_pct": -7.23,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -3.14,
+      "above_sma_24": false,
+      "pct_from_sma_24": -4.47,
+      "above_ema_48": false,
+      "pct_from_ema_48": -5.32,
+      "above_sma_48": false,
+      "pct_from_sma_48": -6.95,
+      "above_ema_120": false,
+      "pct_from_ema_120": -6.44,
+      "above_sma_120": false,
+      "pct_from_sma_120": -7.23,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1953.0
+    },
+    "rsi": {
+      "rsi_21": 36.45
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.5253,
+      "signal_line": -0.1871,
+      "histogram": -0.3383,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 24.71,
+      "middle": 22.06,
+      "lower": 19.42,
+      "width": 0.2401,
+      "pct_b": 0.2104
+    },
+    "atr": {
+      "atr_24": 0.49,
+      "atr_pct": 2.41
+    },
+    "adx": {
+      "adx_24": 34.38,
+      "plus_di": 11.29,
+      "minus_di": 45.65,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 424286,
+      "avg_volume_20": 355537,
+      "relative_volume": 1.19,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 22.5,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 23.72,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 24.4,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 19.51,
+          "tests": 3,
+          "volume_confirmed": true
+        },
+        {
+          "price": 20.83,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 21.92,
+          "tests": 14,
+          "volume_confirmed": true
+        },
+        {
+          "price": 22.76,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 22.5,
+      "nearest_support": 19.51,
+      "recent_high": 22.71,
+      "recent_low": 19.51,
+      "prev_day_high": 20.27,
+      "prev_day_low": 20.01,
+      "prev_day_close": 20.02
+    },
+    "fibonacci": {
+      "swing_high": 24.31,
+      "swing_low": 19.51,
+      "fib_236": 23.17,
+      "fib_382": 22.47,
+      "fib_500": 21.91,
+      "fib_618": 21.34,
+      "fib_786": 20.54,
+      "fib_ext_1272": 25.61,
+      "fib_ext_1618": 27.27,
+      "fib_ext_2000": 29.1,
+      "fib_ext_low_1272": 18.21,
+      "fib_ext_low_1618": 16.55
+    },
+    "momentum": {
+      "roc_5d": 4.43,
+      "roc_10d": -3.74,
+      "roc_21d": -7.9
+    },
+    "z_score_120": -1.72,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 85,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 32.09,
+    "recent_changes": "No analyst-rating changes in the last 7 days found in this search. Standing consensus is Strong Buy with average 12-month price target $32.09 (range $24.95-$40.28); TipRanks cites 5-analyst Strong Buy with 2026 PT $29.96 as of 2026-04-18."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 just reported 2026-05-19: revenue +29.6% YoY, GAAP profit turnaround, Q2 guide RMB850-900M (+20-27% YoY) above consensus. Next earnings (Q2) typically falls in August; no confirmed date in search results. Forward catalysts: Mercedes-Benz L3 ramp, ETX lidar adoption, Picasso 6D/Kosmo software-margin shift, 6M+ unit backlog, planned Hong Kong listing."
+  }
+}

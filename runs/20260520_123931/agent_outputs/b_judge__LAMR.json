@@ -1,0 +1,11 @@
+{
+  "ticker": "LAMR",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "LAMR",
+      "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 3 quantity=floor(250/2.975)=84 at entry $150.375 → notional $12,631.50 exceeds 15% cap ($3,750). Small-scaled path: M=floor(5000/150.375)=33 shares → notional $4,962 fits 20% extended cap, but risk_M = 33 × 2.975 = $98.18 falls below 40%-of-risk-budget floor ($100). Single-share entry uses only ~39% of risk budget — fails small_scaled floor by $1.83. Direction consensus PASS, Gate 1 budget PASS, Gate 2 expected return PASS (+$1.575/share with combined_p_bull=0.5), but discrete-share constraint at $150 price point on a $25k account with $2.975 risk-per-share means no valid quantity satisfies both caps simultaneously."
+    }
+  ],
+  "summary": "LAMR long rejected at Gate 4: $150 entry with tight $2.975 stop produces a discrete-share trap — full risk-budget quantity (84 shares) violates 15% single-position cap, and the small-scaled fallback (33 shares at 20% cap) deploys only 39.3% of risk budget, just under the 40% floor. Expected return positive and trend structure clean, but capital math doesn't fit."
+}

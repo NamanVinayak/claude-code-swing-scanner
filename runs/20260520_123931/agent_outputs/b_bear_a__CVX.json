@@ -1,0 +1,22 @@
+{
+  "ticker": "CVX",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [193.47, 190.18, 187.5],
+  "top_3_arguments": [
+    "Price is mechanically over-extended — daily bollinger.pct_b = 1.0662 (closed ABOVE the upper band at $196.04) and hourly rsi_21 = 78.27 (overbought). Daily momentum.roc_5d = 7.05% means the 'pullback to support' setup_type is already vertical; entry at watch_level $197.28 buys into the BB upper-band breach, not a pullback. The 5-day bar series shows a one-way move from $184.31 → $197.25 (+7.0%) with no consolidation — high probability of mean-reversion back to ema_20 $188.09 or fib_236 $193.50 before any continuation.",
+    "Hourly volume is rolling over despite the rip: hourly volume.relative_volume = 0.72, volume_bias_10d = 'down', and obv.trend = 'down' with diverging_from_price = TRUE — a textbook hourly bearish OBV divergence into the high. Daily adx_14 = 10.88 ('weak') confirms there is NO trend strength backing this move on the timeframe that matters for a multi-day swing; the daily MACD signal_line is still negative (-0.9807) — the bullish_crossover flag is FALSE despite the histogram +1.407. Buying overbought hourly RSI into a weak-ADX daily tape with declining hourly participation is the classic distribution-into-strength signature.",
+    "Reward-to-risk at the stated entry is broken. Entry watch_level $197.28 → invalidation_level $193.50 = $3.78 risk (-1.92%). Nearest credible upside target is the daily.support_resistance.pivot_high at $212.76 (only 1 test, untested supply) but blocking that is the recent_high $198.87 (already tagged today at intraday high $198.87) and fib_ext_1272 $205.06. Even using the optimistic $205.06 target = $7.78 reward vs $3.78 risk = 2.06:1 — marginal, and that assumes a clean break of $198.87 that just rejected. To the obvious $198.87 cap, R:R collapses to ~0.4:1. Catalyst_note already concedes 'premarket gap down to $195.06 has reduced risk-reward'; Stage 2 conviction was 3/10 for a reason."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely intact on the daily: price above ema_5/10/20/21/50/200 with ema_aligned_uptrend = true, daily rsi_divergence.bullish = true, and daily obv.trend = 'up' not diverging — no daily breakdown signal yet.",
+    "Macro/fundamental tailwinds are real and corroborated by recent_news_7d: RBC raised PT, analyst_consensus_web avg PT $214.70 (+8.8% from current), Q1 EPS beat by +46.87%, no earnings risk (72 days out), and dividend ex-date just passed — supportive backdrop for dip buyers if price actually pulls back to support.",
+    "Hourly adx_24 = 46.02 ('strong') with plus_di 38.54 >> minus_di 13.47 confirms an active short-term uptrend; bears trying to short into this without a lower-high pattern get run over."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/quote/CVX/press-releases/",
+    "https://tradersunion.com/news/financial-news/show/1996369-chevron-gains-0-73percent-this-week/",
+    "https://www.marketbeat.com/stocks/NYSE/CVX/",
+    "https://www.benzinga.com/quote/CVX/analyst-ratings"
+  ]
+}

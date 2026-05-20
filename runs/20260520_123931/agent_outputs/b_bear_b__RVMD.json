@@ -1,0 +1,21 @@
+{
+  "ticker": "RVMD",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Catalyst exhaustion risk: the two positive thesis-driving events (NEJM publication 2026-05-15, FDA expanded access 2026-05-14) are already in the tape, and per earnings_context_web the stock is +52.9% over the past month. With days_until_next earnings = 77 (next print 2026-08-05) there is no near-term fundamental catalyst to refresh the bid — the trade is buying a clinical-stage biotech AFTER the headline, not before.",
+    "Q1 2026 earnings (reported 2026-05-06, within the last 7 days per earnings_context_web) was a miss: non-GAAP EPS -$2.29 vs -$1.86 expected on $0 revenue. The wider-than-expected cash burn for a pre-revenue biotech with $32B market cap (market_cap = 31.98B) materially raises dilution / financing-overhang risk before NDA filing, and the bull thesis has no revenue ramp to offset it.",
+    "Setup is stretched and unconfirmed despite the bullish narrative: daily relative_volume = 0.69 with volume_bias_10d = 'down' and OBV trending down, MACD histogram is negative (-1.336) and below signal line (no bullish crossover), price sits +20.37% above SMA50 and +77.77% above SMA200 (z_score_50 = 1.02), and the $150 round-number resistance has 13 tests / volume-confirmed — into that wall, current price 147.30 is BELOW invalidation_level 147.30 with watch_level 150.50 still overhead. A failed breakout into a confirmed multi-test resistance with declining volume is a classic distribution setup, not continuation."
+  ],
+  "bull_acknowledgements": [
+    "Clinical/regulatory progression is genuine and fresh: NEJM peer-reviewed Phase 1/2 data plus FDA expanded access for daraxonrasib both within the last 7 days are real de-risking events for the lead asset.",
+    "Sell-side is unambiguously constructive — analyst_consensus_web shows 20 buy / 0 hold / 0 sell with avg PT $176.95 (~+20% above current), with three top-tier shops (Wedbush, Piper Sandler, Needham) reiterating/initiating on 2026-05-07.",
+    "Trend structure on the daily is intact (ema_aligned_uptrend = true, all MAs from EMA5 through EMA200 below price), recent_insider_trades is empty (no insider selling cluster to flag) and earnings.days_until_next = 77 means no immediate earnings-blackout risk to the trade."
+  ],
+  "web_sources_last_7d": [
+    "https://www.stocktitan.net/news/RVMD/revolution-medicines-announces-publication-in-new-england-journal-of-6xcapekbzv3p.html",
+    "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-rvmd/revolution-medicines/news/is-wider-losses-and-fda-expanded-access-for-daraxonrasib-alt",
+    "https://www.benzinga.com/quote/RVMD/analyst-ratings"
+  ]
+}

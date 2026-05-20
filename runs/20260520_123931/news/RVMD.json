@@ -1,0 +1,42 @@
+{
+  "ticker": "RVMD",
+  "researched_at": "2026-05-20T19:40:15Z",
+  "news_items": [
+    {
+      "headline": "Revolution Medicines announces NEJM publication of daraxonrasib Phase 1/2 data in pancreatic cancer",
+      "url": "https://www.stocktitan.net/news/RVMD/revolution-medicines-announces-publication-in-new-england-journal-of-6xcapekbzv3p.html",
+      "date": "2026-05-15",
+      "sentiment": "positive",
+      "summary": "NEJM published Phase 1/2 daraxonrasib data supporting rationale for the pivotal RASolute 302 Phase 3 trial in metastatic pancreatic cancer. Peer-reviewed validation of lead asset."
+    },
+    {
+      "headline": "FDA grants expanded access for daraxonrasib following positive RASolute 302 Phase 3 data; NDA submission planned",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-rvmd/revolution-medicines/news/is-wider-losses-and-fda-expanded-access-for-daraxonrasib-alt",
+      "date": "2026-05-14",
+      "sentiment": "positive",
+      "summary": "FDA expanded access program for daraxonrasib granted on the back of Phase 3 RASolute 302 results; company guided to NDA submission. Regulatory progression catalyst."
+    },
+    {
+      "headline": "Wedbush, Piper Sandler, and Needham reiterate/initiate bullish on RVMD",
+      "url": "https://www.benzinga.com/quote/RVMD/analyst-ratings",
+      "date": "2026-05-07",
+      "sentiment": "positive",
+      "summary": "Three sell-side notes from Wedbush, Piper Sandler, and Needham issued same day in the wake of daraxonrasib Phase 3 data — contributed to the 20/0/0 buy/hold/sell consensus."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 176.95,
+    "recent_changes": "Wedbush, Piper Sandler, Needham all issued ratings on 2026-05-07 in wake of Phase 3 RASolute 302 data; sweep of PT hikes industry-wide post-ASCO Plenary. Consensus 20 buy / 0 hold / 0 sell with high $263 / low $140."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 77,
+    "notes": "Q1 2026 reported 2026-05-06: $0 revenue (clinical-stage), non-GAAP EPS -$2.29 vs -$1.86 expected (miss on loss size). Street focus shifted from financials to daraxonrasib clinical/regulatory cadence — Phase 3 RASolute 302 readout already in hand, NDA submission and FDA expanded access are the live catalysts. Stock +52.9% over past month."
+  },
+  "raw_search_files": [
+    "RVMD_news-this-week.json",
+    "RVMD_analyst-rating.json",
+    "RVMD_earnings-catalyst.json"
+  ]
+}

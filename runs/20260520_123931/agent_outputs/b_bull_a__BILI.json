@@ -1,0 +1,27 @@
+{
+  "ticker": "BILI",
+  "setup_direction": "short",
+  "bull_strength": 6,
+  "entry_zone": {"low": 18.60, "high": 18.80},
+  "target": 15.73,
+  "stop": 20.20,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Full bearish MA stack confirmed: daily ema_aligned_downtrend=true; price 20.00 is below every MA (pct_from_ema_20=-7.20, pct_from_ema_50=-14.08, pct_from_sma_200=-23.86); hourly ema_aligned_downtrend=true with current_price 18.565 already below daily close, validating breakdown continuation.",
+    "Strong directional trend with bears in control: daily adx_14=33.68 (strong) with minus_di=32.12 vs plus_di=16.78; hourly adx_24=56.57 with minus_di=47.19 vs plus_di=9.42; momentum.roc_21d=-19.9% and roc_10d=-7.19% confirm persistent distribution, and hourly rsi_divergence.bearish=true flags exhaustion on any bounce attempt.",
+    "Breakdown trigger setup with measurable downside: yesterday's range bottomed at 18.30 (recent_low / pivot_low tests=1 volume_confirmed=true); daily bollinger pct_b=0.1169 and hourly pct_b=0.0994 show price pinned at lower band with width=0.1839 still wide enough to extend; fib_ext_low_1272=16.31 and fib_ext_low_1618=15.73 give an objective target below the 18.30 swing low, and relative_volume=4.25 on yesterday's session confirms institutional offer."
+  ],
+  "risks_acknowledged": [
+    "Counter-trend fundamental backdrop: JPMorgan upgrade to Overweight with PT raised to $35 (2026-05-16) and consensus rating Strong Buy across 31 analysts with avg PT $31.17 vs spot $20.00 — any sympathetic China-tech bid or short-cover squeeze could rip price back through 20.15 invalidation quickly.",
+    "RSI already stretched to the downside (daily rsi_21=28.96, rsi_7=32.24) and OBV trend=up diverging from price on the daily — classic mean-reversion fuel; entry on a further breakdown rather than chasing 20.00 is essential.",
+    "No nearest_support on daily reading (nearest_support=null) means the 18.30 hourly pivot is the only nearby floor; if it holds, the short can chop in a 18.30-20.15 range and bleed time/ATR (atr_pct=4.53%) before resolving.",
+    "Q1 2026 print (2026-05-15) was a mixed beat (EPS beat, revenue ~3% miss) — any positive re-read from sell-side or upward Q2 pre-announcement noise inside the holding window could invalidate the breakdown."
+  ],
+  "web_sources_last_7d": [
+    "https://www.chartmill.com/news/BILI/Chartmill-48724-Bilibili-NASDAQBILI-Q1-Earnings-Beat-Clouded-by-Revenue-Miss",
+    "https://finance.yahoo.com/markets/stocks/articles/bilibili-inc-bili-q1-2026-190108034.html",
+    "https://public.com/stocks/bili/forecast-price-target",
+    "https://www.marketbeat.com/stocks/NASDAQ/BILI/news/",
+    "https://finance.yahoo.com/news/upgraded-earnings-outlook-might-change-170437787.html"
+  ]
+}

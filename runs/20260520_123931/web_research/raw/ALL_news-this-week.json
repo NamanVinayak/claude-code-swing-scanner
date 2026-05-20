@@ -1,0 +1,18 @@
+{
+  "query": "ALL news this week",
+  "fetched_at": "2026-05-20T19:40:00Z",
+  "results": [
+    {"title": "The Allstate Corporation (ALL) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ALL/"},
+    {"title": "The Allstate Corporation (ALL) Stock Price, Quote, News & Analysis | Seeking Alpha", "url": "https://seekingalpha.com/symbol/ALL"},
+    {"title": "The Allstate Corporation (ALL) Latest Stock News & Headlines - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ALL/news/"},
+    {"title": "ALL Stock Price and Chart — NYSE:ALL — TradingView", "url": "https://www.tradingview.com/symbols/NYSE-ALL/"},
+    {"title": "The Allstate Corporation (ALL) Latest Press Releases & Corporate News - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ALL/press-releases/"},
+    {"title": "Allstate Corporation (The) Common Stock (ALL) Stock Price, News, Quotes, & Historic Data | Nasdaq", "url": "https://www.nasdaq.com/market-activity/stocks/all"},
+    {"title": "ALL Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/ALL"},
+    {"title": "Allstate (the) Stock Price Forecast. Should You Buy ALL?", "url": "https://stockinvest.us/stock/ALL"},
+    {"title": "ALL: Allstate Corp - Stock Price, Quote and News - CNBC", "url": "https://www.cnbc.com/quotes/ALL"},
+    {"title": "VIRGINIA RETIREMENT SYSTEMS ET Al Acquires 29,200 Shares of The Allstate Corporation $ALL", "url": "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-29200-shares-of-the-allstate-corporation-all-2026-05-14/"}
+  ],
+  "summary_from_search": "Q1 2026 earnings: adj EPS $10.65, revenue $16.9B, combined ratio 82%, underwriting income $2.7B. Announced 8% dividend increase + $4B buyback. Piper Sandler and Citi raised price targets. All-time high $222.23 on 2026-05-05. Market cap $56.94B. Up 1.67% over last week. Next earnings 2026-08-05. Virginia Retirement Systems disclosed 29,200 share acquisition on 2026-05-14.",
+  "note": "Refined query used: 'Allstate Corporation NYSE:ALL stock news May 2026'. Initial verbatim query 'ALL news this week' returned generic news (ticker treated as the word 'all'); refined search applied to recover ticker-specific results."
+}

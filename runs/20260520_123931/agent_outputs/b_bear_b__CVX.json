@@ -1,0 +1,22 @@
+{
+  "ticker": "CVX",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Entry is chasing extension, not a pullback: at $197.25 CVX is +5.94% above sma_10 ($186.18), +5.54% above sma_20 ($186.90), and bollinger pct_b = 1.0662 on the daily (above the upper band at $196.04). roc_5d = 7.05% and roc_21d = 8.63% mean the bulk of the move has already happened — fundamental buyers who were going to chase $214.7 avg PT have largely chased; long-side fuel is thinner than the conviction=3 setup implies.",
+    "Berkshire Hathaway TRIMMED CVX in the latest 13F (news item 2026-05-15) — the single largest, most valuation-disciplined holder is reducing into strength. Combined with the analyst skew (23 analysts: 18 Buy / 6 Hold / 1 Sell, low PT $170 ≈ -13.8% downside vs $214.7 avg ≈ +8.8% upside), reward/risk on a fundamental basis is roughly symmetric, not the asymmetric upside a pullback-to-support long needs.",
+    "Catalyst calendar is empty for 72 days (earnings.days_until_next = 72, next earnings 2026-07-31) and there are NO recent_insider_trades to confirm management conviction at these prices. The bull case rests on already-public Q1 beat ($1.41 vs $0.96, reported 2026-05-01 — outside the 7-day window, context-only/already priced in), the Venezuela asset swap (2026-05-14, RBC PT raise already absorbed), and a $1.78 dividend (ex-date 2026-05-19 means the stock will trade ex-div, mechanical drag, not a tailwind). With no fresh catalyst inside 72 days, $214.7 PT is a slow grind, not a swing-trade catalyst."
+  ],
+  "bull_acknowledgements": [
+    "Q1 2026 EPS beat was substantial (+46.87% vs consensus) and crude tailwinds from Middle East conflict added ~$1.7B to the quarter — the fundamental floor is real and supportive of the long-term trend.",
+    "Analyst consensus is genuinely constructive: Buy rating with $214.7 avg PT (~8.8% upside), RBC PT $220 set 2026-05-05, and $2.5B in Q1 buybacks plus the $1.78 dividend constitute real shareholder-return support.",
+    "ema_aligned_uptrend = true on both daily and hourly, ema_200 well below price (+16.68%), and bullish rsi divergence on the daily — the longer-term fundamental/technical trend is intact even if this specific entry is extended."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/quote/CVX/press-releases/",
+    "https://tradersunion.com/news/financial-news/show/1996369-chevron-gains-0-73percent-this-week/",
+    "https://www.marketbeat.com/stocks/NYSE/CVX/",
+    "https://www.benzinga.com/quote/CVX/analyst-ratings"
+  ]
+}

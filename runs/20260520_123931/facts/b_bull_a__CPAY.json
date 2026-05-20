@@ -1,0 +1,390 @@
+{
+  "ticker": "CPAY",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 347.0,
+  "invalidation_level": 341.0,
+  "catalyst_note": "TradingView strong_buy + trending_up signals on a trend-continuation setup; premarket gap of +0.96% holds above prior close without overextending.",
+  "conviction": 4,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "Corpay partners with BVNK to add stablecoin wallets",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://investor.corpay.com/",
+      "sentiment": "positive",
+      "summary": "Corpay announced a partnership with BVNK to integrate stablecoin wallet capability, extending its cross-border payments stack."
+    },
+    {
+      "title": "Corpay price target raised to $400 from $390 at Morgan Stanley",
+      "source": "web_research",
+      "date": "2026-05-14",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CPAY/",
+      "sentiment": "positive",
+      "summary": "Morgan Stanley raised its 12-month price target on CPAY to $400 from $390, maintaining a constructive stance post-Q1."
+    },
+    {
+      "title": "Loop Capital initiates Corpay with Buy rating, $406 PT",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://stockanalysis.com/stocks/cpay/ratings/",
+      "sentiment": "positive",
+      "summary": "Loop Capital initiated coverage on CPAY with a Buy rating and a $406 price target, citing corporate payments and cross-border growth."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 343.1400146484375,
+  "market_cap": 22236778496.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 334.8800048828125,
+      "high": 336.1499938964844,
+      "low": 324.0799865722656,
+      "close": 331.25,
+      "volume": 557500
+    },
+    {
+      "time": "2026-05-14",
+      "open": 333.4700012207031,
+      "high": 336.1600036621094,
+      "low": 326.7300109863281,
+      "close": 329.1700134277344,
+      "volume": 321900
+    },
+    {
+      "time": "2026-05-15",
+      "open": 327.3599853515625,
+      "high": 331.17999267578125,
+      "low": 325.7699890136719,
+      "close": 328.2300109863281,
+      "volume": 400800
+    },
+    {
+      "time": "2026-05-18",
+      "open": 328.239990234375,
+      "high": 348.7099914550781,
+      "low": 327.45001220703125,
+      "close": 348.5,
+      "volume": 742000
+    },
+    {
+      "time": "2026-05-19",
+      "open": 352.5,
+      "high": 354.9700012207031,
+      "low": 341.6300048828125,
+      "close": 343.1400146484375,
+      "volume": 750100
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 338.29525059686557,
+      "sma_5": 336.0580078125,
+      "ema_10": 332.5592459880824,
+      "sma_10": 331.5380004882812,
+      "ema_20": 325.8662084502813,
+      "sma_20": 321.59900054931643,
+      "ema_21": 325.41049212653365,
+      "sma_21": 321.99571446010043,
+      "ema_50": 319.274698195583,
+      "sma_50": 312.38859924316404,
+      "ema_200": 313.91131249069537,
+      "sma_200": 308.5550999450684,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 343.1400146484375,
+    "dist_from_50sma_pct": 9.84,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 1.43,
+      "above_sma_5": true,
+      "pct_from_sma_5": 2.11,
+      "above_ema_10": true,
+      "pct_from_ema_10": 3.18,
+      "above_sma_10": true,
+      "pct_from_sma_10": 3.5,
+      "above_ema_20": true,
+      "pct_from_ema_20": 5.3,
+      "above_sma_20": true,
+      "pct_from_sma_20": 6.7,
+      "above_ema_21": true,
+      "pct_from_ema_21": 5.45,
+      "above_sma_21": true,
+      "pct_from_sma_21": 6.57,
+      "above_ema_50": true,
+      "pct_from_ema_50": 7.47,
+      "above_sma_50": true,
+      "pct_from_sma_50": 9.84,
+      "above_ema_200": true,
+      "pct_from_ema_200": 9.31,
+      "above_sma_200": true,
+      "pct_from_sma_200": 11.21,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 34214.0
+    },
+    "rsi": {
+      "rsi_7": 48.97,
+      "rsi_14": 69.29,
+      "rsi_21": 52.31
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 7.2949,
+      "signal_line": 4.7366,
+      "histogram": 2.5582,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 352.6,
+      "middle": 321.6,
+      "lower": 290.6,
+      "width": 0.1928,
+      "pct_b": 0.8474
+    },
+    "atr": {
+      "atr_14": 12.88,
+      "atr_pct": 3.75
+    },
+    "adx": {
+      "adx_14": 20.95,
+      "plus_di": 39.0,
+      "minus_di": 14.1,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 750100,
+      "avg_volume_20": 554540,
+      "relative_volume": 1.35,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 301.66,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 343.56,
+          "tests": 9,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 281.16,
+          "tests": 3,
+          "volume_confirmed": false
+        },
+        {
+          "price": 298.46,
+          "tests": 13,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 343.56,
+      "nearest_support": 298.46,
+      "recent_high": 354.97,
+      "recent_low": 298.46,
+      "prev_day_high": 348.71,
+      "prev_day_low": 327.45,
+      "prev_day_close": 348.5
+    },
+    "fibonacci": {
+      "swing_high": 354.97,
+      "swing_low": 297.7,
+      "fib_236": 341.45,
+      "fib_382": 333.09,
+      "fib_500": 326.34,
+      "fib_618": 319.58,
+      "fib_786": 309.96,
+      "fib_ext_1272": 370.55,
+      "fib_ext_1618": 390.36,
+      "fib_ext_2000": 412.24,
+      "fib_ext_low_1272": 282.12,
+      "fib_ext_low_1618": 262.31
+    },
+    "momentum": {
+      "roc_5d": 1.42,
+      "roc_10d": 12.99,
+      "roc_21d": 1.72
+    },
+    "z_score_50": 1.7,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 340.23063479366493,
+      "sma_24": 338.5681266784668,
+      "ema_48": 335.6019640529268,
+      "sma_48": 336.5653661092122,
+      "ema_120": 329.00664981863656,
+      "sma_120": 321.71227951049804,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 340.2099914550781,
+    "dist_from_50sma_pct": 5.75,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -0.01,
+      "above_sma_24": true,
+      "pct_from_sma_24": 0.48,
+      "above_ema_48": true,
+      "pct_from_ema_48": 1.37,
+      "above_sma_48": true,
+      "pct_from_sma_48": 1.08,
+      "above_ema_120": true,
+      "pct_from_ema_120": 3.41,
+      "above_sma_120": true,
+      "pct_from_sma_120": 5.75,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 33921.0
+    },
+    "rsi": {
+      "rsi_21": 63.74
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 5.2917,
+      "signal_line": 4.8437,
+      "histogram": 0.448,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 350.59,
+      "middle": 336.57,
+      "lower": 322.54,
+      "width": 0.0833,
+      "pct_b": 0.63
+    },
+    "atr": {
+      "atr_24": 3.88,
+      "atr_pct": 1.14
+    },
+    "adx": {
+      "adx_24": 37.48,
+      "plus_di": 31.22,
+      "minus_di": 21.9,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 35307,
+      "avg_volume_20": 69601,
+      "relative_volume": 0.51,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 336.15,
+          "tests": 16,
+          "volume_confirmed": false
+        },
+        {
+          "price": 347.26,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 354.97,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 325.77,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 331.52,
+          "tests": 20,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 347.26,
+      "nearest_support": 331.52,
+      "recent_high": 354.97,
+      "recent_low": 326.13,
+      "prev_day_high": 343.36,
+      "prev_day_low": 341.63,
+      "prev_day_close": 343.23
+    },
+    "fibonacci": {
+      "swing_high": 354.97,
+      "swing_low": 325.77,
+      "fib_236": 348.08,
+      "fib_382": 343.82,
+      "fib_500": 340.37,
+      "fib_618": 336.92,
+      "fib_786": 332.02,
+      "fib_ext_1272": 362.91,
+      "fib_ext_1618": 373.02,
+      "fib_ext_2000": 384.17,
+      "fib_ext_low_1272": 317.83,
+      "fib_ext_low_1618": 307.72
+    },
+    "momentum": {
+      "roc_5d": -1.81,
+      "roc_10d": -1.18,
+      "roc_21d": 3.34
+    },
+    "z_score_120": 1.2,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 77,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 384.56,
+    "recent_changes": "Loop Capital initiated Buy with $406 PT (~2026-05-15); Morgan Stanley raised PT to $400 from $390; BofA raised PT to $380 from $377. Consensus 9 buy / 3 hold / 0 sell."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-06",
+    "days_until_next": 78,
+    "notes": "Q1 2026 reported 2026-05-07: EPS $5.80 vs $5.50 consensus, revenue $1.26B vs $1.21B est (+25.4% YoY), shares +11.2% post-print (already priced in). FY2026 guidance raised: EPS $26.30-$27.10, revenue ~$5.3B. Street expects continued cross-border and corporate payments momentum from Alpha Group + Mastercard $300M partnership; key risk is Alpha/GPS/Paymerang integration cost."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "ticker": "CPAY",
+  "researched_at": "2026-05-20T19:42:00Z",
+  "news_items": [
+    {
+      "headline": "Corpay partners with BVNK to add stablecoin wallets",
+      "url": "https://investor.corpay.com/",
+      "date": "2026-05-15",
+      "sentiment": "positive",
+      "summary": "Corpay announced a partnership with BVNK to integrate stablecoin wallet capability, extending its cross-border payments stack."
+    },
+    {
+      "headline": "Corpay highlights cross-border business in new investor presentation",
+      "url": "https://investor.corpay.com/",
+      "date": "2026-05-14",
+      "sentiment": "positive",
+      "summary": "Company published a new investor deck focused on cross-border segment growth and the Alpha Group acquisition contribution."
+    },
+    {
+      "headline": "Corpay price target raised to $400 from $390 at Morgan Stanley",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CPAY/",
+      "date": "2026-05-14",
+      "sentiment": "positive",
+      "summary": "Morgan Stanley raised its 12-month price target on CPAY to $400 from $390, maintaining a constructive stance post-Q1."
+    },
+    {
+      "headline": "Corpay price target raised to $380 from $377 at BofA",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CPAY/",
+      "date": "2026-05-13",
+      "sentiment": "positive",
+      "summary": "Bank of America raised its price target on CPAY to $380 from $377 following Q1 beat and raised guidance."
+    },
+    {
+      "headline": "Loop Capital initiates Corpay with Buy rating, $406 PT",
+      "url": "https://stockanalysis.com/stocks/cpay/ratings/",
+      "date": "2026-05-15",
+      "sentiment": "positive",
+      "summary": "Loop Capital initiated coverage on CPAY with a Buy rating and a $406 price target, citing corporate payments and cross-border growth."
+    },
+    {
+      "headline": "Corpay shareholders back board and auditor amid pay scrutiny",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CPAY/",
+      "date": "2026-05-16",
+      "sentiment": "neutral",
+      "summary": "At the annual meeting, shareholders re-elected the board and ratified the auditor despite scrutiny over executive compensation."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 384.56,
+    "recent_changes": "Loop Capital initiated Buy with $406 PT (~2026-05-15); Morgan Stanley raised PT to $400 from $390; BofA raised PT to $380 from $377. Consensus 9 buy / 3 hold / 0 sell."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-06",
+    "days_until_next": 78,
+    "notes": "Q1 2026 reported 2026-05-07: EPS $5.80 vs $5.50 consensus, revenue $1.26B vs $1.21B est (+25.4% YoY), shares +11.2% post-print (already priced in). FY2026 guidance raised: EPS $26.30-$27.10, revenue ~$5.3B. Street expects continued cross-border and corporate payments momentum from Alpha Group + Mastercard $300M partnership; key risk is Alpha/GPS/Paymerang integration cost."
+  },
+  "raw_search_files": [
+    "CPAY_news-this-week.json",
+    "CPAY_analyst-rating.json",
+    "CPAY_earnings-catalyst.json"
+  ]
+}

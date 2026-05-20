@@ -1,0 +1,25 @@
+{
+  "ticker": "CPAY",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 343.56, "high": 347.30},
+  "target": 370.55,
+  "stop": 340.30,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Full MA stack bullish: price above EMA 5/10/20/50/200 with daily_indicators.moving_averages.ema_aligned_uptrend = true; pct_from_sma_50 = +9.84% and pct_from_sma_200 = +11.21%; daily MACD line 7.29 over signal 4.74 with histogram = +2.56 expanding, confirming established uptrend on the trend-continuation breakout setup above 343.56 resistance (9 tests).",
+    "Momentum thrust off the 2026-05-18 gap (open 328.24 to close 348.50 on 742k vs 20d avg 554k = relative_volume 1.35 yesterday) drove daily_indicators.rsi.rsi_14 to 69.29 and pushed price to bollinger.pct_b = 0.847; ROC_10d = +12.99% and daily adx.plus_di 39.0 vs minus_di 14.1 show dominant buyers; daily ADX 20.95 with hourly ADX 37.48 (strong) signals trend acceleration on the lower timeframe.",
+    "Risk/reward is clean to the 1.272 fib extension at 370.55: from entry midpoint ~345.43 to target 370.55 = +25.12 reward vs stop 340.30 (below daily fib_236 = 341.45 and invalidation_level 341.0) = -5.13 risk, R:R ~4.9:1; supported by analyst_consensus_web avg PT 384.56 (Loop Capital $406, MS $400) and earnings 77 days out so no event risk in the 10-day window."
+  ],
+  "risks_acknowledged": [
+    "Daily volume.obv.trend = 'down' and diverging_from_price = true — yesterday's rally happened on volume that did not confirm in OBV, suggesting distribution underneath the breakout.",
+    "daily_indicators.bollinger.pct_b = 0.847 and z_score_50 = 1.7 with rsi_14 = 69.29 mean price is extended; a failed breakout retest below 343.56 / 341.45 fib_236 invalidates quickly.",
+    "Yesterday's bar (2026-05-19) printed an outside-day reversal candle: high 354.97, low 341.63, close 343.14 (below midpoint) on rising volume — bearish engulfing risk into the watch_level retest.",
+    "Hourly momentum.roc_5d = -1.81% and roc_10d = -1.18% with price below hourly EMA_24 — short-term hourly momentum is fading, raising the odds of a deeper pullback before the breakout resumes."
+  ],
+  "web_sources_last_7d": [
+    "https://investor.corpay.com/",
+    "https://www.marketbeat.com/stocks/NYSE/CPAY/",
+    "https://stockanalysis.com/stocks/cpay/ratings/"
+  ]
+}

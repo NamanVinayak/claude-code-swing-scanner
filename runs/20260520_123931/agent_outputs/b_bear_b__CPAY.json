@@ -1,0 +1,21 @@
+{
+  "ticker": "CPAY",
+  "setup_direction": "long",
+  "bear_strength": 5,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Q1 2026 beat and FY guidance raise (EPS $5.80 vs $5.50 consensus, revenue $1.26B vs $1.21B, +25.4% YoY) are already priced in per earnings_context_web (shares +11.2% post-print). With earnings.days_until_next = 77 (next print 2026-08-06), there is no near-term fundamental catalyst to re-rate the stock — the long is buying after the news, not before it.",
+    "Stock is extended vs trend: price_vs_ma shows current price 9.84% above sma_50, 11.21% above sma_200, daily z_score_50 = 1.7 and bollinger pct_b = 0.847 (upper band). Daily rsi_14 = 69.29 is at the overbought threshold. Analyst consensus avg_price_target $384.56 (current $343.14) implies only ~12% upside to the average target — modest reward for buying into a stock 1.7 standard deviations above its 50-day mean.",
+    "Tape quality on the breakout day was poor: 2026-05-19 candle gapped up to $352.50, tagged $354.97, then closed at $343.14 — a $11.83 reversal from highs on relative volume of only 1.35x. Daily volume.obv trend is 'down' and 'diverging_from_price' = true, and hourly momentum.roc_5d = -1.81% and roc_10d = -1.18%, indicating short-term distribution into the resistance pivot at 343.56 (tests=9). The breakout already failed intraday before today's gap; a long here is chasing a rejected high."
+  ],
+  "bull_acknowledgements": [
+    "Fundamentals are genuinely strong: Q1 2026 beat on both lines, FY2026 guide raised to EPS $26.30-$27.10 / revenue ~$5.3B, Mastercard $300M partnership and Alpha Group integration supportive of cross-border growth thesis.",
+    "Analyst tape is uniformly constructive: Loop Capital initiated Buy $406 PT (2026-05-15), Morgan Stanley raised to $400 (2026-05-14), BofA $380; consensus 9 buy / 3 hold / 0 sell with avg PT $384.56.",
+    "Trend structure is intact — all daily EMAs aligned in uptrend (5>10>20>50>200), daily adx_14 = 20.95 with plus_di (39.0) dominant over minus_di (14.1), and no insider selling cluster (recent_insider_trades empty) to flag a fundamental crack."
+  ],
+  "web_sources_last_7d": [
+    "https://investor.corpay.com/",
+    "https://www.marketbeat.com/stocks/NYSE/CPAY/",
+    "https://stockanalysis.com/stocks/cpay/ratings/"
+  ]
+}

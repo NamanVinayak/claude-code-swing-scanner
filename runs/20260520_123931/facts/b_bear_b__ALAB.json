@@ -1,0 +1,445 @@
+{
+  "ticker": "ALAB",
+  "direction": "long",
+  "setup_type": "gap_and_go",
+  "watch_level": 254.5,
+  "invalidation_level": 248.0,
+  "catalyst_note": "Stage 1 trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up) confirmed by a +4.09% overnight gap; price needs to hold above the premarket level and continue through $254.50 for gap-and-go continuation.",
+  "conviction": 5,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "ALAB Stock Climbs As RBC Hikes AI-Driven Price Target to $250",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.timothysykes.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+      "sentiment": "positive",
+      "summary": "RBC reiterated Outperform and raised PT from $225 to $250, citing Amazon's expanded Anthropic deal funneling demand to ALAB; RBC expects Scorpio X switches to ramp in Trainium3 racks starting Q3."
+    },
+    {
+      "title": "Astera Labs Inc Stock (ALAB) Moved Up by 12.58% on May 19",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.tradingkey.com/news/market-movers/261911449-market-movers-alab-20260519",
+      "sentiment": "positive",
+      "summary": "ALAB surged 13.14% on May 19 after AI connectivity demand commentary and analyst PT hikes, significantly outperforming the tech sector's 0.87% decline."
+    },
+    {
+      "title": "Astera Labs (ALAB) Jumps As RBC Hikes $250 Price Target",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://stockstotrade.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+      "sentiment": "positive",
+      "summary": "RBC's bullish thesis centers on Amazon-Anthropic expanded deal driving Scorpio X switch demand for Trainium3 racks in H2 2026."
+    },
+    {
+      "title": "Why Is Astera Labs (ALAB) Stock Trending Overnight?",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.benzinga.com/markets/equities/26/05/52682066/why-is-astera-labs-alab-stock-trending-overnight",
+      "sentiment": "positive",
+      "summary": "Coverage of overnight momentum driven by analyst PT hikes and AI infrastructure demand narrative."
+    },
+    {
+      "title": "Astera Labs stock jumps 16%: is AI inference the next big catalyst?",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.tradingview.com/news/invezz:453002602094b:0-astera-labs-stock-jumps-16-is-ai-inference-the-next-big-catalyst/",
+      "sentiment": "positive",
+      "summary": "Evercore ISI raised PT to $297, flagging AI inference as a much larger focus by late 2026 based on industry checks."
+    },
+    {
+      "title": "Astera Labs gains as investors refocus on AI interconnect demand and upcoming earnings catalyst",
+      "source": "web_research",
+      "date": "2026-05-18",
+      "url": "https://www.quiverquant.com/news/Astera+Labs+gains+as+investors+refocus+on+AI+interconnect+demand+and+upcoming+earnings+catalyst",
+      "sentiment": "positive",
+      "summary": "Investor focus returning to AI interconnect demand thesis ahead of catalysts; Scorpio ramp cited as key driver."
+    },
+    {
+      "title": "Does Astera Labs' Earnings Beat, AI Switch Launch And ESOP Shelf Change The Bull Case For ALAB?",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/does-astera-labs-earnings-beat-ai-switch-launch-and-esop-she",
+      "sentiment": "positive",
+      "summary": "Q1 2026 beat plus launch of Scorpio X-Series 320-lane Smart Fabric Switch and expanded Scorpio P-Series PCIe-6 (32-320 lane configs); multi-customer shipments expected H2 2026."
+    },
+    {
+      "title": "Should Investors Buy, Hold, or Sell ALAB Stock Post Q1 Earnings?",
+      "source": "web_research",
+      "date": "2026-05-14",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-hold-sell-alab-171400096.html",
+      "sentiment": "neutral",
+      "summary": "Post Q1 earnings analysis weighing the bull case (AI fabric demand, Scorpio ramp) against valuation considerations."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 244.25999450683594,
+  "market_cap": 46485835776.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 206.97500610351562,
+      "high": 224.75999450683594,
+      "low": 204.5500030517578,
+      "close": 224.08999633789062,
+      "volume": 6415600
+    },
+    {
+      "time": "2026-05-14",
+      "open": 224.8300018310547,
+      "high": 230.3300018310547,
+      "low": 215.8000030517578,
+      "close": 228.63999938964844,
+      "volume": 4615000
+    },
+    {
+      "time": "2026-05-15",
+      "open": 216.5,
+      "high": 239.76499938964844,
+      "low": 210.4199981689453,
+      "close": 232.67999267578125,
+      "volume": 5941800
+    },
+    {
+      "time": "2026-05-18",
+      "open": 236.18899536132812,
+      "high": 236.6999969482422,
+      "low": 210.02000427246094,
+      "close": 215.5800018310547,
+      "volume": 6161300
+    },
+    {
+      "time": "2026-05-19",
+      "open": 212.9600067138672,
+      "high": 255.9600067138672,
+      "low": 210.5500030517578,
+      "close": 244.25999450683594,
+      "volume": 9397800
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 228.0122852969004,
+      "sma_5": 229.04999694824218,
+      "ema_10": 219.67092087394226,
+      "sma_10": 216.63699798583986,
+      "ema_20": 205.95207199929334,
+      "sma_20": 208.09849853515624,
+      "ema_21": 204.66772939058484,
+      "sma_21": 207.33047485351562,
+      "ema_50": 179.47051300186996,
+      "sma_50": 163.1079998779297,
+      "ema_200": 153.38129348352663,
+      "sma_200": 168.54319988250734,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 244.25999450683594,
+    "dist_from_50sma_pct": 49.75,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 7.13,
+      "above_sma_5": true,
+      "pct_from_sma_5": 6.64,
+      "above_ema_10": true,
+      "pct_from_ema_10": 11.19,
+      "above_sma_10": true,
+      "pct_from_sma_10": 12.75,
+      "above_ema_20": true,
+      "pct_from_ema_20": 18.6,
+      "above_sma_20": true,
+      "pct_from_sma_20": 17.38,
+      "above_ema_21": true,
+      "pct_from_ema_21": 19.34,
+      "above_sma_21": true,
+      "pct_from_sma_21": 17.81,
+      "above_ema_50": true,
+      "pct_from_ema_50": 36.1,
+      "above_sma_50": true,
+      "pct_from_sma_50": 49.75,
+      "above_ema_200": true,
+      "pct_from_ema_200": 59.25,
+      "above_sma_200": true,
+      "pct_from_sma_200": 44.92,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 24326.0
+    },
+    "rsi": {
+      "rsi_7": 76.3,
+      "rsi_14": 67.61,
+      "rsi_21": 65.94
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 18.1828,
+      "signal_line": 17.2254,
+      "histogram": 0.9574,
+      "bullish_crossover": true
+    },
+    "bollinger": {
+      "upper": 238.65,
+      "middle": 208.1,
+      "lower": 177.55,
+      "width": 0.2936,
+      "pct_b": 1.0918
+    },
+    "atr": {
+      "atr_14": 20.96,
+      "atr_pct": 8.58
+    },
+    "adx": {
+      "adx_14": 44.63,
+      "plus_di": 30.77,
+      "minus_di": 4.39,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 9397800,
+      "avg_volume_20": 5912945,
+      "relative_volume": 1.59,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 135.18,
+          "tests": 2,
+          "volume_confirmed": false
+        },
+        {
+          "price": 214.24,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 231.73,
+          "tests": 4,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 97.89,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 107.08,
+          "tests": 5,
+          "volume_confirmed": false
+        },
+        {
+          "price": 179.54,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 189.69,
+          "tests": 7,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 189.69,
+      "recent_high": 255.96,
+      "recent_low": 179.54,
+      "prev_day_high": 236.7,
+      "prev_day_low": 210.02,
+      "prev_day_close": 215.58
+    },
+    "fibonacci": {
+      "swing_high": 255.96,
+      "swing_low": 121.92,
+      "fib_236": 224.33,
+      "fib_382": 204.76,
+      "fib_500": 188.94,
+      "fib_618": 173.12,
+      "fib_786": 150.6,
+      "fib_ext_1272": 292.42,
+      "fib_ext_1618": 338.8,
+      "fib_ext_2000": 390.0,
+      "fib_ext_low_1272": 85.46,
+      "fib_ext_low_1618": 39.08
+    },
+    "momentum": {
+      "roc_5d": 19.49,
+      "roc_10d": 13.25,
+      "roc_21d": 38.94
+    },
+    "z_score_50": 1.89,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 231.8332810261099,
+      "sma_24": 230.09447860717773,
+      "ema_48": 223.53887425674316,
+      "sma_48": 220.80974133809408,
+      "ema_120": 210.389188998826,
+      "sma_120": 207.5984696706136,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 271.125,
+    "dist_from_50sma_pct": 30.6,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 16.95,
+      "above_sma_24": true,
+      "pct_from_sma_24": 17.83,
+      "above_ema_48": true,
+      "pct_from_ema_48": 21.29,
+      "above_sma_48": true,
+      "pct_from_sma_48": 22.79,
+      "above_ema_120": true,
+      "pct_from_ema_120": 28.87,
+      "above_sma_120": true,
+      "pct_from_sma_120": 30.6,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 27012.5
+    },
+    "rsi": {
+      "rsi_21": 66.28
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 9.3179,
+      "signal_line": 6.3247,
+      "histogram": 2.9933,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 252.64,
+      "middle": 220.81,
+      "lower": 188.98,
+      "width": 0.2883,
+      "pct_b": 1.2903
+    },
+    "atr": {
+      "atr_24": 9.28,
+      "atr_pct": 3.42
+    },
+    "adx": {
+      "adx_24": 20.75,
+      "plus_di": 32.92,
+      "minus_di": 20.81,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 2035367,
+      "avg_volume_20": 922167,
+      "relative_volume": 2.21,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 214.41,
+          "tests": 11,
+          "volume_confirmed": true
+        },
+        {
+          "price": 239.75,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 189.69,
+          "tests": 3,
+          "volume_confirmed": false
+        },
+        {
+          "price": 192.6,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 210.45,
+          "tests": 9,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 210.45,
+      "recent_high": 272.0,
+      "recent_low": 210.02,
+      "prev_day_high": 249.35,
+      "prev_day_low": 242.33,
+      "prev_day_close": 244.28
+    },
+    "fibonacci": {
+      "swing_high": 272.0,
+      "swing_low": 210.02,
+      "fib_236": 257.37,
+      "fib_382": 248.32,
+      "fib_500": 241.01,
+      "fib_618": 233.7,
+      "fib_786": 223.28,
+      "fib_ext_1272": 288.86,
+      "fib_ext_1618": 310.3,
+      "fib_ext_2000": 333.98,
+      "fib_ext_low_1272": 193.16,
+      "fib_ext_low_1618": 171.72
+    },
+    "momentum": {
+      "roc_5d": 14.83,
+      "roc_10d": 27.92,
+      "roc_21d": 15.18
+    },
+    "z_score_120": 3.88,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 76,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 222.79,
+    "recent_changes": "RBC raised PT to $250 from $225 (Outperform reiterated, 2026-05-19). Evercore ISI maintained Outperform with PT raised to $297. Current month breakdown: 16 Buy / 7 Hold / 0 Sell across 19 analysts."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 already reported (early May) with beat on revenue ($308M) and EPS, plus stronger Q2 guide. Next earnings expected late July / early August 2026. Street expects continued AI-driven revenue ramp; Scorpio X switch ramp in Trainium3 racks (Q3) is the near-term key catalyst, with multi-customer shipments H2 2026 and broader volume in 2027."
+  }
+}

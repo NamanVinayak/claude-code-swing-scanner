@@ -1,0 +1,26 @@
+{
+  "ticker": "LAMR",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 149.50, "high": 150.50},
+  "target": 158.00,
+  "stop": 147.00,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Fresh analyst catalyst: TD Cowen reiterated Buy and raised PT to $170 from $150 on 2026-05-14 (gurufocus), the highest street target on the name vs. 3-month avg PT $139.50 — gives an explicit institutional upside roadmap into the next leg.",
+    "Dividend / income thesis reaffirmed 2026-05-15: $1.60 quarterly dividend declared and 2026 distribution guide reaffirmed at >=$6.40/share (tipranks); for a REIT this anchors holders and reduces downside flush risk while waiting for the breakout above $150.",
+    "Technicals confirm uptrend bias for a breakout buy: daily ADX_14 = 55.6 with +DI 38.37 vs -DI 15.68 (strong trend), price stacked above EMA5/10/20/50/200 (ema_aligned_uptrend = true), MACD histogram +0.1332 above signal, ROC_10d +7.86% and ROC_21d +10.53%, with hourly RSI_21 = 76.48 and hourly OBV trend up — momentum is intact pressing the 150 watch_level, and earnings.days_until_next = 79 means no near-term earnings landmine."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_divergence.bearish = true over 60-bar lookback and daily relative_volume 0.87 (below 1.0) — breakout attempt is happening on lighter-than-average tape, raising failed-breakout risk.",
+    "Avg analyst PT in analyst_consensus_web is $139.50, BELOW current $149.41 — outside the lone TD Cowen $170 outlier, the street consensus already views the name as fully priced, capping how much new buying a fresh upgrade cycle can pull in.",
+    "Z-score 1.76 vs 50-day and price 10.43% above sma_50 means the name is extended; a market-wide risk-off day could see mean reversion to the 20-day (~142.5) well before the $158 target prints.",
+    "No wiki memory exists (new_ticker = true) and recent_insider_trades is empty — no insider buying to corroborate the catalyst-led long thesis."
+  ],
+  "web_sources_last_7d": [
+    "https://www.gurufocus.com/news/8859444/lamr-maintained-by-td-cowen-price-target-raised-to-170",
+    "https://www.tipranks.com/news/company-announcements/lamar-advertising-declares-quarterly-dividend-reaffirms-2026-payouts",
+    "https://www.stocktitan.net/news/LAMR/lamar-advertising-to-appear-at-the-j-p-morgan-2026-global-technology-pt7ux7gsjqf1.html",
+    "https://simplywall.st/stocks/us/real-estate/nasdaq-lamr/lamar-advertising/news/lamar-advertising-lamr-valuation-check-after-reaffirmed-divi"
+  ]
+}

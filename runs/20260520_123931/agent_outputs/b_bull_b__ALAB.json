@@ -1,0 +1,30 @@
+{
+  "ticker": "ALAB",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 254.50, "high": 258.00},
+  "target": 285.00,
+  "stop": 248.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Fresh analyst PT hikes inside 7-day window: RBC raised PT to $250 from $225 reiterating Outperform on 2026-05-19 (timothysykes.com, stockstotrade.com) citing Amazon-Anthropic expanded deal driving Scorpio X switch demand for Trainium3 racks in Q3; Evercore ISI raised PT to $297 on 2026-05-19 (tradingview.com/invezz) flagging AI inference as the next catalyst leg. Consensus per analyst_consensus_web is Buy (16 Buy / 7 Hold / 0 Sell of 19 analysts).",
+    "Catalyst-confirmed price action: stock jumped +13.14% on 2026-05-19 (tradingkey.com) on AI connectivity demand, vastly outperforming the tech sector's -0.87% same day; daily relative_volume = 1.59 with OBV trending up and not diverging from price; daily ADX_14 = 44.63 (strong) with +DI 30.77 vs -DI 4.39 confirms institutional demand absorbing supply on the breakout day. Hourly relative_volume = 2.21 on the gap continuation pre-market.",
+    "Multi-catalyst stack still ramping: 2026-05-15 simplywall.st confirmed Q1 2026 earnings beat plus launch of Scorpio X-Series 320-lane Smart Fabric Switch and expanded Scorpio P-Series PCIe-6 (32-320 lane configs), multi-customer shipments expected H2 2026; earnings.days_until_next = 76 means no near-term earnings blackout; R:R from entry midpoint $256.25 to target $285 = $28.75 reward vs $8.25 risk to $248 stop = 3.48:1, well above 2:1 minimum, with target sitting between hourly fib_ext_1272 ($288.86) and clear room before daily fib_ext_1272 ($292.42)."
+  ],
+  "risks_acknowledged": [
+    "Stock is extended: daily pct_from_sma_50 = +49.75%, z_score_50 = 1.89, BB %B = 1.0918 (above upper band), and RSI_7 = 76.3 — chasing a gap into already-overbought conditions has poor pullback support nearby (nearest_support is $189.69, ~22% below current).",
+    "Current price $244.26 is BELOW the watch_level $254.50 — the gap-and-go thesis only triggers if price reclaims and holds above $254.50; failure to push through reopens the prior-day low of $210.02 as a magnet.",
+    "Average analyst PT in analyst_consensus_web is $222.79, below current price — most sell-side targets are stale; if RBC ($250) and Evercore ($297) prove to be outliers, broader analyst PT compression toward $222 caps upside.",
+    "Hourly z_score_120 = 3.88 and hourly current_price ($271.13 in pre-market) is already +28.87% above ema_120 — much of today's anticipated move may have already been front-run overnight; entries above $258 risk buying the literal top of the pre-market range."
+  ],
+  "web_sources_last_7d": [
+    "https://www.timothysykes.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+    "https://www.tradingkey.com/news/market-movers/261911449-market-movers-alab-20260519",
+    "https://stockstotrade.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+    "https://www.benzinga.com/markets/equities/26/05/52682066/why-is-astera-labs-alab-stock-trending-overnight",
+    "https://www.tradingview.com/news/invezz:453002602094b:0-astera-labs-stock-jumps-16-is-ai-inference-the-next-big-catalyst/",
+    "https://www.quiverquant.com/news/Astera+Labs+gains+as+investors+refocus+on+AI+interconnect+demand+and+upcoming+earnings+catalyst",
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/does-astera-labs-earnings-beat-ai-switch-launch-and-esop-she",
+    "https://finance.yahoo.com/markets/stocks/articles/investors-buy-hold-sell-alab-171400096.html"
+  ]
+}

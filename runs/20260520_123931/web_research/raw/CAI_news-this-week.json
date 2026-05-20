@@ -1,0 +1,17 @@
+{
+  "query": "CAI news this week",
+  "fetched_at": "2026-05-20T19:40:00Z",
+  "results": [
+    {"title": "Blog — Content Authenticity Initiative", "url": "https://contentauthenticity.org/blog"},
+    {"title": "Local news roundup | CAI", "url": "https://www.capeandislands.org/show/the-point/2026-05-15/local-news-roundup"},
+    {"title": "CAI News - WCAI", "url": "https://www.capeandislands.org/cai-news"},
+    {"title": "CAI News and Press Releases | PR Newswire", "url": "https://www.prnewswire.com/news/CAI/"},
+    {"title": "Local NPR for Cape Cod, the South Coast, and Islands — CAI | CAI", "url": "https://www.capeandislands.org/"},
+    {"title": "The Friday News Roundup | CAI", "url": "https://www.capeandislands.org/show/the-point/2026-01-23/news-making-regional-headlines-this-week"},
+    {"title": "Newsroom- read our press releases, info and external comms - CAI", "url": "https://www.cai.io/newsroom"},
+    {"title": "CAI Press Room | Community Association News & Updates | Community Associations Institute", "url": "https://www.caionline.org/press-room/"},
+    {"title": "Community Associations Institute (CAI) | Support & Resources for HOAs | Community Associations Institute", "url": "https://www.caionline.org/"},
+    {"title": "Caris Life Sciences, Inc. (CAI) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CAI/"}
+  ],
+  "notes": "Ticker CAI on NasdaqGS = Caris Life Sciences. Several non-stock CAI organizations also appear (Cape & Islands NPR, Content Authenticity Initiative, Community Associations Institute, Commissioning Agents Inc.). No date-stamped Caris-specific news within the last 7 days returned by this query."
+}

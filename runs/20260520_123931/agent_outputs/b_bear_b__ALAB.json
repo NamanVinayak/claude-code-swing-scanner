@@ -1,0 +1,23 @@
+{
+  "ticker": "ALAB",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Price has already front-run consensus: analyst_consensus_web shows avg_price_target = $222.79 vs current_price = $244.26 — the stock is trading ~9.6% ABOVE the average analyst target. Even the recent RBC raise lands at $250 (only 2.3% upside to the watch_level of $254.50). The bullish PT revisions are reactive to the +13.14% May 19 rip, not leading it — limited fundamental fuel for further multiple expansion from here without a fresh catalyst.",
+    "No near-term earnings catalyst to underwrite a stretched entry: earnings.days_until_next = 76 (late July / early Aug per earnings_context_web), and the Q1 beat / Scorpio X launch news is already 5–6 days old (recent_news_7d items dated 2026-05-14 / 2026-05-15) — context-only, already priced into a stock up ~39% in 21 days (daily momentum.roc_21d = 38.94). The Scorpio X ramp into Trainium3 racks is a Q3-2026 / H2-2026 / 2027 volume story per the news bundle — far-dated, leaves a 2-month window of sentiment-driven retracement risk with no fundamental floor.",
+    "Statistically extreme stretch with zero insider corroboration: daily z_score_50 = 1.89, pct_from_sma_50 = +49.75%, pct_from_ema_200 = +59.25%, hourly z_score_120 = 3.88, bollinger pct_b = 1.09 daily / 1.29 hourly (above upper band on both timeframes), ATR_pct = 8.58% daily (a single ATR move down = ~$21, blowing through invalidation_level $248.00). Meanwhile recent_insider_trades is EMPTY — no executive open-market buying to confirm fundamental conviction at these multiples. Specific sector P/E and EV/sales multiples for ALAB are not available in the facts bundle (research_gap), so I cannot quantify the valuation premium precisely, but the ~50% distance above the 50SMA on a ~$46B market-cap AI-infra name is well outside normal mean-reversion bounds."
+  ],
+  "bull_acknowledgements": [
+    "Fundamental momentum is real: Q1 2026 beat on revenue ($308M) and EPS with stronger Q2 guide per earnings_context_web, Scorpio X-Series 320-lane Smart Fabric Switch launched, and Amazon-Anthropic expanded deal is a tangible demand vector for Scorpio X in Trainium3 racks (RBC 2026-05-19, Evercore PT $297).",
+    "Analyst rating distribution is supportive: 16 Buy / 7 Hold / 0 Sell across 19 analysts (analyst_consensus_web) with two recent PT hikes inside the 7-day window — sentiment regime is positive, not contrarian. Daily ADX_14 = 44.63 (strong trend) and OBV trending up with no divergence — institutional accumulation appears genuine, not just retail froth."
+  ],
+  "web_sources_last_7d": [
+    "https://www.timothysykes.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+    "https://www.tradingkey.com/news/market-movers/261911449-market-movers-alab-20260519",
+    "https://www.tradingview.com/news/invezz:453002602094b:0-astera-labs-stock-jumps-16-is-ai-inference-the-next-big-catalyst/",
+    "https://www.quiverquant.com/news/Astera+Labs+gains+as+investors+refocus+on+AI+interconnect+demand+and+upcoming+earnings+catalyst",
+    "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/does-astera-labs-earnings-beat-ai-switch-launch-and-esop-she",
+    "https://finance.yahoo.com/markets/stocks/articles/investors-buy-hold-sell-alab-171400096.html"
+  ]
+}

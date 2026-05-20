@@ -1,0 +1,77 @@
+{
+  "ticker": "ALAB",
+  "researched_at": "2026-05-20T19:45:00Z",
+  "news_items": [
+    {
+      "headline": "ALAB Stock Climbs As RBC Hikes AI-Driven Price Target to $250",
+      "url": "https://www.timothysykes.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "RBC reiterated Outperform and raised PT from $225 to $250, citing Amazon's expanded Anthropic deal funneling demand to ALAB; RBC expects Scorpio X switches to ramp in Trainium3 racks starting Q3."
+    },
+    {
+      "headline": "Astera Labs Inc Stock (ALAB) Moved Up by 12.58% on May 19",
+      "url": "https://www.tradingkey.com/news/market-movers/261911449-market-movers-alab-20260519",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "ALAB surged 13.14% on May 19 after AI connectivity demand commentary and analyst PT hikes, significantly outperforming the tech sector's 0.87% decline."
+    },
+    {
+      "headline": "Astera Labs (ALAB) Jumps As RBC Hikes $250 Price Target",
+      "url": "https://stockstotrade.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "RBC's bullish thesis centers on Amazon-Anthropic expanded deal driving Scorpio X switch demand for Trainium3 racks in H2 2026."
+    },
+    {
+      "headline": "Why Is Astera Labs (ALAB) Stock Trending Overnight?",
+      "url": "https://www.benzinga.com/markets/equities/26/05/52682066/why-is-astera-labs-alab-stock-trending-overnight",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Coverage of overnight momentum driven by analyst PT hikes and AI infrastructure demand narrative."
+    },
+    {
+      "headline": "Astera Labs stock jumps 16%: is AI inference the next big catalyst?",
+      "url": "https://www.tradingview.com/news/invezz:453002602094b:0-astera-labs-stock-jumps-16-is-ai-inference-the-next-big-catalyst/",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Evercore ISI raised PT to $297, flagging AI inference as a much larger focus by late 2026 based on industry checks."
+    },
+    {
+      "headline": "Astera Labs gains as investors refocus on AI interconnect demand and upcoming earnings catalyst",
+      "url": "https://www.quiverquant.com/news/Astera+Labs+gains+as+investors+refocus+on+AI+interconnect+demand+and+upcoming+earnings+catalyst",
+      "date": "2026-05-18",
+      "sentiment": "positive",
+      "summary": "Investor focus returning to AI interconnect demand thesis ahead of catalysts; Scorpio ramp cited as key driver."
+    },
+    {
+      "headline": "Does Astera Labs' Earnings Beat, AI Switch Launch And ESOP Shelf Change The Bull Case For ALAB?",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/does-astera-labs-earnings-beat-ai-switch-launch-and-esop-she",
+      "date": "2026-05-15",
+      "sentiment": "positive",
+      "summary": "Q1 2026 beat plus launch of Scorpio X-Series 320-lane Smart Fabric Switch and expanded Scorpio P-Series PCIe-6 (32-320 lane configs); multi-customer shipments expected H2 2026."
+    },
+    {
+      "headline": "Should Investors Buy, Hold, or Sell ALAB Stock Post Q1 Earnings?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-buy-hold-sell-alab-171400096.html",
+      "date": "2026-05-14",
+      "sentiment": "neutral",
+      "summary": "Post Q1 earnings analysis weighing the bull case (AI fabric demand, Scorpio ramp) against valuation considerations."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 222.79,
+    "recent_changes": "RBC raised PT to $250 from $225 (Outperform reiterated, 2026-05-19). Evercore ISI maintained Outperform with PT raised to $297. Current month breakdown: 16 Buy / 7 Hold / 0 Sell across 19 analysts."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 already reported (early May) with beat on revenue ($308M) and EPS, plus stronger Q2 guide. Next earnings expected late July / early August 2026. Street expects continued AI-driven revenue ramp; Scorpio X switch ramp in Trainium3 racks (Q3) is the near-term key catalyst, with multi-customer shipments H2 2026 and broader volume in 2027."
+  },
+  "raw_search_files": [
+    "ALAB_news-this-week.json",
+    "ALAB_analyst-rating.json",
+    "ALAB_earnings-catalyst.json"
+  ]
+}

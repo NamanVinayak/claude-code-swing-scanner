@@ -1,0 +1,416 @@
+{
+  "ticker": "BILI",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 18.8,
+  "invalidation_level": 20.15,
+  "catalyst_note": "Stage4 momentum breakdown setup with a -4.9% premarket gap already in short direction; short thesis remains intact only if price holds below yesterday's $20.00 close and continues lower after open.",
+  "conviction": 3,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "Bilibili Q1 2026 earnings beat on EPS, revenue misses estimate",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://www.chartmill.com/news/BILI/Chartmill-48724-Bilibili-NASDAQBILI-Q1-Earnings-Beat-Clouded-by-Revenue-Miss",
+      "sentiment": "neutral",
+      "summary": "Q1 ended March 31, 2026: non-GAAP EPS 1.29 beat consensus 1.15; total net revenues RMB 7.37B fell short of RMB 7.60B est (~3% miss). Gross margin 37.1%, 15th consecutive quarter of margin expansion."
+    },
+    {
+      "title": "Bilibili Q1 2026 call highlights: record profits, advertising revenue +30% YoY",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bilibili-inc-bili-q1-2026-190108034.html",
+      "sentiment": "positive",
+      "summary": "Advertising revenue grew +30% YoY (13th consecutive quarter of double-digit growth) driven by AI ad-efficiency. DAU 115M (+8% YoY), MAU 376M. Creators >1000 followers +30% YoY; avg creator income +24%."
+    },
+    {
+      "title": "JPMorgan upgrades Bilibili to Overweight from Neutral, PT raised to $35 from $27",
+      "source": "web_research",
+      "date": "2026-05-16",
+      "url": "https://public.com/stocks/bili/forecast-price-target",
+      "sentiment": "positive",
+      "summary": "JPMorgan analyst Daniel Chen upgraded BILI to Overweight (from Neutral) with a price target of $35 (up from $27), citing margin expansion trajectory and ad growth."
+    },
+    {
+      "title": "Bilibili shares decline ~9.5% over past two weeks; ~21.4% over past month",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/BILI/news/",
+      "sentiment": "negative",
+      "summary": "Despite Q1 EPS beat and bullish analyst posture, stock weakness persists. Price action shows ~9.5% drawdown over last 2 weeks and ~21.4% over last month."
+    },
+    {
+      "title": "Upgraded earnings outlook might change the case for investing in Bilibili",
+      "source": "web_research",
+      "date": "2026-05-17",
+      "url": "https://finance.yahoo.com/news/upgraded-earnings-outlook-might-change-170437787.html",
+      "sentiment": "positive",
+      "summary": "Earnings outlook upgraded by analysts following Q1 print; commentary frames the move as a potential turn in the investment case if margin trajectory holds."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 20.0,
+  "market_cap": 7734710784.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 21.420000076293945,
+      "high": 22.704999923706055,
+      "low": 21.239999771118164,
+      "close": 22.34000015258789,
+      "volume": 4705300
+    },
+    {
+      "time": "2026-05-14",
+      "open": 21.139999389648438,
+      "high": 21.270000457763672,
+      "low": 20.302000045776367,
+      "close": 20.31999969482422,
+      "volume": 5877500
+    },
+    {
+      "time": "2026-05-15",
+      "open": 19.559999465942383,
+      "high": 19.559999465942383,
+      "low": 19.030000686645508,
+      "close": 19.06999969482422,
+      "volume": 4302900
+    },
+    {
+      "time": "2026-05-18",
+      "open": 19.200000762939453,
+      "high": 19.649999618530273,
+      "low": 19.05500030517578,
+      "close": 19.6299991607666,
+      "volume": 5692700
+    },
+    {
+      "time": "2026-05-19",
+      "open": 18.3799991607666,
+      "high": 20.065000534057617,
+      "low": 18.299999237060547,
+      "close": 20.0,
+      "volume": 13530500
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 20.20596497844008,
+      "sma_5": 20.271999740600585,
+      "ema_10": 20.783590108202915,
+      "sma_10": 21.126999855041504,
+      "ema_20": 21.551880459752553,
+      "sma_20": 21.515499877929688,
+      "ema_21": 21.617853904638302,
+      "sma_21": 21.60380944751558,
+      "ema_50": 23.277494342196853,
+      "sma_50": 23.14740001678467,
+      "ema_200": 24.77835527041355,
+      "sma_200": 26.26782500267029,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 20.0,
+    "dist_from_50sma_pct": -13.6,
+    "price_vs_ma": {
+      "above_ema_5": false,
+      "pct_from_ema_5": -1.02,
+      "above_sma_5": false,
+      "pct_from_sma_5": -1.34,
+      "above_ema_10": false,
+      "pct_from_ema_10": -3.77,
+      "above_sma_10": false,
+      "pct_from_sma_10": -5.33,
+      "above_ema_20": false,
+      "pct_from_ema_20": -7.2,
+      "above_sma_20": false,
+      "pct_from_sma_20": -7.04,
+      "above_ema_21": false,
+      "pct_from_ema_21": -7.48,
+      "above_sma_21": false,
+      "pct_from_sma_21": -7.42,
+      "above_ema_50": false,
+      "pct_from_ema_50": -14.08,
+      "above_sma_50": false,
+      "pct_from_sma_50": -13.6,
+      "above_ema_200": false,
+      "pct_from_ema_200": -19.28,
+      "above_sma_200": false,
+      "pct_from_sma_200": -23.86,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1900.0
+    },
+    "rsi": {
+      "rsi_7": 32.24,
+      "rsi_14": 41.03,
+      "rsi_21": 28.96
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.9739,
+      "signal_line": -0.8222,
+      "histogram": -0.1517,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 23.49,
+      "middle": 21.52,
+      "lower": 19.54,
+      "width": 0.1839,
+      "pct_b": 0.1169
+    },
+    "atr": {
+      "atr_14": 0.91,
+      "atr_pct": 4.53
+    },
+    "adx": {
+      "adx_14": 33.68,
+      "plus_di": 16.78,
+      "minus_di": 32.12,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 13530500,
+      "avg_volume_20": 3187120,
+      "relative_volume": 4.25,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 22.8,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 25.62,
+          "tests": 9,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 20.99,
+          "tests": 2,
+          "volume_confirmed": false
+        },
+        {
+          "price": 21.51,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 24.46,
+          "tests": 9,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 22.8,
+      "nearest_support": null,
+      "recent_high": 23.13,
+      "recent_low": 18.3,
+      "prev_day_high": 19.65,
+      "prev_day_low": 19.06,
+      "prev_day_close": 19.63
+    },
+    "fibonacci": {
+      "swing_high": 25.62,
+      "swing_low": 18.3,
+      "fib_236": 23.9,
+      "fib_382": 22.83,
+      "fib_500": 21.96,
+      "fib_618": 21.1,
+      "fib_786": 19.87,
+      "fib_ext_1272": 27.62,
+      "fib_ext_1618": 30.15,
+      "fib_ext_2000": 32.95,
+      "fib_ext_low_1272": 16.31,
+      "fib_ext_low_1618": 13.77
+    },
+    "momentum": {
+      "roc_5d": -6.63,
+      "roc_10d": -7.19,
+      "roc_21d": -19.9
+    },
+    "z_score_50": -1.78,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 19.77185968952218,
+      "sma_24": 19.488791704177856,
+      "ema_48": 20.32865433496656,
+      "sma_48": 20.59969389438629,
+      "ema_120": 21.35773863815417,
+      "sma_120": 21.34399503072103,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 18.565000534057617,
+    "dist_from_50sma_pct": -13.02,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -6.1,
+      "above_sma_24": false,
+      "pct_from_sma_24": -4.74,
+      "above_ema_48": false,
+      "pct_from_ema_48": -8.68,
+      "above_sma_48": false,
+      "pct_from_sma_48": -9.88,
+      "above_ema_120": false,
+      "pct_from_ema_120": -13.08,
+      "above_sma_120": false,
+      "pct_from_sma_120": -13.02,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1756.5
+    },
+    "rsi": {
+      "rsi_21": 41.56
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.6335,
+      "signal_line": -0.618,
+      "histogram": -0.0155,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 23.14,
+      "middle": 20.6,
+      "lower": 18.06,
+      "width": 0.2466,
+      "pct_b": 0.0994
+    },
+    "atr": {
+      "atr_24": 0.38,
+      "atr_pct": 2.07
+    },
+    "adx": {
+      "adx_24": 56.57,
+      "plus_di": 9.42,
+      "minus_di": 47.19,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 3314408,
+      "avg_volume_20": 1208527,
+      "relative_volume": 2.74,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 22.41,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 22.7,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 18.3,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 19.06,
+          "tests": 8,
+          "volume_confirmed": true
+        },
+        {
+          "price": 21.24,
+          "tests": 5,
+          "volume_confirmed": true
+        },
+        {
+          "price": 21.92,
+          "tests": 10,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 22.41,
+      "nearest_support": 18.3,
+      "recent_high": 20.07,
+      "recent_low": 18.3,
+      "prev_day_high": 20.07,
+      "prev_day_low": 19.94,
+      "prev_day_close": 20.02
+    },
+    "fibonacci": {
+      "swing_high": 22.46,
+      "swing_low": 18.3,
+      "fib_236": 21.48,
+      "fib_382": 20.87,
+      "fib_500": 20.38,
+      "fib_618": 19.89,
+      "fib_786": 19.19,
+      "fib_ext_1272": 23.59,
+      "fib_ext_1618": 25.03,
+      "fib_ext_2000": 26.62,
+      "fib_ext_low_1272": 17.17,
+      "fib_ext_low_1618": 15.73
+    },
+    "momentum": {
+      "roc_5d": -4.01,
+      "roc_10d": -4.79,
+      "roc_21d": -3.76
+    },
+    "z_score_120": -2.69,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 92,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 31.17,
+    "recent_changes": "JPMorgan (Daniel Chen) upgraded to Overweight from Neutral, PT raised to $35 from $27 in last 7 days. Consensus rating Strong Buy across 31 analysts (30 Buy / 1 Hold / 0 Sell); avg PT $31.17 (high $38.08, low $21.14)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 (quarter ended March 31, 2026) reported ~2026-05-15: non-GAAP EPS 1.29 beat vs 1.15; revenue RMB 7.37B missed RMB 7.60B est. Next quarterly report (Q2 2026) typically mid-to-late August historically; no firm date located. Street expects continued margin expansion (15th consecutive quarter) and double-digit ad growth; key risk is rising content/creator costs."
+  }
+}

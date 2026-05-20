@@ -1,0 +1,25 @@
+{
+  "ticker": "CPAY",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 347.00, "high": 350.00},
+  "target": 370.55,
+  "stop": 340.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Fresh analyst catalyst cluster within 7 days: Loop Capital initiated Buy with $406 PT on 2026-05-15 and Morgan Stanley raised PT to $400 from $390 on 2026-05-14 (analyst_consensus_web avg PT $384.56 vs current $343.14 = ~12% upside; consensus 9 buy / 3 hold / 0 sell).",
+    "Product catalyst on 2026-05-15: Corpay-BVNK stablecoin wallet partnership extends cross-border payments narrative, aligning with Q1 2026 print (EPS $5.80 vs $5.50, revenue $1.26B vs $1.21B, +25.4% YoY) and raised FY26 guidance ($26.30-$27.10 EPS) per earnings_context_web.",
+    "Technical confirmation supports breakout: daily ema_aligned_uptrend=true with price above all MAs through 200-day, MACD histogram +2.56 (line 7.29 > signal 4.74), ADX 20.95 with +DI 39.0 vs -DI 14.1, hourly ADX 37.48 strong; watch_level 347 sits just above nearest_resistance 343.56. Entry mid 348.5 to stop 340 = $8.5 risk vs target 370.55 (fib_ext_1272) = $22 reward = 2.6:1 R:R; earnings.days_until_next = 77 (no near-term earnings risk)."
+  ],
+  "risks_acknowledged": [
+    "rsi_14 = 69.29 and bollinger pct_b = 0.8474 indicate extended near upper band; chasing a breakout this stretched (z_score_50 = 1.7) risks a mean-reversion shake-out before continuation.",
+    "Daily OBV trend is 'down' and diverging_from_price=true while volume_bias_10d is 'down' — distribution warning despite price strength; today's reversal candle (high 354.97, close 343.14) shows supply at 354-355.",
+    "Q1 beat and +11.2% post-print already happened 2026-05-07 — much of the analyst PT bump may be priced in; rejection from 354.97 swing high could trap late breakout buyers.",
+    "recent_insider_trades is empty — no insider-buying confirmation to corroborate the catalyst stack."
+  ],
+  "web_sources_last_7d": [
+    "https://investor.corpay.com/",
+    "https://www.marketbeat.com/stocks/NYSE/CPAY/",
+    "https://stockanalysis.com/stocks/cpay/ratings/"
+  ]
+}

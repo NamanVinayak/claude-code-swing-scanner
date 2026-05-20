@@ -1,0 +1,23 @@
+{
+  "ticker": "ALL",
+  "setup_direction": "long",
+  "bull_strength": 5,
+  "entry_zone": {"low": 225.50, "high": 227.00},
+  "target": 232.88,
+  "stop": 221.50,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Institutional accumulation catalyst (2026-05-14): Virginia Retirement Systems 13F disclosed acquisition of 29,200 ALL shares — incremental smart-money buying within the 7-day window, consistent with recent breakout structure (close 224.58 on 2026-05-19, +4.23% roc_5d, relative_volume 2.34 vs avg_volume_20 1,680,450).",
+    "Analyst consensus (analyst_consensus_web): rating 'buy' with Piper Sandler and Citi raising price targets following Q1 2026 results (adj EPS $10.65, revenue $16.9B, 82% combined ratio, $2.7B underwriting income, plus 8% dividend increase and $4B buyback per earnings_context_web). PT raises are a continuing catalyst tailwind through breakout above watch_level 225.50.",
+    "No near-term earnings risk: earnings_context_web.next_earnings_date = 2026-08-05, days_until_next = 77 — clean runway with zero earnings landmine inside expected_holding_days = 7. Trade math: entry mid 226.25, stop 221.50 (risk 4.75), target 232.88 = fib_ext_1272 (reward 6.63), R:R ≈ 1.40:1 — below the 2:1 hurdle, which is the honest constraint and is why bull_strength is capped at 5."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_14 = 72.66 is overbought and pct_b = 1.17 means price is above the upper Bollinger band — chasing here has high mean-reversion risk; daily rsi_divergence.bearish = true confirms momentum is fading vs price.",
+    "Q1 2026 beat and capital-return announcement are already priced in (per earnings_context_web 'Already priced in; no near-term earnings catalyst before August') — the only fresh catalyst in the 7-day window is one 13F filing, which is a thin narrative spine for a fresh breakout entry.",
+    "Hourly OBV trending down and diverging from price (hourly.volume.obv.diverging_from_price = true), with hourly relative_volume only 0.32 — intraday participation is weak even though the daily chart looks strong; breakout could fail at 227.62 recent_high without a real volume push.",
+    "R:R from entry 226.25 to target 232.88 vs stop 221.50 is 1.40:1, below the 2:1 standard — a tighter stop is not available without sitting inside the breakout zone, so judge may reject on Gate (risk math)."
+  ],
+  "web_sources_last_7d": [
+    "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-29200-shares-of-the-allstate-corporation-all-2026-05-14/"
+  ]
+}

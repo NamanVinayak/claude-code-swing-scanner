@@ -1,0 +1,23 @@
+{
+  "ticker": "ALAB",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [231.73, 215.58, 210.45],
+  "top_3_arguments": [
+    "Stock is parabolically extended and stretched well beyond mean: daily bollinger.pct_b = 1.0918 (closed ABOVE upper band at $238.65), price is +49.75% above sma_50, daily z_score_50 = 1.89, and hourly z_score_120 = 3.88 (3+ std-dev stretch). rsi_7 = 76.3 is overbought. daily momentum.roc_21d = +38.94% in 21 days. Gap-and-go entries at +49% above the 50-SMA after a one-day +13% spike historically mean-revert before extending — the watch_level $254.50 sits in pure air above the May 19 high of $255.96 (recent_high) with no prior structure and no nearest_resistance defined.",
+    "May 18 was a textbook distribution bar inside the rally: recent_prices_5d shows open $236.19, high $236.70, low $210.02, close $215.58 — a -8.9% intraday reversal on 6.16M shares (above the 5.91M avg_volume_20). This means the $231.73 pivot_high (4 tests, volume_confirmed=true) acted as supply just 2 sessions ago. The bull case assumes May 19's recovery erased that, but the daily candle still closed at $244.26 — BELOW the May 19 high of $255.96 (an 11.7-point upper wick = sellers active at the gap-and-go target zone). volume.relative_volume = 1.59 on the move up is modest given the magnitude of the price spike, suggesting chasers rather than institutional accumulation.",
+    "Valuation/analyst signal contradicts the chase: analyst_consensus_web.avg_price_target = $222.79, which is -8.8% BELOW the current_price of $244.26 — the stock is already trading through the average street target. Only outlier PTs (RBC $250, Evercore $297) sit above current. Combined with daily ADX = 44.63 (already in extreme-trend territory where reversals cluster) and daily MACD histogram only +0.96 (small for a stock up 19.49% in 5 days = roc_5d), momentum is decelerating relative to price. Entry at $254.50 with invalidation at $248 is a -2.55% stop; ATR_14 = $20.96 (8.58%) means a single normal-volatility day easily flushes the stop. R:R against a realistic $270-$275 target (fib_ext_1272 daily = $292 is the next structure, but $272 hourly recent_high is the more honest near-term ceiling) is roughly $20 reward / $6.50 risk on a candle range that exceeds the stop daily — wick risk is severe."
+  ],
+  "bull_acknowledgements": [
+    "MA stack is genuinely bullish across both timeframes: ema_aligned_uptrend = true on daily AND hourly, price above all MAs from EMA5 through SMA200, daily ADX = 44.63 with plus_di 30.77 / minus_di 4.39 = textbook strong uptrend.",
+    "Catalyst stack is real and fresh: 8 positive news items in 7 days including RBC PT raise to $250 (2026-05-19), Evercore PT raise to $297, expanded Amazon-Anthropic deal funneling Scorpio X demand, and Q1 earnings beat — no earnings risk for 76 days. OBV trend = up with diverging_from_price = false on both timeframes confirms volume is broadly following price.",
+    "rsi_divergence shows no bearish divergence on either daily or hourly (bear_divergence = false on both), and the daily MACD bullish_crossover = true — pure-technical bear case has no divergence to anchor on; the bear thesis must rely on extension/mean-reversion risk rather than internal weakness."
+  ],
+  "web_sources_last_7d": [
+    "https://www.timothysykes.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+    "https://www.tradingkey.com/news/market-movers/261911449-market-movers-alab-20260519",
+    "https://stockstotrade.com/news/astera-labs-inc-alab-news-2026_05_19-2/",
+    "https://www.tradingview.com/news/invezz:453002602094b:0-astera-labs-stock-jumps-16-is-ai-inference-the-next-big-catalyst/",
+    "https://finance.yahoo.com/markets/stocks/articles/investors-buy-hold-sell-alab-171400096.html"
+  ]
+}

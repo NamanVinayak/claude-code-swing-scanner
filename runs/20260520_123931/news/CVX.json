@@ -1,0 +1,56 @@
+{
+  "ticker": "CVX",
+  "researched_at": "2026-05-20T19:40:00Z",
+  "news_items": [
+    {
+      "headline": "Chevron declares $1.78 quarterly dividend, ex-date May 19, 2026",
+      "url": "https://finance.yahoo.com/quote/CVX/press-releases/",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "CVX declared a $1.78 quarterly cash dividend with ex-date May 19, 2026, reinforcing shareholder return commitment alongside ongoing buybacks."
+    },
+    {
+      "headline": "CVX shares tick up; upside capped by resistance at $198 (weekly report)",
+      "url": "https://tradersunion.com/news/financial-news/show/1996369-chevron-gains-0-73percent-this-week/",
+      "date": "2026-05-16",
+      "sentiment": "neutral",
+      "summary": "Chevron closed the week at $191.96, +$1.37 (+0.73%) over seven trading days. Weekly indicators on Buy/Strong Buy signals; main scenario is consolidation near current highs with potential breakout above $198."
+    },
+    {
+      "headline": "Berkshire Hathaway trims Chevron stake; analysts still see strong growth",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CVX/",
+      "date": "2026-05-15",
+      "sentiment": "neutral",
+      "summary": "Berkshire Hathaway reduced its CVX position in latest 13F. Analysts maintain Buy/Strong Buy consensus, citing rising oil prices and recent asset divestments."
+    },
+    {
+      "headline": "Chevron expands Venezuela heavy-oil footprint via asset swaps; RBC raises PT",
+      "url": "https://www.benzinga.com/quote/CVX/analyst-ratings",
+      "date": "2026-05-14",
+      "sentiment": "positive",
+      "summary": "Chevron expanded its Venezuelan presence through recent asset swaps, enhancing its heavy-oil footprint. RBC Capital raised its price target on the strategic moves and rising crude prices."
+    },
+    {
+      "headline": "Wells Fargo maintains Buy rating on Chevron",
+      "url": "https://www.benzinga.com/quote/CVX/analyst-ratings",
+      "date": "2026-05-13",
+      "sentiment": "positive",
+      "summary": "Wells Fargo reiterated a Buy rating on CVX, citing the company's ability to generate strong free cash flow under current crude price environment."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 214.70,
+    "recent_changes": "RBC Capital set PT to $220 on 2026-05-05 (~21.73% upside). Wells Fargo maintained Buy. Latest consensus (May 18, 2026): 23 analysts — 18 Buy, 6 Hold, 1 Sell; high PT $236, low $170."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-31",
+    "days_until_next": 72,
+    "notes": "Q1 2026 (reported 2026-05-01): EPS $1.41 vs $0.96 expected (+46.87% beat) despite lowest quarterly profit in five years; record oil output. Next earnings projected EPS $4.56. Near-term tailwind: Middle East conflict-driven crude price surge estimated to add ~$1.7B in Q1 earnings; $2.5B in Q1 2026 buybacks plus continued dividend."
+  },
+  "raw_search_files": [
+    "CVX_news-this-week.json",
+    "CVX_analyst-rating.json",
+    "CVX_earnings-catalyst.json"
+  ]
+}

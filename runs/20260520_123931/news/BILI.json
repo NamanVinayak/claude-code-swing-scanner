@@ -1,0 +1,56 @@
+{
+  "ticker": "BILI",
+  "researched_at": "2026-05-20T19:41:30Z",
+  "news_items": [
+    {
+      "headline": "Bilibili Q1 2026 earnings beat on EPS, revenue misses estimate",
+      "url": "https://www.chartmill.com/news/BILI/Chartmill-48724-Bilibili-NASDAQBILI-Q1-Earnings-Beat-Clouded-by-Revenue-Miss",
+      "date": "2026-05-15",
+      "sentiment": "neutral",
+      "summary": "Q1 ended March 31, 2026: non-GAAP EPS 1.29 beat consensus 1.15; total net revenues RMB 7.37B fell short of RMB 7.60B est (~3% miss). Gross margin 37.1%, 15th consecutive quarter of margin expansion."
+    },
+    {
+      "headline": "Bilibili Q1 2026 call highlights: record profits, advertising revenue +30% YoY",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bilibili-inc-bili-q1-2026-190108034.html",
+      "date": "2026-05-15",
+      "sentiment": "positive",
+      "summary": "Advertising revenue grew +30% YoY (13th consecutive quarter of double-digit growth) driven by AI ad-efficiency. DAU 115M (+8% YoY), MAU 376M. Creators >1000 followers +30% YoY; avg creator income +24%."
+    },
+    {
+      "headline": "JPMorgan upgrades Bilibili to Overweight from Neutral, PT raised to $35 from $27",
+      "url": "https://public.com/stocks/bili/forecast-price-target",
+      "date": "2026-05-16",
+      "sentiment": "positive",
+      "summary": "JPMorgan analyst Daniel Chen upgraded BILI to Overweight (from Neutral) with a price target of $35 (up from $27), citing margin expansion trajectory and ad growth."
+    },
+    {
+      "headline": "Bilibili shares decline ~9.5% over past two weeks; ~21.4% over past month",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/BILI/news/",
+      "date": "2026-05-19",
+      "sentiment": "negative",
+      "summary": "Despite Q1 EPS beat and bullish analyst posture, stock weakness persists. Price action shows ~9.5% drawdown over last 2 weeks and ~21.4% over last month."
+    },
+    {
+      "headline": "Upgraded earnings outlook might change the case for investing in Bilibili",
+      "url": "https://finance.yahoo.com/news/upgraded-earnings-outlook-might-change-170437787.html",
+      "date": "2026-05-17",
+      "sentiment": "positive",
+      "summary": "Earnings outlook upgraded by analysts following Q1 print; commentary frames the move as a potential turn in the investment case if margin trajectory holds."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 31.17,
+    "recent_changes": "JPMorgan (Daniel Chen) upgraded to Overweight from Neutral, PT raised to $35 from $27 in last 7 days. Consensus rating Strong Buy across 31 analysts (30 Buy / 1 Hold / 0 Sell); avg PT $31.17 (high $38.08, low $21.14)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 (quarter ended March 31, 2026) reported ~2026-05-15: non-GAAP EPS 1.29 beat vs 1.15; revenue RMB 7.37B missed RMB 7.60B est. Next quarterly report (Q2 2026) typically mid-to-late August historically; no firm date located. Street expects continued margin expansion (15th consecutive quarter) and double-digit ad growth; key risk is rising content/creator costs."
+  },
+  "raw_search_files": [
+    "BILI_news-this-week.json",
+    "BILI_analyst-rating.json",
+    "BILI_earnings-catalyst.json"
+  ]
+}

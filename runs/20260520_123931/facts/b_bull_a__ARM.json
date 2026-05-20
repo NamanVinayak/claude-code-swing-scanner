@@ -1,0 +1,419 @@
+{
+  "ticker": "ARM",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 228.5,
+  "invalidation_level": 221.5,
+  "catalyst_note": "ARM gapped +2.02% overnight on TradingView strong_buy + trending_up signals, holding above yesterday's close ($223.03) in premarket at $227.54 with no near-term earnings risk (70 days out).",
+  "conviction": 4,
+  "source_reasons": [],
+  "recent_news_7d": [
+    {
+      "title": "Arm Holdings Has Doubled in 2026 \u2014 outpacing Synopsys, Cadence, and Qualcomm",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://247wallst.com/investing/2026/05/19/arm-holdings-has-doubled-in-2026-is-it-outperforming-other-chip-ip-stocks-like-synopsys-cadence-and-qualcomm/",
+      "sentiment": "positive",
+      "summary": "ARM is up 102% YTD through May 18, doubling in under five months and outperforming chip-IP peers Synopsys, Cadence, and Qualcomm."
+    },
+    {
+      "title": "Arm stock climbs 3.73% as upcoming earnings report fuels optimism",
+      "source": "web_research",
+      "date": "2026-05-19",
+      "url": "https://tradersunion.com/news/financial-news/show/2084796-arm-jumps-3-73percent-today-to/",
+      "sentiment": "positive",
+      "summary": "ARM shares rose 3.73% to $223.15 on bullish momentum ahead of the next earnings catalyst, with traders citing AI infrastructure optimism."
+    },
+    {
+      "title": "Bernstein initiates Arm Holdings at Outperform with $300 price target",
+      "source": "web_research",
+      "date": "2026-05-18",
+      "url": "https://www.benzinga.com/quote/ARM/analyst-ratings",
+      "sentiment": "positive",
+      "summary": "Bernstein began coverage of ARM at Outperform with a $300 price target, citing AGI CPU demand and royalty growth."
+    },
+    {
+      "title": "Arm shares rise as AI-infrastructure optimism and price-target hikes stay in focus ahead of earnings",
+      "source": "web_research",
+      "date": "2026-05-15",
+      "url": "https://www.quiverquant.com/news/Arm+shares+rise+as+AI-infrastructure+optimism+and+recent+price-target+hikes+stay+in+focus+ahead+of+earnings",
+      "sentiment": "positive",
+      "summary": "ARM advanced on AI-infrastructure optimism with multiple sell-side price-target hikes keeping focus on the upcoming earnings print."
+    },
+    {
+      "title": "FTC opens antitrust probe into Arm's licensing practices",
+      "source": "web_research",
+      "date": "2026-05-14",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ARM/news/",
+      "sentiment": "negative",
+      "summary": "The U.S. FTC opened an antitrust investigation into Arm Holdings' chip-IP licensing practices, creating regulatory overhang on the business model."
+    },
+    {
+      "title": "Arm AGI CPU demand exceeds $2B for FY27-FY28; supply gap of ~$1B flagged",
+      "source": "web_research",
+      "date": "2026-05-13",
+      "url": "https://www.tikr.com/blog/arm-holdings-stock-surges-80-in-2026-as-the-agi-cpu-bets-on-a-100-billion-market-heres-whats-next",
+      "sentiment": "neutral",
+      "summary": "Arm reported AGI CPU customer demand above $2B for fiscal 2027-2028, more than double launch projections; however supply chain initially sized for ~$1B leaves an unmet supply gap in wafers, memory, packaging and test capacity."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 223.14999389648438,
+  "market_cap": 268633047040.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-13",
+      "open": 212.0,
+      "high": 222.47000122070312,
+      "low": 207.8699951171875,
+      "close": 221.2100067138672,
+      "volume": 8700000
+    },
+    {
+      "time": "2026-05-14",
+      "open": 217.83999633789062,
+      "high": 228.67999267578125,
+      "low": 213.22999572753906,
+      "close": 228.5,
+      "volume": 8456900
+    },
+    {
+      "time": "2026-05-15",
+      "open": 214.7899932861328,
+      "high": 216.6999969482422,
+      "low": 208.5,
+      "close": 209.16000366210938,
+      "volume": 10191200
+    },
+    {
+      "time": "2026-05-18",
+      "open": 209.80999755859375,
+      "high": 215.5,
+      "low": 203.0050048828125,
+      "close": 215.1199951171875,
+      "volume": 8614500
+    },
+    {
+      "time": "2026-05-19",
+      "open": 209.75,
+      "high": 226.9499969482422,
+      "low": 206.3800048828125,
+      "close": 223.14999389648438,
+      "volume": 11189600
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 218.24032506877566,
+      "sma_5": 219.4279998779297,
+      "ema_10": 215.82039285673534,
+      "sma_10": 218.15899963378905,
+      "ema_20": 207.12405449610822,
+      "sma_20": 213.36999969482423,
+      "ema_21": 206.1247749137754,
+      "sma_21": 211.5661904471261,
+      "ema_50": 181.42688019961588,
+      "sma_50": 171.93570098876953,
+      "ema_200": 147.84194925605874,
+      "sma_200": 144.82657527923584,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 223.14999389648438,
+    "dist_from_50sma_pct": 29.79,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.25,
+      "above_sma_5": true,
+      "pct_from_sma_5": 1.7,
+      "above_ema_10": true,
+      "pct_from_ema_10": 3.4,
+      "above_sma_10": true,
+      "pct_from_sma_10": 2.29,
+      "above_ema_20": true,
+      "pct_from_ema_20": 7.74,
+      "above_sma_20": true,
+      "pct_from_sma_20": 4.58,
+      "above_ema_21": true,
+      "pct_from_ema_21": 8.26,
+      "above_sma_21": true,
+      "pct_from_sma_21": 5.48,
+      "above_ema_50": true,
+      "pct_from_ema_50": 23.0,
+      "above_sma_50": true,
+      "pct_from_sma_50": 29.79,
+      "above_ema_200": true,
+      "pct_from_ema_200": 50.94,
+      "above_sma_200": true,
+      "pct_from_sma_200": 54.08,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 22215.0
+    },
+    "rsi": {
+      "rsi_7": 58.34,
+      "rsi_14": 57.96,
+      "rsi_21": 60.28
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 13.2901,
+      "signal_line": 15.1615,
+      "histogram": -1.8714,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 235.49,
+      "middle": 213.37,
+      "lower": 191.25,
+      "width": 0.2074,
+      "pct_b": 0.721
+    },
+    "atr": {
+      "atr_14": 16.39,
+      "atr_pct": 7.34
+    },
+    "adx": {
+      "adx_14": 31.6,
+      "plus_di": 26.84,
+      "minus_di": 17.0,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 11189600,
+      "avg_volume_20": 11898840,
+      "relative_volume": 0.94,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 166.69,
+          "tests": 4,
+          "volume_confirmed": true
+        },
+        {
+          "price": 237.68,
+          "tests": 2,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 111.26,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 200.89,
+          "tests": 6,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 237.68,
+      "nearest_support": 200.89,
+      "recent_high": 239.5,
+      "recent_low": 178.48,
+      "prev_day_high": 215.5,
+      "prev_day_low": 203.01,
+      "prev_day_close": 215.12
+    },
+    "fibonacci": {
+      "swing_high": 239.5,
+      "swing_low": 145.0,
+      "fib_236": 217.2,
+      "fib_382": 203.4,
+      "fib_500": 192.25,
+      "fib_618": 181.1,
+      "fib_786": 165.22,
+      "fib_ext_1272": 265.2,
+      "fib_ext_1618": 297.9,
+      "fib_ext_2000": 334.0,
+      "fib_ext_low_1272": 119.3,
+      "fib_ext_low_1618": 86.6
+    },
+    "momentum": {
+      "roc_5d": 7.32,
+      "roc_10d": 6.85,
+      "roc_21d": 27.44
+    },
+    "z_score_50": 1.38,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 219.30398631402045,
+      "sma_24": 216.41077423095703,
+      "ema_48": 216.74652753355122,
+      "sma_48": 215.39170837402344,
+      "ema_120": 210.15764892888942,
+      "sma_120": 212.87970199584962,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 252.47500610351562,
+    "dist_from_50sma_pct": 18.6,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 15.13,
+      "above_sma_24": true,
+      "pct_from_sma_24": 16.66,
+      "above_ema_48": true,
+      "pct_from_ema_48": 16.48,
+      "above_sma_48": true,
+      "pct_from_sma_48": 17.22,
+      "above_ema_120": true,
+      "pct_from_ema_120": 20.14,
+      "above_sma_120": true,
+      "pct_from_sma_120": 18.6,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 25147.5
+    },
+    "rsi": {
+      "rsi_21": 74.79
+    },
+    "rsi_divergence": {
+      "bullish": true,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.8546,
+      "signal_line": 0.7764,
+      "histogram": 2.0781,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 232.72,
+      "middle": 215.39,
+      "lower": 198.06,
+      "width": 0.1609,
+      "pct_b": 1.5697
+    },
+    "atr": {
+      "atr_24": 6.73,
+      "atr_pct": 2.67
+    },
+    "adx": {
+      "adx_24": 13.88,
+      "plus_di": 33.13,
+      "minus_di": 15.41,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 5789989,
+      "avg_volume_20": 1435839,
+      "relative_volume": 4.03,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 216.5,
+          "tests": 18,
+          "volume_confirmed": true
+        },
+        {
+          "price": 228.68,
+          "tests": 2,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 200.89,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 203.0,
+          "tests": 6,
+          "volume_confirmed": true
+        },
+        {
+          "price": 208.5,
+          "tests": 19,
+          "volume_confirmed": true
+        },
+        {
+          "price": 213.3,
+          "tests": 27,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 213.3,
+      "recent_high": 252.48,
+      "recent_low": 203.0,
+      "prev_day_high": 225.95,
+      "prev_day_low": 222.91,
+      "prev_day_close": 223.14
+    },
+    "fibonacci": {
+      "swing_high": 252.48,
+      "swing_low": 203.0,
+      "fib_236": 240.8,
+      "fib_382": 233.58,
+      "fib_500": 227.74,
+      "fib_618": 221.9,
+      "fib_786": 213.59,
+      "fib_ext_1272": 265.93,
+      "fib_ext_1618": 283.05,
+      "fib_ext_2000": 301.95,
+      "fib_ext_low_1272": 189.55,
+      "fib_ext_low_1618": 172.43
+    },
+    "momentum": {
+      "roc_5d": 15.24,
+      "roc_10d": 21.43,
+      "roc_21d": 18.12
+    },
+    "z_score_120": 4.13,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 70,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 230.92,
+    "recent_changes": "Bernstein initiated at Outperform with $300 PT (2026-05-18). Per 40-analyst panel, consensus Buy with 12-mo PT $230.92 (+3.48% from current); per 23-analyst panel, 35% Strong Buy, 48% Buy, 13% Hold."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 77,
+    "notes": "Last quarter (Q4 FY26) was record: revenue $1.49B (+20% YoY), non-GAAP EPS $0.60 record, FY26 EPS $1.77. Data center royalty more than doubled YoY; license revenue +29% to $819M, royalty +11% to $671M. Street expects continued AGI CPU ramp and data center AI royalty acceleration."
+  }
+}

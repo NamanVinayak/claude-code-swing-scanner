@@ -1,0 +1,26 @@
+{
+  "ticker": "LAMR",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 150.00, "high": 150.75},
+  "target": 156.50,
+  "stop": 147.40,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Full bullish MA stack with strong trend: price above every MA from EMA5 through SMA200 (price_vs_ma.above_ema_5/10/20/50/200 all true), daily moving_averages.ema_aligned_uptrend = true, adx.adx_14 = 55.6 with plus_di 38.37 vs minus_di 15.68 (trend_strength 'strong'); momentum.roc_10d = 7.86 and roc_21d = 10.53 confirm a sustained advance.",
+    "Breakout trigger sits just above current at the hourly pivot high $150.71 (tests=13) and right under daily Fib_236 $152.12; daily macd.histogram = +0.1332 (line 4.124 > signal 3.9908), bollinger.pct_b = 0.7385 (room to upper band $156.95), rsi_14 = 65.45 (still below 70 overbought) and hourly OBV trend 'up' not diverging from price — clean setup to push through $150.71 and target the daily pivot resistance / BB upper $156.95–$158.69.",
+    "Risk/reward is acceptable on a $150.75 trigger: stop $147.40 just under daily fib_382 ($148.05) and hourly pivot low $145.32 buffer = $3.35 risk; target $156.50 just below recent resistance $158.69 = $5.75 reward, R:R ≈ 1.72:1 — sub-2:1, so position sized small, but TD Cowen PT raise to $170 (2026-05-14) and confirmed $1.60/qtr dividend / $6.40+ 2026 distribution guidance provide a fundamental tailwind to a technically extended REIT."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_divergence.bearish = true over 60 bars and price is 10.43% above sma_50 with z_score_50 = 1.76 — extended; a mean-reversion pullback toward EMA20 ($143.60) would invalidate the breakout cleanly.",
+    "Hourly rsi_21 = 76.48 and adx.adx_24 = 10.21 (weak intraday trend) plus hourly relative_volume 0.18 and daily relative_volume 0.87 mean the breakout would be attempting to clear $150.71 (13 tests) on below-average participation — high failure/fade odds without a volume expansion.",
+    "Analyst 3-month avg PT is $139.50 (range $128–$145) per the news bundle — current $149.41 is already above the consensus target band, so further upside requires the Street to chase TD Cowen's outlier $170 rather than mean-revert toward $139.50.",
+    "R:R from the chosen entry is only ~1.72:1 (below the 2:1 preference); a tighter trigger or wider target would be needed for full size — flagged for the judge."
+  ],
+  "web_sources_last_7d": [
+    "https://www.gurufocus.com/news/8859444/lamr-maintained-by-td-cowen-price-target-raised-to-170",
+    "https://www.tipranks.com/news/company-announcements/lamar-advertising-declares-quarterly-dividend-reaffirms-2026-payouts",
+    "https://www.stocktitan.net/news/LAMR/lamar-advertising-to-appear-at-the-j-p-morgan-2026-global-technology-pt7ux7gsjqf1.html",
+    "https://simplywall.st/stocks/us/real-estate/nasdaq-lamr/lamar-advertising/news/lamar-advertising-lamr-valuation-check-after-reaffirmed-divi"
+  ]
+}

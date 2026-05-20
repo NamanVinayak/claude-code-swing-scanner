@@ -1,7 +1,7 @@
 ---
 name: trade lessons
-last_updated: 2026-05-18
-last_run_id: 20260519_030755
+last_updated: 2026-05-20
+last_run_id: 20260520_233859
 target_words: 1500
 stale_after_days: 90
 word_count: 0
@@ -28,3 +28,4 @@ The "why" should reference: the thesis at the time, the macro regime, which scan
 
 - 2026-05-07 | TLN | breakout | $0 (expired) | Order placed at 10:10 ET after bears' hourly cooling signal (roc_5d=-3.5%, pct_b=1.0672) was confirmed — TLN had already crashed below the $409.44 entry band and never returned; same late-order structural issue as CMI, now addressed by Gate 7 entry_valid_until. <!-- trade_id=9 -->
 - 2026-05-18 | ROK | breakout | -$136.73 | Stop hit at $434.50 after 12 days (expected 8) — overbought extension flagged by bear_a at entry (RSI_7=76.57, pct_b=1.2876, z_score_50=2.19) proved correct; post-earnings gap momentum faded without reaching target $469 as mean-reversion risk that the conservative stop was designed to catch materialized. <!-- trade_id=7 -->
+- 2026-05-20 | ALAB | gap_and_go | $0 (expired) | Limit buy at $256 set after a prior-day +13.14% gap never filled — b_decide ran at ~3:39 PM ET leaving insufficient time for a continuation pullback to the $256 zone before the 16:00 ET Gate 7 expiry; structural timing failure, not a thesis failure. <!-- trade_id=25 -->

@@ -1,0 +1,6 @@
+{
+  "lessons_filled": 1,
+  "theses_updated": ["ALAB"],
+  "setup_histories_updated": ["ALAB"],
+  "notes": "Added ALAB lesson (trade_id=25) to wiki/meta/lessons.md (front matter bumped to 2026-05-20). WHY sentence attributes expiry to structural timing: b_decide ran at ~3:39 PM ET leaving <25 min for a limit fill, not a thesis failure. Created wiki/tickers/ALAB/thesis.md and setup_history.md from scratch (new ticker). Existing TLN (trade_id=9) and ROK (trade_id=7) lessons untouched. No open positions to note."
+}

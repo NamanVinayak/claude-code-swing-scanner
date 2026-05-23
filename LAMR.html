@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="300">
-    <title>CMI // SYSTEM B SCANNER</title>
+    <title>LAMR // SYSTEM B SCANNER</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -508,7 +508,7 @@
     
 <div class="ticker-hero">
     <div>
-        <div class="ticker-name">CMI</div>
+        <div class="ticker-name">LAMR</div>
         <div class="ticker-sub">
             <a href="index.html" style="color:var(--muted);text-decoration:none;">← All Positions</a>
         </div>
@@ -520,13 +520,13 @@
 <!-- TradingView Chart -->
 <div class="chart-frame">
     <div class="tradingview-widget-container" style="height:420px;">
-        <div id="tv_CMI" style="height:420px;"></div>
+        <div id="tv_LAMR" style="height:420px;"></div>
         <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
         <script>
         new TradingView.widget({
             "width": "100%",
             "height": 420,
-            "symbol": "CMI",
+            "symbol": "LAMR",
             "interval": "D",
             "timezone": "America/New_York",
             "theme": "dark",
@@ -538,25 +538,12 @@
             "save_image": false,
             "backgroundColor": "rgba(2,4,8,1)",
             "gridColor": "rgba(20,35,61,1)",
-            "container_id": "tv_CMI"
+            "container_id": "tv_LAMR"
         });
         </script>
     </div>
 </div>
 
-
-<div class="thesis-card">
-    <h2>AI Thesis (from Wiki)</h2>
-    <p>Cummins Inc. (NYSE: CMI) is a global manufacturer of diesel/natural gas engines, filtration, and power solutions. **Entry order placed 2026-05-06 expired without filling** — CMI gapped through the entry zone at the open and never returned to it once the order was live. Thesis is preserved here for re-use if the setup re-presents.</p><p>> **Correction note (2026-05-07)**: This page originally claimed CMI was entered long at $689.69 on 2026-05-06. That "fill" was an artifact of the pre-2026-05-07 simulator time-travel bug — the order didn't exist in Turso until 10:11 ET, and yfinance 1-minute bars confirm CMI never re-entered the $684.06–$690.94 entry zone after that point (lowest post-decision price was $696.85; CMI ran up to a $715.54 close). Status corrected from `entered` to `expired` via `scripts/fix_pre_simulator_bug_trades.py`. No real fill ever occurred.</p><p>- **Setup**: breakout_up. TradingView signals: tv_strong_buy + tv_trending_up. Watch level $685.00 (entry midpoint $687.50, tolerance band $684.06–$690.94).
-- **What actually happened**: order was placed at 10:11 ET on 2026-05-06. By that time CMI had already gapped through the entry zone and was trading at ~$697. It never came back into the band — closed the day at $715.54. Order expired at end-of-session without filling.
-- **Catalyst (still valid for the thesis itself)**: Q1 2026 revenue $8.4B (+3% YoY), beat on adjusted EPS, record Power Systems quarter driven by data-center backup-power demand. Management raised FY26 guidance (revenue growth 8–11%, adjusted EPS $6.15). Returned $519M to shareholders. Truist raised PT to $730.
-- **Technicals at decision time**: daily ADX_14 = 45.36 (+DI 37.31 vs -DI 4.58, very strong trend), MACD bullish (line 24.44 > signal 23.14, histogram +1.30), ema_aligned_uptrend = true, relative_volume = 1.8 with OBV trending up (no divergence). RSI_14 = 75.21 (elevated).
-- **Stop (planned, never armed)**: $672.00.
-- **Target 1 / Target 2 (planned)**: $722.00 / $738.00.
-- **Conviction at decision**: 6/10. Technical bull (7) + catalyst bull (8) outweigh bears (7 tech, 6 fundamental). Combined p_bull = 0.5357. Expected return per share = +$11.28.
-- **Size class (planned)**: small_scaled (7 shares).
-- **Realized P&L**: $0. Order never filled.</p>
-</div>
 
 
 <div class="card">
@@ -565,7 +552,7 @@
     <div class="dec-timeline">
     
     <div class="dec-item">
-        <span class="dec-date">20260506</span>
+        <span class="dec-date">20260520</span>
         <span><span class="badge badge-buy">BUY</span></span>
         <span>
             
@@ -582,40 +569,6 @@
     
 </div>
 
-
-<div class="card">
-    <h2 style="font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:16px;">Trade History</h2>
-    <div class="table-wrap" style="border:none;border-radius:0;">
-    <table>
-        <thead>
-            <tr>
-                <th>Closed</th>
-                <th>Result</th>
-                <th>Entry</th>
-                <th>Exit</th>
-                <th>P&L</th>
-            </tr>
-        </thead>
-        <tbody>
-        
-        <tr>
-            <td style="color:var(--muted);font-size:12px;">2026-05-06</td>
-            <td>
-                
-                <span style="color:var(--yellow);font-size:12px;font-weight:600;">EXPIRED</span>
-                
-            </td>
-            <td class="mono">$687.50</td>
-            <td class="mono">—</td>
-            <td class="mono ">
-                $0.00
-            </td>
-        </tr>
-        
-        </tbody>
-    </table>
-    </div>
-</div>
 
 
 

@@ -660,7 +660,7 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
             <a class="nav-link " href="closed.html">History</a>
             <a class="nav-link active" href="runs.html">All Runs</a>
         </div>
-        <div class="nav-meta">09:20 PM PT · NEXT TX <span id="countdown">--:--</span></div>
+        <div class="nav-meta">09:21 PM PT · NEXT TX <span id="countdown">--:--</span></div>
     </div>
 </nav>
 
@@ -728,13 +728,13 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
         <span class="run-date">May 20, 2026 · 5:39 AM PT</span>
         <span class="run-mode-badge mode-b_swing">b_swing</span>
         
-        <span class="decided-at" title="When the writer last finalized decisions.json (b_decide reuses the b_premarket run dir, so morning + power-hour invocations share a run_id)"><span class="label">decided</span>7:10 AM PT</span>
+        <span class="decided-at" title="When the writer last finalized decisions.json (b_decide reuses the b_premarket run dir, so morning + power-hour invocations share a run_id)"><span class="label">decided</span>9:20 PM PT</span>
         
         <div class="run-ticker-pills">
             
         </div>
         <div class="run-decision-count">
-            1 decision · 9 budget-cut
+            2 decisions · 8 budget-cut
             <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="6,4 10,8 6,12"></polyline>
             </svg>
@@ -742,6 +742,33 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
     </div>
 
     <div class="run-accordion-body">
+        
+        <div style="padding:10px 18px;border-bottom:1px solid var(--border);background:var(--surface2);">
+            <div style="font-size:11px;font-weight:600;color:var(--subtle);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px;">
+                Decision passes (2 invocations)
+            </div>
+            
+            <div style="font-size:12px;font-family:var(--mono);color:var(--muted);padding:4px 0;border-top:none;">
+                <span style="color:var(--text);font-weight:700;margin-right:8px;">7:10 AM PT</span>
+                <span style="color:var(--green);">✓ 1 approved</span>
+                <span style="color:var(--muted);"> (ALAB)</span>
+                
+                <span style="color:var(--yellow);margin-left:10px;">✕ 9 budget-cut</span>
+                <span style="color:var(--muted);"> (CPAY, CVX, LAMR, ARM, RVMD, ALL, BILI, CAI, HSAI)</span>
+                
+            </div>
+            
+            <div style="font-size:12px;font-family:var(--mono);color:var(--muted);padding:4px 0;border-top:1px dashed var(--border);">
+                <span style="color:var(--text);font-weight:700;margin-right:8px;">9:20 PM PT</span>
+                <span style="color:var(--green);">✓ 2 approved</span>
+                <span style="color:var(--muted);"> (CPAY, LAMR)</span>
+                
+                <span style="color:var(--yellow);margin-left:10px;">✕ 8 budget-cut</span>
+                <span style="color:var(--muted);"> (ALAB, ALL, CAI, CVX, HSAI, RVMD, BILI, ARM)</span>
+                
+            </div>
+            
+        </div>
         
 
         
@@ -761,14 +788,14 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
                 <tbody>
                     
                     <tr>
-                        <td><a href="ALAB.html" style="font-weight:700;">ALAB</a></td>
+                        <td><a href="CPAY.html" style="font-weight:700;">CPAY</a></td>
                         <td>
                             <span class="badge badge-buy">BUY</span>
                             <span class="scaled-badge" title="Scaled down to fit small-account cap (Gate 4 exception)">scaled</span>
                         </td>
-                        <td class="price hide-mobile">$256.00</td>
-                        <td class="price hide-mobile">$278.00</td>
-                        <td class="price hide-mobile">$248.00</td>
+                        <td class="price hide-mobile">$348.67</td>
+                        <td class="price hide-mobile">$368.00</td>
+                        <td class="price hide-mobile">$341.50</td>
                         <td>
                             
                             <div class="conf-inline">
@@ -782,6 +809,32 @@ td.price { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
                         <td>
                             
                             <span class="status-none">—</span>
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="LAMR.html" style="font-weight:700;">LAMR</a></td>
+                        <td>
+                            <span class="badge badge-buy">BUY</span>
+                            <span class="scaled-badge" title="Scaled down to fit small-account cap (Gate 4 exception)">scaled</span>
+                        </td>
+                        <td class="price hide-mobile">$152.60</td>
+                        <td class="price hide-mobile">$158.40</td>
+                        <td class="price hide-mobile">$149.30</td>
+                        <td>
+                            
+                            <div class="conf-inline">
+                                <div class="conf-bar-bg">
+                                    <div class="conf-bar" style="width:6%"></div>
+                                </div>
+                                <span class="conf-label">6%</span>
+                            </div>
+                            
+                        </td>
+                        <td>
+                            
+                            <span class="status-awaiting">Awaiting</span>
                             
                         </td>
                     </tr>

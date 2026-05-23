@@ -1,22 +1,24 @@
 {
   "ticker": "ARM",
   "setup_direction": "long",
-  "bear_strength": 6,
+  "bear_strength": 7,
   "thesis_crack_level": "moderate",
   "top_3_arguments": [
-    "Valuation/extension risk: ARM is up 102% YTD (247wallst, 2026-05-19) and trades 29.79% above SMA50 and 54.08% above SMA200 (daily price_vs_ma), with daily z_score_50 = 1.38 and hourly z_score_120 = 4.13. Analyst consensus PT is $230.92 (analyst_consensus_web) vs current $223.15 — only +3.48% upside to consensus, so even the sell-side average implies the breakout above $228.50 immediately runs into PT resistance and limits the long's mathematical edge.",
-    "Thesis-integrity crack: FTC opened an antitrust probe into Arm's licensing practices on 2026-05-14 (marketbeat.com) — a direct attack on the royalty/license model that underpins the AGI CPU bull case. This is fresh (within 7d window) and unresolved; regulatory overhang on a chip-IP business is exactly the kind of headline that caps multiple expansion regardless of beat-and-raise execution.",
-    "Daily momentum is rolling over despite price strength: daily MACD histogram = -1.8714 with signal_line (15.16) ABOVE macd_line (13.29) and bullish_crossover=false, daily rsi_divergence.bearish=true on 60-bar lookback, OBV trend=down on the daily, and relative_volume = 0.94 on 2026-05-19 (below average) even on a +3.73% green day. This is classic late-stage exhaustion — buyers are paying up on shrinking volume while the underlying momentum oscillators are deteriorating, undercutting the breakout's quality."
+    "Analyst price targets are already at or below current price — no fundamental room left to rerate. analyst_consensus_web: avg_price_target = $230.92, TipRanks avg PT $253.35, Wall Street range $250-$300 (per stockstotrade.com 2026-05-20). Current price = $298.23, and intraday already tagged Bernstein's high-end $300 PT (initiated 2026-05-18 per benzinga.com). Buying the breakout above $228.50 with consensus PT BELOW current means the long depends entirely on another upward PT revision wave — i.e., narrative momentum, not fundamentals. Watch_level $228.50 is now $70 below market; this is no longer a breakout entry, it's a chase.",
+    "Regulatory overhang from the 2026-05-16 FTC antitrust probe (marketbeat.com) directly attacks the royalty/licensing model that drove the rerating. earnings_context_web flags licensing +29% to $819M and data-center royalty more than doubled YoY as the core engine of the bull thesis — exactly what an FTC licensing-practices investigation targets. With earnings.days_until_next = 68 (Aug 5), there is no near-term print to reset the narrative; the probe has 2+ months to drip negative headlines and cap the multiple while the parabolic move searches for marginal buyers.",
+    "Parabolic exhaustion with no fundamental backstop: daily roc_5d = +30.52%, roc_10d = +39.81%, roc_21d = +51.72%; daily z_score_50 = 2.9; daily bollinger pct_b = 1.35 (well outside the upper band of $266.63); price is 67.34% above sma_50 and 103.97% above sma_200; daily rsi_divergence.bearish = true. Bundled with the 2026-05-16 admission of an unmet supply gap (AGI CPU $2B FY27-FY28 demand vs ~$1B initial wafer/memory/packaging capacity per tikr.com), the demand-side story is partially capacity-constrained, meaning a chunk of the $2B is uninvoicable until capacity expands. At a $326B market cap on this forward narrative, any pause in AI-hype news flow removes the only thing supporting the multiple."
   ],
   "bull_acknowledgements": [
-    "Fundamentals are genuinely strong per earnings_context_web: last quarter revenue $1.49B (+20% YoY), record non-GAAP EPS $0.60, data center royalty more than doubled YoY, and AGI CPU demand of $2B+ for FY27-28 against ~$1B initial supply (tikr.com 2026-05-13) — real structural tailwind, not a story stock.",
-    "Sell-side is firmly constructive: Bernstein initiation at Outperform with $300 PT (2026-05-18), 35% Strong Buy / 48% Buy on the 23-analyst panel, and no near-term earnings risk (earnings.days_until_next = 70, next print 2026-08-05) so there is no scheduled catalyst to break the trend before the breakout has time to work.",
-    "No insider selling pressure visible: recent_insider_trades is empty, so the fundamental bear case cannot lean on executive distribution — a meaningful concession given how often that's the cleanest tell."
+    "Fundamentals are genuinely strong per earnings_context_web: Fiscal Q4 2026 (reported May 6) — revenue $1.49B (+20% YoY, record), net income $313M (+49% YoY), data-center royalty revenue more than doubled YoY, AGI CPU committed demand doubled from $1B to $2B in six weeks. This is a real (not narrative) acceleration.",
+    "Sell-side tone is uniformly constructive: TipRanks Strong Buy (18 buys / 3 holds / 1 sell), Bernstein initiated Outperform at $300 PT (2026-05-18), multiple Wall Street PT hikes into $250-$300 range. No fundamental dissent in the 7-day news window outside the FTC headline.",
+    "No insider selling cluster: recent_insider_trades is empty, so the fundamental bear case cannot lean on CEO/CFO 10b5-1 or open-market sells into strength — a meaningful concession given how often that is the cleanest tell at parabolic tops."
   ],
   "web_sources_last_7d": [
-    "https://247wallst.com/investing/2026/05/19/arm-holdings-has-doubled-in-2026-is-it-outperforming-other-chip-ip-stocks-like-synopsys-cadence-and-qualcomm/",
     "https://www.marketbeat.com/stocks/NASDAQ/ARM/news/",
     "https://www.tikr.com/blog/arm-holdings-stock-surges-80-in-2026-as-the-agi-cpu-bets-on-a-100-billion-market-heres-whats-next",
-    "https://www.benzinga.com/quote/ARM/analyst-ratings"
+    "https://www.benzinga.com/quote/ARM/analyst-ratings",
+    "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_05_20-3/",
+    "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_05_20-4/",
+    "https://tradersunion.com/news/financial-news/show/2107258-arm-jumps-16-16percent-to-usd298-23/"
   ]
 }

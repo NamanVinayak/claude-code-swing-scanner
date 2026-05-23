@@ -2,20 +2,20 @@
   "ticker": "CAI",
   "setup_direction": "short",
   "bull_strength": 5,
-  "entry_zone": {"low": 14.75, "high": 14.80},
-  "target": 13.55,
-  "stop": 15.32,
-  "expected_holding_days": 6,
+  "entry_zone": {"low": 14.70, "high": 14.85},
+  "target": 13.40,
+  "stop": 15.35,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Confirmed Stage 4 downtrend: daily moving_averages.ema_aligned_downtrend = true with price -19.07% below sma_50 and -41.98% below sma_200; price_vs_ma shows below_ema_10/20/50/200 all true, no overhead supply needed to roll over.",
-    "Trend strength supports continuation: daily adx_14 = 30.55 (strong) with minus_di 29.2 > plus_di 16.53; macd histogram = -0.3742 (negative and widening below signal -0.8357), and momentum.roc_21d = -29.57% / roc_10d = -21.06% confirms persistent sellers.",
-    "Breakdown trigger sits at a clean structural fail: watch_level 14.80 is just below prev_day_low 14.74 and recent_low 14.19; daily bollinger.pct_b = 0.1677 (lower-band pressure), z_score_50 = -2.11, and fib_ext_low_1272 = 12.02 gives a measured-move objective below entry — risk $0.52 to stop 15.32, reward ~$1.20+ to 13.55 (R:R ≈ 2.4:1)."
+    "Confirmed downtrend regime: daily moving_averages.ema_aligned_downtrend = true; price below SMA20/50/200 by -7.72%/-13.25%/-37.84%; ADX_14 = 33.97 with minus_di 29.34 > plus_di 17.53 (strong-trend bearish skew); z_score_50 = -1.39 confirms extension below mean.",
+    "Momentum decisively negative on the dominant timeframe: daily rsi_14 = 38.59 (rsi_21 = 36.10 deeper bear zone), macd_line -1.103 vs signal_line -0.9423 with histogram -0.1607 and bullish_crossover = false; momentum.roc_10d = -19.66% and roc_21d = -22.24% mean the last 4 weeks have been one-way distribution.",
+    "Breakdown trigger sits at a real structural level: pivot_low at 14.19 (volume_confirmed = true) is the only support below the 14.80 watch_level; fib_ext_low_1272 = 12.02 provides a measured downside target; relative_volume 0.78 on today's bounce shows no demand, and volume_bias_10d = down confirms supply still in control. Risk ~$0.58 (stop 15.35) vs reward ~$1.37 (target 13.40) ≈ 2.4:1 R:R."
   ],
   "risks_acknowledged": [
-    "daily rsi_14 = 38.16 and rsi_21 = 30.57 are near oversold — short entries here risk a counter-trend bounce off the BB lower band (pct_b 0.17) before resumption.",
-    "Hourly tape is mixed against the daily: hourly macd histogram = +0.1582, hourly obv trend = up, and hourly plus_di 29.32 > minus_di 11.55 — short-term squeeze risk into the watch level.",
-    "Stage 2 conviction = 3 with no premarket volume confirmation and single weak signal; news_source = none and analyst_consensus_web shows Buy rating with avg PT $34.71 — fundamentals lean against the short if a positive catalyst hits.",
-    "Today's relative_volume = 0.82 (below average) — breakdown needs RelVol expansion at 14.80 trigger, otherwise high false-break probability."
+    "Standing analyst consensus is Strong Buy with avg_price_target $28 vs current $15.94 (76% upside in their model) — any sympathy rally or unexpected catalyst could trigger short-covering before $14.80 breaks.",
+    "Counter-trend bounce active: recent_prices_5d show price climbed from 14.55 close (5/15) to 15.94 close (5/21); roc_5d = +4.52%, hourly plus_di 29.52 > minus_di 11.60 and hourly macd histogram +0.1425 — short-term tape is BUYING, not selling.",
+    "Setup is thin per Stage 2 (conviction = 3, source_reasons list is empty, no premarket volume confirmation, single weak signal) — if 14.80 doesn't decisively break with RelVol expansion, this becomes a chop trap into nearest_support at 14.19.",
+    "No fresh catalyst (recent_news_7d empty, news_source = 'none', recent_insider_trades empty) — pure technical short with no narrative tailwind. Research gap: no news researcher hits in the last 7 days, so any unscheduled press release is an information-asymmetry risk."
   ],
   "web_sources_last_7d": []
 }

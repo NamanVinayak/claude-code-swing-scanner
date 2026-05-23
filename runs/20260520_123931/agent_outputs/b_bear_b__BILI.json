@@ -1,23 +1,24 @@
 {
   "ticker": "BILI",
   "setup_direction": "short",
-  "bear_strength": 4,
+  "bear_strength": 3,
   "thesis_crack_level": "moderate",
   "top_3_arguments": [
-    "Fundamentals are improving, not deteriorating: Q1 2026 (reported 2026-05-15) delivered non-GAAP EPS 1.29 vs 1.15 consensus (beat), gross margin 37.1% (15th consecutive quarter of margin expansion), advertising revenue +30% YoY (13th consecutive double-digit quarter), DAU 115M (+8% YoY), MAU 376M — this is the opposite of the cash-burning narrative that justified prior short interest, undermining the short thesis at a fundamental level.",
-    "Analyst posture is uniformly constructive against the short: per analyst_consensus_web, 30 Buy / 1 Hold / 0 Sell across 31 analysts with avg PT $31.17 (vs current $20.00, implying ~56% upside to consensus), and JPMorgan's Daniel Chen upgraded to Overweight from Neutral on 2026-05-16 with PT raised to $35 from $27 — fresh positive analyst flow in the 7-day window is a known short-squeeze catalyst and at minimum caps downside follow-through.",
-    "Stock is already extended to the downside with bear exhaustion signals: rsi_21 = 28.96 (oversold), z_score_50 = -1.78, momentum.roc_21d = -19.9% (already down ~21% in a month per news item), price sits at hourly Bollinger lower band (pct_b = 0.0994) and bollinger.lower = 19.54 is right at the watch_level $18.80 — chasing a short here at $20 with stop above $20.15 (only ~0.75% room) into an oversold tape with 56% upside to analyst PT is poor risk/reward; mean-reversion bounce risk is material with earnings.days_until_next = 92 (no near-term confirming catalyst)."
+    "Fundamental tape is hostile to the short, not supportive: Q1 2026 (reported 2026-05-15) printed non-GAAP EPS 1.29 vs 1.15 consensus (+12.1% beat), advertising revenue +30% YoY (13th consecutive quarter of double-digit ad growth), and gross margin 37.1% (15th consecutive quarter of margin expansion). The ~3% revenue miss (RMB 7.37B vs 7.60B) is the only soft point — that is not the thesis-breaking deterioration needed to sustain a momentum-breakdown short with earnings.days_until_next = 90 (no near-term confirming catalyst).",
+    "Analyst flow inside the 7-day window is overwhelmingly long and FRESH — classic squeeze-bait against a short: JPMorgan upgraded to Overweight, PT $35 from $27 on 2026-05-16; Morgan Stanley upgraded to Overweight, PT $31 from $25 on ~2026-05-18; Barclays reiterated Buy on 2026-05-21 (yesterday). analyst_consensus_web shows 30 Buy / 1 Hold / 0 Sell with avg PT $31.13 vs current_price $17.58 — that is +77% implied upside per the consensus panel. Shorting into a wave of upgrades with a 77% PT gap caps follow-through and seeds a violent mean-reversion bounce.",
+    "Price is mechanically stretched to the downside, leaving asymmetric mean-reversion risk: daily_indicators.rsi_14 = 27.95 (oversold), hourly rsi_21 = 13.91 (deeply oversold), z_score_50 = -2.7, pct_b = -0.1132 (price BELOW the daily lower Bollinger band), momentum.roc_21d = -22.79%, price is -22.97% from SMA50 and -32.95% from SMA200. A reflex bounce to even fib_618 ($20.49) or the 20-day SMA ($21.06) — both above the $20.15 invalidation_level — is a high-probability outcome from these levels with no fundamental tail to keep pressing."
   ],
   "bull_acknowledgements": [
-    "EMA stack is fully aligned in a daily downtrend (ema_aligned_downtrend = true) and price is below every MA from 5 through 200 (pct_from_sma_200 = -23.86%) — the broader trend is structurally bearish and supports a short bias.",
-    "Q1 2026 revenue MISSED at RMB 7.37B vs RMB 7.60B est (~3% miss) and the stock has continued to weaken post-print (-9.5% over 2 weeks, -21.4% over the month per 2026-05-19 marketbeat item), suggesting the market is discounting the EPS beat and focusing on the top-line softness.",
-    "Hourly ADX = 56.57 with minus_di 47.19 >> plus_di 9.42 indicates a very strong active downtrend on the intraday timeframe, and hourly bearish RSI divergence is flagged true — short-term momentum favors continued downside if $19.06 hourly pivot breaks."
+    "The chart's directional posture genuinely favors shorts: ema_aligned_downtrend = true on both daily and hourly, daily ADX = 35.2 (strong trend) with minus_di 34.84 >> plus_di 12.46, OBV trending down on both timeframes — there IS a real, intact downtrend.",
+    "Q1 revenue miss (~3% short of consensus) plus the ~21.4% one-month drawdown despite the bullish analyst posture (per the 2026-05-20 marketbeat note) suggests institutional sellers are quietly distributing into the upgrade cycle — a legitimate reason the short thesis could still work.",
+    "Setup has triggered cleanly: yesterday's close was $17.58, well below both the watch_level $18.80 and invalidation_level $20.15, and the premarket gap is already in short direction (-4.9%) — so mechanically the short is already 'in,' which limits how badly the trade can be re-entered above invalidation."
   ],
   "web_sources_last_7d": [
     "https://www.chartmill.com/news/BILI/Chartmill-48724-Bilibili-NASDAQBILI-Q1-Earnings-Beat-Clouded-by-Revenue-Miss",
     "https://finance.yahoo.com/markets/stocks/articles/bilibili-inc-bili-q1-2026-190108034.html",
     "https://public.com/stocks/bili/forecast-price-target",
+    "https://www.benzinga.com/quote/BILI/analyst-ratings",
     "https://www.marketbeat.com/stocks/NASDAQ/BILI/news/",
-    "https://finance.yahoo.com/news/upgraded-earnings-outlook-might-change-170437787.html"
+    "https://www.tipranks.com/stocks/bili"
   ]
 }

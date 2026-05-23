@@ -1,25 +1,26 @@
 {
   "ticker": "CPAY",
   "setup_direction": "long",
-  "bull_strength": 6,
-  "entry_zone": {"low": 343.56, "high": 347.30},
-  "target": 370.55,
-  "stop": 340.30,
-  "expected_holding_days": 10,
+  "bull_strength": 7,
+  "entry_zone": {"low": 347.50, "high": 349.83},
+  "target": 368.44,
+  "stop": 341.50,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Full MA stack bullish: price above EMA 5/10/20/50/200 with daily_indicators.moving_averages.ema_aligned_uptrend = true; pct_from_sma_50 = +9.84% and pct_from_sma_200 = +11.21%; daily MACD line 7.29 over signal 4.74 with histogram = +2.56 expanding, confirming established uptrend on the trend-continuation breakout setup above 343.56 resistance (9 tests).",
-    "Momentum thrust off the 2026-05-18 gap (open 328.24 to close 348.50 on 742k vs 20d avg 554k = relative_volume 1.35 yesterday) drove daily_indicators.rsi.rsi_14 to 69.29 and pushed price to bollinger.pct_b = 0.847; ROC_10d = +12.99% and daily adx.plus_di 39.0 vs minus_di 14.1 show dominant buyers; daily ADX 20.95 with hourly ADX 37.48 (strong) signals trend acceleration on the lower timeframe.",
-    "Risk/reward is clean to the 1.272 fib extension at 370.55: from entry midpoint ~345.43 to target 370.55 = +25.12 reward vs stop 340.30 (below daily fib_236 = 341.45 and invalidation_level 341.0) = -5.13 risk, R:R ~4.9:1; supported by analyst_consensus_web avg PT 384.56 (Loop Capital $406, MS $400) and earnings 77 days out so no event risk in the 10-day window."
+    "Full bullish MA stack with strong trend confirmation: price 347.46 above all daily MAs (ema_5/10/20/50/200 = 344.06/337.93/330.04/321.56/314.35) with moving_averages.ema_aligned_uptrend = true; pct_from_ema_50 = +8.06%, pct_from_sma_200 = +12.51%; daily ADX_14 = 26.5 (strong) with +DI 35.67 vs -DI 14.15 confirms dominant bullish trend, and daily MACD line 8.79 over signal 6.12 with histogram +2.67 is expanding.",
+    "Momentum is firm but not parabolic: daily rsi_14 = 69.57 (upper edge of healthy band) cooled from prior peak as rsi_7 = 59.89 reset; roc_5d = +5.56% and roc_10d = +13.64% confirm thrust off the 2026-05-18 gap; Bollinger %B = 0.83 with z_score_50 = 1.78 — riding the upper band with room to fib_ext_1272 = 370.44 before the daily upper Bollinger 359.15 caps; prior pivot at 343.56 (9 tests) has flipped to support.",
+    "Risk/reward is clean to hourly fib_ext_1618 = 368.44: entry zone 347.50–349.83 (above prev_day_close 347.46 and at hourly fib_236 = 349.83) with target 368.44 → reward ≈ +18.61 from mid; stop at 341.50 below the hourly pivot-low cluster at 342.21 (tested 12x) and daily fib_236 = 341.54 → risk ≈ -7.16 from mid. R:R ≈ 2.6:1, and external context is supportive — Loop Capital initiated Buy $406 PT (2026-05-19), Cantor reiterated Overweight (2026-05-21), $1.3B credit facility upsize closed (2026-05-22), analyst_consensus_web avg PT $388.70 (8 Buy / 4 Hold / 0 Sell), and earnings 75 days out (no event risk in the 8-day window)."
   ],
   "risks_acknowledged": [
-    "Daily volume.obv.trend = 'down' and diverging_from_price = true — yesterday's rally happened on volume that did not confirm in OBV, suggesting distribution underneath the breakout.",
-    "daily_indicators.bollinger.pct_b = 0.847 and z_score_50 = 1.7 with rsi_14 = 69.29 mean price is extended; a failed breakout retest below 343.56 / 341.45 fib_236 invalidates quickly.",
-    "Yesterday's bar (2026-05-19) printed an outside-day reversal candle: high 354.97, low 341.63, close 343.14 (below midpoint) on rising volume — bearish engulfing risk into the watch_level retest.",
-    "Hourly momentum.roc_5d = -1.81% and roc_10d = -1.18% with price below hourly EMA_24 — short-term hourly momentum is fading, raising the odds of a deeper pullback before the breakout resumes."
+    "Daily volume.obv.trend = 'down' with diverging_from_price = true, relative_volume = 0.98 and volume_bias_10d = 'down' — the breakout is not getting volume confirmation; if a push through recent_high 354.97 happens on weak tape it will likely fail.",
+    "Price is stretched: bollinger.pct_b = 0.83, z_score_50 = 1.78 (~1.8σ above the 50d mean), rsi_14 = 69.57 — a mean-revert pullback to ema_10 = 337.93 or fib_236 = 341.54 is well within normal behavior and will trip the stop.",
+    "Hourly trend has rolled over near term: hourly MACD histogram = -0.5754, hourly ADX_24 = 19.83 (weak) with +DI 20.69 below -DI 26.63, hourly roc_5d = -0.07% — entry timing matters; a gap-and-fade above 349.83 risks an immediate hourly downtrend tag.",
+    "Wiki memory is empty (new_ticker = true; thesis_full/catalysts_full/technicals_full all missing) — no prior System B setup track record for CPAY, so conviction lacks the boost a clean prior-respect history would provide."
   ],
   "web_sources_last_7d": [
-    "https://investor.corpay.com/",
+    "https://www.investing.com/news/company-news/corpay-increases-credit-facilities-by-13-billion-extends-terms-93CH-4704638",
     "https://www.marketbeat.com/stocks/NYSE/CPAY/",
-    "https://stockanalysis.com/stocks/cpay/ratings/"
+    "https://stockanalysis.com/stocks/cpay/ratings/",
+    "https://investor.corpay.com/"
   ]
 }

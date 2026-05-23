@@ -1,17 +1,17 @@
 {
   "ticker": "CAI",
   "setup_direction": "short",
-  "bear_strength": 7,
-  "setup_invalidation_levels": [15.30, 15.67, 15.90],
+  "bear_strength": 8,
+  "setup_invalidation_levels": [16.33, 19.68],
   "top_3_arguments": [
-    "Price is deeply oversold and stretched well below mean: daily rsi.rsi_21 = 30.57 (textbook oversold), z_score_50 = -2.11, bollinger.pct_b = 0.1677 (near lower band), momentum.roc_10d = -21.06 and roc_21d = -29.57. Stocks this stretched (-19.07% from sma_50, -41.98% from sma_200) routinely produce mean-reversion bounces rather than clean breakdowns — shorting into this much downside extension is fighting the rubber band.",
-    "Hourly tape is already turning UP against the short thesis: hourly current_price = 15.26 is ABOVE daily current_price = 14.96 (i.e., gapping up into the setup), hourly macd.histogram = +0.1582 (rising, no bearish crossover), hourly plus_di = 29.32 vs minus_di = 11.55 with adx_24 = 28.18 (STRONG short-term uptrend), hourly rsi_21 = 51.57 (neutral, not weak), and hourly momentum.roc_5d = +3.6. Daily volume.relative_volume = 0.82 and hourly relative_volume = 0.28 — no seller conviction; this is a drifting tape, not a breakdown in progress.",
-    "Setup is structurally thin and the catalyst note flags it: conviction = 3/10, source_reasons = [] (empty — no Stage 1 signal codes backing it), recent_news_7d empty, news_source = 'none', no insider trades. Analyst consensus is BUY with avg PT $34.71 (132% above current price) — institutional positioning is constructive, not deteriorating. With watch_level $14.80 only 1.07% below current $14.96 and invalidation $15.30 only 2.27% above, the R:R window is tiny and the prev_day_high of $15.70 sits as a magnet above; a single squeeze candle invalidates the setup."
+    "Short thesis is already technically invalidated at the entry gate: current_price = $15.94 is ABOVE the Stage 2 invalidation_level $15.30, ABOVE the hourly nearest_resistance $15.67 (17 tests), and the last two daily bars are a 2-day rip from $14.96 -> $15.70 -> $15.94 (+6.5%). daily_indicators.momentum.roc_5d = +4.52 confirms short-term momentum has flipped UP, not down -- the opposite of what a sector-laggard breakdown short needs to trigger.",
+    "Hourly tape is in a strong uptrend, not a breakdown setup: hourly adx_24 = 42.35 with plus_di 29.52 vs minus_di 11.60 (DI spread strongly bullish), hourly macd.histogram = +0.1425 (rising, no bearish crossover), hourly rsi_21 = 59.9 (mid-bullish), hourly bollinger.pct_b = 0.6652 (upper half of band), hourly price above sma_48 (+1.92%), and hourly volume.relative_volume = 1.89x average on the up-move. That is buyers showing up with conviction at the level we are supposed to short -- textbook short-squeeze fuel against a $14.80 trigger.",
+    "Volume on the daily timeframe shows NO distribution and a hard volume-confirmed support floor right under the trigger: daily volume.relative_volume = 0.78 (below average) and daily volume.obv.trend = 'up' diverging bullishly from price; meanwhile support_resistance.pivot_lows shows $14.19 with volume_confirmed = true -- a known buying zone only ~$0.61 below the $14.80 watch_level. R:R for the short is broken: from $14.80 entry to $14.19 confirmed support is only $0.61 of room (~4%), while invalidation back to $15.30 is $0.50 of risk -- barely 1.2:1 even before slippage, and the Strong Buy consensus with $28 avg PT (~76% upside per analyst_consensus_web) is a constant fundamental bid underneath."
   ],
   "bull_acknowledgements": [
-    "Daily trend structure is unambiguously bearish: ema_aligned_downtrend = true, price below every MA from ema_5 through ema_200, dist_from_50sma_pct = -19.07%, daily adx_14 = 30.55 with minus_di 29.2 > plus_di 16.53 — a real downtrend is in force.",
-    "Daily momentum confirms weakness: macd.histogram = -0.3742 (negative and no bullish crossover), obv.trend = 'down', volume_bias_10d = 'down' — distribution is the prevailing regime on the daily timeframe.",
-    "If $14.80 breaks on volume, Fibonacci extension targets ($12.02 at fib_ext_low_1272, $9.26 at fib_ext_low_1618) open meaningful downside — the structural short case is real, just timed poorly into oversold conditions."
+    "The longer-term downtrend is real and supports a short bias in principle: daily moving_averages.ema_aligned_downtrend = true, price is -13.25% from sma_50 and -37.84% from sma_200, daily macd.histogram = -0.1607 (still negative), daily adx_14 = 33.97 with minus_di 29.34 > plus_di 17.53, and daily momentum.roc_10d = -19.66 / roc_21d = -22.24.",
+    "If $14.80 actually breaks, there is logical air on the downside: daily pivot_lows show only one prior level at $14.19 between the trigger and fib_ext_low_1272 = $12.02, so a confirmed flush would have room to extend.",
+    "Daily bollinger.pct_b = 0.3292 (lower third) and daily rsi_14 = 38.59 mean the stock is not yet oversold -- there is technical room for further downside if a real catalyst hits."
   ],
   "web_sources_last_7d": []
 }

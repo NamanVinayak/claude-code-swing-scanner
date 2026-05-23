@@ -27,8 +27,11 @@
   "wiki_context": {
     "slices": {
       "setup_history_tldr": {
-        "missing": true,
-        "mode": "tldr"
+        "path": "wiki/tickers/ALAB/setup_history.md",
+        "mode": "tldr",
+        "content": "",
+        "last_updated": "2026-05-20",
+        "stale": false
       },
       "recent_tldr": {
         "missing": true,
@@ -41,7 +44,6 @@
         "last_updated": "2026-05-03",
         "stale": true
       }
-    },
-    "new_ticker": true
+    }
   }
 }

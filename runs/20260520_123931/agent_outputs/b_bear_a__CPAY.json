@@ -1,20 +1,21 @@
 {
   "ticker": "CPAY",
   "setup_direction": "long",
-  "bear_strength": 6,
-  "setup_invalidation_levels": [341.63, 331.52, 325.77],
+  "bear_strength": 7,
+  "setup_invalidation_levels": [342.21, 333.18, 325.77],
   "top_3_arguments": [
-    "Yesterday's candle is a textbook upper-wick rejection at horizontal resistance: 2026-05-19 opened at $352.50, tagged a recent_high of $354.97, then closed at $343.14 — a $11.83 (-3.4%) intraday giveback that left a bearish reversal bar right under the daily pivot resistance at $343.56 (tested 9 times per support_resistance.pivot_highs). The breakout the bull thesis is paying for already failed once intraday; price closed BELOW the watch_level of $347.0 and BELOW the prior_day_close of $348.5. daily_indicators.bollinger.pct_b = 0.8474 and z_score_50 = 1.7 confirm price is stretched in the upper band right where supply lives.",
-    "Volume / OBV profile contradicts a clean breakout. daily_indicators.volume.volume_bias_10d = 'down' AND daily_indicators.volume.obv.trend = 'down' with obv.diverging_from_price = true — classic negative OBV divergence (price ramping into the high while accumulation is fading). Yesterday's 750.1k shares on a -3.4% reversal candle = distribution, not accumulation. Hourly_indicators corroborate the exhaustion: hourly.momentum.roc_5d = -1.81% and roc_10d = -1.18% (intraday trend has rolled over), hourly.rsi_21 = 63.74 fading from overbought, hourly.macd.bullish_crossover = false, and price is BELOW hourly.ema_24 (above_ema_24 = false). On the daily, rsi_14 = 69.29 is right at the overbought line while rsi_7 has already collapsed to 48.97 — short-term momentum has broken before the breakout was confirmed.",
-    "R:R is poor at the stated levels and worse on realistic stops. Watch $347.0 → invalidation $341.0 = $6.00 risk per share. Nearest meaningful structural stop (below yesterday's low of $341.63 and the 23.6% fib at $341.45) sits ~$5.5 below entry, but the next real support is hourly pivot $331.52 / daily fib_382 $333.09 — a realistic flush is $14-16, not $6. Meanwhile, upside before the next resistance cluster (recent_high $354.97 and daily BB upper $352.6) is only ~$5-7 from a $347 entry. Best-case R:R ≈ 1:1 to the BB upper; if you set a real stop under structure it drops to ~0.4:1. Stage 2 conviction is already only 4/10 and source_reasons is empty — there is no momentum or signal mandate to override the math."
+    "Failed-breakout fingerprint already on the tape, and watch_level sits inside overhead supply. On 2026-05-19 CPAY opened 352.50, tagged the swing high 354.97, then closed 343.14 — a -2.66% intraday reversal that engulfed the 5/18 breakout candle. Price has since chopped 342–352 for three sessions without reclaiming 354.97. daily_indicators.support_resistance.pivot_highs shows the 343.56 shelf tested 9 times — the watch_level of 347.00 is buying directly into known supply. Stage 2 conviction is only 4/10 with source_reasons = [] — there is no Stage 1 signal mandate to override that structural problem.",
+    "Volume and OBV say no real demand behind the rally. daily_indicators.volume.relative_volume = 0.98 on a +13.64% 10-day move (momentum.roc_10d), volume_bias_10d = 'down', and daily_indicators.volume.obv.trend = 'down' with obv.diverging_from_price = true — textbook negative OBV divergence at the top of an extended run. Hourly confirms the rollover: hourly_indicators.macd.histogram = -0.5754 (no bullish crossover), hourly_indicators.adx.minus_di = 26.63 > plus_di = 20.69, hourly trend_strength = 'weak', hourly momentum.roc_5d = -0.07 and roc_10d = -0.48. Intraday participation has already flipped while daily indicators are still pinned near the top.",
+    "Stretched chart with poor R:R against any realistic stop. z_score_50 = 1.78 (>1.5 stretch), price +10.95% above sma_50 and +12.51% above sma_200, daily_indicators.bollinger.pct_b = 0.8323 (upper band), daily rsi_14 = 69.57 (one tick from overbought). From watch 347.00 to invalidation 341.00 = $6.00 risk; from 347.00 to the recent_high 354.97 = ~$7.97 of headroom before known supply — best-case R:R ~1.3:1. A realistic structural stop below the hourly pivot at 342.21 plus an ATR cushion (atr_14 = 13.92) implies a real $10–14 risk envelope, dropping R:R below 1:1. Below 2:1 it is not a tradable setup, regardless of the macro trend."
   ],
   "bull_acknowledgements": [
-    "Macro trend structure is genuinely bullish: daily MAs are stacked in textbook order (ema_5 > ema_10 > ema_20 > ema_50 > ema_200, all rising), price above all of them, ema_aligned_uptrend = true, adx_14 = 20.95 with +DI 39.0 vs -DI 14.1 (long-side trend dominance), and daily MACD histogram +2.56 still positive.",
-    "Fundamental/news backdrop is supportive and fresh: three positive recent_news_7d items (BVNK stablecoin partnership 2026-05-15, Morgan Stanley PT raise to $400, Loop Capital Buy initiation at $406), analyst consensus 9 buy / 3 hold / 0 sell with avg PT $384.56 (~12% above spot), and earnings 77 days out so no near-term blackout risk."
+    "Macro trend structure is genuinely bullish: ema_aligned_uptrend = true on BOTH daily and hourly, price above every MA from ema_5 through sma_200, daily ADX_14 = 26.5 with plus_di 35.67 vs minus_di 14.15 (strong long-side directional dominance), and daily macd.histogram = +2.67 with macd_line (8.79) above signal_line (6.12) — daily momentum has not yet broken.",
+    "Fundamental/news backdrop is fresh and supportive: three positive recent_news_7d items (Loop Capital initiation $406 PT on 5/19, Cantor reiterate Overweight 5/21, $1.3B revolver expansion 5/22), analyst consensus buy with avg PT 388.70 (~12% above spot), Q1 beat-and-raise already absorbed, and earnings ~75 days out so no near-term blackout risk."
   ],
   "web_sources_last_7d": [
-    "https://investor.corpay.com/",
+    "https://www.investing.com/news/company-news/corpay-increases-credit-facilities-by-13-billion-extends-terms-93CH-4704638",
     "https://www.marketbeat.com/stocks/NYSE/CPAY/",
-    "https://stockanalysis.com/stocks/cpay/ratings/"
+    "https://stockanalysis.com/stocks/cpay/ratings/",
+    "https://investor.corpay.com/"
   ]
 }

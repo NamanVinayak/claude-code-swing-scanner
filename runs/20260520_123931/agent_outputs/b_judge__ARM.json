@@ -4,20 +4,20 @@
     {
       "ticker": "ARM",
       "direction": "long",
-      "entry_price": 229.25,
-      "stop_loss": 221.40,
-      "target_price": 245.00,
-      "target_price_2": 250.00,
-      "quantity": 21,
-      "expected_holding_days": 8,
+      "entry_price": 303.25,
+      "stop_loss": 287.00,
+      "target_price": 333.00,
+      "target_price_2": 339.83,
+      "quantity": 15,
+      "expected_holding_days": 7,
       "setup_type": "breakout",
-      "conviction": 6,
-      "rationale": "All 4 perspectives agree on long direction. p_bull=0.5 (bull_a 6 vs bear_a 6), p_catalyst=0.538 (bull_b 7 vs bear_b 6), combined_p_bull=0.519. Conservative long math: entry=mid(228.50,230.00)=229.25, target=min(250,245)=245.00, stop=max(221.40,218.50)=221.40. Expected return = 0.519*(245-229.25) - 0.481*(229.25-221.40) = 8.18 - 3.77 = +$4.41/share. Gate-3 qty = floor(250/7.85) = 31; notional 31*229.25=$7,107 > 15% cap ($3,750), so scaled down from 31 to 21 shares to fit small-account cap, using 66% of risk budget (risk_M=21*7.85=$164.85). Bull case anchored on Bernstein $300 PT (2026-05-18), AGI CPU $2B+ FY27-28 demand, daily ADX 31.6 with +DI 26.84 > -DI 17.0 and EMA stack aligned uptrend. Bears' extension warning (z_score_50=1.38, hourly RSI_21=74.79, pct_b=1.57, OBV daily trend=down, relative_volume 0.94 on breakout day, FTC antitrust probe) is real and caps conviction at 6 rather than higher — but earnings.days_until_next=70 removes binary risk and the $7.85 stop sits below the heavily-tested $213.30 hourly pivot (27 tests) preserving setup invalidation discipline.",
-      "risk_usd": 164.85,
+      "conviction": 4,
+      "rationale": "Direction consensus across all 4 perspectives (long). Bears outweigh bulls on raw strength (bear_a=8, bear_b=7 vs bull_a=5, bull_b=7) reflecting parabolic extension cited from facts: daily rsi_7=85.01, rsi_14=71.73, bollinger.pct_b=1.3467, z_score_50=2.9, hourly rsi_21=87.46, daily rsi_divergence.bearish=true, daily dist_from_50sma_pct=67.34. Probability math: p_bull=5/(5+8)=0.385, p_catalyst=7/(7+7)=0.5, combined_p_bull=0.4423; conservative long entry=mid(300,306.5)=303.25, target=min(333,339.83)=333.00, stop=max(287,273.5)=287.00; expected_return = 0.4423*(333-303.25) - 0.5577*(303.25-287) = 13.16 - 9.06 = +$4.10/share (positive, clears Gate 2). Position sizing: risk_dollars=25000*0.01*1.0=$250, risk_per_share=|303.25-287|=$16.25, Gate-3 qty=floor(250/16.25)=15. Notional 15*$303.25=$4548.75 exceeds 15% cap ($3750) so scaled down from 15 to 15 shares to fit small-account cap, using 98% of risk budget ($243.75; 18.2% of account, within 20% extended cap). Real catalyst stack (Bernstein $300 PT 2026-05-18, Nvidia Vera CPU, AGI CPU $2B FY27-FY28 demand per recent_news_7d), daily adx_14=29.72 with +DI 42.52 vs -DI 13.77, EMA stack aligned uptrend, relative_volume 1.76x and OBV trend=up without divergence support a controlled long-on-pullback. FTC antitrust probe (2026-05-16) and consensus PT $230.92 already below spot $298.23 cap further upside — these plus extension keep conviction at 4. Earnings 68 days out removes binary risk. Trade only works if filled on a pullback into the $300-306.50 zone; tight Gate 7 window prevents chasing.",
+      "risk_usd": 243.75,
       "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-21T17:30:00+00:00"
+      "entry_valid_until": "2026-05-22T21:00:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "ARM long approved as small_scaled (21 shares, $164.85 risk = 66% of budget). Direction consensus across all 4 perspectives, positive +$4.41/share expected return after 0.519/0.481 probability weighting, fundamentals (Bernstein $300 PT, AGI CPU demand reset) and trend (ADX 31.6, EMA stack aligned) outweigh extension/regulatory concerns. Entry window set to next-day mid-morning since current fire is post-close."
+  "summary": "ARM long approved as small_scaled (15 shares, $243.75 risk = 98% of budget) with conviction 4: expected return +$4.10/share is positive despite bear-strength dominance (8/7 vs 5/7), but extreme extension (z_score_50=2.9, pct_b=1.35, rsi_7=85) means fill must occur on pullback into $300-306.50 entry zone by 21:00 UTC today or order expires."
 }

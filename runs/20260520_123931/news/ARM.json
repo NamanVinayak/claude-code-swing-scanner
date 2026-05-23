@@ -1,20 +1,62 @@
 {
   "ticker": "ARM",
-  "researched_at": "2026-05-20T19:40:00Z",
+  "researched_at": "2026-05-22T20:00:00Z",
   "news_items": [
     {
-      "headline": "Arm Holdings Has Doubled in 2026 — outpacing Synopsys, Cadence, and Qualcomm",
-      "url": "https://247wallst.com/investing/2026/05/19/arm-holdings-has-doubled-in-2026-is-it-outperforming-other-chip-ip-stocks-like-synopsys-cadence-and-qualcomm/",
-      "date": "2026-05-19",
+      "headline": "Arm Holdings PLC Stock (ARM) Moved Up by 5.16% on May 22",
+      "url": "https://www.tradingkey.com/news/market-movers/261923124-market-movers-arm-20260522",
+      "date": "2026-05-22",
       "sentiment": "positive",
-      "summary": "ARM is up 102% YTD through May 18, doubling in under five months and outperforming chip-IP peers Synopsys, Cadence, and Qualcomm."
+      "summary": "ARM gained 5.16% on May 22 as post-earnings bullish momentum continued; market cap exceeded $300B."
     },
     {
-      "headline": "Arm stock climbs 3.73% as upcoming earnings report fuels optimism",
-      "url": "https://tradersunion.com/news/financial-news/show/2084796-arm-jumps-3-73percent-today-to/",
+      "headline": "Arm stock price forecast: $312 resistance as ARM jumps 16.16% to $298.23",
+      "url": "https://tradersunion.com/news/financial-news/show/2107258-arm-jumps-16-16percent-to-usd298-23/",
+      "date": "2026-05-21",
+      "sentiment": "positive",
+      "summary": "ARM surged 16.16% to $298.23 intraday on AI-fueled momentum; next technical resistance cited at $312."
+    },
+    {
+      "headline": "Arm Holdings (ARM) hits all-time high with 2030 forecast",
+      "url": "https://rollingout.com/2026/05/21/arm-holdings-arm-hits-all-time-high/",
+      "date": "2026-05-21",
+      "sentiment": "positive",
+      "summary": "ARM hit a new all-time high alongside analyst forecasts that profits could rise fivefold by 2030 on AGI CPU adoption."
+    },
+    {
+      "headline": "ARM Stock Rallies As Wall Street Hikes AI-Fueled Targets",
+      "url": "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_05_20-3/",
+      "date": "2026-05-20",
+      "sentiment": "positive",
+      "summary": "Wall Street firms pushed ARM price targets into the $250-$300 range citing stronger data-center royalties and AI-driven CPU demand."
+    },
+    {
+      "headline": "ARM Stock Draws Wave Of Price Target Hikes On AI Hype",
+      "url": "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_05_20-4/",
+      "date": "2026-05-20",
+      "sentiment": "positive",
+      "summary": "Multiple sell-side firms raised ARM price targets following the May 6 earnings beat and AGI CPU demand disclosure."
+    },
+    {
+      "headline": "Why is Arm Holdings stock surging today?",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-arm-holdings-stock-surging-today-93CH-4701620",
       "date": "2026-05-19",
       "sentiment": "positive",
-      "summary": "ARM shares rose 3.73% to $223.15 on bullish momentum ahead of the next earnings catalyst, with traders citing AI infrastructure optimism."
+      "summary": "ARM rallied on Bernstein's Outperform initiation with a $300 PT, reinforcing the data-center AI thesis."
+    },
+    {
+      "headline": "ARM Holdings (ARM) Stock Surges 15% Following Cramer's Endorsement and Record Earnings",
+      "url": "https://blockonomi.com/arm-holdings-arm-stock-surges-15-following-cramers-endorsement-and-record-earnings/",
+      "date": "2026-05-19",
+      "sentiment": "positive",
+      "summary": "Shares jumped ~15% after Jim Cramer endorsed the name on CNBC, citing record fiscal Q4 results and AGI CPU traction."
+    },
+    {
+      "headline": "Arm Holdings Stock Jumps on Powerful AI Catalyst",
+      "url": "https://www.tipranks.com/news/catalyst/arm-holdings-stock-jumps-on-powerful-ai-catalyst",
+      "date": "2026-05-18",
+      "sentiment": "positive",
+      "summary": "Coverage cited Nvidia's Arm-based Vera CPU partnership — Nvidia targeting a $200B CPU TAM, with ARM collecting royalties on every Vera unit shipped."
     },
     {
       "headline": "Bernstein initiates Arm Holdings at Outperform with $300 price target",
@@ -24,36 +66,29 @@
       "summary": "Bernstein began coverage of ARM at Outperform with a $300 price target, citing AGI CPU demand and royalty growth."
     },
     {
-      "headline": "Arm shares rise as AI-infrastructure optimism and price-target hikes stay in focus ahead of earnings",
-      "url": "https://www.quiverquant.com/news/Arm+shares+rise+as+AI-infrastructure+optimism+and+recent+price-target+hikes+stay+in+focus+ahead+of+earnings",
-      "date": "2026-05-15",
-      "sentiment": "positive",
-      "summary": "ARM advanced on AI-infrastructure optimism with multiple sell-side price-target hikes keeping focus on the upcoming earnings print."
-    },
-    {
       "headline": "FTC opens antitrust probe into Arm's licensing practices",
       "url": "https://www.marketbeat.com/stocks/NASDAQ/ARM/news/",
-      "date": "2026-05-14",
+      "date": "2026-05-16",
       "sentiment": "negative",
-      "summary": "The U.S. FTC opened an antitrust investigation into Arm Holdings' chip-IP licensing practices, creating regulatory overhang on the business model."
+      "summary": "The U.S. FTC initiated an antitrust investigation into Arm Holdings' chip-IP licensing practices, creating a regulatory overhang on the business model."
     },
     {
-      "headline": "Arm AGI CPU demand exceeds $2B for FY27-FY28; supply gap of ~$1B flagged",
+      "headline": "Arm AGI CPU demand exceeds $2B for FY27-FY28; supply gap flagged",
       "url": "https://www.tikr.com/blog/arm-holdings-stock-surges-80-in-2026-as-the-agi-cpu-bets-on-a-100-billion-market-heres-whats-next",
-      "date": "2026-05-13",
+      "date": "2026-05-16",
       "sentiment": "neutral",
-      "summary": "Arm reported AGI CPU customer demand above $2B for fiscal 2027-2028, more than double launch projections; however supply chain initially sized for ~$1B leaves an unmet supply gap in wafers, memory, packaging and test capacity."
+      "summary": "Arm reported AGI CPU customer demand above $2B for fiscal 2027-2028, more than double launch projections; supply chain initially sized for ~$1B leaves an unmet supply gap in wafers, memory, packaging and test capacity."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 230.92,
-    "recent_changes": "Bernstein initiated at Outperform with $300 PT (2026-05-18). Per 40-analyst panel, consensus Buy with 12-mo PT $230.92 (+3.48% from current); per 23-analyst panel, 35% Strong Buy, 48% Buy, 13% Hold."
+    "recent_changes": "Bernstein initiated coverage at Outperform with $300 PT this week; multiple Wall Street firms hiked PTs into the $250-$300 range citing AI/data-center royalty growth. TipRanks shows Strong Buy (18 buys / 3 holds / 1 sell) with avg PT $253.35."
   },
   "earnings_context": {
     "next_earnings_date": "2026-08-05",
-    "days_until_next": 77,
-    "notes": "Last quarter (Q4 FY26) was record: revenue $1.49B (+20% YoY), non-GAAP EPS $0.60 record, FY26 EPS $1.77. Data center royalty more than doubled YoY; license revenue +29% to $819M, royalty +11% to $671M. Street expects continued AGI CPU ramp and data center AI royalty acceleration."
+    "days_until_next": 75,
+    "notes": "Fiscal Q4 2026 reported May 6: revenue $1.49B (+20% YoY, record), net income $313M (+49% YoY), licensing +29% to $819M, data center royalty revenue more than doubled YoY. AGI CPU committed customer demand exceeded $2B across FY27-FY28 (double the $1B figure at launch six weeks earlier). Next print expected August 5, 2026."
   },
   "raw_search_files": [
     "ARM_news-this-week.json",

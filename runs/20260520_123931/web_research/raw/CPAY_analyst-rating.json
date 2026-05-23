@@ -1,17 +1,17 @@
 {
-  "query": "CPAY stock 2026-05-20 analyst rating",
-  "fetched_at": "2026-05-20T19:40:30Z",
+  "query": "CPAY stock 2026-05-22 analyst rating",
+  "fetched_at": "2026-05-22T18:00:30Z",
   "results": [
-    {"title": "Corpay (CPAY) Analyst Ratings", "url": "https://stockanalysis.com/stocks/cpay/ratings/"},
-    {"title": "Corpay Inc (CPAY) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/cpay/forecast-price-target"},
-    {"title": "Corpay, Inc. (CPAY) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CPAY/"},
-    {"title": "Corpay Inc (CPAY) Stock Forecast, Price Targets and Analysts Predictions - TipRanks.com", "url": "https://www.tipranks.com/stocks/cpay/forecast"},
-    {"title": "Corpay, Inc. (CPAY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CPAY/analysis/"},
     {"title": "Corpay (CPAY) Stock Forecast & Analyst Price Targets", "url": "https://stockanalysis.com/stocks/cpay/forecast/"},
+    {"title": "Corpay Inc (CPAY) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/cpay/forecast-price-target"},
+    {"title": "Corpay, Inc. (CPAY) Analyst Ratings, Estimates & Forecasts - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CPAY/analysis/"},
+    {"title": "Corpay, Inc. (CPAY) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CPAY/"},
     {"title": "CPAY Forecast — Price Target — Prediction for 2026 — TradingView", "url": "https://www.tradingview.com/symbols/NYSE-CPAY/forecast/"},
-    {"title": "CPAY Analyst Ratings for Corpay Stock - Barchart.com", "url": "https://www.barchart.com/stocks/quotes/CPAY/analyst-ratings"},
-    {"title": "Corpay, Inc. Common Stock (CPAY) Analyst Reports & Ratings | Nasdaq", "url": "https://www.nasdaq.com/market-activity/stocks/cpay/analyst-research"},
-    {"title": "Corpay (NYSE:CPAY) Stock, Analyst Ratings, Price ...", "url": "https://www.benzinga.com/quote/CPAY/analyst-ratings"}
+    {"title": "Corpay Raises 2026 Outlook After Strong First Quarter - The Globe and Mail", "url": "https://www.theglobeandmail.com/investing/markets/stocks/CPAY/pressreleases/1816822/corpay-raises-2026-outlook-after-strong-first-quarter/"},
+    {"title": "Corpay (CPAY) Analyst Ratings", "url": "https://stockanalysis.com/stocks/cpay/ratings/"},
+    {"title": "Corpay Inc (CPAY) Stock Forecast, Price Targets and Analysts Predictions - TipRanks.com", "url": "https://www.tipranks.com/stocks/cpay/forecast"},
+    {"title": "Corpay, Inc. (CPAY) Stock Price, Quote, News & Analysis | Seeking Alpha", "url": "https://seekingalpha.com/symbol/CPAY"},
+    {"title": "CPAY Stock Forecast 2026 - Corpay Price Targets & Predictions", "url": "https://tickernerd.com/stock/cpay-forecast/"}
   ],
-  "summary_notes": "Consensus rating: Strong Buy / Buy. 9 buy, 3 hold, 0 sell (or 8 buy, 4 hold per current month). Average PT $378.64 (~30.75% upside per stockanalysis; ~16% per other sources). Loop Capital initiated Buy with PT $406. BofA raised PT to $380 from $377. Morgan Stanley raised PT to $400 from $390."
+  "summary_notes": "Consensus rating: Buy. 10 analysts covering with average PT $388.7. Current month: 8 Buy, 4 Hold, 0 Sell. 3-month average PT $378.64, range $339 (low) to $440 (high). Loop Capital initiated Buy with PT $406 on 5/19/2026."
 }

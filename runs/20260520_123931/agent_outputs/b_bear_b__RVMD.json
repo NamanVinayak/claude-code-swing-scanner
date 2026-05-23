@@ -1,21 +1,21 @@
 {
   "ticker": "RVMD",
   "setup_direction": "long",
-  "bear_strength": 6,
+  "bear_strength": 5,
   "thesis_crack_level": "moderate",
   "top_3_arguments": [
-    "Catalyst exhaustion risk: the two positive thesis-driving events (NEJM publication 2026-05-15, FDA expanded access 2026-05-14) are already in the tape, and per earnings_context_web the stock is +52.9% over the past month. With days_until_next earnings = 77 (next print 2026-08-05) there is no near-term fundamental catalyst to refresh the bid — the trade is buying a clinical-stage biotech AFTER the headline, not before.",
-    "Q1 2026 earnings (reported 2026-05-06, within the last 7 days per earnings_context_web) was a miss: non-GAAP EPS -$2.29 vs -$1.86 expected on $0 revenue. The wider-than-expected cash burn for a pre-revenue biotech with $32B market cap (market_cap = 31.98B) materially raises dilution / financing-overhang risk before NDA filing, and the bull thesis has no revenue ramp to offset it.",
-    "Setup is stretched and unconfirmed despite the bullish narrative: daily relative_volume = 0.69 with volume_bias_10d = 'down' and OBV trending down, MACD histogram is negative (-1.336) and below signal line (no bullish crossover), price sits +20.37% above SMA50 and +77.77% above SMA200 (z_score_50 = 1.02), and the $150 round-number resistance has 13 tests / volume-confirmed — into that wall, current price 147.30 is BELOW invalidation_level 147.30 with watch_level 150.50 still overhead. A failed breakout into a confirmed multi-test resistance with declining volume is a classic distribution setup, not continuation."
+    "Catalysts are largely priced in and upside-to-target is thin: per earnings_context_web, RVMD is +52.9% trailing month with daily_indicators.dist_from_50sma_pct = 23.49% and z_score_50 = 1.19. The three positive 7-day items (NEJM publication 2026-05-15, FDA expanded access 2026-05-16, Truist PT $179 upgrade 2026-05-18) have already been absorbed in the $144.37 -> $153.73 rip. analyst_consensus_web avg_price_target = $181.30 implies only ~18% upside, and the chart already sits at the daily Bollinger upper band (pct_b = 0.9141, upper = 155.57) under the pivot $155.70 resistance and recent_high $154.71 — limited room before the breakout meets a confirmed multi-test wall.",
+    "Clinical-stage biotech with $0 revenue, widening losses, and no near-term financial catalyst to bail out a momentum failure: earnings_context_web flags Q1 2026 EPS -$2.29 vs -$1.86 (loss miss) at a ~$32.2B market_cap, with earnings.days_until_next = 75 (next print 2026-08-05). Valuation rests entirely on daraxonrasib regulatory/clinical execution (NDA submission still pending, RASolute 302 is the only Phase 3 asset). Any RAS-program safety signal, FDA delay, or competitor (Mirati/BMS, Amgen) update over the next 75 days hits an unhedged premium with no earnings backstop. Specific sector P/S or peer multiples are not available in the facts bundle — unconfirmed via web — so this is a thesis-risk argument, not a multiples argument.",
+    "Momentum is decelerating beneath the surface even as price drifts higher: daily MACD histogram = -0.7643 with macd_line (6.3292) BELOW signal_line (7.0936) and bullish_crossover = false; daily ADX = 19.35 (trend_strength = 'weak'); current volume 1,846,200 is only 69% of avg_volume_20 (2,689,890) — the move into $150 is happening on shrinking participation. Hourly volume_bias_10d = 'down' and hourly OBV trend = 'down' point to distribution at the highs. A long entry at watch_level $150.50 with invalidation $147.30 is a $3.20 stop (~2.1%) — narrower than daily ATR ($5.92, atr_pct 3.85%), so normal intraday noise can take out the stop before any thesis-relevant move."
   ],
   "bull_acknowledgements": [
-    "Clinical/regulatory progression is genuine and fresh: NEJM peer-reviewed Phase 1/2 data plus FDA expanded access for daraxonrasib both within the last 7 days are real de-risking events for the lead asset.",
-    "Sell-side is unambiguously constructive — analyst_consensus_web shows 20 buy / 0 hold / 0 sell with avg PT $176.95 (~+20% above current), with three top-tier shops (Wedbush, Piper Sandler, Needham) reiterating/initiating on 2026-05-07.",
-    "Trend structure on the daily is intact (ema_aligned_uptrend = true, all MAs from EMA5 through EMA200 below price), recent_insider_trades is empty (no insider selling cluster to flag) and earnings.days_until_next = 77 means no immediate earnings-blackout risk to the trade."
+    "Fundamental catalyst stack is genuinely strong in the 7-day window: NEJM peer-reviewed Phase 1/2 publication, FDA expanded access for daraxonrasib, and Truist upgrade to $179 PT are real de-risking events for the lead asset, not noise.",
+    "Sell-side is unambiguously constructive: analyst_consensus_web shows 20 buy / 0 hold / 0 sell with avg_price_target $181.30 (high $263, low $116), and recent_insider_trades is empty — no fundamental dissent or insider selling cluster to flag.",
+    "Daily trend structure is intact: ema_aligned_uptrend = true, price above all MAs from EMA5 through EMA200, roc_21d = 8.64%, and earnings.days_until_next = 75 means no near-term earnings-blackout risk to the trade."
   ],
   "web_sources_last_7d": [
+    "https://www.gurufocus.com/news/8866861/rvmd-upgraded-by-truist-securities-price-target-raised-to-17900",
     "https://www.stocktitan.net/news/RVMD/revolution-medicines-announces-publication-in-new-england-journal-of-6xcapekbzv3p.html",
-    "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-rvmd/revolution-medicines/news/is-wider-losses-and-fda-expanded-access-for-daraxonrasib-alt",
-    "https://www.benzinga.com/quote/RVMD/analyst-ratings"
+    "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-rvmd/revolution-medicines/news/is-wider-losses-and-fda-expanded-access-for-daraxonrasib-alt"
   ]
 }

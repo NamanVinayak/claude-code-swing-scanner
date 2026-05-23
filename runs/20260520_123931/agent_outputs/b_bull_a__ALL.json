@@ -1,21 +1,21 @@
 {
   "ticker": "ALL",
   "setup_direction": "long",
-  "bull_strength": 6,
-  "entry_zone": {"low": 225.50, "high": 227.62},
+  "bull_strength": 3,
+  "entry_zone": {"low": 225.50, "high": 226.50},
   "target": 232.88,
   "stop": 221.20,
   "expected_holding_days": 7,
   "top_3_arguments": [
-    "Full bullish MA stack confirmed on daily: price 224.58 above ema_5/10/20/50/200 in order (pct_from_ema_50 = +5.3%, pct_from_ema_200 = +9.09%) with ema_aligned_uptrend=true; daily ADX 21.28 with plus_di 25.92 > minus_di 18.13 and hourly ADX 30.52 (strong) confirming trend strength into the watch level.",
-    "Breakout confirmation candle on 2026-05-19: close 224.58 with relative_volume 2.34 (3.94M vs 1.68M avg_20), a higher high at 227.62 (= recent_high and the 5-test hourly resistance), and daily OBV trend up not diverging from price — classic volume-led push toward the 225.50 trigger.",
-    "Momentum cluster aligned: daily macd histogram +0.4993 (expanding, macd_line 2.0102 > signal 1.511), daily rsi_14 = 72.66 (strong but not exhausted vs rsi_21 60.7), bollinger pct_b = 1.1726 (riding upper band, width 0.0562 expanding), and roc_5d = +4.23% / roc_21d = +4.38% — flagging an upside Fib extension target at fib_ext_1272 = 232.88 above the 227.62 swing high."
+    "Higher-timeframe regime is still up: daily moving_averages.ema_aligned_uptrend = true with price_vs_ma.above_ema_50 = true (+0.37% over ema_50 = 213.65) and above_ema_200 = true (+4.04% over ema_200 = 206.12); pct_from_sma_200 = +4.30%. Today's flush brought price back to the ema_50 line — a logical demand zone — without breaking the longer-term uptrend stack.",
+    "Accumulation footprint into the prior breakout candle is still on tape: daily volume.obv.trend = 'up' with diverging_from_price = false and volume_bias_10d = 'up'; 2026-05-19 closed 224.58 on volume 3,937,600 vs avg_volume_20 1,746,510 (2.25x relative_volume), a higher high to recent_high 227.62. A reclaim above the watch_level 225.50 / pivot 222.23 (tests=6) re-engages that flow.",
+    "Defined low-risk trigger above structure with a clean Fib extension target: nearest_resistance = 219.48 then pivot 222.23, watch_level 225.50, recent_high 227.62, fib_ext_1272 = 232.88. Entry 225.50 / stop 221.20 (below invalidation_level 221.50 and pivot_high 222.23) / target 232.88 → reward 7.38 vs risk 4.30 → R:R = 1.72:1; below the 2:1 hurdle, so conviction is capped on R:R alone."
   ],
   "risks_acknowledged": [
-    "Daily rsi_divergence.bearish = true on 60-bar lookback and z_score_50 = 2.37 indicate the move is extended versus its own 50-day mean — a pullback to ema_20 (216.62) or fib_236 (223.06) is a real risk before continuation.",
-    "Hourly volume bias is DOWN with hourly OBV diverging from price (relative_volume only 0.32 on the latest hourly bar) — the daily volume surge has not been confirmed intraday, raising the chance the 227.62 breakout fails on first attempt.",
-    "Nearest daily support is the pivot_low at 209.51 (volume_confirmed) — once 221.5 invalidation breaks there is an air-pocket of ~12 points before structural support, so a failed breakout could overshoot the stop on a fast unwind.",
-    "research_gap: analyst_consensus_web has rating=buy and notes Piper Sandler / Citi PT raises post-Q1 2026 but no avg_price_target and no dated PT figures — cannot quantify analyst-implied upside or use it as a confirming catalyst."
+    "Today (2026-05-21) closed -3.4% at 214.44 on relative_volume 1.26x avg_20, breaking below sma_5 / sma_10 / sma_20 / sma_21 and ema_5 / ema_10 / ema_20 / ema_21 simultaneously (all price_vs_ma flags now false for the short-term MAs) — the breakout thesis is currently failing, not confirming.",
+    "Hourly tape is decisively bearish: hourly_indicators.rsi.rsi_21 = 26.54, macd.histogram = -0.822 with macd_line -0.454 < signal 0.368 (no bullish crossover), and adx_24 = 31.89 with minus_di = 35.39 vs plus_di = 11.53 — strong intraday downtrend, not a base.",
+    "Daily directional flow has flipped: rsi_divergence.bearish = true over a 60-bar lookback, adx_14 minus_di (26.47) > plus_di (21.93), and rsi_14 = 46.59 has rolled below 50 — momentum is no longer supporting the long side and the macd histogram is barely positive (+0.0474) and contracting.",
+    "R:R from a 225.50 entry to fib_ext_1272 target 232.88 against the 221.20 stop is ~1.72:1, below the 2:1 hurdle; no confirmed pivot exists above recent_high 227.62 to justify pushing the target to fib_ext_1618 = 239.56. research_gap: analyst_consensus_web.avg_price_target is null and Piper/Citi PT raises are undated — cannot quantify analyst-implied upside as a confirming catalyst."
   ],
   "web_sources_last_7d": [
     "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-29200-shares-of-the-allstate-corporation-all-2026-05-14/"

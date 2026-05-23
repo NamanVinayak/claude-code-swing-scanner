@@ -1,17 +1,17 @@
 {
-  "query": "ARM stock 2026-05-20 analyst rating",
-  "fetched_at": "2026-05-20T19:40:00Z",
+  "query": "ARM stock 2026-05-22 analyst rating",
+  "fetched_at": "2026-05-22T20:00:00Z",
   "results": [
     {"title": "Arm Holdings (ARM) Stock Forecast & Analyst Price Targets", "url": "https://stockanalysis.com/stocks/arm/forecast/"},
-    {"title": "Arm Holdings (ARM) Analyst Ratings", "url": "https://stockanalysis.com/stocks/arm/ratings/"},
-    {"title": "ARM Holdings Analyst Ratings and Price Targets | NASDAQ:ARM | Benzinga", "url": "https://www.benzinga.com/quote/ARM/analyst-ratings"},
-    {"title": "ARM (ARM) Stock Price, News & Analysis - NASDAQ", "url": "https://www.marketbeat.com/stocks/NASDAQ/ARM/"},
-    {"title": "Arm Holdings plc (ARM) Analyst Ratings, Estimates & Forecasts - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ARM/analysis/"},
-    {"title": "ARM Analyst Ratings for Arm Holdings Plc ADR Stock - Barchart.com", "url": "https://www.barchart.com/stocks/quotes/ARM/analyst-ratings"},
     {"title": "ARM Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/arm/forecast-price-target"},
-    {"title": "Arm Holdings (ARM) Stock Price & Overview", "url": "https://stockanalysis.com/stocks/arm/"},
-    {"title": "Arm Holdings plc American Depositary Shares (ARM) Analyst Reports & Ratings | Nasdaq", "url": "https://www.nasdaq.com/market-activity/stocks/arm/analyst-research"},
-    {"title": "ARM Holdings PLC ADR (ARM) Stock Forecast, Price Targets and Analysts Predictions - TipRanks.com", "url": "https://www.tipranks.com/stocks/arm/forecast"}
+    {"title": "ARM (ARM) Stock Forecast and Price Target 2026 $ARM", "url": "https://www.marketbeat.com/stocks/NASDAQ/ARM/forecast/"},
+    {"title": "Arm Holdings plc (ARM) Analyst Ratings, Estimates & Forecasts - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ARM/analysis/"},
+    {"title": "ARM Holdings Analyst Ratings and Price Targets | NASDAQ:ARM | Benzinga", "url": "https://www.benzinga.com/quote/ARM/analyst-ratings"},
+    {"title": "ARM Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/ARM"},
+    {"title": "ARM Holdings PLC ADR (ARM) Stock Forecast, Price Targets and Analysts Predictions - TipRanks.com", "url": "https://www.tipranks.com/stocks/arm/forecast"},
+    {"title": "Wells Fargo raises Arm Holdings stock price target to $220 on AI potential By Investing.com", "url": "https://www.investing.com/news/analyst-ratings/wells-fargo-raises-arm-holdings-stock-price-target-to-220-on-ai-potential-93CH-4644247"},
+    {"title": "Arm Holdings plc (ARM) Latest Stock News & Headlines - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ARM/news/"},
+    {"title": "Arm Holdings plc (ARM) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/ARM/"}
   ],
-  "summary_text": "Per 23 analysts, ARM has a Buy consensus rating as of May 20, 2026. 35% Strong Buy, 48% Buy, 13% Hold, 0% Sell, 4% Strong Sell. Wall Street price target $218.35 (0% from current). Per 40 analysts, average rating Buy with 12-month price target of $230.92 (+3.48% upside). Bernstein initiated coverage at Outperform with $300 price target this week."
+  "summary_text": "S&P Global poll of 40 analysts: consensus rating 'Buy', average PT $230.92. TipRanks: Strong Buy from 18 buys, 3 holds, 1 sell; average PT $253.35 (range $150-$326). Stockanalysis.com average 1-yr forecast 18.58% below current price; low $125, high $326. Wells Fargo raised PT to $220 on AI potential. Bernstein initiated at $300 (Outperform) this week. Major banks pushed PTs into $250-$300 range."
 }

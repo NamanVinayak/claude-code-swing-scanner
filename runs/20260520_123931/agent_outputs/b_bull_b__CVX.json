@@ -2,25 +2,24 @@
   "ticker": "CVX",
   "setup_direction": "long",
   "bull_strength": 6,
-  "entry_zone": {"low": 197.28, "high": 199.00},
-  "target": 207.00,
-  "stop": 193.50,
-  "expected_holding_days": 10,
+  "entry_zone": {"low": 193.50, "high": 195.50},
+  "target": 205.06,
+  "stop": 189.50,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Catalyst stack from recent_news_7d: RBC raised PT on 2026-05-14 citing Venezuela heavy-oil asset swaps and rising crude (analyst_consensus_web avg PT $214.7, high $236, 18 Buy / 6 Hold / 1 Sell per 2026-05-18 update); $1.78 quarterly dividend declared 2026-05-19 reinforces shareholder-return narrative.",
-    "Earnings_context_web: Q1 2026 EPS $1.41 vs $0.96 (+46.87% beat) reported 2026-05-01 plus $2.5B Q1 buyback and ~$1.7B Middle East crude tailwind — post-earnings drift still in force with next print 72 days out (earnings.days_until_next=72, no near-term risk).",
-    "Technical confirmation of breakout: daily ema_aligned_uptrend=true with price 5.39% above ema_50 and 16.68% above ema_200; rsi_14=59.98 (not yet overbought), MACD histogram +1.407, bullish rsi_divergence=true on 60-bar lookback; 5-day ROC +7.05% on relative_volume 1.21 — breakout above the 10-test $192.37 pivot resistance with watch_level $197.28 confirms. Math: entry mid $198.14 → stop $193.50 = $4.64 risk; target $207 = $8.86 reward → 1.9:1 R:R, tight but justified by the multi-catalyst stack."
+    "Fresh catalyst stack within last 7 days: RBC Capital raised PT on 2026-05-15 citing Venezuela heavy-oil asset-swap expansion and rising crude (Middle East premium estimated ~$1.7B Q1 boost per earnings_context_web); analyst_consensus_web shows 42-analyst median PT $220 vs current $191.01 = ~15% upside to consensus, with 18 Buy / 6 Hold / 1 Sell skew and overall Strong Buy 8.3/10. $1.78 quarterly dividend declared with ex-date 2026-05-19 reinforces the shareholder-return narrative.",
+    "Post-earnings drift intact with no near-term earnings risk inside the trade window: earnings_context_web reports Q1 2026 EPS $1.41 vs $0.96 estimate (+46.87% beat, reported 2026-05-01), alongside Q1 2026 $2.5B buyback. earnings.days_until_next = 70 (next print 2026-07-31), so the entire expected holding period is well outside the 3-day earnings blackout — the catalyst can play out without a binary event interrupting it.",
+    "Daily tape confirms the catalyst before today's profit-taking: daily moving_averages show ema_aligned_uptrend=true (ema_5 191.34 / ema_10 189.71 / ema_20 188.65 / ema_50 187.47 / ema_200 169.69), price above ema_10/20/50/200; daily macd histogram +1.11 with bullish rsi_divergence over 60-bar lookback; daily obv trend 'up' not diverging; ROC 5d +3.28% / 10d +5.62%. recent_prices_5d shows 2026-05-19 close $197.25 — within 1% of the $198 resistance flagged in the 2026-05-16 weekly report — before the 2026-05-20/05-21 pullback to fib_382 zone $190.18. R:R from entry mid $194.50 to target $205.06 vs stop $189.50 = $10.56 / $5.00 = 2.11:1."
   ],
   "risks_acknowledged": [
-    "Hourly rsi_21=78.27 and hourly pct_b=0.91 with hourly OBV trend 'down' diverging from price — short-term overbought into resistance; pullback to $193-195 (fib_236 daily $193.5) is realistic before continuation.",
-    "Berkshire Hathaway trimmed CVX stake (2026-05-15 news) — smart-money distribution into strength is a real overhang on narrative momentum.",
-    "recent_insider_trades is empty (no fresh insider buy confirmation), and weekly report flags $198 as capped resistance — breakout may stall and require multiple attempts.",
-    "R:R is 1.9:1, slightly below the 2:1 guideline; if entry fills near the top of the zone ($199) vs $193.50 stop, R:R compresses further."
+    "Intraday momentum is rolling over even though daily structure is intact: hourly rsi_21 = 32.77, hourly macd histogram -0.61, and hourly rsi_divergence flagged bearish over 60 bars. Daily adx_14 = 10.74 (weak trend strength) means the recent up-move has not been a high-conviction trend. Reclaim above $193.50 (daily fib_236) is the line that has to hold for the long thesis.",
+    "Catalyst is largely sector-macro (crude + geopolitical premium) rather than company-specific — a Middle East de-escalation, an OPEC+ supply move, or a broader oil reversal would unwind the bull case independent of the chart.",
+    "recent_insider_trades is empty in the bundle — no insider buying to corroborate the long thesis. wiki_context shows new_ticker=true with all slices missing, so there is no carry-forward conviction or prior thesis to lean on.",
+    "Dense overhead supply: nearest_resistance is the daily pivot_high at $192.37 with 12 tests (price is right at it now), recent_high $198.87 is a second ceiling, and the 2026-05-16 tradersunion weekly explicitly called out $198 as a cap. Two resistance layers stand between entry and target."
   ],
   "web_sources_last_7d": [
     "https://finance.yahoo.com/quote/CVX/press-releases/",
     "https://tradersunion.com/news/financial-news/show/1996369-chevron-gains-0-73percent-this-week/",
-    "https://www.marketbeat.com/stocks/NYSE/CVX/",
-    "https://www.benzinga.com/quote/CVX/analyst-ratings"
+    "https://www.marketbeat.com/stocks/NYSE/CVX/"
   ]
 }

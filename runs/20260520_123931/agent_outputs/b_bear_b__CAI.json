@@ -1,17 +1,17 @@
 {
   "ticker": "CAI",
   "setup_direction": "short",
-  "bear_strength": 4,
+  "bear_strength": 7,
   "thesis_crack_level": "moderate",
   "top_3_arguments": [
-    "Analyst consensus is firmly constructive against the short: analyst_consensus_web shows 'buy' rating with avg PT $34.71 (cross-source range $31.33-$37.43) vs current_price $14.96 — that implies ~132% upside in the standing consensus, and no rating downgrades occurred in the last 7 days. Shorting into a stock priced at <45% of consensus PT is fighting a wall of sell-side support.",
-    "Fundamental narrative is improving, not deteriorating: earnings_context_web flags 4 consecutive quarters of positive adjusted EBITDA + FCF, ChromaSeq launch with MolDX reimbursement, MI Clarity for breast cancer, Caris Detect early-detection data, and sales-force realignment lifting case exit velocity. None of that is consistent with a thesis-cracking deterioration — it argues the recent selloff (roc_21d = -29.57%) is sentiment/positioning, not business fundamentals, and is more likely to mean-revert than continue.",
-    "Stock is already washed out, limiting incremental downside: rsi_21 = 30.57 (oversold), z_score_50 = -2.11 (2+ std below 50d mean), pct_b = 0.1677 (lower Bollinger band region), daily price -41.98% below sma_200 and -19.07% below sma_50, and hourly MACD histogram has flipped positive (+0.1582) with hourly OBV trending up. Entering a short at $14.96 with invalidation only $0.34 above (15.30) into an oversold, no-near-term-earnings (next earnings 2026-08-11, 83 days out) tape leaves no fundamental catalyst to drive the next leg lower before squeeze risk dominates."
+    "Analyst consensus is firmly against the short: per analyst_consensus_web the standing rating is Strong Buy across a 13-analyst panel with avg PT $28 (low $21, high $36) vs current_price $15.94 — implying ~76% upside in the consensus view. Even the most-recent 2026-05-08 actions (Citi PT cut to $28, JPMorgan PT cut to $30) leave price targets nearly double the current price. Wall Street views CAI as deeply mispriced to the upside, which is the opposite environment a fresh breakdown short wants.",
+    "Fundamentals are inflecting positively, undermining the short thesis: earnings_context_web cites Q4 2025 EPS $0.28 vs $0.07 consensus (~300% beat) and four consecutive quarters of positive adj EBITDA + FCF, plus multiple identified catalysts (ChromaSeq launch with MolDX reimbursement, MI Clarity breast cancer digital, Caris Detect early-stage data, sales-force realignment). Earnings are 81 days out (2026-08-11) so there is no near-term earnings cliff to crack support, and a stock with improving operating metrics is structurally a poor compounding short.",
+    "Price action is rejecting the breakdown, not confirming it: recent_prices_5d shows close 14.55 (5/15) → 15.10 → 14.96 → 15.70 → 15.94 (5/21), a +9.6% bounce off the volume-confirmed 14.19 pivot_low (only 1 test). Daily MACD histogram improving from deeper negative to -0.16, hourly RSI_21 = 59.9 (above midline), hourly MACD histogram positive (+0.14), hourly price above SMA_48 (+1.92%), daily roc_5d = +4.52%. Current_price $15.94 is 7.7% ABOVE watch_level $14.80 and only $0.34 from invalidation_level $15.30 — entry zone isn't in play and short-term momentum is up, not down."
   ],
   "bull_acknowledgements": [
-    "Daily trend is genuinely broken: EMAs aligned in a downtrend, ADX 30.55 with -DI > +DI, MACD line -1.21 well below signal, roc_21d -29.57% — the directional bearish bias for the trade is real.",
-    "No insider buying has shown up in recent_insider_trades to defend the stock at these levels, so there is no visible C-suite signal that management views $14.96 as a bargain.",
-    "Setup-level downside extension is mathematically open: fib_ext_low_1272 = $12.02 and fib_ext_low_1618 = $9.26 give the short room if $14.80 actually breaks on volume."
+    "Long-term trend is decisively broken: EMA stack is in confirmed downtrend (ema_aligned_downtrend=true), price -37.84% below SMA_200 and -13.25% below SMA_50, daily roc_10d -19.66% and roc_21d -22.24%. The bigger picture is genuinely ugly — if 14.19 fails on volume, fib_ext_low targets at 12.02 then 9.26 give the short real room.",
+    "Daily ADX 33.97 with minus_DI (29.34) > plus_DI (17.53) confirms a strong bearish trend regime — the short setup is not occurring in a choppy tape, so a clean break of $14.19 would have technical legitimacy.",
+    "Volume bias is 'down' on both daily and hourly timeframes and no insider buying shows up in recent_insider_trades to defend the stock — there is no visible C-suite signal that management views $15.94 as a bargain, so the bounce could be supply-absorption rather than genuine accumulation."
   ],
   "web_sources_last_7d": []
 }

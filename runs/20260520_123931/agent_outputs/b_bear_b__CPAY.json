@@ -4,18 +4,19 @@
   "bear_strength": 5,
   "thesis_crack_level": "moderate",
   "top_3_arguments": [
-    "Q1 2026 beat and FY guidance raise (EPS $5.80 vs $5.50 consensus, revenue $1.26B vs $1.21B, +25.4% YoY) are already priced in per earnings_context_web (shares +11.2% post-print). With earnings.days_until_next = 77 (next print 2026-08-06), there is no near-term fundamental catalyst to re-rate the stock — the long is buying after the news, not before it.",
-    "Stock is extended vs trend: price_vs_ma shows current price 9.84% above sma_50, 11.21% above sma_200, daily z_score_50 = 1.7 and bollinger pct_b = 0.847 (upper band). Daily rsi_14 = 69.29 is at the overbought threshold. Analyst consensus avg_price_target $384.56 (current $343.14) implies only ~12% upside to the average target — modest reward for buying into a stock 1.7 standard deviations above its 50-day mean.",
-    "Tape quality on the breakout day was poor: 2026-05-19 candle gapped up to $352.50, tagged $354.97, then closed at $343.14 — a $11.83 reversal from highs on relative volume of only 1.35x. Daily volume.obv trend is 'down' and 'diverging_from_price' = true, and hourly momentum.roc_5d = -1.81% and roc_10d = -1.18%, indicating short-term distribution into the resistance pivot at 343.56 (tests=9). The breakout already failed intraday before today's gap; a long here is chasing a rejected high."
+    "Stock is statistically extended with no near-term fundamental catalyst: price $347.46 sits +10.95% above 50SMA and +12.51% above 200SMA, daily z_score_50 = 1.78, bollinger pct_b = 0.8323 (upper third of band, upper band $359.15), and daily rsi_14 = 69.57 right at the overbought line. earnings.days_until_next = 75 (next print 2026-08-06 per earnings_context_web) — the Q1 beat and FY26 guide raise are already 13 days old and shares are +11.2% post-print (explicitly 'already priced in' per earnings_context_web). No fresh catalyst window to bail out a failed breakout for ~2.5 months.",
+    "Valuation upside is shallow vs analyst tape: analyst_consensus_web avg_price_target = $388.70 against current $347.46 implies only ~11.9% to the average target, and current price already sits below the 3-month-avg PT of $378.64 by only ~9% — i.e., the stock is bumping the lower end of what sell-side already models. PT range $339-$440 means the LOW end of the analyst range ($339) is below the trade's $341 invalidation, so a routine analyst-driven pullback to street-low can take out the stop. Specific sector P/E and EV/EBITDA multiples are NOT in the facts bundle (unconfirmed via web — research gap), so absolute multiple-stretch claim is qualified.",
+    "Volume/flow internals contradict the breakout: daily relative_volume = 0.98 on yesterday's session (below average on a supposed breakout test), volume_bias_10d = 'down', daily OBV trend is 'down' AND diverging_from_price = true. On the hourly, ADX_24 is only 19.83 (weak), with minus_di (26.63) ABOVE plus_di (20.69) — short-term tape is actively bearish, and hourly MACD histogram is negative (-0.5754) with no bullish crossover. Daily ATR = $13.92 (4.01%) means a single average-range red day from $347.46 obliterates the $6 cushion to the $341 invalidation and triggers a -1R stop with no margin for noise. recent_insider_trades is empty — no insider BUYING to confirm management conviction at these elevated levels."
   ],
   "bull_acknowledgements": [
-    "Fundamentals are genuinely strong: Q1 2026 beat on both lines, FY2026 guide raised to EPS $26.30-$27.10 / revenue ~$5.3B, Mastercard $300M partnership and Alpha Group integration supportive of cross-border growth thesis.",
-    "Analyst tape is uniformly constructive: Loop Capital initiated Buy $406 PT (2026-05-15), Morgan Stanley raised to $400 (2026-05-14), BofA $380; consensus 9 buy / 3 hold / 0 sell with avg PT $384.56.",
-    "Trend structure is intact — all daily EMAs aligned in uptrend (5>10>20>50>200), daily adx_14 = 20.95 with plus_di (39.0) dominant over minus_di (14.1), and no insider selling cluster (recent_insider_trades empty) to flag a fundamental crack."
+    "Fundamentals are genuinely strong and recently confirmed (context-only — already priced in): Q1 2026 EPS $5.80 vs $5.50 consensus, revenue $1.26B (+25.4% YoY, 11% organic), and FY26 guide raised to $26.30-$27.10 EPS with Q2 guide $6.45-$6.65, both above consensus per earnings_context_web. The $1.3B credit-facility upsize to $3.7B revolver extending to 2031 is balance-sheet positive.",
+    "Analyst tape is uniformly constructive and improving: Loop Capital initiated Buy with $406 PT (2026-05-19), Cantor Fitzgerald reiterated Overweight (2026-05-21), consensus 8 Buy / 4 Hold / 0 Sell — zero Sell ratings. Optionality from BVNK stablecoin partnership (2026-05-15) adds a real cross-border growth lever.",
+    "Trend structure on the daily is intact: all EMAs aligned in uptrend (5>10>20>50>200), daily ADX_14 = 26.5 (strong) with plus_di 35.67 vs minus_di 14.15, momentum roc_10d = +13.64%, and no bearish RSI divergence on either timeframe. recent_insider_trades is empty (no insider SELLING cluster either)."
   ],
   "web_sources_last_7d": [
-    "https://investor.corpay.com/",
+    "https://www.investing.com/news/company-news/corpay-increases-credit-facilities-by-13-billion-extends-terms-93CH-4704638",
     "https://www.marketbeat.com/stocks/NYSE/CPAY/",
-    "https://stockanalysis.com/stocks/cpay/ratings/"
+    "https://stockanalysis.com/stocks/cpay/ratings/",
+    "https://investor.corpay.com/"
   ]
 }

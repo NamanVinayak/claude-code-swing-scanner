@@ -1,6 +1,6 @@
 {
   "ticker": "ALL",
-  "researched_at": "2026-05-20T19:42:00Z",
+  "researched_at": "2026-05-22T19:00:00Z",
   "news_items": [
     {
       "headline": "Virginia Retirement Systems acquires 29,200 shares of The Allstate Corporation",
@@ -17,8 +17,8 @@
   },
   "earnings_context": {
     "next_earnings_date": "2026-08-05",
-    "days_until_next": 77,
-    "notes": "Q1 2026 (reported earlier this period) beat with adj EPS $10.65, revenue $16.9B, 82% combined ratio, $2.7B underwriting income. Co announced 8% dividend increase and $4B buyback. Already priced in; no near-term earnings catalyst before August. Stock hit all-time high $222.23 on 2026-05-05; +1.67% over the last week per search."
+    "days_until_next": 75,
+    "notes": "Q1 2026 beat with adj EPS $10.65, revenue $16.9B, 82% combined ratio, $2.7B underwriting income. Co announced 8% dividend increase and $4B buyback (already priced in). All-time high $222.23 on 2026-05-05. No near-term earnings catalyst before August 5."
   },
   "raw_search_files": [
     "ALL_news-this-week.json",

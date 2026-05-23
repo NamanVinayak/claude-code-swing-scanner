@@ -1,23 +1,11 @@
 {
   "ticker": "ALAB",
-  "approved": [
+  "approved": [],
+  "rejected": [
     {
       "ticker": "ALAB",
-      "direction": "long",
-      "entry_price": 256.00,
-      "stop_loss": 248.00,
-      "target_price": 278.00,
-      "target_price_2": 288.86,
-      "quantity": 19,
-      "expected_holding_days": 6,
-      "setup_type": "gap_and_go",
-      "conviction": 6,
-      "rationale": "Catalyst bull (b_bull_b.bull_strength=8) and technical bull (b_bull_a=7) edge out matched bears (b_bear_a=7, b_bear_b=7); fresh 7-day catalyst stack (RBC PT to $250 and Evercore PT to $297 on 2026-05-19, +13.14% breakout on daily relative_volume=1.59 and hourly relative_volume=2.21) plus textbook trend (daily ADX_14=44.63, plus_di=30.77 vs minus_di=4.39, MACD bullish_crossover=true, ema_aligned_uptrend on both timeframes) outweigh the bears' extension argument (daily z_score_50=1.89, bollinger.pct_b=1.0918, RSI_7=76.3) because earnings.days_until_next=76 removes near-term blackout risk and analyst distribution (16 Buy / 7 Hold / 0 Sell) is supportive. Expected return = 0.5167*(278-256) - 0.4833*(256-248) = +$7.50/share. Gate 3 quantity = floor(250/8)=31 → notional $7,936 exceeds 15% cap ($3,750); scaled down from 31 to 19 shares to fit small-account cap, using 61% of risk budget (M=floor(5000/256)=19, risk_M=$152, notional=$4,864 ≤ 20% cap).",
-      "risk_usd": 152.00,
-      "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-20T20:00:00+00:00"
+      "reason": "single_position_cap_exceeded"
     }
   ],
-  "rejected": [],
-  "summary": "ALAB approved long as small_scaled (19 sh @ ~$256, stop $248, target $278): catalyst-confirmed gap_and_go with strong trend internals beats the extension concern, expected return +$7.50/share, $152 risk used."
+  "summary": "ALAB rejected at Gate 4. Direction consensus PASS (all 4 perspectives long). Risk budget PASS (can_open_new_position=true, phase=full, account_value=$25,000). Expected return math: p_bull = b_bull_a.bull_strength/(b_bull_a.bull_strength+b_bear_a.bear_strength) = 6/(6+9) = 0.40; p_catalyst = b_bull_b.bull_strength/(b_bull_b.bull_strength+b_bear_b.bear_strength) = 7/(7+8) = 0.4667; combined_p_bull = (0.40+0.4667)/2 = 0.4333; combined_p_bear = 0.5667. Entry midpoint of b_bull_a entry_zone = (305.00+308.00)/2 = 306.50. Conservative target (long, min of bulls) = min(b_bull_a.target=332.00, b_bull_b.target=345.50) = 332.00. Conservative stop (long, max of bulls) = max(b_bull_a.stop=295.50, b_bull_b.stop=303.00) = 303.00. expected_return_per_share = 0.4333*(332.00-306.50) - 0.5667*(306.50-303.00) = 11.049 - 1.983 = +$9.07/share, positive (Gate 2 PASS). Gate 3 sizing: risk_dollars = 25000*0.01*1.0 = $250; risk_per_share = |306.50-303.00| = $3.50; quantity = floor(250/3.50) = 71. Gate 4 FAILS: notional = 306.50*71 = $21,761.50, far above standard 15% cap ($3,750) and extended 20% cap ($5,000). Small-scaled path: M = floor(5000/306.50) = 16 shares; risk_M = 16*3.50 = $56; risk_dollars_floor = 0.40*250 = $100; risk_M ($56) < risk_dollars_floor ($100) — fails the 40%-of-risk-budget floor. No viable quantity both fits the 20% notional cap AND uses >=40% of risk budget. Stock too high-priced relative to account size for the bulls' tight $3.50 stop distance. Concurring concerns (not the trigger): combined bear strength (17) > combined bull strength (13); b_bear_a strength=9 and b_bear_b thesis_crack_level=severe both cite parabolic exhaustion — daily rsi_7=86.6, rsi_14=76.71, rsi_21=70.75; daily z_score_50=2.61; daily bollinger.pct_b=1.177; daily dist_from_50sma_pct=75.21; hourly rsi_21=89.37; hourly z_score_120=2.39; recent_news_7d documents COO Sanjay Gajendra insider sale 2026-05-18 with no offsetting buys in recent_insider_trades (empty list). Even if Gate 4 had cleared, the bulls' $3.50 stop is far inside daily atr_14=$23.18 (a single normal-vol candle = $23 move), confirming the bears' fragility argument. Last-night wiki/tickers/ALAB/thesis.md notes the prior 2026-05-20 gap_and_go at $256 limit (trade_id=25) EXPIRED unfilled — and today's setup is structurally more extended. No trade."
 }

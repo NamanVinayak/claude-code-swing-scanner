@@ -1,21 +1,21 @@
 {
   "ticker": "ALL",
   "setup_direction": "long",
-  "bull_strength": 5,
-  "entry_zone": {"low": 225.50, "high": 227.00},
-  "target": 232.88,
-  "stop": 221.50,
-  "expected_holding_days": 7,
+  "bull_strength": 3,
+  "entry_zone": {"low": 225.50, "high": 227.80},
+  "target": 239.56,
+  "stop": 219.00,
+  "expected_holding_days": 10,
   "top_3_arguments": [
-    "Institutional accumulation catalyst (2026-05-14): Virginia Retirement Systems 13F disclosed acquisition of 29,200 ALL shares — incremental smart-money buying within the 7-day window, consistent with recent breakout structure (close 224.58 on 2026-05-19, +4.23% roc_5d, relative_volume 2.34 vs avg_volume_20 1,680,450).",
-    "Analyst consensus (analyst_consensus_web): rating 'buy' with Piper Sandler and Citi raising price targets following Q1 2026 results (adj EPS $10.65, revenue $16.9B, 82% combined ratio, $2.7B underwriting income, plus 8% dividend increase and $4B buyback per earnings_context_web). PT raises are a continuing catalyst tailwind through breakout above watch_level 225.50.",
-    "No near-term earnings risk: earnings_context_web.next_earnings_date = 2026-08-05, days_until_next = 77 — clean runway with zero earnings landmine inside expected_holding_days = 7. Trade math: entry mid 226.25, stop 221.50 (risk 4.75), target 232.88 = fib_ext_1272 (reward 6.63), R:R ≈ 1.40:1 — below the 2:1 hurdle, which is the honest constraint and is why bull_strength is capped at 5."
+    "Thin catalyst window — only one 7-day news item: Virginia Retirement Systems 13F disclosed +29,200 share accumulation 2026-05-14 (news_source=web_research). Incremental institutional buy, positive sentiment, but a single 13F filing is a weak narrative spine for a fresh breakout long; no fresh operational catalyst in the researcher's window.",
+    "Structural backdrop still constructive under the surface despite today's drop: daily EMAs aligned uptrend (ema_5 218.63 > ema_10 218.12 > ema_20 216.87 > ema_50 213.65 > ema_200 206.12), price above 50/200 SMA (+0.9% / +4.3% per price_vs_ma), daily macd_line 1.7062 > signal 1.6588 (histogram +0.0474), daily OBV trend = up and not diverging — accumulation thesis intact even as 2026-05-21 candle sold off to 214.44 (volume 2.19M, relative_volume 1.26).",
+    "Analyst tape from analyst_consensus_web: rating='buy' with Piper Sandler and Citi raising price targets after Q1 2026 (adj EPS $10.65, revenue $16.9B, 82% combined ratio, $2.7B underwriting income, 8% dividend hike, $4B buyback per earnings_context_web). avg_price_target is null and exact PT figures/dates are research gaps — treat as supportive but unquantified. Trade math from watch_level breakout: entry mid 226.65, stop 219.00 (risk 7.65), target 239.56 = daily fib_ext_1618 (reward 12.91) → R:R 1.69:1, BELOW the required 2:1 hurdle — flagged honestly, which is why bull_strength is capped low."
   ],
   "risks_acknowledged": [
-    "Daily rsi_14 = 72.66 is overbought and pct_b = 1.17 means price is above the upper Bollinger band — chasing here has high mean-reversion risk; daily rsi_divergence.bearish = true confirms momentum is fading vs price.",
-    "Q1 2026 beat and capital-return announcement are already priced in (per earnings_context_web 'Already priced in; no near-term earnings catalyst before August') — the only fresh catalyst in the 7-day window is one 13F filing, which is a thin narrative spine for a fresh breakout entry.",
-    "Hourly OBV trending down and diverging from price (hourly.volume.obv.diverging_from_price = true), with hourly relative_volume only 0.32 — intraday participation is weak even though the daily chart looks strong; breakout could fail at 227.62 recent_high without a real volume push.",
-    "R:R from entry 226.25 to target 232.88 vs stop 221.50 is 1.40:1, below the 2:1 standard — a tighter stop is not available without sitting inside the breakout zone, so judge may reject on Gate (risk math)."
+    "Breakout setup is currently invalidated by today's price action: 2026-05-21 closed 214.44, well below the 225.50 watch_level and below the 221.50 invalidation_level set by Stage 2. The catalyst-bull case for a fresh breakout requires price to first reclaim 221.50 then trigger 225.50 — a two-step climb on no fresh catalyst.",
+    "Short-term tape is bearish, not bullish: hourly macd_line -0.454 < signal 0.368 (histogram -0.822), hourly adx_24 31.89 with -DI 35.39 vs +DI 11.53 (strong bearish trend), daily rsi_divergence.bearish=true on 60-bar lookback. Catalyst case is fighting active distribution.",
+    "Catalyst desert: zero recent_insider_trades, no near-term earnings (75 days until 2026-08-05), no upcoming product/regulatory event surfaced. The Q1 beat, dividend hike, and $4B buyback are already priced in per earnings_context_web — the all-time high $222.23 on 2026-05-05 already fully reflected them and has since rejected.",
+    "R:R does not clear 2:1 (1.69:1 computed). Wiki_context.new_ticker=true with all three slices missing — no prior thesis/catalyst/technical memory to corroborate, reducing conviction floor further."
   ],
   "web_sources_last_7d": [
     "https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-29200-shares-of-the-allstate-corporation-all-2026-05-14/"

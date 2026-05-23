@@ -3,19 +3,19 @@
   "setup_direction": "short",
   "bull_strength": 3,
   "entry_zone": {"low": 14.75, "high": 14.80},
-  "target": 13.51,
+  "target": 13.63,
   "stop": 15.30,
   "expected_holding_days": 7,
   "top_3_arguments": [
-    "No recent catalyst found — recent_news_7d is empty and news_source=='none'; the short case rests purely on technical breakdown narrative, with daily momentum.roc_21d = -29.57% and roc_10d = -21.06% showing capitulation distribution already underway over the last month.",
-    "Stage 4 downtrend confirmed by structure: daily ema_aligned_downtrend == true, price 19.07% below 50-SMA and 41.98% below 200-SMA, daily ADX 30.55 with minus_di 29.2 > plus_di 16.53 (strong bearish trend), and daily volume.obv.trend == 'down' with volume_bias_10d == 'down' — distribution narrative intact with no catalyst needed to reverse it.",
-    "Sector-laggard narrative validated by z_score_50 = -2.11 (statistically dislocated to the downside vs peers) and bollinger pct_b = 0.1677 hugging the lower band; entry $14.75–$14.80 breakdown vs hourly fib_ext_low_1618 = $13.51 target gives 1.24 reward vs 0.525 risk to $15.30 stop = 2.36:1 R:R, satisfying the ≥2:1 requirement."
+    "No recent catalyst found — recent_news_7d is empty and news_source == 'none'; the short case rests on structural distribution already underway. Daily momentum.roc_10d = -19.66% and momentum.roc_21d = -22.24% show one-month capitulation, with z_score_50 = -1.39 confirming statistical dislocation to the downside vs the 50-day mean.",
+    "Stage-4 downtrend intact on both timeframes: daily ema_aligned_downtrend == true, price -13.25% vs SMA50 and -37.84% vs SMA200, daily ADX_14 = 33.97 with minus_di 29.34 > plus_di 17.53 (strong bearish trend per facts), hourly ADX_24 = 42.35 with minus_di 11.60 — wait, hourly DI is bullish (plus 29.52 > minus 11.60), so the hourly tape is fighting the daily, but the daily Stage-4 stack is unambiguous and dominant for a swing horizon.",
+    "Breakdown short math at watch_level $14.80: entry midpoint 14.775, stop $15.30 (risk $0.525) → target $13.63 (hourly fib_ext_low_1618 from swing 16.33/14.66), reward $1.145, R:R = 2.18:1, satisfying the ≥2:1 mandate. Daily volume_bias_10d == 'down' and prev session relative_volume 0.78 (weak bid) supports continuation if $14.80 cracks; volume-confirmed daily pivot_low at $14.19 is the first stop on the way to $13.63."
   ],
   "risks_acknowledged": [
-    "Analyst consensus is BUY with avg_price_target $34.71 (132% above current $14.96) per analyst_consensus_web — any analyst defense or upgrade catalyst could spark a violent short squeeze given the disconnect between fundamentals narrative (4 quarters positive EBITDA + FCF, ChromaSeq launch) and price action.",
-    "Hourly momentum is diverging bullish from daily: hourly macd histogram +0.1582 (no bearish crossover), hourly plus_di 29.32 > minus_di 11.55, hourly roc_5d +3.6%, and price is above hourly ema_24/sma_24/sma_48 — short entry on a $14.80 breakdown could be a bear trap if the hourly bounce extends.",
-    "No catalyst evidence in recent_news_7d means thesis is technicals-only; mean-reversion bounce toward hourly fib_236 = $15.38 or pivot_high $15.67 can stop out the trade without any fundamental change.",
-    "Earnings 83 days out (2026-08-11) per earnings_context_web is benign for timing but removes any near-term downside catalyst — short relies entirely on continued passive distribution."
+    "Analyst consensus is materially BULLISH: standing Strong Buy with avg PT $28 (low $21, high $36) per analyst_consensus_web — a short here is fighting sell-side positioning, and any defensive note or PT-raise catalyst in the next 7 days could spark a violent squeeze given the disconnect with technicals.",
+    "Hourly tape is diverging UP from daily: hourly MACD histogram +0.1425 (no bearish crossover), hourly plus_di 29.52 > minus_di 11.60, hourly RSI_21 = 59.9, hourly pct_b = 0.6652, and last 2 daily closes printed +1.10% (5/20) and +1.53% (5/21). A $14.80 breakdown entry could be a bear trap if the hourly bounce extends through the daily 14.19 pivot retest.",
+    "Earnings 81 days out (2026-08-11) per earnings_context_web — benign on timing but removes any near-term downside catalyst; thesis is technicals-only with no fundamental accelerant. Last reported quarter (Q4 2025) beat EPS by ~300% ($0.28 vs $0.07 consensus), which keeps a residual fundamental bid under the name.",
+    "OBV divergence on the daily is BULLISH not bearish: volume.obv.trend == 'up' with diverging_from_price == true — accumulation pattern beneath the price decline is a real warning that smart-money flow may be positioning for a reversal even as the trend tape stays Stage 4."
   ],
   "web_sources_last_7d": []
 }

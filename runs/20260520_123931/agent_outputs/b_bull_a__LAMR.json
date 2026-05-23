@@ -1,21 +1,21 @@
 {
   "ticker": "LAMR",
   "setup_direction": "long",
-  "bull_strength": 6,
-  "entry_zone": {"low": 150.00, "high": 150.75},
-  "target": 156.50,
-  "stop": 147.40,
-  "expected_holding_days": 7,
+  "bull_strength": 7,
+  "entry_zone": {"low": 152.20, "high": 153.00},
+  "target": 158.40,
+  "stop": 149.30,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Full bullish MA stack with strong trend: price above every MA from EMA5 through SMA200 (price_vs_ma.above_ema_5/10/20/50/200 all true), daily moving_averages.ema_aligned_uptrend = true, adx.adx_14 = 55.6 with plus_di 38.37 vs minus_di 15.68 (trend_strength 'strong'); momentum.roc_10d = 7.86 and roc_21d = 10.53 confirm a sustained advance.",
-    "Breakout trigger sits just above current at the hourly pivot high $150.71 (tests=13) and right under daily Fib_236 $152.12; daily macd.histogram = +0.1332 (line 4.124 > signal 3.9908), bollinger.pct_b = 0.7385 (room to upper band $156.95), rsi_14 = 65.45 (still below 70 overbought) and hourly OBV trend 'up' not diverging from price — clean setup to push through $150.71 and target the daily pivot resistance / BB upper $156.95–$158.69.",
-    "Risk/reward is acceptable on a $150.75 trigger: stop $147.40 just under daily fib_382 ($148.05) and hourly pivot low $145.32 buffer = $3.35 risk; target $156.50 just below recent resistance $158.69 = $5.75 reward, R:R ≈ 1.72:1 — sub-2:1, so position sized small, but TD Cowen PT raise to $170 (2026-05-14) and confirmed $1.60/qtr dividend / $6.40+ 2026 distribution guidance provide a fundamental tailwind to a technically extended REIT."
+    "Textbook bullish trend structure with strong, dominant momentum: price 152.61 above every MA (price_vs_ma.above_ema_5/10/20/50/200 all true; pct_from_ema_50 = +9.75%, pct_from_sma_200 = +20.13%), daily moving_averages.ema_aligned_uptrend = true, daily adx.adx_14 = 53.39 with plus_di 36.13 vs minus_di 15.55 ('strong'), and momentum.roc_5d = +3.53, roc_21d = +14.27 — sustained advance with no MA-stack inversion threat.",
+    "Daily and hourly momentum still have room before exhaustion: daily rsi_14 = 64.5 (below 70 overbought), macd.macd_line = 4.3995 > signal 4.1172 with histogram = +0.2824 (expanding), bollinger.pct_b = 0.7917 (upper band 158.47 = the target zone, not yet pinned). Hourly confirms intraday strength: hourly rsi_21 = 79.89 hot but supported by hourly OBV trend = 'up' (not diverging), hourly relative_volume = 2.11x, hourly ema_aligned_uptrend = true with price above ema_24/48/120.",
+    "Acceptable R:R into well-defined structure: entry at the prior_day_high 152.19 / current 152.61 area, stop 149.30 sits just below prev_day_low 149.08 and hourly support 149.4 (tested 19x, daily fib_382 148.30 nearby) = ~3.30 risk; target 158.40 just under nearest_resistance / recent_high 158.69 (= daily bollinger upper 158.47, = swing_high) = ~5.79 reward, R:R ~1.75:1 at trigger and >2:1 if filled at zone low. Catalyst tailwind: TD Cowen PT raised to $170 (2026-05-14), dividend reaffirmation 2026-05-15, no earnings risk (days_until_next = 77)."
   ],
   "risks_acknowledged": [
-    "Daily rsi_divergence.bearish = true over 60 bars and price is 10.43% above sma_50 with z_score_50 = 1.76 — extended; a mean-reversion pullback toward EMA20 ($143.60) would invalidate the breakout cleanly.",
-    "Hourly rsi_21 = 76.48 and adx.adx_24 = 10.21 (weak intraday trend) plus hourly relative_volume 0.18 and daily relative_volume 0.87 mean the breakout would be attempting to clear $150.71 (13 tests) on below-average participation — high failure/fade odds without a volume expansion.",
-    "Analyst 3-month avg PT is $139.50 (range $128–$145) per the news bundle — current $149.41 is already above the consensus target band, so further upside requires the Street to chase TD Cowen's outlier $170 rather than mean-revert toward $139.50.",
-    "R:R from the chosen entry is only ~1.72:1 (below the 2:1 preference); a tighter trigger or wider target would be needed for full size — flagged for the judge."
+    "Volume is not confirming on the daily timeframe: today's volume 453,700 vs avg_volume_20 769,510 = relative_volume 0.59, and daily volume.obv.trend = 'down' — breakout drive has thinner participation than ideal.",
+    "Stretched/late-stage signals: daily rsi_divergence.bearish = true on 60-bar lookback, hourly rsi_21 = 79.89, daily z_score_50 = 1.91 (~2 sigma extended), price +12.18% above sma_50 — pullback risk before clearing 158.69 is real.",
+    "Overhead supply at 158.69 is volume_confirmed = true; analyst_consensus_web shows 3-mo avg PT $139.50 (range $128–$145) which is BELOW current price — multi-week upside above 158.69 requires the Street to chase TD Cowen's outlier $170 rather than mean-revert toward consensus.",
+    "Research gap: wiki_context.new_ticker = true (no prior thesis/catalysts/technicals slices), so we have no setup-history record for how LAMR has resolved similar EMA-extended trend continuations — relying on the 4 news items plus indicator state only."
   ],
   "web_sources_last_7d": [
     "https://www.gurufocus.com/news/8859444/lamr-maintained-by-td-cowen-price-target-raised-to-170",

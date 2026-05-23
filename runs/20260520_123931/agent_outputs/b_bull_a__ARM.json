@@ -1,28 +1,32 @@
 {
   "ticker": "ARM",
   "setup_direction": "long",
-  "bull_strength": 6,
-  "entry_zone": {"low": 228.50, "high": 230.00},
-  "target": 250.00,
-  "stop": 221.40,
-  "expected_holding_days": 8,
+  "bull_strength": 5,
+  "entry_zone": {"low": 300.00, "high": 306.50},
+  "target": 333.00,
+  "stop": 287.00,
+  "expected_holding_days": 5,
   "top_3_arguments": [
-    "Full bullish MA stack with strong daily trend: price 223.15 above ema_5/10/20/50/200 (pct_from_ema_50 = +23.0%, pct_from_sma_200 = +54.08%); daily ADX 31.6 with +DI 26.84 > -DI 17.0 confirms strong directional uptrend; roc_21d = +27.44% shows durable momentum.",
-    "Breakout-trigger setup at 228.50 (prior 5/14 swing high close) aligns with hourly relative volume 4.03x avg (current 5.79M vs 1.44M avg), hourly MACD histogram expanding to +2.08 with hourly OBV trending up — institutional accumulation pre-breakout. Daily bollinger pct_b = 0.721 leaves room to upper band at 235.49 before stretch.",
-    "Fresh fundamental tailwind: Bernstein initiated Outperform $300 PT (2026-05-18), AGI CPU demand >$2B for FY27-28 (doubling prior estimate), 102% YTD outperformance vs chip-IP peers; 70+ days to next earnings (2026-08-05) removes near-term binary risk and supports a multi-week swing window into the print."
+    "Trend power is best-in-class: daily adx_14 = 29.72 (strong) with plus_di 42.52 vs minus_di 13.77; full bullish EMA stack (price above ema_5/10/20/50/200, ema_aligned_uptrend = true); momentum.roc_5d = +30.52% and roc_21d = +51.72% on relative_volume 1.76x with volume.obv.trend = up and not diverging from price — the trend is intact and being fueled by real participation.",
+    "Breakout has cleared all daily overhead structure: support_resistance.nearest_resistance is null on daily after taking out the $237.68 pivot-high (3 tests, volume_confirmed); hourly nearest_resistance is $315 (~5.6% headroom from current $298.23), and fib_ext_1272 daily measured-move target sits at $339.83, consistent with the $312 resistance level cited in 2026-05-21 news coverage.",
+    "Catalyst stack reinforces the technical breakout and there is no near-term binary risk: Bernstein initiated Outperform $300 PT (2026-05-18), multiple sell-side hikes into $250-$300 range on AGI CPU demand (>$2B booked FY27-FY28 vs $1B at launch six weeks earlier), Nvidia Vera CPU royalty stream — and earnings.days_until_next = 68, well outside the 5-day blackout."
   ],
   "risks_acknowledged": [
-    "Daily MACD histogram negative (-1.87) and bearish RSI divergence flagged over 60-bar lookback — daily momentum is decelerating even as price recovers, so a failed breakout above 228.50 could roll over toward the 213.30 hourly pivot support.",
-    "FTC antitrust probe (2026-05-14) into licensing practices is an unresolved overhang on the royalty model; headline risk could cap upside near 237.68 daily resistance.",
-    "Stock is extended: z_score_50 = 1.38, pct_from_sma_200 = +54%, hourly RSI_21 = 74.79 and hourly pct_b = 1.57 (above upper band) — high probability of intraday mean reversion before clean breakout follow-through.",
-    "Consensus 12-mo PT $230.92 is only +3.5% from current — limited fundamental ceiling unless price targets get revised higher; swing target $250 leans on momentum extension beyond consensus."
+    "Chart is severely extended: daily rsi_7 = 85.01, rsi_14 = 71.73, hourly rsi_21 = 87.46, bollinger.pct_b = 1.3467 (above upper band), z_score_50 = 2.9, price 35.5% above ema_20 and 67.3% above sma_50 — fresh longs here are chasing climactic strength, and a mean-revert pullback to the 20 EMA at $220 would be roughly -26% from entry.",
+    "Daily rsi_divergence.bearish = true on a 60-bar lookback — momentum no longer confirming new price highs is a classic late-stage warning even within strong uptrends.",
+    "FTC opened an antitrust probe into ARM's chip-IP licensing practices on 2026-05-16 (negative sentiment item in recent_news_7d) — a single adverse headline on the probe could puncture the AI-momentum narrative driving the move.",
+    "research_gap: analyst_consensus_web.avg_price_target = $230.92 is already ~23% BELOW current price $298.23, and the facts bundle contains no data on options-implied volatility, short interest, or float — all of which matter for sizing a chase-entry into a parabolic chart."
   ],
   "web_sources_last_7d": [
-    "https://247wallst.com/investing/2026/05/19/arm-holdings-has-doubled-in-2026-is-it-outperforming-other-chip-ip-stocks-like-synopsys-cadence-and-qualcomm/",
-    "https://tradersunion.com/news/financial-news/show/2084796-arm-jumps-3-73percent-today-to/",
+    "https://www.tradingkey.com/news/market-movers/261923124-market-movers-arm-20260522",
+    "https://tradersunion.com/news/financial-news/show/2107258-arm-jumps-16-16percent-to-usd298-23/",
+    "https://rollingout.com/2026/05/21/arm-holdings-arm-hits-all-time-high/",
+    "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_05_20-3/",
+    "https://stockstotrade.com/news/arm-holdings-plc-arm-news-2026_05_20-4/",
+    "https://www.investing.com/news/stock-market-news/why-is-arm-holdings-stock-surging-today-93CH-4701620",
+    "https://blockonomi.com/arm-holdings-arm-stock-surges-15-following-cramers-endorsement-and-record-earnings/",
+    "https://www.tipranks.com/news/catalyst/arm-holdings-stock-jumps-on-powerful-ai-catalyst",
     "https://www.benzinga.com/quote/ARM/analyst-ratings",
-    "https://www.quiverquant.com/news/Arm+shares+rise+as+AI-infrastructure+optimism+and+recent+price-target+hikes+stay+in+focus+ahead+of+earnings",
-    "https://www.marketbeat.com/stocks/NASDAQ/ARM/news/",
     "https://www.tikr.com/blog/arm-holdings-stock-surges-80-in-2026-as-the-agi-cpu-bets-on-a-100-billion-market-heres-whats-next"
   ]
 }

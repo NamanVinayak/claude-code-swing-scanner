@@ -1,12 +1,23 @@
 {
   "ticker": "CPAY",
-  "approved": [],
-  "rejected": [
+  "approved": [
     {
       "ticker": "CPAY",
-      "reason": "single_position_cap_exceeded",
-      "detail": "stock too high-priced for current account size, cannot fit even minimum scaled position. Entry midpoint 345.43 (bull_a zone 343.56-347.30), stop 340.30 (max of bull stops 340.30/340.00), risk_per_share=5.13. Gate-3 quantity=floor(250/5.13)=48, notional=345.43*48=16580.64 which exceeds single_cap=3750 (15% of 25000). Small-scaled path: extended_cap=5000, M=floor(5000/345.43)=14, risk_M=14*5.13=71.82 which is BELOW risk_dollars_floor=100 (40% of 250), so small-scaled exception fails. Gate 0 direction consensus passed (all 4 perspectives long). Gate 2 expected_return_per_share = 0.542*(370.55-345.43) - 0.458*(345.43-340.30) = +11.27 was positive, but Gate 4 capital concentration constraint binds. Account too small for a $343 stock at meaningful risk."
+      "direction": "long",
+      "entry_price": 348.67,
+      "stop_loss": 341.50,
+      "target_price": 368.00,
+      "target_price_2": 370.44,
+      "quantity": 14,
+      "expected_holding_days": 8,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "All 4 perspectives echo direction=long. Strengths: b_bull_a=7, b_bull_b=7, b_bear_a=7, b_bear_b=5. p_bull = 7/(7+7) = 0.5; p_catalyst = 7/(7+5) = 0.5833; combined_p_bull = 0.5417. Entry = midpoint of b_bull_a zone (347.50,349.83) = 348.665; conservative stop = max(341.50, 340.50) = 341.50; conservative target = min(368.44, 368.00) = 368.00. Expected_return_per_share = 0.5417*(368.00-348.665) - 0.4583*(348.665-341.50) = 10.475 - 3.284 = +$7.19/share (positive). Gate-3 sizing: 25000*0.01*1.0 / 7.165 = floor(34.89) = 34 shares; notional 34*348.665=$11,855 exceeds 15% cap ($3,750). Scaled down from 34 to 14 shares to fit small-account cap, using 40% of risk budget (M=floor(5000/348.665)=14, risk_M = 14*7.165 = $100.31 >= floor $100.00; notional 14*348.665=$4,881 <= 20% cap $5,000). Bears' key concerns (daily_indicators.volume.obv.diverging_from_price=true, volume.relative_volume=0.98, z_score_50=1.78, hourly_indicators.macd.histogram=-0.5754, hourly adx minus_di=26.63 > plus_di=20.69) acknowledged and reflected in conviction=6; offset by daily_indicators.adx.adx_14=26.5 strong with plus_di=35.67 vs minus_di=14.15, MACD histogram +2.67 expanding, ema_aligned_uptrend=true on both daily and hourly, and fresh recent_news_7d catalyst stack (Loop Capital Buy $406 PT 5/19, Cantor Overweight 5/21, $1.3B credit facility 5/22). earnings.days_until_next=75 = no near-term event risk.",
+      "risk_usd": 100.31,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-22T20:00:00+00:00"
     }
   ],
-  "summary": "CPAY rejected on Gate 4: $343 share price too high for the $25k account to fit even a small-scaled position (M=14 shares would use only 28.7% of the 1% risk budget, below the 40% floor). Bull thesis (combined_p_bull=0.542) is positive-EV but uninvestable here."
+  "rejected": [],
+  "summary": "CPAY long approved as small_scaled (14 shares, $100.31 risk = 40% of 1% risk budget, notional $4,881 inside 20% extended cap) with positive expected return +$7.19/share. Conviction trimmed to 6 to reflect stretched daily (z_score_50=1.78, rsi_14=69.57, OBV diverging) and hourly rollover (MACD hist -0.5754, -DI > +DI); offset by strong daily ADX/trend stack and fresh 7-day catalyst flow."
 }

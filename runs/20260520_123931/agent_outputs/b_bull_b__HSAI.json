@@ -1,28 +1,27 @@
 {
   "ticker": "HSAI",
   "setup_direction": "short",
-  "bull_strength": 3,
-  "entry_zone": {"low": 19.80, "high": 19.90},
-  "target": 17.56,
-  "stop": 21.00,
-  "expected_holding_days": 5,
+  "bull_strength": 6,
+  "entry_zone": {"low": 19.85, "high": 20.30},
+  "target": 18.05,
+  "stop": 21.05,
+  "expected_holding_days": 7,
   "top_3_arguments": [
-    "No bearish catalyst found in recent_news_7d — all 6 items dated 2026-05-19 are positive (Q1 beat +29.6% YoY rev, GAAP profit turnaround RMB18.3M vs -RMB17.5M YoY, Q2 guide RMB850-900M above consensus, Mercedes-Benz L3 partnership, +13.1% session). The SHORT case rests entirely on a 'good news already in the spike' exhaustion thesis, not a fresh negative catalyst.",
-    "Technical exhaustion after the catalyst pop is the strongest available short argument: on 2026-05-19 HSAI gapped/spiked then closed at 20.02 (daily low 19.51) — full reversal of the +13.1% intraday move on relative_volume 2.59x. Daily EMA stack is downtrend-aligned (ema_aligned_downtrend=true), price -15.91% from sma_200, ROC_21d=-8.56, hourly ADX_24=34.38 with minus_di 45.65 vs plus_di 11.29 (strong downtrend on the hourly). The post-news intraday rejection at 21.82 supports the 'sell the news' read.",
-    "R:R math from entry midpoint 19.85 → target 17.56 (nearest daily support, fib_ext_low_1272=18.03 nearby) = 2.29 risk. Stop 21.00 (above invalidation, above 2026-05-19 high 21.82 NOT covered — see risk #1) = 1.15 risk. Reward:risk ≈ 2.29 / 1.15 = 1.99:1, marginally below the 2:1 floor — this is a thin catalyst short, hence bull_strength=3."
+    "Classic 'sell the news' reversal documented in recent_news_7d: Yahoo Finance 2026-05-20 (https://finance.yahoo.com/markets/stocks/articles/why-hesai-group-hsai-down-032108533.html) explicitly notes HSAI declined ~15.8% post-event despite the Q1 beat, Mercedes-Benz L3 deal, and GAAP profit turnaround. The fade is confirmed by the 2026-05-19 daily bar: open 21.60, high 21.82, low 19.51, close 20.025 — a full intraday reversal of the +9% pre-market spike on volume 4.44M = 2.76x the 20d avg of 1.61M. When the best possible news (earnings beat + tier-1 auto deal + profit turnaround) gets distributed in one session, the bullish catalyst is already in the rear-view mirror and the short edge is the institutional unloading still to come.",
+    "Stage 4 breakdown structure is mechanically confirmed, not narrative-based: ema_aligned_downtrend=true on BOTH daily and hourly; price -5.03% vs daily SMA50, -12.23% vs daily SMA200; daily MACD line -0.3262 / histogram -0.176 with bullish_crossover=false; daily rsi_divergence.bearish=true over 60-bar lookback; daily minus_di (27.64) > plus_di (22.48); daily volume_bias_10d='down' AND OBV trending down on both timeframes; daily z_score_50 = -0.66 and hourly z_score_120 = -1.1. Setup is the textbook Minervini Stage 4 short the scanner flagged.",
+    "R:R math at the breakdown trigger works inside ATR bands: entry midpoint ~$20.075, stop $21.05 (just above invalidation_level $21.00 and above hourly resistance pivot at $20.99) = risk $0.975 ≈ 0.74x daily ATR of $1.31; target $18.05 (sits between daily fib_ext_low_1272 $18.03 and the only untested pivot_low at $17.56, well below recent_low $19.51) = reward $2.025 ≈ 1.55x ATR; R:R = 2.08:1. earnings.days_until_next=83 means no Q2-print squeeze risk inside the 7-day hold window."
   ],
   "risks_acknowledged": [
-    "The catalyst stack is unambiguously LONG: profit turnaround + above-consensus guide + Mercedes-Benz L3 design win + new ETX/Picasso 6D/Kosmo product reveals + 6M+ unit backlog + planned Hong Kong listing + analyst_consensus_web Strong Buy with avg PT $32.09 (~60% above current). Shorting into this news flow is fighting a fundamental tape.",
-    "Stop at 21.00 sits BELOW the 2026-05-19 intraday high of 21.82 — a retest of that high would stop the trade before the breakdown structure has a chance to confirm; widening the stop above 21.82 collapses R:R below 2:1.",
-    "earnings.days_until_next = 85 means no near-term catalyst to force the breakdown; the short relies on technical mean reversion alone over 5 days against a strongly positive narrative.",
-    "Daily ADX_14 = 14.97 (weak trend) and RSI_14 = 39.71 (already in the lower half — not overbought, less room to fall before a bounce); hourly RSI_21 = 36.45 already approaching oversold short-term."
+    "The Q1 2026 fundamentals are genuinely strong and acknowledged across 4 of the 5 recent_news_7d items: +29.6% YoY revenue, GAAP profit turnaround to RMB18.3M (vs -RMB17.5M YoY), Q2 guide RMB850-900M (+20-27% YoY) above consensus, lidar shipments +140.9% YoY to 471,723 units, Mercedes-Benz L3 supply secured, 6M+ unit backlog. analyst_consensus_web shows 'buy/Strong Buy' with avg PT $31.58 (+51% from $20.90). A single Reuters/Bloomberg tier-1 piece reframing the -15.8% as a buyable dip can squeeze the short overnight.",
+    "Daily ADX 14.2 = weak trend strength and daily RSI_14 = 44.81 is already in the lower half (NOT overbought) — limited room to fall before a technical bounce. Today (2026-05-21) closed $20.90, up +4.4% from Tuesday's $20.025 low, so the short is being entered into strength after the initial -15.8% washout, not into fresh weakness.",
+    "Zero insider sales in recent_insider_trades and zero analyst downgrades in last 7 days per analyst_consensus_web — the bear catalyst is purely price-action interpretation of the post-event fade, not a fundamental deterioration signal. Stop at $21.05 sits BELOW the 2026-05-19 intraday high of $21.82, so a retest of that high would stop the trade before the breakdown confirms; widening the stop above $21.82 collapses R:R below 2:1.",
+    "Research gap: no peer (LAZR, INVZ, OUST) relative-strength data in bundle, no congressional/13F positioning, no confirmed Q2 2026 earnings date (notes say 'mid-August, unconfirmed'). Conviction would be higher with sector-wide lidar weakness confirmation."
   ],
   "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/why-hesai-group-hsai-down-032108533.html",
     "https://www.stocktitan.net/news/HSAI/hesai-group-reports-first-quarter-2026-unaudited-financial-wgvrptc5slt8.html",
     "https://www.chartmill.com/news/HSAI/Chartmill-48721-Hesai-Group-NASDAQHSAI-Q1-2026-Earnings-Beat-Profit-Estimates-on-Robust-Lidar-Growth",
     "https://www.fool.com/earnings/call-transcripts/2026/05/19/hesai-hsai-q1-2026-earnings-call-transcript/",
-    "https://www.quiverquant.com/news/HESAI+GROUP+%28%24HSAI%29+Releases+Q1+2026+Earnings",
-    "https://simplywall.st/stocks/us/automobiles/nasdaq-hsai/hesai-group/news/why-hesai-group-hsai-is-up-after-profit-rebound-and-hong-kon",
-    "https://www.webull.com/news/13344204497183744"
+    "https://www.quiverquant.com/news/HESAI+GROUP+%28%24HSAI%29+Releases+Q1+2026+Earnings"
   ]
 }

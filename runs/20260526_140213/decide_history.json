@@ -1,0 +1,14 @@
+[
+  {
+    "decided_at": "2026-05-26T14:02:13+00:00",
+    "status": "aborted",
+    "abort_reason": "no fresh today_watchlist.json — b_premarket did not fire at 5:30 AM PT",
+    "stale_watchlist_path": "runs/20260520_123931/today_watchlist.json",
+    "stale_watchlist_age_days": 6,
+    "fresh_scan_available": "runs/20260526_023245/tomorrow_watchlist.json (40 candidates, not consumed)",
+    "approved": [],
+    "judge_approved_count": 0,
+    "writer_rejected": [],
+    "judge_rejected": []
+  }
+]

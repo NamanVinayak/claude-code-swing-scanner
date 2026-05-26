@@ -1,0 +1,8 @@
+{
+  "run_id": "20260526_140213",
+  "generated_at": "2026-05-26T14:02:13+00:00",
+  "status": "aborted",
+  "abort_reason": "no fresh today_watchlist.json — b_premarket did not fire at 5:30 AM PT 2026-05-26",
+  "decisions": {},
+  "rejected": []
+}

@@ -1,24 +1,37 @@
 # b_decide summary 20260520_123931
 
-- approved: 2
-- rejected: 12 (judge: 4, writer-budget: 8)
+**Status: ABORTED — no agents dispatched, no decisions generated.**
+
+- approved: 0
+- rejected: 0 (judge: 0, writer-budget: 0)
+- fired at: Monday May 25, 2026 7:34 PM PT
+
+## Why aborted
+
+Conductor refused to dispatch the 4-perspective adversarial debate on stale candidates.
+
+1. **Today is Memorial Day (US markets closed).** Monday May 25, 2026. NYSE/NASDAQ both closed.
+2. **Watchlist is 5 days stale.** Latest `today_watchlist.json` is from Wednesday May 20, 2026 — premarket runs on May 21–22 (Thu/Fri) didn't fire, and Sat/Sun/Memorial-Mon are market holidays.
+3. **Scheduled task fired ~12.5 hours late.** `decide_open` is configured for 7:00 AM PT; it fired at 7:33 PM PT, strongly suggesting Mac was asleep / Claude Desktop closed during the actual trading window.
+4. **Today's b_scan (`runs/20260526_023245`) returned 0 candidates** — confirms scanner correctly recognised market-holiday data conditions.
+
+Running the 4-perspective debate against the stale May 20 watchlist (ALAB, ALL, ARM, CPAY, LAMR, RVMD, BILI, CAI, CVX, HSAI) would have:
+- Anchored decisions to 5-day-old technical levels (entry/stop bands no longer valid)
+- Triggered the 7-day news rule edge case (any May 18–19 article would expire mid-decision)
+- Generated trades targeting Tue May 26 open with no fresh premarket review
+
+Resolved run_id `20260520_123931` is the May 20 premarket dir; we wrote an empty decisions.json and judge_output.json into it so the ingester sees nothing to act on.
+
+## Operator action required
+
+- Tomorrow morning (Tue May 26, 5:30 AM PT) `b_premarket` should produce a fresh `today_watchlist.json` from the new `runs/20260526_023245/tomorrow_watchlist.json` (0 candidates today though — re-scan may be needed) or from a fresh scan.
+- Verify Mac is awake and Claude Desktop is open for the 5:30 AM PT / 7:00 AM PT / 11:30 AM PT routines tomorrow.
+- Consider: this skill currently silently falls back to the latest non-empty `today_watchlist.json` regardless of age. Adding a staleness guard (e.g. abort if watchlist > 36h old, or if today is a US market holiday) would prevent stale-decision risk without manual judgment.
 
 ## Approved trades
 
-- CPAY buy entry=348.67 stop=341.5 target=368.0 qty=14 conv=6
-- LAMR buy entry=152.6 stop=149.3 target=158.4 qty=32 conv=6
+(none — see Why aborted)
 
 ## Rejections (with reasons)
 
-- ALAB (judge): single_position_cap_exceeded
-- ALL (judge): expected_return_negative
-- CAI (judge): other: short pre-invalidated at the entry gate and expected return too thin. Direction-consensus PASSES (all 4 perspectives short). But current_price=$15.94 is ABOVE the consensus stop=$15.30 (min of bull_a 15.35 and bull_b 15.30), so the trade is mechanically un-executable today without immediate stop-out. Probability weighting: p_bull=b_bull_a.bull_strength(5)/(5+b_bear_a.bear_strength(8))=0.3846; p_catalyst=b_bull_b.bull_strength(3)/(3+b_bear_b.bear_strength(7))=0.3000; combined_p_bull=0.3423, combined_p_bear=0.6577. entry=(14.70+14.85)/2=14.775; conservative target for short = max(13.40, 13.63) = 13.63; conservative stop for short = min(15.35, 15.30) = 15.30. expected_return_per_share = 0.3423*(14.775-13.63) - 0.6577*(15.30-14.775) = 0.3919 - 0.3453 = +$0.0466. Margin is well inside slippage on a daily ATR of 1.32 (atr_pct 8.29%). Bear perspectives (bear_a=8, bear_b=7) decisively dominate bulls (bull_a=5, bull_b=3); hourly tape is strongly bullish against the short (hourly adx_24=42.35, plus_di 29.52 > minus_di 11.60, hourly macd histogram +0.1425, hourly rsi_21=59.9, hourly pct_b=0.6652, daily roc_5d=+4.52%); volume-confirmed daily pivot_low 14.19 is only $0.56 below the watch_level (broken R:R per bear_a); recent_news_7d empty and recent_insider_trades empty, so no fresh catalyst to drive the breakdown. Stage 2 conviction was 3 (thin setup, single weak signal, no premarket volume confirmation). Approving a +$0.05/share expected-return short while bears explicitly call the setup invalidated would violate the rigorous-gate mandate.
-- CVX (judge): single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 PASS (all 4 perspectives setup_direction=long). Gate 1 PASS (can_open_new_position=true, phase=full). Gate 2 PASS: p_bull = bull_a.bull_strength 5 / (5 + bear_a.bear_strength 7) = 0.4167; p_catalyst = bull_b.bull_strength 6 / (6 + bear_b.bear_strength 6) = 0.5000; combined_p_bull = (0.4167 + 0.5000)/2 = 0.4583; entry = (192.80 + 194.00)/2 = 193.40 (bull_a midpoint); target = min(202.00, 205.06) = 202.00; stop = max(189.85, 189.50) = 189.85; expected_return_per_share = 0.4583*(202.00-193.40) - 0.5417*(193.40-189.85) = 3.941 - 1.923 = +$2.018 (POSITIVE). Gate 3: risk_dollars = 25000 * 0.01 * 1.0 = $250; risk_per_share = |193.40-189.85| = $3.55; quantity = floor(250/3.55) = 70 shares. Gate 4 FAIL: notional = 193.40 * 70 = $13,538 > single_cap $3,750 (15%); small-scaled path M = floor(5000/193.40) = 25 shares; risk_M = 25*3.55 = $88.75; risk_dollars_floor = 0.40*250 = $100; risk_M ($88.75) < floor ($100). At a ~$193 share price with a $3.55 stop, even the 20% extended cap cannot accommodate enough shares to use 40% of the risk budget.
-- ALAB (writer-budget): single_position_cap_exceeded
-- ALL (writer-budget): expected_return_negative
-- CAI (writer-budget): other: short pre-invalidated at the entry gate and expected return too thin. Direction-consensus PASSES (all 4 perspectives short). But current_price=$15.94 is ABOVE the consensus stop=$15.30 (min of bull_a 15.35 and bull_b 15.30), so the trade is mechanically un-executable today without immediate stop-out. Probability weighting: p_bull=b_bull_a.bull_strength(5)/(5+b_bear_a.bear_strength(8))=0.3846; p_catalyst=b_bull_b.bull_strength(3)/(3+b_bear_b.bear_strength(7))=0.3000; combined_p_bull=0.3423, combined_p_bear=0.6577. entry=(14.70+14.85)/2=14.775; conservative target for short = max(13.40, 13.63) = 13.63; conservative stop for short = min(15.35, 15.30) = 15.30. expected_return_per_share = 0.3423*(14.775-13.63) - 0.6577*(15.30-14.775) = 0.3919 - 0.3453 = +$0.0466. Margin is well inside slippage on a daily ATR of 1.32 (atr_pct 8.29%). Bear perspectives (bear_a=8, bear_b=7) decisively dominate bulls (bull_a=5, bull_b=3); hourly tape is strongly bullish against the short (hourly adx_24=42.35, plus_di 29.52 > minus_di 11.60, hourly macd histogram +0.1425, hourly rsi_21=59.9, hourly pct_b=0.6652, daily roc_5d=+4.52%); volume-confirmed daily pivot_low 14.19 is only $0.56 below the watch_level (broken R:R per bear_a); recent_news_7d empty and recent_insider_trades empty, so no fresh catalyst to drive the breakdown. Stage 2 conviction was 3 (thin setup, single weak signal, no premarket volume confirmation). Approving a +$0.05/share expected-return short while bears explicitly call the setup invalidated would violate the rigorous-gate mandate.
-- CVX (writer-budget): single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 PASS (all 4 perspectives setup_direction=long). Gate 1 PASS (can_open_new_position=true, phase=full). Gate 2 PASS: p_bull = bull_a.bull_strength 5 / (5 + bear_a.bear_strength 7) = 0.4167; p_catalyst = bull_b.bull_strength 6 / (6 + bear_b.bear_strength 6) = 0.5000; combined_p_bull = (0.4167 + 0.5000)/2 = 0.4583; entry = (192.80 + 194.00)/2 = 193.40 (bull_a midpoint); target = min(202.00, 205.06) = 202.00; stop = max(189.85, 189.50) = 189.85; expected_return_per_share = 0.4583*(202.00-193.40) - 0.5417*(193.40-189.85) = 3.941 - 1.923 = +$2.018 (POSITIVE). Gate 3: risk_dollars = 25000 * 0.01 * 1.0 = $250; risk_per_share = |193.40-189.85| = $3.55; quantity = floor(250/3.55) = 70 shares. Gate 4 FAIL: notional = 193.40 * 70 = $13,538 > single_cap $3,750 (15%); small-scaled path M = floor(5000/193.40) = 25 shares; risk_M = 25*3.55 = $88.75; risk_dollars_floor = 0.40*250 = $100; risk_M ($88.75) < floor ($100). At a ~$193 share price with a $3.55 stop, even the 20% extended cap cannot accommodate enough shares to use 40% of the risk budget.
-- HSAI (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$229.40 > available=$149.62)
-- RVMD (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$122.10 > available=$44.02)
-- BILI (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$229.89 > available=$44.02)
-- ARM (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$243.75 > available=$44.02)
+(none — agents not dispatched)

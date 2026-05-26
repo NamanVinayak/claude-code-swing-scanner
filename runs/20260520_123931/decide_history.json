@@ -117,5 +117,14 @@
         "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gate 0 PASS (all 4 perspectives setup_direction=long). Gate 1 PASS (can_open_new_position=true, phase=full). Gate 2 PASS: p_bull = bull_a.bull_strength 5 / (5 + bear_a.bear_strength 7) = 0.4167; p_catalyst = bull_b.bull_strength 6 / (6 + bear_b.bear_strength 6) = 0.5000; combined_p_bull = (0.4167 + 0.5000)/2 = 0.4583; entry = (192.80 + 194.00)/2 = 193.40 (bull_a midpoint); target = min(202.00, 205.06) = 202.00; stop = max(189.85, 189.50) = 189.85; expected_return_per_share = 0.4583*(202.00-193.40) - 0.5417*(193.40-189.85) = 3.941 - 1.923 = +$2.018 (POSITIVE). Gate 3: risk_dollars = 25000 * 0.01 * 1.0 = $250; risk_per_share = |193.40-189.85| = $3.55; quantity = floor(250/3.55) = 70 shares. Gate 4 FAIL: notional = 193.40 * 70 = $13,538 > single_cap $3,750 (15%); small-scaled path M = floor(5000/193.40) = 25 shares; risk_M = 25*3.55 = $88.75; risk_dollars_floor = 0.40*250 = $100; risk_M ($88.75) < floor ($100). At a ~$193 share price with a $3.55 stop, even the 20% extended cap cannot accommodate enough shares to use 40% of the risk budget."
       }
     ]
+  },
+  {
+    "decided_at": "2026-05-26T02:34:20+00:00",
+    "approved": [],
+    "judge_approved_count": 0,
+    "writer_rejected": [],
+    "judge_rejected": [],
+    "aborted": true,
+    "abort_reason": "stale watchlist (5d old); Memorial Day; scheduled task fired 12.5h late"
   }
 ]

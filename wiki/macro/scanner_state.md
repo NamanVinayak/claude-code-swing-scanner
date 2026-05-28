@@ -1,7 +1,7 @@
 ---
 name: scanner state
-last_updated: 2026-05-25
-last_run_id: 20260526_023245
+last_updated: 2026-05-27
+last_run_id: 20260527_224037
 target_words: 500
 stale_after_days: 3
 word_count: 0
@@ -12,73 +12,73 @@ summary: current market breadth + signal density across the universe
 
 ## TL;DR
 
-40 candidates from 1,607-ticker universe: 14 long, 26 short. No scanner errors (`errors[]` empty). Long side: 2 breakout-confirmed longs (SNPS +4.1%, CRDO +12.9%) via `tv_breakout_up` + `tv_trending_up`; 12 score-2 longs on `tv_strong_buy` + `tv_trending_up`. Notable: CRDO highest single-day change (+12.94%) among all candidates. Short side dominated by `sector_laggard_decline` (18 of 26); 8 `stage4_momentum_breakdown`; 2 dual-confirmed shorts (BJ, CAE) hitting both `stage4_momentum_breakdown` + `bearish_episodic_pivot`. Zero tickers with congressional buys advanced to the candidate list. Capitol Trades returned 5 tickers with buys in the 30-day window; none qualified.
+40 candidates from 1,603-ticker universe: 16 long, 24 short. No scanner errors (`errors[]` empty). Long side led by 3 triple-confirmed breakout names (UNP, MAR, HLT via `tv_strong_buy` + `tv_breakout_up` + `tv_trending_up`); remainder on `tv_strong_buy` + `tv_trending_up` or `tv_breakout_up` + `tv_trending_up`. Short side: 3 dual-confirmed episodic pivots (PDD -10.4%, BSX -12.5%, ZS -31.5%) carrying both `stage4_momentum_breakdown` + `bearish_episodic_pivot`; 20 shorts are single-reason `sector_laggard_decline` (score=1). Zero congressional buys advanced to the candidate list (4 total buys in 30-day window, none qualified).
 
 ## Sector breadth
 
 Sector labels not present in JSON. Breakdown by ticker identity:
 
-**Longs (14)**
+**Longs (16)**
 
 | Sector (inferred) | Tickers | Count |
 |---|---|---|
-| Pharma / Healthcare | LLY | 1 |
-| Financials / Banking | BMO | 1 |
-| Semiconductors / EDA | SNPS, NXPI, TSEM, CRDO | 4 |
-| Energy / Midstream | TRGP, DTM | 2 |
-| AI / Data Center Infra | NBIS | 1 |
-| Industrials / Precision | NOVT | 1 |
-| REITs | ESS | 1 |
-| Hospitality | H | 1 |
-| Biotech | ASND | 1 |
-| Trucking / Transport | LSTR | 1 |
+| Railroads / Transport | UNP, NSC, JBHT, XPO, FDX | 5 |
+| Hospitality / Travel | MAR, HLT, H | 3 |
+| Semiconductors / Tech | AVGO, TSM, VICR | 3 |
+| Consumer / Auto | TSLA | 1 |
+| Financial Data / Index | MSCI, CPAY | 2 |
+| Specialty Materials | CRS | 1 |
+| Industrials | MIDD | 1 |
 
-**Shorts (26)**
+**Shorts (24)**
 
 | Sector (inferred) | Tickers | Count |
 |---|---|---|
-| Consumer / Retail / Food | BJ, WING, PLNT, YSS, ERAS | 5 |
-| Biotech / Pharma | SMMT, GKOS | 2 |
-| Telecom | CHTR, TLK | 2 |
-| Fintech / Software | INTU, KVYO, CAI, CHYM | 4 |
-| Industrials | CAE, IBP, ESAB, PRIM | 4 |
-| Insurance | PGR | 1 |
-| Protein / Food Processing | JBS | 1 |
-| Construction / Distribution | QXO, LBRDK | 2 |
-| Tech / Other | AUGO, CAR, ATAT, MAIN, XNDU | 5 |
+| China / E-commerce | PDD | 1 |
+| Medical Devices | BSX, PODD | 2 |
+| Cybersecurity / SaaS | ZS | 1 |
+| Financials / Brokers | SCHW | 1 |
+| Semiconductors | GFS | 1 |
+| Biotech / Pharma | INSM, SMMT, ERAS | 3 |
+| Fintech / MarTech | FUTU, KVYO, CAI | 3 |
+| Industrials / Construction | PNR, IBP, PRIM, SITE, REZI, BWIN | 6 |
+| Consumer / Apparel | ANF, PLNT, WAY | 3 |
+| Other / Mixed | CHYM, GPGI, ORKA | 3 |
 
 ## Signal density
 
-Hits across the 1,607-ticker universe (raw from diagnostic):
+Hits across the 1,603-ticker universe (raw from diagnostic):
 
 - `tv_strong_buy`: 400 hits (capped at config max)
 - `tv_strong_sell`: 400 hits (capped at config max)
 - `tv_overbought`: 400 hits (capped at config max)
-- `tv_trending_down`: 295 hits
+- `tv_trending_down`: 286 hits
 - `tv_trending_up`: 213 hits
-- `tv_oversold`: 212 hits
-- `tv_breakout_down`: 13 hits
-- `tv_breakout_up`: 8 hits
-- `capitol_buys` (30-day): 5 tickers with congressional purchases
-- Total signal hits: 1,941 across 1,607 unique tickers
-- Short setups added by setup-based screener: 50
+- `tv_oversold`: 192 hits
+- `tv_breakout_up`: 18 hits
+- `tv_breakout_down`: 10 hits
+- `capitol_buys` (30-day): 4 tickers with congressional purchases
+- Total signal hits: 1,919 across 1,603 unique tickers
+- Short setups added by setup-based screener: 47
 
-Dropped before scoring: 478 below min price ($5), 151 below min volume (500k), 600 below min market cap ($1B), 0 missing metadata, 70 conflicted (mixed long/short signals), 165 long singletons + 129 short singletons below 2-reason threshold.
+Dropped before scoring: 501 below min price ($5), 161 below min volume (500k), 553 below min market cap ($1B), 0 missing metadata, 54 conflicted (mixed long/short signals), 160 long singletons + 158 short singletons below 2-reason threshold.
 
 ## Anomalies
 
-1. **Three signal kinds hit the 400-count cap** (`tv_strong_buy`, `tv_strong_sell`, `tv_overbought`). True counts for all three unknown. `tv_overbought` capping at 400 while `tv_oversold` sits at 212 is an asymmetric read — more overbought names than oversold at the universe level, consistent with a rally tape.
+1. **Three signal kinds hit the 400-count cap** (`tv_strong_buy`, `tv_strong_sell`, `tv_overbought`). True universe counts for all three are unknown. `tv_overbought` capping at 400 while `tv_oversold` sits at 192 — asymmetric overbought skew, consistent with a rally-side tape.
 
-2. **`tv_breakout_up` at 8 hits — thin.** Only 3 long candidates used a breakout signal (SNPS, CRDO, LSTR). With the long pipeline relying heavily on `tv_strong_buy` + `tv_trending_up` momentum, breakout confirmation is scarce.
+2. **Three large-cap shorts down sharply on the day.** ZS -31.5% ($126.41), BSX -12.5% ($50.46), PDD -10.4% ($86.61) all carry dual short setup flags. These are episodic-pivot setups; Stage 2 should verify whether the move is already exhausted before advancing.
 
-3. **Semiconductor cluster on longs.** 4 of 14 longs (SNPS, NXPI, TSEM, CRDO) are semiconductors. CRDO's +12.94% same-day move warrants a check for earnings or catalyst before Stage 2 advances it — gap-and-go after a catalyst is a different setup risk than a clean breakout.
+3. **`tv_breakout_up` at 18 hits** — up from 8 in the prior run (20260526_023245). Three top longs carry the trifecta (score=3): UNP, MAR, HLT. Breakout confirmation is broader this scan.
 
-4. **`sector_laggard_decline` dominates shorts.** 18 of 26 shorts carry that single reason (score=1). Only 2 shorts (BJ, CAE) have dual confirmation. Low-conviction single-reason shorts should be treated as weak signals in Stage 2.
+4. **Transport / railroad cluster on longs.** UNP, NSC, JBHT, XPO, FDX — 5 of 16 longs from the same macro-sensitive sector. Stage 2 should check whether this is a sector rotation trade or a single catalyst driving the group.
 
-5. **Conflicted drops up.** 70 tickers dropped for mixed long/short signals, vs 40 in the prior run (20260519_211633). More cross-signal noise in the universe — market breadth is internally contradictory.
+5. **`sector_laggard_decline` dominates shorts.** 20 of 24 shorts carry that single reason (score=1). Low-conviction single-reason shorts; only 3 shorts have dual confirmation (PDD, BSX, ZS).
 
-6. **Setup pattern history unavailable.** `wiki/meta/setup_patterns.md` has fewer than 5 closed trades with realized P&L. Cannot calibrate win rates for `stage4_momentum_breakdown`, `sector_laggard_decline`, or `bearish_episodic_pivot`.
+6. **Conflicted drops at 54** — down from 70 in the prior run (20260526_023245). Slightly less cross-signal noise.
+
+7. **Setup pattern history unavailable.** `wiki/meta/setup_patterns.md` has fewer than 5 closed trades with realized P&L. Win rates for `stage4_momentum_breakdown`, `sector_laggard_decline`, and `bearish_episodic_pivot` cannot be calibrated from empirical data.
 
 ## Last updated
 
-20260526_023245 — 2026-05-25T19:32:48-07:00
+20260527_224037 — 2026-05-27T15:40:37-07:00

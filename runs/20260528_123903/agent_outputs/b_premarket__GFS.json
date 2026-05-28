@@ -1,0 +1,11 @@
+{
+  "ticker": "GFS",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 80.50,
+  "invalidation_level": 83.00,
+  "catalyst_note": "Bearish episodic pivot (sharp drop with 3x+ volume) flagged yesterday; small premarket bounce (+0.42%) is typical dead-cat behavior but setup needs price to break below post-pivot base to confirm continuation.",
+  "conviction": 3,
+  "notes": "Stage 1 score=1, single signal (bearish_episodic_pivot). Premarket last_price=$81.49 vs close=$81.15 — gap UP +0.42% against short direction, below the 5% threshold that kills the thesis outright but directionally unfavorable. Premarket volume=0 with volume_ratio=null: no reliable premarket price discovery, cannot confirm institutional selling. New ticker — no wiki setup history. Regime context stale (bootstrap placeholder from 2026-05-03, >14 days). Watch level $80.50 is a breakdown below yesterday's close, consistent with BEP continuation; invalidation $83.00 covers the prior day's range high and would indicate the pivot is being bought back aggressively. Low conviction (3) driven by: single signal reason only, zero premarket volume, no wiki history, stale macro regime context."
+}

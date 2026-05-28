@@ -1,0 +1,11 @@
+{
+  "ticker": "SITE",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 112.50,
+  "invalidation_level": 116.00,
+  "catalyst_note": "Sector laggard decline pattern with price below 50-day MA; short thesis intact but awaiting breakdown confirmation below recent support.",
+  "conviction": 3,
+  "notes": "Single Stage 1 signal (sector_laggard_decline, score=1) — minimum signal confluence. Premarket volume is 0 shares (avg 0.0, volume_ratio null) — no premarket participation whatsoever, eliminating any momentum confirmation. Overnight gap is +0.32% ($113.79 → $114.15), negligible and not thesis-breaking for a short. New ticker (wiki_context.new_ticker=true) — no setup history, no recent TL;DR; rely solely on Stage 1 data. Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) — not used. Earnings clear (days_until_next=62). Watch level $112.50 set below current price as a breakdown trigger below obvious round-number support; invalidation $116.00 above premarket price where a rally would negate the laggard thesis. Conviction capped at 3: single weak signal + zero premarket volume + no wiki history + stale regime. Setup is partially valid — laggard decline structure is intact but no intraday confirmation yet. Needs real-session breakdown to activate."
+}

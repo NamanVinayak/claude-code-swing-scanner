@@ -1,0 +1,11 @@
+{
+  "ticker": "CHYM",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Single sector_laggard_decline signal with zero premarket volume and a slight gap against the short direction — insufficient evidence to carry a short setup into today.",
+  "conviction": 2,
+  "notes": "Stage 1 score of 1 (minimum); sole reason is sector_laggard_decline — the weakest short signal. Premarket shows last_price $17.38 vs close $17.27, an overnight gap UP of +0.64% — against the short direction. Although below the 5% automatic-invalidation threshold, any gap against a short setup is a bearish-thesis headwind. Premarket volume is exactly 0 shares — zero confirmation of continued selling pressure. No wiki history (new_ticker: true); regime_tldr is a STALE bootstrap placeholder with no real content (last updated 2026-05-03, >14 days ago). With only one weak signal, no premarket selling evidence, a gap counter to the trade direction, and no historical or regime context to lean on, the risk-reward does not support advancing this name to Stage 3."
+}

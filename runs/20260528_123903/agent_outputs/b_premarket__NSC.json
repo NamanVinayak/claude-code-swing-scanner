@@ -1,0 +1,11 @@
+{
+  "ticker": "NSC",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 327.50,
+  "invalidation_level": 322.00,
+  "catalyst_note": "TradingView strong_buy and trending_up signals flag upward momentum in NSC, but no premarket volume or price confirmation is available to validate overnight continuation.",
+  "conviction": 3,
+  "notes": "Premarket data is unreliable: last_price ($325.68) matches yesterday's regular close exactly, indicating the feed returned a stale close price rather than a live premarket quote. Volume = 0 and volume_ratio = null — no premarket demand confirmation whatsoever. New ticker (wiki_context.new_ticker = true); setup_history_tldr and recent_tldr both missing — no historical pattern data to draw on. Regime context is STALE (last updated 2026-05-03, 25 days past 14-day threshold; content is a bootstrap placeholder) — macro regime unknown. Stage 1 signals (tv_strong_buy, tv_trending_up, score=2) indicate trend momentum but are technical-only with no fundamental or catalyst backing visible in the facts bundle. Earnings timing unknown (days_until_next = null) — cannot rule out near-term earnings risk. Watch level set just above close ($327.50, ~+0.6%) as a minimal intraday breakout confirmation threshold; invalidation at $322.00 (~-1.1% from close, below minor intraday support zone). Conviction capped at 3: zero premarket confirmation, no wiki history, stale regime, and data quality doubts on the premarket feed. Setup is marginal — Stage 3 should only proceed if live open-market action confirms early strength above watch level."
+}

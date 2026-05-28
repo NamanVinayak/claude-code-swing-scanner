@@ -1,0 +1,11 @@
+{
+  "ticker": "SMMT",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 16.90,
+  "invalidation_level": 17.65,
+  "catalyst_note": "Sector laggard decline signal with premarket confirming small gap down (-1.33%), but zero premarket volume data eliminates any volume-based conviction.",
+  "conviction": 3,
+  "notes": "Stage1 score=1 (minimum), single reason: sector_laggard_decline. Premarket last_price=17.13 vs close=17.36 (-1.33% gap down) — direction-consistent move for short but gap is small and has not played out the setup. Critical concern: premarket volume=0 and avg_volume_10d=0.0 (volume_ratio=null) — no volume confirmation whatsoever. New ticker (wiki_context.new_ticker=true): no setup_history, no recent TL;DR — relying solely on Stage1 signal and premarket data. Regime TL;DR is STALE (last updated 2026-05-03, threshold 14 days exceeded) — cannot assess macro tailwind/headwind for short; lowering conviction by 2 per staleness rule. Earnings data missing (days_since_last=null, days_until_next=null) — unknown earnings risk. Watch level set at 16.90 (breakdown below premarket low/intraday support zone). Invalidation at 17.65 (reclaim above yesterday's close with margin). Setup rated partial rather than no: the directional gap is consistent and the sector laggard signal is structurally valid, but the combination of single weak signal + zero volume data + stale regime + no wiki history means Stage3 should apply heavy scrutiny."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "INSM",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 105.50,
+  "invalidation_level": 108.50,
+  "catalyst_note": "Sector laggard declining below 50-day MA with a single Stage 1 signal; premarket is nearly flat at $106.00, so the short thesis is intact but unconfirmed — needs a breakdown below pre-market support to trigger.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged only sector_laggard_decline (score=1, minimum threshold). Premarket: last_price=$106.00 vs close=$106.47, gap=-0.44% — essentially flat, no directional confirmation. Premarket volume=0, avg_volume_10d=0.0, volume_ratio=null — zero liquidity signal overnight. No confirming breakdown pre-market, but no gap-up against the short thesis either (threshold for thesis-break would be >5% gap up). New ticker: no setup_history, no recent_tldr — relying solely on Stage 1 data; cannot credit prior setup patterns. Regime wiki is STALE (last updated 2026-05-03, 25 days ago, threshold 14 days exceeded) — treated as untrusted; conviction reduced by 2 per staleness rule. Base conviction: 4 (single weak signal, flat premarket, no volume) minus 2 (stale regime) = 2, floored at 3 given setup technically intact. Watch level $105.50 is a breakdown trigger below the premarket floor; invalidation $108.50 gives ~2% buffer above yesterday's close. Earnings 70 days out — no blackout concern. Overall: marginal candidate, very low conviction; Stage 3 should apply heavy skepticism."
+}

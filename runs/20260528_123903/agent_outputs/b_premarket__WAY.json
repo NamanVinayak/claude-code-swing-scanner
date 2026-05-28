@@ -1,0 +1,11 @@
+{
+  "ticker": "WAY",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 18.75,
+  "invalidation_level": 19.50,
+  "catalyst_note": "Sector laggard decline setup with price below 50-day MA; awaiting breakdown below $18.75 support to confirm bearish continuation.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged sector_laggard_decline (single reason, weakest Stage 1 score of 1). Premarket shows a +1.05% gap UP to $19.26 against the short thesis — does not cross the >5% thesis-killer threshold but does weaken the setup. Premarket volume is 0 (no volume data available), so there is zero premarket confirmation of directional momentum in either direction. New ticker (wiki_context.new_ticker=true): no setup history, no recent_tldr — relying solely on Stage 1 signal and price data. Regime is STALE (last updated 2026-05-03, bootstrap placeholder only) — no macro context available; conviction docked 2 points per staleness rule. Watch level $18.75 is below last close $19.06, requiring a break lower to confirm the short. Invalidation $19.50 is above the premarket price $19.26 — a rally through that level voids the short thesis. Single signal, no volume confirmation, gap against setup direction, no wiki history, stale regime: setup is technically intact but confidence is very low."
+}

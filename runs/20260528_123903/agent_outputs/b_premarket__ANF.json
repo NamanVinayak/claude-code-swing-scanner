@@ -1,0 +1,11 @@
+{
+  "ticker": "ANF",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 80.50,
+  "invalidation_level": 83.50,
+  "catalyst_note": "Stage 4 momentum breakdown setup — short thesis requires a break below the $81.40 close and prior support zone near $80.50 to confirm distribution continuation.",
+  "conviction": 3,
+  "notes": "Single-reason short (stage4_momentum_breakdown only; stage1_score=1). Premarket gapped UP +0.80% to $82.05, moving against the short direction — not a hard invalidation (under 5%) but adds friction. Premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null — no premarket participation data available, cannot assess overnight conviction. New ticker (new_ticker=true): no setup_history, no recent_tldr — relying solely on Stage 1 signal. Regime is STALE (last updated 2026-05-03, 25 days ago — threshold exceeded): cannot use macro context to support or oppose the short. Applying -2 conviction for stale regime dependency per prompt rules. Earnings 90 days out — no blackout risk. Setup is partial: stage4_momentum_breakdown is a valid short setup type, but single-reason signal, counter-direction premarket gap, zero volume data, no wiki corroboration, and stale regime all combine for very low confidence. Watch level set at $80.50 (below close, below the $81.40 support zone) as confirmation trigger for the breakdown. Invalidation at $83.50 (above premarket high, clears the counter-gap zone and negates the bearish structure)."
+}

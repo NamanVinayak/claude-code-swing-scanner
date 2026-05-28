@@ -1,0 +1,11 @@
+{
+  "ticker": "VICR",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 347.00,
+  "invalidation_level": 335.00,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up, but the stock has gapped down -1.69% premarket to $340.00 from the $345.84 close, requiring a reclaim of the close and push above $347 to confirm breakout continuation.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki setup history, no recent_tldr. Regime slice is STALE (last updated 2026-05-03, bootstrap placeholder only — no macro context). Premarket volume is 0 with avg_volume_10d=0.0 and volume_ratio=null — zero premarket participation, no confirmation of the Stage 1 breakout signal. The -1.69% overnight gap down is against the long direction; while below the 5% auto-invalidation threshold, it means price has retreated from the breakout level rather than holding or extending. Watch level $347.00 is above yesterday's close to confirm breakout resumption; invalidation $335.00 is ~3% below yesterday's close, indicating a failed breakout. No earnings risk (days_until_next=54). Conviction lowered to 3: new ticker with no history, no premarket volume data, stale regime, and gap-down against a long breakout setup all compound uncertainty. Setup could revive in regular session but has no premarket support."
+}

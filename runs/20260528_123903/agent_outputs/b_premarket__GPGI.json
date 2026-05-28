@@ -1,0 +1,11 @@
+{
+  "ticker": "GPGI",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Sector laggard decline setup is invalidated by a premarket gap UP (+1.47%) against the short thesis with zero premarket volume to confirm any bearish continuation.",
+  "conviction": 2,
+  "notes": "Short thesis requires downside confirmation; instead price is gapping up +1.47% to $12.45 from $12.27 close — wrong direction per short-gap failure mode. Premarket volume = 0 (volume_ratio null), meaning there is no tradeable price discovery or confirmation of bearish pressure. Stage 1 score is 1 (minimum threshold, single signal: sector_laggard_decline only — no secondary bearish signal). Earnings data entirely unavailable (days_since_last and days_until_next both null), so event risk cannot be assessed. New ticker with no wiki setup history — relying solely on technical/premarket data per failure-mode spec. Regime context is a stale bootstrap placeholder (last updated 2026-05-03, >14 days threshold exceeded) and contains no actionable content. Low conviction reflects: gap against thesis + no volume + weakest possible Stage 1 entry + no wiki history + no earnings visibility."
+}

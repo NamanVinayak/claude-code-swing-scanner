@@ -1,0 +1,11 @@
+{
+  "ticker": "JBHT",
+  "setup_valid": "no",
+  "direction": "long",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "JBHT gapped down -3.65% overnight to $260.98 against the long thesis, with zero premarket volume providing no evidence of buyer absorption or stabilization.",
+  "conviction": 2,
+  "notes": "Stage 1 flagged tv_strong_buy and tv_trending_up at yesterday's close of $270.87. Premarket shows last_price=$260.98 (overnight_gap_pct=-3.65%), which is adverse to the long direction. Premarket volume=0 and volume_ratio=null — no price discovery or demand signal in pre-market session at all. Cannot set a meaningful watch level: reclaiming $270.87 would require a +3.8% intraday reversal from the premarket print, which is a different trade entirely (mean reversion, not breakout continuation). New ticker (wiki_context.new_ticker=true) with no setup_history or recent TL;DR available — no prior pattern context to weigh against the gap. Regime is stale (last updated 2026-05-03, >14 days) and contains only a bootstrap placeholder — no macro context available. Gap is below the 5% hard threshold but is directionally adverse with zero confirming premarket activity. Setup is not tradeable this morning."
+}

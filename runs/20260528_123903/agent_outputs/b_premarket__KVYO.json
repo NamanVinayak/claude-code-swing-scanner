@@ -1,0 +1,11 @@
+{
+  "ticker": "KVYO",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gap of +2.26% (close $14.15 → premarket $14.47) is directly against the short thesis, breaking the bearish setup before the open.",
+  "conviction": 2,
+  "notes": "Short thesis was based on a single Stage 1 signal (sector_laggard_decline — score 1, weakest category). Premarket gapped UP +2.26%, which per direction-aware rules invalidates a short setup outright. Premarket volume is 0 (no confirmation of any directional move — price quote may be illiquid/stale). New ticker (no wiki history, no setup_history_tldr, no recent_tldr). Regime context is STALE (last updated 2026-05-03, >14 days ago) and only a bootstrap placeholder — provides zero usable signal. With a single weak reason, no wiki support, a gap against direction, and zero premarket volume, there is no tradeable short setup here today."
+}

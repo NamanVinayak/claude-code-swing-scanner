@@ -1,0 +1,11 @@
+{
+  "ticker": "MIDD",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 156.00,
+  "invalidation_level": 152.50,
+  "catalyst_note": "TradingView strong_buy + trending_up dual signal on a small +0.55% premarket gap — setup intact but lacks volume confirmation with zero premarket volume data available.",
+  "conviction": 4,
+  "notes": "Stage 1 signals: tv_strong_buy + tv_trending_up (score=2). Premarket: last_price=$155.29, gap_pct=+0.55% (negligible, setup not played out). Premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null — no volume data available to confirm institutional interest or a volume-backed breakout, which degrades setup quality. Earnings: 69 days until next, no near-term risk. New ticker (wiki_context.new_ticker=true): no setup_history or recent_tldr — relying solely on Stage 1 signals and premarket price. Regime: stale bootstrap placeholder (last updated 2026-05-03, threshold 14 days exceeded) — per staleness rule, conviction lowered by 2. Watch level set at $156.00 (above current premarket, a clean round-number breakout trigger). Invalidation at $152.50, providing roughly 1.5% downside buffer below yesterday's close of $154.44. Setup rated partial due to missing volume data — cannot confirm demand side."
+}

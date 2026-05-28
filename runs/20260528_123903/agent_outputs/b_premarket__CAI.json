@@ -1,0 +1,11 @@
+{
+  "ticker": "CAI",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 15.20,
+  "invalidation_level": 15.70,
+  "catalyst_note": "Sector laggard flagged for continued decline; no premarket move yet — awaiting confirmed breakdown below $15.20 to validate short thesis.",
+  "conviction": 3,
+  "notes": "Stage 1 single signal only (sector_laggard_decline, score=1 — minimum threshold). Premarket price $15.37 vs close $15.38 — gap of -0.065%, essentially flat, no directional confirmation. Premarket volume is 0 shares (avg_volume_10d=0.0, volume_ratio=null) — no liquidity signal at all. Earnings unknown (days_since_last=null, days_until_next=null) — earnings event risk cannot be assessed. New ticker (no wiki setup history or recent technicals). Regime context is STALE (last updated 2026-05-03, threshold 14 days exceeded; content is bootstrap placeholder only) — macro alignment cannot be confirmed; conviction reduced 2 points per staleness rule. Setup is technically still intact (price has not bounced aggressively through invalidation), but single weak signal + zero premarket volume + no wiki + stale macro = low-confidence carry-forward only. Watch level $15.20 = breakdown below close signals continued sector decline. Invalidation $15.70 = reclaim above close negates short thesis."
+}

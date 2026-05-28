@@ -1,0 +1,11 @@
+{
+  "ticker": "BSX",
+  "setup_valid": "yes",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 49.90,
+  "invalidation_level": 51.20,
+  "catalyst_note": "Stage 4 momentum breakdown + bearish episodic pivot (two distinct short-setup signals) show structural deterioration below key moving average stack — watch for continuation break below $50.",
+  "conviction": 5,
+  "notes": "Stage 1 flagged stage4_momentum_breakdown and bearish_episodic_pivot — the strongest two short-setup patterns in the scanner. Last close $50.43; premarket last_price $50.40, overnight gap -0.06% (flat) — thesis intact, price has not moved against the short. Premarket volume is 0 with avg_volume_10d 0.0 and volume_ratio null — no premarket data to confirm or deny selling pressure; reduces confidence in timing. Earnings 62 days out — no near-term binary risk. New ticker: no wiki setup_history or recent_tldr available; relying solely on Stage 1 signals and premarket data. Regime_tldr is STALE (last updated 2026-05-03, placeholder content) — no macro context usable; conviction reduced by 1 per staleness rule. Watch level $49.90 is a break below the $50 round-number support confirming the Stage 4 inverse stack. Invalidation $51.20 is a reclaim above yesterday's close plus buffer, which would negate the breakdown structure."
+}

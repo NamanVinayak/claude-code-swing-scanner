@@ -1,0 +1,11 @@
+{
+  "ticker": "AVGO",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 422.50,
+  "invalidation_level": 414.00,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up on a 1603-ticker universe scan, but overnight gap down -1.19% to $417.10 has pulled price below yesterday's close, requiring a reclaim of $422.50 to confirm trend continuation.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup history or recent technicals available; relying solely on Stage 1 signals and premarket data. Stage 1 score is 2 (minimum viable): tv_strong_buy + tv_trending_up. Premarket last_price=$417.10 vs close $422.11 (gap -1.19%) — not a hard breaker (<5%) but directionally adverse for a long. Premarket volume=0 with avg_volume_10d=0.0 and volume_ratio=null: zero premarket volume data; cannot confirm buyer conviction at the open. Earnings days_until_next=6 — above 3-day blackout threshold but introduces time pressure; any swing entry would need to exit or be sized to survive an earnings reaction within the week. Regime slice is STALE (last updated 2026-05-03, bootstrap placeholder only) — no macro context available; applying -2 conviction penalty per staleness rule. Net conviction: started at 6 for two clean Stage 1 signals with a small adverse gap, reduced to 4 for stale regime and no premarket volume confirmation. Setup valid as partial: trend signals intact but price below prior close and no volume evidence of premarket demand."
+}

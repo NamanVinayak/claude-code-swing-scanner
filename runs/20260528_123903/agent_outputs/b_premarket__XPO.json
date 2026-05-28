@@ -1,0 +1,11 @@
+{
+  "ticker": "XPO",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 214.00,
+  "invalidation_level": 208.50,
+  "catalyst_note": "TradingView strong_buy + trending_up signals on NYSE-listed LTL carrier; premarket gap is flat (+0.19%), so setup is intact but unconfirmed — needs price to clear $214 on volume.",
+  "conviction": 4,
+  "notes": "New ticker (no wiki history). Stage 1 signals: tv_strong_buy + tv_trending_up (score 2). Premarket: $213.34 vs close $212.94, gap +0.19% — setup not played out. Critical data gap: premarket volume = 0 with null volume_ratio — cannot confirm institutional pre-market interest or whether the trending_up signal has buying pressure behind it. Earnings risk is low (63 days out). Regime wiki is STALE (last updated 2026-05-03, 25 days past 14-day threshold) — applied -2 conviction penalty; macro context unreliable. Watch level $214.00 is a clean round-number resistance above premarket; invalidation $208.50 is ~2.1% below close, consistent with standard swing stop on a $210+ name. Partial rating reflects intact technicals against missing volume confirmation and stale macro."
+}

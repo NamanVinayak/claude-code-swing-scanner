@@ -1,0 +1,11 @@
+{
+  "ticker": "ERAS",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 12.35,
+  "invalidation_level": 12.75,
+  "catalyst_note": "Sector laggard decline setup requires a breakdown below yesterday's close ($12.47); premarket is gapping slightly against the short at $12.59 with zero volume, so no confirmation yet.",
+  "conviction": 3,
+  "notes": "Stage 1 score=1 (bare minimum), single reason: sector_laggard_decline. Premarket gapping UP +0.96% against the short direction — below the 5% disqualifying threshold but still adverse. Premarket volume=0 with avg_volume_10d=0.0 and null volume_ratio: zero premarket activity, no short-side pressure visible. New ticker (wiki_context.new_ticker=true); setup_history and recent slices both missing — no historical pattern to draw on. Regime slice is STALE (last updated 2026-05-03, bootstrap placeholder only) — lowering conviction by 2 per staleness rule. Earnings data unavailable (both days_since_last and days_until_next null). Watch level set at $12.35 (below yesterday's close and intraday support zone for a breakdown confirmation); invalidation at $12.75 (above current premarket high, clears the short thesis on any meaningful rally). Setup is marginal: weak Stage 1 conviction, no premarket volume support, gap against direction — pass unless price breaks down cleanly at open."
+}

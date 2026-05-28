@@ -1,0 +1,11 @@
+{
+  "ticker": "PODD",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 144.00,
+  "invalidation_level": 147.50,
+  "catalyst_note": "Sector laggard showing mild premarket drift lower (-0.69%) from $146.01 close, but zero premarket volume provides no confirmation of continued selling pressure.",
+  "conviction": 2,
+  "notes": "Stage 1 score of 1 (sole reason: sector_laggard_decline) — minimum possible score. Premarket price $145.00 is marginally below prior close, consistent with short direction, but premarket volume is 0 shares with avg_volume_10d also 0.0 — no measurable participation. Without volume, the premarket drift carries no weight as a signal. New ticker (no wiki setup_history or recent_tldr). Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) — no usable macro context; conviction reduced 2 points per staleness rule. Earnings 70 days out, no near-term event risk. Watch level set at $144.00 (clean round below current premarket price, break confirms continuation); invalidation at $147.50 (above close, rally through prior support flips thesis). Weak candidate — single low-confidence signal, zero premarket volume, no wiki history, stale regime. Acceptable only as a very low-size short if Stage 3 finds additional bearish evidence."
+}

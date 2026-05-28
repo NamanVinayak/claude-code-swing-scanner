@@ -1,0 +1,11 @@
+{
+  "ticker": "BWIN",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 19.20,
+  "invalidation_level": 19.80,
+  "catalyst_note": "Stage 4 momentum breakdown + sector laggard decline signals intact; premarket is essentially flat (+0.40%) with zero volume, so no directional confirmation yet — short thesis survives pending a breakdown below $19.20.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup history. Regime wiki is a stale bootstrap placeholder (last updated 2026-05-03, 25 days ago) and contains no actionable content; conviction not further penalized since it was never populated. Stage 1 score of 2 from short-setup screeners (stage4_momentum_breakdown + sector_laggard_decline), indicating close below SMA200/SMA50 stack and 1-month relative weakness. Premarket gap is +0.395% against the short direction — well below the 5% threshold, so thesis is not broken, but also zero premarket volume (volume=0, volume_ratio=null) means no confirmation of selling pressure. No earnings risk (days_until_next=68). Watch level $19.20 = breakdown below yesterday's close with a small buffer; invalidation $19.80 = ~2% rally above close that signals demand returning. Low conviction reflects: new ticker with no history, zero premarket volume activity, stale/empty regime context, and minimum stage1_score."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "SCHW",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 84.50,
+  "invalidation_level": 87.25,
+  "catalyst_note": "Stage 4 momentum breakdown setup: Minervini inverted SMA stack (close below SMA50 < SMA200) with elevated relative volume — awaiting intraday breakdown below recent structure to confirm.",
+  "conviction": 3,
+  "notes": "stage1_score=1 (single reason: stage4_momentum_breakdown) — minimum signal strength. Premarket: last_price $85.72 vs close $85.71 (+0.01%), essentially flat — no gap either for or against the short thesis. Premarket volume=0 and volume_ratio=null: zero premarket confirmation of selling pressure going into open. New ticker (new_ticker=true): no setup_history, no recent wiki slice to lean on — rely solely on Stage 1 signal. Regime slice is stale (last updated 2026-05-03, bootstrap placeholder with no real content) — macro context unknown; lowering conviction accordingly. Setup is rated 'partial' rather than 'no' because the Stage 4 structural condition (inverted SMA stack) is a valid short framework and premarket hasn't moved against the thesis; however, zero premarket volume means no confirmation of momentum. Watch level $84.50 = breakdown below recent support zone (~$1.20 below close); invalidation $87.25 = rally ~1.8% above close through estimated short-term resistance, which would negate the Stage 4 bear case. Conviction 3: thin single-reason signal + zero premarket volume + no wiki history + unknown macro regime."
+}

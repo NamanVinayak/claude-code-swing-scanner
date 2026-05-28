@@ -1,0 +1,11 @@
+{
+  "ticker": "CPAY",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 354.50,
+  "invalidation_level": 349.00,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up; premarket showing a mild +0.38% gap with setup intact, but zero premarket volume limits confidence in the continuation.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup history or recent technicals available. Regime context is STALE (last updated 2026-05-03, bootstrap placeholder only) — treated as unknown macro, conviction reduced by 1. Stage 1 score is 2 (tv_strong_buy + tv_trending_up), suggesting uptrend momentum. Premarket price $353.93 vs close $352.60 (+0.38%) — gap is negligible, setup not yet played out. Critical weakness: premarket volume is 0 with null volume_ratio — no premarket buying interest visible to validate the move. Earnings 69 days out, no near-term event risk. Watch level $354.50 = breakout above premarket high into confirmed upside continuation. Invalidation $349.00 = close below yesterday's session low range / below prior close support, directional thesis broken. Low conviction primarily due to absent premarket volume data and no wiki history to calibrate the name."
+}

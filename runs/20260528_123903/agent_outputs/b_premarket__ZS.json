@@ -1,0 +1,11 @@
+{
+  "ticker": "ZS",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 125.50,
+  "invalidation_level": 128.80,
+  "catalyst_note": "Stage 4 momentum breakdown + bearish episodic pivot signal a structurally weak stock, but a 0.71% premarket gap UP against the short direction with zero confirmed premarket volume leaves the breakdown unconfirmed until price trades below $125.50.",
+  "conviction": 4,
+  "notes": "Stage 1 flagged stage4_momentum_breakdown and bearish_episodic_pivot (score=2) — both are setup-type short signals, structurally sound. Last close $126.40; premarket last_price $127.30 (+0.71% gap against short direction). Gap is below the 5% threshold so thesis is not broken, but the upward drift is a headwind. Premarket volume=0 and volume_ratio=null — no bearish conviction visible in pre-market session. New ticker: no setup_history, no recent wiki context — relying solely on Stage 1 signals. Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only — no usable macro context); applying -2 conviction per staleness rule. Watch level $125.50 = breakdown below yesterday's close; invalidation $128.80 = above premarket print + cushion, clearing the noise band. Setup remains valid in structure but partial given the gap up and absent premarket volume confirmation."
+}

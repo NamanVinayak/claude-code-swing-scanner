@@ -1,0 +1,11 @@
+{
+  "ticker": "IBP",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 211.50,
+  "invalidation_level": 217.00,
+  "catalyst_note": "Sector laggard decline signal flags IBP as a building-materials underperformer — short thesis requires a breakdown below current consolidation near $211.50.",
+  "conviction": 3,
+  "notes": "Stage 1 score = 1 (sector_laggard_decline only — weakest possible stage1_score). Premarket: flat at $213.83 (+0.15%), zero premarket volume (volume_ratio null) — no directional confirmation from overnight participants. The tiny gap does not break the short thesis, but offers no momentum evidence either. New ticker (no wiki setup_history or recent_tldr). Regime slice is STALE (last updated 2026-05-03, 25 days past 14-day threshold) — macro context untrusted; applying -2 conviction penalty per staleness rule. Base conviction would be 5 for a visible setup with no confirmation; after stale regime penalty = 3. Watch level $211.50 is ~1% below close, representing a clear breakdown of yesterday's session low area. Invalidation $217.00 is ~1.6% above premarket price, above any intraday noise band. Setup is rated partial rather than no because the sector laggard signal is a real screen hit and price has not moved against the thesis, but single-signal + zero premarket volume + no wiki history + stale regime leaves conviction very thin."
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "H",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [181.0, 179.0, 174.91],
+  "top_3_arguments": [
+    "The breakout trigger has NOT been reached. watch_level = $184.00; current_price = $183.15. Buying here means buying into unconfirmed resistance at the hourly pivot_high of $183.33 (4 tests). A long entered below the break level is long overhead supply, not a breakout — the setup is technically invalid at current price. The entire 'trend continuation breakout' thesis is premised on clearing $184, which has not happened.",
+    "Price is severely extended on every timeframe: daily bollinger pct_b = 1.081 (above upper band), hourly pct_b = 1.1179 (deeply above upper band), hourly z_score_120 = 3.09 (3 standard deviations above the 120-bar mean), daily z_score_50 = 2.01, daily roc_5d = +11.41% (parabolic 5-day surge from ~$163 to $183). The catalyst driving this move — Investor Day on 2026-05-28 — is TODAY, meaning all 5 analyst upgrades and the $1B buyback announcement are public NOW. This is a textbook 'buy the rumor, sell the news' setup: the 11%+ 5-day rip is the rumor trade being unwound by late sellers into the event.",
+    "The analyst consensus avg_price_target = $174.40, which is $8.75 BELOW the current price of $183.15. Even after Truist raised to $187 and Bernstein to $202 today, the blended consensus of 15 analysts is underwater versus where the stock is trading. From a $183 entry to the watch_level target zone: if the judge uses ~$191 (fib_ext_1272) as a 1-year target, R:R from $183.15 entry with $181 invalidation is approximately $7.85 gain vs $2.15 risk (3.65:1 appears acceptable), but the hourly rsi_21 = 79.05 and hourly ADX plus_di = 41.16 signal the move is mature and exhaustion-prone — chasing a 3-sigma hourly stretched stock into a news event that has already printed gives the trade a high probability of mean reversion to the daily 50-SMA at $159.86 before any new leg higher materializes."
+  ],
+  "bull_acknowledgements": [
+    "Daily MA stack is cleanly bullish: EMA aligned uptrend = true, price above all MAs from EMA-5 through EMA-200, with the 50-SMA itself trending up (sma_50 = $159.86). This is a textbook Stage 2 uptrend structure.",
+    "Today's Investor Day catalysts are genuinely strong: 11–16% Adjusted EBITDA growth guide through 2028, $1B incremental buyback, Bernstein raising PT to $202 — these are fundamental tailwinds that could re-rate the stock higher if macro holds.",
+    "Volume on the daily timeframe is supportive: relative_volume = 1.08x on the most recent session, volume_bias_10d = up, OBV trending up without price divergence — there is real buying participation, not distribution into a vacuum."
+  ],
+  "web_sources_last_7d": [
+    "https://newsroom.hyatt.com/May-28-2026-Investor-Day-Release",
+    "https://stockanalysis.com/stocks/h/forecast/",
+    "https://public.com/stocks/h/forecast-price-target",
+    "https://finance.yahoo.com/quote/H/press-releases/",
+    "https://www.dailypolitical.com/2026/05/28/swedbank-ab-trims-stock-holdings-in-hyatt-hotels-corporation-h.html"
+  ]
+}

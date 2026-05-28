@@ -1,0 +1,26 @@
+{
+  "ticker": "BSX",
+  "setup_direction": "short",
+  "bull_strength": 8,
+  "entry_zone": {"low": 49.50, "high": 50.90},
+  "target": 44.50,
+  "stop": 51.50,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Guidance cut is a structural catalyst, not a one-day event: on 2026-05-28 BSX cut FY26 organic growth guidance citing WATCHMAN standalone procedure slowdown and competitive pressure in EP and urology — this is a multi-quarter revision cycle, not a one-day miss. Stock gapped down 12.4% on 2026-05-27 close ($57.64 → $50.46) on 2.74× average volume (52.7M vs 19.2M avg), confirming institutional distribution. Post-guidance-cut selloffs in medical device names historically see 2–4 weeks of continued pressure as consensus estimates are walked down by the sell-side. With next earnings 62 days out (2026-07-22 per earnings_context_web), there is no near-term positive catalyst to arrest the drift.",
+    "Analyst community is still behind the curve — price target cuts on 2026-05-28 are large but leave massive downside: Citi cut PT $87→$70 (maintains Buy) and Stifel cut PT $85→$75 (maintains Buy) per analyst_consensus_web. Average consensus PT ~$93.18 vs current price ~$50. These are Buy-rated analysts cutting to $70–$75 on a $50 stock — meaning even the bulls are now modeling a stock that is 40–50% overvalued relative to current price. The PT-cut cycle is just starting; remaining analyst consensus will need to follow. Each subsequent downgrade or PT cut is a fresh negative catalyst.",
+    "Technical structure confirms distribution with strong trend momentum: daily ADX_14 = 28.32 with minus_di = 41.18 vs plus_di = 26.32 — a strong, confirmed downtrend. EMA stack is fully aligned downtrend on both daily and hourly. Price is -10.53% below daily EMA_20 and -17.27% below SMA_50. Daily OBV trending down; hourly OBV trending down. Daily roc_21d = -15.83%. Bollinger pct_b = -0.1148 on daily (price has breached the lower band). Fibonacci extension low 1.272 at $46.41 is the natural measured-move target. Hourly RSI_21 = 12.53 signals near-term oversold which may produce a dead-cat bounce into the entry zone — the entry zone ($49.50–$50.90) is positioned to capture that bounce as a short entry below the watch level ($49.90) and below invalidation ($51.20). R:R from entry midpoint $50.20 to stop $51.50 (risk $1.30) vs target $44.50 (reward $5.70) = 4.4:1."
+  ],
+  "risks_acknowledged": [
+    "Hourly RSI_21 = 12.53 is deeply oversold — a sharp technical bounce to $52–$54 is possible before the next leg down, which would stop out the position if entered at market rather than waiting for the $49.50–$50.90 entry zone to re-assert.",
+    "SEISMIQ 4CE FRACTURE IDE trial met all primary endpoints (2026-05-27) — if BSX fast-tracks an FDA submission or announces unexpected approval timelines, this is a positive catalyst that could briefly re-rate the stock above invalidation.",
+    "Average analyst consensus PT is still ~$93 and major banks retain Buy ratings — any analyst upgrades or PT increases (even from a low base) could create a short squeeze from institutional buyers who see value at $50.",
+    "No insider trades in the last 30 days (recent_insider_trades is empty) — the absence of insider selling removes a confirming signal; insider inaction is ambiguous, not clearly bearish."
+  ],
+  "web_sources_last_7d": [
+    "https://stocktwits.com/news-articles/markets/equity/why-did-bsx-li-bj-stocks-hit-52-week-lows-today/cZgicjfResT",
+    "https://www.marketbeat.com/stocks/NYSE/BSX/news/",
+    "https://stockanalysis.com/stocks/bsx/",
+    "https://finance.yahoo.com/markets/stocks/articles/boston-scientific-bsx-earnings-expected-140014273.html"
+  ]
+}

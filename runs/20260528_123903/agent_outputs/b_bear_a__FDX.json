@@ -1,0 +1,22 @@
+{
+  "ticker": "FDX",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [408.5, 403.03, 399.67],
+  "top_3_arguments": [
+    "Price is BELOW the watch_level ($413.50) and trading directly into confirmed hourly resistance at $413.70 (6 tests, volume_confirmed=true). At $411.78, the breakout is unconfirmed. Buying here is buying into a wall, not through it — a rejection from $413.70 prints a double-top and puts $400 back in play immediately. daily_indicators.support_resistance.recent_high = $413.70, hourly nearest_resistance = $413.70; there is zero room between current price and the structural ceiling that defines this setup.",
+    "The daily RSI is deeply overbought and the hourly shows confirmed bearish divergence. daily_indicators.rsi.rsi_7 = 87.41, rsi_14 = 72.75 — rsi_7 at 87 is extreme, seen only at exhaustion tops. daily_indicators.bollinger.pct_b = 1.0419 — price is outside the upper Bollinger Band. daily_indicators.dist_from_50sma_pct = 10.08%, daily z_score_50 = 2.28 — statistically stretched 2.28 standard deviations above the 50 SMA. hourly_indicators.rsi_divergence.bearish = true (confirmed over 60-bar lookback). hourly momentum roc_5d = -1.18 (negative, declining over the last 5 hourly periods even as daily price hit recent high). The stock ran ~6.4% in 5 sessions (daily roc_5d = 9.82%); mean-reversion odds are elevated, and the hourly bearish divergence signals internal momentum is already fading.",
+    "The breakout has thin volume and the consensus price target sits 4.8% BELOW current price. daily_indicators.volume.relative_volume = 1.14 — the May 27 breakout candle (the pivotal day) printed only 1.14x average volume; the prior two sessions (May 20: 1,419,400 and May 26: 1,243,500) were below average, meaning there is no volume-expansion trend confirming institutional accumulation. Analyst consensus avg_price_target = $392.11, which is $19.67 below current price — the Street's blended target is already exceeded. The JPMorgan $460 PT is a single-analyst outlier; the consensus of 19 analysts sits below spot. Entry at $413.50 watch_level to a $392 consensus target would be entering ABOVE the Street's fair value estimate with negative implied return from current levels on a mean-reversion basis."
+  ],
+  "bull_acknowledgements": [
+    "The daily EMA stack is fully bullish and aligned: price is above all MAs from ema_5 through ema_200, and daily_indicators.moving_averages.ema_aligned_uptrend = true. This is not a counter-trend fade — the trend is genuinely up.",
+    "The S&P 500 inclusion (effective May 27) creates a structural forced-buying catalyst from index funds and passive vehicles that is not discretionary and is not yet fully absorbed — this is a real mechanical tailwind not captured in the technical picture alone.",
+    "The June 1 FedEx Freight spin-off is an idiosyncratic, near-term catalyst with a clear date. Post-spin margin re-rating is the fundamental basis for the move and is credible — Network 2.0 cost saves and standalone package-margin optics are real."
+  ],
+  "web_sources_last_7d": [
+    "https://www.gurufocus.com/news/8886523/fedex-fdx-and-others-join-key-stock-indices",
+    "https://invezz.com/news/2026/05/27/fedex-stock-climbs-after-jpmorgan-upgrade-ahead-of-freight-spinoff/",
+    "https://www.tipranks.com/news/company-announcements/fedex-advances-spin-off-of-fedex-freight-unit",
+    "https://finance.yahoo.com/quote/FDX/news/"
+  ]
+}

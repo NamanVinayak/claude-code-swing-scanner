@@ -1,0 +1,53 @@
+{
+  "query": "FDX news this week",
+  "fetched_at": "2026-05-28T12:45:00Z",
+  "results": [
+    {
+      "title": "FedEx Corporation (FDX) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FDX/"
+    },
+    {
+      "title": "FDX: FedEx Corp - Stock Price, Quote and News - CNBC",
+      "url": "https://www.cnbc.com/quotes/FDX"
+    },
+    {
+      "title": "Buy or Sell FedEx Stock - FDX Stock Price Quote & News | Robinhood",
+      "url": "https://robinhood.com/us/en/stocks/FDX/"
+    },
+    {
+      "title": "FedEx Corporation (FDX) Latest Stock News & Headlines - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FDX/news/"
+    },
+    {
+      "title": "FedEx Corporation (FDX) Latest Press Releases & Corporate News - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/FDX/press-releases/"
+    },
+    {
+      "title": "FDX News | FEDEX CORP (NYSE:FDX) | ChartMill.com",
+      "url": "https://www.chartmill.com/stock/quote/FDX/news"
+    },
+    {
+      "title": "FedEx Corporation (FDX) Stock Price, Quote, News & Analysis | Seeking Alpha",
+      "url": "https://seekingalpha.com/symbol/FDX"
+    },
+    {
+      "title": "News & events | FedEx",
+      "url": "https://investors.fedex.com/news-and-events/investor-news/default.aspx"
+    },
+    {
+      "title": "FedEx (FDX) and Others Join Key Stock Indices",
+      "url": "https://www.gurufocus.com/news/8886523/fedex-fdx-and-others-join-key-stock-indices"
+    },
+    {
+      "title": "FDX Stock Quote Price and Forecast | CNN",
+      "url": "https://www.cnn.com/markets/stocks/FDX"
+    }
+  ],
+  "summary_from_search": {
+    "jpmorgan_upgrade": "JPMorgan upgraded FedEx to Overweight with a price target of $460, ahead of freight spin-off completion June 1.",
+    "freight_spinoff": "FedEx Freight spin-off (FDXF) expected to complete June 1, 2026.",
+    "sp500_inclusion": "FedEx announced inclusion in S&P 500 Index on May 27, 2026.",
+    "stock_performance": "FDX up ~34.5% year-to-date.",
+    "tariff_matters": "FedEx filing lawsuits to recover unlawful tariffs; navigating tariff refund landscape."
+  }
+}

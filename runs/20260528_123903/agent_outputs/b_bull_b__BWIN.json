@@ -1,0 +1,24 @@
+{
+  "ticker": "BWIN",
+  "setup_direction": "short",
+  "bull_strength": 4,
+  "entry_zone": {"low": 19.00, "high": 19.20},
+  "target": 17.50,
+  "stop": 19.85,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "EPS miss on 2026-05-04 Q1 report drove an immediate ~8.2% post-earnings drop; with no EPS beat catalyst to reverse the narrative, the post-earnings drift is still bearish — stock has not recovered to pre-earnings levels (~$20.37 on 2026-05-21 vs. pre-report $21+ range), confirming sellers remain in control. earnings.days_until_next = 68, so no near-term re-rating event can absorb further selling pressure.",
+    "Full MA stack in confirmed downtrend: price is -11.57% from sma_50, -21.5% from sma_200, ema_aligned_downtrend = true across all timeframes. Daily momentum roc_21d = -20.5%. MACD histogram = -0.1111 (negative, no bullish crossover). ADX_14 = 30.0 with minus_di (18.85) > plus_di (14.12) — the bearish trend is strong. Watch-level breakdown at $19.20 is the short trigger; the recent 3-session range ($18.95–$19.39) consolidates just above that level. R:R math: entry midpoint $19.10, stop $19.85 (above invalidation $19.80), target $17.50 — risk $0.75, reward $1.60, R:R = 2.1:1.",
+    "The two positive news items in recent_news_7d (director $1M buy on 2026-05-22; analyst upgrade framing on 2026-05-23 per simplywall.st) have NOT arrested the decline — stock closed 2026-05-22 at $19.66 and 2026-05-26 at $19.01 despite those catalysts landing. Price inability to hold above $20 after a $1M insider buy and an analyst-upgrade headline is itself a bearish distribution signal: informed buyers are absorbing without lifting the stock, suggesting institutional supply overhead at $19.80–$20.18 resistance remains dominant."
+  ],
+  "risks_acknowledged": [
+    "The single most dangerous headwind to the short thesis: a director just paid $1M at current levels (2026-05-22) and an analyst upgrade was published the same week. These are direct counter-signals. If additional insiders add or the stock holds $19.20 on volume, the breakdown thesis is invalidated.",
+    "analyst_consensus_web shows 5 Buy / 2 Hold / 1 Sell with a median PT of $47.50 — a substantial premium to current price. Any upgrade cycle or sector re-rating could gap the stock above the $19.80 invalidation level quickly.",
+    "Daily OBV trend is 'up' while price is declining (diverging_from_price = true) — classic accumulation footprint beneath the price. Smart money may be positioning long into weakness; if so, the breakdown could be a false flush rather than genuine continuation.",
+    "Stage 2 conviction was only 4/10 with no directional confirmation as of premarket (catalyst_note: 'premarket essentially flat +0.40%, zero volume'). A short with no volume confirmation and active insider buying carries real risk of a short-squeeze on any positive headline."
+  ],
+  "web_sources_last_7d": [
+    "https://www.investing.com/news/insider-trading-news/baldwin-insurance-group-director-buys-bwin-stock-worth-1m-93CH-4542638",
+    "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/what-baldwin-insurance-group-bwins-insider-buy-and-analyst-u"
+  ]
+}

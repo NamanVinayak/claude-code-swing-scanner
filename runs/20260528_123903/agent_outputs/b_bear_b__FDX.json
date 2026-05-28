@@ -1,0 +1,22 @@
+{
+  "ticker": "FDX",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Consensus price target ($392.11 avg across 19 analysts) is already BELOW current price ($411.78) — the stock has outrun analyst models. Even the fresh JPMorgan upgrade sets a $460 PT, which implies only ~11.7% upside from here; meanwhile FDX has already run ~34.5% YTD and is 10.1% above its 50-day SMA ($374.07) with daily rsi_14 = 72.75 and rsi_7 = 87.41. At these levels the risk/reward asymmetry tilts against a breakout continuation — the 'easy money' from the spin-off re-rating has largely been captured.",
+    "The June 1 FedEx Freight spin-off creates a near-term structural overhang: FDXF shares will be distributed to FDX holders, and index-rebalancing / forced sellers of the spun-off LTL unit could create selling pressure in both FDX and FDXF immediately post-separation. FDX's post-spin earnings profile (next call June 23, 2026 — 26 days out, earnings_context_web confirmed) will be the first standalone report under the new structure; guidance uncertainty around the Network 2.0 $2B savings timeline and FY2026 outlook is unresolved and could disappoint vs. inflated expectations built into the current rally.",
+    "Technical overextension limits upside and increases reversal risk for the long: daily bollinger pct_b = 1.0419 (price has broken ABOVE the upper band at $409.50 with close at $411.78), daily z_score_50 = 2.28 standard deviations above the 50-period mean, hourly RSI divergence is BEARISH (rsi_divergence.bearish = true on the hourly timeframe) while hourly roc_5d = -1.18% (negative near-term momentum), and the nearest hourly resistance is the recent high at $413.70 — the watch_level of $413.50 sits directly at this congestion zone. A breakout from a crowded, already-extended position at upper Bollinger with negative hourly rate-of-change is a low-probability setup."
+  ],
+  "bull_acknowledgements": [
+    "S&P 500 inclusion on May 27, 2026 is a genuine structural demand catalyst — passive index funds must buy FDX shares, creating a predictable and durable buying flow that is not sentiment-driven.",
+    "The freight spin-off simplifies the FDX story: isolating the lower-margin LTL unit structurally improves the reported margin profile of the remaining package business, and the Network 2.0 cost program ($2B target by end-2027) is a real earnings growth driver if execution holds.",
+    "No insider selling pressure: recent_insider_trades is empty (no insider activity in the last 30 days), removing a common fundamental negative signal."
+  ],
+  "web_sources_last_7d": [
+    "https://www.gurufocus.com/news/8886523/fedex-fdx-and-others-join-key-stock-indices",
+    "https://invezz.com/news/2026/05/27/fedex-stock-climbs-after-jpmorgan-upgrade-ahead-of-freight-spinoff/",
+    "https://www.tipranks.com/news/company-announcements/fedex-advances-spin-off-of-fedex-freight-unit",
+    "https://finance.yahoo.com/quote/FDX/news/"
+  ]
+}

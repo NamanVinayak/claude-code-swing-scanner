@@ -1,0 +1,27 @@
+{
+  "ticker": "FDX",
+  "setup_direction": "long",
+  "bull_strength": 9,
+  "entry_zone": {"low": 413.50, "high": 416.00},
+  "target": 432.00,
+  "stop": 407.00,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Triple catalyst stack landed simultaneously on 2026-05-27: (1) FDX added to S&P 500 effective May 27 — guaranteed passive-fund buying wave as index trackers rebalance; (2) JPMorgan upgraded to Overweight with a $460 price target (vs. current $411.78), citing June 1 FedEx Freight spin-off and improving margin trajectory; (3) FedEx Freight spin-off confirmed on track to close June 1, stripping the lower-margin LTL unit and allowing pure-play package operations to reprice at structurally higher multiples. These three catalysts arrived in one session, a rare simultaneous unlock that typically sustains multiple days of institutional accumulation.",
+    "Analyst consensus strongly supports further upside: JPMorgan PT $460, broad consensus Buy (42% Strong Buy, 32% Buy per analyst_consensus_web), and consensus avg PT $392.11 has not yet caught up to the S&P 500 inclusion / spin-off re-rate — PT upgrades typically lag 2-4 weeks after a major structural event. The stock has already run +34.5% YTD (per recent_news_7d, 2026-05-26), yet the June 1 spin-off is a NEW structural catalyst not reflected in prior-year estimates. earnings.days_until_next = 26 (June 23, 2026) — no near-term earnings risk inside the trade window.",
+    "R:R math: entry midpoint $414.75, stop $407.00, target $432.00. Risk = $7.75/share, reward = $17.25/share = 2.23:1 R:R. Technical setup supports the target: daily MACD histogram = 2.99 (positive, expanding), ADX_14 = 28.5 (strong trend, +DI 30.13 >> -DI 14.34), OBV trending up with no divergence, Fib extension 1.272 = $429.90 and 1.618 = $450.51 provide measured-move upside handles. Horizon Investments added to FDX position (2026-05-03) specifically citing freight spin-off and Network 2.0 margin story — smart-money positioning ahead of the event."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_7 = 87.41 and rsi_14 = 72.75 with pct_b = 1.04 (above upper Bollinger Band) — price is stretched on the daily timeframe; a 1-3 day pullback to fill the gap near $403-$407 is plausible before continuation. Entry at $413.50–$416.00 requires patience; chasing above $416 significantly worsens R:R.",
+    "Hourly RSI divergence is flagged bearish (rsi_divergence.bearish = true) — intraday momentum losing steam even as price presses highs. This increases the probability of a short-term fade before the breakout resolves, and argues for limit orders at the watch_level rather than market-on-open.",
+    "No insider trades in the bundle (recent_insider_trades is empty) — cannot confirm insider conviction as a corroborating signal. Research gap: if management sold into the S&P 500 inclusion pop, that would be a meaningful headwind not visible here.",
+    "S&P 500 inclusion and spin-off are widely publicized events — buy-the-rumor/sell-the-news dynamics could cap the breakout if institutional rebalancing is already complete. Monitor volume on the breakout above $413.50; sub-1.5x relative volume on the breakout bar would be a warning sign."
+  ],
+  "web_sources_last_7d": [
+    "https://www.gurufocus.com/news/8886523/fedex-fdx-and-others-join-key-stock-indices",
+    "https://invezz.com/news/2026/05/27/fedex-stock-climbs-after-jpmorgan-upgrade-ahead-of-freight-spinoff/",
+    "https://www.tipranks.com/news/company-announcements/fedex-advances-spin-off-of-fedex-freight-unit",
+    "https://finance.yahoo.com/quote/FDX/news/",
+    "https://www.foreignpolicyjournal.com/2026/05/03/horizon-investments-increases-fedex-nyse-fdx-position-as-freight-spin-off-and-margin-story-attract-confidence/"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "AVGO",
+  "setup_direction": "long",
+  "bear_strength": 8,
+  "setup_invalidation_levels": [416.5, 414.0, 410.21],
+  "top_3_arguments": [
+    "Earnings in 6 days (June 3) is a binary event that structurally disqualifies this as a swing entry today. The facts bundle confirms days_until_next = 6 and earnings_context_web states 'near-term earnings event is a material catalyst risk.' Street consensus expects EPS $2.32 on $22.08B revenue — a +47% YoY revenue print that is already priced into the analyst community (85% buy ratio, avg PT $477.67). Any miss or guide-down gaps the stock. Any beat may produce a 'buy the rumor, sell the news' reversal identical to the May 27 intraday: opened $425.07, hit $432.80, collapsed to close $421.86 — a -2.6% reversal from intraday high on the same day as the most recent positive analyst coverage. Entering a breakout long 6 days before earnings violates the 3-day earnings blackout rule and doubles down on binary event risk.",
+    "The R:R from the watch level is sub-1:1 and the trend context is structurally weak. Watch level = $422.50, stop = $414.00 (risk = $8.50/share). Nearest overhead resistance = $429.31 (10 tests, NOT volume-confirmed per support_resistance data) = implied target of $6.81/share reward. R:R = 0.80:1 — well below the 2:1 minimum. Daily ADX = 11.56 (trend_strength: 'weak') confirms AVGO is not in a trending regime. Daily MACD histogram = -3.24 (macd_line 8.51 < signal_line 11.75, bearish cross). Daily rsi_14 = 48.42 — below midline, no daily momentum. Price is also sitting at the 38.2% Fibonacci retracement (fib_382 = $420.67) from the swing high/low ($442.36 / $385.57), a natural stall/resistance zone, not a launch pad.",
+    "Daily OBV is diverging bearishly from price and volume trend is deteriorating. daily_indicators.volume.obv.trend = 'down', daily_indicators.volume.obv.diverging_from_price = true. volume_bias_10d = 'down'. The May 26 gap-up day (the only above-average day in the 5-day window, volume 22.56M vs 20-day avg 18.47M) was followed immediately by May 27 selling on 17.56M shares (0.95x avg) that erased the entire intraday gain. That pattern — gap up on moderate volume, immediate fade — is classic distribution. Price is now 10.75% above the 50 SMA (dist_from_50sma_pct = 10.75) and 23.36% above the 200 EMA, extended on both timeframes with declining OBV confirming institutional distribution rather than accumulation heading into a binary earnings event."
+  ],
+  "bull_acknowledgements": [
+    "Daily EMA stack is genuinely bullish: ema_aligned_uptrend = true, price above all EMAs (5/10/20/21/50/200) in proper order. This is a structurally healthy chart at the macro level.",
+    "The fundamental setup is strong: analyst consensus is buy at avg PT $477.67 (UBS $490), AI revenue growth +106% YoY last quarter, Google TPU deal through 2031, Meta MTIA pact, and Anthropic's $200B Google commitment all flowing through Broadcom silicon. If earnings deliver, this stock has real extension potential toward fib_ext_1272 = $457.81.",
+    "Hourly ADX = 34.08 (trend_strength: 'strong') with plus_di 31.64 > minus_di 11.1, and hourly MACD histogram = +0.78 with bullish structure intraday — the very short-term tape has near-term upward momentum that a bull could use to justify an entry attempt."
+  ],
+  "web_sources_last_7d": [
+    "https://www.cnbc.com/quotes/AVGO",
+    "https://www.nasdaq.com/market-activity/stocks/avgo/news-headlines",
+    "https://www.msn.com/en-us/money/stockdetails/avgo-us-stock/fi-a1nz8m",
+    "https://www.quiverquant.com/news/Broadcom+jumps+as+bullish+analyst+note+reinforces+AI-driven+earnings+optimism",
+    "https://www.techi.com/broadcom-stock-google-meta-anthropic-ai-chip-deals-june-earnings/"
+  ]
+}

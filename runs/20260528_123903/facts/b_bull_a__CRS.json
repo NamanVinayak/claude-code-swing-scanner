@@ -1,0 +1,408 @@
+{
+  "ticker": "CRS",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 461.5,
+  "invalidation_level": 453.0,
+  "catalyst_note": "TradingView strong_buy + trending_up signals intact with flat overnight price action (-0.20%), but zero premarket volume prevents confirmation of institutional follow-through.",
+  "conviction": 4,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Carpenter Technology (CRS) Valuation Check After Record Earnings Beat And Raised Operating Income Guidance",
+      "source": "web_research",
+      "date": "2026-05-22",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html",
+      "sentiment": "positive",
+      "summary": "Carpenter Technology reported a record quarter, beating analyst estimates on both revenue and earnings. The company raised its FY2026 operating income guidance to $680M\u2013$700M, citing accelerating demand in aerospace and defense."
+    },
+    {
+      "title": "Carpenter Technology (CRS) Earnings Call Puts Its Aerospace and Defense Materials Strategy Under the Microscope",
+      "source": "web_research",
+      "date": "2026-05-23",
+      "url": "https://finance.yahoo.com/news/carpenter-technology-crs-earnings-call-090929524.html",
+      "sentiment": "positive",
+      "summary": "Earnings call highlighted Carpenter Technology's specialty alloys strategy for aerospace and defense end markets. Management discussed productivity gains, favorable pricing, and product mix as drivers of record operating income and margins."
+    },
+    {
+      "title": "TD Cowen raises Carpenter Technology (CRS) price target to $470 from $450, maintains Buy rating",
+      "source": "web_research",
+      "date": "2026-05-24",
+      "url": "https://www.benzinga.com/quote/CRS/analyst-ratings",
+      "sentiment": "positive",
+      "summary": "TD Cowen increased its price target on CRS to $470 (from $450) and kept a Buy rating following the record quarterly results and raised guidance."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 460.9100036621094,
+  "market_cap": 22722473984.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-20",
+      "open": 413.0199890136719,
+      "high": 422.3299865722656,
+      "low": 409.8800048828125,
+      "close": 422.010009765625,
+      "volume": 502400
+    },
+    {
+      "time": "2026-05-21",
+      "open": 420.8800048828125,
+      "high": 440.25,
+      "low": 416.8900146484375,
+      "close": 438.32000732421875,
+      "volume": 679900
+    },
+    {
+      "time": "2026-05-22",
+      "open": 442.8599853515625,
+      "high": 442.8599853515625,
+      "low": 431.1300048828125,
+      "close": 434.1199951171875,
+      "volume": 545400
+    },
+    {
+      "time": "2026-05-26",
+      "open": 444.3399963378906,
+      "high": 461.3900146484375,
+      "low": 440.0,
+      "close": 453.69000244140625,
+      "volume": 742000
+    },
+    {
+      "time": "2026-05-27",
+      "open": 453.239990234375,
+      "high": 462.5,
+      "low": 444.19000244140625,
+      "close": 460.9100036621094,
+      "volume": 570600
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 444.34560866869504,
+      "sma_5": 441.81000366210935,
+      "ema_10": 436.39828549739485,
+      "sma_10": 429.4529998779297,
+      "ema_20": 431.557262572408,
+      "sma_20": 430.80800170898436,
+      "ema_21": 431.1829981394199,
+      "sma_21": 430.6809547061012,
+      "ema_50": 417.87242302583746,
+      "sma_50": 418.4102667236328,
+      "ema_200": 349.5917961044993,
+      "sma_200": 334.3306894683838,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 460.9100036621094,
+    "dist_from_50sma_pct": 10.16,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 3.73,
+      "above_sma_5": true,
+      "pct_from_sma_5": 4.32,
+      "above_ema_10": true,
+      "pct_from_ema_10": 5.62,
+      "above_sma_10": true,
+      "pct_from_sma_10": 7.32,
+      "above_ema_20": true,
+      "pct_from_ema_20": 6.8,
+      "above_sma_20": true,
+      "pct_from_sma_20": 6.99,
+      "above_ema_21": true,
+      "pct_from_ema_21": 6.89,
+      "above_sma_21": true,
+      "pct_from_sma_21": 7.02,
+      "above_ema_50": true,
+      "pct_from_ema_50": 10.3,
+      "above_sma_50": true,
+      "pct_from_sma_50": 10.16,
+      "above_ema_200": true,
+      "pct_from_ema_200": 31.84,
+      "above_sma_200": true,
+      "pct_from_sma_200": 37.86,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 45991.0
+    },
+    "rsi": {
+      "rsi_7": 87.28,
+      "rsi_14": 50.95,
+      "rsi_21": 57.37
+    },
+    "rsi_divergence": {
+      "bullish": true,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 5.7474,
+      "signal_line": 3.3017,
+      "histogram": 2.4457,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 463.89,
+      "middle": 430.81,
+      "lower": 397.72,
+      "width": 0.1536,
+      "pct_b": 0.9549
+    },
+    "atr": {
+      "atr_14": 19.99,
+      "atr_pct": 4.34
+    },
+    "adx": {
+      "adx_14": 10.73,
+      "plus_di": 27.28,
+      "minus_di": 24.24,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 570600,
+      "avg_volume_20": 642420,
+      "relative_volume": 0.89,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 458.97,
+          "tests": 5,
+          "volume_confirmed": false
+        },
+        {
+          "price": 475.69,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 351.04,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 365.21,
+          "tests": 5,
+          "volume_confirmed": false
+        },
+        {
+          "price": 390.0,
+          "tests": 15,
+          "volume_confirmed": false
+        },
+        {
+          "price": 394.28,
+          "tests": 17,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 475.69,
+      "nearest_support": 394.28,
+      "recent_high": 475.69,
+      "recent_low": 390.0,
+      "prev_day_high": 461.39,
+      "prev_day_low": 440.0,
+      "prev_day_close": 453.69
+    },
+    "fibonacci": {
+      "swing_high": 475.69,
+      "swing_low": 390.0,
+      "fib_236": 455.47,
+      "fib_382": 442.96,
+      "fib_500": 432.85,
+      "fib_618": 422.73,
+      "fib_786": 408.34,
+      "fib_ext_1272": 499.0,
+      "fib_ext_1618": 528.65,
+      "fib_ext_2000": 561.38,
+      "fib_ext_low_1272": 366.69,
+      "fib_ext_low_1618": 337.04
+    },
+    "momentum": {
+      "roc_5d": 13.42,
+      "roc_10d": 8.54,
+      "roc_21d": 7.63
+    },
+    "z_score_50": 1.72,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 448.3209398629425,
+      "sma_24": 448.84375,
+      "ema_48": 439.40573670246636,
+      "sma_48": 430.87830352783203,
+      "ema_120": 431.75587382123047,
+      "sma_120": 431.8834403991699,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 457.32501220703125,
+    "dist_from_50sma_pct": 5.89,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 2.01,
+      "above_sma_24": true,
+      "pct_from_sma_24": 1.89,
+      "above_ema_48": true,
+      "pct_from_ema_48": 4.08,
+      "above_sma_48": true,
+      "pct_from_sma_48": 6.14,
+      "above_ema_120": true,
+      "pct_from_ema_120": 5.92,
+      "above_sma_120": true,
+      "pct_from_sma_120": 5.89,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 45632.5
+    },
+    "rsi": {
+      "rsi_21": 61.16
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 9.8231,
+      "signal_line": 7.1535,
+      "histogram": 2.6695,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 473.54,
+      "middle": 430.88,
+      "lower": 388.22,
+      "width": 0.198,
+      "pct_b": 0.81
+    },
+    "atr": {
+      "atr_24": 6.39,
+      "atr_pct": 1.4
+    },
+    "adx": {
+      "adx_24": 61.72,
+      "plus_di": 31.69,
+      "minus_di": 13.08,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 63793,
+      "avg_volume_20": 71170,
+      "relative_volume": 0.9,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 419.98,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 442.86,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 461.39,
+          "tests": 6,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 390.0,
+          "tests": 2,
+          "volume_confirmed": true
+        },
+        {
+          "price": 431.13,
+          "tests": 7,
+          "volume_confirmed": true
+        },
+        {
+          "price": 444.19,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 461.39,
+      "nearest_support": 444.19,
+      "recent_high": 467.5,
+      "recent_low": 431.13,
+      "prev_day_high": 462.5,
+      "prev_day_low": 458.86,
+      "prev_day_close": 461.1
+    },
+    "fibonacci": {
+      "swing_high": 467.5,
+      "swing_low": 416.89,
+      "fib_236": 455.56,
+      "fib_382": 448.17,
+      "fib_500": 442.2,
+      "fib_618": 436.22,
+      "fib_786": 427.72,
+      "fib_ext_1272": 481.27,
+      "fib_ext_1618": 498.78,
+      "fib_ext_2000": 518.11,
+      "fib_ext_low_1272": 403.12,
+      "fib_ext_low_1618": 385.61
+    },
+    "momentum": {
+      "roc_5d": 0.61,
+      "roc_10d": 0.14,
+      "roc_21d": 3.67
+    },
+    "z_score_120": 1.49,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 63,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 450.0,
+    "recent_changes": "TD Cowen raised PT to $470 from $450 (Buy). Susquehanna has a $470 PT. Consensus across 7\u20138 analysts is Strong Buy; price targets range from $340 low to $495 high."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-24",
+    "days_until_next": 57,
+    "notes": "Carpenter Technology just reported a record quarter with raised FY2026 operating income guidance ($680M\u2013$700M); next expected earnings date is approximately July 24, 2026. Street is watching for continued aerospace/defense demand confirmation and execution on the $400M brownfield expansion."
+  }
+}

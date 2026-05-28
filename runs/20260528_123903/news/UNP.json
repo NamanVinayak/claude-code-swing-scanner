@@ -1,0 +1,56 @@
+{
+  "ticker": "UNP",
+  "researched_at": "2026-05-28T12:45:00Z",
+  "news_items": [
+    {
+      "headline": "Union Pacific rallies to 52-week high after Q1 earnings beat",
+      "url": "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "UNP stock hit a 52-week high following Q1 results: net income $1.7B (+5% YoY), EPS $2.87 (+6% YoY). Management reiterated 2026 mid-single-digit EPS growth guidance and a 3-year EPS CAGR target of high single-digit to low double-digit through 2027."
+    },
+    {
+      "headline": "UNP declares $1.38 cash dividend with ex-date May 29, 2026",
+      "url": "https://finance.yahoo.com/quote/UNP/news/",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Union Pacific announced a quarterly cash dividend of $1.38 per share; ex-dividend date is May 29, 2026."
+    },
+    {
+      "headline": "State attorneys general question completeness of UNP-NSC merger application",
+      "url": "https://www.marketbeat.com/stocks/NYSE/UNP/news/",
+      "date": "2026-05-27",
+      "sentiment": "negative",
+      "summary": "State AGs raised concerns about the completeness of Union Pacific's revised merger application with Norfolk Southern ($85B deal); the Surface Transportation Board is expected to enter a year-long review. UNP says the revised application addresses regulatory concerns and aims to enhance competition."
+    },
+    {
+      "headline": "Benchmark raises UNP price target to $300 from $275; maintains Buy",
+      "url": "https://www.benzinga.com/quote/UNP/analyst-ratings",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Benchmark lifted its price target on Union Pacific to $300 (from $275) while keeping a Buy rating, citing improved earnings visibility and operational execution."
+    },
+    {
+      "headline": "Raymond James raises UNP price target to $310; Strong Buy",
+      "url": "https://stockanalysis.com/stocks/unp/ratings/",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Raymond James raised its price target on UNP to $310 from $285 and maintained a Strong Buy rating."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 291.05,
+    "recent_changes": "Multiple PT raises this week: Raymond James to $310 (Strong Buy), Benchmark to $300 (Buy), Evercore ISI to $277 (Outperform), BMO Capital to $285 (Market Perform), UBS to $274 (Neutral). Consensus Buy across 23 analysts with avg PT $291.05 (+8% upside)."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-23",
+    "days_until_next": 56,
+    "notes": "Q1 2026 already reported — net income $1.7B (+5% YoY), EPS $2.87 (+6%), record Q1 strength; stock hit 52-week high post-report. Street expects continued operating-ratio improvement and mid-single-digit EPS growth in 2026; merger-related costs and intermodal softness are flagged as near-term headwinds."
+  },
+  "raw_search_files": [
+    "UNP_news-this-week.json",
+    "UNP_analyst-rating.json",
+    "UNP_earnings-catalyst.json"
+  ]
+}

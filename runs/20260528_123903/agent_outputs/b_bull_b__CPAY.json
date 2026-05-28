@@ -1,0 +1,26 @@
+{
+  "ticker": "CPAY",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 354.50, "high": 357.00},
+  "target": 375.00,
+  "stop": 347.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Post-earnings momentum confirmed and holding: Q1 2026 results (2026-05-22) beat on every line — revenue $1.26B (+25% YoY) and cash EPS $5.80 (+29% YoY) both above street. Corpay then raised FY2026 EPS guidance to $26.30–$27.10 vs. consensus $25.78 and revenue guidance to $5.3B vs. consensus $5.2B. Stock surged +5.8% on the day and has remained above the breakout level 6 sessions later — classic bullish post-earnings drift with guidance-raise as the durable catalyst. BVNK stablecoin partnership adds a fintech narrative premium that was not previously in the stock.",
+    "Analyst consensus confirms structural buy with meaningful upside: 12-analyst consensus is Buy (8% Strong Buy, 58% Buy, 33% Hold, 0% Sell) with mean price target $394.52, implying ~12% additional upside from current price of $352.60. No analyst has downgraded in the last 7 days. Daily ADX_14 = 30.49 (strong trend), MACD histogram = +1.9707 (positive), all EMAs aligned in uptrend, and price is 11.88% above sma_50 — technical structure fully supports the narrative momentum. Fib extension 1.272 ($371.50) and target ($375) sit well within the analyst PT range.",
+    "Clean catalyst window with no near-term earnings risk: earnings.days_until_next = 69 — no binary event for over two months. This removes the most common reason swing trades expire before target. The breakout setup has a confirmed watch level at $354.50 (minor resistance), and the daily bollinger upper ($367.53) + fib_ext_1272 ($371.50) bracket a natural first target zone. R:R from entry midpoint $355.75 to stop $347.00 and target $375.00 = $19.25 reward vs. $8.75 risk = 2.2:1. No insider buy data in bundle (research gap), but yahoo item (2026-05-22) noted insider buying observed alongside the earnings release."
+  ],
+  "risks_acknowledged": [
+    "RSI_14 = 74.71 and RSI_7 = 79.63 — stock is overbought on the daily frame. A mean-reversion pullback before breakout confirmation is the base-case near-term risk; entry must be at or above watch_level $354.50, not chased below it.",
+    "M&A integration risk is flagged by analysts (2026-05-23): Corpay must absorb Alpha Group, GPS, and Paymerang cost bases efficiently. If Q2 margins disappoint, the guidance raise could be unwound. This is a 60–90 day risk, not an immediate catalyst headwind, but it caps how aggressively to add on strength.",
+    "Hourly ADX_24 = 13.38 (weak intraday trend) and hourly MACD histogram = -0.1638 (slightly negative) — intraday momentum is not yet confirming the daily breakout. Entry should wait for hourly price to clear $354.50 with volume; current hourly relative volume = 0.25, well below average."
+  ],
+  "web_sources_last_7d": [
+    "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/why-corpay-cpay-is-up-58-after-boosting-guidance-buybacks-an",
+    "https://finance.yahoo.com/news/corpay-cpay-insider-buying-earnings-041513423.html",
+    "https://www.tipranks.com/news/company-announcements/corpay-earnings-call-signals-robust-growth-momentum",
+    "https://www.tickerreport.com/banking-finance/13435093/corpay-nysecpay-updates-fy-2026-earnings-guidance.html",
+    "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/should-corpays-earnings-beat-and-ma-push-require-action-from"
+  ]
+}

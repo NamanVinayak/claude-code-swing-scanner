@@ -1,0 +1,35 @@
+{
+  "ticker": "BWIN",
+  "researched_at": "2026-05-28T12:48:00Z",
+  "news_items": [
+    {
+      "headline": "Baldwin Insurance Group director buys BWIN stock worth $1M",
+      "url": "https://www.investing.com/news/insider-trading-news/baldwin-insurance-group-director-buys-bwin-stock-worth-1m-93CH-4542638",
+      "date": "2026-05-22",
+      "sentiment": "positive",
+      "summary": "A director at Baldwin Insurance Group purchased approximately $1 million worth of BWIN shares, signaling insider confidence in the stock at current levels."
+    },
+    {
+      "headline": "What Baldwin Insurance Group (BWIN)'s Insider Buy And Analyst Upgrade Signal For Shareholders",
+      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/what-baldwin-insurance-group-bwins-insider-buy-and-analyst-u",
+      "date": "2026-05-23",
+      "sentiment": "positive",
+      "summary": "Simply Wall St piece noting a director insider buy and an analyst upgrade for BWIN, framing both as potentially positive signals for shareholders."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 47.5,
+    "recent_changes": "No analyst rating or price target changes confirmed within last 7 days. Prior context (already priced in): Wells Fargo maintained Equal-Weight with PT cut to $21 on 2026-02-27; JPMorgan kept Neutral with PT cut to $28. Consensus as of late May 2026: 5 Buy, 2 Hold, 1 Sell across 9 analysts; median PT $47.50, high $55.00, low $34.00."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 69,
+    "notes": "Q1 2026 earnings reported 2026-05-04 — BWIN missed EPS estimates; revenue grew but net income and margins compressed; stock dropped ~8.2% post-earnings. Q2 2026 earnings expected approximately early August 2026. 3B30 Catalyst program (targeting $3B revenue, 30% adj. EBITDA margin) and Fairway mortgage partnership are key longer-term catalysts management highlighted."
+  },
+  "raw_search_files": [
+    "BWIN_news-this-week.json",
+    "BWIN_analyst-rating.json",
+    "BWIN_earnings-catalyst.json"
+  ]
+}

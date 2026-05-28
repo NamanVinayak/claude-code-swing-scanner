@@ -1,0 +1,411 @@
+{
+  "ticker": "BSX",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 49.9,
+  "invalidation_level": 51.2,
+  "catalyst_note": "Stage 4 momentum breakdown + bearish episodic pivot (two distinct short-setup signals) show structural deterioration below key moving average stack \u2014 watch for continuation break below $50.",
+  "conviction": 5,
+  "source_reasons": [
+    "stage4_momentum_breakdown",
+    "bearish_episodic_pivot"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "BSX plunges ~12% after cutting FY26 guidance on WATCHMAN heart device slowdown",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://stocktwits.com/news-articles/markets/equity/why-did-bsx-li-bj-stocks-hit-52-week-lows-today/cZgicjfResT",
+      "sentiment": "negative",
+      "summary": "Boston Scientific cut its FY26 organic growth guidance due to slowing WATCHMAN standalone procedure adoption and competitive pressure in EP and urology. Stock hit a two-year low of $50.04, down ~12.43% on the session."
+    },
+    {
+      "title": "Citi lowers BSX price target to $70 from $87, maintains Buy",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://www.marketbeat.com/stocks/NYSE/BSX/news/",
+      "sentiment": "negative",
+      "summary": "Citi analyst Joanne Wuensch cut the price target on Boston Scientific to $70 from $87 following the guidance reduction, while retaining a Buy rating on shares."
+    },
+    {
+      "title": "Boston Scientific FRACTURE IDE trial of SEISMIQ 4CE coronary IVL catheter meets all primary endpoints",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://stockanalysis.com/stocks/bsx/",
+      "sentiment": "positive",
+      "summary": "BSX's pivotal FRACTURE IDE trial for its SEISMIQ 4CE intravascular lithotripsy catheter met all primary endpoints, a positive clinical data readout for its structural heart portfolio."
+    },
+    {
+      "title": "Q1 2026 earnings: net sales $5.203B (+11.6%), adj EPS $0.80; FY guidance lowered",
+      "source": "web_research",
+      "date": "2026-04-22",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/boston-scientific-bsx-earnings-expected-140014273.html",
+      "sentiment": "neutral",
+      "summary": "Boston Scientific reported Q1 2026 net sales of $5.203B (+11.6% reported, +9.4% organic) and adjusted EPS of $0.80, meeting estimates, but accompanied the results with a lowered full-year organic growth outlook. (Note: earnings event itself is older than 7 days; guidance cut impact is a current-week catalyst.)"
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 50.459999084472656,
+  "market_cap": 72935448576.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-20",
+      "open": 56.68000030517578,
+      "high": 56.939998626708984,
+      "low": 55.33000183105469,
+      "close": 56.66999816894531,
+      "volume": 15398800
+    },
+    {
+      "time": "2026-05-21",
+      "open": 56.029998779296875,
+      "high": 57.16999816894531,
+      "low": 55.81999969482422,
+      "close": 57.150001525878906,
+      "volume": 12841400
+    },
+    {
+      "time": "2026-05-22",
+      "open": 57.599998474121094,
+      "high": 58.5099983215332,
+      "low": 57.38999938964844,
+      "close": 57.779998779296875,
+      "volume": 11738100
+    },
+    {
+      "time": "2026-05-26",
+      "open": 57.75,
+      "high": 58.13999938964844,
+      "low": 57.2599983215332,
+      "close": 57.63999938964844,
+      "volume": 15258000
+    },
+    {
+      "time": "2026-05-27",
+      "open": 53.130001068115234,
+      "high": 53.20000076293945,
+      "low": 50.040000915527344,
+      "close": 50.459999084472656,
+      "volume": 52725900
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 54.82739421849498,
+      "sma_5": 55.939999389648435,
+      "ema_10": 55.34883766064999,
+      "sma_10": 55.17199974060058,
+      "ema_20": 56.39701600929465,
+      "sma_20": 55.48899974822998,
+      "ema_21": 56.53183565299084,
+      "sma_21": 55.62999979654948,
+      "ema_50": 61.38215753594513,
+      "sma_50": 60.99640007019043,
+      "ema_200": 79.85811326084593,
+      "sma_200": 85.76185010910034,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 50.459999084472656,
+    "dist_from_50sma_pct": -17.27,
+    "price_vs_ma": {
+      "above_ema_5": false,
+      "pct_from_ema_5": -7.97,
+      "above_sma_5": false,
+      "pct_from_sma_5": -9.8,
+      "above_ema_10": false,
+      "pct_from_ema_10": -8.83,
+      "above_sma_10": false,
+      "pct_from_sma_10": -8.54,
+      "above_ema_20": false,
+      "pct_from_ema_20": -10.53,
+      "above_sma_20": false,
+      "pct_from_sma_20": -9.06,
+      "above_ema_21": false,
+      "pct_from_ema_21": -10.74,
+      "above_sma_21": false,
+      "pct_from_sma_21": -9.29,
+      "above_ema_50": false,
+      "pct_from_ema_50": -17.79,
+      "above_sma_50": false,
+      "pct_from_sma_50": -17.27,
+      "above_ema_200": false,
+      "pct_from_ema_200": -36.81,
+      "above_sma_200": false,
+      "pct_from_sma_200": -41.16,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 4946.0
+    },
+    "rsi": {
+      "rsi_7": 41.26,
+      "rsi_14": 35.87,
+      "rsi_21": 31.18
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -1.7523,
+      "signal_line": -2.0738,
+      "histogram": 0.3215,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 59.58,
+      "middle": 55.49,
+      "lower": 51.4,
+      "width": 0.1474,
+      "pct_b": -0.1148
+    },
+    "atr": {
+      "atr_14": 2.12,
+      "atr_pct": 4.21
+    },
+    "adx": {
+      "adx_14": 28.32,
+      "plus_di": 26.32,
+      "minus_di": 41.18,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 52725900,
+      "avg_volume_20": 19228355,
+      "relative_volume": 2.74,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 58.18,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 66.88,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 71.94,
+          "tests": 8,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 52.52,
+          "tests": 3,
+          "volume_confirmed": false
+        },
+        {
+          "price": 60.59,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 67.56,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 58.18,
+      "nearest_support": null,
+      "recent_high": 58.51,
+      "recent_low": 50.04,
+      "prev_day_high": 58.14,
+      "prev_day_low": 57.26,
+      "prev_day_close": 57.64
+    },
+    "fibonacci": {
+      "swing_high": 66.88,
+      "swing_low": 50.04,
+      "fib_236": 62.91,
+      "fib_382": 60.45,
+      "fib_500": 58.46,
+      "fib_618": 56.47,
+      "fib_786": 53.64,
+      "fib_ext_1272": 71.46,
+      "fib_ext_1618": 77.29,
+      "fib_ext_2000": 83.72,
+      "fib_ext_low_1272": 45.46,
+      "fib_ext_low_1618": 39.63
+    },
+    "momentum": {
+      "roc_5d": -11.18,
+      "roc_10d": -6.73,
+      "roc_21d": -15.83
+    },
+    "z_score_50": -1.9,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 53.99452295730115,
+      "sma_24": 55.307499726613365,
+      "ema_48": 54.90804003864646,
+      "sma_48": 55.86062502861023,
+      "ema_120": 55.586052791198654,
+      "sma_120": 55.23557990392049,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 49.060001373291016,
+    "dist_from_50sma_pct": -11.18,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -9.14,
+      "above_sma_24": false,
+      "pct_from_sma_24": -11.3,
+      "above_ema_48": false,
+      "pct_from_ema_48": -10.65,
+      "above_sma_48": false,
+      "pct_from_sma_48": -12.17,
+      "above_ema_120": false,
+      "pct_from_ema_120": -11.74,
+      "above_sma_120": false,
+      "pct_from_sma_120": -11.18,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 4806.0
+    },
+    "rsi": {
+      "rsi_21": 12.53
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.9721,
+      "signal_line": 0.0353,
+      "histogram": -1.0074,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 60.8,
+      "middle": 55.86,
+      "lower": 50.92,
+      "width": 0.1767,
+      "pct_b": -0.1889
+    },
+    "atr": {
+      "atr_24": 0.89,
+      "atr_pct": 1.81
+    },
+    "adx": {
+      "adx_24": 27.28,
+      "plus_di": 10.26,
+      "minus_di": 43.96,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 6035315,
+      "avg_volume_20": 3689953,
+      "relative_volume": 1.64,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 57.59,
+          "tests": 15,
+          "volume_confirmed": true
+        },
+        {
+          "price": 58.51,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 52.52,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 55.33,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 57.26,
+          "tests": 17,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 57.59,
+      "nearest_support": null,
+      "recent_high": 58.13,
+      "recent_low": 49.0,
+      "prev_day_high": 50.72,
+      "prev_day_low": 50.19,
+      "prev_day_close": 50.42
+    },
+    "fibonacci": {
+      "swing_high": 58.51,
+      "swing_low": 49.0,
+      "fib_236": 56.27,
+      "fib_382": 54.88,
+      "fib_500": 53.75,
+      "fib_618": 52.63,
+      "fib_786": 51.04,
+      "fib_ext_1272": 61.1,
+      "fib_ext_1618": 64.39,
+      "fib_ext_2000": 68.02,
+      "fib_ext_low_1272": 46.41,
+      "fib_ext_low_1618": 43.12
+    },
+    "momentum": {
+      "roc_5d": -3.1,
+      "roc_10d": -15.38,
+      "roc_21d": -15.06
+    },
+    "z_score_120": -3.06,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 62,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 93.18,
+    "recent_changes": "Citi cut PT to $70 from $87 (maintains Buy, 2026-05-28); Stifel cut PT to $75 from $85 (maintains Buy, 2026-05-28). Broader consensus average PT ~$93.18 with median ~$95.50 \u2014 both well above current stock price near $50 following the guidance-cut selloff."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-22",
+    "days_until_next": 55,
+    "notes": "Q2 2026 earnings expected late July 2026. Street will focus on EP segment recovery trajectory, WATCHMAN FLX Pro adoption, and whether urology weakness is transient. CHAMPION clinical data is cited as a potential transformational catalyst by bulls."
+  }
+}

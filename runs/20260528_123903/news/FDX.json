@@ -1,0 +1,56 @@
+{
+  "ticker": "FDX",
+  "researched_at": "2026-05-28T12:48:00Z",
+  "news_items": [
+    {
+      "headline": "FedEx added to S&P 500 Index effective May 27, 2026",
+      "url": "https://www.gurufocus.com/news/8886523/fedex-fdx-and-others-join-key-stock-indices",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "FedEx Corp (FDX) was announced as a new S&P 500 constituent on May 27, 2026, expanding its institutional investor base and index-fund demand."
+    },
+    {
+      "headline": "JPMorgan upgrades FedEx to Overweight with $460 price target ahead of freight spin-off",
+      "url": "https://invezz.com/news/2026/05/27/fedex-stock-climbs-after-jpmorgan-upgrade-ahead-of-freight-spinoff/",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "JPMorgan raised FDX to Overweight and set a $460 price target on May 27, citing the imminent June 1 FedEx Freight spin-off and improving margin trajectory as the primary rationale."
+    },
+    {
+      "headline": "FedEx Freight spin-off (FDXF) on track to complete June 1, 2026",
+      "url": "https://www.tipranks.com/news/company-announcements/fedex-advances-spin-off-of-fedex-freight-unit",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "FedEx confirmed the FedEx Freight holding company spin-off is set to close June 1, 2026; the separation isolates the lower-margin LTL trucking unit and allows FDX's package operations to trade on standalone margins."
+    },
+    {
+      "headline": "FedEx stock up ~34.5% year-to-date; tariff lawsuits filed to recover unlawful charges",
+      "url": "https://finance.yahoo.com/quote/FDX/news/",
+      "date": "2026-05-26",
+      "sentiment": "neutral",
+      "summary": "FDX shares have appreciated approximately 34.5% in 2026; separately, the company has filed lawsuits seeking recovery of tariffs it characterizes as unlawful following recent legal rulings."
+    },
+    {
+      "headline": "Horizon Investments increases FedEx position citing freight spin-off and margin story",
+      "url": "https://www.foreignpolicyjournal.com/2026/05/03/horizon-investments-increases-fedex-nyse-fdx-position-as-freight-spin-off-and-margin-story-attract-confidence/",
+      "date": "2026-05-03",
+      "sentiment": "positive",
+      "summary": "Horizon Investments added to its FDX position in early May, citing confidence in the freight spin-off timeline and the ongoing Network 2.0 cost-reduction program as catalysts for margin expansion."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 392.11,
+    "recent_changes": "JPMorgan upgraded FDX to Overweight with a $460 PT on 2026-05-27 ahead of the June 1 freight spin-off. Consensus across 19 analysts is Buy (42% Strong Buy, 32% Buy, 21% Hold, 5% Sell)."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-06-23",
+    "days_until_next": 26,
+    "notes": "Next earnings call is scheduled for June 23, 2026. Key focus areas are post-spin-off margin profile, Network 2.0 savings progress ($2B target by end of 2027), and FY2026 guidance update. Most recent peak season was characterized as the most profitable in company history."
+  },
+  "raw_search_files": [
+    "FDX_news-this-week.json",
+    "FDX_analyst-rating.json",
+    "FDX_earnings-catalyst.json"
+  ]
+}

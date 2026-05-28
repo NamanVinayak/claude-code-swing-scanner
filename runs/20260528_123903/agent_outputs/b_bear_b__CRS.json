@@ -1,0 +1,21 @@
+{
+  "ticker": "CRS",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Stock has already overshot analyst consensus: avg_price_target from web research is $450.00 — CRS at $460.91 is trading $10.91 (2.4%) ABOVE the consensus mean target with TD Cowen's freshly raised PT of $470 as the top of the current range. At $461 the stock is pricing in a near-perfect execution outcome; there is essentially no valuation cushion from sell-side models. The post-earnings 5-day ramp from $413 (2026-05-20 close) to $461 (+11.6%) has consumed most of the upward analyst-target revision. Buying a breakout at $461+ means betting that analysts re-rate again before the next earnings (2026-07-24, 57 days out) — a research_gap: no evidence of pending upgrades in recent_news_7d beyond TD Cowen's $470 PT already reflected in price.",
+    "Extreme short-term overbought with distribution under the hood: daily rsi_7 = 87.28 (severely overbought) and Bollinger %B = 0.9549 (price at 95th percentile of the daily band, upper band = $463.89 vs current $460.91 — a 65-cent ceiling). The 5-day ROC of +13.42% is parabolic relative to the 10-day ROC of +8.54%, signaling the recent acceleration is decelerating. Critically, hourly OBV trend = 'down' and is flagged as 'diverging_from_price: true' — institutional distribution is occurring intrabar even as the daily close looks constructive. Yesterday's volume was 570,600 against a 20-day avg of 642,420 (relative_volume = 0.89), meaning the breakout attempt at $461.39 hourly resistance came on BELOW-average volume — a textbook low-conviction breakout that institutions are fading, not chasing.",
+    "Structural trend is weaker than the signal suggests: daily adx_14 = 10.73, rated 'weak' by the indicator suite — this is a momentum spike, not a sustained trending breakout. The $461.39 hourly pivot high has been tested 6 times with no volume confirmation; it is now the nearest resistance ceiling and the stock closed at $460.91 — one tick below. Daily S/R shows nearest_resistance at $475.69 (only tested once, not confirmed), but the zone the stock must first clear is the multi-test $458.97 daily pivot high (5 tests, no volume confirmation). Stage 2 conviction was only 4/10, and the catalyst_note explicitly flags 'zero premarket volume prevents confirmation of institutional follow-through' — the setup integrity has not improved since Stage 2 assessed it. Additionally, daily rsi_divergence shows both bullish AND bearish flags simultaneously (both = true over 60-bar lookback), a conflicted signal that argues for indecision rather than a clean continuation move."
+  ],
+  "bull_acknowledgements": [
+    "The fundamental catalyst is real and fresh: record Q3 earnings beat (revenue + EPS) reported 2026-05-22, raised FY2026 operating income guidance to $680M–$700M (per Yahoo Finance/web_research), and aerospace/defense demand acceleration are durable positives that justify some multiple expansion. This is not a dead-cat bounce — there is a genuine earnings-driven re-rating underway.",
+    "Earnings risk is negligible for this setup: days_until_next = 57 (next expected 2026-07-24), so the position would not be carrying unresolved earnings binary risk. All EMAs are aligned in uptrend; price is above every moving average from EMA-5 through EMA-200, and the daily MACD histogram is positive at 2.4457, supporting the broad trend.",
+    "No insider selling pressure: recent_insider_trades is empty — there is no cluster of executive sales at these elevated levels to interpret as a distribution signal. Combined with no short-squeeze risk noted, the float is clean."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html",
+    "https://finance.yahoo.com/news/carpenter-technology-crs-earnings-call-090929524.html",
+    "https://www.benzinga.com/quote/CRS/analyst-ratings"
+  ]
+}

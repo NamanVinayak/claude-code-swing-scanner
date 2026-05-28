@@ -1,0 +1,22 @@
+{
+  "ticker": "H",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Stock is already trading ABOVE the consensus analyst price target: avg_price_target = $174.40 vs current price $183.15 — the stock is 5.0% through the median analyst fair value. The two fresh PT raises today (Truist to $187, Bernstein to $202) are Investor Day-event responses and likely reflect near-term enthusiasm rather than durable re-rating; even the new Truist target of $187 implies only 2.1% upside from current, which does not justify entering a breakout with 1.8% downside to the $181 invalidation. A breakout on the exact day of the Investor Day event is a textbook 'buy the rumor, sell the news' setup — the 11–16% EBITDA growth guide through 2028 was delivered today (2026-05-28); the stock has already run +5.75% in 5 days pricing in the event.",
+    "Technicals are historically extended and entering overbought territory across multiple timeframes: daily rsi_7 = 76.5, rsi_14 = 67.42; hourly rsi_21 = 79.05; daily Bollinger pct_b = 1.081 (price above upper band); hourly pct_b = 1.1179 (also above upper band); hourly z_score_120 = 3.09 (3 standard deviations above 120h mean). Price is 14.57% above the 50-day SMA and 18.26% above the 200-day SMA. This combination of all-timeframe overbought readings means entering the long here requires a continued parabolic move — not a clean breakout continuation setup. Mean-reversion risk back to the 50-day SMA ($159.86) or even the 20-day SMA ($168.79) is material.",
+    "Management flagged real structural demand headwinds on the Q1 2026 earnings call (2026-04-30): Middle East conflict headwinds and softer Mexico demand. These are macro and geopolitical factors outside Hyatt's control that cap RevPAR growth even if the company executes on its 2028 EBITDA guide. Additionally, recent_insider_trades = [] — zero insider buying in the last 30 days despite the stock being mid-range and ahead of a major Investor Day catalyst. Insiders know the business best; their absence at current prices suggests they do not view the stock as undervalued. Stage 2 conviction was only 4/10, and the sole driver is TradingView signals (tv_strong_buy, tv_trending_up) — no earnings catalyst, no fundamental inflection, no institutional accumulation signal, just trend-following signals on an already-extended chart."
+  ],
+  "bull_acknowledgements": [
+    "Q1 2026 earnings (2026-04-30) were genuinely strong: EPS beat, revenue $1.75B, RevPAR +5.4% YoY, gross fees +8.6%, pipeline +9.4%. The fundamental business is healthy.",
+    "The Investor Day 2028 guide (11–16% Adjusted EBITDA growth, 14–18% Adjusted FCF growth, $1B buyback increase) is a real catalyst that could attract institutional rotation into the name on a longer time horizon.",
+    "Earnings risk is absent for 70 days (next earnings 2026-08-06), which removes a binary downside event from the near-term picture."
+  ],
+  "web_sources_last_7d": [
+    "https://newsroom.hyatt.com/May-28-2026-Investor-Day-Release",
+    "https://stockanalysis.com/stocks/h/forecast/",
+    "https://public.com/stocks/h/forecast-price-target",
+    "https://www.dailypolitical.com/2026/05/28/swedbank-ab-trims-stock-holdings-in-hyatt-hotels-corporation-h.html"
+  ]
+}

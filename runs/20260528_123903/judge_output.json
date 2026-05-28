@@ -1,0 +1,119 @@
+{
+  "approved": [
+    {
+      "ticker": "BSX",
+      "direction": "short",
+      "entry_price": 49.85,
+      "stop_loss": 51.2,
+      "target_price": 45.5,
+      "target_price_2": 43.12,
+      "quantity": 100,
+      "expected_holding_days": 7,
+      "setup_type": "breakout",
+      "conviction": 7,
+      "rationale": "Both bull agents (bull_strength=8 each) dominate vs bears (bear_strength=7 each): combined_p_bull=0.5333, combined_p_bear=0.4667. SHORT expected_return = 0.5333*(49.85-45.50) - 0.4667*(51.20-49.85) = 2.320 - 0.630 = +$1.69/share. Key bears' concern (hourly RSI_21=12.53 extreme oversold, daily MACD histogram turning positive at +0.3215, 2.74x volume as capitulation) is real but outweighed by structural evidence: daily ema_aligned_downtrend=true, ADX_14=28.32 with minus_di=41.18 vs plus_di=26.32 (strong confirmed downtrend), price broke below the 3-test $52.52 pivot low on 2026-05-27, guidance cut is a multi-quarter revision cycle catalyst (next earnings 62 days out per facts). Bulls cross-checked: rsi_7=41.26/rsi_14=35.87/rsi_21=31.18 consistent with facts; volume 52.7M vs 19.2M avg matches facts; fib_ext_low_1272=$46.41 and fib_ext_low_1618=$43.12 are valid from daily_indicators.fibonacci. Bears' MACD histogram crossover (+0.3215) acknowledged but insufficient to override ADX trend strength. Position sized to $250 risk at 1%: 185 shares at $1.35 risk/share = $249.75 notional $9,222. Scaled down from 185 to 100 shares to fit small-account cap (notional $4,985 vs 20% extended cap $5,000), using 54% of risk budget ($135/$250). Target_price_2=$43.12 (fib_ext_low_1618) as extended target if WATCHMAN estimate cuts cascade.",
+      "risk_usd": 135.0,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-29T20:00:00+00:00"
+    },
+    {
+      "ticker": "MIDD",
+      "direction": "long",
+      "entry_price": 156.0,
+      "stop_loss": 152.0,
+      "target_price": 166.89,
+      "target_price_2": 175.21,
+      "quantity": 32,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Gate 2: p_bull=(7/(7+7)+8/(8+6))/2=0.5357, p_bear=0.4643; entry=156.00, target=166.89 (min of bull targets), stop=152.00 (max of bull stops); expected_return=0.5357\u00d710.89\u22120.4643\u00d74.00=5.834\u22121.857=+$3.98/share. Bull thesis wins on EMA alignment (ema_aligned_uptrend=true, price above all MAs), MACD bullish crossover (histogram=+0.374), hourly ADX_24=44.97 (strong trend, +DI=39.62 vs -DI=8.39), and fresh fundamental catalyst (Q1 beat + analyst upgrades, consensus PT $166.60, earnings 69 days out). Bear concerns (daily bearish RSI divergence confirmed, rsi_7=82.63, volume ratio=1.0 on breakout day, hourly volume=0.10, volume-confirmed resistance at $154.71, spinoff overhang) are all verified against facts and reduce conviction to 6 but do not negate the positive expected return math. Gate 4 small-scaled: Gate-3 quantity 62 shares at notional $9,672 exceeds 15% single-position cap ($3,750); downsize to M=32 shares (notional $4,992 \u2264 $5,000 extended cap), risk_M=$128 \u2265 floor $100 (uses 51% of risk budget). Scaled down from 62 to 32 shares to fit small-account cap, using 51% of risk budget.",
+      "risk_usd": 128.0,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-28T16:30:00+00:00"
+    },
+    {
+      "ticker": "UNP",
+      "direction": "long",
+      "entry_price": 280.88,
+      "stop_loss": 273.5,
+      "target_price": 295.0,
+      "target_price_2": 300.0,
+      "quantity": 17,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Catalyst bull (b_bull_b, strength=8) dominates over fundamental bear (b_bear_b, strength=6); technical bull and bear are evenly matched (both strength=7). combined_p_bull=(7/14 + 8/14)/2=0.536; expected_return_per_share = 0.536\u00d7(295.00\u2212280.88) \u2212 0.464\u00d7(280.88\u2212273.50) = 0.536\u00d714.12 \u2212 0.464\u00d77.38 = 7.57 \u2212 3.42 = +$4.14/share. Key disagreement: bears correctly flag ex-dividend date May 29 (\u2212$1.38 mechanical gap-down) and bearish RSI divergence (rsi_divergence.bearish=true, 60-bar lookback, pct_b=1.1953 \u2014 extended above upper Bollinger), but earnings catalyst (EPS $2.87 +6% YoY, analyst upgrades from Raymond James to $310 and Benchmark to $300 on 2026-05-28) provides fresh fundamental support that outweighs the technical exhaustion signal. Hourly OBV divergence (diverging_from_price=true, hourly price $266.73 below all hourly MAs at snapshot time) is a real intraday distribution risk \u2014 watch for early weakness. Position sizing: risk_dollars=$250 (25000\u00d71%\u00d71.0); risk_per_share=|280.88\u2212273.50|=$7.38; Gate-3 quantity=floor(250/7.38)=33; notional 33\u00d7$280.88=$9,269 exceeds standard cap $3,750 (15%) \u2014 small-scaled path: M=floor(5000/280.88)=17, risk_M=17\u00d7$7.38=$125.46\u2265floor $100 (40% of risk budget); scaled down from 33 to 17 shares to fit small-account cap, using 50% of risk budget.",
+      "risk_usd": 125.46,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-28T20:00:00+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "long",
+      "entry_price": 423.34,
+      "stop_loss": 413.5,
+      "target_price": 440.5,
+      "target_price_2": 450.0,
+      "quantity": 11,
+      "expected_holding_days": 5,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "b_bull_b (catalyst, strength=7) and b_bear_a (technical, strength=8) are the dominant perspectives; bears win on weight but expected return is still positive. p_bull = 5/(5+8) = 0.3846; p_catalyst = 7/(7+7) = 0.5000; combined_p_bull = 0.4423; combined_p_bear = 0.5577. Entry = midpoint of bull_a zone (422.50+424.17)/2 = 423.34. Target = min(440.50, 445.00) = 440.50. Stop = max(413.50, 413.50) = 413.50. Expected return = 0.4423*(440.50-423.34) - 0.5577*(423.34-413.50) = 0.4423*17.16 - 0.5577*9.84 = 7.59 - 5.49 = +$2.10/share (positive; Gate 2 passes). Bears' primary arguments \u2014 OBV diverging bearishly (daily OBV trend=down, diverging_from_price=true, volume_bias_10d=down), daily MACD histogram=-3.24 (bearish), daily ADX=11.56 (weak), and 10-test resistance at $429.31 limiting near-term upside \u2014 are all verified against daily_indicators and carry real weight. Earnings in 6 days (June 3) is the #1 risk flagged by both bears; both bulls explicitly acknowledge it and bulls constrain to a 4-6 day exit before the binary event. Position sizing: risk_dollars = 25000*1%*1.0 = $250; risk_per_share = |423.34-413.50| = 9.84; Gate-3 quantity = floor(250/9.84) = 25 shares; notional at 25 shares = $10,584 exceeds single_cap $3,750 (15% of $25k) so standard path fails. Small-scaled exception: M = floor(5000/423.34) = 11; risk_M = 11*9.84 = $108.24 >= risk_floor $100 (40% of $250). Scaled down from 25 to 11 shares to fit small-account cap, using 43% of risk budget. Final risk_usd = 11*9.84 = $108.24. Hourly ADX=34.08 (strong) with plus_di=31.64 vs minus_di=11.1 and hourly MACD histogram=+0.7754 confirm short-term directional momentum supporting the entry zone reclaim. Trade must close by June 2 EOD regardless of outcome.",
+      "risk_usd": 108.24,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-28T20:00:00+00:00"
+    },
+    {
+      "ticker": "BWIN",
+      "direction": "short",
+      "entry_price": 19.295,
+      "stop_loss": 19.85,
+      "target_price": 17.5,
+      "target_price_2": 16.8,
+      "quantity": 259,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "Gate 0\u20131 pass. Gate 2: p_bull=6/(6+7)=0.4615, p_catalyst=4/(4+7)=0.3636, combined_p_bull=0.4126, combined_p_bear=0.5874; entry=19.295 (midpoint of b_bull_a zone 19.20\u201319.39), target=max(16.80,17.50)=17.50 (conservative achievable), stop=min(19.85,19.85)=19.85; expected_return_per_share = 0.4126*(19.295\u221217.50) \u2212 0.5874*(19.85\u221219.295) = 0.7406 \u2212 0.3260 = +$0.4146 > 0. Gate 3: risk_dollars=25000\u00d71.0%\u00d71.0=$250, risk_per_share=0.555, quantity=floor(250/0.555)=450. Gate 4 small-scaled: notional=450\u00d7$19.295=$8,682 exceeds 15% cap ($3,750); M=floor($5,000/19.295)=259, risk_M=259\u00d70.555=$143.75 \u2265 40% floor ($100) \u2014 scaled down from 450 to 259 shares to fit small-account cap, using 57% of risk budget. Bulls dominate technically (daily ADX_14=30.0, ema_aligned_downtrend=true, roc_21d=\u221220.5%, minus_di=18.85>plus_di=14.12, rel_vol=1.83x on red 5/27 close), but bears correctly flag $1M director insider buy on 2026-05-22 (confirmed by news research, not in structured insider feed), bullish OBV-price divergence (daily obv.diverging_from_price=true), daily rsi_21=24.59 (oversold), and hourly momentum flipping positive (hourly plus_di=26.53>minus_di=24.3). Conviction lowered to 5 \u2014 technical breakdown is real but fundamental counter-signals are unusually strong for a short entry.",
+      "risk_usd": 143.745,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-29T20:00:00+00:00"
+    },
+    {
+      "ticker": "H",
+      "direction": "long",
+      "entry_price": 185.0,
+      "stop_loss": 180.5,
+      "target_price": 196.0,
+      "target_price_2": 200.3,
+      "quantity": 27,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "b_bull_b (strength=8) leads on Investor Day catalyst (11-16% EBITDA CAGR guide through 2028, $1B buyback, Truist PT $187 + Bernstein PT $202); b_bull_a (strength=6) supports via daily MA stack (ema_aligned_uptrend=true, ADX_14=25.11, MACD histogram=+1.1257). Key disagreement: both bears (strength=7 each) cite 'sell-the-news' risk \u2014 daily pct_b=1.081, hourly pct_b=1.1179, hourly z_score_120=3.09, hourly rsi_21=79.05, and consensus avg_price_target=$174.40 already breached \u2014 resolved by the structural quality of the Investor Day re-rate catalyst and positive expected return math (combined_p_bull=0.497, EV=+$3.21/share: 0.497*(196-185) - 0.503*(185-180.50) = +5.47 - 2.26 = +3.21). Position sizing: risk_dollars=$250 (1.0%*$25,000*1.0), risk_per_share=|185.00-180.50|=$4.50, Gate-3 quantity=floor(250/4.50)=55 shares (notional $10,175 exceeds 15% cap of $3,750); scaled down from 55 to 27 shares to fit small-account cap (27*$185=$4,995 <= $5,000 extended cap), using 49% of risk budget ($121.50/$250).",
+      "risk_usd": 121.5,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-28T20:00:00+00:00"
+    }
+  ],
+  "rejected": [
+    {
+      "ticker": "CPAY",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "CRS",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "FDX",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "MAR",
+      "reason": "single_position_cap_exceeded"
+    }
+  ],
+  "summary": "approved=6, rejected=4, candidates=10"
+}

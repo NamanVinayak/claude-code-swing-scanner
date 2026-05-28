@@ -1,0 +1,21 @@
+{
+  "ticker": "UNP",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Valuation and analyst divergence limit upside: current price $279.39 sits only ~4% below the most bullish analyst target ($310 Raymond James), and two of five recent PT revisions are notably cautious — Evercore ISI at $277 (Outperform, but that's BELOW the current price) and UBS at $274 (Neutral, also below spot). With avg consensus PT $291.05 implying only ~+8% upside, the risk/reward for a breakout long is thin at current levels; any multiple contraction or guidance miss snaps that cushion entirely. Specific P/E and EV/EBITDA multiples are unavailable in this bundle (research gap — reduces confidence).",
+    "Active M&A regulatory overhang is a material, unresolved risk: state attorneys general raised formal concerns on 2026-05-27 about completeness of UNP's $85B merger application with Norfolk Southern; Surface Transportation Board is expected to enter a year-long review. Railroads that attempt large horizontal mergers historically trade with a persistent uncertainty discount — deal failure, forced divestitures, or prolonged STB proceedings all cap re-rating potential. A deal break at that deal size could mean UNP deploys capital sub-optimally (integration costs already partly incurred) or faces a return-of-capital vacuum while management attention is distracted.",
+    "Technical momentum is stalling intraday, precisely at the watch-level entry: hourly indicators show current price at $266.73 (hourly snapshot), below all hourly EMAs (24h EMA at $272.46, 48h EMA at $270.95), hourly RSI_21 at 49.13 (neutral), and hourly OBV diverging from price (volume rising but price below short-term MAs on the hourly). Daily rsi_divergence.bearish = true over 60-bar lookback. The stock is +9.19% above the 50-SMA (dist_from_50sma_pct = 9.19) and pct_b on the daily Bollinger is 1.195 — well above the upper band — signaling the daily is already extended. Combined with a 5-day breakout of ~$13 from $265 to $279 in 5 sessions, mean-reversion risk back toward $267–$271 support is elevated."
+  ],
+  "bull_acknowledgements": [
+    "Q1 earnings were genuinely strong: net income $1.7B (+5% YoY), EPS $2.87 (+6% YoY), management reiterated mid-single-digit EPS growth guidance for 2026 with a 3-year CAGR target of high-single to low-double-digit — that is a credible fundamental tailwind for a large-cap compounder.",
+    "No insider selling in the last 30 days (recent_insider_trades is empty); the absence of insider distribution removes a common bear catalyst. Earnings are 56 days away, so no binary event risk is overhanging this trade.",
+    "EMA stack is fully aligned uptrend across all timeframes (ema_aligned_uptrend = true on both daily and hourly), and relative volume on the daily is 1.47x — the recent breakout showed above-average participation."
+  ],
+  "web_sources_last_7d": [
+    "https://www.marketbeat.com/stocks/NYSE/UNP/news/",
+    "https://www.benzinga.com/quote/UNP/analyst-ratings",
+    "https://stockanalysis.com/stocks/unp/ratings/"
+  ]
+}

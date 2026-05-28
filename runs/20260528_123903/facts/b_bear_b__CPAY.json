@@ -1,0 +1,404 @@
+{
+  "ticker": "CPAY",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 354.5,
+  "invalidation_level": 349.0,
+  "catalyst_note": "Stage 1 flagged tv_strong_buy and tv_trending_up; premarket showing a mild +0.38% gap with setup intact, but zero premarket volume limits confidence in the continuation.",
+  "conviction": 4,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Corpay up 5.8% after boosting FY2026 guidance, expanding buybacks, and adding stablecoin payments via BVNK partnership",
+      "source": "web_research",
+      "date": "2026-05-22",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/why-corpay-cpay-is-up-58-after-boosting-guidance-buybacks-an",
+      "sentiment": "positive",
+      "summary": "Corpay raised FY2026 EPS guidance to $26.30\u2013$27.10 (vs. consensus $25.78) and revenue guidance to $5.3B (vs. consensus $5.2B). The company also announced a buyback expansion and added stablecoin wallet + settlement capability through a BVNK partnership."
+    },
+    {
+      "title": "Corpay Q1 revenue $1.26B (+25% YoY), cash EPS $5.80 (+29%); insider buying noted",
+      "source": "web_research",
+      "date": "2026-05-22",
+      "url": "https://finance.yahoo.com/news/corpay-cpay-insider-buying-earnings-041513423.html",
+      "sentiment": "positive",
+      "summary": "Corpay reported Q1 2026 revenue of $1.26 billion, up 25% year-over-year, and cash EPS of $5.80, up 29% YoY, both beating street estimates. Insider buying was observed alongside the earnings release."
+    },
+    {
+      "title": "Corpay earnings call signals robust growth momentum in cross-border and automated payables",
+      "source": "web_research",
+      "date": "2026-05-22",
+      "url": "https://www.tipranks.com/news/company-announcements/corpay-earnings-call-signals-robust-growth-momentum",
+      "sentiment": "positive",
+      "summary": "Management highlighted continued adoption of automated payables and cross-border payment solutions as the primary growth drivers on the Q1 earnings call."
+    },
+    {
+      "title": "Corpay FY2026 earnings guidance updated above consensus",
+      "source": "web_research",
+      "date": "2026-05-22",
+      "url": "https://www.tickerreport.com/banking-finance/13435093/corpay-nysecpay-updates-fy-2026-earnings-guidance.html",
+      "sentiment": "positive",
+      "summary": "Corpay updated full-year 2026 EPS guidance to $26.30\u2013$27.10 versus analyst consensus of $25.78, and revenue guidance to $5.3B versus consensus of $5.2B."
+    },
+    {
+      "title": "Corpay M&A integration risk: Alpha, GPS, and Paymerang cost absorption in focus",
+      "source": "web_research",
+      "date": "2026-05-23",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/should-corpays-earnings-beat-and-ma-push-require-action-from",
+      "sentiment": "negative",
+      "summary": "Analysts flag M&A integration as the primary risk \u2014 whether Corpay can absorb Alpha Group, GPS, and Paymerang efficiently without M&A and technology spending outpacing revenue growth."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 352.6000061035156,
+  "market_cap": 22868828160.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-20",
+      "open": 342.3599853515625,
+      "high": 351.1499938964844,
+      "low": 333.17999267578125,
+      "close": 350.4800109863281,
+      "volume": 569400
+    },
+    {
+      "time": "2026-05-21",
+      "open": 345.6600036621094,
+      "high": 352.2200012207031,
+      "low": 342.2200012207031,
+      "close": 347.4599914550781,
+      "volume": 539100
+    },
+    {
+      "time": "2026-05-22",
+      "open": 348.57000732421875,
+      "high": 354.4100036621094,
+      "low": 344.9100036621094,
+      "close": 347.8999938964844,
+      "volume": 419800
+    },
+    {
+      "time": "2026-05-26",
+      "open": 343.1499938964844,
+      "high": 350.04998779296875,
+      "low": 337.5299987792969,
+      "close": 349.6099853515625,
+      "volume": 677700
+    },
+    {
+      "time": "2026-05-27",
+      "open": 349.7900085449219,
+      "high": 355.8800048828125,
+      "low": 347.69000244140625,
+      "close": 352.6000061035156,
+      "volume": 580900
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 348.7082612075943,
+      "sma_5": 349.60999755859376,
+      "ema_10": 343.5506643957763,
+      "sma_10": 342.83400268554686,
+      "ema_20": 335.26998660783914,
+      "sma_20": 329.9304992675781,
+      "ema_21": 334.63452415112954,
+      "sma_21": 329.0561901274182,
+      "ema_50": 324.7839114492587,
+      "sma_50": 315.17199951171875,
+      "ema_200": 315.78231137527087,
+      "sma_200": 309.47439987182617,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 352.6000061035156,
+    "dist_from_50sma_pct": 11.88,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 1.12,
+      "above_sma_5": true,
+      "pct_from_sma_5": 0.86,
+      "above_ema_10": true,
+      "pct_from_ema_10": 2.63,
+      "above_sma_10": true,
+      "pct_from_sma_10": 2.85,
+      "above_ema_20": true,
+      "pct_from_ema_20": 5.17,
+      "above_sma_20": true,
+      "pct_from_sma_20": 6.87,
+      "above_ema_21": true,
+      "pct_from_ema_21": 5.37,
+      "above_sma_21": true,
+      "pct_from_sma_21": 7.15,
+      "above_ema_50": true,
+      "pct_from_ema_50": 8.56,
+      "above_sma_50": true,
+      "pct_from_sma_50": 11.88,
+      "above_ema_200": true,
+      "pct_from_ema_200": 11.66,
+      "above_sma_200": true,
+      "pct_from_sma_200": 13.94,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 35160.0
+    },
+    "rsi": {
+      "rsi_7": 79.63,
+      "rsi_14": 74.71,
+      "rsi_21": 67.32
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 9.7101,
+      "signal_line": 7.7394,
+      "histogram": 1.9707,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 367.53,
+      "middle": 329.93,
+      "lower": 292.33,
+      "width": 0.2279,
+      "pct_b": 0.8015
+    },
+    "atr": {
+      "atr_14": 14.08,
+      "atr_pct": 3.99
+    },
+    "adx": {
+      "adx_14": 30.49,
+      "plus_di": 36.34,
+      "minus_di": 14.0,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 580900,
+      "avg_volume_20": 563535,
+      "relative_volume": 1.03,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 301.66,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 343.56,
+          "tests": 11,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 281.16,
+          "tests": 3,
+          "volume_confirmed": true
+        },
+        {
+          "price": 298.46,
+          "tests": 13,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 298.46,
+      "recent_high": 355.88,
+      "recent_low": 298.46,
+      "prev_day_high": 350.05,
+      "prev_day_low": 337.53,
+      "prev_day_close": 349.61
+    },
+    "fibonacci": {
+      "swing_high": 355.88,
+      "swing_low": 298.46,
+      "fib_236": 342.33,
+      "fib_382": 333.95,
+      "fib_500": 327.17,
+      "fib_618": 320.39,
+      "fib_786": 310.75,
+      "fib_ext_1272": 371.5,
+      "fib_ext_1618": 391.37,
+      "fib_ext_2000": 413.3,
+      "fib_ext_low_1272": 282.84,
+      "fib_ext_low_1618": 262.97
+    },
+    "momentum": {
+      "roc_5d": 2.76,
+      "roc_10d": 4.21,
+      "roc_21d": 12.73
+    },
+    "z_score_50": 1.77,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 349.3026124673941,
+      "sma_24": 348.7917709350586,
+      "ema_48": 345.9425967752309,
+      "sma_48": 347.49109331766766,
+      "ema_120": 336.3980303018655,
+      "sma_120": 333.17779642740885,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 349.8800048828125,
+    "dist_from_50sma_pct": 5.01,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 0.17,
+      "above_sma_24": true,
+      "pct_from_sma_24": 0.31,
+      "above_ema_48": true,
+      "pct_from_ema_48": 1.14,
+      "above_sma_48": true,
+      "pct_from_sma_48": 0.69,
+      "above_ema_120": true,
+      "pct_from_ema_120": 4.01,
+      "above_sma_120": true,
+      "pct_from_sma_120": 5.01,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 34888.0
+    },
+    "rsi": {
+      "rsi_21": 49.87
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 3.9594,
+      "signal_line": 4.1232,
+      "histogram": -0.1638,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 354.12,
+      "middle": 347.49,
+      "lower": 340.86,
+      "width": 0.0382,
+      "pct_b": 0.6801
+    },
+    "atr": {
+      "atr_24": 3.35,
+      "atr_pct": 0.96
+    },
+    "adx": {
+      "adx_24": 13.38,
+      "plus_di": 23.6,
+      "minus_di": 20.81,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 14778,
+      "avg_volume_20": 58313,
+      "relative_volume": 0.25,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 354.97,
+          "tests": 9,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 333.18,
+          "tests": 2,
+          "volume_confirmed": false
+        },
+        {
+          "price": 337.53,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 342.21,
+          "tests": 14,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 354.97,
+      "nearest_support": 342.21,
+      "recent_high": 355.88,
+      "recent_low": 337.53,
+      "prev_day_high": 353.39,
+      "prev_day_low": 350.1,
+      "prev_day_close": 352.77
+    },
+    "fibonacci": {
+      "swing_high": 355.88,
+      "swing_low": 337.53,
+      "fib_236": 351.55,
+      "fib_382": 348.87,
+      "fib_500": 346.71,
+      "fib_618": 344.54,
+      "fib_786": 341.46,
+      "fib_ext_1272": 360.87,
+      "fib_ext_1618": 367.22,
+      "fib_ext_2000": 374.23,
+      "fib_ext_low_1272": 332.54,
+      "fib_ext_low_1618": 326.19
+    },
+    "momentum": {
+      "roc_5d": -0.94,
+      "roc_10d": 1.17,
+      "roc_21d": -0.03
+    },
+    "z_score_120": 1.02,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 69,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 394.52,
+    "recent_changes": "Consensus from 12 analysts: 8% Strong Buy, 58% Buy, 33% Hold, 0% Sell. Mean price target $394.52 (range $343.40\u2013$462.00); a separate aggregator cites $380.67. No specific upgrade/downgrade actions found in the last 7 days beyond the standing consensus."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 earnings reported approximately 2026-05-22: revenue $1.26B (+25% YoY), cash EPS $5.80 (+29% YoY), both above consensus. FY2026 guidance raised above street on both EPS and revenue. Next quarterly earnings date not found in search results."
+  }
+}

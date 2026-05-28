@@ -1,0 +1,23 @@
+{
+  "ticker": "AVGO",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Earnings event in 6 days (June 3) creates binary risk that structurally caps reward: consensus expects EPS $2.32 (+47% YoY) on revenue $22.08B — a 47% YoY revenue growth bar is already priced in, leaving little room for a positive surprise to drive additional upside, while any miss or guidance softness on AI chip growth could produce a violent gap-down. A 6-day hold through earnings is not a breakout trade — it is an earnings gamble. The Stage 2 conviction score of 4/10 reflects this ambiguity.",
+    "Daily MACD is in bearish configuration and OBV is diverging from price: macd_line = 8.51 vs signal_line = 11.75 (histogram = -3.24, negative and widening), OBV trend = 'down' with diverging_from_price = true, daily volume bias 10d = 'down', and relative_volume = 0.95 (below 20-day average of 18.47M). The 2026-05-27 session reinforced this — price peaked intraday at $432.80 then reversed to close at $421.86, printing a long upper wick that signals institutional distribution at resistance. Breakout thesis requires expanding volume confirming new highs; the technicals show the opposite.",
+    "Dense overhead resistance between $429.31 and $442.36 materially limits breakout continuation: $429.31 has been tested 10 times (daily pivot high), $437.68 tested twice, $442.36 is the recent swing high — and current price at $421.86 is already 10.75% above the sma_50 ($380.92) and 20.50% above sma_200 ($350.09), meaning the stock is extended vs. its own moving average history. The fib_236 at $428.96 nearly coincides with the 10-test resistance at $429.31, creating a double ceiling. A long entered at $422.50 watch level has only ~$6.50 to the first hard wall (~1.5% upside) against a $8.50 stop to $414 (2.0% downside) — an asymmetric risk/reward of roughly 0.75:1 even before the earnings binary."
+  ],
+  "bull_acknowledgements": [
+    "The fundamental thesis is real: Q1 FY2026 revenue was $19.3B (+29% YoY) with AI semiconductor revenue +106% to $8.4B, Google TPU deal through 2031, Meta MTIA partnership, and Anthropic's $200B cloud commitment all represent durable revenue streams. This is not a story stock — revenue exists.",
+    "Analyst consensus is genuinely strong: 57-analyst aggregate average PT of $477.67, 85% buy ratio, UBS at $490 Strong Buy (2026-05-18). At $421.86 there is ~13% upside to consensus PT even without a premium. A clean earnings beat on June 3 could unlock that gap rapidly.",
+    "Hourly ADX = 34.08 with plus_di = 31.64 vs minus_di = 11.1 shows short-term trend strength on the intraday timeframe — bulls have near-term momentum within the recent consolidation range."
+  ],
+  "web_sources_last_7d": [
+    "https://www.cnbc.com/quotes/AVGO",
+    "https://www.nasdaq.com/market-activity/stocks/avgo/news-headlines",
+    "https://www.msn.com/en-us/money/stockdetails/avgo-us-stock/fi-a1nz8m",
+    "https://www.quiverquant.com/news/Broadcom+jumps+as+bullish+analyst+note+reinforces+AI-driven+earnings+optimism",
+    "https://www.techi.com/broadcom-stock-google-meta-anthropic-ai-chip-deals-june-earnings/"
+  ]
+}

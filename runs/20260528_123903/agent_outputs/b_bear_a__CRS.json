@@ -1,0 +1,21 @@
+{
+  "ticker": "CRS",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [453.69, 444.19, 431.13],
+  "top_3_arguments": [
+    "Price is already AT the watch level ($460.91 vs watch_level $461.50) with sub-average breakout volume: daily_indicators.volume.relative_volume = 0.89x on the last two sessions (570,600 and 742,000 shares vs avg_volume_20 = 642,420). A genuine institutional breakout demands at least 1.5x average volume; this one cannot clear the prior pivot high ($458.97, 5 tests, volume_confirmed=false) on conviction. The breakout is unconfirmed and has fakeout fingerprints. Hourly OBV trend = 'down' with diverging_from_price = true — distribution is actively occurring while price prints new highs.",
+    "Hourly rsi_divergence.bearish = true, and hourly momentum is stalling hard: hourly roc_5d = 0.61%, roc_10d = 0.14% — near-zero. The 5-day surge of +9.2% (daily roc_5d = 13.42%) was almost entirely the earnings gap; the follow-through over the subsequent sessions is thinning out. Daily rsi_7 = 87.28 signals acute short-term exhaustion. Bollinger pct_b = 0.9549 — price is pressing the upper band with almost no room before mean-reversion pressure kicks in. Daily z_score_50 = 1.72, dist_from_50sma = 10.16% — historically extended relative to trend.",
+    "R:R is structurally poor at current price. Entry ~$461, stop at invalidation_level $453 = $8 risk. Nearest meaningful resistance is $475.69 (only 1 prior test, volume_confirmed=false) = $14.78 reward. That is 1.85:1, below the 2:1 minimum. Furthermore, the consensus analyst avg_price_target = $450 — BELOW the current price of $460.91 — meaning even TD Cowen's raised target of $470 implies only $9 of upside against $8 of risk. Street is caught flat-footed by the move; the stock has already priced in the guidance raise and then some."
+  ],
+  "bull_acknowledgements": [
+    "The fundamental catalyst is real: record Q3 beat + FY2026 operating income guidance raised to $680M–$700M, aerospace/defense demand accelerating. This is not a hype-driven move — there is genuine fundamental support.",
+    "Daily MA stack is cleanly bullish: price above all EMAs and SMAs in aligned uptrend order (ema_aligned_uptrend = true), including ema_50 ($417.87) and sma_200 ($334.33). Trend structure on the daily chart is intact. Hourly ADX_24 = 61.72 with trend_strength = 'strong' — the hourly trend has real momentum.",
+    "MACD on both timeframes is positive and histogram is expanding (daily histogram = 2.4457, hourly = 2.6695). No MACD crossdown yet. If volume re-accelerates above 1.5x on a close above $462, the breakout could validate quickly."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html",
+    "https://finance.yahoo.com/news/carpenter-technology-crs-earnings-call-090929524.html",
+    "https://www.benzinga.com/quote/CRS/analyst-ratings"
+  ]
+}

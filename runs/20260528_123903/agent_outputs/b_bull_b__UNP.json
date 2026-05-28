@@ -1,0 +1,27 @@
+{
+  "ticker": "UNP",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 280.00, "high": 283.00},
+  "target": 299.00,
+  "stop": 273.50,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Fresh Q1 earnings beat as of 2026-05-28 drove UNP to a 52-week high: net income $1.7B (+5% YoY), EPS $2.87 (+6% YoY) — management reiterated 2026 mid-single-digit EPS growth and a high-single to low-double-digit 3-year CAGR through 2027 (source: seekingalpha.com, 2026-05-28). Post-earnings drift into the breakout confirms the catalyst is current, not stale.",
+    "Simultaneous analyst PT upgrades on 2026-05-28: Raymond James raised to $310 (Strong Buy) and Benchmark raised to $300 (Buy). Consensus across 23 analysts: Buy rating, avg PT $291.05 (+8% from current $279.39). Fib ext 1.618 from the recent swing ($263.92–$279.68) sits at $299.98, aligning with the $299 target. R:R math: entry midpoint $281.50, stop $273.50 (risk $8.00), target $299.00 (reward $17.50) = 2.19:1.",
+    "Technical breakout confirmed with volume: 2026-05-27 volume 4,045,800 vs 20-day avg 2,745,545 (relative volume 1.47x). Daily rsi_14 = 63.22 (momentum zone, not overbought), MACD histogram = +0.1241 with bullish crossover, all EMAs/SMAs aligned uptrend (ema_aligned_uptrend = true), OBV trend = up with no price divergence. Earnings blackout clear: days_until_next = 56 (next report 2026-07-23)."
+  ],
+  "risks_acknowledged": [
+    "Daily Bollinger %B = 1.1953 — price is extended above the upper band ($276.10); a snap-back to the middle band ($267.68) is possible if broader market weakens, which would stop out the trade.",
+    "UNP-NSC merger ($85B) faces state AG challenges over completeness of the STB application (2026-05-27, marketbeat.com); a year-long regulatory review creates headline risk that could weigh on the stock even if fundamentals hold.",
+    "Bearish RSI divergence flagged on the daily timeframe (rsi_divergence.bearish = true, lookback 60 bars) — price is making new highs while momentum oscillators trail; a false breakout above $280 that reverses is the primary technical risk.",
+    "No insider buying in the last 30 days (recent_insider_trades empty) — no smart-money accumulation signal to reinforce the catalyst case."
+  ],
+  "web_sources_last_7d": [
+    "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings",
+    "https://finance.yahoo.com/quote/UNP/news/",
+    "https://www.marketbeat.com/stocks/NYSE/UNP/news/",
+    "https://www.benzinga.com/quote/UNP/analyst-ratings",
+    "https://stockanalysis.com/stocks/unp/ratings/"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "ticker": "BWIN",
+  "setup_direction": "short",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [19.8, 20.09, 20.35],
+  "top_3_arguments": [
+    "Insider and analyst signals directly oppose the short: a director bought ~$1M of BWIN stock on 2026-05-22 (recent_news_7d), and analyst consensus is Buy with median price target $47.50 vs current price $19.39. Q1 2026 earnings miss (reported 2026-05-04, ~8.2% drop) is already priced in — the incremental shock is gone. Short sellers betting against a $1M insider buy with a 145% upside analyst consensus are fighting obvious informed buying. Wells Fargo Equal-Weight PT $21 and JPMorgan Neutral PT $28 are the two most bearish analyst views — both imply the stock is FAIRLY VALUED or undervalued at current levels, not a short.",
+    "Hourly structure is showing short-term upward momentum against the short thesis: hourly rsi_21 = 47.63 (neutral, not overbought — no mean-reversion exhaustion), price is ABOVE hourly ema_24 (+1.60%) and ema_48 (+0.36%), hourly roc_5d = +2.31 and roc_10d = +4.02 (positive momentum over the last 5 and 10 hourly bars). Hourly OBV trend is UP and NOT diverging from price (diverging_from_price = false), meaning participation is building into the bounce not fading. Hourly ADX_24 = 35.38 (strong trend) with plus_di = 26.53 > minus_di = 24.3 — directional advantage is currently with buyers on the hourly chart.",
+    "Daily rsi_21 = 24.59 places BWIN in deep oversold territory on the 21-period lookback — statistically a bounce zone, not a continuation-short zone. Daily OBV is trending UP while price trended down (daily obv.diverging_from_price = true) — a classic bullish OBV divergence that warns the decline may lack genuine distribution. The nearest hourly support cluster at $19.25 (12 tests, volume confirmed) and $18.96 (2 tests, volume confirmed) are both within 2.2% below current price, making the stop extremely tight and the downside limited before hitting a wall of demand. The setup watch level ($19.20) sits just above that multi-tested $18.96 floor — a breakdown below $19.20 to $18.96 is only $0.24 of price movement before a volume-confirmed support absorbs sellers."
+  ],
+  "bull_acknowledgements": [
+    "The daily MA stack is unambiguously bearish: price is below every MA (ema_5 through ema_200), ema_aligned_downtrend = true, and dist_from_50sma_pct = -11.57. This is a textbook Stage 4 chart — the structural trend is down. The short scanners correctly identified it.",
+    "Daily momentum is weak: roc_5d = -2.37, roc_10d = -3.39, roc_21d = -20.50. The 21-day rate-of-change at -20.5% confirms serious structural selling pressure over the past month, not just noise. Daily MACD histogram = -0.1111 with no bullish crossover — trend is still confirming downside.",
+    "Daily ADX_14 = 30.0 (strong trend) with minus_di = 18.85 > plus_di = 14.12 — on the daily timeframe, sellers still hold directional edge. The $21.57 resistance level has 22 test failures — overhead supply is real and dense."
+  ],
+  "web_sources_last_7d": [
+    "https://www.investing.com/news/insider-trading-news/baldwin-insurance-group-director-buys-bwin-stock-worth-1m-93CH-4542638",
+    "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/what-baldwin-insurance-group-bwins-insider-buy-and-analyst-u"
+  ]
+}

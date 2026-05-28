@@ -1,0 +1,400 @@
+{
+  "ticker": "BWIN",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 19.2,
+  "invalidation_level": 19.8,
+  "catalyst_note": "Stage 4 momentum breakdown + sector laggard decline signals intact; premarket is essentially flat (+0.40%) with zero volume, so no directional confirmation yet \u2014 short thesis survives pending a breakdown below $19.20.",
+  "conviction": 4,
+  "source_reasons": [
+    "stage4_momentum_breakdown",
+    "sector_laggard_decline"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Baldwin Insurance Group director buys BWIN stock worth $1M",
+      "source": "web_research",
+      "date": "2026-05-22",
+      "url": "https://www.investing.com/news/insider-trading-news/baldwin-insurance-group-director-buys-bwin-stock-worth-1m-93CH-4542638",
+      "sentiment": "positive",
+      "summary": "A director at Baldwin Insurance Group purchased approximately $1 million worth of BWIN shares, signaling insider confidence in the stock at current levels."
+    },
+    {
+      "title": "What Baldwin Insurance Group (BWIN)'s Insider Buy And Analyst Upgrade Signal For Shareholders",
+      "source": "web_research",
+      "date": "2026-05-23",
+      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/what-baldwin-insurance-group-bwins-insider-buy-and-analyst-u",
+      "sentiment": "positive",
+      "summary": "Simply Wall St piece noting a director insider buy and an analyst upgrade for BWIN, framing both as potentially positive signals for shareholders."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 19.389999389648438,
+  "market_cap": 1943949696.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-20",
+      "open": 20.100000381469727,
+      "high": 20.280000686645508,
+      "low": 19.25,
+      "close": 20.1200008392334,
+      "volume": 1201200
+    },
+    {
+      "time": "2026-05-21",
+      "open": 19.850000381469727,
+      "high": 20.389999389648438,
+      "low": 19.579999923706055,
+      "close": 20.3700008392334,
+      "volume": 891400
+    },
+    {
+      "time": "2026-05-22",
+      "open": 20.280000686645508,
+      "high": 20.510000228881836,
+      "low": 19.6200008392334,
+      "close": 19.65999984741211,
+      "volume": 1357300
+    },
+    {
+      "time": "2026-05-26",
+      "open": 20.149999618530273,
+      "high": 20.18000030517578,
+      "low": 18.959999084472656,
+      "close": 19.010000228881836,
+      "volume": 1896700
+    },
+    {
+      "time": "2026-05-27",
+      "open": 19.350000381469727,
+      "high": 20.09000015258789,
+      "low": 18.950000762939453,
+      "close": 19.389999389648438,
+      "volume": 2526100
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 19.598440995151563,
+      "sma_5": 19.710000228881835,
+      "ema_10": 19.955510029425827,
+      "sma_10": 19.926000022888182,
+      "ema_20": 20.639893575045182,
+      "sma_20": 20.626000022888185,
+      "ema_21": 20.69332194017912,
+      "sma_21": 20.773333322434198,
+      "ema_50": 21.438679559256233,
+      "sma_50": 21.927400054931642,
+      "ema_200": 25.46920547318091,
+      "sma_200": 24.70175000190735,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 19.389999389648438,
+    "dist_from_50sma_pct": -11.57,
+    "price_vs_ma": {
+      "above_ema_5": false,
+      "pct_from_ema_5": -1.06,
+      "above_sma_5": false,
+      "pct_from_sma_5": -1.62,
+      "above_ema_10": false,
+      "pct_from_ema_10": -2.83,
+      "above_sma_10": false,
+      "pct_from_sma_10": -2.69,
+      "above_ema_20": false,
+      "pct_from_ema_20": -6.06,
+      "above_sma_20": false,
+      "pct_from_sma_20": -5.99,
+      "above_ema_21": false,
+      "pct_from_ema_21": -6.3,
+      "above_sma_21": false,
+      "pct_from_sma_21": -6.66,
+      "above_ema_50": false,
+      "pct_from_ema_50": -9.56,
+      "above_sma_50": false,
+      "pct_from_sma_50": -11.57,
+      "above_ema_200": false,
+      "pct_from_ema_200": -23.87,
+      "above_sma_200": false,
+      "pct_from_sma_200": -21.5,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1839.0
+    },
+    "rsi": {
+      "rsi_7": 42.37,
+      "rsi_14": 40.07,
+      "rsi_21": 24.59
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.8099,
+      "signal_line": -0.6988,
+      "histogram": -0.1111,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 22.87,
+      "middle": 20.63,
+      "lower": 18.39,
+      "width": 0.2172,
+      "pct_b": 0.2241
+    },
+    "atr": {
+      "atr_14": 0.98,
+      "atr_pct": 5.03
+    },
+    "adx": {
+      "adx_14": 30.0,
+      "plus_di": 14.12,
+      "minus_di": 18.85,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 2526100,
+      "avg_volume_20": 1378395,
+      "relative_volume": 1.83,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 21.57,
+          "tests": 22,
+          "volume_confirmed": false
+        },
+        {
+          "price": 22.88,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 23.24,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 26.96,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 20.76,
+          "tests": 15,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 21.57,
+      "nearest_support": null,
+      "recent_high": 23.95,
+      "recent_low": 18.95,
+      "prev_day_high": 20.18,
+      "prev_day_low": 18.96,
+      "prev_day_close": 19.01
+    },
+    "fibonacci": {
+      "swing_high": 26.96,
+      "swing_low": 18.95,
+      "fib_236": 25.07,
+      "fib_382": 23.9,
+      "fib_500": 22.95,
+      "fib_618": 22.01,
+      "fib_786": 20.66,
+      "fib_ext_1272": 29.14,
+      "fib_ext_1618": 31.91,
+      "fib_ext_2000": 34.97,
+      "fib_ext_low_1272": 16.77,
+      "fib_ext_low_1618": 14.0
+    },
+    "momentum": {
+      "roc_5d": -2.37,
+      "roc_10d": -3.39,
+      "roc_21d": -20.5
+    },
+    "z_score_50": -1.41,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 19.62687586240293,
+      "sma_24": 19.656874895095825,
+      "ema_48": 19.868061507458457,
+      "sma_48": 20.011666655540466,
+      "ema_120": 20.589640289294778,
+      "sma_120": 20.43374160130819,
+      "ema_aligned_uptrend": false,
+      "ema_aligned_downtrend": true
+    },
+    "current_price": 19.940000534057617,
+    "dist_from_50sma_pct": -2.42,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 1.6,
+      "above_sma_24": true,
+      "pct_from_sma_24": 1.44,
+      "above_ema_48": true,
+      "pct_from_ema_48": 0.36,
+      "above_sma_48": false,
+      "pct_from_sma_48": -0.36,
+      "above_ema_120": false,
+      "pct_from_ema_120": -3.16,
+      "above_sma_120": false,
+      "pct_from_sma_120": -2.42,
+      "above_ema_aligned_downtrend": true,
+      "pct_from_ema_aligned_downtrend": 1894.0
+    },
+    "rsi": {
+      "rsi_21": 47.63
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": -0.2789,
+      "signal_line": -0.2569,
+      "histogram": -0.022,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 21.09,
+      "middle": 20.01,
+      "lower": 18.93,
+      "width": 0.108,
+      "pct_b": 0.4668
+    },
+    "atr": {
+      "atr_24": 0.31,
+      "atr_pct": 1.54
+    },
+    "adx": {
+      "adx_24": 35.38,
+      "plus_di": 26.53,
+      "minus_di": 24.3,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 77151,
+      "avg_volume_20": 221291,
+      "relative_volume": 0.35,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 20.09,
+          "tests": 35,
+          "volume_confirmed": true
+        },
+        {
+          "price": 20.35,
+          "tests": 14,
+          "volume_confirmed": false
+        },
+        {
+          "price": 21.57,
+          "tests": 1,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 18.96,
+          "tests": 2,
+          "volume_confirmed": true
+        },
+        {
+          "price": 19.25,
+          "tests": 12,
+          "volume_confirmed": true
+        },
+        {
+          "price": 19.58,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 19.91,
+          "tests": 27,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 20.09,
+      "nearest_support": 19.91,
+      "recent_high": 20.18,
+      "recent_low": 18.96,
+      "prev_day_high": 19.44,
+      "prev_day_low": 19.18,
+      "prev_day_close": 19.39
+    },
+    "fibonacci": {
+      "swing_high": 20.48,
+      "swing_low": 18.96,
+      "fib_236": 20.12,
+      "fib_382": 19.9,
+      "fib_500": 19.72,
+      "fib_618": 19.54,
+      "fib_786": 19.29,
+      "fib_ext_1272": 20.89,
+      "fib_ext_1618": 21.42,
+      "fib_ext_2000": 22.0,
+      "fib_ext_low_1272": 18.55,
+      "fib_ext_low_1618": 18.02
+    },
+    "momentum": {
+      "roc_5d": 2.31,
+      "roc_10d": 4.02,
+      "roc_21d": -0.94
+    },
+    "z_score_120": -0.66,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 68,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 47.5,
+    "recent_changes": "No analyst rating or price target changes confirmed within last 7 days. Prior context (already priced in): Wells Fargo maintained Equal-Weight with PT cut to $21 on 2026-02-27; JPMorgan kept Neutral with PT cut to $28. Consensus as of late May 2026: 5 Buy, 2 Hold, 1 Sell across 9 analysts; median PT $47.50, high $55.00, low $34.00."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-05",
+    "days_until_next": 69,
+    "notes": "Q1 2026 earnings reported 2026-05-04 \u2014 BWIN missed EPS estimates; revenue grew but net income and margins compressed; stock dropped ~8.2% post-earnings. Q2 2026 earnings expected approximately early August 2026. 3B30 Catalyst program (targeting $3B revenue, 30% adj. EBITDA margin) and Fairway mortgage partnership are key longer-term catalysts management highlighted."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ticker": "MIDD",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 155.50, "high": 156.50},
+  "target": 166.89,
+  "stop": 151.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Full MA stack bullishly aligned with price above every key average: pct_from_ema_50=+6.04%, pct_from_sma_200=+9.84%, ema_aligned_uptrend=true. Five consecutive higher closes ($143.40→$154.44, +7.7%) with volume on the breakout day (672,500 vs 20d avg 673,545, relative_volume=1.0) confirming institutional participation rather than thin-air drift. This is orderly expansion, not a gap-and-fade.",
+    "Daily momentum firmly positive without being overbought: rsi_14=59.97 (healthy mid-range, room to 70+ before exhaustion), macd.histogram=+0.3741 with bullish_crossover=true, roc_5d=+9.13%. Hourly ADX_24=44.97 ('strong') with +DI=39.62 vs -DI=8.39 — directional conviction is lopsided in bulls' favor on the intraday timeframe, meaning pullbacks will likely be shallow and bought. Daily ADX_14=24.15 with +DI=36.29 vs -DI=21.46 confirms the daily trend is accelerating, not topping.",
+    "Spinoff and earnings catalysts provide fundamental runway to the technical target. Q1 2026 beat with raised guidance (2026-05-08). Canaccord raised PT to $175 (2026-05-27, Buy); JP Morgan at $185 (highest on Street). Consensus avg PT=$166.6 — matches the daily chart's nearest resistance at $166.89 (1-test pivot high, volume confirmed). Fib ext 127.2% from the $136.30–$166.89 swing = $175.21, providing a secondary target beyond consensus. Earnings 69 days out (next ~2026-08-06) — no earnings overhang on this trade."
+  ],
+  "risks_acknowledged": [
+    "Daily RSI_7=82.63 signals very short-term overbought condition — initial entry above $155.50 could see a 1–2 day cooling pause before continuation; the 5-day acceleration may need digestion.",
+    "Daily rsi_divergence.bearish=true (60-bar lookback) warns that price is making new highs while momentum on a longer lookback has not fully confirmed; reduces high-conviction add-on potential if the breakout stalls.",
+    "Volume confirmation is thin: relative_volume=1.0 means yesterday's breakout candle matched the 20-day average exactly but did not exceed it. A genuine institutional breakout typically prints 1.5x+ relative volume — the absence is a credibility gap.",
+    "Spinoff timing risk: Midera completion expected early July 2026 (pending regulatory approval). Uncertainty around spinoff ratio, tax treatment, or delays could create MIDD stock volatility between now and the distribution date — flag as event risk if holding beyond 2 weeks."
+  ],
+  "web_sources_last_7d": [
+    "https://middlebycorporation.gcs-web.com/news-and-events/news-releases",
+    "https://www.marketbeat.com/stocks/NASDAQ/MIDD/news/",
+    "https://stockstory.org/us/stocks/nasdaq/midd/news/earnings-call/midd-q1-deep-dive-segment-spin-off-and-beverage-momentum-define-transition-year",
+    "https://www.benzinga.com/quote/MIDD/analyst-ratings"
+  ]
+}

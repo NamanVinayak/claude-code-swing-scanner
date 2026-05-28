@@ -1,0 +1,12 @@
+{
+  "ticker": "CRS",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "CRS",
+      "reason": "single_position_cap_exceeded",
+      "detail": "stock too high-priced for current account size, cannot fit even minimum scaled position. Gate-3 quantity=25 at entry=$462.75 gives notional=$11,568.75, exceeding 15% cap ($3,750). Small-scaled exception requires M shares where M*$462.75 ≤ $5,000 AND M*$9.75 ≥ $100 (40% of $250 risk budget). M=10: notional=$4,627.50 ≤ $5,000 ✓ but risk_M=$97.50 < $100 floor ✗. M=11: notional=$5,090.25 > $5,000 ✗. No valid M exists that satisfies both constraints simultaneously."
+    }
+  ],
+  "summary": "CRS rejected at Gate 4 (single_position_cap_exceeded): expected return was positive ($4.86/share, combined_p_bull=0.517 on bull_strength 7/8 vs bear_strength 7/7), all 4 perspectives agreed direction=long, and risk budget was open — but at $462.75/share on a $25k account, the arithmetic fails both the 15% standard cap and the 20% small-scaled extended cap with the 40%-risk-budget floor. M=10 clears the notional cap ($4,627) but its $97.50 risk falls $2.50 short of the required $100 minimum (40% of $250 risk budget). A $20k price drop in CRS or a $5k account growth would unlock this name."
+}

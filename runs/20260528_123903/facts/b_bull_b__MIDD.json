@@ -1,0 +1,406 @@
+{
+  "ticker": "MIDD",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 156.0,
+  "invalidation_level": 152.5,
+  "catalyst_note": "TradingView strong_buy + trending_up dual signal on a small +0.55% premarket gap \u2014 setup intact but lacks volume confirmation with zero premarket volume data available.",
+  "conviction": 4,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Middleby Food Processing business rebrands as Midera Food Processing, Inc. ahead of spinoff",
+      "source": "web_research",
+      "date": "2026-05-11",
+      "url": "https://middlebycorporation.gcs-web.com/news-and-events/news-releases",
+      "sentiment": "neutral",
+      "summary": "Middleby announced its Food Processing segment will operate under the name Midera Food Processing, Inc. prior to being spun off as a standalone public company via share distribution to existing MIDD stockholders, with completion targeted for early July 2026 pending regulatory approval."
+    },
+    {
+      "title": "Canaccord Genuity raises Middleby price target to $175, maintains Buy",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/MIDD/news/",
+      "sentiment": "positive",
+      "summary": "Canaccord Genuity lifted its price objective on MIDD from $171 to $175 and reiterated a Buy rating, reflecting improved confidence in the company's strategic restructuring progress."
+    },
+    {
+      "title": "MIDD Q1 2026 earnings beat with raised guidance; spinoff and beverage momentum highlighted",
+      "source": "web_research",
+      "date": "2026-05-08",
+      "url": "https://stockstory.org/us/stocks/nasdaq/midd/news/earnings-call/midd-q1-deep-dive-segment-spin-off-and-beverage-momentum-define-transition-year",
+      "sentiment": "positive",
+      "summary": "Middleby beat Q1 2026 earnings expectations and raised full-year guidance, with management citing beverage platform growth and automation solutions as key revenue drivers, and margin recovery expected in H2 2026 as tariff headwinds ease."
+    },
+    {
+      "title": "JP Morgan sets MIDD price target at $185, implying ~25% upside",
+      "source": "web_research",
+      "date": "2026-05-08",
+      "url": "https://www.benzinga.com/quote/MIDD/analyst-ratings",
+      "sentiment": "positive",
+      "summary": "JP Morgan initiated or updated coverage of MIDD with a $185 price target, the highest on the Street, citing the restructuring story and Commercial Foodservice focus as the primary upside driver."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 154.44000244140625,
+  "market_cap": 6859378176.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-20",
+      "open": 141.9199981689453,
+      "high": 144.5800018310547,
+      "low": 139.1999969482422,
+      "close": 143.39999389648438,
+      "volume": 514200
+    },
+    {
+      "time": "2026-05-21",
+      "open": 142.86000061035156,
+      "high": 146.72000122070312,
+      "low": 139.77999877929688,
+      "close": 145.1999969482422,
+      "volume": 416000
+    },
+    {
+      "time": "2026-05-22",
+      "open": 145.1999969482422,
+      "high": 148.3300018310547,
+      "low": 144.3800048828125,
+      "close": 148.08999633789062,
+      "volume": 341200
+    },
+    {
+      "time": "2026-05-26",
+      "open": 148.27999877929688,
+      "high": 151.55999755859375,
+      "low": 147.52999877929688,
+      "close": 150.74000549316406,
+      "volume": 528300
+    },
+    {
+      "time": "2026-05-27",
+      "open": 152.0500030517578,
+      "high": 154.7100067138672,
+      "low": 151.75999450683594,
+      "close": 154.44000244140625,
+      "volume": 672500
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 149.77991913539188,
+      "sma_5": 148.3739990234375,
+      "ema_10": 148.26267605473154,
+      "sma_10": 146.58699951171874,
+      "ema_20": 146.896045975397,
+      "sma_20": 146.66249923706056,
+      "ema_21": 146.78922165799406,
+      "sma_21": 146.43380882626488,
+      "ema_50": 145.6392578090244,
+      "sma_50": 142.08440032958984,
+      "ema_200": 142.53571618043426,
+      "sma_200": 140.60409992218018,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 154.44000244140625,
+    "dist_from_50sma_pct": 8.7,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 3.11,
+      "above_sma_5": true,
+      "pct_from_sma_5": 4.09,
+      "above_ema_10": true,
+      "pct_from_ema_10": 4.17,
+      "above_sma_10": true,
+      "pct_from_sma_10": 5.36,
+      "above_ema_20": true,
+      "pct_from_ema_20": 5.14,
+      "above_sma_20": true,
+      "pct_from_sma_20": 5.3,
+      "above_ema_21": true,
+      "pct_from_ema_21": 5.21,
+      "above_sma_21": true,
+      "pct_from_sma_21": 5.47,
+      "above_ema_50": true,
+      "pct_from_ema_50": 6.04,
+      "above_sma_50": true,
+      "pct_from_sma_50": 8.7,
+      "above_ema_200": true,
+      "pct_from_ema_200": 8.35,
+      "above_sma_200": true,
+      "pct_from_sma_200": 9.84,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 15344.0
+    },
+    "rsi": {
+      "rsi_7": 82.63,
+      "rsi_14": 59.97,
+      "rsi_21": 57.93
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 1.5926,
+      "signal_line": 1.2185,
+      "histogram": 0.3741,
+      "bullish_crossover": true
+    },
+    "bollinger": {
+      "upper": 161.34,
+      "middle": 146.66,
+      "lower": 131.99,
+      "width": 0.2001,
+      "pct_b": 0.765
+    },
+    "atr": {
+      "atr_14": 6.5,
+      "atr_pct": 4.21
+    },
+    "adx": {
+      "adx_14": 24.15,
+      "plus_di": 36.29,
+      "minus_di": 21.46,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 672500,
+      "avg_volume_20": 673545,
+      "relative_volume": 1.0,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 147.99,
+          "tests": 13,
+          "volume_confirmed": false
+        },
+        {
+          "price": 166.89,
+          "tests": 1,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 126.35,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 136.4,
+          "tests": 9,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 166.89,
+      "nearest_support": 136.4,
+      "recent_high": 166.89,
+      "recent_low": 136.4,
+      "prev_day_high": 151.56,
+      "prev_day_low": 147.53,
+      "prev_day_close": 150.74
+    },
+    "fibonacci": {
+      "swing_high": 166.89,
+      "swing_low": 136.3,
+      "fib_236": 159.67,
+      "fib_382": 155.2,
+      "fib_500": 151.6,
+      "fib_618": 147.99,
+      "fib_786": 142.85,
+      "fib_ext_1272": 175.21,
+      "fib_ext_1618": 185.79,
+      "fib_ext_2000": 197.48,
+      "fib_ext_low_1272": 127.98,
+      "fib_ext_low_1618": 117.4
+    },
+    "momentum": {
+      "roc_5d": 9.13,
+      "roc_10d": 2.28,
+      "roc_21d": 8.2
+    },
+    "z_score_50": 1.74,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 150.46034989239558,
+      "sma_24": 149.9585418701172,
+      "ema_48": 148.77321302987573,
+      "sma_48": 146.7873961130778,
+      "ema_120": 147.21871911318323,
+      "sma_120": 148.3400826772054,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 151.70750427246094,
+    "dist_from_50sma_pct": 2.27,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 0.83,
+      "above_sma_24": true,
+      "pct_from_sma_24": 1.17,
+      "above_ema_48": true,
+      "pct_from_ema_48": 1.97,
+      "above_sma_48": true,
+      "pct_from_sma_48": 3.35,
+      "above_ema_120": true,
+      "pct_from_ema_120": 3.05,
+      "above_sma_120": true,
+      "pct_from_sma_120": 2.27,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 15070.75
+    },
+    "rsi": {
+      "rsi_21": 62.71
+    },
+    "rsi_divergence": {
+      "bullish": true,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 1.8237,
+      "signal_line": 0.8,
+      "histogram": 1.0237,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 154.75,
+      "middle": 146.79,
+      "lower": 138.83,
+      "width": 0.1085,
+      "pct_b": 0.809
+    },
+    "atr": {
+      "atr_24": 1.44,
+      "atr_pct": 0.95
+    },
+    "adx": {
+      "adx_24": 44.97,
+      "plus_di": 39.62,
+      "minus_di": 8.39,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 5615,
+      "avg_volume_20": 59037,
+      "relative_volume": 0.1,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 144.58,
+          "tests": 19,
+          "volume_confirmed": false
+        },
+        {
+          "price": 146.89,
+          "tests": 19,
+          "volume_confirmed": false
+        },
+        {
+          "price": 151.41,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 154.71,
+          "tests": 6,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 139.35,
+          "tests": 3,
+          "volume_confirmed": false
+        },
+        {
+          "price": 143.05,
+          "tests": 21,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 154.71,
+      "nearest_support": 143.05,
+      "recent_high": 154.71,
+      "recent_low": 146.34,
+      "prev_day_high": 154.68,
+      "prev_day_low": 154.02,
+      "prev_day_close": 154.51
+    },
+    "fibonacci": {
+      "swing_high": 154.71,
+      "swing_low": 139.78,
+      "fib_236": 151.19,
+      "fib_382": 149.01,
+      "fib_500": 147.25,
+      "fib_618": 145.48,
+      "fib_786": 142.98,
+      "fib_ext_1272": 158.77,
+      "fib_ext_1618": 163.94,
+      "fib_ext_2000": 169.64,
+      "fib_ext_low_1272": 135.72,
+      "fib_ext_low_1618": 130.55
+    },
+    "momentum": {
+      "roc_5d": -1.47,
+      "roc_10d": 0.85,
+      "roc_21d": 3.02
+    },
+    "z_score_120": 0.48,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 69,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 166.6,
+    "recent_changes": "Canaccord Genuity raised PT from $171 to $175 (Buy) around 2026-05-27; JP Morgan set PT at $185 on 2026-05-08 (highest on Street). Overall consensus: 11 Buy, 24 Hold, 1 Sell; average PT $166.6."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-06",
+    "days_until_next": 70,
+    "notes": "Q1 2026 beat on revenue and EPS with raised guidance; next earnings expected approximately early August 2026 (Q2). Upcoming Investor Day is a near-term catalyst where management will outline the long-term strategic vision for the post-spinoff Commercial Foodservice entity and the independent Midera platform."
+  }
+}

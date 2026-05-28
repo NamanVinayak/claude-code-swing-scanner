@@ -1,0 +1,25 @@
+{
+  "ticker": "CRS",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 461.50, "high": 464.00},
+  "target": 481.27,
+  "stop": 453.00,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Full bullish MA stack intact across all timeframes: price above ema_5 (+3.73%), ema_10 (+5.62%), ema_20 (+6.80%), ema_50 (+10.30%), ema_200 (+31.84%), with ema_aligned_uptrend=true. The breakout above $461.50 watch_level clears the hourly pivot-high resistance at $461.39 (6 tests) and puts price into clean air toward the daily nearest_resistance at $475.69, with Fib ext_1272 on the hourly swing ($416.89–$467.50) sitting at $481.27 as the measured target.",
+    "Post-earnings momentum is real and confirmed by price action: roc_5d=+13.42%, roc_10d=+8.54%; daily MACD histogram=+2.4457 expanding (macd_line=5.75 above signal_line=3.30); daily rsi_14=50.95 (healthy mid-range, not extended — room to run). Hourly ADX adx_24=61.72 with plus_di=31.69 >> minus_di=13.08 signals a strong ongoing trend, not a fading spike. Volume bias is constructive: 5d bars show 679k and 742k on the two big up-days (2026-05-21 and 2026-05-26) vs 545k–570k on pullback/flat days.",
+    "Fundamental catalyst is fresh and actionable: record Q3 FY2026 earnings beat with raised operating income guidance to $680M–$700M (2026-05-22 news); TD Cowen raised PT to $470 from $450 post-results (2026-05-24); consensus rating=buy with avg_price_target=$450 already exceeded by current price, meaning the street is behind — potential for further PT revisions higher. Next earnings 63 days away (2026-07-24) — no earnings risk for a 6-day swing. Entry above $461.50 with stop at invalidation $453.00 gives R:R of ~2.1:1 to the $481.27 Fib target."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_7=87.28 signals short-term overbought on the 7-period view — a pullback or 1-2 day pause at the $453–$458 range is possible before continuation; entry must wait for confirmed break above $461.50, not chase.",
+    "Hourly OBV trend=down and diverging_from_price=true — on the hourly chart, volume is fading even as price pushes higher. This is a staleness/distribution warning that weakens the breakout conviction and is the primary reason bull_strength is 7 not 8.",
+    "Daily ADX adx_14=10.73 (trend_strength=weak) on the daily frame despite the strong move — the system flags this as a non-trending environment on the daily. Hourly ADX disagrees (strong), suggesting this is a multi-day burst in a longer-term consolidation, not a new sustained trend. The trade is a momentum burst, not a breakout into a new trend.",
+    "Analyst avg_price_target=$450 is below current price $460.91 — the consensus is structurally stale (pre-earnings) and the only fresh PT is TD Cowen at $470. If other analysts revise lower rather than higher, the stock loses a sentiment tailwind."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html",
+    "https://finance.yahoo.com/news/carpenter-technology-crs-earnings-call-090929524.html",
+    "https://www.benzinga.com/quote/CRS/analyst-ratings"
+  ]
+}

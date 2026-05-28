@@ -1,18 +1,24 @@
-# b_premarket summary 20260528_123903
+# b_decide summary 20260528_123903
 
-- candidates in: 40
-- mechanical survivors: 39
-- final today_watchlist: 10
+- approved: 2
+- rejected: 12 (judge: 4, writer-budget: 8)
 
-## Today's setups
+## Approved trades
 
-- BSX (breakout, conv=5, watch=49.9, invalidate=51.2)
-- UNP (breakout, conv=5, watch=280.0, invalidate=274.5)
-- MAR (breakout, conv=4, watch=386.0, invalidate=381.0)
-- AVGO (breakout, conv=4, watch=422.5, invalidate=414.0)
-- BWIN (breakout, conv=4, watch=19.2, invalidate=19.8)
-- CPAY (breakout, conv=4, watch=354.5, invalidate=349.0)
-- CRS (breakout, conv=4, watch=461.5, invalidate=453.0)
-- FDX (breakout, conv=4, watch=413.5, invalidate=408.5)
-- H (breakout, conv=4, watch=184.0, invalidate=181.0)
-- MIDD (breakout, conv=4, watch=156.0, invalidate=152.5)
+- BSX short entry=49.85 stop=51.2 target=45.5 qty=100 conv=7
+- AVGO buy entry=423.34 stop=413.5 target=440.5 qty=11 conv=5
+
+## Rejections (with reasons)
+
+- CPAY (judge): single_position_cap_exceeded
+- CRS (judge): single_position_cap_exceeded
+- FDX (judge): single_position_cap_exceeded
+- MAR (judge): single_position_cap_exceeded
+- CPAY (writer-budget): single_position_cap_exceeded
+- CRS (writer-budget): single_position_cap_exceeded
+- FDX (writer-budget): single_position_cap_exceeded
+- MAR (writer-budget): single_position_cap_exceeded
+- MIDD (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$128.00 > available=$115.00)
+- UNP (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$125.46 > available=$115.00)
+- BWIN (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$143.74 > available=$6.76)
+- H (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$121.50 > available=$6.76)

@@ -1,0 +1,405 @@
+{
+  "ticker": "UNP",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 280.0,
+  "invalidation_level": 274.5,
+  "catalyst_note": "Stage 1 trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up) on a large-cap rail name with flat overnight premarket (-0.26%), keeping the breakout setup intact into the open.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Union Pacific rallies to 52-week high after Q1 earnings beat",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings",
+      "sentiment": "positive",
+      "summary": "UNP stock hit a 52-week high following Q1 results: net income $1.7B (+5% YoY), EPS $2.87 (+6% YoY). Management reiterated 2026 mid-single-digit EPS growth guidance and a 3-year EPS CAGR target of high single-digit to low double-digit through 2027."
+    },
+    {
+      "title": "UNP declares $1.38 cash dividend with ex-date May 29, 2026",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://finance.yahoo.com/quote/UNP/news/",
+      "sentiment": "positive",
+      "summary": "Union Pacific announced a quarterly cash dividend of $1.38 per share; ex-dividend date is May 29, 2026."
+    },
+    {
+      "title": "State attorneys general question completeness of UNP-NSC merger application",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://www.marketbeat.com/stocks/NYSE/UNP/news/",
+      "sentiment": "negative",
+      "summary": "State AGs raised concerns about the completeness of Union Pacific's revised merger application with Norfolk Southern ($85B deal); the Surface Transportation Board is expected to enter a year-long review. UNP says the revised application addresses regulatory concerns and aims to enhance competition."
+    },
+    {
+      "title": "Benchmark raises UNP price target to $300 from $275; maintains Buy",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://www.benzinga.com/quote/UNP/analyst-ratings",
+      "sentiment": "positive",
+      "summary": "Benchmark lifted its price target on Union Pacific to $300 (from $275) while keeping a Buy rating, citing improved earnings visibility and operational execution."
+    },
+    {
+      "title": "Raymond James raises UNP price target to $310; Strong Buy",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://stockanalysis.com/stocks/unp/ratings/",
+      "sentiment": "positive",
+      "summary": "Raymond James raised its price target on UNP to $310 from $285 and maintained a Strong Buy rating."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 279.3900146484375,
+  "market_cap": 158361124864.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-20",
+      "open": 269.9700012207031,
+      "high": 274.6300048828125,
+      "low": 264.69000244140625,
+      "close": 265.79998779296875,
+      "volume": 3795100
+    },
+    {
+      "time": "2026-05-21",
+      "open": 264.9800109863281,
+      "high": 268.6400146484375,
+      "low": 263.9200134277344,
+      "close": 265.44000244140625,
+      "volume": 2308800
+    },
+    {
+      "time": "2026-05-22",
+      "open": 265.8500061035156,
+      "high": 268.3900146484375,
+      "low": 264.44000244140625,
+      "close": 265.8800048828125,
+      "volume": 2597300
+    },
+    {
+      "time": "2026-05-26",
+      "open": 266.2200012207031,
+      "high": 272.6600036621094,
+      "low": 266.1499938964844,
+      "close": 271.1000061035156,
+      "volume": 3092300
+    },
+    {
+      "time": "2026-05-27",
+      "open": 272.57000732421875,
+      "high": 279.70001220703125,
+      "low": 272.57000732421875,
+      "close": 279.3900146484375,
+      "volume": 4045800
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 272.12461340435715,
+      "sma_5": 269.5220031738281,
+      "ema_10": 270.06054985390284,
+      "sma_10": 269.88500061035154,
+      "ema_20": 267.14867073608684,
+      "sma_20": 267.6785034179687,
+      "ema_21": 266.8630234749096,
+      "sma_21": 267.68143136160717,
+      "ema_50": 260.0687986581025,
+      "sma_50": 255.88140075683594,
+      "ema_200": 242.12298328185244,
+      "sma_200": 237.2041757965088,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 279.3900146484375,
+    "dist_from_50sma_pct": 9.19,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.67,
+      "above_sma_5": true,
+      "pct_from_sma_5": 3.66,
+      "above_ema_10": true,
+      "pct_from_ema_10": 3.45,
+      "above_sma_10": true,
+      "pct_from_sma_10": 3.52,
+      "above_ema_20": true,
+      "pct_from_ema_20": 4.58,
+      "above_sma_20": true,
+      "pct_from_sma_20": 4.38,
+      "above_ema_21": true,
+      "pct_from_ema_21": 4.69,
+      "above_sma_21": true,
+      "pct_from_sma_21": 4.37,
+      "above_ema_50": true,
+      "pct_from_ema_50": 7.43,
+      "above_sma_50": true,
+      "pct_from_sma_50": 9.19,
+      "above_ema_200": true,
+      "pct_from_ema_200": 15.39,
+      "above_sma_200": true,
+      "pct_from_sma_200": 17.78,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 27839.0
+    },
+    "rsi": {
+      "rsi_7": 65.65,
+      "rsi_14": 63.22,
+      "rsi_21": 58.46
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 3.985,
+      "signal_line": 3.8609,
+      "histogram": 0.1241,
+      "bullish_crossover": true
+    },
+    "bollinger": {
+      "upper": 276.1,
+      "middle": 267.68,
+      "lower": 259.26,
+      "width": 0.0629,
+      "pct_b": 1.1953
+    },
+    "atr": {
+      "atr_14": 5.49,
+      "atr_pct": 1.96
+    },
+    "adx": {
+      "adx_14": 20.66,
+      "plus_di": 28.02,
+      "minus_di": 15.3,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 4045800,
+      "avg_volume_20": 2745545,
+      "relative_volume": 1.47,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 270.28,
+          "tests": 13,
+          "volume_confirmed": false
+        },
+        {
+          "price": 274.79,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 231.72,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 246.88,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 261.04,
+          "tests": 8,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 261.04,
+      "recent_high": 279.7,
+      "recent_low": 261.04,
+      "prev_day_high": 272.66,
+      "prev_day_low": 266.15,
+      "prev_day_close": 271.1
+    },
+    "fibonacci": {
+      "swing_high": 279.7,
+      "swing_low": 246.88,
+      "fib_236": 271.95,
+      "fib_382": 267.16,
+      "fib_500": 263.29,
+      "fib_618": 259.42,
+      "fib_786": 253.9,
+      "fib_ext_1272": 288.63,
+      "fib_ext_1618": 299.98,
+      "fib_ext_2000": 312.52,
+      "fib_ext_low_1272": 237.95,
+      "fib_ext_low_1618": 226.6
+    },
+    "momentum": {
+      "roc_5d": 2.88,
+      "roc_10d": 5.19,
+      "roc_21d": 3.9
+    },
+    "z_score_50": 1.85,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 272.46150582340385,
+      "sma_24": 271.0722910563151,
+      "ema_48": 270.9487952937763,
+      "sma_48": 271.01752853393555,
+      "ema_120": 269.2177817160301,
+      "sma_120": 268.0575932820638,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 266.7300109863281,
+    "dist_from_50sma_pct": -0.5,
+    "price_vs_ma": {
+      "above_ema_24": false,
+      "pct_from_ema_24": -2.1,
+      "above_sma_24": false,
+      "pct_from_sma_24": -1.6,
+      "above_ema_48": false,
+      "pct_from_ema_48": -1.56,
+      "above_sma_48": false,
+      "pct_from_sma_48": -1.58,
+      "above_ema_120": false,
+      "pct_from_ema_120": -0.92,
+      "above_sma_120": false,
+      "pct_from_sma_120": -0.5,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 26573.0
+    },
+    "rsi": {
+      "rsi_21": 49.13
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 1.6782,
+      "signal_line": 0.8841,
+      "histogram": 0.7942,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 279.54,
+      "middle": 271.02,
+      "lower": 262.49,
+      "width": 0.0629,
+      "pct_b": 0.2485
+    },
+    "atr": {
+      "atr_24": 2.4,
+      "atr_pct": 0.9
+    },
+    "adx": {
+      "adx_24": 29.6,
+      "plus_di": 30.82,
+      "minus_di": 27.81,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1150823,
+      "avg_volume_20": 391506,
+      "relative_volume": 2.94,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 276.4,
+          "tests": 13,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 265.2,
+          "tests": 16,
+          "volume_confirmed": false
+        },
+        {
+          "price": 271.38,
+          "tests": 23,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 276.4,
+      "nearest_support": 265.2,
+      "recent_high": 279.68,
+      "recent_low": 264.83,
+      "prev_day_high": 279.68,
+      "prev_day_low": 277.91,
+      "prev_day_close": 279.46
+    },
+    "fibonacci": {
+      "swing_high": 279.68,
+      "swing_low": 263.92,
+      "fib_236": 275.96,
+      "fib_382": 273.66,
+      "fib_500": 271.8,
+      "fib_618": 269.94,
+      "fib_786": 267.29,
+      "fib_ext_1272": 283.97,
+      "fib_ext_1618": 289.42,
+      "fib_ext_2000": 295.44,
+      "fib_ext_low_1272": 259.63,
+      "fib_ext_low_1618": 254.18
+    },
+    "momentum": {
+      "roc_5d": -3.92,
+      "roc_10d": -1.74,
+      "roc_21d": -0.22
+    },
+    "z_score_120": -0.33,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 56,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 291.05,
+    "recent_changes": "Multiple PT raises this week: Raymond James to $310 (Strong Buy), Benchmark to $300 (Buy), Evercore ISI to $277 (Outperform), BMO Capital to $285 (Market Perform), UBS to $274 (Neutral). Consensus Buy across 23 analysts with avg PT $291.05 (+8% upside)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-07-23",
+    "days_until_next": 56,
+    "notes": "Q1 2026 already reported \u2014 net income $1.7B (+5% YoY), EPS $2.87 (+6%), record Q1 strength; stock hit 52-week high post-report. Street expects continued operating-ratio improvement and mid-single-digit EPS growth in 2026; merger-related costs and intermodal softness are flagged as near-term headwinds."
+  }
+}

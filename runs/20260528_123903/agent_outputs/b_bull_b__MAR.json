@@ -1,0 +1,27 @@
+{
+  "ticker": "MAR",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 386.00, "high": 389.00},
+  "target": 412.00,
+  "stop": 380.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Dual analyst PT raises on 2026-05-28 confirm post-Q1 momentum: Argus raised PT to $425 (from $420, Buy maintained) citing Q1 2026 EPS beat of $2.60 (+12.1% YoY); Wells Fargo carries Overweight with $446 PT. Broad consensus of 26 analysts is Buy with avg PT ~$405, well above current $385.86 — multiple firms are above the current breakout level, giving the upside thesis institutional cover. Argus PT alone implies 10% from current price; Wells Fargo $446 implies 15.6%. Key 2026 catalyst is a 35% step-up in co-branded credit card royalty fees (Chase + Amex renegotiation), a one-time structural boost with no expiry risk near-term.",
+    "Stage 1 bullish trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up) confirmed by price action: MAR rose +3.28% on 2026-05-27 on volume of 1,616,800 (relative volume 1.19x the 20-day avg of 1,364,315), closing at $385.86 — within pennies of the $386 watch level. Daily ADX-14 = 32.33 with +DI 36.61 vs -DI 8.90 (strong trend, bulls decisively in control). MACD histogram = +2.5176 (expanding positive). All EMAs aligned uptrend: price is +9.43% above EMA-50 and +22.12% above EMA-200. Daily OBV trend up with no price divergence. Hourly ADX-24 = 25.02, +DI 34.11 vs -DI 10.11 — intraday trend equally controlled. Entry at $386–$389 breakout confirmation, stop at $380 (below invalidation $381), target $412 (Fib ext 1.618 from daily swing low $344.70 to high $386.30). R:R = ($412 − $387.50) / ($387.50 − $380) = $24.50 / $7.50 = 3.27:1.",
+    "No near-term earnings risk: earnings.days_until_next = 68 (Q2 2026 report likely late July/early August). No earnings overhang for the full expected 8-day holding window. The last catalyst event (Q1 beat) is already in the price — but the stock re-accelerated into the breakout level 4+ weeks post-earnings, suggesting the beat's second-derivative effect (guidance raise, analyst upgrades) is still driving the move rather than one-day pop-and-fade. Luxury segment strength (cited by Susquehanna PT raise to $385, 2026-05-28) and full-year RevPAR guidance of +1.5% to +2.5% with net rooms +4.5% to +5.0% underpin a constructive multi-week setup."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_14 = 77.14 and rsi_7 = 96.73 are deeply overbought; bollinger pct_b = 1.1807 (price trading above upper band at $378.63). Hourly rsi_21 = 81.06. A short-term mean-reversion pull toward the EMA-5 ($374.01) or the prior breakout resistance at $379.25 is plausible before continuation. Entry must be at confirmed breakout above $386, not a chase.",
+    "Argus PT $425 and Wells Fargo $446 are buy-side targets; the consensus avg PT of $405 (26 analysts) is only $19 (~5%) above current price — not a wide margin of safety. Susquehanna raised PT to just $385 (essentially current price), and Truist holds a $356 Hold target, signaling real valuation disagreement. Elevated valuation flagged in recent_news_7d (2026-05-28, stockanalysis.com) as a tempering factor on near-term growth.",
+    "No insider buying in recent_insider_trades (list is empty for last 30 days). The catalyst case rests on external analyst upgrades and TradingView signals, not smart-money insider conviction. This lowers insider-signal confidence to zero.",
+    "Market-wide risk-off or a broad sector rotation out of consumer discretionary/travel names would pull MAR regardless of fundamentals. The +3.28% May 27 move had no single identified catalyst — if it was macro-driven, it can reverse on the same macro shift."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527",
+    "https://finance.yahoo.com/quote/MAR/news/",
+    "https://www.benzinga.com/quote/MAR/analyst-ratings",
+    "https://finance.yahoo.com/quote/MAR/press-releases/",
+    "https://stockanalysis.com/stocks/mar/forecast/"
+  ]
+}

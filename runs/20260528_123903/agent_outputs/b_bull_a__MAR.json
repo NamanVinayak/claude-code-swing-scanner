@@ -1,0 +1,27 @@
+{
+  "ticker": "MAR",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 386.00, "high": 388.00},
+  "target": 412.00,
+  "stop": 380.00,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Breakout to new recent high ($386.30 intraday May 27) on above-average volume: daily relative_volume = 1.19x (1,616,800 vs 20-day avg 1,364,315); OBV trend = 'up' with no price divergence; Bollinger %B = 1.18 (price printing above upper band at $378.63), confirming genuine range expansion rather than fade. +$12 move on May 27 alone (+3.28%) with price above every MA — this is institutional-weight buying, not retail chasing.",
+    "Full MA stack in bullish order with widening separation: price_vs_ma shows above all 8 tracked MAs; pct_from_ema_50 = +9.43%, pct_from_sma_200 = +25.2%; ema_aligned_uptrend = true on both daily and hourly timeframes. ADX-14 = 32.33 ('strong' trend_strength), +DI = 36.61 vs -DI = 8.90 — directional spread of 27.7 points, near-zero counter-trend pressure. MACD histogram = +2.5176, expanding (not yet crossing; momentum is accelerating, not decelerating).",
+    "Fib extension target is technically anchored and gives clean 3.5:1 R:R: swing from $344.70 low to $386.30 high yields Fib 1.618 ext at $412.01, Fib 1.272 ext at $397.62 as interim. Entry $387 mid-zone, stop $380 (= $7 risk), target $412 (= $25 reward) → R:R 3.57:1. Analyst consensus corroborates upside: 26-analyst Buy consensus with avg PT ~$405 (Argus $425, Wells Fargo $446); Q1 2026 EPS beat already in the tape; next earnings 68 days out — no earnings overhang."
+  ],
+  "risks_acknowledged": [
+    "RSI-14 = 77.14 and RSI-7 = 96.73 — both deeply overbought. A mean-reversion pullback to the hourly nearest support at $361.40 (or daily pivot $364.28) is structurally possible at any point; entering at current levels means buying into extended momentum, not a fresh base.",
+    "Bollinger %B = 1.18 (above upper band): historically, closes above the band resolve via either continued momentum run (the bull case) or a snap-back to the middle band at $358.61 (-6.8% from current price). If the broader market turns risk-off, MAR gives back the breakout faster than the stop implies.",
+    "Susquehanna's PT raise is only to $385 — effectively at current price — suggesting not all analysts see meaningful near-term upside from here. Valuation-elevated note in recent news (stockanalysis.com) flags stretched multiples relative to historical comps; elevated valuation is a ceiling risk if macro deteriorates.",
+    "Wiki context is entirely absent (new_ticker = true): no prior setup history, no thesis continuity. All conviction rests on current-bar technicals only — no edge from pattern repetition across prior setups."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527",
+    "https://finance.yahoo.com/quote/MAR/news/",
+    "https://www.benzinga.com/quote/MAR/analyst-ratings",
+    "https://finance.yahoo.com/quote/MAR/press-releases/",
+    "https://stockanalysis.com/stocks/mar/forecast/"
+  ]
+}

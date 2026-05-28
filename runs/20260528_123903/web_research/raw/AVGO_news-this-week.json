@@ -1,0 +1,36 @@
+{
+  "query": "AVGO news this week",
+  "fetched_at": "2026-05-28T14:01:57Z",
+  "results": [
+    {
+      "title": "AVGO: Broadcom Inc - Stock Price, Quote and News - CNBC",
+      "url": "https://www.cnbc.com/quotes/AVGO",
+      "snippet": "Broadcom remained in focus Tuesday ahead of its June 3 earnings report as investors assessed the company's evolving artificial intelligence revenue mix, enterprise cloud expansion, and Wall Street's expectations for continued AI-driven growth. Analysts expect Broadcom to report fiscal second-quarter earnings of $2.32 per share, up from $1.58 a year earlier, on revenue of $22.08 billion compared with $15 billion in the prior-year."
+    },
+    {
+      "title": "Broadcom Inc. (AVGO) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AVGO/",
+      "snippet": "Broadcom experiencing significant momentum, driven by strong AI demand and strategic partnerships."
+    },
+    {
+      "title": "Broadcom Inc. Common Stock (AVGO) News, Articles, and Updates | Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/avgo/news-headlines",
+      "snippet": "Broadcom has introduced the BCM68850, described as the first 50G home gateway SoC with integrated AI acceleration. Additionally, Broadcom unveiled the world's first integrated 5G and Wi-Fi 8 FWA platform in collaboration with Samsung Electronics, and delivered industry's first integrated Wi-Fi 8 SoCs to power next-gen mesh and multi-gigabit routers."
+    },
+    {
+      "title": "BROADCOM INC. (AVGO) Stock, Price, News, Quotes, Forecast and Insights | MSN Money",
+      "url": "https://www.msn.com/en-us/money/stockdetails/avgo-us-stock/fi-a1nz8m",
+      "snippet": "LSEG renewed its Broadcom partnership to expand cloud infrastructure strategy."
+    },
+    {
+      "title": "Broadcom Inc. (AVGO) Stock Price | Live Quotes & Charts | NASDAQ",
+      "url": "https://stockstotrade.com/quote/AVGO/",
+      "snippet": "Broadcom Inc. stock price, live quotes and charts."
+    },
+    {
+      "title": "Broadcom Inc. (AVGO) Stock Price, Quote, News & Analysis | Seeking Alpha",
+      "url": "https://seekingalpha.com/symbol/AVGO",
+      "snippet": "Broadcom is experiencing significant momentum, driven by strong AI demand and strategic partnerships, but concerns about valuation and margin pressures persist."
+    }
+  ]
+}

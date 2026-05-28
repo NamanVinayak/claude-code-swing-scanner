@@ -1,0 +1,53 @@
+{
+  "query": "UNP earnings catalyst",
+  "fetched_at": "2026-05-28T12:45:00Z",
+  "results": [
+    {
+      "title": "Union Pacific Corporation (UNP) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/UNP/"
+    },
+    {
+      "title": "Union Pacific (UNP) Stock Price, News & Analysis $UNP",
+      "url": "https://www.marketbeat.com/stocks/NYSE/UNP/"
+    },
+    {
+      "title": "UNP stock forecast, quote, news & analysis",
+      "url": "https://tickeron.com/ticker/UNP/"
+    },
+    {
+      "title": "Union Pacific (UNP) Earnings Date & Report - Investing.com",
+      "url": "https://www.investing.com/equities/union-pacific-earnings"
+    },
+    {
+      "title": "UNION PACIFIC CORPORATION (UNP) Stock, Price, ...",
+      "url": "https://www.msn.com/en-us/money/stockdetails/unp-us-stock/fi-a24xww"
+    },
+    {
+      "title": "UNION PACIFIC CORP (UNP) Stock News",
+      "url": "https://www.chartmill.com/stock/quote/UNP/news"
+    },
+    {
+      "title": "Union Pacific Corporation Common Stock (UNP) Earnings Report Dates & Earnings Forecasts | Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/unp/earnings"
+    },
+    {
+      "title": "Union Pacific Earnings Call Highlights Record Q1 Strength - TipRanks.com",
+      "url": "https://www.tipranks.com/news/company-announcements/union-pacific-earnings-call-highlights-record-q1-strength"
+    },
+    {
+      "title": "Financial News Releases | Union Pacific Railroad Company",
+      "url": "https://investor.unionpacific.com/news"
+    },
+    {
+      "title": "Check out Union Pacific Corp's stock price (UNP) in real time",
+      "url": "https://www.cnbc.com/quotes/UNP"
+    }
+  ],
+  "summary_from_search": {
+    "next_earnings_date": "2026-07-23",
+    "q1_results": "Q1 net income $1.7B (+5% YoY); EPS $2.87 (+6% YoY); record Q1 strength. Stock rallied to 52-week high post-earnings.",
+    "guidance": "Management reiterated 2026 mid-single-digit reported EPS growth and continued operating-ratio gains (including merger costs); 3-year EPS CAGR target high single-digit to low double-digit through 2027.",
+    "catalysts": "Merger approval (NSC deal, $85B) and fuel trends are next key catalysts. Regulatory scrutiny from STB and state AGs ongoing.",
+    "headwinds": "Fuel-driven margin pressure, intermodal softness, merger uncertainty."
+  }
+}

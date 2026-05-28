@@ -1,0 +1,23 @@
+{
+  "ticker": "UNP",
+  "approved": [
+    {
+      "ticker": "UNP",
+      "direction": "long",
+      "entry_price": 280.88,
+      "stop_loss": 273.50,
+      "target_price": 295.00,
+      "target_price_2": 300.00,
+      "quantity": 17,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 6,
+      "rationale": "Catalyst bull (b_bull_b, strength=8) dominates over fundamental bear (b_bear_b, strength=6); technical bull and bear are evenly matched (both strength=7). combined_p_bull=(7/14 + 8/14)/2=0.536; expected_return_per_share = 0.536×(295.00−280.88) − 0.464×(280.88−273.50) = 0.536×14.12 − 0.464×7.38 = 7.57 − 3.42 = +$4.14/share. Key disagreement: bears correctly flag ex-dividend date May 29 (−$1.38 mechanical gap-down) and bearish RSI divergence (rsi_divergence.bearish=true, 60-bar lookback, pct_b=1.1953 — extended above upper Bollinger), but earnings catalyst (EPS $2.87 +6% YoY, analyst upgrades from Raymond James to $310 and Benchmark to $300 on 2026-05-28) provides fresh fundamental support that outweighs the technical exhaustion signal. Hourly OBV divergence (diverging_from_price=true, hourly price $266.73 below all hourly MAs at snapshot time) is a real intraday distribution risk — watch for early weakness. Position sizing: risk_dollars=$250 (25000×1%×1.0); risk_per_share=|280.88−273.50|=$7.38; Gate-3 quantity=floor(250/7.38)=33; notional 33×$280.88=$9,269 exceeds standard cap $3,750 (15%) — small-scaled path: M=floor(5000/280.88)=17, risk_M=17×$7.38=$125.46≥floor $100 (40% of risk budget); scaled down from 33 to 17 shares to fit small-account cap, using 50% of risk budget.",
+      "risk_usd": 125.46,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-28T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "UNP approved small_scaled (17 shares, $125 risk): post-earnings breakout with analyst upgrades drives positive expected return (+$4.14/share) despite equal technical bull/bear conviction. Entry valid through end of 2026-05-28 session only — ex-dividend May 29 creates mechanical gap-down risk that invalidates any unfilled order."
+}

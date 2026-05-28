@@ -1,0 +1,56 @@
+{
+  "ticker": "CPAY",
+  "researched_at": "2026-05-28T12:48:00Z",
+  "news_items": [
+    {
+      "headline": "Corpay up 5.8% after boosting FY2026 guidance, expanding buybacks, and adding stablecoin payments via BVNK partnership",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/why-corpay-cpay-is-up-58-after-boosting-guidance-buybacks-an",
+      "date": "2026-05-22",
+      "sentiment": "positive",
+      "summary": "Corpay raised FY2026 EPS guidance to $26.30–$27.10 (vs. consensus $25.78) and revenue guidance to $5.3B (vs. consensus $5.2B). The company also announced a buyback expansion and added stablecoin wallet + settlement capability through a BVNK partnership."
+    },
+    {
+      "headline": "Corpay Q1 revenue $1.26B (+25% YoY), cash EPS $5.80 (+29%); insider buying noted",
+      "url": "https://finance.yahoo.com/news/corpay-cpay-insider-buying-earnings-041513423.html",
+      "date": "2026-05-22",
+      "sentiment": "positive",
+      "summary": "Corpay reported Q1 2026 revenue of $1.26 billion, up 25% year-over-year, and cash EPS of $5.80, up 29% YoY, both beating street estimates. Insider buying was observed alongside the earnings release."
+    },
+    {
+      "headline": "Corpay earnings call signals robust growth momentum in cross-border and automated payables",
+      "url": "https://www.tipranks.com/news/company-announcements/corpay-earnings-call-signals-robust-growth-momentum",
+      "date": "2026-05-22",
+      "sentiment": "positive",
+      "summary": "Management highlighted continued adoption of automated payables and cross-border payment solutions as the primary growth drivers on the Q1 earnings call."
+    },
+    {
+      "headline": "Corpay FY2026 earnings guidance updated above consensus",
+      "url": "https://www.tickerreport.com/banking-finance/13435093/corpay-nysecpay-updates-fy-2026-earnings-guidance.html",
+      "date": "2026-05-22",
+      "sentiment": "positive",
+      "summary": "Corpay updated full-year 2026 EPS guidance to $26.30–$27.10 versus analyst consensus of $25.78, and revenue guidance to $5.3B versus consensus of $5.2B."
+    },
+    {
+      "headline": "Corpay M&A integration risk: Alpha, GPS, and Paymerang cost absorption in focus",
+      "url": "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/should-corpays-earnings-beat-and-ma-push-require-action-from",
+      "date": "2026-05-23",
+      "sentiment": "negative",
+      "summary": "Analysts flag M&A integration as the primary risk — whether Corpay can absorb Alpha Group, GPS, and Paymerang efficiently without M&A and technology spending outpacing revenue growth."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 394.52,
+    "recent_changes": "Consensus from 12 analysts: 8% Strong Buy, 58% Buy, 33% Hold, 0% Sell. Mean price target $394.52 (range $343.40–$462.00); a separate aggregator cites $380.67. No specific upgrade/downgrade actions found in the last 7 days beyond the standing consensus."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 earnings reported approximately 2026-05-22: revenue $1.26B (+25% YoY), cash EPS $5.80 (+29% YoY), both above consensus. FY2026 guidance raised above street on both EPS and revenue. Next quarterly earnings date not found in search results."
+  },
+  "raw_search_files": [
+    "CPAY_news-this-week.json",
+    "CPAY_analyst-rating.json",
+    "CPAY_earnings-catalyst.json"
+  ]
+}

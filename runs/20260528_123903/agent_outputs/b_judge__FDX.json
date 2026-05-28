@@ -1,0 +1,12 @@
+{
+  "ticker": "FDX",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "FDX",
+      "reason": "single_position_cap_exceeded",
+      "detail": "Gate-3 quantity=37 shares (notional $15,327 = 61.3% of $25k account) far exceeds 15% single-position cap ($3,750). Small-scaled exception path: M=floor($5,000/$414.25)=12 shares fits the 20% extended cap ($4,971 notional), but risk_M=12×$6.75=$81 is only 32.4% of the $250 risk budget — below the required 40% floor ($100). No viable quantity exists where notional ≤ 20% AND risk_used ≥ 40% of budget. Stock too high-priced for current $25k account size. Thesis is strong (expected_return=$5.94/share on combined_p_bull=0.5667: SPX inclusion + JPMorgan upgrade + June 1 freight spin-off) but capital rules cannot accommodate this name at current account size."
+    }
+  ],
+  "summary": "FDX rejected at Gate 4 (single_position_cap_exceeded): at $414.25/share, Gate-3 sizing requires 37 shares ($15,327 notional = 61% of account), and the small-scaled exception path (M=12 shares) only deploys $81 risk — 32.4% of the $250 budget, below the 40% floor. Expected return was positive (+$5.94/share, combined_p_bull=0.5667) and all other gates clear; structural account-size constraint is the sole blocker."
+}

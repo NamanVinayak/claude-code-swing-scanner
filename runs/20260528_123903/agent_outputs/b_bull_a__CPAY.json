@@ -1,0 +1,27 @@
+{
+  "ticker": "CPAY",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 354.50, "high": 356.00},
+  "target": 371.50,
+  "stop": 348.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Full daily MA stack in bullish order with EMA aligned uptrend confirmed: price ($352.60) is above EMA5 (+1.12%), EMA10 (+2.63%), EMA20 (+5.17%), EMA50 (+8.56%), and EMA200 (+11.66%), all trending up. ADX_14 = 30.49 with +DI 36.34 vs -DI 14.0 — 'strong' trend classification. This is not a struggling breakout; it is a stock in confirmed uptrend reaching into new highs.",
+    "Post-earnings momentum with structural watch-level breakout: on 2026-05-22 CPAY reported Q1 revenue $1.26B (+25% YoY) and cash EPS $5.80 (+29% YoY), both above consensus, and raised FY2026 EPS guidance to $26.30–$27.10 vs consensus $25.78. Stock gapped +5.8% on the news. Since then price has been coiling above the prior pivot high at $343.56 (11 tests, daily_indicators.support_resistance.pivot_highs). The Stage 2 watch_level of $354.50 sits just above hourly resistance at $354.97 — a clean trigger for continuation. MACD histogram = +1.97 expanding; daily OBV trend = up, not diverging from price.",
+    "Fibonacci extension and analyst target confluence provide measurable upside: the daily fib_ext_1272 = $371.50 (from swing low $298.46 to recent high $355.88) provides a technical target that also sits well inside analyst consensus of $394.52 (12 analysts, Buy rating). R:R from entry midpoint $355.25 to target $371.50 vs stop $348.50: reward $16.25, risk $6.75 = 2.41:1. Momentum confirms: roc_21d = +12.73%, roc_10d = +4.21%, roc_5d = +2.76% — consistent acceleration across all lookbacks. daily_indicators.rsi.rsi_14 = 74.71 is elevated but appropriate for a fresh post-earnings breakout (rsi_21 = 67.32 showing broad strength not just a spike)."
+  ],
+  "risks_acknowledged": [
+    "RSI_14 = 74.71 and RSI_7 = 79.63 — technically overbought on a short-term basis. Price is also 11.88% above SMA50 and 13.94% above SMA200. A mean-reversion pullback to the $342–$344 zone (fib_236 / EMA_10 confluence) is structurally plausible if the breakout above $354.50 fails to hold on volume.",
+    "Hourly MACD histogram = -0.16 (slightly negative) and hourly ADX_24 = 13.38 ('weak') — intraday momentum is in digestion mode, not breakout mode. Entry should wait for price to actually print above $354.50 with volume confirmation; chasing before that risks entering mid-consolidation.",
+    "M&A integration risk: analysts explicitly flag Alpha Group, GPS, and Paymerang cost absorption as the primary downside scenario (per 2026-05-23 SimplyWallSt item). If integration expenses surprise to the upside in Q2, EPS guidance could be walked back, reversing the catalyst.",
+    "No recent insider buying in the bundle (recent_insider_trades = []). The news researcher noted 'insider buying observed' around the earnings release but specific insider trade records are absent from the facts bundle — unable to corroborate. Research gap: specific insider transaction records not available in this dispatch."
+  ],
+  "web_sources_last_7d": [
+    "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/why-corpay-cpay-is-up-58-after-boosting-guidance-buybacks-an",
+    "https://finance.yahoo.com/news/corpay-cpay-insider-buying-earnings-041513423.html",
+    "https://www.tipranks.com/news/company-announcements/corpay-earnings-call-signals-robust-growth-momentum",
+    "https://www.tickerreport.com/banking-finance/13435093/corpay-nysecpay-updates-fy-2026-earnings-guidance.html",
+    "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/should-corpays-earnings-beat-and-ma-push-require-action-from"
+  ]
+}

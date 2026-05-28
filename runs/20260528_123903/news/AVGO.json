@@ -1,0 +1,56 @@
+{
+  "ticker": "AVGO",
+  "researched_at": "2026-05-28T14:01:57Z",
+  "news_items": [
+    {
+      "headline": "Broadcom in focus ahead of June 3 Q2 FY2026 earnings; consensus expects $2.32 EPS on $22.08B revenue",
+      "url": "https://www.cnbc.com/quotes/AVGO",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "Investors positioning into AVGO's June 3 earnings catalyst; analyst consensus calls for EPS of $2.32 (up from $1.58 YoY) on revenue of $22.08B (up ~47% YoY). AI chip segment projected at $10.7B."
+    },
+    {
+      "headline": "Broadcom introduces BCM68850 — first 50G home gateway SoC with integrated AI acceleration",
+      "url": "https://www.nasdaq.com/market-activity/stocks/avgo/news-headlines",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "Broadcom launched the BCM68850, billed as the first 50G home gateway SoC with integrated AI acceleration, alongside the industry's first integrated 5G and Wi-Fi 8 FWA platform co-developed with Samsung Electronics."
+    },
+    {
+      "headline": "LSEG renews Broadcom partnership to expand cloud infrastructure strategy",
+      "url": "https://www.msn.com/en-us/money/stockdetails/avgo-us-stock/fi-a1nz8m",
+      "date": "2026-05-26",
+      "sentiment": "positive",
+      "summary": "London Stock Exchange Group renewed its partnership with Broadcom, extending the company's enterprise cloud infrastructure customer base."
+    },
+    {
+      "headline": "Broadcom jumps as bullish analyst note reinforces AI-driven earnings optimism",
+      "url": "https://www.quiverquant.com/news/Broadcom+jumps+as+bullish+analyst+note+reinforces+AI-driven+earnings+optimism",
+      "date": "2026-05-23",
+      "sentiment": "positive",
+      "summary": "Analyst note highlighted Broadcom's Q2 revenue guide of $22B (+47% YoY) and AI chip projections of $10.7B as key drivers; stock moved higher on the day."
+    },
+    {
+      "headline": "Google, Meta, and Anthropic partnerships set stage for June 3 AVGO earnings test",
+      "url": "https://www.techi.com/broadcom-stock-google-meta-anthropic-ai-chip-deals-june-earnings/",
+      "date": "2026-05-22",
+      "sentiment": "positive",
+      "summary": "Broadcom holds a Google TPU deal through 2031, a Meta MTIA custom chip pact, and Anthropic's $200B commitment to Google cloud/chips — all powered by Broadcom silicon — raising investor expectations ahead of Q2 results."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 477.67,
+    "recent_changes": "UBS set PT of $490 on 2026-05-18 (Strong Buy, ~17% upside); S&P Global polls 47 analysts at Strong Buy consensus with avg PT $480.49; 57-analyst aggregate avg PT $477.67 with 85% buy ratio."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-06-03",
+    "days_until_next": 6,
+    "notes": "Q2 FY2026 earnings due June 3, 2026 after close — 6 days away. Street expects EPS $2.32 (vs $1.58 YoY) and revenue $22.08B (vs $15.0B YoY). Last quarter (Q1 FY2026) beat with record revenue of $19.3B (+29% YoY) and AI semiconductor revenue +106% to $8.4B. Near-term earnings event is a material catalyst risk."
+  },
+  "raw_search_files": [
+    "AVGO_news-this-week.json",
+    "AVGO_analyst-rating.json",
+    "AVGO_earnings-catalyst.json"
+  ]
+}

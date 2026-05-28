@@ -1,0 +1,24 @@
+{
+  "ticker": "BWIN",
+  "setup_direction": "short",
+  "bull_strength": 6,
+  "entry_zone": {"low": 19.20, "high": 19.39},
+  "target": 16.80,
+  "stop": 19.85,
+  "expected_holding_days": 10,
+  "top_3_arguments": [
+    "Full MA stack inverted and accelerating: price is below every moving average (ema_5=19.60, ema_10=19.96, ema_20=20.64, ema_50=21.44, ema_200=25.47) with ema_aligned_downtrend=true. pct_from_ema_50=-9.56%, pct_from_ema_200=-23.87%. No overhead flip to challenge — every MA is resistance on bounces.",
+    "Trend confirmed and strengthening: daily ADX_14=30.0 ('strong'), minus_di=18.85 > plus_di=14.12 (bears in control). Momentum ROC_21d=-20.5%, MACD line=-0.8099 with histogram=-0.1111 (still expanding negative). Volume on 5/27 was 2,526,100 vs 20d avg 1,378,395 = 1.83x relative volume on a red close — institutional distribution, not retail noise.",
+    "Two-day breakdown structure beneath $19.20 watch level: 5/26 closed at $19.01 (range low $18.96) with 1.9x avg volume; 5/27 failed recovery attempt, closing $19.39 still inside the breakdown zone. Bollinger pct_b=0.2241 (lower-band territory). Daily RSI_14=40.07 declining toward RSI_21=24.59, signaling accelerating momentum — RSI not yet oversold at 14-period, confirming room to fall. Fib extension target 1.272 = $16.77 gives 3.7:1 R:R from $19.20 entry vs $19.85 stop."
+  ],
+  "risks_acknowledged": [
+    "Analyst consensus is strongly bullish: 5 Buy / 2 Hold / 1 Sell with median price target $47.50 (vs current $19.39). A single catalyst or positive guidance update could trigger a violent short squeeze against the entire analyst community lifting estimates.",
+    "News researcher identified a $1M director insider buy on 2026-05-22 and a Simply Wall St note pairing that buy with an analyst upgrade. Even though recent_insider_trades array is empty in the data bundle (data gap: formal insider filing not yet captured), the web research confirms insider buying at these levels — a direct counter-signal to the short thesis.",
+    "OBV trend on daily = 'up' with diverging_from_price=true: price is falling but on-balance volume is rising, which is a classic bullish divergence setup that could signal accumulation. If institutional buyers absorb supply, the breakdown below $19.20 could fail and reverse hard.",
+    "Hourly structure shows partial stabilization: hourly price is above ema_24 (+1.6%) and ema_48 (+0.36%) with hourly rsi_21=47.63 (neutral, not oversold on shorter timeframe). A failed breakdown with a close back above $19.80 would invalidate the setup immediately."
+  ],
+  "web_sources_last_7d": [
+    "https://www.investing.com/news/insider-trading-news/baldwin-insurance-group-director-buys-bwin-stock-worth-1m-93CH-4542638",
+    "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/what-baldwin-insurance-group-bwins-insider-buy-and-analyst-u"
+  ]
+}

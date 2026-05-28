@@ -1,0 +1,56 @@
+{
+  "ticker": "H",
+  "researched_at": "2026-05-28T13:03:00Z",
+  "news_items": [
+    {
+      "headline": "Hyatt Investor Day: 11-16% Adjusted EBITDA growth guide through 2028, $1B share repurchase increase",
+      "url": "https://newsroom.hyatt.com/May-28-2026-Investor-Day-Release",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Hyatt held its 2026 Investor Day on May 28, presenting an illustrative financial outlook of 11-16% Adjusted EBITDA growth and 14-18% Adjusted Free Cash Flow growth annually through 2028. The company also announced a $1 billion increase in its share repurchase authorization."
+    },
+    {
+      "headline": "Truist raises Hyatt price target to $187 from $181, reiterates Buy",
+      "url": "https://stockanalysis.com/stocks/h/forecast/",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Truist Financial raised its price target on Hyatt Hotels to $187 from $181 and reiterated a Buy rating, citing continued room to run ahead of Investor Day."
+    },
+    {
+      "headline": "Bernstein raises Hyatt price target to $202 from $186, maintains Buy",
+      "url": "https://public.com/stocks/h/forecast-price-target",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Sanford C. Bernstein lifted its price target on Hyatt to $202 from $186, maintaining a Buy rating in conjunction with the May 28 Investor Day event."
+    },
+    {
+      "headline": "Hyatt declares cash dividend of $0.15, ex-date May 29 2026",
+      "url": "https://finance.yahoo.com/quote/H/press-releases/",
+      "date": "2026-05-28",
+      "sentiment": "neutral",
+      "summary": "Hyatt Hotels announced a cash dividend of $0.15 per share with an ex-dividend date of May 29, 2026."
+    },
+    {
+      "headline": "Swedbank AB trims holdings in Hyatt Hotels Corporation",
+      "url": "https://www.dailypolitical.com/2026/05/28/swedbank-ab-trims-stock-holdings-in-hyatt-hotels-corporation-h.html",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "Swedbank AB reduced its stock holdings in Hyatt Hotels Corporation, per a filing reported on May 28, 2026. Magnitude of the trim not specified in the source."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 174.4,
+    "recent_changes": "Truist raised PT to $187 from $181 (Buy reiterated, 2026-05-28); Bernstein raised PT to $202 from $186 (Buy, 2026-05-28). Consensus among 15 analysts: ~60% Buy/Strong Buy, ~33% Hold, ~7% Strong Sell."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-06",
+    "days_until_next": 70,
+    "notes": "Q1 2026 (reported 2026-04-30) beat on EPS ($0.63 vs est) and revenue ($1.75B). RevPAR +5.4% YoY, gross fees +8.6%, pipeline +9.4%. Q2 2026 street estimates: EPS ~$0.90, revenue ~$1.84B. Minor headwinds from Middle East conflict and softer Mexico demand noted by management."
+  },
+  "raw_search_files": [
+    "H_news-this-week.json",
+    "H_analyst-rating.json",
+    "H_earnings-catalyst.json"
+  ]
+}

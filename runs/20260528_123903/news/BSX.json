@@ -1,0 +1,56 @@
+{
+  "ticker": "BSX",
+  "researched_at": "2026-05-28T12:48:00Z",
+  "news_items": [
+    {
+      "headline": "BSX plunges ~12% after cutting FY26 guidance on WATCHMAN heart device slowdown",
+      "url": "https://stocktwits.com/news-articles/markets/equity/why-did-bsx-li-bj-stocks-hit-52-week-lows-today/cZgicjfResT",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "Boston Scientific cut its FY26 organic growth guidance due to slowing WATCHMAN standalone procedure adoption and competitive pressure in EP and urology. Stock hit a two-year low of $50.04, down ~12.43% on the session."
+    },
+    {
+      "headline": "Citi lowers BSX price target to $70 from $87, maintains Buy",
+      "url": "https://www.marketbeat.com/stocks/NYSE/BSX/news/",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "Citi analyst Joanne Wuensch cut the price target on Boston Scientific to $70 from $87 following the guidance reduction, while retaining a Buy rating on shares."
+    },
+    {
+      "headline": "Stifel lowers BSX price target to $75 from $85, maintains Buy",
+      "url": "https://www.marketbeat.com/stocks/NYSE/BSX/news/",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "Stifel analyst Rick Wise reduced his price target on Boston Scientific to $75 from $85 in response to the guidance cut, keeping a Buy rating."
+    },
+    {
+      "headline": "Boston Scientific FRACTURE IDE trial of SEISMIQ 4CE coronary IVL catheter meets all primary endpoints",
+      "url": "https://stockanalysis.com/stocks/bsx/",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "BSX's pivotal FRACTURE IDE trial for its SEISMIQ 4CE intravascular lithotripsy catheter met all primary endpoints, a positive clinical data readout for its structural heart portfolio."
+    },
+    {
+      "headline": "Q1 2026 earnings: net sales $5.203B (+11.6%), adj EPS $0.80; FY guidance lowered",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/boston-scientific-bsx-earnings-expected-140014273.html",
+      "date": "2026-04-22",
+      "sentiment": "neutral",
+      "summary": "Boston Scientific reported Q1 2026 net sales of $5.203B (+11.6% reported, +9.4% organic) and adjusted EPS of $0.80, meeting estimates, but accompanied the results with a lowered full-year organic growth outlook. (Note: earnings event itself is older than 7 days; guidance cut impact is a current-week catalyst.)"
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 93.18,
+    "recent_changes": "Citi cut PT to $70 from $87 (maintains Buy, 2026-05-28); Stifel cut PT to $75 from $85 (maintains Buy, 2026-05-28). Broader consensus average PT ~$93.18 with median ~$95.50 — both well above current stock price near $50 following the guidance-cut selloff."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-07-22",
+    "days_until_next": 55,
+    "notes": "Q2 2026 earnings expected late July 2026. Street will focus on EP segment recovery trajectory, WATCHMAN FLX Pro adoption, and whether urology weakness is transient. CHAMPION clinical data is cited as a potential transformational catalyst by bulls."
+  },
+  "raw_search_files": [
+    "BSX_news-this-week.json",
+    "BSX_analyst-rating.json",
+    "BSX_earnings-catalyst.json"
+  ]
+}

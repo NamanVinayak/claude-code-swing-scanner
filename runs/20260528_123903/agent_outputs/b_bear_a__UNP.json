@@ -1,0 +1,21 @@
+{
+  "ticker": "UNP",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [274.5, 271.38, 265.2],
+  "top_3_arguments": [
+    "Daily bearish RSI divergence confirmed (rsi_divergence.bearish=true, 60-bar lookback) while Bollinger pct_b=1.1953 — price is nearly 20% above the upper Bollinger band. This is a classic exhaustion pattern: price making new highs at 279.39 / 52-week high while momentum has been rolling over for 60 bars. z_score_50=1.85 confirms the move is statistically stretched (1.85 standard deviations above the 50-SMA). Extended moves that trigger bearish RSI divergence this late in a run have a high historical failure rate on continuation breakouts.",
+    "Breakout confirmation at $280.00 has NOT triggered yet (current close $279.39), and the ex-dividend date is May 29, 2026 — tomorrow. The $1.38/share dividend strip creates a mechanical gap-down at the open that will push the opening print approximately $1.38 below the prior close, almost certainly printing below the $280.00 watch level before the market even opens. A breakout that is negated by ex-div mechanics before it can confirm is not a real breakout. Additionally, the hourly price at time of indicator capture was $266.73 — well below all hourly MAs (ema_24=272.46, sma_24=271.07, ema_48=270.95) — with hourly OBV diverging from price (diverging_from_price=true), signaling intraday distribution during the very session that produced the daily 52-week high close.",
+    "Merger regulatory overhang is a discrete tail-risk unpriced in the technical setup: State AGs filed to question the completeness of UNP's NSC merger application (May 27, 2026); STB is expected to enter a year-long review. An $85B rail merger with active AG opposition is not a resolved event — any negative STB ruling, new objection, or adverse news during the holding period can gap the stock down sharply with no warning. The watch_level/invalidation_level gap of $5.50 ($280→$274.50) was sized before this headline; actual gap-risk on merger news is far larger. The setup was designed for a clean breakout in a benign news environment; this is not that environment."
+  ],
+  "bull_acknowledgements": [
+    "Daily MA stack is genuinely bullish: price above ema_5, ema_10, ema_20, ema_50, and ema_200, all in upward alignment (ema_aligned_uptrend=true). The trend structure is intact on the daily timeframe.",
+    "Volume on the breakout bar (May 27) was 4,045,800 vs 20-day avg 2,745,545 — relative volume 1.47x. This is above-average participation, not a thin-volume fakeout, which does add credibility to the move.",
+    "Q1 earnings beat was real (EPS $2.87, +6% YoY), multiple analysts raised price targets this week (Raymond James to $310, Benchmark to $300), and consensus analyst rating is Buy with avg PT $291.05 — there is legitimate fundamental support for the move."
+  ],
+  "web_sources_last_7d": [
+    "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings",
+    "https://www.marketbeat.com/stocks/NYSE/UNP/news/",
+    "https://finance.yahoo.com/quote/UNP/news/"
+  ]
+}

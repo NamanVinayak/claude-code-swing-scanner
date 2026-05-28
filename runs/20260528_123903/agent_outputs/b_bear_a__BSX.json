@@ -1,0 +1,22 @@
+{
+  "ticker": "BSX",
+  "setup_direction": "short",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [51.2, 52.52, 53.64],
+  "top_3_arguments": [
+    "Extreme oversold condition creates violent mean-reversion risk that directly threatens the short. Hourly rsi_21 = 12.53 — a reading this extreme is near the statistical floor for RSI and historically marks capitulation exhaustion, not the start of sustained continuation. Daily rsi_14 = 35.87, rsi_21 = 31.18 — approaching the 30 oversold threshold. Hourly z_score_120 = -3.06, meaning price is 3+ standard deviations below the 120-period hourly mean. These readings in combination (sub-13 hourly RSI + sub-negative-3 z-score) occur at exhaustion events, not mid-trend breakdowns. A 10–15% relief bounce from here to $55–57 would be statistically normal and would stop out any short entered near current price.",
+    "The 2.74x volume spike on the guidance-cut gap-down is a capitulation signature, not a continuation signal. Volume.ratio_to_avg = 2.74 on the session that produced a ~$7 gap — this is institutional panic selling at the lows, which absorbs the marginal seller and sets up exhaustion reversals. Bollinger %B daily = -0.1148 (price below the lower Bollinger band) and hourly %B = -0.1889 — both below band, confirming the move is a statistical outlier stretch rather than an orderly continuation. The MACD daily histogram = +0.3215 is turning positive (MACD line above signal line at -1.7523 vs -2.0738) — a nascent bullish crossover that signals the rate of decline is slowing. Short entries on capitulation volume days with Bollinger breakdowns below the band have poor edge: the gap typically fills at least partially within 2–5 sessions.",
+    "Analyst consensus creates a gravitational ceiling on the short thesis. Buy-rated consensus with avg price target $93.18 (median ~$95.50) — stock is trading at $50.46, roughly 46% below the average Street target. Even after Citi's cut to $70 and Stifel's cut to $75, both retained Buy ratings. Fundamental buyers (value managers, event-driven funds) will step in aggressively at $50 as the valuation gap to buy-side targets becomes extreme. The SEISMIQ FRACTURE IDE trial meeting all primary endpoints (2026-05-27) provides a near-term positive catalyst that could trigger a snapback rally. With next earnings not until 2026-07-22 (62 days), there is no imminent earnings pressure to sustain the downtrend — the fundamental surprise is already priced into the gap. The short thesis requires price to continue lower from a point where every analyst who covers this stock has a Buy and a target at least 38% higher."
+  ],
+  "bull_acknowledgements": [
+    "The fundamental short trigger is real and severe: BSX cut FY26 organic growth guidance on WATCHMAN device slowdown, the stock hit a 2-year low on 2.74x average volume, and the daily MA stack (ema_aligned_downtrend = true, price -17.27% below sma_50, -41.16% below sma_200) is textbook Stage 4 distribution. ADX = 28.32 with -DI = 41.18 vs +DI = 26.32 confirms a strong established downtrend, not just a one-day event.",
+    "Hourly bearish RSI divergence is confirmed (rsi_divergence.bearish = true on hourly), and both OBV (daily and hourly trend = 'down') and volume_bias_10d = 'down' corroborate distribution. The Fibonacci extension target at fib_ext_low_1272 = $46.41 and fib_ext_low_1618 = $43.12 are credible downside targets if the breakdown sustains. The watch level $49.90 is barely below current price — price is right at the trigger.",
+    "No insider buying in recent_insider_trades (empty list) removes a key contrarian bullish signal. If insiders had conviction in the selloff as a buy opportunity, we would expect to see at least one 10b5-1 accelerated purchase — the silence is modestly bearish."
+  ],
+  "web_sources_last_7d": [
+    "https://stocktwits.com/news-articles/markets/equity/why-did-bsx-li-bj-stocks-hit-52-week-lows-today/cZgicjfResT",
+    "https://www.marketbeat.com/stocks/NYSE/BSX/news/",
+    "https://stockanalysis.com/stocks/bsx/",
+    "https://finance.yahoo.com/markets/stocks/articles/boston-scientific-bsx-earnings-expected-140014273.html"
+  ]
+}

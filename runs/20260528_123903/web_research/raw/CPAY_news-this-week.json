@@ -1,0 +1,45 @@
+{
+  "query": "CPAY news this week",
+  "fetched_at": "2026-05-28T12:45:00Z",
+  "results": [
+    {
+      "title": "CPAY: Corpay Inc - Stock Price, Quote and News - CNBC",
+      "url": "https://www.cnbc.com/quotes/CPAY"
+    },
+    {
+      "title": "Corpay, Inc. (CPAY) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/"
+    },
+    {
+      "title": "Corpay, Inc. (CPAY) Latest Stock News & Headlines - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/news/"
+    },
+    {
+      "title": "Corpay, Inc. (CPAY) Latest Press Releases & Corporate News - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/CPAY/press-releases/"
+    },
+    {
+      "title": "Corpay, Inc. (CPAY) Stock Price, Quote, News & Analysis | Seeking Alpha",
+      "url": "https://seekingalpha.com/symbol/CPAY"
+    },
+    {
+      "title": "Do Wall Street Analysts Like Corpay Stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-corpay-stock-145038479.html",
+      "snippet": "Wall Street analysts remain moderately optimistic about the stock's prospects, with the mean price target of $388.79 representing a 13.9% premium to CPAY's current price levels."
+    },
+    {
+      "title": "Corpay Stock Price Forecast. Should You Buy CPAY?",
+      "url": "https://stockinvest.us/stock/CPAY",
+      "snippet": "CPAY stock price gained 0.492% on the last trading day (Tuesday, May 26th, 2026), rising from $347.90 to $349.61. During that day the stock fluctuated 3.32% from a day low at $338.72 to a day high of $349.95."
+    },
+    {
+      "title": "Investor Relations | Corpay, Inc.",
+      "url": "https://investor.corpay.com/"
+    },
+    {
+      "title": "Corpay (CPAY) Stock Price, News & Analysis - NYSE",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CPAY/",
+      "snippet": "Revenue rising 25% year-over-year and robust guidance. Company reported impressive earnings. New AI capabilities launched. Stablecoin wallet embedding. Cross-border payment visibility partnerships formed."
+    }
+  ]
+}

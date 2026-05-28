@@ -1,0 +1,77 @@
+{
+  "ticker": "MAR",
+  "researched_at": "2026-05-28T12:48:00Z",
+  "news_items": [
+    {
+      "headline": "MAR closed up 3.28% on May 27; investors assess breakout momentum",
+      "url": "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "Marriott International shares rose 3.28% on May 27, 2026, attracting attention from investors tracking the move. No single fundamental catalyst cited; move attributed to broader market conditions and renewed buying interest."
+    },
+    {
+      "headline": "Susquehanna raises MAR price target to $385 citing strong luxury performance",
+      "url": "https://finance.yahoo.com/quote/MAR/news/",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Susquehanna lifted its price target on MAR to $385 after noting strength in the luxury segment. The firm did not change its rating."
+    },
+    {
+      "headline": "Argus raises MAR PT to $425 from $420, keeps Buy after Q1 earnings beat",
+      "url": "https://www.benzinga.com/quote/MAR/analyst-ratings",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Argus analyst John Staszak raised the firm's price target to $425 from $420 and maintained a Buy rating following Marriott's Q1 2026 earnings beat."
+    },
+    {
+      "headline": "Wells Fargo raises MAR PT to $446 from $443, keeps Overweight",
+      "url": "https://www.benzinga.com/quote/MAR/analyst-ratings",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Wells Fargo made a modest upward revision to its price target on MAR, maintaining an Overweight rating."
+    },
+    {
+      "headline": "Truist Securities maintains Hold on MAR, raises PT to $356 from $350",
+      "url": "https://www.benzinga.com/quote/MAR/analyst-ratings",
+      "date": "2026-05-26",
+      "sentiment": "neutral",
+      "summary": "Truist Securities kept a Hold rating but nudged its price target higher by $6, indicating limited near-term upside conviction despite acknowledging improving fundamentals."
+    },
+    {
+      "headline": "MAR declares $0.73 cash dividend, ex-date May 22, 2026",
+      "url": "https://finance.yahoo.com/quote/MAR/press-releases/",
+      "date": "2026-05-22",
+      "sentiment": "neutral",
+      "summary": "Marriott International declared a regular quarterly cash dividend of $0.73 per share with an ex-dividend date of May 22, 2026. Routine capital return; no change to dividend policy signaled."
+    },
+    {
+      "headline": "Marriott expanding with mixed-use project in Kennewick and new online hotel furnishings shop",
+      "url": "https://finance.yahoo.com/quote/MAR/news/",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Marriott announced a new mixed-use development project and launched an online shop selling hotel furnishings, part of broader portfolio and ancillary revenue expansion efforts."
+    },
+    {
+      "headline": "Elevated valuations prompt cautious near-term growth outlook for MAR",
+      "url": "https://stockanalysis.com/stocks/mar/forecast/",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "Some analysts note that MAR's current valuation is elevated relative to historical multiples, tempering near-term growth expectations even as fundamentals remain solid."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 405.0,
+    "recent_changes": "Multiple PT raises this week: Argus to $425 (Buy), Wells Fargo to $446 (Overweight), Susquehanna to $385, Truist to $356 (Hold). Consensus of 26 analysts is Buy with average PT ~$377; overweight-oriented firms skew the high-conviction target toward $425-$446."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 earnings already reported and beat EPS expectations ($2.60 EPS, +12.1% YoY). Key 2026 earnings catalyst is a 35% step-up in co-branded credit card royalty fees (Chase + Amex renegotiation), a one-time boost that normalizes to high-single-digit growth thereafter. Full-year guidance: RevPAR +1.5% to +2.5%, net rooms +4.5% to +5.0%. Next earnings date not confirmed in search results; Q2 2026 report likely in late July or early August."
+  },
+  "raw_search_files": [
+    "MAR_news-this-week.json",
+    "MAR_analyst-rating.json",
+    "MAR_earnings-catalyst.json"
+  ]
+}

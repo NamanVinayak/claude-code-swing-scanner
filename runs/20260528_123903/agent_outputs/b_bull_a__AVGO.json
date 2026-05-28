@@ -1,0 +1,27 @@
+{
+  "ticker": "AVGO",
+  "setup_direction": "long",
+  "bull_strength": 5,
+  "entry_zone": {"low": 422.50, "high": 424.17},
+  "target": 440.50,
+  "stop": 413.50,
+  "expected_holding_days": 4,
+  "top_3_arguments": [
+    "Full bullish MA stack confirmed: price ($421.86) above ema_5 (419.52), ema_10 (419.45), ema_20 (415.27), ema_50 (392.34), ema_200 (341.96) — all aligned uptrend = true. pct_from_ema_200 = +23.36%, pct_from_ema_50 = +7.52%. A reclaim of watch level $422.50 restores the breakout above a multi-tested hourly resistance zone (419.78, 31 tests) and targets the $429.31 daily pivot high (10 tests) as first resistance, then $437–442 range.",
+    "Hourly timeframe shows genuine directional strength: hourly ADX_24 = 34.08 (strong), plus_di = 31.64 vs minus_di = 11.10 — bulls dominate directional movement. Hourly MACD histogram = +0.7754 (positive, expanding intraday momentum). Hourly relative_volume = 1.59 (above average). Hourly Bollinger pct_b = 0.6768 (price in upper half of band without being at extreme). Daily rsi_divergence.bullish = true on 60-bar lookback — price making higher low while momentum showed a divergence bottom.",
+    "Pre-earnings positioning tailwind: analyst consensus is Strong Buy with avg PT $477.67 (47 analysts, 85% buy ratio); UBS set $490 PT on 2026-05-18. Q2 FY2026 earnings (June 3) expected EPS $2.32 vs $1.58 YoY (+47% revenue to $22.08B) with AI chip segment at $10.7B. May 26 saw a high of $435.31 on 22.6M volume (1.22× 20-day avg of 18.5M), confirming institutional interest. Fibonacci extension fib_ext_1272 = $457.81 is the structural target if breakout confirms — trade target $440.50 is well within reach at the $437–442 resistance cluster, producing 2.0:1 R:R ($18 gain / $9 risk from entry low $422.50 to stop $413.50)."
+  ],
+  "risks_acknowledged": [
+    "Earnings in 6 days (June 3 after close) — this is a binary catalyst trade. If held into earnings and the print disappoints despite high expectations ($22.08B revenue, $10.7B AI), a gap-down could easily breach the stop and cause outsized loss. Position must be closed by June 2 EOD regardless of outcome; expected_holding_days = 4 reflects this hard constraint.",
+    "Daily OBV trend = down, diverging_from_price = true. Despite the May 26 volume spike, the 10-day volume_bias is 'down' and daily relative_volume = 0.95 (below average on May 27). Selling pressure has not fully cleared on the daily timeframe. A failed breakout above $422.50–$424.17 that reverses below $416.50 hourly support would confirm the OBV signal.",
+    "Daily MACD histogram = -3.2361 with no bullish crossover. The daily momentum trend is still negative — hourly is constructive but daily MACD has not confirmed. Daily ADX_14 = 11.56 (weak trend strength), meaning the daily move could be choppy rather than directional. A 2:1 R:R trade works only if price moves cleanly to $429 resistance within 1–2 days.",
+    "No wiki context for AVGO (new ticker, no prior setup history). Cannot verify if this ticker historically respects breakout setups or tends to fail and re-test. Research gap: no insider buy data in last 30 days to support conviction."
+  ],
+  "web_sources_last_7d": [
+    "https://www.cnbc.com/quotes/AVGO",
+    "https://www.nasdaq.com/market-activity/stocks/avgo/news-headlines",
+    "https://www.msn.com/en-us/money/stockdetails/avgo-us-stock/fi-a1nz8m",
+    "https://www.quiverquant.com/news/Broadcom+jumps+as+bullish+analyst+note+reinforces+AI-driven+earnings+optimism",
+    "https://www.techi.com/broadcom-stock-google-meta-anthropic-ai-chip-deals-june-earnings/"
+  ]
+}

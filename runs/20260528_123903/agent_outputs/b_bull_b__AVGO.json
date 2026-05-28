@@ -1,0 +1,26 @@
+{
+  "ticker": "AVGO",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 422.50, "high": 425.50},
+  "target": 445.00,
+  "stop": 413.50,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Pre-earnings catalyst stack: Q2 FY2026 earnings due June 3 (6 days) with Street consensus at $2.32 EPS (+47% YoY to $22.08B revenue) and AI chip segment projected at $10.7B — the same setup produced a +106% AI-segment YoY beat last quarter. Analyst consensus (2026-05-23 web_research) confirms this is a known catalyst driving positioning now. Bullish analyst note on 2026-05-23 drove the stock higher; UBS set $490 PT on 2026-05-18 (Strong Buy), 57-analyst aggregate avg PT $477.67 with 85% buy ratio — all per analyst_consensus_web.",
+    "Hyperscaler AI lock-in anchors the forward revenue case: Google TPU deal through 2031, Meta MTIA custom chip pact, and Anthropic's $200B Google cloud/chip commitment — all running on Broadcom silicon per 2026-05-22 web_research item. LSEG partnership renewal (2026-05-26) and BCM68850 50G AI-accelerated home gateway SoC launch alongside Samsung 5G/Wi-Fi 8 FWA platform (2026-05-27) demonstrate new revenue channels stacking on top of the hyperscaler core. These are not press releases — they are contract renewals and chip launches with named counterparties.",
+    "Technical setup supports a pre-earnings breakout from $422.50 watch level: price above all MAs (EMA_5 through EMA_200, ema_aligned_uptrend = true on both daily and hourly), daily rsi_14 = 48.42 with daily bullish RSI divergence confirmed (lookback 60 bars), hourly ADX_24 = 34.08 (strong trend), hourly MACD histogram = +0.7754 (bullish momentum). Fibonacci fib_382 daily = $420.67 acting as support confluent with hourly pivot low $416.50 (34 tests, volume-confirmed). R:R from entry mid $424.00 to stop $413.50 (risk $10.50) vs target $445.00 (reward $21.00) = 2.0:1 — at the minimum required threshold."
+  ],
+  "risks_acknowledged": [
+    "Earnings in 6 days is a binary event: a miss or soft AI guidance cut would gap the stock down and invalidate the setup entirely before the stop is even relevant. This is the single largest risk — the thesis IS the pre-earnings drift, so the trade is long gamma on good results.",
+    "Daily OBV trend is DOWN and diverging from price (per daily_indicators.volume.obv), with volume_bias_10d = 'down' and relative_volume = 0.95 (below average). Smart money is not visibly accumulating here — no insider buys in the last 30 days. The bullish case is narrative/analyst-driven, not confirmed by flow.",
+    "Daily MACD histogram = -3.2361 (bearish, below signal line), and daily ADX_14 = 11.56 (weak trend strength) — the daily trend is structurally weak and consolidating. The breakout above $422.50 watch level needs a volume catalyst to sustain; absent that, this becomes a fade into resistance at $429.31 (10-test pivot high)."
+  ],
+  "web_sources_last_7d": [
+    "https://www.cnbc.com/quotes/AVGO",
+    "https://www.nasdaq.com/market-activity/stocks/avgo/news-headlines",
+    "https://www.msn.com/en-us/money/stockdetails/avgo-us-stock/fi-a1nz8m",
+    "https://www.quiverquant.com/news/Broadcom+jumps+as+bullish+analyst+note+reinforces+AI-driven+earnings+optimism",
+    "https://www.techi.com/broadcom-stock-google-meta-anthropic-ai-chip-deals-june-earnings/"
+  ]
+}

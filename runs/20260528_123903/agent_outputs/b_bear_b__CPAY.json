@@ -1,0 +1,23 @@
+{
+  "ticker": "CPAY",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Overbought and extended after post-earnings gap: rsi_14 = 74.71, rsi_7 = 79.63, and current price ($352.60) is 11.88% above the 50-SMA ($315.17) and 13.94% above the 200-SMA ($309.47). The +5.8% earnings gap on 2026-05-22 has already compressed the reward-to-risk — the watch level ($354.50) is only $1.90 from current price and sits directly at hourly nearest_resistance $354.97 (9 tests, volume-unconfirmed). Buying a breakout here means entering at the highest RSI reading in the 5-day lookback with essentially no buffer before overhead supply. The breakout level is resistance, not open air.",
+    "M&A integration overhead is the primary analyst-flagged fundamental risk: Corpay is simultaneously absorbing Alpha Group, GPS Capital, and Paymerang. The 2026-05-23 analyst note (simplywall.st) explicitly warns that M&A and technology spend could outpace revenue growth if integration stumbles. Revenue guidance raised to $5.3B vs. $5.2B consensus is only a 1.9% beat — a thin cushion if integration costs surprise. The company has no wiki history in System B (new_ticker=true), so there is no track record of past integration execution to calibrate confidence. Specific acquisition cost absorption figures and integration timelines are a research gap (not available in facts bundle); lowering bear_strength by 1 for the absence of hard integration cost data.",
+    "Short-term momentum is already fading and no insider buying is present to validate the extension: hourly roc_5d = -0.94 (negative — price is lower now than 5 hourly periods ago), hourly MACD histogram = -0.1638 (bearish — signal line above MACD), and hourly ADX = 13.38 ('weak' trend strength). The daily momentum shows roc_21d = +12.73% (the earnings surge), but roc_5d daily = +2.76% is decelerating. More critically, recent_insider_trades = [] — zero insider buys in the last 30 days despite the stock running 12%+ above its 50-SMA. Management did not put capital behind their own raised guidance. With earnings 69 days out (days_until_next = 69), there is no near-term catalyst to sustain momentum, and the analyst mean PT of $394.52 implies ~12% upside — reasonable but entirely dependent on a smooth integration execution that has not yet been demonstrated."
+  ],
+  "bull_acknowledgements": [
+    "Q1 2026 results were genuinely strong: revenue $1.26B (+25% YoY) and cash EPS $5.80 (+29% YoY) both beat consensus, and FY2026 guidance was raised above street on both EPS ($26.30–$27.10 vs. $25.78 consensus) and revenue ($5.3B vs. $5.2B). This is not a one-quarter fluke — the beat-and-raise is real.",
+    "Analyst consensus is constructive: 8% Strong Buy, 58% Buy, 33% Hold, 0% Sell from 12 analysts, with mean PT $394.52. No downgrades in the last 7 days. The technical uptrend is intact — all EMAs and SMAs are in aligned uptrend order (ema_aligned_uptrend=true), and daily ADX = 30.49 with +DI 36.34 vs. -DI 14.0 confirms genuine trend strength on the daily timeframe.",
+    "The stablecoin/BVNK partnership adds a fintech optionality angle that is early-stage but directionally consistent with where B2B payments are heading — could attract a valuation premium if the integration delivers."
+  ],
+  "web_sources_last_7d": [
+    "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/why-corpay-cpay-is-up-58-after-boosting-guidance-buybacks-an",
+    "https://finance.yahoo.com/news/corpay-cpay-insider-buying-earnings-041513423.html",
+    "https://www.tipranks.com/news/company-announcements/corpay-earnings-call-signals-robust-growth-momentum",
+    "https://www.tickerreport.com/banking-finance/13435093/corpay-nysecpay-updates-fy-2026-earnings-guidance.html",
+    "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/should-corpays-earnings-beat-and-ma-push-require-action-from"
+  ]
+}

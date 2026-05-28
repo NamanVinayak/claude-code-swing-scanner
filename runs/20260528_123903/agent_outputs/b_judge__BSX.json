@@ -1,0 +1,23 @@
+{
+  "ticker": "BSX",
+  "approved": [
+    {
+      "ticker": "BSX",
+      "direction": "short",
+      "entry_price": 49.85,
+      "stop_loss": 51.20,
+      "target_price": 45.50,
+      "target_price_2": 43.12,
+      "quantity": 100,
+      "expected_holding_days": 7,
+      "setup_type": "breakout",
+      "conviction": 7,
+      "rationale": "Both bull agents (bull_strength=8 each) dominate vs bears (bear_strength=7 each): combined_p_bull=0.5333, combined_p_bear=0.4667. SHORT expected_return = 0.5333*(49.85-45.50) - 0.4667*(51.20-49.85) = 2.320 - 0.630 = +$1.69/share. Key bears' concern (hourly RSI_21=12.53 extreme oversold, daily MACD histogram turning positive at +0.3215, 2.74x volume as capitulation) is real but outweighed by structural evidence: daily ema_aligned_downtrend=true, ADX_14=28.32 with minus_di=41.18 vs plus_di=26.32 (strong confirmed downtrend), price broke below the 3-test $52.52 pivot low on 2026-05-27, guidance cut is a multi-quarter revision cycle catalyst (next earnings 62 days out per facts). Bulls cross-checked: rsi_7=41.26/rsi_14=35.87/rsi_21=31.18 consistent with facts; volume 52.7M vs 19.2M avg matches facts; fib_ext_low_1272=$46.41 and fib_ext_low_1618=$43.12 are valid from daily_indicators.fibonacci. Bears' MACD histogram crossover (+0.3215) acknowledged but insufficient to override ADX trend strength. Position sized to $250 risk at 1%: 185 shares at $1.35 risk/share = $249.75 notional $9,222. Scaled down from 185 to 100 shares to fit small-account cap (notional $4,985 vs 20% extended cap $5,000), using 54% of risk budget ($135/$250). Target_price_2=$43.12 (fib_ext_low_1618) as extended target if WATCHMAN estimate cuts cascade.",
+      "risk_usd": 135.00,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-29T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "BSX short approved: guidance-cut structural breakdown with combined_p_bull=0.53 yields +$1.69 expected return per share; position downsized to 100 shares (small_scaled) to fit $5,000 notional cap, using 54% of risk budget. Bears' oversold bounce risk acknowledged but ADX+OBV+MA-stack evidence supports multi-day continuation short from dead-cat-bounce entry zone $49.50–$50.20."
+}

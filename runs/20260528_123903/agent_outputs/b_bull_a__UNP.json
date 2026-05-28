@@ -1,0 +1,27 @@
+{
+  "ticker": "UNP",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 279.50, "high": 281.00},
+  "target": 295.00,
+  "stop": 273.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Breakout above multi-tested pivot resistance at $274.79 on expanding volume: last bar (2026-05-27) closed at $279.39 on 4,045,800 shares vs 20-day avg 2,745,545 — relative_volume = 1.47x — confirming institutional participation in the move; price covered +2.9% intraday from open $272.57 to close $279.39, the largest single-day range in the 5-day window.",
+    "Full bullish MA stack confirmed: price_vs_ma shows above_ema_5/10/20/21/50/200 all true; ema_aligned_uptrend = true; pct_from_ema_50 = +7.43%, pct_from_ema_200 = +15.39%; daily rsi_14 = 63.22 (healthy mid-range, not overbought), macd.histogram = +0.124 with bullish_crossover = true, adx_14 = 20.66 (moderate trend strength with plus_di 28.02 vs minus_di 15.30 — directional bias is up), and 10-day volume_bias = 'up' with OBV trending up and not diverging from price on the daily timeframe.",
+    "Fibonacci extension structure targets $288.63 (1.272 ext from swing_low $246.88 to swing_high $279.70) and $299.98 (1.618 ext); analyst consensus independently validates: avg_price_target $291.05 across 23 analysts, with Raymond James at $310 (Strong Buy) and Benchmark at $300 (Buy) both raising targets this week post-Q1 beat; risk/reward from entry $280 to target $295 vs stop $273.50 = $15 reward / $6.50 risk = 2.31:1."
+  ],
+  "risks_acknowledged": [
+    "Daily rsi_divergence.bearish = true over 60-bar lookback — price made higher highs while RSI lagged, a near-term exhaustion warning that could cap the initial extension and pull price back to the breakout zone before resuming.",
+    "Hourly OBV is diverging from price (hourly_indicators.volume.obv.diverging_from_price = true) while hourly price_vs_ma shows price below all hourly MAs as of the snapshot (current hourly price $266.73 vs ema_24 $272.46) — this lag suggests the intraday session ended well off the daily close, meaning gap-up risk at open and potential early weakness if the hourly structure doesn't confirm overnight.",
+    "UNP-NSC merger application under scrutiny from state AGs (2026-05-27 news): year-long STB review expected; any negative ruling or headline could weigh on the stock independent of chart structure.",
+    "Ex-dividend date May 29, 2026 (tomorrow at time of dispatch) — stock will open ex-div adjusted; $1.38/share will be subtracted at open, mechanically pulling price ~$1.38 lower and potentially triggering a technical re-test of the breakout zone."
+  ],
+  "web_sources_last_7d": [
+    "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings",
+    "https://finance.yahoo.com/quote/UNP/news/",
+    "https://www.marketbeat.com/stocks/NYSE/UNP/news/",
+    "https://www.benzinga.com/quote/UNP/analyst-ratings",
+    "https://stockanalysis.com/stocks/unp/ratings/"
+  ]
+}

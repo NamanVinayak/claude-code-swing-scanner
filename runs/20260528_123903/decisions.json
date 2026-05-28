@@ -1,0 +1,80 @@
+{
+  "run_id": "20260528_123903",
+  "mode": "b_swing",
+  "generated_at": "2026-05-28T14:10:10+00:00",
+  "decisions": {
+    "BSX": {
+      "action": "short",
+      "direction": "short",
+      "entry_price": 49.85,
+      "stop_loss": 51.2,
+      "target_price": 45.5,
+      "target_price_2": 43.12,
+      "quantity": 100,
+      "timeframe": "7d",
+      "confidence": 7,
+      "account_risk_pct": 1.0,
+      "entry_tolerance_pct": 0.5,
+      "setup_type": "breakout",
+      "rationale": "Both bull agents (bull_strength=8 each) dominate vs bears (bear_strength=7 each): combined_p_bull=0.5333, combined_p_bear=0.4667. SHORT expected_return = 0.5333*(49.85-45.50) - 0.4667*(51.20-49.85) = 2.320 - 0.630 = +$1.69/share. Key bears' concern (hourly RSI_21=12.53 extreme oversold, daily MACD histogram turning positive at +0.3215, 2.74x volume as capitulation) is real but outweighed by structural evidence: daily ema_aligned_downtrend=true, ADX_14=28.32 with minus_di=41.18 vs plus_di=26.32 (strong confirmed downtrend), price broke below the 3-test $52.52 pivot low on 2026-05-27, guidance cut is a multi-quarter revision cycle catalyst (next earnings 62 days out per facts). Bulls cross-checked: rsi_7=41.26/rsi_14=35.87/rsi_21=31.18 consistent with facts; volume 52.7M vs 19.2M avg matches facts; fib_ext_low_1272=$46.41 and fib_ext_low_1618=$43.12 are valid from daily_indicators.fibonacci. Bears' MACD histogram crossover (+0.3215) acknowledged but insufficient to override ADX trend strength. Position sized to $250 risk at 1%: 185 shares at $1.35 risk/share = $249.75 notional $9,222. Scaled down from 185 to 100 shares to fit small-account cap (notional $4,985 vs 20% extended cap $5,000), using 54% of risk budget ($135/$250). Target_price_2=$43.12 (fib_ext_low_1618) as extended target if WATCHMAN estimate cuts cascade.",
+      "risk_usd": 135.0,
+      "expected_holding_days": 7,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-29T20:00:00+00:00"
+    },
+    "AVGO": {
+      "action": "buy",
+      "direction": "long",
+      "entry_price": 423.34,
+      "stop_loss": 413.5,
+      "target_price": 440.5,
+      "target_price_2": 450.0,
+      "quantity": 11,
+      "timeframe": "5d",
+      "confidence": 5,
+      "account_risk_pct": 1.0,
+      "entry_tolerance_pct": 0.5,
+      "setup_type": "breakout",
+      "rationale": "b_bull_b (catalyst, strength=7) and b_bear_a (technical, strength=8) are the dominant perspectives; bears win on weight but expected return is still positive. p_bull = 5/(5+8) = 0.3846; p_catalyst = 7/(7+7) = 0.5000; combined_p_bull = 0.4423; combined_p_bear = 0.5577. Entry = midpoint of bull_a zone (422.50+424.17)/2 = 423.34. Target = min(440.50, 445.00) = 440.50. Stop = max(413.50, 413.50) = 413.50. Expected return = 0.4423*(440.50-423.34) - 0.5577*(423.34-413.50) = 0.4423*17.16 - 0.5577*9.84 = 7.59 - 5.49 = +$2.10/share (positive; Gate 2 passes). Bears' primary arguments \u2014 OBV diverging bearishly (daily OBV trend=down, diverging_from_price=true, volume_bias_10d=down), daily MACD histogram=-3.24 (bearish), daily ADX=11.56 (weak), and 10-test resistance at $429.31 limiting near-term upside \u2014 are all verified against daily_indicators and carry real weight. Earnings in 6 days (June 3) is the #1 risk flagged by both bears; both bulls explicitly acknowledge it and bulls constrain to a 4-6 day exit before the binary event. Position sizing: risk_dollars = 25000*1%*1.0 = $250; risk_per_share = |423.34-413.50| = 9.84; Gate-3 quantity = floor(250/9.84) = 25 shares; notional at 25 shares = $10,584 exceeds single_cap $3,750 (15% of $25k) so standard path fails. Small-scaled exception: M = floor(5000/423.34) = 11; risk_M = 11*9.84 = $108.24 >= risk_floor $100 (40% of $250). Scaled down from 25 to 11 shares to fit small-account cap, using 43% of risk budget. Final risk_usd = 11*9.84 = $108.24. Hourly ADX=34.08 (strong) with plus_di=31.64 vs minus_di=11.1 and hourly MACD histogram=+0.7754 confirm short-term directional momentum supporting the entry zone reclaim. Trade must close by June 2 EOD regardless of outcome.",
+      "risk_usd": 108.24,
+      "expected_holding_days": 5,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-28T20:00:00+00:00"
+    }
+  },
+  "rejected": [
+    {
+      "ticker": "CPAY",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "CRS",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "FDX",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "MAR",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "MIDD",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$128.00 > available=$115.00)"
+    },
+    {
+      "ticker": "UNP",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$125.46 > available=$115.00)"
+    },
+    {
+      "ticker": "BWIN",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$143.74 > available=$6.76)"
+    },
+    {
+      "ticker": "H",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$121.50 > available=$6.76)"
+    }
+  ],
+  "summary": "approved=6, rejected=4, candidates=10"
+}

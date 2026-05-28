@@ -1,0 +1,21 @@
+{
+  "ticker": "BSX",
+  "setup_direction": "short",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Valuation already prices in a severe growth disappointment — analyst consensus Buy rating ($93.18 avg PT, median $95.50) is roughly 85% above current price of $50.46; even the most bearish post-guidance-cut revisions (Citi $70, Stifel $75) imply 38–49% upside from here. The short thesis requires sustained selling well below all institutional price targets, requiring a fundamental collapse beyond what the guidance cut alone justifies. No specific P/E multiple was available in the bundle to quantify the discount — this is a research gap — but the scale of the bull/current price gap is itself a strong short-squeeze or mean-reversion setup.",
+    "Extreme technical oversold condition creates high snap-back risk: hourly RSI_21 = 12.53 (deeply oversold), daily RSI_14 = 35.87, daily z_score_50 = -1.9, hourly z_score_120 = -3.06 (3+ standard deviations below mean), and Bollinger pct_b = -0.1148 on the daily frame with current price well below the lower band ($51.40). The stock also dropped ~$7 in a single session (2026-05-27 close $50.46 vs prior close $57.64) on 2.74x average volume — news-driven gaps at this magnitude frequently attract aggressive mean-reversion buying once the event is digested. The short is entering precisely where the risk/reward inverts.",
+    "Positive clinical catalyst directly undermines the short thesis: the FRACTURE IDE trial of BSX's SEISMIQ 4CE coronary IVL catheter met ALL primary endpoints (2026-05-27), providing a pipeline credibility anchor that offset bears' narrative that the guidance cut signals broad franchise deterioration. Additionally, earnings.days_until_next = 62 removes any near-term earnings-catalyst forcing mechanism — without a fresh negative catalyst to renew downside pressure, the short is exposed to 2 months of slow institutional accumulation as portfolio managers rebalance into a large-cap ($72.9B) med-tech name trading at a multi-year low."
+  ],
+  "bull_acknowledgements": [
+    "The guidance cut is real and operationally significant: WATCHMAN standalone procedure adoption is slowing and EP/urology competitive pressure was not flagged in prior guidance — this is a genuine earnings-quality degradation, not a one-time charge.",
+    "Technical structure is in full Stage 4 breakdown (ema_aligned_downtrend = true, price -41.16% from sma_200, adx_14 = 28.32 with minus_di = 41.18 >> plus_di = 26.32) — the downtrend is confirmed and the path of least resistance remains lower until a level of consolidation is established.",
+    "Recent_insider_trades is empty — the absence of insider buying at these depressed levels is a yellow flag; management has not stepped in to signal value at current price, which is a mild short-side confirmation."
+  ],
+  "web_sources_last_7d": [
+    "https://stocktwits.com/news-articles/markets/equity/why-did-bsx-li-bj-stocks-hit-52-week-lows-today/cZgicjfResT",
+    "https://www.marketbeat.com/stocks/NYSE/BSX/news/",
+    "https://stockanalysis.com/stocks/bsx/"
+  ]
+}

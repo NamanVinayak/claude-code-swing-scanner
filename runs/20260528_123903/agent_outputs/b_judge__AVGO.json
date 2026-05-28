@@ -1,0 +1,23 @@
+{
+  "ticker": "AVGO",
+  "approved": [
+    {
+      "ticker": "AVGO",
+      "direction": "long",
+      "entry_price": 423.34,
+      "stop_loss": 413.50,
+      "target_price": 440.50,
+      "target_price_2": 450.00,
+      "quantity": 11,
+      "expected_holding_days": 5,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "b_bull_b (catalyst, strength=7) and b_bear_a (technical, strength=8) are the dominant perspectives; bears win on weight but expected return is still positive. p_bull = 5/(5+8) = 0.3846; p_catalyst = 7/(7+7) = 0.5000; combined_p_bull = 0.4423; combined_p_bear = 0.5577. Entry = midpoint of bull_a zone (422.50+424.17)/2 = 423.34. Target = min(440.50, 445.00) = 440.50. Stop = max(413.50, 413.50) = 413.50. Expected return = 0.4423*(440.50-423.34) - 0.5577*(423.34-413.50) = 0.4423*17.16 - 0.5577*9.84 = 7.59 - 5.49 = +$2.10/share (positive; Gate 2 passes). Bears' primary arguments — OBV diverging bearishly (daily OBV trend=down, diverging_from_price=true, volume_bias_10d=down), daily MACD histogram=-3.24 (bearish), daily ADX=11.56 (weak), and 10-test resistance at $429.31 limiting near-term upside — are all verified against daily_indicators and carry real weight. Earnings in 6 days (June 3) is the #1 risk flagged by both bears; both bulls explicitly acknowledge it and bulls constrain to a 4-6 day exit before the binary event. Position sizing: risk_dollars = 25000*1%*1.0 = $250; risk_per_share = |423.34-413.50| = 9.84; Gate-3 quantity = floor(250/9.84) = 25 shares; notional at 25 shares = $10,584 exceeds single_cap $3,750 (15% of $25k) so standard path fails. Small-scaled exception: M = floor(5000/423.34) = 11; risk_M = 11*9.84 = $108.24 >= risk_floor $100 (40% of $250). Scaled down from 25 to 11 shares to fit small-account cap, using 43% of risk budget. Final risk_usd = 11*9.84 = $108.24. Hourly ADX=34.08 (strong) with plus_di=31.64 vs minus_di=11.1 and hourly MACD histogram=+0.7754 confirm short-term directional momentum supporting the entry zone reclaim. Trade must close by June 2 EOD regardless of outcome.",
+      "risk_usd": 108.24,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-28T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "AVGO approved as small_scaled long (11 shares, $108 risk): expected return +$2.10/share positive despite bear-dominant probability weighting (combined_p_bear=55.8%); bears' OBV divergence and weak daily ADX are real but hourly ADX=34.08 and pre-earnings analyst catalyst support the entry. Earnings blackout (6 days to June 3) keeps conviction at 5 and forces expiry at today's 16:00 ET close; position must exit by June 2 EOD."
+}

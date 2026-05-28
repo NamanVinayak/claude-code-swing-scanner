@@ -1,0 +1,410 @@
+{
+  "ticker": "MAR",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 386.0,
+  "invalidation_level": 381.0,
+  "catalyst_note": "Stage 1 flagged a bullish trifecta (tv_strong_buy + tv_breakout_up + tv_trending_up); premarket is flat (+0.03%) at $384.93, preserving the breakout setup with no overnight move that would have played it out.",
+  "conviction": 4,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "MAR closed up 3.28% on May 27; investors assess breakout momentum",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527",
+      "sentiment": "positive",
+      "summary": "Marriott International shares rose 3.28% on May 27, 2026, attracting attention from investors tracking the move. No single fundamental catalyst cited; move attributed to broader market conditions and renewed buying interest."
+    },
+    {
+      "title": "Susquehanna raises MAR price target to $385 citing strong luxury performance",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://finance.yahoo.com/quote/MAR/news/",
+      "sentiment": "positive",
+      "summary": "Susquehanna lifted its price target on MAR to $385 after noting strength in the luxury segment. The firm did not change its rating."
+    },
+    {
+      "title": "Argus raises MAR PT to $425 from $420, keeps Buy after Q1 earnings beat",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://www.benzinga.com/quote/MAR/analyst-ratings",
+      "sentiment": "positive",
+      "summary": "Argus analyst John Staszak raised the firm's price target to $425 from $420 and maintained a Buy rating following Marriott's Q1 2026 earnings beat."
+    },
+    {
+      "title": "MAR declares $0.73 cash dividend, ex-date May 22, 2026",
+      "source": "web_research",
+      "date": "2026-05-22",
+      "url": "https://finance.yahoo.com/quote/MAR/press-releases/",
+      "sentiment": "neutral",
+      "summary": "Marriott International declared a regular quarterly cash dividend of $0.73 per share with an ex-dividend date of May 22, 2026. Routine capital return; no change to dividend policy signaled."
+    },
+    {
+      "title": "Elevated valuations prompt cautious near-term growth outlook for MAR",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://stockanalysis.com/stocks/mar/forecast/",
+      "sentiment": "negative",
+      "summary": "Some analysts note that MAR's current valuation is elevated relative to historical multiples, tempering near-term growth expectations even as fundamentals remain solid."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 385.8599853515625,
+  "market_cap": 101311807488.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-20",
+      "open": 358.4824116836334,
+      "high": 370.7781490580789,
+      "low": 355.8775374473169,
+      "close": 369.0216064453125,
+      "volume": 1748000
+    },
+    {
+      "time": "2026-05-21",
+      "open": 365.8977460185087,
+      "high": 370.41882060496573,
+      "low": 360.6880283099625,
+      "close": 369.8299865722656,
+      "volume": 908400
+    },
+    {
+      "time": "2026-05-22",
+      "open": 368.2099914550781,
+      "high": 370.9100036621094,
+      "low": 367.29998779296875,
+      "close": 369.1499938964844,
+      "volume": 820100
+    },
+    {
+      "time": "2026-05-26",
+      "open": 369.8500061035156,
+      "high": 374.57000732421875,
+      "low": 368.760009765625,
+      "close": 373.80999755859375,
+      "volume": 1105600
+    },
+    {
+      "time": "2026-05-27",
+      "open": 378.57000732421875,
+      "high": 386.29998779296875,
+      "low": 378.57000732421875,
+      "close": 385.8599853515625,
+      "volume": 1616800
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 374.0059415353477,
+      "sma_5": 373.53431396484376,
+      "ema_10": 367.6313528418897,
+      "sma_10": 363.8875457763672,
+      "ema_20": 362.2212793510098,
+      "sma_20": 358.6055648803711,
+      "ema_21": 361.8405711533351,
+      "sma_21": 358.55882771809894,
+      "ema_50": 352.61456142517085,
+      "sma_50": 350.18773559570315,
+      "ema_200": 315.9589427293473,
+      "sma_200": 308.2023943328857,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 385.8599853515625,
+    "dist_from_50sma_pct": 10.19,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 3.17,
+      "above_sma_5": true,
+      "pct_from_sma_5": 3.3,
+      "above_ema_10": true,
+      "pct_from_ema_10": 4.96,
+      "above_sma_10": true,
+      "pct_from_sma_10": 6.04,
+      "above_ema_20": true,
+      "pct_from_ema_20": 6.53,
+      "above_sma_20": true,
+      "pct_from_sma_20": 7.6,
+      "above_ema_21": true,
+      "pct_from_ema_21": 6.64,
+      "above_sma_21": true,
+      "pct_from_sma_21": 7.61,
+      "above_ema_50": true,
+      "pct_from_ema_50": 9.43,
+      "above_sma_50": true,
+      "pct_from_sma_50": 10.19,
+      "above_ema_200": true,
+      "pct_from_ema_200": 22.12,
+      "above_sma_200": true,
+      "pct_from_sma_200": 25.2,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 38486.0
+    },
+    "rsi": {
+      "rsi_7": 96.73,
+      "rsi_14": 77.14,
+      "rsi_21": 64.18
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 6.051,
+      "signal_line": 3.5333,
+      "histogram": 2.5176,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 378.63,
+      "middle": 358.61,
+      "lower": 338.59,
+      "width": 0.1117,
+      "pct_b": 1.1807
+    },
+    "atr": {
+      "atr_14": 8.17,
+      "atr_pct": 2.12
+    },
+    "adx": {
+      "adx_14": 32.33,
+      "plus_di": 36.61,
+      "minus_di": 8.9,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1616800,
+      "avg_volume_20": 1364315,
+      "relative_volume": 1.19,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 332.8,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 364.28,
+          "tests": 14,
+          "volume_confirmed": false
+        },
+        {
+          "price": 379.25,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 315.92,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 345.58,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 345.58,
+      "recent_high": 386.3,
+      "recent_low": 344.7,
+      "prev_day_high": 374.57,
+      "prev_day_low": 368.76,
+      "prev_day_close": 373.81
+    },
+    "fibonacci": {
+      "swing_high": 386.3,
+      "swing_low": 344.7,
+      "fib_236": 376.48,
+      "fib_382": 370.41,
+      "fib_500": 365.5,
+      "fib_618": 360.59,
+      "fib_786": 353.6,
+      "fib_ext_1272": 397.62,
+      "fib_ext_1618": 412.01,
+      "fib_ext_2000": 427.9,
+      "fib_ext_low_1272": 333.38,
+      "fib_ext_low_1618": 318.99
+    },
+    "momentum": {
+      "roc_5d": 7.79,
+      "roc_10d": 10.39,
+      "roc_21d": 7.2
+    },
+    "z_score_50": 1.95,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 376.6826011252154,
+      "sma_24": 375.196044921875,
+      "ema_48": 371.0803711805246,
+      "sma_48": 369.7524998982747,
+      "ema_120": 364.0125158232536,
+      "sma_120": 359.90483678181965,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 384.2099914550781,
+    "dist_from_50sma_pct": 6.75,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 2.0,
+      "above_sma_24": true,
+      "pct_from_sma_24": 2.4,
+      "above_ema_48": true,
+      "pct_from_ema_48": 3.54,
+      "above_sma_48": true,
+      "pct_from_sma_48": 3.91,
+      "above_ema_120": true,
+      "pct_from_ema_120": 5.55,
+      "above_sma_120": true,
+      "pct_from_sma_120": 6.75,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 38321.0
+    },
+    "rsi": {
+      "rsi_21": 81.06
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 6.2955,
+      "signal_line": 4.9047,
+      "histogram": 1.3908,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 385.39,
+      "middle": 369.75,
+      "lower": 354.12,
+      "width": 0.0846,
+      "pct_b": 0.9624
+    },
+    "atr": {
+      "atr_24": 2.42,
+      "atr_pct": 0.63
+    },
+    "adx": {
+      "adx_24": 25.02,
+      "plus_di": 34.11,
+      "minus_di": 10.11,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 118958,
+      "avg_volume_20": 130509,
+      "relative_volume": 0.91,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 363.79,
+          "tests": 11,
+          "volume_confirmed": true
+        },
+        {
+          "price": 371.14,
+          "tests": 19,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 354.36,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 361.4,
+          "tests": 16,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 361.4,
+      "recent_high": 386.45,
+      "recent_low": 367.59,
+      "prev_day_high": 386.3,
+      "prev_day_low": 383.91,
+      "prev_day_close": 385.92
+    },
+    "fibonacci": {
+      "swing_high": 386.45,
+      "swing_low": 361.4,
+      "fib_236": 380.54,
+      "fib_382": 376.88,
+      "fib_500": 373.92,
+      "fib_618": 370.97,
+      "fib_786": 366.76,
+      "fib_ext_1272": 393.26,
+      "fib_ext_1618": 401.93,
+      "fib_ext_2000": 411.5,
+      "fib_ext_low_1272": 354.58,
+      "fib_ext_low_1618": 345.91
+    },
+    "momentum": {
+      "roc_5d": 0.2,
+      "roc_10d": 3.12,
+      "roc_21d": 4.11
+    },
+    "z_score_120": 2.46,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 68,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 405.0,
+    "recent_changes": "Multiple PT raises this week: Argus to $425 (Buy), Wells Fargo to $446 (Overweight), Susquehanna to $385, Truist to $356 (Hold). Consensus of 26 analysts is Buy with average PT ~$377; overweight-oriented firms skew the high-conviction target toward $425-$446."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 earnings already reported and beat EPS expectations ($2.60 EPS, +12.1% YoY). Key 2026 earnings catalyst is a 35% step-up in co-branded credit card royalty fees (Chase + Amex renegotiation), a one-time boost that normalizes to high-single-digit growth thereafter. Full-year guidance: RevPAR +1.5% to +2.5%, net rooms +4.5% to +5.0%. Next earnings date not confirmed in search results; Q2 2026 report likely in late July or early August."
+  }
+}

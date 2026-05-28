@@ -1,0 +1,23 @@
+{
+  "ticker": "BWIN",
+  "approved": [
+    {
+      "ticker": "BWIN",
+      "direction": "short",
+      "entry_price": 19.295,
+      "stop_loss": 19.85,
+      "target_price": 17.50,
+      "target_price_2": 16.80,
+      "quantity": 259,
+      "expected_holding_days": 9,
+      "setup_type": "breakout",
+      "conviction": 5,
+      "rationale": "Gate 0–1 pass. Gate 2: p_bull=6/(6+7)=0.4615, p_catalyst=4/(4+7)=0.3636, combined_p_bull=0.4126, combined_p_bear=0.5874; entry=19.295 (midpoint of b_bull_a zone 19.20–19.39), target=max(16.80,17.50)=17.50 (conservative achievable), stop=min(19.85,19.85)=19.85; expected_return_per_share = 0.4126*(19.295−17.50) − 0.5874*(19.85−19.295) = 0.7406 − 0.3260 = +$0.4146 > 0. Gate 3: risk_dollars=25000×1.0%×1.0=$250, risk_per_share=0.555, quantity=floor(250/0.555)=450. Gate 4 small-scaled: notional=450×$19.295=$8,682 exceeds 15% cap ($3,750); M=floor($5,000/19.295)=259, risk_M=259×0.555=$143.75 ≥ 40% floor ($100) — scaled down from 450 to 259 shares to fit small-account cap, using 57% of risk budget. Bulls dominate technically (daily ADX_14=30.0, ema_aligned_downtrend=true, roc_21d=−20.5%, minus_di=18.85>plus_di=14.12, rel_vol=1.83x on red 5/27 close), but bears correctly flag $1M director insider buy on 2026-05-22 (confirmed by news research, not in structured insider feed), bullish OBV-price divergence (daily obv.diverging_from_price=true), daily rsi_21=24.59 (oversold), and hourly momentum flipping positive (hourly plus_di=26.53>minus_di=24.3). Conviction lowered to 5 — technical breakdown is real but fundamental counter-signals are unusually strong for a short entry.",
+      "risk_usd": 143.745,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-29T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "BWIN short approved at small-scaled size (259 shares, $143.75 risk, 57% of risk budget): Stage 4 technical breakdown with inverted MA stack and strong daily ADX confirmed, expected return +$0.41/share after probability weighting. Conviction capped at 5 due to $1M director insider buy on 2026-05-22, bullish OBV divergence, and deeply oversold daily rsi_21=24.59 — entry valid until end of 2026-05-29 session."
+}

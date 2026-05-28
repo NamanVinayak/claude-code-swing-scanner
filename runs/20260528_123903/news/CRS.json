@@ -1,38 +1,31 @@
 {
   "ticker": "CRS",
-  "researched_at": "2026-05-28T12:48:00Z",
+  "researched_at": "2026-05-28T19:43:00Z",
   "news_items": [
+    {
+      "headline": "TD Cowen raises Carpenter Technology (CRS) price target to $470 from $450, maintains Buy",
+      "url": "https://finance.yahoo.com/quote/CRS/news/",
+      "date": "2026-05-26",
+      "sentiment": "positive",
+      "summary": "TD Cowen increased its price target on CRS to $470 (from $450) and kept a Buy rating, the most recent sell-side action of the week."
+    },
     {
       "headline": "Carpenter Technology (CRS) Valuation Check After Record Earnings Beat And Raised Operating Income Guidance",
       "url": "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html",
-      "date": "2026-05-22",
-      "sentiment": "positive",
-      "summary": "Carpenter Technology reported a record quarter, beating analyst estimates on both revenue and earnings. The company raised its FY2026 operating income guidance to $680M–$700M, citing accelerating demand in aerospace and defense."
-    },
-    {
-      "headline": "Carpenter Technology (CRS) Earnings Call Puts Its Aerospace and Defense Materials Strategy Under the Microscope",
-      "url": "https://finance.yahoo.com/news/carpenter-technology-crs-earnings-call-090929524.html",
-      "date": "2026-05-23",
-      "sentiment": "positive",
-      "summary": "Earnings call highlighted Carpenter Technology's specialty alloys strategy for aerospace and defense end markets. Management discussed productivity gains, favorable pricing, and product mix as drivers of record operating income and margins."
-    },
-    {
-      "headline": "TD Cowen raises Carpenter Technology (CRS) price target to $470 from $450, maintains Buy rating",
-      "url": "https://www.benzinga.com/quote/CRS/analyst-ratings",
-      "date": "2026-05-24",
-      "sentiment": "positive",
-      "summary": "TD Cowen increased its price target on CRS to $470 (from $450) and kept a Buy rating following the record quarterly results and raised guidance."
+      "date": "2026-05-26",
+      "sentiment": "neutral",
+      "summary": "Valuation piece reviewing CRS after its record earnings beat and raised FY2026 operating income guidance; weighs the premium multiple against continued aerospace/defense demand strength."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
-    "avg_price_target": 450.0,
-    "recent_changes": "TD Cowen raised PT to $470 from $450 (Buy). Susquehanna has a $470 PT. Consensus across 7–8 analysts is Strong Buy; price targets range from $340 low to $495 high."
+    "avg_price_target": 422.88,
+    "recent_changes": "TD Cowen raised PT to $470 from $450 (Buy) this week. Consensus across 8 analysts is Strong Buy (5 Buy / 1 Hold / 0 Sell), avg PT $422.88, range $340-$495. Older (>7d) actions: JP Morgan Overweight, PT $394->$465 (Apr 20); Argus targets up to $500."
   },
   "earnings_context": {
     "next_earnings_date": "2026-07-24",
     "days_until_next": 57,
-    "notes": "Carpenter Technology just reported a record quarter with raised FY2026 operating income guidance ($680M–$700M); next expected earnings date is approximately July 24, 2026. Street is watching for continued aerospace/defense demand confirmation and execution on the $400M brownfield expansion."
+    "notes": "Next quarterly report expected ~July 24, 2026 (no near-term earnings inside the trade window). Already priced in: prior record quarter with FY2026 operating income guidance raised to $680M-$700M, driven by aerospace/defense/industrial demand. Street watching execution of $400M brownfield expansion; key risk is a demand slowdown pressuring margins."
   },
   "raw_search_files": [
     "CRS_news-this-week.json",

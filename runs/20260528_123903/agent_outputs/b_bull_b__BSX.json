@@ -2,25 +2,27 @@
   "ticker": "BSX",
   "setup_direction": "short",
   "bull_strength": 8,
-  "entry_zone": {"low": 49.50, "high": 50.90},
-  "target": 44.50,
-  "stop": 51.50,
+  "entry_zone": {"low": 49.40, "high": 49.90},
+  "target": 45.66,
+  "stop": 51.25,
   "expected_holding_days": 7,
   "top_3_arguments": [
-    "Guidance cut is a structural catalyst, not a one-day event: on 2026-05-28 BSX cut FY26 organic growth guidance citing WATCHMAN standalone procedure slowdown and competitive pressure in EP and urology — this is a multi-quarter revision cycle, not a one-day miss. Stock gapped down 12.4% on 2026-05-27 close ($57.64 → $50.46) on 2.74× average volume (52.7M vs 19.2M avg), confirming institutional distribution. Post-guidance-cut selloffs in medical device names historically see 2–4 weeks of continued pressure as consensus estimates are walked down by the sell-side. With next earnings 62 days out (2026-07-22 per earnings_context_web), there is no near-term positive catalyst to arrest the drift.",
-    "Analyst community is still behind the curve — price target cuts on 2026-05-28 are large but leave massive downside: Citi cut PT $87→$70 (maintains Buy) and Stifel cut PT $85→$75 (maintains Buy) per analyst_consensus_web. Average consensus PT ~$93.18 vs current price ~$50. These are Buy-rated analysts cutting to $70–$75 on a $50 stock — meaning even the bulls are now modeling a stock that is 40–50% overvalued relative to current price. The PT-cut cycle is just starting; remaining analyst consensus will need to follow. Each subsequent downgrade or PT cut is a fresh negative catalyst.",
-    "Technical structure confirms distribution with strong trend momentum: daily ADX_14 = 28.32 with minus_di = 41.18 vs plus_di = 26.32 — a strong, confirmed downtrend. EMA stack is fully aligned downtrend on both daily and hourly. Price is -10.53% below daily EMA_20 and -17.27% below SMA_50. Daily OBV trending down; hourly OBV trending down. Daily roc_21d = -15.83%. Bollinger pct_b = -0.1148 on daily (price has breached the lower band). Fibonacci extension low 1.272 at $46.41 is the natural measured-move target. Hourly RSI_21 = 12.53 signals near-term oversold which may produce a dead-cat bounce into the entry zone — the entry zone ($49.50–$50.90) is positioned to capture that bounce as a short entry below the watch level ($49.90) and below invalidation ($51.20). R:R from entry midpoint $50.20 to stop $51.50 (risk $1.30) vs target $44.50 (reward $5.70) = 4.4:1."
+    "Fresh hard catalyst (2026-05-28): BSX cut FY26 organic growth guidance on WATCHMAN standalone slowdown plus EP/urology competitive pressure; stock plunged ~12.43% to a two-year low of $50.04 on 2.74x relative volume (current_volume 52.7M vs avg_20 19.2M). Guidance cuts trigger multi-week estimate-walk-down drift, and next earnings is 62 days out (2026-07-22 per earnings_context_web) so no near-term positive catalyst to arrest it.",
+    "Smart-money repricing the same day confirms the bear flow: Citi cut PT $87->$70, Leerink $87->$74, Stifel $85->$75, Wells Fargo $75->$55 (all 2026-05-28, per analyst_consensus_web). A clustered downgrade wave 24h after a guidance cut signals the sell-side is still chasing numbers lower — each remaining revision is a fresh negative catalyst.",
+    "Technicals confirm breakdown for continuation: daily EMA stack aligned_downtrend=true, price -17.27% vs sma_50 and -41.16% vs sma_200; daily minus_di 41.18 > plus_di 26.32 with adx_14 28.32 (strong downtrend); momentum roc_5d -11.18, roc_21d -15.83; daily OBV trend down. Entry $49.40-$49.90 (break below watch_level 49.90), target $45.66 (daily fib_ext_low_1272), stop $51.25 (above invalidation 51.20). R:R from midpoint $49.65 to target = $3.99 reward vs $1.60 risk = 2.5:1."
   ],
   "risks_acknowledged": [
-    "Hourly RSI_21 = 12.53 is deeply oversold — a sharp technical bounce to $52–$54 is possible before the next leg down, which would stop out the position if entered at market rather than waiting for the $49.50–$50.90 entry zone to re-assert.",
-    "SEISMIQ 4CE FRACTURE IDE trial met all primary endpoints (2026-05-27) — if BSX fast-tracks an FDA submission or announces unexpected approval timelines, this is a positive catalyst that could briefly re-rate the stock above invalidation.",
-    "Average analyst consensus PT is still ~$93 and major banks retain Buy ratings — any analyst upgrades or PT increases (even from a low base) could create a short squeeze from institutional buyers who see value at $50.",
-    "No insider trades in the last 30 days (recent_insider_trades is empty) — the absence of insider selling removes a confirming signal; insider inaction is ambiguous, not clearly bearish."
+    "All five analysts cut targets but KEPT Buy/Outperform; RBC reiterated Outperform with a $100 PT (2026-05-28) and avg consensus PT ~$93 sits far above $50 — bargain-hunting relief bounce is a real squeeze risk for a short.",
+    "Positive clinical reads undercut the bear story: FRACTURE IDE SEISMIQ trial met all primary endpoints (2026-05-27); CHAMPION data cited as a potential transformational catalyst. This may be a repricing, not a structural collapse.",
+    "Stock is already deeply oversold (daily rsi_14 35.87, rsi_21 31.18; hourly rsi_21 17.1; daily BB pct_b -0.11; z_score_50 -1.9) after a 12% gap-down on huge volume — chasing a fresh short risks selling the low; daily nearest_support is null below current price, an air-pocket cuts both ways.",
+    "recent_insider_trades is empty — no insider selling to confirm the thesis; insider inaction is ambiguous, not bearish."
   ],
   "web_sources_last_7d": [
     "https://stocktwits.com/news-articles/markets/equity/why-did-bsx-li-bj-stocks-hit-52-week-lows-today/cZgicjfResT",
     "https://www.marketbeat.com/stocks/NYSE/BSX/news/",
-    "https://stockanalysis.com/stocks/bsx/",
-    "https://finance.yahoo.com/markets/stocks/articles/boston-scientific-bsx-earnings-expected-140014273.html"
+    "https://www.investing.com/news/analyst-ratings/leerink-cuts-boston-scientific-stock-price-target-on-watchman-outlook-93CH-4714071",
+    "https://public.com/stocks/bsx/forecast-price-target",
+    "https://www.investing.com/news/analyst-ratings/rbc-capital-reiterates-boston-scientific-stock-rating-on-watchman-outlook-93CH-4714700",
+    "https://stockanalysis.com/stocks/bsx/"
   ]
 }

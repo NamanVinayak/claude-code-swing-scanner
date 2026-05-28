@@ -1,7 +1,7 @@
 {
   "ticker": "FDX",
   "setup_direction": "long",
-  "bull_strength": 9,
+  "bull_strength": 8,
   "entry_zone": {"low": 413.50, "high": 416.00},
   "target": 432.00,
   "stop": 407.00,

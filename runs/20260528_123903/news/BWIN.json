@@ -1,31 +1,31 @@
 {
   "ticker": "BWIN",
-  "researched_at": "2026-05-28T12:48:00Z",
+  "researched_at": "2026-05-28T19:49:00Z",
   "news_items": [
     {
       "headline": "Baldwin Insurance Group director buys BWIN stock worth $1M",
       "url": "https://www.investing.com/news/insider-trading-news/baldwin-insurance-group-director-buys-bwin-stock-worth-1m-93CH-4542638",
       "date": "2026-05-22",
       "sentiment": "positive",
-      "summary": "A director at Baldwin Insurance Group purchased approximately $1 million worth of BWIN shares, signaling insider confidence in the stock at current levels."
+      "summary": "A director at Baldwin Insurance Group purchased approximately $1 million of BWIN shares on the open market, an insider buy."
     },
     {
-      "headline": "What Baldwin Insurance Group (BWIN)'s Insider Buy And Analyst Upgrade Signal For Shareholders",
+      "headline": "What Baldwin Insurance Group (BWIN)'s insider buy and analyst upgrade signal for shareholders",
       "url": "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/what-baldwin-insurance-group-bwins-insider-buy-and-analyst-u",
       "date": "2026-05-23",
       "sentiment": "positive",
-      "summary": "Simply Wall St piece noting a director insider buy and an analyst upgrade for BWIN, framing both as potentially positive signals for shareholders."
+      "summary": "Simply Wall St piece noting a recent director insider buy and an analyst upgrade for BWIN, framing both as constructive signals."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 47.5,
-    "recent_changes": "No analyst rating or price target changes confirmed within last 7 days. Prior context (already priced in): Wells Fargo maintained Equal-Weight with PT cut to $21 on 2026-02-27; JPMorgan kept Neutral with PT cut to $28. Consensus as of late May 2026: 5 Buy, 2 Hold, 1 Sell across 9 analysts; median PT $47.50, high $55.00, low $34.00."
+    "recent_changes": "Wells Fargo reaffirmed Hold on 2026-05-27. Current consensus Buy (7.8/10): 5 Buy, 2 Hold, 1 Sell across 9 analysts; median PT $47.50 (high $55.00, low $34.00). Stock ~$44.54, implying ~6.6% upside to median. No net rating-tier change in last 7 days beyond the WF reiteration."
   },
   "earnings_context": {
     "next_earnings_date": "2026-08-05",
     "days_until_next": 69,
-    "notes": "Q1 2026 earnings reported 2026-05-04 — BWIN missed EPS estimates; revenue grew but net income and margins compressed; stock dropped ~8.2% post-earnings. Q2 2026 earnings expected approximately early August 2026. 3B30 Catalyst program (targeting $3B revenue, 30% adj. EBITDA margin) and Fairway mortgage partnership are key longer-term catalysts management highlighted."
+    "notes": "Q1 2026 reported 2026-05-04 (already priced in): revenue beat but EPS missed, margins compressed, stock fell ~8.2%. Management catalysts: Fairway Independent Mortgage 10-yr exclusive embedded-mortgage partnership (live April) and Catalyst 3B30 program ($3B revenue / 30% adj EBITDA margin target, $34M cost actions, AI productivity gains). Next earnings (Q2 2026) expected early August 2026; no near-term earnings catalyst inside the trade window."
   },
   "raw_search_files": [
     "BWIN_news-this-week.json",

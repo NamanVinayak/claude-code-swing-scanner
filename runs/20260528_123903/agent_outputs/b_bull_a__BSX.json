@@ -1,25 +1,28 @@
 {
   "ticker": "BSX",
   "setup_direction": "short",
-  "bull_strength": 8,
-  "entry_zone": {"low": 49.50, "high": 50.20},
+  "bull_strength": 7,
+  "entry_zone": {"low": 49.40, "high": 49.90},
   "target": 45.50,
-  "stop": 51.20,
+  "stop": 51.30,
   "expected_holding_days": 7,
   "top_3_arguments": [
-    "Catastrophic institutional distribution on guidance cut: 2026-05-27 volume = 52.7M (2.74x 20-day avg of 19.2M) on a -$7.18 close, with OBV trend='down' and no divergence from price — this is forced selling by funds that owned BSX as a compounder, not retail panic. Price broke below the prior 3-test pivot low at $52.52, opening air down to the $45–$46 Fibonacci extension zone (fib_ext_low_1272 = $46.41, fib_ext_low_1618 = $43.12).",
-    "Full MA stack inverted and bearish: daily EMA_aligned_downtrend=true; price is -7.97% from ema_5, -10.53% from ema_20, -17.79% from ema_50, -36.81% from ema_200. All 8 MA comparisons in price_vs_ma are false (below every MA). ADX_14=28.32 with minus_di=41.18 vs plus_di=26.32 confirms the trend is strong and directional — not a consolidation. Momentum roc_5d=-11.18%, roc_21d=-15.83% with no sign of deceleration.",
-    "Bollinger breakdown + hourly exhaustion structure aligns for short entry continuation: daily pct_b=-0.1148 (price below lower BB at $51.40) signals structural weakness, not mean-reversion. Hourly rsi_21=12.53 is extended but hourly bearish RSI divergence=true and hourly ADX_24=27.28 (minus_di=43.96 vs plus_di=10.26) confirms downtrend intact on intraday timeframe. Hourly z_score_120=-3.06 — any hourly dead-cat bounce into $50.20–$51.00 is a fresh short entry, not a reversal signal."
+    "High-volume institutional distribution confirmed the breakdown: the 2026-05-27 bar gapped from prev_day_close 57.64 to a 50.46 close (roc_5d = -11.18%) on relative_volume 2.74 (current_volume 52.7M vs avg_volume_20 19.2M), with volume.obv.trend = 'down'. Price sliced through the $52.52 pivot low (3 tests) — the last structural support — leaving support_resistance.nearest_support = null below current price.",
+    "Confirmed Stage-4 downtrend, strong and directional: moving_averages.ema_aligned_downtrend = true with all 8 price_vs_ma comparisons false (above_ema_20 false at -10.53%, above_ema_50 false at -17.79%, above_ema_200 false at -36.81%). adx.adx_14 = 28.32 ('strong') with minus_di 41.18 dominating plus_di 26.32; z_score_50 = -1.90; daily bollinger.pct_b = -0.1148 (price below the $51.40 lower band). Hourly corroborates: adx_24 = 38.18 with minus_di 46.58 vs plus_di 5.77 and rsi_divergence.bearish = true.",
+    "Clean R:R into open air with a fresh fundamental catalyst: daily fibonacci.fib_ext_low_1272 = 45.46 and hourly fib_ext_low_1272 = 45.66 cluster as the next downside objective. Entry ~49.65 mid, stop 51.30 (above watch_level $49.9 and invalidation $51.2), target 45.50 → ~4.15 reward vs ~1.65 risk = ~2.5:1. The driver is fresh, not stale: FY26 guidance cut on the WATCHMAN slowdown drove the -12.43% session to a two-year low (recent_news_7d, 2026-05-28), with Wells Fargo cutting its PT to $55 from $75."
   ],
   "risks_acknowledged": [
-    "Hourly RSI at 12.53 and daily RSI at 35.87 approaching oversold territory — a violent dead-cat bounce to the $52.52–$53.64 (fib_786) zone is probable within 1–2 sessions before continuation lower. Premature entry above $50.20 risks being squeezed out.",
-    "Analyst consensus remains 'buy' with avg PT ~$93.18 and Citi/Stifel both maintaining Buy on the guidance cut (just cutting PTs to $70/$75). A coordinated analyst upgrade cycle or positive WATCHMAN FLX Pro data readout could trigger short-covering.",
-    "FRACTURE IDE trial for SEISMIQ 4CE met all primary endpoints (2026-05-27 news) — pipeline optionality is real and could attract dip buyers, partially offsetting WATCHMAN weakness narrative.",
-    "No insider selling in the last 30 days (recent_insider_trades=[]) — insiders are not distributing alongside the selloff, which slightly reduces conviction that this is a top-level capitulation rather than an overreaction."
+    "Downside is already extended: daily rsi_14 = 35.87 / rsi_21 = 31.18 and hourly rsi_21 = 17.10 are near/at oversold, raising the odds of a mean-reversion bounce toward the $51.40 lower band or $52.52 pivot before continuation — wait for a continuation break below the $49.9 watch_level rather than chasing.",
+    "Analyst base stays bullish: consensus rating 'buy', avg PT ~$93.18, RBC reiterated Outperform $100 PT and Citi/Leerink kept Buy/Outperform ($70/$74) — all well above $50, so dip-buying or an upgrade could squeeze the short.",
+    "Daily MACD histogram is positive (+0.3215, line -1.7523 vs signal -2.0738), signaling downside momentum is decelerating on the daily timeframe even as hourly stays bearish.",
+    "Research gap: new_ticker = true with all wiki slices missing and recent_insider_trades empty, so there is no prior setup-respect history or insider-distribution confirmation to corroborate the thesis."
   ],
   "web_sources_last_7d": [
     "https://stocktwits.com/news-articles/markets/equity/why-did-bsx-li-bj-stocks-hit-52-week-lows-today/cZgicjfResT",
     "https://www.marketbeat.com/stocks/NYSE/BSX/news/",
+    "https://www.investing.com/news/analyst-ratings/leerink-cuts-boston-scientific-stock-price-target-on-watchman-outlook-93CH-4714071",
+    "https://public.com/stocks/bsx/forecast-price-target",
+    "https://www.investing.com/news/analyst-ratings/rbc-capital-reiterates-boston-scientific-stock-rating-on-watchman-outlook-93CH-4714700",
     "https://stockanalysis.com/stocks/bsx/",
     "https://finance.yahoo.com/markets/stocks/articles/boston-scientific-bsx-earnings-expected-140014273.html"
   ]

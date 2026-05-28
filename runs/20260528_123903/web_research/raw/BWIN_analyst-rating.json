@@ -1,44 +1,16 @@
 {
   "query": "BWIN stock 2026-05-28 analyst rating",
-  "fetched_at": "2026-05-28T12:46:00Z",
+  "fetched_at": "2026-05-28T19:47:00Z",
   "results": [
-    {
-      "title": "Baldwin Insurance Group (BWIN) Stock Forecast and Price Target 2026 $BWIN",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/BWIN/forecast/",
-      "summary": "Overall analyst rating Buy (7.8/10), 5 Buy, 2 Hold, 1 Sell out of 9 analysts. Median price target $47.50, high $55.00, low $34.00."
-    },
-    {
-      "title": "BWIN Stock Forecast 2026 - Baldwin Insurance Price ...",
-      "url": "https://tickernerd.com/stock/bwin-forecast/"
-    },
-    {
-      "title": "The Baldwin Insurance Group, Inc. (BWIN) Stock Price, News, Quote & History - Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/BWIN/"
-    },
-    {
-      "title": "The Baldwin Insurance Group (BWIN) Stock Forecast & Price Targets",
-      "url": "https://stockanalysis.com/stocks/bwin/forecast/"
-    },
-    {
-      "title": "BWIN Stock Price Quote | Morningstar",
-      "url": "https://www.morningstar.com/stocks/xnas/bwin/quote"
-    },
-    {
-      "title": "BWIN Stock Price, Forecast, Financials & AI Analysis",
-      "url": "https://intellectia.ai/stock/BWIN"
-    },
-    {
-      "title": "BWIN Stock Quote Price and Forecast | CNN",
-      "url": "https://www.cnn.com/markets/stocks/BWIN"
-    },
-    {
-      "title": "BWIN: Today's Analyst Rating and Price Target Update | BWIN Stock News",
-      "url": "https://www.gurufocus.com/news/8663425/bwin-todays-analyst-rating-and-price-target-update-bwin-stock-news",
-      "summary": "Today's analyst rating and price target update for BWIN."
-    },
-    {
-      "title": "Should I Buy BWIN? BWIN 2026 Analysis - Intellectia AI",
-      "url": "https://intellectia.ai/stock/BWIN/should-i-buy"
-    }
-  ]
+    {"title": "Baldwin Insurance Group (BWIN) Stock Forecast and Price Target 2026 $BWIN", "url": "https://www.marketbeat.com/stocks/NASDAQ/BWIN/forecast/", "summary": "Overall analyst rating Buy (7.8/10), 5 Buy, 2 Hold, 1 Sell out of 9 analysts. Median price target $47.50, high $55.00, low $34.00."},
+    {"title": "BWIN Stock Forecast 2026 - Baldwin Insurance Price", "url": "https://tickernerd.com/stock/bwin-forecast/"},
+    {"title": "The Baldwin Insurance Group (BWIN) Stock Forecast & Price Targets", "url": "https://stockanalysis.com/stocks/bwin/forecast/"},
+    {"title": "BWIN Stock Price Quote | Morningstar", "url": "https://www.morningstar.com/stocks/xnas/bwin/quote"},
+    {"title": "BWIN Stock Price, Forecast & Analysis | BALDWIN INSURANCE GROUP INC | ChartMill.com", "url": "https://www.chartmill.com/stock/quote/BWIN/profile"},
+    {"title": "BWIN Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/BWIN"},
+    {"title": "BWIN Stock: Price, Forecast, Financials & AI Analysis", "url": "https://intellectia.ai/stock/BWIN"},
+    {"title": "BWIN Stock: Earnings Growth, Relative Strength & Analysis | Tweevest", "url": "https://tweevest.com/stocks/BWIN"},
+    {"title": "BWIN: Today's Analyst Rating and Price Target Update | BWIN Stock News", "url": "https://www.gurufocus.com/news/8663425/bwin-todays-analyst-rating-and-price-target-update-bwin-stock-news"}
+  ],
+  "notes": "Consensus Buy (7.8/10): 5 Buy, 2 Hold, 1 Sell across 9 analysts. Median PT $47.50 (high $55.00, low $34.00). Trading ~$44.54, median implies ~6.6% upside. Wells Fargo reaffirmed Hold 2026-05-27 (from news search). No fresh PT changes in last 7 days surfaced beyond the WF reiteration."
 }

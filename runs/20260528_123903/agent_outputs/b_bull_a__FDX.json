@@ -1,21 +1,21 @@
 {
   "ticker": "FDX",
   "setup_direction": "long",
-  "bull_strength": 8,
-  "entry_zone": {"low": 413.50, "high": 415.00},
+  "bull_strength": 6,
+  "entry_zone": {"low": 413.50, "high": 415.50},
   "target": 429.90,
-  "stop": 407.50,
-  "expected_holding_days": 7,
+  "stop": 406.00,
+  "expected_holding_days": 6,
   "top_3_arguments": [
-    "Full MA stack in bullish alignment: price ($411.78) is above EMA5 (+3.53%), EMA10 (+5.49%), EMA20 (+6.98%), EMA50 (+9.76%), and EMA200 (+29.0%) with ema_aligned_uptrend=true. ADX-14=28.5 (strong trend), plus_di=30.13 vs minus_di=14.34 — directional bias is unambiguously long. Five-session price run from $386.84 to $411.78 (+6.5%) closed at the high of the range each day, showing no distribution.",
-    "Simultaneous catalyst stack driving institutional forced-buying: (1) S&P 500 addition effective May 27 — index funds must purchase ~$97B market cap name before next rebalance; (2) June 1 FedEx Freight spin-off isolates higher-margin package operations and improves standalone EPS visibility; (3) JPMorgan upgrade to Overweight with $460 PT published same day (2026-05-27). The breakout session (May 27) printed volume of 1,853,600 vs 20-day avg of 1,624,460 (relative volume 1.14x) on the exact session all three catalysts converged — institutional accumulation, not retail momentum.",
-    "Fib extension target at $429.90 (1.272 extension of the $354.14–$413.70 swing, data from daily_indicators.fibonacci.fib_ext_1272) produces R:R of ($429.90 - $413.50) / ($413.50 - $407.50) = $16.40 / $6.00 = 2.7:1 from breakout trigger. MACD histogram=+2.9901 expanding (not yet showing exhaustion). Hourly ADX-24=54.09 with plus_di=40.47 vs minus_di=10.10 confirms the short-term trend is even stronger than the daily read. OBV trend=up, diverging_from_price=false — accumulation is confirming the price advance."
+    "Textbook bullish trend structure: daily moving_averages.ema_aligned_uptrend = true with price above every MA in order (price_vs_ma.above_ema_20/50/200 all true; pct_from_ema_50 = +9.76%, pct_from_ema_200 = +29.0%). adx_14 = 28.5 with plus_di 30.13 vs minus_di 14.34 (trend_strength 'strong') confirms a directional, not choppy, advance. Breakout entry above watch_level $413.50 (recent_high 413.7) targets fib_ext_1272 = $429.90.",
+    "Momentum is broad and price/volume-confirmed: macd histogram = +2.99 with macd_line 5.78 over signal 2.79; roc_5d = +9.82% and roc_10d = +9.39%; daily volume.obv.trend = 'up' not diverging, volume_bias_10d = 'up', and the 2026-05-27 breakout bar printed relative_volume 1.14 (1,853,600 vs 1,624,460 avg). Five consecutive higher closes (386.84 to 411.78) with each near the session high shows no distribution.",
+    "Catalyst stack supports post-breakout continuation: S&P 500 inclusion effective 2026-05-27 (forced index-fund buying on a ~$98B-cap name), JPMorgan Overweight upgrade with $460 PT on 2026-05-27, and the June 1 FedEx Freight spin-off isolating higher-margin package ops. Earnings are 26 days out (earnings.days_until_next = 26), so a ~6-day hold carries no earnings-blackout risk. R:R from $413.50 entry to $429.90 target vs $406.00 stop = 16.40 / 7.50 = 2.2:1."
   ],
   "risks_acknowledged": [
-    "Daily RSI-14=72.75 and RSI-7=87.41 are overbought; Bollinger pct_b=1.0419 (price extended above upper band). The setup is extended — a 1–2 day pullback to $405–$408 before the breakout confirms is statistically likely and would invalidate the trade at the stop.",
-    "Hourly RSI divergence is bearish (rsi_divergence.bearish=true on hourly timeframe) — intraday momentum peaked before price on the hourly chart, a near-term fade risk. Entry strictly above $413.50 (watch level) is required to avoid buying into the rollback.",
-    "S&P 500 add-driven buying can front-run and then reverse sharply once the rebalance date passes (classic 'buy the news, sell the event' dynamic). Freight spin-off on June 1 is 4 days away — the market has partially priced this; any post-spin disappointment or 'when-issued' selling pressure could hit RemainCo FDX immediately.",
-    "Earnings in 26 days (June 23, 2026) — post-spin first-look quarter with elevated analyst scrutiny on margin trajectory and Network 2.0 savings. Position must be sized to allow exit well before that date; this limits the holding window to roughly 7–10 days maximum."
+    "Overbought on multiple oscillators: rsi_7 = 87.41, rsi_14 = 72.75, bollinger.pct_b = 1.04 (close above upper band 409.5), daily z_score_50 = 2.28 — stretched, so the breakout can fail into a mean-reversion snapback toward ema_5 397.7 / ema_10 390.3.",
+    "Breakout lacks strong volume confirmation: relative_volume only 1.14x (not the 1.5x+ that signals real institutional commitment), and Stage 2 flagged premarket essentially flat (+0.24%). Stage 2 conviction was only 4/10.",
+    "Hourly tape shows near-term exhaustion: hourly rsi_divergence.bearish = true, hourly momentum roc_5d = -0.24% and roc_10d = -0.36% (stalling at the 413.7 resistance), and hourly volume.obv.trend = 'down' — the daily breakout is not yet ratified intraday. Entry strictly above $413.50 avoids buying the rollback.",
+    "Event risk in the hold window: the FedEx Freight (FDXF) separation completes June 1 and S&P-add buying can front-run then fade post-rebalance ('buy the news, sell the event'). Note analyst avg_price_target in bundle is $392.11 — below current $411.78 — so consensus PT lags price even with the JPMorgan $460 outlier."
   ],
   "web_sources_last_7d": [
     "https://www.gurufocus.com/news/8886523/fedex-fdx-and-others-join-key-stock-indices",

@@ -24,6 +24,27 @@
       "summary": "Stifel analyst Rick Wise reduced his price target on Boston Scientific to $75 from $85 in response to the guidance cut, keeping a Buy rating."
     },
     {
+      "headline": "Leerink cuts BSX price target to $74 from $87, maintains Outperform",
+      "url": "https://www.investing.com/news/analyst-ratings/leerink-cuts-boston-scientific-stock-price-target-on-watchman-outlook-93CH-4714071",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "Leerink lowered its price target on Boston Scientific to $74 from $87 on the Watchman outlook while keeping an Outperform rating."
+    },
+    {
+      "headline": "Wells Fargo cuts BSX price target to $55 from $75",
+      "url": "https://public.com/stocks/bsx/forecast-price-target",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "Wells Fargo lowered its price target on Boston Scientific to $55 from $75 following the guidance cut."
+    },
+    {
+      "headline": "RBC Capital reiterates Outperform and $100 price target on BSX",
+      "url": "https://www.investing.com/news/analyst-ratings/rbc-capital-reiterates-boston-scientific-stock-rating-on-watchman-outlook-93CH-4714700",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Despite Watchman concerns, RBC Capital reiterated an Outperform rating and $100 price target on Boston Scientific."
+    },
+    {
       "headline": "Boston Scientific FRACTURE IDE trial of SEISMIQ 4CE coronary IVL catheter meets all primary endpoints",
       "url": "https://stockanalysis.com/stocks/bsx/",
       "date": "2026-05-27",
@@ -41,7 +62,7 @@
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 93.18,
-    "recent_changes": "Citi cut PT to $70 from $87 (maintains Buy, 2026-05-28); Stifel cut PT to $75 from $85 (maintains Buy, 2026-05-28). Broader consensus average PT ~$93.18 with median ~$95.50 — both well above current stock price near $50 following the guidance-cut selloff."
+    "recent_changes": "Wave of PT cuts after the FY26 guidance reduction: Citi to $70 from $87 (Buy, 2026-05-28); Stifel to $75 from $85 (Buy, 2026-05-28); Leerink to $74 from $87 (Outperform, 2026-05-28); Wells Fargo to $55 from $75 (2026-05-28). RBC reiterated Outperform with $100 PT. Aggregated average PT ~$93.18 (median ~$95.50) appears stale relative to these cuts; all still sit well above the current stock price near $50."
   },
   "earnings_context": {
     "next_earnings_date": "2026-07-22",

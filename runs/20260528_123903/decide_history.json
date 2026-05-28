@@ -58,5 +58,76 @@
         "reason": "single_position_cap_exceeded"
       }
     ]
+  },
+  {
+    "decided_at": "2026-05-28T18:48:50+00:00",
+    "approved": [
+      "BSX"
+    ],
+    "judge_approved_count": 4,
+    "writer_rejected": [
+      {
+        "ticker": "AVGO",
+        "reason": "other: earnings_binary_within_hold_window \u2014 both bears dominate (b_bear_a strength=8, b_bear_b=7 vs b_bull_a=5, b_bull_b=6). Probability weights: p_bull=5/(5+8)=0.3846, p_catalyst=6/(6+7)=0.4615, combined_p_bull=0.4231, combined_p_bear=0.5769. Entry=midpoint b_bull_a zone (422.50+424.17)/2=423.34; target=min(440.50,442.00)=440.50; stop=max(413.50,413.50)=413.50. Gate 2 expected_return_per_share = 0.4231*(440.50-423.34) - 0.5769*(423.34-413.50) = 7.26 - 5.68 = +$1.58 (marginally positive). Sizing survived: risk_dollars=25000*1%*1.0=$250, risk_per_share=$9.84, Gate-3 qty=floor(250/9.84)=25; notional $10,584 > 15% cap $3,750 so small_scaled M=floor(5000/423.34)=11, risk_M=$108.24 >= $100 floor (43% of budget). DECISION: reject on synthesis. earnings.days_until_next=6 (June 3 AC) with bulls' own expected_holding_days=4 lands the position 2 days before a binary print where +47% YoY revenue is already euphorically priced (85% buy ratio, avg PT $477.67). The $9.84 stop band is far thinner than daily atr.atr_14=$16.51, so a single earnings-adjacent candle blows the stop. Daily trend does not confirm the breakout: adx_14=11.56 (weak), macd.histogram=-3.236 (no bullish_crossover, line 8.51 < signal 11.75), rsi_14=48.42 (neutral), volume.obv.trend=down diverging_from_price=true, volume_bias_10d=down, daily relative_volume=0.95. The thin +$1.58 edge rests on hourly-only strength on thin tape (hourly volume.relative_volume=0.09). Lesson 2026-05-18 ROK breakout: overbought/mean-reversion stop-hit when daily momentum failed to confirm \u2014 same pattern here. Edge too thin for the binary event risk with a sub-ATR stop and dominant bear consensus."
+      },
+      {
+        "ticker": "CPAY",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "CRS",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "FDX",
+        "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gates 0-3 passed: all 4 perspectives consensus long; can_open_new_position=true and phase=full; expected_return_per_share = combined_p_bull*(target-entry) - combined_p_bear*(entry-stop) = 0.5165*(429.90-414.50) - 0.4835*(414.50-407.00) = +$4.33 (>0), where combined_p_bull = ((6/(6+7)) + (8/(8+6)))/2 = 0.5165 (bull_a=6/bear_a=7, bull_b=8/bear_b=6), entry=midpoint 414.50, target=min(429.90,432.00)=429.90, stop=max(406.00,407.00)=407.00; Gate-3 quantity=floor(250/7.50)=33 shares. Gate 4 fails: notional 414.50*33=$13,678.50 >> single_cap $3,750; small-scaled M=floor(5000/414.50)=12 shares, risk_M=12*7.50=$90 < $100 (40% of the $250 risk budget). No quantity fits the 20% notional cap while still using >=40% of risk budget at this $7.50 stop distance."
+      },
+      {
+        "ticker": "MAR",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "MIDD",
+        "reason": "single_position_cap_exceeded: stock too high-priced relative to its tight stop for current account size, cannot fit even minimum scaled position. Gate 0-3 passed (all 4 perspectives setup_direction=long; can_open_new_position=true, phase=full, daily_pnl=$0; combined_p_bull=0.5 from bull_a/bear_a strengths 6/6 and bull_b/bear_b strengths 6/6; entry=155.605=mid(bull_a.entry_zone 154.71,156.50), long target=min(bull_a 166.89, bull_b 161.50)=161.50, stop=max(bull_a 152.40, bull_b 153.00)=153.00; expected_return_per_share=0.5*(161.50-155.605)-0.5*(155.605-153.00)=2.9475-1.3025=+$1.645>0; risk_dollars=$250 at 1.0% x 1.0 mult, risk_per_share=|155.605-153.00|=2.605, Gate-3 qty=floor(250/2.605)=95). Gate 4 fails: notional 95*155.605=$14,782 >> single_cap $3,750; small-scaled M=floor(5000/155.605)=32 gives risk_M=32*2.605=$83.36 < risk_dollars_floor $100 (40% of $250 budget). Reaching the 40% risk floor needs >=39 shares, whose notional 39*155.605=$6,069=24.3% breaches the 20% extended cap ($5,000). No M satisfies notional<=20% AND risk>=40% simultaneously. The conservative $2.605/share stop is the binding constraint."
+      },
+      {
+        "ticker": "H",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$121.50 > available=$90.00)"
+      },
+      {
+        "ticker": "UNP",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$114.75 > available=$90.00)"
+      },
+      {
+        "ticker": "BWIN",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$189.23 > available=$90.00)"
+      }
+    ],
+    "judge_rejected": [
+      {
+        "ticker": "AVGO",
+        "reason": "other: earnings_binary_within_hold_window \u2014 both bears dominate (b_bear_a strength=8, b_bear_b=7 vs b_bull_a=5, b_bull_b=6). Probability weights: p_bull=5/(5+8)=0.3846, p_catalyst=6/(6+7)=0.4615, combined_p_bull=0.4231, combined_p_bear=0.5769. Entry=midpoint b_bull_a zone (422.50+424.17)/2=423.34; target=min(440.50,442.00)=440.50; stop=max(413.50,413.50)=413.50. Gate 2 expected_return_per_share = 0.4231*(440.50-423.34) - 0.5769*(423.34-413.50) = 7.26 - 5.68 = +$1.58 (marginally positive). Sizing survived: risk_dollars=25000*1%*1.0=$250, risk_per_share=$9.84, Gate-3 qty=floor(250/9.84)=25; notional $10,584 > 15% cap $3,750 so small_scaled M=floor(5000/423.34)=11, risk_M=$108.24 >= $100 floor (43% of budget). DECISION: reject on synthesis. earnings.days_until_next=6 (June 3 AC) with bulls' own expected_holding_days=4 lands the position 2 days before a binary print where +47% YoY revenue is already euphorically priced (85% buy ratio, avg PT $477.67). The $9.84 stop band is far thinner than daily atr.atr_14=$16.51, so a single earnings-adjacent candle blows the stop. Daily trend does not confirm the breakout: adx_14=11.56 (weak), macd.histogram=-3.236 (no bullish_crossover, line 8.51 < signal 11.75), rsi_14=48.42 (neutral), volume.obv.trend=down diverging_from_price=true, volume_bias_10d=down, daily relative_volume=0.95. The thin +$1.58 edge rests on hourly-only strength on thin tape (hourly volume.relative_volume=0.09). Lesson 2026-05-18 ROK breakout: overbought/mean-reversion stop-hit when daily momentum failed to confirm \u2014 same pattern here. Edge too thin for the binary event risk with a sub-ATR stop and dominant bear consensus."
+      },
+      {
+        "ticker": "CPAY",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "CRS",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "FDX",
+        "reason": "single_position_cap_exceeded: stock too high-priced for current account size, cannot fit even minimum scaled position. Gates 0-3 passed: all 4 perspectives consensus long; can_open_new_position=true and phase=full; expected_return_per_share = combined_p_bull*(target-entry) - combined_p_bear*(entry-stop) = 0.5165*(429.90-414.50) - 0.4835*(414.50-407.00) = +$4.33 (>0), where combined_p_bull = ((6/(6+7)) + (8/(8+6)))/2 = 0.5165 (bull_a=6/bear_a=7, bull_b=8/bear_b=6), entry=midpoint 414.50, target=min(429.90,432.00)=429.90, stop=max(406.00,407.00)=407.00; Gate-3 quantity=floor(250/7.50)=33 shares. Gate 4 fails: notional 414.50*33=$13,678.50 >> single_cap $3,750; small-scaled M=floor(5000/414.50)=12 shares, risk_M=12*7.50=$90 < $100 (40% of the $250 risk budget). No quantity fits the 20% notional cap while still using >=40% of risk budget at this $7.50 stop distance."
+      },
+      {
+        "ticker": "MAR",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "MIDD",
+        "reason": "single_position_cap_exceeded: stock too high-priced relative to its tight stop for current account size, cannot fit even minimum scaled position. Gate 0-3 passed (all 4 perspectives setup_direction=long; can_open_new_position=true, phase=full, daily_pnl=$0; combined_p_bull=0.5 from bull_a/bear_a strengths 6/6 and bull_b/bear_b strengths 6/6; entry=155.605=mid(bull_a.entry_zone 154.71,156.50), long target=min(bull_a 166.89, bull_b 161.50)=161.50, stop=max(bull_a 152.40, bull_b 153.00)=153.00; expected_return_per_share=0.5*(161.50-155.605)-0.5*(155.605-153.00)=2.9475-1.3025=+$1.645>0; risk_dollars=$250 at 1.0% x 1.0 mult, risk_per_share=|155.605-153.00|=2.605, Gate-3 qty=floor(250/2.605)=95). Gate 4 fails: notional 95*155.605=$14,782 >> single_cap $3,750; small-scaled M=floor(5000/155.605)=32 gives risk_M=32*2.605=$83.36 < risk_dollars_floor $100 (40% of $250 budget). Reaching the 40% risk floor needs >=39 shares, whose notional 39*155.605=$6,069=24.3% breaches the 20% extended cap ($5,000). No M satisfies notional<=20% AND risk>=40% simultaneously. The conservative $2.605/share stop is the binding constraint."
+      }
+    ]
   }
 ]

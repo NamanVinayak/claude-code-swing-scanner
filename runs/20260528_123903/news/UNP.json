@@ -1,6 +1,6 @@
 {
   "ticker": "UNP",
-  "researched_at": "2026-05-28T12:45:00Z",
+  "researched_at": "2026-05-28T19:45:00Z",
   "news_items": [
     {
       "headline": "Union Pacific rallies to 52-week high after Q1 earnings beat",
@@ -41,7 +41,7 @@
   "analyst_consensus": {
     "rating": "buy",
     "avg_price_target": 291.05,
-    "recent_changes": "Multiple PT raises this week: Raymond James to $310 (Strong Buy), Benchmark to $300 (Buy), Evercore ISI to $277 (Outperform), BMO Capital to $285 (Market Perform), UBS to $274 (Neutral). Consensus Buy across 23 analysts with avg PT $291.05 (+8% upside)."
+    "recent_changes": "Multiple PT raises this week: Raymond James to $310 (Strong Buy), Benchmark to $300 (Buy), TD Cowen to $282 (Buy), Evercore ISI to $277 (Outperform), BMO Capital to $285 (Market Perform), UBS to $274 (Neutral). Consensus Buy across 23 analysts (~67% Buy) with avg PT $291.05 (+8.1% upside)."
   },
   "earnings_context": {
     "next_earnings_date": "2026-07-23",

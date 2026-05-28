@@ -1,26 +1,25 @@
 {
   "ticker": "MIDD",
   "setup_direction": "long",
-  "bull_strength": 8,
-  "entry_zone": {"low": 156.00, "high": 157.50},
-  "target": 167.00,
-  "stop": 152.00,
+  "bull_strength": 6,
+  "entry_zone": {"low": 155.20, "high": 156.50},
+  "target": 161.50,
+  "stop": 153.00,
   "expected_holding_days": 10,
   "top_3_arguments": [
-    "Multi-analyst PT upgrade stack within 7 days: Canaccord raised PT $171→$175 (Buy, 2026-05-27) and JP Morgan set Street-high PT at $185 (2026-05-08), driving consensus avg PT to $166.6 vs current $154.44 — 11 Buy / 24 Hold / 1 Sell. This is fresh institutional re-rating post-Q1, not stale sentiment. R:R math: entry mid $156.75, stop $152.00 → risk $4.75; target $167.00 → reward $10.25 → 2.16:1.",
-    "Q1 2026 earnings beat with raised full-year guidance (2026-05-08): management cited beverage platform growth and automation solutions as key drivers, flagged margin recovery expected H2 2026 as tariff headwinds ease. Spinoff rebranding of food processing segment as Midera Food Processing (2026-05-11) removes a structural discount — post-spinoff entity is a pure-play Commercial Foodservice story, which commands higher multiples. Next earnings not until 2026-08-06 (69 days away — no near-term earnings risk).",
-    "Price action and technicals confirm institutional accumulation: 5-session move from $143.40 to $154.44 (+7.7%) with daily OBV trending up and no divergence from price; daily MACD bullish crossover with histogram +0.3741; hourly ADX 44.97 (strong trend), hourly MACD histogram +1.0237, hourly bullish RSI divergence confirmed. All daily EMAs aligned uptrend (ema_aligned_uptrend=true). Volume on 2026-05-27 was 672.5k vs 20d avg 673.5k — at-average volume on a breakout day suggests controlled institutional buying, not exhaustion. Daily Fib ext 1.272 at $175.21 aligns with Canaccord PT $175; daily RSI-14 = 59.97 (room to run, not overbought)."
+    "Active portfolio-simplification catalyst stack within last 7 days (recent_news_7d, both positive): Middleby agreed 2026-05-21 to sell 51% of its Residential Kitchen business at an $885M valuation, and is advancing the Midera Food Processing spin-off targeting early-July 2026 completion (2026-05-22). A streamlined pure-play Commercial Foodservice entity is a sum-of-parts re-rate story with a hard near-term date.",
+    "Trend and momentum confirm the breakout setup: daily EMAs fully aligned uptrend (ema_aligned_uptrend=true), price above sma_200 by +9.84%, daily MACD bullish_crossover=true with histogram +0.3741, daily ADX 24.15 with +DI 36.29 > -DI 21.46, roc_5d +9.13%, and OBV trend up with diverging_from_price=false — a clean push toward the $156 watch level.",
+    "Constructive analyst/earnings backdrop with no near-term earnings risk: analyst_consensus_web rating Buy, avg PT ~$166 (~7.5% above current $154.44); earnings.days_until_next = 69. Target $161.50 sits near daily fib_236 ($159.67) and below nearest_resistance $166.89. R:R from entry mid $155.85 (risk $2.85 to $153.00 stop, reward $5.65 to target) = ~1.98:1."
   ],
   "risks_acknowledged": [
-    "Hourly Bollinger %B = 0.809 and daily RSI-7 = 82.63 indicate short-term overbought condition on the 5-session sprint — a pullback to the watch level ($156) or even $152-153 before confirming breakout is plausible; entering on strength into this zone risks chasing.",
-    "Spinoff completion (targeted early July 2026) is pending regulatory approval — any delay or adverse ruling kills the near-term catalyst and the multiple re-rating story.",
-    "Consensus is weighted 24 Hold vs 11 Buy — majority of the Street is not yet on board. If macro conditions deteriorate (industrials / foodservice capex cuts), Hold ratings could flip to Sell before the spinoff closes.",
-    "No recent insider trades in bundle (recent_insider_trades = []). Lack of insider buying removes a confirmation signal that would otherwise strengthen conviction."
+    "Catalysts are corporate-action, not fresh surprises: the Q1 beat and all dated analyst PT actions (JPM $185 on 2026-05-08, Baird mid-May) are older than 7 days and per analyst_consensus_web are 'already priced in' — the deal/spin news may be reflected after the +7.7% 5-day run.",
+    "Near-term overbought with bearish divergence flagged: daily rsi_7 = 82.63 and daily rsi_divergence.bearish = true; relative_volume only 1.0 and zero premarket volume confirmation (catalyst_note) — the breakout could stall or fade on the first push.",
+    "recent_insider_trades is empty — no insider-buying confirmation; conviction rests on corporate events plus technicals only.",
+    "Wiki context is a brand-new ticker (new_ticker=true) with no thesis/catalyst/technicals history, so there is no prior memory to corroborate the setup."
   ],
   "web_sources_last_7d": [
     "https://middlebycorporation.gcs-web.com/news-and-events/news-releases",
-    "https://www.marketbeat.com/stocks/NASDAQ/MIDD/news/",
     "https://stockstory.org/us/stocks/nasdaq/midd/news/earnings-call/midd-q1-deep-dive-segment-spin-off-and-beverage-momentum-define-transition-year",
-    "https://www.benzinga.com/quote/MIDD/analyst-ratings"
+    "https://www.theglobeandmail.com/investing/markets/stocks/MIDD/pressreleases/446758/middleby-midd-q4-2025-earnings-call-transcript/"
   ]
 }

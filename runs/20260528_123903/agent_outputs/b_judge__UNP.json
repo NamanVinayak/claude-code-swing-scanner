@@ -4,20 +4,20 @@
     {
       "ticker": "UNP",
       "direction": "long",
-      "entry_price": 280.88,
+      "entry_price": 280.25,
       "stop_loss": 273.50,
       "target_price": 295.00,
-      "target_price_2": 300.00,
+      "target_price_2": 299.98,
       "quantity": 17,
       "expected_holding_days": 9,
       "setup_type": "breakout",
       "conviction": 6,
-      "rationale": "Catalyst bull (b_bull_b, strength=8) dominates over fundamental bear (b_bear_b, strength=6); technical bull and bear are evenly matched (both strength=7). combined_p_bull=(7/14 + 8/14)/2=0.536; expected_return_per_share = 0.536×(295.00−280.88) − 0.464×(280.88−273.50) = 0.536×14.12 − 0.464×7.38 = 7.57 − 3.42 = +$4.14/share. Key disagreement: bears correctly flag ex-dividend date May 29 (−$1.38 mechanical gap-down) and bearish RSI divergence (rsi_divergence.bearish=true, 60-bar lookback, pct_b=1.1953 — extended above upper Bollinger), but earnings catalyst (EPS $2.87 +6% YoY, analyst upgrades from Raymond James to $310 and Benchmark to $300 on 2026-05-28) provides fresh fundamental support that outweighs the technical exhaustion signal. Hourly OBV divergence (diverging_from_price=true, hourly price $266.73 below all hourly MAs at snapshot time) is a real intraday distribution risk — watch for early weakness. Position sizing: risk_dollars=$250 (25000×1%×1.0); risk_per_share=|280.88−273.50|=$7.38; Gate-3 quantity=floor(250/7.38)=33; notional 33×$280.88=$9,269 exceeds standard cap $3,750 (15%) — small-scaled path: M=floor(5000/280.88)=17, risk_M=17×$7.38=$125.46≥floor $100 (40% of risk budget); scaled down from 33 to 17 shares to fit small-account cap, using 50% of risk budget.",
-      "risk_usd": 125.46,
+      "rationale": "Both bulls win on a volume-confirmed breakout: daily relative_volume=1.47 (4,045,800 vs avg_volume_20 2,745,545), ema_aligned_uptrend=true through the 200d, macd.histogram=+0.1241 with bullish_crossover=true, adx_14=20.66 (plus_di 28.02 > minus_di 15.30), and earnings.days_until_next=56 (no near-term earnings risk). Key disagreement resolved: bears flag overextension (daily bollinger.pct_b=1.1953 above the upper band, z_score_50=1.85, rsi_divergence.bearish=true), a soft hourly tape (hourly macd histogram -0.1733, OBV trend down), and tomorrow's ex-div strip — real exhaustion/timing risk that capped conviction at 6 and tightened the entry window, but did not invert the math. ER/share = combined_p_bull 0.5357*(295.00-280.25) - combined_p_bear 0.4643*(280.25-273.50) = 7.90 - 3.13 = +$4.77 (p_bull = bull_a 7/(7+bear_a 7)=0.50; p_catalyst = bull_b 8/(8+bear_b 6)=0.5714; averaged). Sizing: risk_dollars=$250 (25000*1%*1.0), risk_per_share=|280.25-273.50|=$6.75, Gate-3 qty=floor(250/6.75)=37; notional 37*280.25=$10,369 exceeds 15% standard cap $3,750 -> small-scaled: M=floor(5000/280.25)=17, risk_M=17*6.75=$114.75 >= floor $100 (40% of budget); scaled down from 37 to 17 shares to fit small-account cap, using 46% of risk budget. risk_usd=$114.75.",
+      "risk_usd": 114.75,
       "position_size_class": "small_scaled",
       "entry_valid_until": "2026-05-28T20:00:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "UNP approved small_scaled (17 shares, $125 risk): post-earnings breakout with analyst upgrades drives positive expected return (+$4.14/share) despite equal technical bull/bear conviction. Entry valid through end of 2026-05-28 session only — ex-dividend May 29 creates mechanical gap-down risk that invalidates any unfilled order."
+  "summary": "UNP long approved (small_scaled, 17 shares, $114.75 risk): volume-confirmed breakout with a full bullish daily MA stack and +$4.77/share expected return. Overextension (pct_b 1.20, bearish RSI divergence) and ex-div-tomorrow timing risk held conviction to 6 and capped the entry window at today's 16:00 ET close. All budget gates pass with room to spare ($114.75 vs $1,000 risk cap, $4,764 notional vs $15,000 deploy cap)."
 }

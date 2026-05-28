@@ -1,23 +1,11 @@
 {
   "ticker": "MIDD",
-  "approved": [
+  "approved": [],
+  "rejected": [
     {
       "ticker": "MIDD",
-      "direction": "long",
-      "entry_price": 156.00,
-      "stop_loss": 152.00,
-      "target_price": 166.89,
-      "target_price_2": 175.21,
-      "quantity": 32,
-      "expected_holding_days": 9,
-      "setup_type": "breakout",
-      "conviction": 6,
-      "rationale": "Gate 2: p_bull=(7/(7+7)+8/(8+6))/2=0.5357, p_bear=0.4643; entry=156.00, target=166.89 (min of bull targets), stop=152.00 (max of bull stops); expected_return=0.5357×10.89−0.4643×4.00=5.834−1.857=+$3.98/share. Bull thesis wins on EMA alignment (ema_aligned_uptrend=true, price above all MAs), MACD bullish crossover (histogram=+0.374), hourly ADX_24=44.97 (strong trend, +DI=39.62 vs -DI=8.39), and fresh fundamental catalyst (Q1 beat + analyst upgrades, consensus PT $166.60, earnings 69 days out). Bear concerns (daily bearish RSI divergence confirmed, rsi_7=82.63, volume ratio=1.0 on breakout day, hourly volume=0.10, volume-confirmed resistance at $154.71, spinoff overhang) are all verified against facts and reduce conviction to 6 but do not negate the positive expected return math. Gate 4 small-scaled: Gate-3 quantity 62 shares at notional $9,672 exceeds 15% single-position cap ($3,750); downsize to M=32 shares (notional $4,992 ≤ $5,000 extended cap), risk_M=$128 ≥ floor $100 (uses 51% of risk budget). Scaled down from 62 to 32 shares to fit small-account cap, using 51% of risk budget.",
-      "risk_usd": 128.00,
-      "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-28T16:30:00+00:00"
+      "reason": "single_position_cap_exceeded: stock too high-priced relative to its tight stop for current account size, cannot fit even minimum scaled position. Gate 0-3 passed (all 4 perspectives setup_direction=long; can_open_new_position=true, phase=full, daily_pnl=$0; combined_p_bull=0.5 from bull_a/bear_a strengths 6/6 and bull_b/bear_b strengths 6/6; entry=155.605=mid(bull_a.entry_zone 154.71,156.50), long target=min(bull_a 166.89, bull_b 161.50)=161.50, stop=max(bull_a 152.40, bull_b 153.00)=153.00; expected_return_per_share=0.5*(161.50-155.605)-0.5*(155.605-153.00)=2.9475-1.3025=+$1.645>0; risk_dollars=$250 at 1.0% x 1.0 mult, risk_per_share=|155.605-153.00|=2.605, Gate-3 qty=floor(250/2.605)=95). Gate 4 fails: notional 95*155.605=$14,782 >> single_cap $3,750; small-scaled M=floor(5000/155.605)=32 gives risk_M=32*2.605=$83.36 < risk_dollars_floor $100 (40% of $250 budget). Reaching the 40% risk floor needs >=39 shares, whose notional 39*155.605=$6,069=24.3% breaches the 20% extended cap ($5,000). No M satisfies notional<=20% AND risk>=40% simultaneously. The conservative $2.605/share stop is the binding constraint."
     }
   ],
-  "rejected": [],
-  "summary": "MIDD approved long at $156.00 entry, $152.00 stop, $166.89 target; small-scaled to 32 shares ($128 risk) due to single-position cap. Positive expected return (+$3.98/share) driven by bullish EMA alignment, strong hourly trend (ADX=44.97), and analyst PT catalyst, despite real bear concerns on RSI divergence, thin volume, and spinoff overhang. Entry window closes 2026-05-28T16:30 UTC (intraday breakout above $154.71 resistance — if not filled by mid-session the setup is stale)."
+  "summary": "MIDD long REJECTED on Gate 4 (single-position cap). Thesis is constructive (positive expected return +$1.645/share, unanimous long consensus, full uptrend MA stack, MACD bullish crossover, hourly ADX 48.54) but the ~$155.61 entry with a conservative $2.605 stop forces a 32-share max position under the 20% notional cap that uses only 33% of the risk budget, below the 40% floor; any larger size breaches the cap. High-priced name with a tight stop cannot fit a meaningful paper position on a $25k account."
 }

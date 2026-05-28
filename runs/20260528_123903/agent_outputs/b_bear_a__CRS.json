@@ -2,20 +2,19 @@
   "ticker": "CRS",
   "setup_direction": "long",
   "bear_strength": 7,
-  "setup_invalidation_levels": [453.69, 444.19, 431.13],
+  "setup_invalidation_levels": [453.0, 444.19, 442.86],
   "top_3_arguments": [
-    "Price is already AT the watch level ($460.91 vs watch_level $461.50) with sub-average breakout volume: daily_indicators.volume.relative_volume = 0.89x on the last two sessions (570,600 and 742,000 shares vs avg_volume_20 = 642,420). A genuine institutional breakout demands at least 1.5x average volume; this one cannot clear the prior pivot high ($458.97, 5 tests, volume_confirmed=false) on conviction. The breakout is unconfirmed and has fakeout fingerprints. Hourly OBV trend = 'down' with diverging_from_price = true — distribution is actively occurring while price prints new highs.",
-    "Hourly rsi_divergence.bearish = true, and hourly momentum is stalling hard: hourly roc_5d = 0.61%, roc_10d = 0.14% — near-zero. The 5-day surge of +9.2% (daily roc_5d = 13.42%) was almost entirely the earnings gap; the follow-through over the subsequent sessions is thinning out. Daily rsi_7 = 87.28 signals acute short-term exhaustion. Bollinger pct_b = 0.9549 — price is pressing the upper band with almost no room before mean-reversion pressure kicks in. Daily z_score_50 = 1.72, dist_from_50sma = 10.16% — historically extended relative to trend.",
-    "R:R is structurally poor at current price. Entry ~$461, stop at invalidation_level $453 = $8 risk. Nearest meaningful resistance is $475.69 (only 1 prior test, volume_confirmed=false) = $14.78 reward. That is 1.85:1, below the 2:1 minimum. Furthermore, the consensus analyst avg_price_target = $450 — BELOW the current price of $460.91 — meaning even TD Cowen's raised target of $470 implies only $9 of upside against $8 of risk. Street is caught flat-footed by the move; the stock has already priced in the guidance raise and then some."
+    "Entry buys directly into the top of an exhausted vertical move with no base. daily_indicators.bollinger.pct_b = 0.9549 (price $460.91 vs BB upper $463.89), daily_indicators.rsi.rsi_7 = 87.28 (acute overbought), daily_indicators.z_score_50 = 1.72, and daily_indicators.momentum.roc_5d = 13.42%. recent_prices_5d shows a +9.2% run from the $422.01 close (5/20) to $460.91 (5/27) with zero consolidation. The watch level $461.50 sits at the very top of this stretched bar — mean-reversion pressure, not continuation, is the higher-probability next move.",
+    "The breakout lacks volume confirmation and the daily trend is weak. daily_indicators.volume.relative_volume = 0.89 (570,600 vs avg_volume_20 642,420) — the advance into resistance is on BELOW-average volume. daily_indicators.adx.adx_14 = 10.73 ('weak'). And distribution risk is flagged on BOTH timeframes: daily_indicators.rsi_divergence.bearish = true and hourly_indicators.rsi_divergence.bearish = true, with hourly_indicators.momentum.roc_5d = -0.13 (momentum already rolling over intraday). A sub-1.0 relative-volume push into resistance under weak daily ADX with two-timeframe bearish RSI divergence is the textbook fakeout profile. There is a 5-tested pivot high at $458.97 (support_resistance.pivot_highs, volume_confirmed=false) directly overhead.",
+    "Reward-to-risk is below threshold and price has already run past where the Street values it. From watch $461.50 to the next meaningful resistance (recent_high / pivot_high $475.69, only 1 test, volume_confirmed=false) is +$14.19; from $461.50 to invalidation $453.00 is -$8.50 — only 1.67:1, under the 2:1 minimum. analyst_consensus_web.avg_price_target = $422.88 is ~8% BELOW the current $460.91, so even after TD Cowen's raise to $470 the trade leans on the stock extending well beyond consensus, with no catalyst inside the window (earnings.days_until_next = 63)."
   ],
   "bull_acknowledgements": [
-    "The fundamental catalyst is real: record Q3 beat + FY2026 operating income guidance raised to $680M–$700M, aerospace/defense demand accelerating. This is not a hype-driven move — there is genuine fundamental support.",
-    "Daily MA stack is cleanly bullish: price above all EMAs and SMAs in aligned uptrend order (ema_aligned_uptrend = true), including ema_50 ($417.87) and sma_200 ($334.33). Trend structure on the daily chart is intact. Hourly ADX_24 = 61.72 with trend_strength = 'strong' — the hourly trend has real momentum.",
-    "MACD on both timeframes is positive and histogram is expanding (daily histogram = 2.4457, hourly = 2.6695). No MACD crossdown yet. If volume re-accelerates above 1.5x on a close above $462, the breakout could validate quickly."
+    "The trend structure is genuinely intact: daily_indicators.moving_averages.ema_aligned_uptrend = true with price above every MA (above_ema_50 +10.3%, above_sma_200 +37.86%), and daily MACD histogram is positive and expanding (+2.4457, no crossdown).",
+    "The catalyst is real, not hype: TD Cowen raised its PT to $470 with a Buy rating on 2026-05-26, following a record earnings beat and raised FY2026 operating income guidance ($680M–$700M) on aerospace/defense demand.",
+    "Daily OBV trend is up and not diverging from price (daily_indicators.volume.obv.diverging_from_price = false) and hourly ADX_24 = 54.7 ('strong'), so the bearish RSI divergence is a warning flag rather than confirmed institutional selling — a high-volume close above $463 would invalidate this bear case quickly."
   ],
   "web_sources_last_7d": [
-    "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html",
-    "https://finance.yahoo.com/news/carpenter-technology-crs-earnings-call-090929524.html",
-    "https://www.benzinga.com/quote/CRS/analyst-ratings"
+    "https://finance.yahoo.com/quote/CRS/news/",
+    "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html"
   ]
 }

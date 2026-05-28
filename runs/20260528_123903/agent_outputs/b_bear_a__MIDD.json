@@ -1,22 +1,21 @@
 {
   "ticker": "MIDD",
   "setup_direction": "long",
-  "bear_strength": 7,
-  "setup_invalidation_levels": [152.5, 150.74, 147.99],
+  "bear_strength": 6,
+  "setup_invalidation_levels": [152.5, 150.01, 147.99],
   "top_3_arguments": [
-    "Daily bearish RSI divergence confirmed (rsi_divergence.bearish = true, lookback_bars = 60) while price has rallied +9.13% in 5 days (roc_5d = 9.13). rsi_14 sits at only 59.97 even as price prints multi-week highs — momentum is NOT confirming the price thrust. Simultaneously, rsi_7 = 82.63 signals severe short-term overbought exhaustion. The hourly roc_5d = -1.47 shows intraday momentum has already rolled over, suggesting distribution is quietly beginning. A breakout at $156 watch level on a diverging tape is a textbook fakeout setup.",
-    "Volume on this entire 5-day, +7.7% rally is structurally thin. Yesterday's close (2026-05-27) printed 672,500 shares against a 20-day average of 673,545 — a volume ratio of exactly 1.0. No expansion whatsoever on the move into resistance. Hourly volume ratio = 0.1 (current 5,615 vs avg 59,037) — the hourly bars show near-zero participation near the highs. Price is approaching the volume-confirmed hourly pivot resistance at $154.71 (6 tests, volume_confirmed = true) on evaporating volume. Breakouts on average or declining volume fail at a historically high rate; the entry trigger ($156.00) requires pushing through that $154.71 ceiling on even thinner air.",
-    "Price is 8.7% above the 50-day SMA ($142.08) with z_score_50 = 1.74 — statistically extended by over 1.7 standard deviations from the mean. The daily Bollinger %B = 0.765 (upper band at $161.34) and the fib_382 retracement level sits at $155.20, creating immediate overhead confluence right at and just above the $156 watch level. The spinoff of the Food Processing segment (rebranded Midera, targeted early July 2026 pending regulatory approval) introduces near-term structural selling pressure: index funds and institutional holders who want pure Commercial Foodservice exposure will sell the spun entity on the record date, creating distributional overhead for MIDD shares heading into the event. Stage 2 conviction was only 4/10 with zero premarket volume data available — the setup lacks the institutional endorsement needed to push through extended levels into a spinoff overhang."
+    "No volume confirmation on a breakout setup. Yesterday's daily bar (2026-05-27) printed 672,500 shares vs avg_volume_20 = 673,545 — volume.relative_volume = 1.0, dead average, on a +9.13% five-day rip (momentum.roc_5d = 9.13). A breakout that needs to clear the 156.0 watch_level but is running on exactly-average volume is the textbook fakeout profile; there is no demand surge backing the thrust. catalyst_note also flags zero premarket volume data, so the watch_level break would be unconfirmable in real time.",
+    "Stretched and exhausted into the trigger zone with bearish divergence, not basing. daily rsi.rsi_7 = 82.63 (deeply overbought) and daily_indicators.rsi_divergence.bearish = true on a 60-bar lookback while price is +8.7% above sma_50 (dist_from_50sma_pct = 8.7) with z_score_50 = 1.74 (over 1.7 SD extended) and bollinger.pct_b = 0.765. The 156.0 watch_level sits directly under fib_382 = 155.20 and the volume-confirmed hourly pivot resistance at 154.71 (8 tests, volume_confirmed = true) plus the hourly upper Bollinger at 156.56 — clustered overhead supply right at the entry, an air-pocket break rather than a clean base.",
+    "Weak realized risk:reward against immediate structure. From watch_level 156.0 to stop 152.5 is ~3.5 of risk; the next genuine resistance is nearest_resistance / recent_high 166.89 (~10.9 reward, ~3:1 on paper) but price must first chew through the 154.71 hourly ceiling and 156.56 hourly BB cap before any of that target is reachable, so effective R:R is far worse than the headline. This is a new ticker (wiki_context.new_ticker = true) with no prior follow-through history to lean on, and Stage 2 assigned only conviction 4/10."
   ],
   "bull_acknowledgements": [
-    "Daily EMA stack is bullish (ema_aligned_uptrend = true): all EMAs from 5 to 200 are in ascending order with price above every one, including the 200-day EMA ($142.54). This is a structurally healthy trend, not a broken chart.",
-    "The MACD is constructive (macd_line 1.59 > signal_line 1.22, histogram +0.37, bullish_crossover = true daily), and the fundamental catalyst is real: Q1 2026 beat with raised guidance, JP Morgan PT at $185, and Canaccord raising to $175. Analyst consensus avg PT of $166.6 implies ~8% upside from current price.",
-    "Daily ADX = 24.15 with +DI (36.29) well above -DI (21.46) confirms the uptrend has directional conviction at the daily level, even if trend strength is only 'moderate.' OBV trend is up with no price divergence on the daily."
+    "Trend structure is genuinely bullish: daily ema_aligned_uptrend = true with price above every MA from ema_5 to ema_200 (142.54), and daily MACD bullish_crossover = true (macd_line 1.59 > signal_line 1.22, histogram +0.3741).",
+    "Daily ADX = 24.15 with plus_di 36.29 well above minus_di 21.46 confirms directional conviction, and volume.obv.trend = 'up' with diverging_from_price = false — accumulation is intact on the daily, and longer-period RSI (rsi_14 = 59.97, rsi_21 = 57.93) is still neutral, not pinned.",
+    "Clean fundamental backdrop with no near-term earnings risk: earnings.days_until_next = 69; near-term catalysts (early-July Midera spin-off, Investor Day, 26North $885M residential-kitchen sale) plus analyst consensus Buy, avg PT ~$166 (~10% implied upside)."
   ],
   "web_sources_last_7d": [
     "https://middlebycorporation.gcs-web.com/news-and-events/news-releases",
-    "https://www.marketbeat.com/stocks/NASDAQ/MIDD/news/",
     "https://stockstory.org/us/stocks/nasdaq/midd/news/earnings-call/midd-q1-deep-dive-segment-spin-off-and-beverage-momentum-define-transition-year",
-    "https://www.benzinga.com/quote/MIDD/analyst-ratings"
+    "https://www.theglobeandmail.com/investing/markets/stocks/MIDD/pressreleases/446758/middleby-midd-q4-2025-earnings-call-transcript/"
   ]
 }

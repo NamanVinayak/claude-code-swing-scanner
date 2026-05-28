@@ -1,46 +1,17 @@
 {
   "query": "BWIN news this week",
-  "fetched_at": "2026-05-28T12:45:00Z",
+  "fetched_at": "2026-05-28T19:46:00Z",
   "results": [
-    {
-      "title": "The Baldwin Insurance Group, Inc. (BWIN) Stock Price, News, Quote & History - Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/BWIN/"
-    },
-    {
-      "title": "News & Insights Across Sports from bwin",
-      "url": "https://www.bwin.com/en/news/"
-    },
-    {
-      "title": "BWIN Latest News & Stock Updates - Page 1 - Public Investing",
-      "url": "https://public.com/stocks/bwin/news"
-    },
-    {
-      "title": "Football prediction | Football tips & odds | bwin news",
-      "url": "https://sports.bwin.com/en/news/football/"
-    },
-    {
-      "title": "BWIN: Baldwin Insurance Group, Inc - Stock Price, Quote and News - CNBC",
-      "url": "https://www.cnbc.com/quotes/BWIN"
-    },
-    {
-      "title": "BWIN Stock Quote Price and Forecast | CNN",
-      "url": "https://www.cnn.com/markets/stocks/BWIN"
-    },
-    {
-      "title": "Baldwin Insurance Group director buys BWIN stock worth $1m By Investing.com",
-      "url": "https://www.investing.com/news/insider-trading-news/baldwin-insurance-group-director-buys-bwin-stock-worth-1m-93CH-4542638"
-    },
-    {
-      "title": "bwin Interactive Entertainment AG | Info - EQS News",
-      "url": "https://www.eqs-news.com/company/bwin-interactive-entertainment-ag/info/5b72e2ae-ea7c-11e8-902f-2c44fd856d8c"
-    },
-    {
-      "title": "bwin - X",
-      "url": "https://x.com/bwin?lang=en-GB"
-    },
-    {
-      "title": "Baldwin Insurance Group: BWIN Stock Price Quote & News | Robinhood",
-      "url": "https://robinhood.com/us/en/stocks/BWIN/"
-    }
-  ]
+    {"title": "The Baldwin Insurance Group, Inc. (BWIN) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/BWIN/"},
+    {"title": "News & Insights Across Sports from bwin", "url": "https://www.bwin.com/en/news/"},
+    {"title": "BWIN Latest News & Stock Updates - Page 1 - Public Investing", "url": "https://public.com/stocks/bwin/news"},
+    {"title": "Football prediction | Football tips & odds | bwin news", "url": "https://www.bwin.com/en/news/football/"},
+    {"title": "BWIN: Baldwin Insurance Group, Inc - Stock Price, Quote and News - CNBC", "url": "https://www.cnbc.com/quotes/BWIN"},
+    {"title": "BWIN Stock Quote Price and Forecast | CNN", "url": "https://www.cnn.com/markets/stocks/BWIN"},
+    {"title": "Baldwin Insurance Group director buys BWIN stock worth $1m By Investing.com", "url": "https://www.investing.com/news/insider-trading-news/baldwin-insurance-group-director-buys-bwin-stock-worth-1m-93CH-4542638"},
+    {"title": "bwin Interactive Entertainment AG | Info - EQS News", "url": "https://www.eqs-news.com/company/bwin-interactive-entertainment-ag/info/5b72e2ae-ea7c-11e8-902f-2c44fd856d8c"},
+    {"title": "Gambling Insider - Gambling & iGaming News", "url": "https://www.gamblinginsider.com/news/31925/apparat-gaming-partners-with-bwin-in-germany"},
+    {"title": "bwin - X", "url": "https://x.com/bwin?lang=en-GB"}
+  ],
+  "notes": "BWIN = The Baldwin Insurance Group, Inc. (NASDAQ insurance distribution). Wells Fargo reaffirmed Hold on 2026-05-27. A director bought ~$1m of BWIN stock (insider buy, reported ~2026-05-22). Analysts described as mixed/conflicted. The bwin.com sports-betting hits are a different entity and were ignored."
 }

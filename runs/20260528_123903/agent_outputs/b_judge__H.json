@@ -11,13 +11,13 @@
       "quantity": 27,
       "expected_holding_days": 9,
       "setup_type": "breakout",
-      "conviction": 5,
-      "rationale": "b_bull_b (strength=8) leads on Investor Day catalyst (11-16% EBITDA CAGR guide through 2028, $1B buyback, Truist PT $187 + Bernstein PT $202); b_bull_a (strength=6) supports via daily MA stack (ema_aligned_uptrend=true, ADX_14=25.11, MACD histogram=+1.1257). Key disagreement: both bears (strength=7 each) cite 'sell-the-news' risk — daily pct_b=1.081, hourly pct_b=1.1179, hourly z_score_120=3.09, hourly rsi_21=79.05, and consensus avg_price_target=$174.40 already breached — resolved by the structural quality of the Investor Day re-rate catalyst and positive expected return math (combined_p_bull=0.497, EV=+$3.21/share: 0.497*(196-185) - 0.503*(185-180.50) = +5.47 - 2.26 = +3.21). Position sizing: risk_dollars=$250 (1.0%*$25,000*1.0), risk_per_share=|185.00-180.50|=$4.50, Gate-3 quantity=floor(250/4.50)=55 shares (notional $10,175 exceeds 15% cap of $3,750); scaled down from 55 to 27 shares to fit small-account cap (27*$185=$4,995 <= $5,000 extended cap), using 49% of risk budget ($121.50/$250).",
+      "conviction": 6,
+      "rationale": "Catalyst bull (b_bull_b.bull_strength=8) leads with a hard Investor Day re-rate today (11-16% EBITDA CAGR guide, $1B incremental buyback, same-day Truist $187/Bernstein $202 raises) over both bears at strength=6; trend structure confirms (daily ema_aligned_uptrend=true, adx_14=25.11 with plus_di 28.56 vs minus_di 9.82, macd histogram +1.1257, rsi_14=67.42 below overbought). Key disagreement resolved: both bears flag a 2-sigma stretch (daily z_score_50=2.01, pct_b=1.081, hourly rsi_21=85.92) and price above consensus PT $174.40 - real but offset by the fresh fundamental catalyst, so combined_p_bull=0.536 (p_bull=6/12=0.500, p_catalyst=8/14=0.571) yields expected_return=+$3.80/share (0.536*(196-185) - 0.464*(185-180.50)). Sizing: risk_dollars=$250 (1.0%*1.0), risk/share=$4.50, Gate-3 qty=55 but notional $10,175 exceeds 15% cap ($3,750); scaled down from 55 to 27 shares to fit small-account cap, using 49% of risk budget (notional $4,995 < 20% cap $5,000, risk $121.50 >= 40% floor $100).",
       "risk_usd": 121.50,
       "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-28T20:00:00+00:00"
+      "entry_valid_until": "2026-05-29T20:00:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "H approved as small_scaled long: Investor Day EBITDA/FCF guide + dual analyst PT raises provide a genuine re-rate catalyst with positive probability-weighted EV (+$3.21/share); bears' sell-the-news and extension concerns are real (hourly z_score=3.09, rsi_21=79.05) so conviction is capped at 5 and entry expiry is today's close (16:00 ET) to avoid chasing if the intraday setup fails to materialize."
+  "summary": "H long approved as small_scaled (27 shares, $121.50 risk): fresh Investor Day catalyst plus clean uptrend beats the bears' 2-sigma-stretch case with positive expected return (+$3.80/share). Entry $185 (pullback-to-trigger), stop $180.50, target $196. Conviction held at 6 given the heavily extended chart (hourly rsi_21=85.92)."
 }

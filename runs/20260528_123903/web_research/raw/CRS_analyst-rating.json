@@ -1,46 +1,17 @@
 {
   "query": "CRS stock 2026-05-28 analyst rating",
-  "fetched_at": "2026-05-28T12:46:00Z",
+  "fetched_at": "2026-05-28T19:41:00Z",
   "results": [
-    {
-      "title": "Carpenter Technology (CRS) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026",
-      "url": "https://public.com/stocks/crs/forecast-price-target"
-    },
-    {
-      "title": "Carpenter Tech (NYSE:CRS) Stock, Analyst Ratings, Price ...",
-      "url": "https://www.benzinga.com/quote/CRS/analyst-ratings"
-    },
-    {
-      "title": "Carpenter Technology (CRS) Stock Forecast & Price Targets",
-      "url": "https://stockanalysis.com/stocks/crs/forecast/"
-    },
-    {
-      "title": "Carpenter Technology (CRS) Stock Forecast, Price Targets and Analysts Predictions - TipRanks.com",
-      "url": "https://www.tipranks.com/stocks/crs/forecast"
-    },
-    {
-      "title": "Corsair Gaming (CRSR) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026",
-      "url": "https://public.com/stocks/crsr/forecast-price-target"
-    },
-    {
-      "title": "Carpenter Technology (NYSE:CRS) Stock Forecast & Analyst Predictions - Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-crs/carpenter-technology/future"
-    },
-    {
-      "title": "Carpenter Technology Corporation (CRS) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/CRS/analysis/"
-    },
-    {
-      "title": "Carpenter Technology (CRS) Stock Forecast and Price Target 2026 $CRS",
-      "url": "https://www.marketbeat.com/stocks/NYSE/CRS/forecast/"
-    },
-    {
-      "title": "CRS Stock Forecast 2026 - Carpenter Price Targets & Predictions",
-      "url": "https://tickernerd.com/stock/crs-forecast/"
-    },
-    {
-      "title": "Carpenter Technology Corporation Common Stock (CRS) Analyst Reports & Ratings | Nasdaq",
-      "url": "https://www.nasdaq.com/market-activity/stocks/crs/analyst-research"
-    }
-  ]
+    {"title": "Carpenter Technology (CRS) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/crs/forecast-price-target"},
+    {"title": "CRS Stock Forecast 2026 - Carpenter Price Targets & Predictions", "url": "https://tickernerd.com/stock/crs-forecast/"},
+    {"title": "Carpenter Technology (CRS) Stock Forecast, Price Targets and Analysts Predictions - TipRanks.com", "url": "https://www.tipranks.com/stocks/crs/forecast"},
+    {"title": "Carpenter Technology Corporation (CRS) Stock Forecast, Price Target, and Price Chart | Seeking Alpha", "url": "https://seekingalpha.com/symbol/CRS/ratings/sell-side-ratings"},
+    {"title": "Carpenter Technology (NYSE:CRS) Stock Forecast & Analyst Predictions - Simply Wall St", "url": "https://simplywall.st/stocks/us/capital-goods/nyse-crs/carpenter-technology/future"},
+    {"title": "Carpenter Technology Corporation (CRS) Analyst Ratings, Estimates & Forecasts - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CRS/analysis/"},
+    {"title": "CRS Stock Price Quote | Morningstar", "url": "https://www.morningstar.com/stocks/xnys/crs/quote"},
+    {"title": "Carpenter Technology (CRS) Stock Forecast and Price Target 2026 $CRS", "url": "https://www.marketbeat.com/stocks/NYSE/CRS/forecast/"},
+    {"title": "Tickeron", "url": "https://tickeron.com/ticker/CRS/"},
+    {"title": "Carpenter Technology (CRS) Stock Forecast & Price Targets", "url": "https://stockanalysis.com/stocks/crs/forecast/"}
+  ],
+  "notes": "Consensus 'Strong Buy'. 8 analysts, avg PT $422.88, low $340, high $495. 5 Buy / 1 Hold / 0 Sell. Recent: JP Morgan maintained Overweight, raised PT $394 -> $465 (Apr 20); Argus adjusted targets, peaking $500. TD Cowen raised PT to $470 from $450 (Buy) per news search this week."
 }

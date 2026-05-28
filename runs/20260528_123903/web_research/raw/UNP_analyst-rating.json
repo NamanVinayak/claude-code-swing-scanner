@@ -1,6 +1,6 @@
 {
   "query": "UNP stock 2026-05-28 analyst rating",
-  "fetched_at": "2026-05-28T12:45:00Z",
+  "fetched_at": "2026-05-28T19:45:00Z",
   "results": [
     {
       "title": "Union Pacific (UNP) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026",
@@ -50,7 +50,9 @@
       "UBS raised PT to $274 from $253; Neutral",
       "BMO Capital raised PT to $285 from $278; Market Perform",
       "Evercore ISI raised PT to $277 from $262; Outperform",
+      "TD Cowen raised PT to $282 from $256; Buy",
       "Benchmark raised PT to $300 from $275; Buy"
-    ]
+    ],
+    "buy_share": "~67% of analysts rate Buy"
   }
 }

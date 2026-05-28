@@ -1,20 +1,21 @@
 {
   "ticker": "AVGO",
   "setup_direction": "long",
-  "bull_strength": 7,
-  "entry_zone": {"low": 422.50, "high": 425.50},
-  "target": 445.00,
+  "bull_strength": 6,
+  "entry_zone": {"low": 422.50, "high": 425.00},
+  "target": 442.00,
   "stop": 413.50,
-  "expected_holding_days": 6,
+  "expected_holding_days": 4,
   "top_3_arguments": [
-    "Pre-earnings catalyst stack: Q2 FY2026 earnings due June 3 (6 days) with Street consensus at $2.32 EPS (+47% YoY to $22.08B revenue) and AI chip segment projected at $10.7B — the same setup produced a +106% AI-segment YoY beat last quarter. Analyst consensus (2026-05-23 web_research) confirms this is a known catalyst driving positioning now. Bullish analyst note on 2026-05-23 drove the stock higher; UBS set $490 PT on 2026-05-18 (Strong Buy), 57-analyst aggregate avg PT $477.67 with 85% buy ratio — all per analyst_consensus_web.",
-    "Hyperscaler AI lock-in anchors the forward revenue case: Google TPU deal through 2031, Meta MTIA custom chip pact, and Anthropic's $200B Google cloud/chip commitment — all running on Broadcom silicon per 2026-05-22 web_research item. LSEG partnership renewal (2026-05-26) and BCM68850 50G AI-accelerated home gateway SoC launch alongside Samsung 5G/Wi-Fi 8 FWA platform (2026-05-27) demonstrate new revenue channels stacking on top of the hyperscaler core. These are not press releases — they are contract renewals and chip launches with named counterparties.",
-    "Technical setup supports a pre-earnings breakout from $422.50 watch level: price above all MAs (EMA_5 through EMA_200, ema_aligned_uptrend = true on both daily and hourly), daily rsi_14 = 48.42 with daily bullish RSI divergence confirmed (lookback 60 bars), hourly ADX_24 = 34.08 (strong trend), hourly MACD histogram = +0.7754 (bullish momentum). Fibonacci fib_382 daily = $420.67 acting as support confluent with hourly pivot low $416.50 (34 tests, volume-confirmed). R:R from entry mid $424.00 to stop $413.50 (risk $10.50) vs target $445.00 (reward $21.00) = 2.0:1 — at the minimum required threshold."
+    "Multi-catalyst AI narrative stacked in last 7 days: 2026-05-22 techi.com note details locked-in Google TPU deal through 2031, Meta MTIA pact, and Anthropic $200B Google cloud/chip commitment all running on Broadcom silicon; 2026-05-23 quiverquant analyst note reinforced Q2 guide of $22B revenue (+47% YoY) and $10.7B AI-chip projection; 2026-05-26 LSEG renewed its Broadcom cloud-infra partnership; 2026-05-27 BCM68850 50G AI-gateway SoC launched with Samsung. Stock moved higher on the 5/23 note.",
+    "Smart-money/analyst positioning strongly bullish per analyst_consensus_web: 'buy' rating, 57-analyst avg PT $477.67 (~13% above $421.86 spot, 85% buy ratio), UBS PT $490 (Strong Buy) set 2026-05-18. Trend structure confirms the long bias: daily moving_averages.ema_aligned_uptrend = true, price above all daily MAs (ema_50 +7.52%, ema_200 +23.36%), daily rsi_divergence.bullish = true (60-bar lookback), and hourly ADX_24 = 43.65 ('strong') with plus_di 32.6 vs minus_di 9.42, hourly MACD histogram +1.2462.",
+    "Breakout R:R math: entry midpoint $423.75, stop $413.50 (below invalidation_level $414 and daily fib_500 $413.96), risk $10.25; target $442.00 sits just under daily recent_high $442.36, reward $18.25 = 1.78:1. Reclaim of watch_level $422.50 clears the path to daily nearest_resistance $429.31; hourly pct_b 0.926 shows price pressing the upper band into the move."
   ],
   "risks_acknowledged": [
-    "Earnings in 6 days is a binary event: a miss or soft AI guidance cut would gap the stock down and invalidate the setup entirely before the stop is even relevant. This is the single largest risk — the thesis IS the pre-earnings drift, so the trade is long gamma on good results.",
-    "Daily OBV trend is DOWN and diverging from price (per daily_indicators.volume.obv), with volume_bias_10d = 'down' and relative_volume = 0.95 (below average). Smart money is not visibly accumulating here — no insider buys in the last 30 days. The bullish case is narrative/analyst-driven, not confirmed by flow.",
-    "Daily MACD histogram = -3.2361 (bearish, below signal line), and daily ADX_14 = 11.56 (weak trend strength) — the daily trend is structurally weak and consolidating. The breakout above $422.50 watch level needs a volume catalyst to sustain; absent that, this becomes a fade into resistance at $429.31 (10-test pivot high)."
+    "Earnings binary 6 days out (earnings.days_until_next = 6, June 3 after close): a 4-day swing into a +47% YoY revenue expectation is a high-bar event — any guide miss gaps the stock down hard, flagged explicitly in earnings_context_web as material catalyst risk.",
+    "Daily momentum does NOT confirm the breakout: daily MACD histogram = -3.24 (no bullish_crossover, below signal line), daily rsi_14 = 48.42 (neutral), daily ADX_14 = 11.56 ('weak' trend), and OBV trend = 'down' diverging from price on both daily and hourly. The strength is hourly-only on thin tape (hourly relative_volume 0.09).",
+    "Setup needs a reclaim that hasn't happened: catalyst_note shows overnight gap down -1.19% to $417.10, below yesterday's close — price must reclaim $422.50 to confirm or the breakout invalidates at $414. No insider buying in the bundle (recent_insider_trades empty) and new_ticker = true means no wiki conviction to lean on.",
+    "R:R is below the 2:1 standard (1.78:1 at midpoint) — a close call that argues for entry only on a confirmed reclaim, not pre-confirmation chasing."
   ],
   "web_sources_last_7d": [
     "https://www.cnbc.com/quotes/AVGO",

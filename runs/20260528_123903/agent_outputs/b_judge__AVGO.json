@@ -1,23 +1,11 @@
 {
   "ticker": "AVGO",
-  "approved": [
+  "approved": [],
+  "rejected": [
     {
       "ticker": "AVGO",
-      "direction": "long",
-      "entry_price": 423.34,
-      "stop_loss": 413.50,
-      "target_price": 440.50,
-      "target_price_2": 450.00,
-      "quantity": 11,
-      "expected_holding_days": 5,
-      "setup_type": "breakout",
-      "conviction": 5,
-      "rationale": "b_bull_b (catalyst, strength=7) and b_bear_a (technical, strength=8) are the dominant perspectives; bears win on weight but expected return is still positive. p_bull = 5/(5+8) = 0.3846; p_catalyst = 7/(7+7) = 0.5000; combined_p_bull = 0.4423; combined_p_bear = 0.5577. Entry = midpoint of bull_a zone (422.50+424.17)/2 = 423.34. Target = min(440.50, 445.00) = 440.50. Stop = max(413.50, 413.50) = 413.50. Expected return = 0.4423*(440.50-423.34) - 0.5577*(423.34-413.50) = 0.4423*17.16 - 0.5577*9.84 = 7.59 - 5.49 = +$2.10/share (positive; Gate 2 passes). Bears' primary arguments — OBV diverging bearishly (daily OBV trend=down, diverging_from_price=true, volume_bias_10d=down), daily MACD histogram=-3.24 (bearish), daily ADX=11.56 (weak), and 10-test resistance at $429.31 limiting near-term upside — are all verified against daily_indicators and carry real weight. Earnings in 6 days (June 3) is the #1 risk flagged by both bears; both bulls explicitly acknowledge it and bulls constrain to a 4-6 day exit before the binary event. Position sizing: risk_dollars = 25000*1%*1.0 = $250; risk_per_share = |423.34-413.50| = 9.84; Gate-3 quantity = floor(250/9.84) = 25 shares; notional at 25 shares = $10,584 exceeds single_cap $3,750 (15% of $25k) so standard path fails. Small-scaled exception: M = floor(5000/423.34) = 11; risk_M = 11*9.84 = $108.24 >= risk_floor $100 (40% of $250). Scaled down from 25 to 11 shares to fit small-account cap, using 43% of risk budget. Final risk_usd = 11*9.84 = $108.24. Hourly ADX=34.08 (strong) with plus_di=31.64 vs minus_di=11.1 and hourly MACD histogram=+0.7754 confirm short-term directional momentum supporting the entry zone reclaim. Trade must close by June 2 EOD regardless of outcome.",
-      "risk_usd": 108.24,
-      "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-28T20:00:00+00:00"
+      "reason": "other: earnings_binary_within_hold_window — both bears dominate (b_bear_a strength=8, b_bear_b=7 vs b_bull_a=5, b_bull_b=6). Probability weights: p_bull=5/(5+8)=0.3846, p_catalyst=6/(6+7)=0.4615, combined_p_bull=0.4231, combined_p_bear=0.5769. Entry=midpoint b_bull_a zone (422.50+424.17)/2=423.34; target=min(440.50,442.00)=440.50; stop=max(413.50,413.50)=413.50. Gate 2 expected_return_per_share = 0.4231*(440.50-423.34) - 0.5769*(423.34-413.50) = 7.26 - 5.68 = +$1.58 (marginally positive). Sizing survived: risk_dollars=25000*1%*1.0=$250, risk_per_share=$9.84, Gate-3 qty=floor(250/9.84)=25; notional $10,584 > 15% cap $3,750 so small_scaled M=floor(5000/423.34)=11, risk_M=$108.24 >= $100 floor (43% of budget). DECISION: reject on synthesis. earnings.days_until_next=6 (June 3 AC) with bulls' own expected_holding_days=4 lands the position 2 days before a binary print where +47% YoY revenue is already euphorically priced (85% buy ratio, avg PT $477.67). The $9.84 stop band is far thinner than daily atr.atr_14=$16.51, so a single earnings-adjacent candle blows the stop. Daily trend does not confirm the breakout: adx_14=11.56 (weak), macd.histogram=-3.236 (no bullish_crossover, line 8.51 < signal 11.75), rsi_14=48.42 (neutral), volume.obv.trend=down diverging_from_price=true, volume_bias_10d=down, daily relative_volume=0.95. The thin +$1.58 edge rests on hourly-only strength on thin tape (hourly volume.relative_volume=0.09). Lesson 2026-05-18 ROK breakout: overbought/mean-reversion stop-hit when daily momentum failed to confirm — same pattern here. Edge too thin for the binary event risk with a sub-ATR stop and dominant bear consensus."
     }
   ],
-  "rejected": [],
-  "summary": "AVGO approved as small_scaled long (11 shares, $108 risk): expected return +$2.10/share positive despite bear-dominant probability weighting (combined_p_bear=55.8%); bears' OBV divergence and weak daily ADX are real but hourly ADX=34.08 and pre-earnings analyst catalyst support the entry. Earnings blackout (6 days to June 3) keeps conviction at 5 and forces expiry at today's 16:00 ET close; position must exit by June 2 EOD."
+  "summary": "AVGO long REJECTED. Mechanical gates passed (Gate 0 direction consensus all-long; can_open_new_position=true, phase=full; Gate 2 expected return +$1.58/share marginally positive; small_scaled sizing viable at 11 shares / $108 risk). Rejected on risk-adjusted synthesis: dominant bear strength (8+7 vs 5+6) on an unrebutted binary-earnings risk — earnings in 6 days inside a 4-day hold window, with a $9.84 stop band thinner than the $16.51 daily ATR, on a weak/unconfirmed daily trend (ADX 11.56, negative MACD histogram, declining diverging OBV). Edge too thin for the event risk."
 }

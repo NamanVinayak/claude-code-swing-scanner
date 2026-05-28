@@ -1,52 +1,38 @@
 {
   "ticker": "MIDD",
-  "researched_at": "2026-05-28T13:03:00Z",
+  "researched_at": "2026-05-28T19:45:00Z",
   "news_items": [
     {
-      "headline": "Middleby Food Processing business rebrands as Midera Food Processing, Inc. ahead of spinoff",
-      "url": "https://middlebycorporation.gcs-web.com/news-and-events/news-releases",
-      "date": "2026-05-11",
-      "sentiment": "neutral",
-      "summary": "Middleby announced its Food Processing segment will operate under the name Midera Food Processing, Inc. prior to being spun off as a standalone public company via share distribution to existing MIDD stockholders, with completion targeted for early July 2026 pending regulatory approval."
-    },
-    {
-      "headline": "Middleby agrees to sell 51% stake in Residential Kitchen business to 26North affiliates",
+      "headline": "Middleby agrees to sell 51% stake in Residential Kitchen business to 26North affiliates ($885M valuation)",
       "url": "https://middlebycorporation.gcs-web.com/news-and-events/news-releases",
       "date": "2026-05-21",
       "sentiment": "positive",
-      "summary": "Middleby entered a definitive agreement to sell a majority stake in its Residential Kitchen segment to affiliates of 26North, part of an ongoing strategic portfolio review intended to sharpen focus on Commercial Foodservice."
+      "summary": "Middleby entered a definitive agreement to sell a majority stake in its Residential Kitchen segment to affiliates of 26North in a deal valuing the business at $885M, part of an ongoing strategic portfolio review to sharpen focus on Commercial Foodservice."
     },
     {
-      "headline": "Canaccord Genuity raises Middleby price target to $175, maintains Buy",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/MIDD/news/",
-      "date": "2026-05-27",
-      "sentiment": "positive",
-      "summary": "Canaccord Genuity lifted its price objective on MIDD from $171 to $175 and reiterated a Buy rating, reflecting improved confidence in the company's strategic restructuring progress."
-    },
-    {
-      "headline": "MIDD Q1 2026 earnings beat with raised guidance; spinoff and beverage momentum highlighted",
+      "headline": "Middleby advancing Midera Food Processing spin-off; completion expected early July 2026",
       "url": "https://stockstory.org/us/stocks/nasdaq/midd/news/earnings-call/midd-q1-deep-dive-segment-spin-off-and-beverage-momentum-define-transition-year",
-      "date": "2026-05-08",
+      "date": "2026-05-22",
       "sentiment": "positive",
-      "summary": "Middleby beat Q1 2026 earnings expectations and raised full-year guidance, with management citing beverage platform growth and automation solutions as key revenue drivers, and margin recovery expected in H2 2026 as tariff headwinds ease."
+      "summary": "Food Processing segment to separate into standalone public company Midera Food Processing Inc. via share distribution to existing holders; completion targeted early July 2026 pending regulatory approval."
     },
     {
-      "headline": "JP Morgan sets MIDD price target at $185, implying ~25% upside",
-      "url": "https://www.benzinga.com/quote/MIDD/analyst-ratings",
-      "date": "2026-05-08",
-      "sentiment": "positive",
-      "summary": "JP Morgan initiated or updated coverage of MIDD with a $185 price target, the highest on the Street, citing the restructuring story and Commercial Foodservice focus as the primary upside driver."
+      "headline": "Middleby Investor Day scheduled to lay out post-spin strategic vision",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/MIDD/pressreleases/446758/middleby-midd-q4-2025-earnings-call-transcript/",
+      "date": "2026-05-25",
+      "sentiment": "neutral",
+      "summary": "Upcoming Investor Day cited as a near-term catalyst where management lays out long-term vision for the streamlined Commercial Foodservice business and the independent Food Processing platform."
     }
   ],
   "analyst_consensus": {
     "rating": "buy",
-    "avg_price_target": 166.6,
-    "recent_changes": "Canaccord Genuity raised PT from $171 to $175 (Buy) around 2026-05-27; JP Morgan set PT at $185 on 2026-05-08 (highest on Street). Overall consensus: 11 Buy, 24 Hold, 1 Sell; average PT $166.6."
+    "avg_price_target": 166.0,
+    "recent_changes": "Consensus Buy (8 covering analysts; broader tracker shows 11 Buy / 24 Hold / 1 Sell) with average PT ~$166, ~10% implied upside; target range $125-$185. Most recent dated analyst actions are older than 7 days (already priced in): JP Morgan PT $185 on 2026-05-08; Baird raised PT to $227 in mid-May. No analyst-rating change confirmed within the last 7 days."
   },
   "earnings_context": {
-    "next_earnings_date": "2026-08-06",
-    "days_until_next": 70,
-    "notes": "Q1 2026 beat on revenue and EPS with raised guidance; next earnings expected approximately early August 2026 (Q2). Upcoming Investor Day is a near-term catalyst where management will outline the long-term strategic vision for the post-spinoff Commercial Foodservice entity and the independent Midera platform."
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 already reported a beat (~15% rev growth to ~$840M, EPS $2.16) with raised full-year guidance (already priced in). Near-term catalysts are the early-July Midera Food Processing spin-off, the upcoming Investor Day, and back-half margin recovery as tariff headwinds abate. No specific next earnings date found in the searches."
   },
   "raw_search_files": [
     "MIDD_news-this-week.json",

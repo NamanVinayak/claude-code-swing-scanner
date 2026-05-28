@@ -1,26 +1,25 @@
 {
   "ticker": "MIDD",
   "setup_direction": "long",
-  "bull_strength": 7,
-  "entry_zone": {"low": 155.50, "high": 156.50},
+  "bull_strength": 6,
+  "entry_zone": {"low": 154.71, "high": 156.50},
   "target": 166.89,
-  "stop": 151.50,
-  "expected_holding_days": 8,
+  "stop": 152.40,
+  "expected_holding_days": 9,
   "top_3_arguments": [
-    "Full MA stack bullishly aligned with price above every key average: pct_from_ema_50=+6.04%, pct_from_sma_200=+9.84%, ema_aligned_uptrend=true. Five consecutive higher closes ($143.40→$154.44, +7.7%) with volume on the breakout day (672,500 vs 20d avg 673,545, relative_volume=1.0) confirming institutional participation rather than thin-air drift. This is orderly expansion, not a gap-and-fade.",
-    "Daily momentum firmly positive without being overbought: rsi_14=59.97 (healthy mid-range, room to 70+ before exhaustion), macd.histogram=+0.3741 with bullish_crossover=true, roc_5d=+9.13%. Hourly ADX_24=44.97 ('strong') with +DI=39.62 vs -DI=8.39 — directional conviction is lopsided in bulls' favor on the intraday timeframe, meaning pullbacks will likely be shallow and bought. Daily ADX_14=24.15 with +DI=36.29 vs -DI=21.46 confirms the daily trend is accelerating, not topping.",
-    "Spinoff and earnings catalysts provide fundamental runway to the technical target. Q1 2026 beat with raised guidance (2026-05-08). Canaccord raised PT to $175 (2026-05-27, Buy); JP Morgan at $185 (highest on Street). Consensus avg PT=$166.6 — matches the daily chart's nearest resistance at $166.89 (1-test pivot high, volume confirmed). Fib ext 127.2% from the $136.30–$166.89 swing = $175.21, providing a secondary target beyond consensus. Earnings 69 days out (next ~2026-08-06) — no earnings overhang on this trade."
+    "Full bullish MA stack confirmed: daily moving_averages.ema_aligned_uptrend = true, price above every MA (price_vs_ma.above_ema_50 = true at +6.04%, above_sma_200 = true at +9.84%). Five consecutive higher closes from $143.40 (2026-05-20) to $154.44 (2026-05-27), and entry above $154.71 (daily recent_high pivot) breaks toward the next pivot at 166.89, with prior resistance 147.99 (13 tests) now flipped to support.",
+    "Daily momentum positive but not yet stretched on the swing timeframe: rsi.rsi_14 = 59.97 (healthy 30-70 band), macd.histogram = +0.3741 with bullish_crossover = true and macd_line 1.5926 > signal 1.2185, momentum.roc_5d = +9.13%. ADX_14 = 24.15 with plus_di 36.29 well above minus_di 21.46; hourly adx.adx_24 = 48.54 ('strong') with plus_di 39.4 vs minus_di 14.48 — intraday trend conviction is lopsidedly bullish, so pullbacks should be shallow and bought.",
+    "Internals and structure support continuation with clean R:R: volume.obv.trend = up (diverging_from_price = false), volume_bias_10d = up. bollinger.upper = 161.34 gives near-term room and the next pivot resistance is 166.89. Target $166.89 vs entry $154.71-$156.50 and stop $152.40 yields reward:risk of roughly 6:1 down to 2.7:1 — comfortably above 2:1."
   ],
   "risks_acknowledged": [
-    "Daily RSI_7=82.63 signals very short-term overbought condition — initial entry above $155.50 could see a 1–2 day cooling pause before continuation; the 5-day acceleration may need digestion.",
-    "Daily rsi_divergence.bearish=true (60-bar lookback) warns that price is making new highs while momentum on a longer lookback has not fully confirmed; reduces high-conviction add-on potential if the breakout stalls.",
-    "Volume confirmation is thin: relative_volume=1.0 means yesterday's breakout candle matched the 20-day average exactly but did not exceed it. A genuine institutional breakout typically prints 1.5x+ relative volume — the absence is a credibility gap.",
-    "Spinoff timing risk: Midera completion expected early July 2026 (pending regulatory approval). Uncertainty around spinoff ratio, tax treatment, or delays could create MIDD stock volatility between now and the distribution date — flag as event risk if holding beyond 2 weeks."
+    "Breakout lacks volume confirmation: daily volume.relative_volume = 1.0 (current 672,500 vs avg_volume_20 673,545) and catalyst_note flags zero premarket volume data. A genuine institutional breakout typically prints 1.5x+ relative volume; its absence (with Stage 2 conviction = 4) is a real credibility gap.",
+    "Short-term overbought with a momentum-divergence warning: daily rsi.rsi_7 = 82.63 and daily rsi_divergence.bearish = true (60-bar lookback); hourly bollinger.pct_b = 0.8406 shows price pressing the upper band — a 1-2 day cooling pause is likely before continuation.",
+    "New ticker with no wiki history (wiki_context.new_ticker = true; thesis_full, catalysts_full, technicals_full all missing) — no prior evidence MIDD respects this breakout pattern, so the case rests entirely on current chart data, lowering conviction.",
+    "Research gap / capped upside: analyst_consensus_web shows avg_price_target $166 (no rating change inside 7d), which sits right at the $166.89 target — the chart's resistance and Street fair value coincide, so upside beyond target is unconfirmed. The 3 web items are corporate M&A/spin-off (positive sentiment) but provide no fresh price-moving catalyst inside the entry window."
   ],
   "web_sources_last_7d": [
     "https://middlebycorporation.gcs-web.com/news-and-events/news-releases",
-    "https://www.marketbeat.com/stocks/NASDAQ/MIDD/news/",
     "https://stockstory.org/us/stocks/nasdaq/midd/news/earnings-call/midd-q1-deep-dive-segment-spin-off-and-beverage-momentum-define-transition-year",
-    "https://www.benzinga.com/quote/MIDD/analyst-ratings"
+    "https://www.theglobeandmail.com/investing/markets/stocks/MIDD/pressreleases/446758/middleby-midd-q4-2025-earnings-call-transcript/"
   ]
 }

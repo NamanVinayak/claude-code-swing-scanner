@@ -1,7 +1,12 @@
 {
   "query": "MIDD news this week",
-  "fetched_at": "2026-05-28T13:00:00Z",
+  "fetched_at": "2026-05-28T19:42:00Z",
   "results": [
+    {
+      "title": "The Middleby Corporation (MIDD) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MIDD/",
+      "snippet": "Stock price, news, quote and history for The Middleby Corporation (MIDD)."
+    },
     {
       "title": "MIDD stock news | The Middleby latest news - TipRanks",
       "url": "https://www.tipranks.com/news/topic/midd",
@@ -15,12 +20,12 @@
     {
       "title": "MIDD News Today | Why did Middleby stock go up today? $MIDD - MarketBeat",
       "url": "https://www.marketbeat.com/stocks/NASDAQ/MIDD/news/",
-      "snippet": "Canaccord Genuity Group boosted their price objective on shares of Middleby from $171.00 to $175.00 and gave the stock a 'buy' rating."
+      "snippet": "Middleby price target raised to $227 from $157 at Baird ~11 days ago. Institutional investors adjusted positions in Q2."
     },
     {
       "title": "News Releases - The Middleby Corporation",
       "url": "https://middlebycorporation.gcs-web.com/news-and-events/news-releases",
-      "snippet": "The Middleby Corporation's Food Processing business will operate under the name Midera Food Processing, Inc. (Midera), as announced on May 11, 2026. Middleby confirms ongoing strategic review of business portfolio, and announced entry into a definitive agreement under which it will sell a 51% stake in its Residential Kitchen business to affiliates of 26North."
+      "snippet": "The Middleby Corporation's Food Processing business will operate under the name Midera Food Processing, Inc. Middleby confirms ongoing strategic review of business portfolio, and announced a definitive agreement to sell a 51% stake in its Residential Kitchen business to affiliates of 26North in a transaction valuing the business at $885 million."
     },
     {
       "title": "Middleby Corp. (MIDD) News, Articles, Events & Latest Updates - StockTwits",

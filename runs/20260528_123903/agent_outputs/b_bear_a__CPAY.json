@@ -1,23 +1,21 @@
 {
   "ticker": "CPAY",
   "setup_direction": "long",
-  "bear_strength": 7,
-  "setup_invalidation_levels": [349.0, 343.56],
+  "bear_strength": 6,
+  "setup_invalidation_levels": [349.0, 343.56, 342.21],
   "top_3_arguments": [
-    "Price at $352.60 has NOT yet cleared the breakout watch_level of $354.50 — the bull setup has not triggered. Entering here is chasing an unconfirmed breakout into immediate overhead resistance: hourly pivot_high at $354.97 (9 tests, unconfirmed volume) sits exactly at the watch level. The breakout has to fight through a tested resistance cluster before it can be called real. Meanwhile hourly MACD histogram = -0.1638 (bearish cross already in place), hourly ADX = 13.38 ('weak' trend strength), and hourly relative_volume = 0.25 — only 25% of average — signaling near-zero intraday buying conviction. A breakout printed on 0.25x volume is the canonical fakeout setup.",
-    "Daily RSI is deeply overbought: rsi_7 = 79.63, rsi_14 = 74.71. Price is 11.88% above sma_50 ($315.17) and z_score_50 = 1.77 — nearly 2 standard deviations extended on the daily timeframe. Bollinger daily pct_b = 0.8015, approaching the upper band ($367.53). The 5.8% post-earnings gap on 2026-05-22 (confirmed by recent_news_7d) has stretched the rubber band hard; the last 5 sessions show a pattern of lower closes relative to daily highs (May 22 close $347.90 vs high $354.41; May 26 close $349.61 vs high $350.05; May 27 close $352.60 vs high $355.88) — consistent with sellers absorbing each intraday rally near the recent high. The setup is buying into exhaustion, not fresh breakout momentum.",
-    "M&A integration risk is the primary fundamental headwind per the most recent news item (2026-05-23, negative sentiment): analysts specifically flag whether Corpay can absorb Alpha Group, GPS, and Paymerang 'without M&A and technology spending outpacing revenue growth.' This is not priced-in old news — it was published the day AFTER the earnings pop. Meanwhile, Stage 2 conviction was only 4/10 and the catalyst_note explicitly flags 'zero premarket volume limits confidence in the continuation.' Low analyst conviction (33% Hold) combined with an active integration overhang means the FY2026 guidance beat may already be fully discounted in the 5.8% gap; incremental upside from $352 to analyst mean target $394 is ~12%, but the stop to $349 is only $3.60 away — Stage 2's own invalidation level implies an R:R ceiling that depends entirely on a clean breakout that hasn't happened yet."
+    "Breakout is unconfirmed and into overhead supply on no volume conviction. Price at $352.60 has NOT cleared the watch_level of $354.50, and the hourly pivot_high at $354.97 (15 tests, volume_confirmed = false) sits right at that level as a wall. The 5/27 push to recent_high $355.88 came on daily volume.relative_volume = 1.03 — essentially just the 20-day average (563,535) — not the expansion a real breakout needs. Hourly tape is even thinner: relative_volume = 0.14 and hourly ADX = 16.25 ('weak'). A breakout that needs above-average volume to be trusted is printing on average-to-thin volume.",
+    "Severely overbought and extended, chasing a 6-day-old catalyst. daily rsi_7 = 79.63 and rsi_14 = 74.71; z_score_50 = 1.77 (~1.8 SD stretched); price is +11.88% above sma_50 ($315.17) and +5.17% above ema_20; daily bollinger.pct_b = 0.8015 and hourly pct_b = 1.0087 (price ABOVE the hourly upper band $356.52). The entire move is the 5/22 earnings gap (+5.8%). The last 5 sessions show sellers absorbing rallies near the high (5/22 close 347.90 vs high 354.41; 5/26 close 349.61 vs high 350.05; 5/27 close 352.60 vs high 355.88). This is buying exhaustion, not a fresh base.",
+    "Reward-to-risk is poor and noise can trip the stop. watch_level 354.50 is barely above the $352.60 spot and sits directly under recent_high 355.88; invalidation_level is 349.0 — but daily atr_14 = 14.08 (atr_pct 3.99), so a single average daily range is ~4x the entry-to-stop distance and can blow through 349 on noise alone. Stage 2 conviction was only 4/10, and the M&A integration overhang flagged in the most recent news item (2026-05-23, negative) — Alpha/GPS/Paymerang cost absorption risk — is fresh, not priced-in, capping the upside thesis."
   ],
   "bull_acknowledgements": [
-    "Daily MA stack is genuinely bullish: ema_aligned_uptrend = true, price above all EMAs and SMAs from 5d through 200d. ADX daily = 30.49 with plus_di = 36.34 vs minus_di = 14.0 — the underlying daily trend is strong and directionally clean.",
-    "Q1 2026 fundamentals are real: revenue +25% YoY, cash EPS +29% YoY, both beats, and FY2026 guidance raised above consensus on both lines. Analyst consensus is 66% buy/strong-buy with mean target $394.52 — meaningful upside if the breakout holds.",
-    "No insider selling in recent_insider_trades (empty list) and earnings blackout is clear (days_until_next = 69) — two common event-risk traps that are not present here."
+    "Daily trend structure is genuinely strong: ema_aligned_uptrend = true, price above every MA from 5d to 200d, adx_14 = 30.49 with plus_di 36.34 >> minus_di 14.0, daily macd histogram positive at +1.97, and obv.trend = 'up' with no divergence.",
+    "Fundamentals behind the move are real: Q1 revenue +25% YoY, cash EPS +29% YoY (both beats), FY2026 guidance raised above consensus, buyback expansion; analyst mean target $394.52 implies meaningful upside above $352.60.",
+    "No event-risk traps: recent_insider_trades is empty (no insider selling) and earnings.days_until_next = 69, so the trade is not exposed to a near-term report."
   ],
   "web_sources_last_7d": [
+    "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/should-corpays-earnings-beat-and-ma-push-require-action-from",
     "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/why-corpay-cpay-is-up-58-after-boosting-guidance-buybacks-an",
-    "https://finance.yahoo.com/news/corpay-cpay-insider-buying-earnings-041513423.html",
-    "https://www.tipranks.com/news/company-announcements/corpay-earnings-call-signals-robust-growth-momentum",
-    "https://www.tickerreport.com/banking-finance/13435093/corpay-nysecpay-updates-fy-2026-earnings-guidance.html",
-    "https://simplywall.st/stocks/us/diversified-financials/nyse-cpay/corpay/news/should-corpays-earnings-beat-and-ma-push-require-action-from"
+    "https://finance.yahoo.com/news/corpay-cpay-insider-buying-earnings-041513423.html"
   ]
 }

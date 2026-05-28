@@ -1,30 +1,26 @@
 {
   "query": "UNP news this week",
-  "fetched_at": "2026-05-28T12:45:00Z",
+  "fetched_at": "2026-05-28T19:45:00Z",
   "results": [
     {
       "title": "Union Pacific Corporation (UNP) Stock Price, News, Quote & History - Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/UNP/"
     },
     {
-      "title": "Union Pacific (UNP) Stock Price & Overview",
-      "url": "https://stockanalysis.com/stocks/unp/"
+      "title": "UNP News Today | Why did Union Pacific stock drop today? $UNP",
+      "url": "https://www.marketbeat.com/stocks/NYSE/UNP/news/"
     },
     {
       "title": "Union Pacific Corporation (UNP) Latest Stock News & Headlines - Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/UNP/news/"
     },
     {
-      "title": "UNP News Today | Why did Union Pacific stock drop today? $UNP",
-      "url": "https://www.marketbeat.com/stocks/NYSE/UNP/news/"
+      "title": "Union Pacific (UNP) Stock Price & Overview",
+      "url": "https://stockanalysis.com/stocks/unp/"
     },
     {
       "title": "UNP: Union Pacific Corp - Stock Price, Quote and News - CNBC",
       "url": "https://www.cnbc.com/quotes/UNP"
-    },
-    {
-      "title": "Union Pacific rallies to 52-week high after earnings (UNP:NYSE) | Seeking Alpha",
-      "url": "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings"
     },
     {
       "title": "Union Pacific Corporation (UNP) Stock Price, Quote, News & Analysis | Seeking Alpha",
@@ -35,14 +31,19 @@
       "url": "https://www.cnn.com/markets/stocks/UNP"
     },
     {
+      "title": "Union Pacific rallies to 52-week high after earnings (UNP:NYSE) | Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4578860-union-pacific-rallies-to-52-week-high-after-earnings"
+    },
+    {
       "title": "Union Pacific: UNP Stock Price Quote & News | Robinhood",
       "url": "https://robinhood.com/us/en/stocks/UNP/"
     }
   ],
   "summary_from_search": {
     "dividend": "UNP announced a cash dividend of $1.38 with an ex-date of May 29, 2026.",
-    "merger": "Union Pacific (UNP) is facing scrutiny over its proposed merger with Norfolk Southern, as state attorneys general question the completeness of its application. The revised merger application addresses regulatory concerns, aims to enhance competition, and is expected to enter a year-long review.",
-    "analyst_action": "Benchmark raised the firm's price target on Union Pacific (UNP) to $300 from $275 and keeps a Buy rating on the shares.",
-    "price_action": "Union Pacific rallies to 52-week high after earnings."
+    "merger": "Union Pacific facing scrutiny over proposed $85B merger with Norfolk Southern; state attorneys general question completeness of the revised application. STB expected to enter a year-long review. UNP says revised application addresses regulatory concerns and aims to enhance competition.",
+    "financials": "Leadership reported strong operational and financial performance, volume growth in key segments, margin pressure from rising fuel costs.",
+    "analyst": "23 analysts average rating 'Buy'.",
+    "price_action": "Union Pacific rallied to 52-week high after earnings."
   }
 }

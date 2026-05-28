@@ -1,42 +1,14 @@
 {
   "query": "BWIN earnings catalyst",
-  "fetched_at": "2026-05-28T12:47:00Z",
+  "fetched_at": "2026-05-28T19:48:00Z",
   "results": [
-    {
-      "title": "BWIN 5-Day Outlook: Post-Earnings Momentum Driven by Fairway Partnership Despite Debt Risks",
-      "url": "https://earezki.com/ai-financial-news/2026-02-27-bwin/"
-    },
-    {
-      "title": "Baldwin (BWIN) Q1 2026 Earnings Call Transcript | The Motley Fool",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/04/baldwin-bwin-q1-2026-earnings-call-transcript/"
-    },
-    {
-      "title": "Baldwin (BWIN) Q1 2026 Earnings Call Transcript - The Globe and Mail",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/1697189/baldwin-bwin-q1-2026-earnings-call-transcript/"
-    },
-    {
-      "title": "Baldwin Insurance Earnings Call Balances Growth And Strain - The Globe and Mail",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/BWIN-Q/pressreleases/1759058/baldwin-insurance-earnings-call-balances-growth-and-strain/"
-    },
-    {
-      "title": "Baldwin (BWIN) Q4 2025 Earnings Call Transcript | The Motley Fool",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/baldwin-bwin-q4-2025-earnings-call-transcript/"
-    },
-    {
-      "title": "What Baldwin Insurance Group (BWIN)'s Insider Buy And Analyst Upgrade Signal For Shareholders - Simply Wall St News",
-      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/what-baldwin-insurance-group-bwins-insider-buy-and-analyst-u"
-    },
-    {
-      "title": "Baldwin Insurance Group (NASDAQ:BWIN) Misses Q1 Earnings Estimates Amid Mixed Revenue Growth and Margin Pressure | ChartMill.com",
-      "url": "https://www.chartmill.com/news/BWIN/Chartmill-46902-Baldwin-Insurance-Group-NASDAQBWIN-Misses-Q1-Earnings-Estimates-Amid-Mixed-Revenue-Growth-and-Margin-Pressure"
-    },
-    {
-      "title": "BWIN Q1 Deep Dive: M&A Integration and AI Productivity Define Baldwin's 2026 Start - StockStory",
-      "url": "https://stockstory.org/us/stocks/nasdaq/bwin/news/earnings-call/bwin-q1-deep-dive-manda-integration-and-ai-productivity-define-baldwins-2026-start"
-    },
-    {
-      "title": "Why Baldwin Insurance Group (BWIN) Is Down 8.2% After Q1 Revenue Jump But Profit Slide - Simply Wall St News",
-      "url": "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/why-baldwin-insurance-group-bwin-is-down-82-after-q1-revenue"
-    }
-  ]
+    {"title": "BWIN 5-Day Outlook: Post-Earnings Momentum Driven by Fairway Partnership Despite Debt Risks", "url": "https://earezki.com/ai-financial-news/2026-02-27-bwin/"},
+    {"title": "Baldwin (BWIN) Q1 2026 Earnings Call Transcript | The Motley Fool", "url": "https://www.fool.com/earnings/call-transcripts/2026/05/04/baldwin-bwin-q1-2026-earnings-call-transcript/"},
+    {"title": "Baldwin (BWIN) Q1 2026 Earnings Call Transcript - The Globe and Mail", "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/1697189/baldwin-bwin-q1-2026-earnings-call-transcript/"},
+    {"title": "Baldwin Insurance Earnings Call Balances Growth And Strain - The Globe and Mail", "url": "https://www.theglobeandmail.com/investing/markets/stocks/BWIN-Q/pressreleases/1759058/baldwin-insurance-earnings-call-balances-growth-and-strain/"},
+    {"title": "Baldwin (BWIN) Q4 2025 Earnings Call Transcript | The Motley Fool", "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/baldwin-bwin-q4-2025-earnings-call-transcript/"},
+    {"title": "What Baldwin Insurance Group (BWIN)'s Insider Buy And Analyst Upgrade Signal For Shareholders - Simply Wall St News", "url": "https://simplywall.st/stocks/us/insurance/nasdaq-bwin/baldwin-insurance-group/news/what-baldwin-insurance-group-bwins-insider-buy-and-analyst-u"},
+    {"title": "Baldwin Insurance Group (NASDAQ:BWIN) Misses Q1 Earnings Estimates Amid Mixed Revenue Growth and Margin Pressure | ChartMill.com", "url": "https://www.chartmill.com/news/BWIN/Chartmill-46902-Baldwin-Insurance-Group-NASDAQBWIN-Misses-Q1-Earnings-Estimates-Amid-Mixed-Revenue-Growth-and-Margin-Pressure"}
+  ],
+  "notes": "Q1 2026 earnings reported 2026-05-04: revenue beat but EPS missed; margins/profit slid; stock down ~8.2% post-print. Key catalysts management cited: Fairway Independent Mortgage 10-yr exclusive embedded-mortgage partnership (live April), and Catalyst 3B30 program ($3B revenue / 30% adj EBITDA margin target, $34M cost actions underway, AI productivity gains up to 80% on internal workflows). Next earnings (Q2 2026) expected early August 2026."
 }

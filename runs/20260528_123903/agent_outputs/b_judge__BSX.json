@@ -4,20 +4,20 @@
     {
       "ticker": "BSX",
       "direction": "short",
-      "entry_price": 49.85,
-      "stop_loss": 51.20,
-      "target_price": 45.50,
-      "target_price_2": 43.12,
+      "entry_price": 49.65,
+      "stop_loss": 51.25,
+      "target_price": 45.66,
+      "target_price_2": 42.17,
       "quantity": 100,
       "expected_holding_days": 7,
-      "setup_type": "breakout",
-      "conviction": 7,
-      "rationale": "Both bull agents (bull_strength=8 each) dominate vs bears (bear_strength=7 each): combined_p_bull=0.5333, combined_p_bear=0.4667. SHORT expected_return = 0.5333*(49.85-45.50) - 0.4667*(51.20-49.85) = 2.320 - 0.630 = +$1.69/share. Key bears' concern (hourly RSI_21=12.53 extreme oversold, daily MACD histogram turning positive at +0.3215, 2.74x volume as capitulation) is real but outweighed by structural evidence: daily ema_aligned_downtrend=true, ADX_14=28.32 with minus_di=41.18 vs plus_di=26.32 (strong confirmed downtrend), price broke below the 3-test $52.52 pivot low on 2026-05-27, guidance cut is a multi-quarter revision cycle catalyst (next earnings 62 days out per facts). Bulls cross-checked: rsi_7=41.26/rsi_14=35.87/rsi_21=31.18 consistent with facts; volume 52.7M vs 19.2M avg matches facts; fib_ext_low_1272=$46.41 and fib_ext_low_1618=$43.12 are valid from daily_indicators.fibonacci. Bears' MACD histogram crossover (+0.3215) acknowledged but insufficient to override ADX trend strength. Position sized to $250 risk at 1%: 185 shares at $1.35 risk/share = $249.75 notional $9,222. Scaled down from 185 to 100 shares to fit small-account cap (notional $4,985 vs 20% extended cap $5,000), using 54% of risk budget ($135/$250). Target_price_2=$43.12 (fib_ext_low_1618) as extended target if WATCHMAN estimate cuts cascade.",
-      "risk_usd": 135.00,
+      "setup_type": "breakdown",
+      "conviction": 6,
+      "rationale": "Both technical perspectives confirm a structurally legitimate Stage-4 downtrend: daily_indicators.moving_averages.ema_aligned_downtrend=true, adx.adx_14=28.32 with minus_di 41.18 >> plus_di 26.32, price -17.27% vs sma_50 and -41.16% vs sma_200, on a fresh FY26 WATCHMAN guidance-cut catalyst (recent ~12% gap-down to a 2yr low on relative_volume=2.74) plus a clustered analyst PT-cut wave. Probability weighting: p_bull(short-thesis)=7/(7+7)=0.500, p_catalyst=8/(8+6)=0.571, combined_p_bull=0.536; entry=midpoint(49.40,49.90)=49.65; conservative short target=max(45.50,45.66)=45.66, conservative stop=min(51.30,51.25)=51.25; expected_return_per_share = 0.536*(49.65-45.66) - 0.464*(51.25-49.65) = 2.138 - 0.743 = +$1.39 (positive). Key disagreement resolved: both bears argue the short chases a spent capitulation flush (hourly rsi_21=17.10, daily bollinger.pct_b=-0.1148, z_score_50=-1.90, daily MACD histogram already +0.3215) -- valid risk, so conviction is held to 6 and entry requires a continuation break below the $49.90 watch_level rather than chasing. Position sizing: risk_dollars=25000*1%*1.0=$250, risk_per_share=|49.65-51.25|=$1.60, Gate-3 qty=floor(250/1.60)=156. Gate 4 small-scaled: notional 156*49.65=$7,745 exceeds 15% cap ($3,750); scaled down from 156 to 100 shares to fit small-account cap (100*49.65=$4,965 <= 20% extended cap $5,000), using 64% of risk budget ($160 of $250). Deployment $4,965 <= $15,000 (60%) cap; open risk $160 <= $1,000 (4%) cap.",
+      "risk_usd": 160.0,
       "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-29T20:00:00+00:00"
+      "entry_valid_until": "2026-05-29T14:00:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "BSX short approved: guidance-cut structural breakdown with combined_p_bull=0.53 yields +$1.69 expected return per share; position downsized to 100 shares (small_scaled) to fit $5,000 notional cap, using 54% of risk budget. Bears' oversold bounce risk acknowledged but ADX+OBV+MA-stack evidence supports multi-day continuation short from dead-cat-bounce entry zone $49.50–$50.20."
+  "summary": "BSX short approved (small_scaled): +$1.39/share probability-weighted expected return on a confirmed Stage-4 breakdown with a fresh WATCHMAN guidance-cut catalyst (adx 28.32, minus_di dominant, ema_aligned_downtrend). Conviction held to 6 for the bears' valid deeply-oversold capitulation-bounce risk, mitigated by requiring a continuation break below $49.90. Sized to 100 shares ($160 risk, 64% of budget) under the 20% small-account cap; deployment and total-risk caps satisfied."
 }

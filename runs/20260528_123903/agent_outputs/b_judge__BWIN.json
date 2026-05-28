@@ -4,20 +4,20 @@
     {
       "ticker": "BWIN",
       "direction": "short",
-      "entry_price": 19.295,
+      "entry_price": 19.125,
       "stop_loss": 19.85,
       "target_price": 17.50,
       "target_price_2": 16.80,
-      "quantity": 259,
-      "expected_holding_days": 9,
+      "quantity": 261,
+      "expected_holding_days": 8,
       "setup_type": "breakout",
-      "conviction": 5,
-      "rationale": "Gate 0–1 pass. Gate 2: p_bull=6/(6+7)=0.4615, p_catalyst=4/(4+7)=0.3636, combined_p_bull=0.4126, combined_p_bear=0.5874; entry=19.295 (midpoint of b_bull_a zone 19.20–19.39), target=max(16.80,17.50)=17.50 (conservative achievable), stop=min(19.85,19.85)=19.85; expected_return_per_share = 0.4126*(19.295−17.50) − 0.5874*(19.85−19.295) = 0.7406 − 0.3260 = +$0.4146 > 0. Gate 3: risk_dollars=25000×1.0%×1.0=$250, risk_per_share=0.555, quantity=floor(250/0.555)=450. Gate 4 small-scaled: notional=450×$19.295=$8,682 exceeds 15% cap ($3,750); M=floor($5,000/19.295)=259, risk_M=259×0.555=$143.75 ≥ 40% floor ($100) — scaled down from 450 to 259 shares to fit small-account cap, using 57% of risk budget. Bulls dominate technically (daily ADX_14=30.0, ema_aligned_downtrend=true, roc_21d=−20.5%, minus_di=18.85>plus_di=14.12, rel_vol=1.83x on red 5/27 close), but bears correctly flag $1M director insider buy on 2026-05-22 (confirmed by news research, not in structured insider feed), bullish OBV-price divergence (daily obv.diverging_from_price=true), daily rsi_21=24.59 (oversold), and hourly momentum flipping positive (hourly plus_di=26.53>minus_di=24.3). Conviction lowered to 5 — technical breakdown is real but fundamental counter-signals are unusually strong for a short entry.",
-      "risk_usd": 143.745,
+      "conviction": 4,
+      "rationale": "Gate 0 pass (all 4 perspectives setup_direction=short). Gate 1 pass (can_open_new_position=true, phase=full, daily_pnl=0). Gate 2: p_bull=b_bull_a(6)/(6+b_bear_a 7)=0.4615, p_catalyst=b_bull_b(4)/(4+b_bear_b 7)=0.3636, combined_p_bull=0.4126, combined_p_bear=0.5874; entry=(b_bull_a zone 19.05+19.20)/2=19.125, target=max(16.80,17.50)=17.50, stop=min(19.85,19.85)=19.85; expected_return_per_share = 0.4126*(19.125-17.50) - 0.5874*(19.85-19.125) = 0.6705 - 0.4259 = +$0.245 > 0. Gate 3: risk_dollars=25000*1.0%*1.0=250, risk_per_share=|19.125-19.85|=0.725, quantity=floor(250/0.725)=344. Gate 4 small-scaled: notional 344*19.125=$6579 > 15% cap $3750; M=floor($5000/19.125)=261, risk_M=261*0.725=$189.23 >= 40% floor $100 -- scaled down from 344 to 261 shares to fit small-account cap, using 76% of risk budget. Both bears (strength 7) win the conviction argument over bulls (6/4): daily rsi_21=24.59 (deep oversold), bollinger.pct_b=0.2241 near lower band, volume.obv.trend=up with diverging_from_price=true (accumulation), plus a web-confirmed ~$1M director insider buy 2026-05-22 -- all argue bounce-zone, not fresh continuation short. Trade clears only on conservative target/stop geometry over a real daily downtrend (ema_aligned_downtrend=true, -11.57% from sma_50, adx_14=30.0 with minus_di 18.85>plus_di 14.12, macd_line -0.8099<signal -0.6988, roc_21d=-20.5%). Conviction held at 4: combined_p_bull=0.41 leans against the thesis and the breakdown is unconfirmed (flat premarket, near-zero volume).",
+      "risk_usd": 189.23,
       "position_size_class": "small_scaled",
       "entry_valid_until": "2026-05-29T20:00:00+00:00"
     }
   ],
   "rejected": [],
-  "summary": "BWIN short approved at small-scaled size (259 shares, $143.75 risk, 57% of risk budget): Stage 4 technical breakdown with inverted MA stack and strong daily ADX confirmed, expected return +$0.41/share after probability weighting. Conviction capped at 5 due to $1M director insider buy on 2026-05-22, bullish OBV divergence, and deeply oversold daily rsi_21=24.59 — entry valid until end of 2026-05-29 session."
+  "summary": "BWIN short approved as small_scaled (261 sh, $189 risk, conviction 4). Expected return +$0.245/share is positive but thin -- both bears (strength 7) flag deep oversold (rsi_21=24.59), bullish OBV divergence, and a $1M director buy; trade clears on conservative target/stop geometry over a real daily downtrend, not on edge. Sized down 344->261 to fit the 20% notional cap on the $25k account."
 }

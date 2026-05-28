@@ -1,46 +1,17 @@
 {
   "query": "CRS news this week",
-  "fetched_at": "2026-05-28T12:45:00Z",
+  "fetched_at": "2026-05-28T19:40:00Z",
   "results": [
-    {
-      "title": "Carpenter Technology Corporation (CRS) Stock Price, News, Quote & History - Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/CRS/"
-    },
-    {
-      "title": "News Releases | CRS",
-      "url": "https://www.crs.org/news-releases"
-    },
-    {
-      "title": "Carpenter Technology Corporation (CRS) Latest Stock News & Headlines - Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/CRS/news/"
-    },
-    {
-      "title": "SpaceX launches 6,500 pounds of cargo to the International Space Station after delay (video) | Space",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-dragon-cargo-launch-iss-crs-34"
-    },
-    {
-      "title": "Cross River State News | Latest News - NewsNow",
-      "url": "https://www.newsnow.com/ng/Nigeria/South+South/Cross+River"
-    },
-    {
-      "title": "CRS in the News | CRS",
-      "url": "https://www.crs.org/media-center/crs-in-the-news"
-    },
-    {
-      "title": "Carpenter Technology: CRS Stock Price Quote & News | Robinhood",
-      "url": "https://robinhood.com/us/en/stocks/CRS/"
-    },
-    {
-      "title": "CRS: Carpenter Technology Corp - Stock Price, Quote and News - CNBC",
-      "url": "https://www.cnbc.com/quotes/CRS"
-    },
-    {
-      "title": "Corsair's Big Bet On AI Compute Is Turning Heads After Hours: Here's What's Going On With CRSR Stock - Benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/05/52798411/corsair-ai-compute-bet-crsr-stock-after-hours"
-    },
-    {
-      "title": "Carpenter Technology (CRS) Valuation Check After Record Earnings Beat And Raised Operating Income Guidance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html"
-    }
-  ]
+    {"title": "News Releases | CRS", "url": "https://www.crs.org/news-releases"},
+    {"title": "Carpenter Technology Corporation (CRS) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CRS/"},
+    {"title": "Carpenter Technology Corporation (CRS) Latest Stock News & Headlines - Yahoo Finance", "url": "https://finance.yahoo.com/quote/CRS/news/"},
+    {"title": "SpaceX launches 6,500 pounds of cargo to the International Space Station after delay (video) | Space", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-dragon-cargo-launch-iss-crs-34"},
+    {"title": "May 27, 2026 - Trump says he won't rush Iran deal | CNN", "url": "https://www.cnn.com/2026/05/27/world/live-news/iran-war-us-news"},
+    {"title": "Cross River State News | Latest News - NewsNow", "url": "https://www.newsnow.com/ng/Nigeria/South+South/Cross+River"},
+    {"title": "CRS in the News | CRS", "url": "https://www.crs.org/media-center/crs-in-the-news"},
+    {"title": "Carpenter Technology: CRS Stock Price Quote & News | Robinhood", "url": "https://robinhood.com/us/en/stocks/CRS/"},
+    {"title": "CRS: Carpenter Technology Corp - Stock Price, Quote and News - CNBC", "url": "https://www.cnbc.com/quotes/CRS"},
+    {"title": "Carpenter Technology (CRS) Valuation Check After Record Earnings Beat And Raised Operating Income Guidance", "url": "https://finance.yahoo.com/markets/stocks/articles/carpenter-technology-crs-valuation-check-050435005.html"}
+  ],
+  "notes": "TD Cowen raised PT on Carpenter Technology (CRS) to $470 from $450, Buy rating, within the past couple of days. Yahoo article references record earnings beat and raised operating income guidance."
 }

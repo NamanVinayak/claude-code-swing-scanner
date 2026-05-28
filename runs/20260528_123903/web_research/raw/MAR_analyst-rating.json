@@ -1,54 +1,21 @@
 {
   "query": "MAR stock 2026-05-28 analyst rating",
-  "fetched_at": "2026-05-28T12:46:00Z",
+  "fetched_at": "2026-05-28T19:39:50Z",
   "results": [
-    {
-      "title": "Marriott International, Inc. (MAR) Stock Price, News, Quote & History - Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/MAR/"
-    },
-    {
-      "title": "Marriott International (MAR) Stock Price & Overview",
-      "url": "https://stockanalysis.com/stocks/mar/"
-    },
-    {
-      "title": "Marriott International Inc Stock (MAR) Closed Up by 3.28% on May 27: What Investors Need To Know",
-      "url": "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527"
-    },
-    {
-      "title": "Marriott (MAR) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026",
-      "url": "https://public.com/stocks/mar/forecast-price-target"
-    },
-    {
-      "title": "Marriott International (MAR) Stock Forecast & Price Targets",
-      "url": "https://stockanalysis.com/stocks/mar/forecast/"
-    },
-    {
-      "title": "Marriott International Analyst Ratings and Price Targets | NASDAQ:MAR | Benzinga",
-      "url": "https://www.benzinga.com/quote/MAR/analyst-ratings"
-    },
-    {
-      "summary": "26 analysts: average rating Buy, 12-month price target $377.42, +2.24% from current price",
-      "date": "2026-05-28"
-    },
-    {
-      "summary": "Truist Securities maintained Hold rating, raised PT to $356 from $350 (as of 5/26/2026)",
-      "date": "2026-05-26"
-    },
-    {
-      "summary": "Argus analyst John Staszak raised PT to $425 from $420, keeps Buy rating after Q1 earnings beat",
-      "date": "2026-05-28"
-    },
-    {
-      "summary": "Wells Fargo raised PT to $446 from $443, keeps Overweight rating",
-      "date": "2026-05-28"
-    },
-    {
-      "summary": "Susquehanna raised PT to $385, citing strong luxury performance",
-      "date": "2026-05-28"
-    },
-    {
-      "summary": "Consensus moderate buy/buy with average PT ~$377-$425 range across analysts",
-      "date": "2026-05-28"
-    }
+    {"title": "Marriott International (MAR) Stock Price & Overview", "url": "https://stockanalysis.com/stocks/mar/"},
+    {"title": "Marriott International, Inc. (MAR) Stock Price, News, Quote & History - Yahoo Finance", "url": "https://finance.yahoo.com/quote/MAR/"},
+    {"title": "Marriott International Inc Stock (MAR) Closed Up by 3.28% on May 27: What Investors Need To Know", "url": "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527"},
+    {"title": "Marriott (MAR) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026", "url": "https://public.com/stocks/mar/forecast-price-target"},
+    {"title": "MAR Stock Forecast 2026 - Marriott Price Targets & Predictions", "url": "https://tickernerd.com/stock/mar-forecast/"},
+    {"title": "Marriott International (MAR) Stock Forecast & Price Targets", "url": "https://stockanalysis.com/stocks/mar/forecast/"},
+    {"title": "Marriott International Analyst Ratings and Price Targets | NASDAQ:MAR | Benzinga", "url": "https://www.benzinga.com/quote/MAR/analyst-ratings"},
+    {"title": "MAR / Marriott International, Inc. (NasdaqGS) - Forecast, Price Target, Estimates, Predictions", "url": "https://fintel.io/sfo/us/mar"},
+    {"summary": "26 analysts: average rating Buy, 12-month price target ~$377.42, +2.24% from current price", "date": "2026-05-28"},
+    {"summary": "Consensus mixed across sources: some Buy, others Hold (15 analysts, avg PT $285.87). Of 37 Wall Street analysts, 9 Buy, 16 Hold, 1 Sell, median PT $282.00", "date": "2026-05-28"},
+    {"summary": "Truist Securities maintained Hold rating, raised PT to $356 from $350 (5/26/2026)", "date": "2026-05-26"},
+    {"summary": "Argus analyst John Staszak raised PT to $425 from $420, keeps Buy rating after Q1 earnings beat", "date": "2026-05-28"},
+    {"summary": "Wells Fargo raised PT to $446 from $443, keeps Overweight rating (high target on the street)", "date": "2026-05-28"},
+    {"summary": "Susquehanna raised PT to $385, citing strong luxury performance", "date": "2026-05-28"},
+    {"summary": "MAR closed up 3.28% on May 27, 2026", "date": "2026-05-27"}
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "ticker": "TNGX",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Single weak short signal (sector_laggard_decline) with zero premarket volume and a small gap against the short thesis — no tradeable setup.",
+  "conviction": 2,
+  "notes": "Stage 1 score = 1 (minimum threshold), sole reason is sector_laggard_decline — the weakest of the three short screeners, requiring no volume spike or breakdown confirmation. Premarket: last_price $20.10 vs close $20.00 = +0.5% gap UP, which is against the short direction. While below the 5% reversal threshold, it provides no short-side confirmation. Critical disqualifier: premarket volume = 0 shares, avg_volume_10d = 0.0, volume_ratio = null — there is no price discovery or liquidity signal. Cannot set credible watch/invalidation levels without premarket volume context or technical data beyond Stage 1. New ticker (wiki_context.new_ticker=true): no setup history, no recent technicals, no prior outcomes to reference. Regime context is STALE (last updated 2026-05-03, 26 days old, bootstrap placeholder) — cannot use it. With a single weak signal, zero premarket volume, gap against direction, and no wiki support, the risk-reward is undefined. Dropping from today_watchlist."
+}

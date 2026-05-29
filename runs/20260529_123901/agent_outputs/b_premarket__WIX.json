@@ -1,0 +1,11 @@
+{
+  "ticker": "WIX",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Short thesis via sector_laggard_decline is undercut by a gap UP overnight (+0.67%) with zero premarket volume, removing any bearish confirmation.",
+  "conviction": 2,
+  "notes": "Stage 1 score=1 (minimum), single reason: sector_laggard_decline only. Premarket last_price=$53.00 vs close=$52.65, gap_pct=+0.665% — price moved against the short direction overnight. Premarket volume=0 with no 10d average available (volume_ratio=null) — zero evidence of distribution or sellers pressing. New ticker (new_ticker=true): no setup_history, no recent_tldr — cannot draw on any prior pattern data. Regime_tldr is STALE (last updated 2026-05-03, 26 days past 14-day threshold) and is a bootstrap placeholder with no usable content. Earnings safe (68 days out). With only one marginal signal, no volume confirmation, a gap against the short thesis, and no historical context, the setup does not survive pre-market screening."
+}

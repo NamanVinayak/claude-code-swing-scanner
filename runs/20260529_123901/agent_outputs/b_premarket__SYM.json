@@ -1,0 +1,11 @@
+{
+  "ticker": "SYM",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 49.0,
+  "invalidation_level": 50.1,
+  "catalyst_note": "Stage 1 flagged Stage 4 momentum breakdown + bearish episodic pivot; premarket holding marginally below close ($49.20 vs $49.55) with no volume confirmation available.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup history, no recent TL;DR. Regime page is a stale bootstrap placeholder (2026-05-03); macro context unavailable. Two solid short-setup signals from Stage 1 (stage4_momentum_breakdown, bearish_episodic_pivot) indicate price already in structural decline below key MAs. Premarket gap is -0.71% (in setup direction, well under 5% threshold — setup not played out). Critical gap: premarket volume is 0 with avg_volume_10d of 0.0 and volume_ratio null — no participation data to confirm institutional continuation. Watch level set at $49.00 (round-number breakdown below premarket low); invalidation at $50.10 (clear reclaim above the close would negate the breakdown thesis). Conviction reduced to 4 due to zero premarket volume data and absence of any wiki or macro context."
+}

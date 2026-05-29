@@ -1,0 +1,11 @@
+{
+  "ticker": "TMDX",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Single sector_laggard_decline signal with zero premarket volume and no confirming short-side momentum provides insufficient evidence to trade this setup today.",
+  "conviction": 2,
+  "notes": "Stage 1 score is 1 (minimum threshold), sole reason is sector_laggard_decline — weakest short setup type. Premarket volume is 0 (volume_ratio null, avg_volume_10d 0.0), so there is no pre-open directional confirmation. Premarket price $67.96 vs close $67.83 = +0.19% gap UP — not large enough to invalidate on the gap-against rule, but against the short thesis direction. Earnings are safe (62 days out). New ticker with no wiki history — cannot draw on prior setup patterns. Macro regime wiki slice is STALE (last updated 2026-05-03, >14 days), bootstrap placeholder only — treated as untrusted. With a single weak signal, zero premarket volume, no catalyst, no wiki history, and a stale macro picture, the short setup lacks any confirmatory evidence needed to advance to Stage 3. Dropping."
+}

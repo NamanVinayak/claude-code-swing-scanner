@@ -1,0 +1,11 @@
+{
+  "ticker": "NOG",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 21.70,
+  "invalidation_level": 22.25,
+  "catalyst_note": "Sector laggard decline setup — NOG is trading flat premarket ($21.80) with zero volume confirmation; needs a break below $21.70 to trigger the short continuation.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged only 1 reason (sector_laggard_decline) — minimum possible signal stack for a short. Premarket gap is -0.09% (essentially flat at $21.80 vs $21.82 close), so the setup has not played out against direction, but there is ZERO premarket volume (0 shares, volume_ratio null) — no conviction from pre-market participants. New ticker with no wiki history; relying solely on Stage 1 signal. Regime slice is STALE (last updated 2026-05-03, 26 days past 14-day threshold) — cannot rely on macro context; conviction reduced by 2 per staleness rule. Earnings data unavailable (days_since_last and days_until_next both null) — unknown binary event risk. Watch level $21.70 is a breakdown below the flat premarket cluster; invalidation $22.25 represents a meaningful recovery above yesterday's close that would negate the laggard thesis. Bottom line: setup is technically alive (price hasn't bounced) but is supported only by a single weak signal with no premarket confirmation and stale macro context — marginal candidate."
+}

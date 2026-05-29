@@ -1,0 +1,11 @@
+{
+  "ticker": "KTOS",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gap of +3.81% to $67.84 directly breaks the bearish thesis — price is moving against the short setup before market open.",
+  "conviction": 1,
+  "notes": "Stage 1 flagged stage4_momentum_breakdown (single signal, score=1) at close $65.35. Premarket shows a +3.81% gap UP to $67.84 — directly against the short direction. Per Stage 2 rules, a premarket gap up that breaks the bearish thesis = setup_valid: no. Premarket volume is 0 with no volume_ratio available, so there is no evidence of seller conviction. Earnings are 69 days out (no event risk). Wiki context is empty (new ticker, no setup history). Regime context is STALE (last updated 2026-05-03, placeholder content) — treated as untrusted. With the gap moving against the setup, zero volume data, and a single stage1 signal, this name is dropped."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "PLAB",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 34.20,
+  "invalidation_level": 35.50,
+  "catalyst_note": "Stage 1 bearish episodic pivot (large-volume down-move) and sector laggard decline signal a short setup, but an overnight gap up to $34.66 from $34.20 close shows near-term buyers stepping in — short confirms only on a break back below yesterday's close.",
+  "conviction": 3,
+  "notes": "Direction: short. Stage 1 scored 2 (bearish_episodic_pivot + sector_laggard_decline). Premarket gapped UP +1.345% to $34.66 — against the short thesis. Under the 5% hard-invalidation threshold but directionally adverse; setup is weakened, not dead. Watch level set at $34.20 (yesterday's close — breakdown below here resumes bearish episodic momentum). Invalidation at $35.50 (premarket high $34.66 + ~$0.84 buffer; a sustained rally above this erases the BEP setup). Premarket volume is 0 with avg_volume_10d 0.0 — no confirmatory premarket selling pressure visible; volume data gap reduces confidence. New ticker, no wiki setup_history or recent_tldr — relying solely on Stage 1 signals. Regime wiki is STALE (last updated 2026-05-03, threshold exceeded) — cannot use macro context; conviction docked 1. Conviction started at 4 (2 Stage 1 signals, partial setup, gap against direction), minus 1 for stale regime = 3."
+}

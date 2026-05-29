@@ -1,0 +1,11 @@
+{
+  "ticker": "OPCH",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 20.90,
+  "invalidation_level": 21.75,
+  "catalyst_note": "Sector laggard decline setup gapped down -2.69% premarket, confirming bearish price action, but zero premarket volume provides no confirmation of real seller participation.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki setup history or recent technicals. Regime wiki is STALE (2026-05-03 bootstrap placeholder, >14 days) and contains no usable data; macro context unknown. Stage 1 score=1 (minimum threshold, single reason: sector_laggard_decline). Premarket: last_price=$21.00 vs close=$21.58, gap=-2.69% — in short direction but below the 5% played-out threshold, so setup not yet exhausted. Critical weakness: premarket volume=0 and volume_ratio=null — no evidence of real distribution; the gap may be a thin-market artifact rather than genuine selling. Watch level set at $20.90 (breakdown below premarket low with buffer); invalidation at $21.75 (reclaim of yesterday's close zone). Conviction capped at 3: single weak signal, no volume confirmation, stale/absent macro context, new ticker with no track record in this system."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "PLNT",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 52.75,
+  "invalidation_level": 54.50,
+  "catalyst_note": "Sector laggard decline setup requires price to resume downward below yesterday's close ($52.90); overnight gap up to $53.44 works against the short and must reverse before entry triggers.",
+  "conviction": 3,
+  "notes": "Stage 1 single-reason flag (sector_laggard_decline only, score=1) — minimum possible signal strength. Premarket gap up +1.02% is against the short direction, keeping price above the prior close rather than confirming a breakdown. Gap is below the 5% hard threshold so not an automatic rejection, but it removes any premarket momentum confirmation. Premarket volume is completely absent (volume=0, avg_volume_10d=0.0, volume_ratio=null) — cannot assess participation. Earnings are 68 days away, no blackout issue. New ticker: no wiki setup history, no recent technicals TL;DR — relying solely on Stage 1 signals per protocol. Regime TL;DR is STALE (last updated 2026-05-03, threshold 14 days exceeded) — treated as untrusted; no macro tailwind factored in, conviction reduced by 2 per staleness rule. Watch level $52.75 = breakdown below prior close as resumption signal; invalidation $54.50 = rally through gap high clears the bearish thesis. Summary: structurally still a laggard candidate but too many data gaps and an adverse gap to carry high conviction into Stage 3."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "SMMT",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gap UP +2.81% against a short thesis breaks the bearish setup before the open.",
+  "conviction": 2,
+  "notes": "Direction is short (sector_laggard_decline, stage1_score=1). Premarket last_price=$17.90 vs close=$17.41, overnight_gap_pct=+2.81% — price is moving against the short thesis. Per prompt rules, a premarket gap UP that breaks the bearish thesis is setup_valid=no. Additionally: premarket volume=0 (no participation data), avg_volume_10d=0.0, volume_ratio=null — zero confirmation of directional commitment. Single weak signal reason (sector_laggard_decline only). Wiki: new_ticker=true, no setup_history or recent slices to draw on. Regime slice is STALE (last updated 2026-05-03, 26+ days past 14-day threshold, bootstrap placeholder — untrusted). No earnings data available. All factors point to drop: wrong-direction gap, zero premarket volume, minimal Stage 1 evidence, no memory context."
+}

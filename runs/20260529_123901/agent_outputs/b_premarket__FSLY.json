@@ -1,0 +1,11 @@
+{
+  "ticker": "FSLY",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 16.60,
+  "invalidation_level": 17.50,
+  "catalyst_note": "Sector laggard decline setup: FSLY continues to underperform cloud peers, holding below key moving averages; entry triggers on a clean break below near-term support at $16.60.",
+  "conviction": 3,
+  "notes": "Stage 1 issued a single signal (sector_laggard_decline, score=1) — the minimum possible. No corroborating signals. Premarket gap is +0.35% (essentially flat at $17.00 vs $16.94 close), not a thesis-breaking rally; short direction intact but barely confirmed. Premarket volume is 0 with avg_volume_10d=0.0 and volume_ratio=null — no volume data available to assess overnight conviction. New ticker (wiki_context.new_ticker=true): no setup_history_tldr, no recent_tldr; relying solely on Stage 1 mechanical signal. Regime context is STALE (last updated 2026-05-03, bootstrap placeholder only) — macro alignment cannot be assessed; conviction lowered 2 points per staleness rule. Earnings safe at 68 days out. Watch level $16.60 is a break below the recent close with buffer; invalidation $17.50 is a rally that would signal unexpected strength and break the laggard thesis."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "REZI",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 30.90,
+  "invalidation_level": 32.00,
+  "catalyst_note": "Sector laggard with sustained decline below 50-day MA; short setup requires a definitive breakdown below $31 support to confirm continuation.",
+  "conviction": 3,
+  "notes": "Single Stage 1 signal (sector_laggard_decline) — weakest possible entry signal count; no corroborating tv_strong_sell or additional setup reasons. Premarket nearly flat at $31.28 vs close $31.34 (-0.19%), so setup has not played out overnight — technically still live. However, premarket volume is zero (0 shares, avg_volume_10d=0.0, volume_ratio=null) — no premarket participation whatsoever, providing zero directional confirmation. New ticker with no wiki history (setup_history_tldr missing, recent_tldr missing) — relying solely on Stage 1 signal and premarket data per protocol. Regime context is STALE (last updated 2026-05-03, >14 days ago, bootstrap placeholder only) — treated as untrusted; conviction reduced by 2 per staleness rule. Earnings safe at 69 days out. Watch level $30.90 is a breakdown below the $31 round-number support zone; invalidation $32.00 covers a clean reclaim above yesterday's close that would negate the bearish thesis. With a single weak signal, zero premarket volume, no wiki history, and stale macro context, this is a low-conviction pass-through to Stage 3 only if the pipeline needs short candidates."
+}

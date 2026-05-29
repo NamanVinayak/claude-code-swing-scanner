@@ -1,0 +1,11 @@
+{
+  "ticker": "SITE",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 110.50,
+  "invalidation_level": 113.00,
+  "catalyst_note": "Sector laggard decline signal with price drifting slightly below prior close in premarket; setup requires a confirmed break below $110.50 to validate downside continuation.",
+  "conviction": 3,
+  "notes": "Stage 1 produced only 1 signal reason (sector_laggard_decline) — the weakest possible signal count. Premarket gap is -0.42% ($111.72 → $111.25), essentially flat — setup neither confirmed nor broken. Critical data gap: premarket volume = 0 and avg_volume_10d = 0.0 with volume_ratio null, meaning there is no premarket trading activity to validate directional conviction. New ticker (new_ticker=true); no setup_history, no recent wiki slice — relying solely on Stage 1 data. Regime slice is STALE (last updated 2026-05-03, 26 days ago, content is bootstrap placeholder) — no macro context available; lowering conviction by 2 per staleness rule. Earnings 61 days out — no blackout concern. Watch level $110.50 is a round-number breakdown below the premarket price; invalidation $113.00 gives ~1.2% above close, reasonable for a short. Overall: weak single-signal short with zero premarket volume confirmation and no wiki history — marginal candidate, low priority for Stage 3."
+}

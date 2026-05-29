@@ -1,0 +1,11 @@
+{
+  "ticker": "FUTU",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 103.80,
+  "invalidation_level": 107.00,
+  "catalyst_note": "Sector laggard decline setup — short thesis requires price to break below prior close ($104.60) and resume downtrend; overnight gap up (+0.52%) is a minor adverse signal but does not break the structure.",
+  "conviction": 3,
+  "notes": "Stage 1 flagged single reason only (sector_laggard_decline, score=1) — weakest possible entry. Premarket last_price $105.14 vs close $104.60 (+0.52% gap UP against short thesis). Gap is small and below the 5% hard-no threshold but is directionally adverse. Premarket volume is 0 with volume_ratio null — zero premarket confirmation of downside pressure. New ticker: no setup_history, no recent_tldr — cannot validate prior pattern or identify structural support/resistance levels. Regime is STALE (last updated 2026-05-03, bootstrap placeholder) — macro context untrusted; conviction reduced by 2 per staleness rule. Watch level set at $103.80 (breakdown below prior close with buffer); invalidation at $107.00 (~2% above premarket, clears the gap-up and would signal buyers in control). Overall: structurally eligible short candidate but lacks premarket evidence of continuation — low conviction, advance only if Stage 3 has strong fundamental or news-driven bearish thesis."
+}

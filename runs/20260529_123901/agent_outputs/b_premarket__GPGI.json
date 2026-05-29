@@ -1,0 +1,11 @@
+{
+  "ticker": "GPGI",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Premarket gap UP +2.92% against the short thesis invalidates the sector_laggard_decline setup before the open.",
+  "conviction": 1,
+  "notes": "Three compounding problems: (1) Direction is short, but price gapped UP from $11.99 close to $12.34 premarket (+2.92%) — adverse gap against the short thesis. Per rules, a premarket gap UP that breaks the bearish thesis = setup_valid: no. (2) Premarket volume is literally 0 shares (avg_volume_10d also 0.0, volume_ratio null) — the $12.34 print is from an illiquid premarket session with no institutional participation, making the gap unreliable but still structurally adverse. (3) Stage 1 score is only 1 (sole reason: sector_laggard_decline — the weakest of the three short screeners). New ticker with no wiki history; regime page is stale placeholder from 2026-05-03 (treated as untrusted). No watch or invalidation levels set."
+}

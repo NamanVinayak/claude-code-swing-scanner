@@ -1,0 +1,11 @@
+{
+  "ticker": "NIQ",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 8.20,
+  "invalidation_level": 8.50,
+  "catalyst_note": "Sector laggard decline setup: NIQ trading below yesterday's close pre-market, but requires a break below $8.20 intraday to confirm downside continuation.",
+  "conviction": 3,
+  "notes": "Single stage1 signal (sector_laggard_decline) — minimum possible score, weakest short setup type. Premarket shows zero volume (avg_volume_10d=0.0, volume_ratio=null) — no premarket confirmation whatsoever. Gap -0.48% is direction-consistent but negligible. New ticker: no setup history, no recent wiki, no prior patterns to draw from. Macro regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder) — cannot use for conviction. Watch level $8.20 set as clean breakdown below current premarket level ($8.30) and intraday support; invalidation $8.50 is above yesterday's close ($8.34) with small buffer. Low absolute price ($8.34) and zero measured premarket volume raise liquidity concern for short execution. Conviction capped at 3: one weak signal, no premarket volume, new ticker, stale regime."
+}

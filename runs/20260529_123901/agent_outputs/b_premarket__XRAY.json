@@ -1,0 +1,11 @@
+{
+  "ticker": "XRAY",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 10.20,
+  "invalidation_level": 10.50,
+  "catalyst_note": "Stage 4 momentum breakdown signal (below SMA200/SMA50 stack) with a minor premarket drift lower, but zero premarket volume offers no confirmation of fresh selling pressure.",
+  "conviction": 3,
+  "notes": "stage1_reasons=[stage4_momentum_breakdown], stage1_score=1 (minimum). last_regular_close=$10.29, premarket last_price=$10.25, overnight_gap_pct=-0.39% — direction-aligned gap but tiny. Premarket volume=0, volume_ratio=null: no institutional or retail premarket activity at all, which is the primary weakness. Earnings: both days_since_last and days_until_next are null — no earnings risk but also no timing anchor. new_ticker=true: no wiki setup_history, no recent technicals, no prior outcome record — relying solely on Stage 1 signal and premarket data per prompt instructions. Regime wiki is STALE (last updated 2026-05-03, 26 days ago, bootstrap placeholder) — provides zero usable macro context; conviction not further adjusted since placeholder carries no bearish or bullish signal. Watch level $10.20 = clean break below premarket price that confirms continuation of Stage 4 decline. Invalidation $10.50 = reclaim above yesterday's close plus $0.21 buffer, which would indicate buying interest overwhelming the breakdown thesis. Conviction starts at 5 for a valid Stage 4 signal, reduced by -1 for zero premarket volume, -1 for new ticker with no history, and -1 for single-reason Stage 1 score, yielding 3. Setup is partial not no: the breakdown structure is intact, but confirmation evidence is near-zero this morning."
+}

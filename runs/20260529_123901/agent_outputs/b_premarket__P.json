@@ -1,0 +1,11 @@
+{
+  "ticker": "P",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 72.50,
+  "invalidation_level": 75.50,
+  "catalyst_note": "Bearish episodic pivot (BEP) signal from prior session — setup is technically alive with price flat in premarket, but zero premarket volume provides no follow-through confirmation.",
+  "conviction": 3,
+  "notes": "Single Stage 1 signal (bearish_episodic_pivot, score=1). Premarket is essentially flat at $73.67 vs. $73.80 close (-0.18%) — the episodic drop has not continued overnight, but price has also not recovered meaningfully against the short thesis. Premarket volume is exactly 0 (avg_volume_10d=0.0, volume_ratio=null) — no activity at all, which eliminates any premarket confirmation. New ticker (new_ticker=true); no setup_history_tldr or recent_tldr available — relying solely on Stage 1 signal and premarket data. Regime_tldr is STALE (last updated 2026-05-03, bootstrap placeholder) — cannot inform regime context; per staleness protocol, conviction reduced by 2. Watch level set at $72.50 (breakdown below round-number support ~1.8% below close confirms continuation). Invalidation at $75.50 (meaningful recovery through prior close and above would indicate BEP being aggressively bought, invalidating short thesis). Earns 89 days out — no blackout concern. Bottom line: setup is technically partial — thesis not broken but lacking any volume confirmation or follow-through; Stage 3 should treat this as a weak candidate unless real-session open shows a breakdown with volume."
+}

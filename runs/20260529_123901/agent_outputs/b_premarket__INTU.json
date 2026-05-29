@@ -1,0 +1,11 @@
+{
+  "ticker": "INTU",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Short setup (sector_laggard_decline) is undermined by a premarket gap UP of +0.91% against the short direction, zero premarket volume, and a single-reason Stage 1 score with no wiki history to support conviction.",
+  "conviction": 2,
+  "notes": "Direction is short. Premarket last_price=$316.25 vs close=$313.39 = +0.91% gap against the short thesis. Under the 5% automatic-no threshold but directionally wrong for a short. Stage 1 score=1 (only sector_laggard_decline) — weakest possible signal count, no confluence. Premarket volume=0, avg_volume_10d=0.0, volume_ratio=null — no intraday momentum data whatsoever; cannot confirm breakdown pressure. New ticker: no setup_history, no recent_tldr available. Regime wiki is stale (last updated 2026-05-03, bootstrap placeholder only) — treated as untrusted per staleness protocol. Combination of gap against direction + no volume data + minimal signal confluence + no wiki support = insufficient basis to advance this name to Stage 3."
+}

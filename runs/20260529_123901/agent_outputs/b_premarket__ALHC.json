@@ -1,0 +1,11 @@
+{
+  "ticker": "ALHC",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 15.70,
+  "invalidation_level": 16.15,
+  "catalyst_note": "Sector laggard decline setup flagged by Stage 1; no premarket volume or news catalyst to confirm bearish continuation this morning.",
+  "conviction": 2,
+  "notes": "Stage 1 score of 1 (sole reason: sector_laggard_decline) — minimum threshold signal. Premarket gap is +0.09% (essentially flat, $15.88 vs $15.865 close) — neither confirms nor breaks the short thesis. Premarket volume is 0 shares (avg 10d also 0.0, volume_ratio null) — zero premarket participation, no institutional confirmation of selling pressure. New ticker (new_ticker: true); setup_history and recent wiki slices are both missing — no prior setup history to draw on. Regime wiki is STALE (last updated 2026-05-03, bootstrap placeholder only) — macro context disregarded per staleness protocol. Earnings 62 days out, no blackout concern. Setup rated partial rather than no because the flat gap preserves the technical setup intact, but single-signal origin plus zero premarket volume makes conviction very low. Watch level $15.70 is a round-number breakdown below recent close; invalidation $16.15 clears intraday range above current price. Stage 3 should weigh whether this name merits a full adversarial debate given the thin signal base."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "SHAK",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "range_break",
+  "watch_level": 61.50,
+  "invalidation_level": 63.25,
+  "catalyst_note": "Sector laggard continuation short — SHAK has been declining relative to sector; setup triggers on a breakdown below $61.50 intraday support.",
+  "conviction": 3,
+  "notes": "Stage 1 produced only 1 signal reason (sector_laggard_decline) — the weakest possible score. Premarket is essentially flat: last_price $62.25 vs close $62.13 (+0.19% gap UP), which is slightly against the short thesis but not a thesis-breaker at this magnitude. Premarket volume is 0 with no volume_ratio available — zero confirmation of selling pressure. New ticker with no wiki history (setup_history and recent slices both missing); relying solely on Stage 1 data per failure-mode rules. Regime slice is STALE (bootstrap placeholder dated 2026-05-03, threshold exceeded) — no macro context available; applying -1 conviction for stale regime. Watch level set at $61.50 (breakdown below round-number support below close); invalidation at $63.25 (rally through resistance above current price clears bearish thesis). Conviction held at 3: single signal, no premarket volume, no wiki history, stale regime all weigh against this setup. Recommend passing to Stage 3 only if no stronger short candidates are available."
+}

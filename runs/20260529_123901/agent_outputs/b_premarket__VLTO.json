@@ -1,0 +1,11 @@
+{
+  "ticker": "VLTO",
+  "setup_valid": "partial",
+  "direction": "short",
+  "setup_type": "breakout",
+  "watch_level": 83.00,
+  "invalidation_level": 85.50,
+  "catalyst_note": "Minervini Stage 4 momentum breakdown pattern (close below inverted SMA200/SMA50 stack) flagged by scanner; price flat overnight with zero premarket volume confirms no counter-trend squeeze, but also no fresh downside confirmation.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki history. Relying solely on Stage 1 signal and premarket data. Single signal (stage4_momentum_breakdown, stage1_score=1) is the weakest possible Stage 1 qualification. Premarket last_price=$83.48 exactly equals last_regular_close — zero overnight gap (0.0%), no directional drift. Premarket volume=0 and volume_ratio=null: no premarket activity at all, so no volume confirmation of breakdown continuation. Earnings safe at 55 days out. Macro regime wiki is STALE (last updated 2026-05-03, 26 days past 14-day threshold) — treated as untrusted; conviction reduced by 2 per staleness rule. watch_level $83.00 is a clean round-number breakdown trigger below close; invalidation $85.50 is ~2.4% above close covering a typical intraday swing for a $83 name. Setup rated 'partial' rather than 'no' because the Stage 4 structure itself is intact and price hasn't rallied to invalidate — but absence of any premarket volume or second signal makes conviction low. Stage 3 should require fresh news or volume catalyst before approving."
+}

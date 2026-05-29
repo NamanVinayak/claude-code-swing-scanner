@@ -1,0 +1,11 @@
+{
+  "ticker": "TBBB",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Bearish episodic pivot short thesis is broken: stock gapped UP +2.04% overnight with zero premarket volume, indicating buyers stepping in rather than continued distribution.",
+  "conviction": 1,
+  "notes": "Stage 1 flagged bearish_episodic_pivot (score=1, minimum). For a short, a premarket gap UP of +2.04% is counter-thesis — the episodic pivot pattern requires continuation of a large-volume down move, not a reversal higher. Premarket volume is 0 (avg_volume_10d=0.0, volume_ratio=null), meaning no liquidity confirmation of either direction. New ticker (wiki new_ticker=true): no setup history, no recent technicals, no macro regime context (regime_tldr is STALE bootstrap placeholder). Earnings unknown (days_since_last=null, days_until_next=null). With price at $33.52 vs close of $32.85 and zero premarket volume, there is no valid short entry level derivable from data. Setup invalid: gap against thesis + single weak signal + no volume."
+}

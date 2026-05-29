@@ -1,0 +1,11 @@
+{
+  "ticker": "KVYO",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Short thesis (sector_laggard_decline) is undercut by a premarket gap UP of +1.64% against the bearish direction, with zero premarket volume confirming no real conviction in either direction.",
+  "conviction": 2,
+  "notes": "Three compounding problems: (1) Direction is short but price gapped UP overnight from $14.64 close to $14.88 (+1.64%) — a move against the setup direction that, per protocol, breaks the thesis. (2) Premarket volume is exactly 0 shares (volume_ratio null), so the $14.88 print is likely a stale bid/ask artifact, not real activity — but the gap itself signals no overnight bearish follow-through either. (3) Stage 1 score was 1 (minimum) off a single weak signal: sector_laggard_decline. No wiki history exists (new_ticker: true). Regime context is a stale bootstrap placeholder. With no setup history, no macro anchor, a gap against direction, and the weakest possible Stage 1 signal, there is no edge here. Dropping from today_watchlist."
+}

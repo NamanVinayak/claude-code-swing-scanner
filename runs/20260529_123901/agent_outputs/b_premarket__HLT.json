@@ -1,0 +1,11 @@
+{
+  "ticker": "HLT",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 339.50,
+  "invalidation_level": 336.00,
+  "catalyst_note": "TradingView flagged both breakout_up and trending_up signals; premarket is holding a small +0.43% gap above yesterday's $337.55 close with no adverse overnight news evident.",
+  "conviction": 5,
+  "notes": "Stage 1 reasons: tv_breakout_up, tv_trending_up (score 2). Premarket last_price $339.00, gap +0.43% — setup not played out. Critical data gap: premarket volume is 0, volume_ratio null — no confirmation that buyers are participating pre-open. New ticker (wiki new_ticker=true); setup_history and recent slices both missing — relying solely on Stage 1 signals and premarket price. Regime slice is STALE (last updated 2026-05-03, bootstrap placeholder only) — macro context unknown; conviction lowered by 2 per staleness rule. No earnings risk (61 days out). Watch level set at $339.50 — a clear break above current premarket high to confirm breakout continuation. Invalidation at $336.00, below yesterday's close, giving the setup room but cutting before prior structure breaks. Partial rather than yes due to zero premarket volume (cannot confirm demand) and unknown macro regime."
+}

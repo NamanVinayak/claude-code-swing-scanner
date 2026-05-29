@@ -1,0 +1,11 @@
+{
+  "ticker": "SNX",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 254.50,
+  "invalidation_level": 244.50,
+  "catalyst_note": "TradingView tv_breakout_up and tv_trending_up signals fired; stock gapped +3.16% overnight to $254.00, partially advancing the breakout move — confirm continuation above $254.50 at open.",
+  "conviction": 4,
+  "notes": "New ticker — no wiki setup_history, no recent_tldr. Regime wiki is STALE (last updated 2026-05-03, placeholder only) — not used in assessment; conviction not further adjusted since regime was already not driving the call. Stage 1 score is modest (2 reasons: tv_breakout_up, tv_trending_up). Gap of +3.16% is below the 5% automatic-disqualification threshold but has already advanced the breakout entry point from $246.22 to $254.00 — reduces risk/reward vs ideal entry near breakout trigger. Critical data gap: premarket volume = 0, avg_volume_10d = 0.0, volume_ratio = null — cannot confirm volume confirmation of the breakout, which is a standard requirement for breakout setups. Earnings 25 days out — no blackout risk. Watch level $254.50 requires price to hold and push above current premarket gap level on regular-session open. Invalidation $244.50 is below yesterday's close ($246.22), indicating a failed breakout and gap-fill reversal. Conviction 4: partial setup visible, but zero volume data and no prior history on this ticker preclude higher confidence."
+}

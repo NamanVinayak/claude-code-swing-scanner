@@ -1,0 +1,11 @@
+{
+  "ticker": "MSCI",
+  "setup_valid": "partial",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 628.0,
+  "invalidation_level": 615.0,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up; premarket is holding a +1.52% gap to $626.50, consistent with the breakout direction but no volume confirmation available.",
+  "conviction": 3,
+  "notes": "New ticker — no wiki setup history, no recent_tldr, regime context is STALE (bootstrap placeholder, last updated 2026-05-03, >14 days ago). Per staleness rule, conviction reduced by 2. Premarket gap of +1.52% ($617.10 → $626.50) is in-direction and below the 5% played-out threshold, so setup is not broken — classified partial because zero premarket volume (volume=0, volume_ratio=null) prevents any volume-backed momentum confirmation. Two Stage 1 signals (tv_breakout_up, tv_trending_up) are solid. Earnings 53 days out — no event risk. Watch level $628.00 is just above current premarket price to require the breakout to hold into the open; invalidation $615.00 is below yesterday's close with a small buffer. Cannot confirm macro regime — treat as unknown and apply macro-neutral stance."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "STEP",
+  "setup_valid": "no",
+  "direction": "short",
+  "setup_type": null,
+  "watch_level": null,
+  "invalidation_level": null,
+  "catalyst_note": "Stage4 momentum breakdown flagged at $50.09 close, but no premarket price data is available to confirm the setup remains intact this morning.",
+  "conviction": 2,
+  "notes": "Premarket last_price is null — no fresh price data. Cannot assess overnight move, gap direction, or current price relative to Stage 1 breakdown level. All premarket fields (volume, gap_pct, volume_ratio) are null; avg_volume_10d is 0.0, indicating the premarket data feed returned nothing for this ticker. New ticker (wiki_context.new_ticker=true): no setup history, no recent technicals TL;DR available. Regime slice is STALE (last updated 2026-05-03, >14 days ago) and contains only a bootstrap placeholder — no usable macro context. Stage 1 score is 1 (single reason: stage4_momentum_breakdown), the minimum to advance. Without premarket confirmation of price and volume, there is no basis to set actionable watch or invalidation levels. Drop from today's watchlist."
+}

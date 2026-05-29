@@ -1,0 +1,24 @@
+{
+  "ticker": "SYM",
+  "setup_direction": "short",
+  "bull_strength": 6,
+  "entry_zone": {"low": 48.0, "high": 48.8},
+  "target": 44.2,
+  "stop": 50.2,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Fresh 7-day catalyst stack confirmed bearish: on 2026-05-28 SYM fell ~8% on disclosed insider stock SALES by executives (investing.com) AND ~8.4% on competitive-position concerns vs Serve Robotics (marketbeat) — both negative-sentiment items dated within the window, hitting confidence in the backlog story.",
+    "Distribution confirmed by tape: 2026-05-28 closed $48.81 (low $46.62) on 8,667,000 shares = relative_volume 3.59 vs avg_volume_20 2,412,365 — heavy volume on a down day. roc_21d = -14.49 (daily), daily MACD line -1.4882 below signal, EMA stack ema_aligned_downtrend=true, price -10.45% below sma_50 and -16.41% below sma_200; ADX 31.7 with minus_di 36.73 > plus_di 20.41 confirms a strong downtrend.",
+    "R:R math favors the short: entry midpoint $48.40, stop $50.20 (above invalidation $50.1), target $44.20 (recent_low / pivot_low 44.2, volume_confirmed). Risk = $1.80, reward = $4.20 = 2.3:1. Hourly momentum extends the case: hourly MACD histogram -0.5723, hourly adx_24 46.52 with minus_di 34.42, roc_10d -10.6; earnings.days_until_next = 59 means no near-term earnings squeeze risk."
+  ],
+  "risks_acknowledged": [
+    "Insider selling is mostly noise (often 10b5-1 plans) — recent_insider_trades in the bundle is empty, so I cannot verify cluster intent; the ~8% drop is the catalyst, not the sale itself, which weakens the durability of the narrative.",
+    "Stock is already extended to the downside: daily rsi_14 = 34.65, bollinger pct_b = 0.2665, hourly rsi_21 = 29.32 (near oversold) and z_score_120 = -1.07 — high odds of a mean-reversion bounce toward ema_5 ($51.14) before any further breakdown, which could stop a short entered too low.",
+    "Last earnings (~2026-05-06) was a beat: revenue $676.48M (+23% YoY) > consensus, first GAAP profitability, backlog ~$22.4B; analyst_consensus_web avg PT $67.63 (well above $48.81) — a single positive analyst note or backlog headline could reverse the two-day selloff fast.",
+    "Conviction from Stage 2 is only 4 and the setup is a new_ticker with no wiki thesis/catalyst history; premarket held only marginally below close ($49.20 vs $49.55) with no volume confirmation — breakdown is unconfirmed."
+  ],
+  "web_sources_last_7d": [
+    "https://www.investing.com/news/stock-market-news/symbotic-stock-falls-on-insider-selling-activity-93CH-4715041",
+    "https://www.marketbeat.com/stocks/NASDAQ/SYM/news/"
+  ]
+}

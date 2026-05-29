@@ -1,0 +1,20 @@
+{
+  "ticker": "SYM",
+  "setup_direction": "short",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Fundamentals do NOT support a fresh leg down: Q2 FY2026 (reported ~2026-05-06, context-only/already priced in) delivered revenue $676.48M (+23% YoY) beating consensus $662.65M, first-ever GAAP profitability (~$9M net income), and a record ~$22.4-22.7B backlog with Q3 guide $700M-$720M (earnings_context_web). Shorting an accelerating, newly-profitable name against a 5x revenue-coverage backlog is a poor valuation-driven short thesis.",
+    "Analyst targets sit far ABOVE the short entry, capping downside conviction: analyst_consensus_web avg_price_target = $67.63 (high $80, low $44) versus current_price $48.81 — the Street's central case implies ~+39% upside, and even the low target ($44) is only ~10% below entry. With 7 Buy / 10 Hold / 3 Sell of 21 analysts and no dated downgrades inside the 7-day window, sell-side positioning is not capitulating to confirm a sustained decline.",
+    "The bearish catalyst already fired and is largely spent: both recent_news_7d items describe the SAME ~8% drop on 2026-05-28 (insider-selling disclosure + Serve Robotics competitive worry). The 2026-05-28 bar opened $49.00, sold to a $46.62 low on 3.59x relative volume (8.67M vs 20d avg 2.41M), then closed off the lows at $48.81 — a high-volume reversal candle that printed near pivot support ($48.76, tested 11x; hourly support $46.62 tested 14x, volume_confirmed). daily rsi_14 = 34.65 and hourly rsi_21 = 29.32 (oversold), bollinger pct_b = 0.27 — shorting into an exhausted, oversold reversal off confirmed support invites a bounce, not a clean breakdown."
+  ],
+  "bull_acknowledgements": [
+    "The short does have real technical backing: daily EMAs are stacked downtrend (ema_aligned_downtrend true), price is -10.45% below the 50SMA and -16.41% below the 200SMA, ADX 31.7 with minus_di 36.73 > plus_di 20.41 confirms a strong downtrend, and roc_21d = -14.49% shows genuine momentum decay.",
+    "Insider selling disclosed 2026-05-28 (per recent_news_7d) is a legitimate confidence signal against the backlog-growth story, though no insider transaction detail is present in recent_insider_trades to size or date it.",
+    "Competitive-position concerns versus Serve Robotics (2026-05-28) plus high customer-concentration risk (earnings_context_web) are durable overhangs that could justify a lower multiple over time."
+  ],
+  "web_sources_last_7d": [
+    "https://www.investing.com/news/stock-market-news/symbotic-stock-falls-on-insider-selling-activity-93CH-4715041",
+    "https://www.marketbeat.com/stocks/NASDAQ/SYM/news/"
+  ]
+}

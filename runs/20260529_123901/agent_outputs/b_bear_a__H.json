@@ -1,0 +1,21 @@
+{
+  "ticker": "H",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [183.33, 181.61, 179.08],
+  "top_3_arguments": [
+    "Severely extended into the breakout — chasing here is buying the top of a parabolic run. daily z_score_50 = 2.07 and hourly z_score_120 = 2.5 (both >2 standard deviations); price is 15.47% above sma_50 and 19.56% above sma_200; bollinger.pct_b = 1.0666 daily (price closed ABOVE the upper band at 183.66) and hourly rsi_21 = 81.07 / daily rsi_7 = 77.88. roc_21d = 14.23%. A breakout entry at 185.75 has almost no cushion before mean reversion to ema_5 (180.15) or fib_236 (181.03).",
+    "The breakout candle itself shows distribution/rejection, not clean acceptance. On 2026-05-28 (volume bar) the high tagged 188.50 but the bar CLOSED at 185.46 — a ~$3.04 upper wick (close was only 80% of the daily range), and that 188.50 is now fresh overhead supply: hourly support_resistance.nearest_resistance = 188.50. The watch_level of 185.75 is right under that wick and under hourly fib_236 = 185.08 / fib_382 = 182.96 retrace zone, so any push higher runs straight into yesterday's failed level.",
+    "Reward-to-risk is thin against the setup's own levels and the analyst ceiling. From watch_level 185.75 to the prior swing-high resistance at 188.50 is only +1.5% of headroom before sellers reappear, while invalidation at 183.50 is -1.2% — roughly 1.2:1 even before slippage, and atr_14 = 5.65 (3.05% daily range) means a single normal session can whipsaw through both. Compounding this, analyst_consensus_web.avg_price_target = 182.79 sits BELOW the current 185.46 close — the average target is already exceeded, so the easy upside has been front-run."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is unambiguously bullish: ema_aligned_uptrend = true on both daily and hourly, price above all moving averages (ema_5 through ema_200), and adx_14 = 28.71 (plus_di 31.97 vs minus_di 9.36) confirms a strong, well-directed uptrend.",
+    "Participation is real, not a thin fakeout: daily relative_volume = 1.53x with volume_bias_10d = 'up' and OBV trending up (not diverging from price). rsi_divergence.bearish = false on both timeframes — I cannot claim a momentum divergence.",
+    "There is a genuine fundamental tailwind: the May 28 Investor Day (three-year outlook through 2028) plus a new $1B buyback authorization, and Mizuho lifted its PT to $221 Outperform the same day — a real, fresh catalyst rather than a vacuum."
+  ],
+  "web_sources_last_7d": [
+    "https://www.thestockobserver.com/2026/05/27/hyatt-hotels-nyseh-reaches-new-12-month-high-following-analyst-upgrade.html",
+    "https://www.tipranks.com/news/company-announcements/hyatt-hotels-unveils-strategy-and-expands-share-buyback",
+    "https://www.investing.com/news/analyst-ratings/mizuho-raises-hyatt-hotels-stock-price-target-on-growth-outlook-93CH-4716182"
+  ]
+}

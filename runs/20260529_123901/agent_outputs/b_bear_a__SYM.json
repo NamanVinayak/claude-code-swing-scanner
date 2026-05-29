@@ -1,0 +1,20 @@
+{
+  "ticker": "SYM",
+  "setup_direction": "short",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [50.95, 52.80, 54.18],
+  "top_3_arguments": [
+    "Short is chasing a move that already happened. SYM is sitting on heavily-tested support: daily support_resistance.nearest_support = 48.76 with 11 tests, and current_price = 48.81 is right on it. The big down day already printed (2026-05-28 close 48.81, low 46.62) on relative_volume = 3.59 (8.67M vs avg 2.41M) — that is capitulation-style flush, not the start of fresh distribution. Shorting into a 1-day -8% washout sitting on 11-tested support is poor entry.",
+    "Momentum is already oversold, raising bounce risk against the short. daily rsi.rsi_14 = 34.65 and rsi.rsi_21 = 39.07; hourly rsi.rsi_21 = 29.32 (sub-30 oversold). daily bollinger.pct_b = 0.2665 and hourly pct_b = 0.1609 — price is pinned near the lower band on both timeframes. daily macd.histogram = +0.0527 (positive, momentum ticking up off the lows) and macd is NOT a fresh crossdown (bullish_crossover false but line -1.4882 vs signal -1.5409, histogram improving). Oversold + lower-band + improving daily histogram = mean-reversion bounce risk, the enemy of a short entry here.",
+    "R:R and entry mechanics are weak for the short. watch_level = 49.0 / invalidation_level = 50.1 gives a stop band of only ~2.2% while ATR is huge: daily atr.atr_pct = 6.85% (atr_14 = 3.34). A 2.2% stop inside a 6.85% daily ATR will get noise-stopped on any normal bounce. The next real downside support after 48.76 is the 2026-05-28 low / pivot at 46.62 (hourly, 14 tests) then daily pivot_low 44.20 — only ~5-9% of room before strong volume_confirmed support, so the short is squeezed between thin reward and a noise-wide stop. Stage 1 conviction is only 4/10, confirming a marginal setup."
+  ],
+  "bull_acknowledgements": [
+    "The broader trend genuinely favors the short: daily moving_averages.ema_aligned_downtrend = true, price is below every MA (pct_from_sma_50 = -10.45, pct_from_sma_200 = -16.41), and adx.adx_14 = 31.7 with minus_di 36.73 > plus_di 20.41 confirms a strong established downtrend.",
+    "Volume bias and OBV both lean bearish: daily volume.volume_bias_10d = 'down' and obv.trend = 'down' on both daily and hourly, and roc_21d = -14.49 shows real medium-term weakness.",
+    "News flow is fresh and negative: two web_research items dated 2026-05-28 (insider stock sales by executives, competitive-position concerns vs Serve Robotics) both tagged negative sentiment, a legitimate catalyst tailwind for the short."
+  ],
+  "web_sources_last_7d": [
+    "https://www.investing.com/news/stock-market-news/symbotic-stock-falls-on-insider-selling-activity-93CH-4715041",
+    "https://www.marketbeat.com/stocks/NASDAQ/SYM/news/"
+  ]
+}

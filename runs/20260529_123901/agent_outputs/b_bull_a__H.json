@@ -1,0 +1,25 @@
+{
+  "ticker": "H",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 185.75, "high": 187.50},
+  "target": 196.50,
+  "stop": 182.90,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Confirmed breakout to fresh highs: daily recent_high = 188.5 and prev resistance 183.71 reclaimed, with current_price 185.46 on relative_volume 1.53 (1.36M vs avg_volume_20 893,955) and obv.trend = up, non-diverging. Watch_level 185.75 sits just above the breakout pivot.",
+    "Full bullish MA stack with strong trend: ema_aligned_uptrend = true, price above all MAs (pct_from_sma_50 = +15.47, pct_from_sma_200 = +19.56); adx_14 = 28.71 ('strong') with plus_di 31.97 vs minus_di 9.36; macd_line 5.23 > signal 3.81, histogram +1.42 expanding; roc_21d = +14.23.",
+    "Momentum healthy not yet exhausted on the daily: rsi_14 = 68.38 (below 70), rsi_21 = 65.89; fib extension 1.272 = 197.11 gives a structural upside target above entry, supporting R:R ~2.3:1 (reward 10.75 vs risk 4.60) against a stop below the 182.90 invalidation shelf."
+  ],
+  "risks_acknowledged": [
+    "Chart is extended/overbought short-term: bollinger pct_b = 1.0666 (above upper band), z_score_50 = 2.07, daily rsi_7 = 77.88 and hourly rsi_21 = 81.07 — high risk of a pullback/shakeout before continuation, which could clip a tight stop.",
+    "Breakout fuel may already be priced in: the May 27 analyst upgrade and May 28 Investor Day (+$1B buyback, Mizuho PT $221) drove the run-up, so a 'sell-the-news' fade is plausible; premarket is flat (-0.17%) with zero premarket volume, giving no early follow-through confirmation.",
+    "Avg analyst price target in the researcher bundle is $182.79 (below current $185.46) despite the bullish individual revisions — research gap: consensus appears to lag the recent re-rating, so upside conviction leans on the newest (Mizuho $221) target, not the blended consensus.",
+    "Nearest daily support is far (163.04) and ATR is 3.05% (atr_14 = 5.65), so a failed breakout could give back several days of gains quickly if 182.90 fails."
+  ],
+  "web_sources_last_7d": [
+    "https://www.thestockobserver.com/2026/05/27/hyatt-hotels-nyseh-reaches-new-12-month-high-following-analyst-upgrade.html",
+    "https://www.tipranks.com/news/company-announcements/hyatt-hotels-unveils-strategy-and-expands-share-buyback",
+    "https://www.investing.com/news/analyst-ratings/mizuho-raises-hyatt-hotels-stock-price-target-on-growth-outlook-93CH-4716182"
+  ]
+}

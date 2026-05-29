@@ -1,0 +1,21 @@
+{
+  "ticker": "SNDK",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Price has already blown through the analyst consensus: current_price $1,641.64 is +6.4% ABOVE the avg_price_target of $1,543.36 (analyst_consensus_web, 22 analysts). Even the recent Barclays/Citi PT bumps are headline raises chasing a stock that ran from $36 to $1,590 in a year (Fool, 2026-05-27); a $1,670 breakout buy is paying up at the very top of the published target range with limited fundamental headroom left to capture.",
+    "The chart is parabolic and statistically extreme, not a clean base breakout: z_score_50 = 1.76 daily and z_score_120 = 2.41 hourly, price sits +54.9% above sma_50 and +242% above sma_200, rsi_7 = 85.42 (severely overbought), and BOTH daily and hourly show bearish rsi_divergence = true. roc_21d = 63.78%. Buying a $1,670 stop-entry into this much vertical extension is buying exhaustion risk, not momentum continuation.",
+    "Breakout lacks volume confirmation and the catalyst is thin: the 2026-05-28 push to a $1,697.96 high closed at $1,641.64 on relative_volume 0.67 (9.9M vs 14.9M avg_20) — a breakout on BELOW-average volume. Stage 2 itself flags 'zero premarket volume offers no buying-interest confirmation' and conviction is only 4/10. With earnings.days_until_next = 87 (next report ~2026-08-13), there is no fundamental catalyst inside the trade horizon to rescue a stalled entry — the Q3 beat (Apr 30) is context-only and already priced after the rally."
+  ],
+  "bull_acknowledgements": [
+    "The fundamental story is real and recent: analyst_consensus_web confirms a 'buy' rating with Barclays upgrade to overweight (PT $2,300) citing a ~$42B multi-year contract backlog, plus Mizuho and Citi PT raises — this is genuine AI/NAND demand, not hype alone.",
+    "Trend strength is legitimately strong: adx_14 = 39.28 with plus_di (28.91) over minus_di (15.07), full EMA uptrend alignment, and OBV trending up not diverging — the primary trend is clearly up.",
+    "No insider selling appears in the bundle (recent_insider_trades empty) and no near-term earnings landmine (87 days out), so two common bear catalysts are absent here."
+  ],
+  "web_sources_last_7d": [
+    "https://coincentral.com/sandisk-sndk-stock-jumps-as-barclays-lifts-target-to-2300-on-42b-in-contracts/",
+    "https://www.fool.com/investing/2026/05/27/sandisk-has-climbed-from-36-to-more-than-1590-in-a/",
+    "https://www.thestreet.com/investing/stocks/veteran-analyst-has-blunt-message-on-sandisk-stock-after-massive-rally-sndk"
+  ]
+}

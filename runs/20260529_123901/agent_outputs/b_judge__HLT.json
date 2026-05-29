@@ -1,0 +1,11 @@
+{
+  "ticker": "HLT",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "HLT",
+      "reason": "single_position_cap_exceeded"
+    }
+  ],
+  "summary": "HLT long rejected on Gate 4. Expected return was positive (+$2.15/share: combined_p_bull=0.477 from bull_a strength=6 / bear_a strength=6 and bull_b=5 / bear_b=6; entry 340.25, target 350.50, stop 335.00), and budget had capacity, but at ~$340/share the Gate-3 quantity of 47 (risk_per_share=5.25, $250 risk budget) produces $15,992 notional, far above the 15% standard cap ($3,750). The small-scaled exception also fails: max-viable M=14 shares (notional $4,764 within the 20% extended cap of $5,000) deploys only $73.50 of risk = 29% of the budget, below the required 40% floor ($100). Stock is too high-priced for the $25k account to fit even a minimum scaled position with meaningful risk."
+}

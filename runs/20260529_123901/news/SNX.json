@@ -1,0 +1,20 @@
+{
+  "ticker": "SNX",
+  "researched_at": "2026-05-29T19:33:00Z",
+  "news_items": [],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 250.0,
+    "recent_changes": "Consensus Buy/Strong Buy (9-11 analysts, latest dated 2026-05-21, just outside 7-day window). Recent PT raises clustered mid-May / already priced in: Morgan Stanley street-high $271, BofA $270, UBS $265, RBC $250, Goldman $205. Zacks upgraded SNX hold to strong-buy. No NEW analyst-rating changes confirmed within last 7 days (since 2026-05-22)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Fiscal Q1 2026 (reported early/mid-April) was a blowout: EPS $4.73 vs $3.20 est (+47.8%), with demand tied to AI infrastructure and cloud spending; stock jumped on the print. Q2 2026 guidance raised above consensus (EPS 3.75-4.25 vs 3.37; revenue $16.1B-$16.9B vs $15.8B). Next earnings (fiscal Q2) typically late June/early July 2026 — exact date not confirmed in searches. All earnings news predates the 7-day window (already priced in)."
+  },
+  "raw_search_files": [
+    "SNX_news-this-week.json",
+    "SNX_analyst-rating.json",
+    "SNX_earnings-catalyst.json"
+  ]
+}

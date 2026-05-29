@@ -1,0 +1,56 @@
+{
+  "ticker": "SNDK",
+  "researched_at": "2026-05-29T19:43:30Z",
+  "news_items": [
+    {
+      "headline": "SanDisk (SNDK) jumps as Barclays upgrades to overweight, lifts PT to $2,300 on $42B in contracts",
+      "url": "https://coincentral.com/sandisk-sndk-stock-jumps-as-barclays-lifts-target-to-2300-on-42b-in-contracts/",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "Barclays analyst Thomas O'Malley upgraded SNDK to overweight from equal weight and raised PT to $2,300 from $1,200, citing five-year supply agreements with minimum contractual revenue of roughly $42B."
+    },
+    {
+      "headline": "SanDisk Stock (SNDK) Soars on 2026 Red Dot Design Awards Win",
+      "url": "https://www.tipranks.com/news/sandisk-stock-sndk-soars-on-2026-red-dot-design-awards-wins",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "SNDK rallied after winning the 2026 Red Dot Design Awards for leadership in consumer storage solutions."
+    },
+    {
+      "headline": "SanDisk Corporation Stock (SNDK) Moved Up by 5.71% on May 28",
+      "url": "https://www.tradingkey.com/news/market-movers/261934230-market-movers-sndk-20260528",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "SNDK rose 5.71% on May 28, with the stock continuing to ride momentum from AI-related NAND demand and positive analyst sentiment."
+    },
+    {
+      "headline": "Sandisk Has Climbed From $36 to $1,590 in a Year. What the AI Memory Boom Means for the Stock",
+      "url": "https://www.fool.com/investing/2026/05/27/sandisk-has-climbed-from-36-to-more-than-1590-in-a/",
+      "date": "2026-05-27",
+      "sentiment": "neutral",
+      "summary": "Feature noting SNDK has climbed >4,000% over the past 12 months on the AI memory boom; piece weighs upside vs. valuation risk after the rally."
+    },
+    {
+      "headline": "Veteran analyst has blunt message on Sandisk stock after massive rally",
+      "url": "https://www.thestreet.com/investing/stocks/veteran-analyst-has-blunt-message-on-sandisk-stock-after-massive-rally-sndk",
+      "date": "2026-05-27",
+      "sentiment": "neutral",
+      "summary": "Commentary on SNDK following its massive rally; flags caution on valuation after the run-up while acknowledging the AI-driven demand backdrop."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 1543.36,
+    "recent_changes": "Barclays upgraded to overweight, PT $2,300 from $1,200 (~2026-05-27). Mizuho raised PT to $1,825 from $1,625, Outperform. Citi raised PT to $2,025 from $1,300, Buy (2026-05-19). High estimate $2,350, low $1,000 across 22 analysts."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-13",
+    "days_until_next": 76,
+    "notes": "Q3 FY2026 (reported Apr 30, 2026) was the major catalyst: revenue $5.95B (+251% YoY), beat guidance by $1.15B, non-GAAP EPS $23.41 vs $12-14 guide, plus $6B buyback. Street watches QLC Stargate SSD revenue ramp this fiscal Q4 and the $42B multi-year contract backlog. Next report estimated Aug 13, 2026 (no near-term earnings catalyst within trade horizon)."
+  },
+  "raw_search_files": [
+    "SNDK_news-this-week.json",
+    "SNDK_analyst-rating.json",
+    "SNDK_earnings-catalyst.json"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "ticker": "HLT",
+  "researched_at": "2026-05-29T19:43:30Z",
+  "news_items": [
+    {
+      "headline": "Hilton Domestic Operating Company to offer $1 billion in Senior Notes due 2031",
+      "url": "https://public.com/stocks/hlt/news",
+      "date": "2026-05-27",
+      "sentiment": "neutral",
+      "summary": "Hilton's indirect subsidiary Hilton Domestic Operating Company announced intent to offer $1 billion aggregate principal amount of Senior Notes due 2031, a debt-financing/refinancing action."
+    },
+    {
+      "headline": "Hilton launches AI travel planner",
+      "url": "https://finance.yahoo.com/quote/HLT/news/",
+      "date": "2026-05-26",
+      "sentiment": "positive",
+      "summary": "Hilton rolled out an AI travel planner aimed at boosting customer engagement and bookings."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 325.19,
+    "recent_changes": "Consensus 'Buy' from 16 covering analysts (avg PT $325.19, ~4.44% upside); broader pool of 38 analysts splits 13 Buy / 12 Hold / 1 Sell, median PT $325.00 (high $383, low $234). Multiple analysts raised price targets in recent weeks following the latest earnings report."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Most recent earnings (already priced in): adjusted EPS $2.01 with slight revenue miss; stock up ~7.1% since report; dividend hike and cautious 2026 guidance. Hilton raised FY2026 guidance to net income $1,909M-$1,937M and diluted EPS $8.28-$8.40. Key catalysts: execution on record ~527,000-room pipeline, international unit growth, new brands (Spark, Outset), and 2026 World Cup demand. Key risk: sluggish RevPAR in core markets. Specific next earnings date not found in searches."
+  },
+  "raw_search_files": [
+    "HLT_news-this-week.json",
+    "HLT_analyst-rating.json",
+    "HLT_earnings-catalyst.json"
+  ]
+}

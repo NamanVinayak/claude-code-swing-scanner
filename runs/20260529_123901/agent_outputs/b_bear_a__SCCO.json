@@ -1,0 +1,21 @@
+{
+  "ticker": "SCCO",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [192.0, 188.22, 185.11],
+  "top_3_arguments": [
+    "This is a breakout into a wall, not out of one. daily_indicators.support_resistance.nearest_resistance = 194.93 sits ON the current price (194.88); recent_high = 195.89 and bollinger.upper = 197.39 cap upside within ~1.3%. The 194.93 pivot has been tested 5 times with volume_confirmed = false. A 'breakout' with no room before the next supply zone is a low-R:R trade entering directly into distribution.",
+    "No volume conviction and the move is overextended. daily_indicators.volume.relative_volume = 0.94 (below avg_volume_20 of 1,303,364) and volume_bias_10d = 'down' — a breakout on declining/below-average volume is the textbook fakeout signature. Meanwhile rsi.rsi_7 = 84.78 (extreme short-term overbought), bollinger.pct_b = 0.9308 (pinned to upper band), z_score_50 = 1.63, price +10.72% above SMA50 and +29.34% above SMA200. Buyers are exhausted at the exact level they need to break.",
+    "Trend quality and intraday momentum are both failing. daily_indicators.adx.adx_14 = 8.59 ('weak') — there is no durable trend to ride; the +11.94% roc_5d is a vertical spike, not a trend. On the hourly, rsi_divergence.bearish = true and momentum.roc_5d = -1.47 (already rolling over intraday). Fundamentals/sentiment confirm the risk: analyst_consensus_web.rating = 'sell', avg_price_target = 158.91 (~18% below current), and BofA just downgraded to Underperform. Chasing a strong-buy TV signal here fights the analyst tape into resistance."
+  ],
+  "bull_acknowledgements": [
+    "The MA stack is genuinely bullish: daily moving_averages.ema_aligned_uptrend = true and price is above all MAs through the 200 (price_vs_ma.above_ema_200 = true, +25.36%). This is a strong uptrend on the daily, not a downtrend bounce.",
+    "MACD is clearly positive: daily macd.macd_line = 2.4553 over signal 0.8848, histogram = +1.5705, and hourly adx_24 = 48.14 ('strong') with plus_di > minus_di — momentum is currently with the bulls.",
+    "Real fundamental tailwinds in the 7-day news: profit jump, new CEO, enhanced dividends, Tia Maria/Cuajone permits, and copper near record highs (2026-05-26 +4% move) could fuel a genuine breakout above 195.89."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261928988-market-movers-scco-20260526",
+    "https://simplywall.st/stocks/us/materials/nyse-scco/southern-copper/news/how-investors-are-reacting-to-southern-copper-scco-profit-ju",
+    "https://finance.yahoo.com/markets/stocks/articles/southern-copper-scco-valuation-check-192021389.html"
+  ]
+}

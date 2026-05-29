@@ -1,0 +1,368 @@
+{
+  "ticker": "SNX",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 254.5,
+  "invalidation_level": 244.5,
+  "catalyst_note": "TradingView tv_breakout_up and tv_trending_up signals fired; stock gapped +3.16% overnight to $254.00, partially advancing the breakout move \u2014 confirm continuation above $254.50 at open.",
+  "conviction": 4,
+  "source_reasons": [
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 246.22000122070312,
+  "market_cap": 20782260224.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-21",
+      "open": 228.27000427246094,
+      "high": 231.80999755859375,
+      "low": 226.00999450683594,
+      "close": 230.75999450683594,
+      "volume": 485600
+    },
+    {
+      "time": "2026-05-22",
+      "open": 232.22000122070312,
+      "high": 238.82000732421875,
+      "low": 231.24000549316406,
+      "close": 237.33999633789062,
+      "volume": 494400
+    },
+    {
+      "time": "2026-05-26",
+      "open": 239.83999633789062,
+      "high": 243.8800048828125,
+      "low": 238.9199981689453,
+      "close": 240.0,
+      "volume": 462000
+    },
+    {
+      "time": "2026-05-27",
+      "open": 246.75,
+      "high": 250.9600067138672,
+      "low": 240.72000122070312,
+      "close": 246.75999450683594,
+      "volume": 1110000
+    },
+    {
+      "time": "2026-05-28",
+      "open": 246.11000061035156,
+      "high": 247.75999450683594,
+      "low": 240.5,
+      "close": 246.22000122070312,
+      "volume": 877100
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 241.36020994326705,
+      "sma_5": 240.21599731445312,
+      "ema_10": 237.50465597986786,
+      "sma_10": 235.05599670410157,
+      "ema_20": 231.93501559389455,
+      "sma_20": 233.73099746704102,
+      "ema_21": 231.32094968887392,
+      "sma_21": 233.26952107747397,
+      "ema_50": 213.2794213479907,
+      "sma_50": 208.76848419189454,
+      "ema_200": 172.76445498460444,
+      "sma_200": 167.1758129119873,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 246.22000122070312,
+    "dist_from_50sma_pct": 17.94,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.01,
+      "above_sma_5": true,
+      "pct_from_sma_5": 2.5,
+      "above_ema_10": true,
+      "pct_from_ema_10": 3.67,
+      "above_sma_10": true,
+      "pct_from_sma_10": 4.75,
+      "above_ema_20": true,
+      "pct_from_ema_20": 6.16,
+      "above_sma_20": true,
+      "pct_from_sma_20": 5.34,
+      "above_ema_21": true,
+      "pct_from_ema_21": 6.44,
+      "above_sma_21": true,
+      "pct_from_sma_21": 5.55,
+      "above_ema_50": true,
+      "pct_from_ema_50": 15.44,
+      "above_sma_50": true,
+      "pct_from_sma_50": 17.94,
+      "above_ema_200": true,
+      "pct_from_ema_200": 42.52,
+      "above_sma_200": true,
+      "pct_from_sma_200": 47.28,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 24522.0
+    },
+    "rsi": {
+      "rsi_7": 90.47,
+      "rsi_14": 64.52,
+      "rsi_21": 68.51
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 8.2922,
+      "signal_line": 8.506,
+      "histogram": -0.2138,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 245.42,
+      "middle": 233.73,
+      "lower": 222.05,
+      "width": 0.1,
+      "pct_b": 1.0344
+    },
+    "atr": {
+      "atr_14": 6.82,
+      "atr_pct": 2.77
+    },
+    "adx": {
+      "adx_14": 20.5,
+      "plus_di": 31.4,
+      "minus_di": 21.85,
+      "trend_strength": "moderate"
+    },
+    "volume": {
+      "current_volume": 877100,
+      "avg_volume_20": 625515,
+      "relative_volume": 1.4,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 242.49,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 147.84,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 149.65,
+          "tests": 2,
+          "volume_confirmed": false
+        },
+        {
+          "price": 221.56,
+          "tests": 7,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 221.56,
+      "recent_high": 250.96,
+      "recent_low": 221.56,
+      "prev_day_high": 250.96,
+      "prev_day_low": 240.72,
+      "prev_day_close": 246.76
+    },
+    "fibonacci": {
+      "swing_high": 250.96,
+      "swing_low": 203.0,
+      "fib_236": 239.64,
+      "fib_382": 232.64,
+      "fib_500": 226.98,
+      "fib_618": 221.32,
+      "fib_786": 213.26,
+      "fib_ext_1272": 264.01,
+      "fib_ext_1618": 280.6,
+      "fib_ext_2000": 298.92,
+      "fib_ext_low_1272": 189.95,
+      "fib_ext_low_1618": 173.36
+    },
+    "momentum": {
+      "roc_5d": 6.74,
+      "roc_10d": 6.24,
+      "roc_21d": 10.24
+    },
+    "z_score_50": 1.28,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 244.429060108019,
+      "sma_24": 244.65941619873047,
+      "ema_48": 240.30996086129934,
+      "sma_48": 237.5287183125814,
+      "ema_120": 235.26699642277416,
+      "sma_120": 235.0162373860677,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 257.760009765625,
+    "dist_from_50sma_pct": 9.68,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 5.45,
+      "above_sma_24": true,
+      "pct_from_sma_24": 5.35,
+      "above_ema_48": true,
+      "pct_from_ema_48": 7.26,
+      "above_sma_48": true,
+      "pct_from_sma_48": 8.52,
+      "above_ema_120": true,
+      "pct_from_ema_120": 9.56,
+      "above_sma_120": true,
+      "pct_from_sma_120": 9.68,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 25676.0
+    },
+    "rsi": {
+      "rsi_21": 72.68
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 4.5874,
+      "signal_line": 3.4601,
+      "histogram": 1.1272,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 253.9,
+      "middle": 237.53,
+      "lower": 221.15,
+      "width": 0.1379,
+      "pct_b": 1.1177
+    },
+    "atr": {
+      "atr_24": 2.97,
+      "atr_pct": 1.15
+    },
+    "adx": {
+      "adx_24": 49.2,
+      "plus_di": 45.16,
+      "minus_di": 17.24,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 79809,
+      "avg_volume_20": 104667,
+      "relative_volume": 0.76,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 231.62,
+          "tests": 18,
+          "volume_confirmed": false
+        },
+        {
+          "price": 250.96,
+          "tests": 3,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 221.56,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 226.01,
+          "tests": 10,
+          "volume_confirmed": false
+        },
+        {
+          "price": 240.5,
+          "tests": 7,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 240.5,
+      "recent_high": 257.76,
+      "recent_low": 239.58,
+      "prev_day_high": 247.61,
+      "prev_day_low": 246.19,
+      "prev_day_close": 246.37
+    },
+    "fibonacci": {
+      "swing_high": 257.76,
+      "swing_low": 228.87,
+      "fib_236": 250.94,
+      "fib_382": 246.72,
+      "fib_500": 243.32,
+      "fib_618": 239.91,
+      "fib_786": 235.05,
+      "fib_ext_1272": 265.62,
+      "fib_ext_1618": 275.61,
+      "fib_ext_2000": 286.65,
+      "fib_ext_low_1272": 221.01,
+      "fib_ext_low_1618": 211.02
+    },
+    "momentum": {
+      "roc_5d": 5.21,
+      "roc_10d": 3.85,
+      "roc_21d": 6.71
+    },
+    "z_score_120": 3.69,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 25,
+    "days_since_last": null
+  },
+  "news_source": "none",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 250.0,
+    "recent_changes": "Consensus Buy/Strong Buy (9-11 analysts, latest dated 2026-05-21, just outside 7-day window). Recent PT raises clustered mid-May / already priced in: Morgan Stanley street-high $271, BofA $270, UBS $265, RBC $250, Goldman $205. Zacks upgraded SNX hold to strong-buy. No NEW analyst-rating changes confirmed within last 7 days (since 2026-05-22)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Fiscal Q1 2026 (reported early/mid-April) was a blowout: EPS $4.73 vs $3.20 est (+47.8%), with demand tied to AI infrastructure and cloud spending; stock jumped on the print. Q2 2026 guidance raised above consensus (EPS 3.75-4.25 vs 3.37; revenue $16.1B-$16.9B vs $15.8B). Next earnings (fiscal Q2) typically late June/early July 2026 \u2014 exact date not confirmed in searches. All earnings news predates the 7-day window (already priced in)."
+  }
+}

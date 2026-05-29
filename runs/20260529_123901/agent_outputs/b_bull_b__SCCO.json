@@ -1,0 +1,25 @@
+{
+  "ticker": "SCCO",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 195.5, "high": 196.5},
+  "target": 204.7,
+  "stop": 191.5,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Fresh multi-catalyst stack within 7 days: TradingKey reports SCCO +4.00% on 2026-05-26 on copper-price strength + Peru/Mexico expansion (url 261928988); SimplyWall.st 2026-05-28 covers profit jump + new CEO + enhanced dividends; Yahoo 2026-05-27 notes earnings beats + $318.6M Cuajone mine upgrade plan. All three positive/neutral, all within the news window.",
+    "Price confirming the breakout: close 194.88 sits just under nearest_resistance 194.93 and recent_high 195.89 after a +11.94% roc_5d run; daily macd histogram +1.5705 (line 2.4553 > signal 0.8848), ema_aligned_uptrend true, price above all MAs (sma_200 by +29.34%); a push through watch_level 195.5 targets fib_ext_1272 204.73.",
+    "No near-term earnings risk: earnings.days_until_next = 59, so the catalyst can play out cleanly. R:R from entry midpoint 196.0 to stop 191.5 (4.5 risk) vs target 204.7 (8.7 reward) = ~1.9:1, just under 2:1 — acceptable given the multi-catalyst confirmation; tighten target to 205.5 to clear 2:1 if needed."
+  ],
+  "risks_acknowledged": [
+    "Analyst consensus is SELL across 17 analysts (avg PT $158.91, ~11% BELOW current price) and BofA downgraded to Underperform — smart-money flow contradicts the long catalyst thesis; the recent profit-beat/CEO/dividend news may already be priced in.",
+    "Stretched/overbought: daily rsi_7 = 84.78, BB %B = 0.9308 (price near upper band 197.39), z_score_50 = 1.63 — limited room before mean reversion, and hourly rsi_divergence flags bearish.",
+    "Weak trend conviction on the daily: adx_14 = 8.59 ('weak'), relative_volume 0.94 and volume_bias_10d 'down' — the breakout is not yet volume-confirmed (nearest pivot high 194.93 volume_confirmed=false).",
+    "Yahoo 2026-05-27 itself flags 'stretched valuation against fundamentals'; new-ticker with no wiki thesis/catalyst history to corroborate durability."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261928988-market-movers-scco-20260526",
+    "https://simplywall.st/stocks/us/materials/nyse-scco/southern-copper/news/how-investors-are-reacting-to-southern-copper-scco-profit-ju",
+    "https://finance.yahoo.com/markets/stocks/articles/southern-copper-scco-valuation-check-192021389.html"
+  ]
+}

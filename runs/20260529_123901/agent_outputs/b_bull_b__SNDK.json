@@ -1,0 +1,27 @@
+{
+  "ticker": "SNDK",
+  "setup_direction": "long",
+  "bull_strength": 7,
+  "entry_zone": {"low": 1670.00, "high": 1685.00},
+  "target": 1770.00,
+  "stop": 1627.00,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Fresh smart-money catalyst within 2 days: Barclays (Thomas O'Malley) upgraded SNDK to overweight and raised PT to $2,300 from $1,200 on 2026-05-27, citing five-year supply agreements with ~$42B minimum contractual revenue. Reinforced by Mizuho PT $1,825 (Outperform) and Citi PT $2,025 (Buy, 2026-05-19) per analyst_consensus_web — high estimate $2,350 across 22 names.",
+    "Price is confirming the narrative: SNDK closed +5.71% on 2026-05-28 (recent_news_7d) and printed a recent_high of 1697.96 same day; daily MACD bullish_crossover true (line 147.79 > signal 145.48), ADX_14 = 39.28 (strong trend), plus_di 28.91 >> minus_di 15.07, ROC_21d = +63.78%, and OBV trend up not diverging. Breakout entry above watch_level 1670 (prev recent_high zone) targets the 1.272 fib extension area.",
+    "No near-term earnings risk: earnings.days_until_next = 87 (next report ~2026-08-13, well outside the ~6-day trade horizon). The major Q3 catalyst already cleared on 2026-04-30 (revenue $5.95B +251% YoY, EPS $23.41 vs $12-14 guide, $6B buyback per earnings_context_web), so the AI-NAND tailwind + Red Dot Design Award win (2026-05-28) provide narrative momentum without a binary event inside the hold. R:R: entry mid 1677.5 to stop 1627 = ~50.5 risk; to target 1770 = ~92.5 reward, ~1.83:1 (acceptable, math noted as close call)."
+  ],
+  "risks_acknowledged": [
+    "Overbought + bearish divergence: daily rsi_7 = 85.42, BB pct_b = 0.89, z_score_50 = 1.76, and daily rsi_divergence.bearish = true — a breakout above 1670 risks buying the exhaustion top of a 4,000%+ 12-month run (per recent_news_7d feature pieces flagging valuation caution).",
+    "Volume is NOT confirming: daily relative_volume = 0.67 (below 20-day avg) and the catalyst_note flags zero premarket volume on the overnight +1.63% gap — a breakout without volume often fails back into the range, which is why stop sits just under invalidation_level 1628.",
+    "Analyst avg_price_target $1543.36 is BELOW current price $1641.64 — the consensus mean does not support fresh upside; only the most recent upgrades (Barclays/Citi) do, so the bull case leans on a small set of newly-raised targets, not the broad street.",
+    "Two veteran/feature analyst pieces (TheStreet 2026-05-27, Motley Fool 2026-05-27) explicitly flag valuation risk after the rally (neutral sentiment) — narrative is becoming a 'how high is too high' debate, which can cap follow-through."
+  ],
+  "web_sources_last_7d": [
+    "https://coincentral.com/sandisk-sndk-stock-jumps-as-barclays-lifts-target-to-2300-on-42b-in-contracts/",
+    "https://www.tipranks.com/news/sandisk-stock-sndk-soars-on-2026-red-dot-design-awards-wins",
+    "https://www.tradingkey.com/news/market-movers/261934230-market-movers-sndk-20260528",
+    "https://www.fool.com/investing/2026/05/27/sandisk-has-climbed-from-36-to-more-than-1590-in-a/",
+    "https://www.thestreet.com/investing/stocks/veteran-analyst-has-blunt-message-on-sandisk-stock-after-massive-rally-sndk"
+  ]
+}

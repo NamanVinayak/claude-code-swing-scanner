@@ -1,0 +1,24 @@
+{
+  "ticker": "MAR",
+  "setup_direction": "long",
+  "bull_strength": 6,
+  "entry_zone": {"low": 386.50, "high": 388.50},
+  "target": 403.50,
+  "stop": 379.50,
+  "expected_holding_days": 7,
+  "top_3_arguments": [
+    "Fresh smart-money confirmation: Susquehanna raised PT to $385 on 2026-05-27 (recent_news_7d) citing strong luxury segment performance, on a session where MAR closed +3.28%; analyst_consensus_web notes Jefferies and Mizuho also raised PTs in May 2026 after a Q1 EBITDA beat and increased capital returns. Multiple PT raises clustered within the 7-day window is genuine catalyst flow into a breakout.",
+    "Trend is intact and powerful into the breakout level: daily adx_14 = 34.7 (strong) with plus_di 39.66 vs minus_di 7.11, full EMA stack aligned uptrend (price above sma_5 through sma_200), macd histogram +2.91, roc_10d = 10.37%. Volume confirms — relative_volume 1.41 on 2026-05-28 (1.97M vs 1.40M avg) with OBV trend up. A clean trigger above watch_level 386.5 / recent_high 388.37 extends an already-validated trend.",
+    "No near-term earnings risk: earnings.days_until_next = 67, so the breakout can run without an earnings-blackout reversal. Forward catalyst per earnings_context_web is the projected ~35% jump in co-branded credit card fees from renegotiated Chase/Amex royalties plus 2026 guidance of RevPAR +1.5-2.5% and net rooms +4.5-5%. R:R math: entry mid 387.50, stop 379.50 (risk $8.00), target 403.50 (reward $16.00) = 2.0:1, target sits just above daily fib_ext_1272 of 400.25."
+  ],
+  "risks_acknowledged": [
+    "Severely overbought: daily rsi_7 = 95.75, rsi_14 = 89.28, and bollinger pct_b = 1.05 (price already outside the upper band at 383.44). Breakouts from extreme RSI often gap-and-fade; chasing here carries real mean-reversion risk.",
+    "Analyst price targets lag the price: analyst_consensus_web avg_price_target is $377.67 — BELOW the current price of $385.76 — and even Susquehanna's raised $385 PT is below price. The bull catalyst is being priced in faster than fundamentals justify, capping upside.",
+    "Near-term momentum is rolling over on the lower timeframe: hourly shows bearish RSI divergence (rsi_divergence.bearish = true), hourly OBV diverging from price, and hourly roc_5d = -1.1% / roc_10d = -0.23%. Premarket gapped down -0.46% with zero confirmed premarket volume (catalyst_note) — the breakout needs intraday confirmation above 386.5 or this fails as a failed-breakout long.",
+    "No insider corroboration: recent_insider_trades is empty, so the catalyst case rests entirely on analyst PT raises and a single strong session, not on management buying."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/quote/MAR/news/",
+    "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527"
+  ]
+}

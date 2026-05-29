@@ -1,0 +1,21 @@
+{
+  "ticker": "FTAI",
+  "setup_direction": "long",
+  "bull_strength": 4,
+  "entry_zone": {"low": 265.00, "high": 266.50},
+  "target": 274.50,
+  "stop": 260.50,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Daily trend structure is cleanly bullish: moving_averages.ema_aligned_uptrend = true, price above every MA (price_vs_ma.above_sma_200 = true, pct_from_sma_200 = +23.69%; above_ema_50 = true, pct_from_ema_50 = +5.16%), and macd shows a fresh bullish_crossover = true with histogram = +0.68 (line 0.73 over signal 0.05). roc_21d = +21.86% confirms a sustained intermediate uptrend.",
+    "Breakout trigger is structurally located: 28-May printed a daily range $246.47-$264.09 closing strong at $262.78, reclaiming the $257.96 pivot high (18 tests) and setting up a push through watch_level $265 toward fib_236 = $267.98. OBV trend = up and not diverging from price on both daily and hourly, so the advance has had real accumulation behind it even on a quiet tape.",
+    "No near-term event risk to cap the hold: earnings.days_until_next = 60 (Q2 report ~late-Jul/Aug per earnings_context_web), and analyst_consensus_web shows rating buy with avg_price_target $271.67 and a Strong Buy 11/0/0 split, giving a fundamental tailwind into the $274.50 target just under the $275.25 resistance shelf."
+  ],
+  "risks_acknowledged": [
+    "Reward-to-risk is below the 2:1 minimum: from entry mid ~$265.75 to target $274.50 is +$8.75 vs stop $260.50 = -$5.25 (~1.67:1), because nearest_resistance $275.25 (12 tests) caps upside before a clean 2:1 target is reachable. This is the primary reason bull_strength is capped at 4.",
+    "Volume confirmation is weak/contradictory: daily relative_volume = 0.57, current_volume 769k vs avg_volume_20 1.35M, and volume_bias_10d = down. A breakout above $265 on sub-average volume is failure-prone.",
+    "Momentum signals are internally conflicting: daily rsi_14 = 46.02 (mid-range, not confirming strength) and rsi_7 = 80.64 (overbought short-term); daily adx_14 = 19.24 (weak trend) with minus_di 26.57 > plus_di 20.78; hourly rsi_divergence.bearish = true and hourly macd bullish_crossover = false — entry could fade before clearing resistance.",
+    "Research gap: recent_news_7d is empty (news_source = none), so this thesis rests entirely on technicals; an unseen catalyst could override the chart in either direction."
+  ],
+  "web_sources_last_7d": []
+}

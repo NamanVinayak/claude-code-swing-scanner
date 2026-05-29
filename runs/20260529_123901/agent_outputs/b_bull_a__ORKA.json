@@ -1,0 +1,21 @@
+{
+  "ticker": "ORKA",
+  "setup_direction": "short",
+  "bull_strength": 4,
+  "entry_zone": {"low": 56.80, "high": 57.50},
+  "target": 51.50,
+  "stop": 59.10,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Downtrend confirmed across momentum suite: daily_indicators.macd.macd_line = -0.9413 with histogram = -1.0752 (deeply negative), adx_14 = 29.01 'strong' with minus_di 24.87 > plus_di 13.45, and momentum.roc_21d = -21.64% / roc_10d = -8.23%. Trend energy is on the short side.",
+    "Price is below the short-term MA stack: price_vs_ma shows above_ema_5/10/20/21 all false (pct_from_sma_20 = -7.6%, pct_from_sma_21 = -7.98%) and only +0.08% above ema_50, so a break of the 57.5 area flips the last MA support to resistance. Hourly confirms with ema_aligned_downtrend = true and pct_from_sma_120 = -6.15%.",
+    "Weak demand under the price: daily volume.relative_volume = 0.36 with volume_bias_10d = 'down' and obv.trend = 'down'; bollinger.pct_b = 0.1919 (pinned to lower band, BB lower = 55.01). A breakdown below the 57.81/57.65 prior-day lows and the 57.5 watch_level opens air down to the 54.99 support (tested 3x, volume-confirmed)."
+  ],
+  "risks_acknowledged": [
+    "Price is sitting directly on heavily-tested support at 54.99 (3 tests, volume_confirmed) which is also the recent_low and near BB lower 55.01 — short entry at 57.5 has only ~2.5 pts of clean downside before that floor, compressing R:R below 2:1 unless the support breaks decisively.",
+    "Oversold and possibly turning: daily rsi_14 = 35.45 / rsi_21 = 32.56 (stretched), and hourly rsi_divergence.bullish = true with hourly macd histogram now positive (+0.0221) — a near-term bounce is plausible before any further leg down.",
+    "Strong fundamental tailwind against the short: analyst_consensus_web rating 'buy' (37 Buy / 0 Sell), avg_price_target 137.25 (vs ~58 price) after Apr 27 EVERLAST-A Phase 2 data; biotex re-rate or follow-through could spike the name despite the chart.",
+    "Research gap: recent_news_7d is empty (news_source = 'none') so there is no fresh catalyst read for the next 6 days; the ~US$700M offering overhang is context-only (already priced) and ATR_pct = 5.52% means stops can be whipsawed on a single candle."
+  ],
+  "web_sources_last_7d": []
+}

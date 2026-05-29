@@ -1,0 +1,26 @@
+{
+  "query": "SNX stock 2026-05-29 analyst rating",
+  "fetched_at": "2026-05-29T19:31:00Z",
+  "note": "Confirms SNX = TD SYNNEX Corporation (NYSE: SNX). Consensus Buy/Strong Buy. Recent PT raises noted. Current price ~$227.13.",
+  "results": [
+    {
+      "title": "SYNNEX (SNX) Stock Forecast: Analyst Ratings, Predictions & Price Target 2026",
+      "url": "https://public.com/stocks/snx/forecast-price-target",
+      "snippet": "Per 9 analysts, SNX has a Buy consensus rating as of May 21, 2026. Broader 11-analyst consensus is Strong Buy."
+    },
+    {
+      "title": "TD Synnex Analyst Ratings and Price Targets | NYSE:SNX | Benzinga",
+      "url": "https://www.benzinga.com/quote/SNX/analyst-ratings",
+      "snippet": "Latest SNX rating maintained with PT range $193 to $265; current price ~$227.13."
+    },
+    {
+      "title": "TD SYNNEX (SNX) Stock Forecast & Analyst Price Targets",
+      "url": "https://stockanalysis.com/stocks/snx/forecast/",
+      "snippet": "Morgan Stanley raised PT to street-high $271; BofA to $270; UBS to $265; Goldman to $205; RBC to $250."
+    },
+    {
+      "title": "TD SYNNEX Corporation (SNX) Analyst Ratings",
+      "url": "https://stockanalysis.com/stocks/snx/ratings/"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "ticker": "FTAI",
+  "researched_at": "2026-05-29T19:43:00Z",
+  "news_items": [],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 271.67,
+    "recent_changes": "No analyst-rating changes in last 7 days. Consensus is Strong Buy (current month: 11 Buy / 0 Hold / 0 Sell). Avg PT varies by source ($218.79 across 17 analysts up to ~$271.67 across 9; high estimates near $375). Most recent dated action: Morgan Stanley PT $293 reported 2026-03-24 (already priced in, outside 7-day window)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "No near-term earnings catalyst within the last 7 days. Q1 2026 results (~Apr 29-30, already priced in): revenue $830.7M beat ~12%, net income $134.2M / basic EPS $1.31, adjusted EPS $1.29 missed $1.54 est; Aerospace Products revenue +104% YoY; dividend raised to $0.45/share (3rd consecutive quarter). 2026 consensus EPS ~$6.88. Next quarterly report (Q2 2026) not explicitly dated in sources; quarterly cadence implies ~late July/early Aug 2026. Valuation concern noted by analysts: high ~49x P/E."
+  },
+  "raw_search_files": [
+    "FTAI_news-this-week.json",
+    "FTAI_analyst-rating.json",
+    "FTAI_earnings-catalyst.json"
+  ]
+}

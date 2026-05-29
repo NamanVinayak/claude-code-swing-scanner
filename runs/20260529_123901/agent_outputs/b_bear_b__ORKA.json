@@ -1,0 +1,17 @@
+{
+  "ticker": "ORKA",
+  "setup_direction": "short",
+  "bear_strength": 8,
+  "thesis_crack_level": "severe",
+  "top_3_arguments": [
+    "Fundamentals point UP, not down: analyst_consensus_web shows a Strong Buy (37 Buy / 0 Hold / 0 Sell) with avg_price_target $137.25 vs current_price $57.98 — analysts model ~137% UPSIDE. Shorting a name where the entire sell-side sees it more than doubling is fighting the fundamental tape; even partial conviction in those PTs makes the risk/reward of a short brutally asymmetric against us.",
+    "The bearish technical setup is a fresh post-spike consolidation, not a deteriorating thesis: earnings_context_web confirms the Apr 27 2026 ORKA-001 EVERLAST-A interim Phase 2 data showed 63.5% PASI 100 at week 16, drove a ~32% premarket surge, and triggered PT raises (Clear Street $71->$131, Barclays $78->$160, Wedbush $85->$165). Price at $57.98 has merely pulled back to the volume-confirmed support shelf at 54.99 (pivot_lows tested 3x, volume_confirmed) and sits only -2.78% from sma_50 (dist_from_50sma_pct = -2.78) and ABOVE ema_50 (above_ema_50 = true). A 'sector laggard decline' label on a stock digesting a major positive catalyst is a setup misread, not a broken bull thesis.",
+    "Mean-reversion and exhaustion signals favor a bounce, not continuation lower, which kills a short entered at $57.50: daily rsi_14 = 35.45 and rsi_21 = 32.56 are near oversold; bollinger pct_b = 0.19 (price hugging the lower band, lower = 55.01); roc_21d = -21.64 shows the down-move is already extended; hourly shows bullish rsi_divergence = true with obv trend 'up' and a flattening macd histogram (+0.0221). Volume is drying up on the decline (daily relative_volume = 0.36, current 618k vs avg_volume_20 1.70M), meaning sellers are exhausted — exactly the condition that precedes a relief rally that stops out a short at the 59.00 invalidation."
+  ],
+  "bull_acknowledgements": [
+    "The medium-term trend genuinely is down: price is below ema_5/10/20/21 and sma_5/10/20/21/50, macd_line is negative (-0.9413) below signal, and adx_14 = 29.01 with minus_di (24.87) > plus_di (13.45) confirms a real downtrend — the short setup is not pure noise.",
+    "There is a legitimate share-supply overhang: earnings_context_web notes an upsized ~US$700M equity offering completed post-data, which adds near-term dilution pressure and is a credible reason the stock could grind lower — the one fundamental factor that supports the short.",
+    "No near-term positive catalyst is scheduled to force a squeeze (earnings.days_until_next = 73; clinical readouts roughly every 6 months), so the short is not sitting directly in front of a binary up-event."
+  ],
+  "web_sources_last_7d": []
+}

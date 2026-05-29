@@ -1,0 +1,17 @@
+{
+  "ticker": "FTAI",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "setup_invalidation_levels": [253.39, 250.05, 245.86],
+  "top_3_arguments": [
+    "Breakout has no volume conviction. The +5% push on 2026-05-28 to 262.78 printed daily volume.relative_volume = 0.57 (769,100 vs avg_volume_20 1,351,375) and volume.volume_bias_10d = 'down'. Breakouts toward a key level on below-average and declining volume are the textbook fakeout signature — the watch_level 265 has not even been reclaimed yet, so this is an unconfirmed setup buying into thin participation.",
+    "Hourly momentum is diverging bearish into the high: hourly_indicators.rsi_divergence.bearish = true (price near recent_high 264.09 while hourly RSI rolls). Daily trend strength is weak (adx.adx_14 = 19.24, 'weak') and the daily directional balance is actually negative: minus_di 26.57 > plus_di 20.78. Add rsi_7 = 80.64 (extremely overbought short-term) against a middling rsi_14 = 46.02 — a sharp one-day stretch with no sustained intermediate momentum behind it.",
+    "Overhead supply is stacked just above. Daily support_resistance shows a pivot high at 257.96 tested 18 times and the next real wall at 275.25 tested 12 times; price at 262.78 sits in the chop between them, below the 265 watch_level. fibonacci.fib_236 = 267.98 also caps the immediate upside. This is not a clean break of structure — it is buying into a heavily-tested resistance zone with a valuation overhang (analysts flag ~49x P/E)."
+  ],
+  "bull_acknowledgements": [
+    "MA structure is genuinely bullish: price is above all daily MAs (ema_5 through sma_200) with ema_aligned_uptrend = true, and sits +23.7% above sma_200. Daily MACD shows a fresh bullish_crossover (line 0.7295 > signal 0.0499, histogram +0.6796).",
+    "On the hourly the trend is strong and intact: adx_24 = 49.71 ('strong') with plus_di 26.77 > minus_di 18.87, and obv.trend = 'up' on both timeframes. R:R from a 265 entry to the 275.25 resistance against the 261.50 invalidation is roughly 2.9:1, which is acceptable.",
+    "Fundamental backdrop supports the long bias: analyst consensus Strong Buy (11 Buy / 0 Hold / 0 Sell), Q1 revenue beat ~12% with Aerospace Products revenue +104% YoY, and no earnings risk in the window (days_until_next ~60)."
+  ],
+  "web_sources_last_7d": []
+}

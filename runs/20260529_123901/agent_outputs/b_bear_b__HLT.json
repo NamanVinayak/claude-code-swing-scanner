@@ -1,0 +1,20 @@
+{
+  "ticker": "HLT",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Price has already overrun the Street's price targets, capping fundamental upside: at $337.55 HLT trades ~3.8% ABOVE the 16-analyst avg PT of $325.19 and ~3.9% above the 38-analyst median of $325.00 (analyst_consensus_web). The broad pool is only 13 Buy / 12 Hold / 1 Sell, so a chase-the-breakout long is buying where most analysts already see fair-to-overvalued. With earnings.days_until_next = 61, there is no near-term fundamental catalyst to re-rate targets higher and rescue the entry.",
+    "Fresh balance-sheet leverage instead of a growth catalyst: the only material news in the 7-day window is the 2026-05-27 announcement that Hilton Domestic Operating Company will offer $1.0B in Senior Notes due 2031 (recent_news_7d, neutral). Adding $1B of debt is a refinancing/capital-structure action, not a demand or earnings catalyst — combined with the noted 'cautious 2026 guidance' and 'sluggish RevPAR in core markets' risk (earnings_context_web), the fundamental backdrop does not justify paying a fresh breakout premium at the top of the range.",
+    "The setup is statistically and technically exhausted, undermining the 'price keeps rising' thesis: daily rsi_7 = 82.24 and rsi_divergence.bearish = true (60-bar lookback); price closed at $337.55 ABOVE the upper Bollinger band of $334.15 (pct_b = 1.118), with daily z_score_50 = 1.48 and hourly z_score_120 = 2.09. Hourly confirmation is weak — relative_volume 0.37 and hourly OBV trend 'down' — so the breakout above watch_level $339.50 lacks volume fuel into nearest resistance at $344.59. A long here is buying late-cycle overextension, not early momentum."
+  ],
+  "bull_acknowledgements": [
+    "Trend is genuinely strong and aligned: daily EMAs are stacked in an uptrend (ema_aligned_uptrend = true), adx_14 = 32.8 with plus_di 33.5 >> minus_di 13.5, and price sits 14.9% above the 200 EMA — this is a real uptrend, not a dead-cat bounce.",
+    "Fundamentals are supportive, not broken: most recent quarter raised FY2026 guidance (net income $1,909M-$1,937M, EPS $8.28-$8.40) with a dividend hike and a record ~527,000-room pipeline (earnings_context_web); multiple analysts raised targets after the report.",
+    "Daily volume confirms the recent push (relative_volume 1.33, volume_bias_10d 'up', daily OBV trend 'up'), so the move into the breakout zone is not purely thin-tape."
+  ],
+  "web_sources_last_7d": [
+    "https://public.com/stocks/hlt/news",
+    "https://finance.yahoo.com/quote/HLT/news/"
+  ]
+}

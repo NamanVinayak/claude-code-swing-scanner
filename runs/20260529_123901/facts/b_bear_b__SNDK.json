@@ -1,0 +1,429 @@
+{
+  "ticker": "SNDK",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 1670.0,
+  "invalidation_level": 1628.0,
+  "catalyst_note": "Trending-up momentum setup with tv_strong_buy and tv_trending_up signals; gapped +1.63% overnight in-direction but zero premarket volume offers no buying-interest confirmation.",
+  "conviction": 4,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "SanDisk (SNDK) jumps as Barclays upgrades to overweight, lifts PT to $2,300 on $42B in contracts",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://coincentral.com/sandisk-sndk-stock-jumps-as-barclays-lifts-target-to-2300-on-42b-in-contracts/",
+      "sentiment": "positive",
+      "summary": "Barclays analyst Thomas O'Malley upgraded SNDK to overweight from equal weight and raised PT to $2,300 from $1,200, citing five-year supply agreements with minimum contractual revenue of roughly $42B."
+    },
+    {
+      "title": "SanDisk Stock (SNDK) Soars on 2026 Red Dot Design Awards Win",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://www.tipranks.com/news/sandisk-stock-sndk-soars-on-2026-red-dot-design-awards-wins",
+      "sentiment": "positive",
+      "summary": "SNDK rallied after winning the 2026 Red Dot Design Awards for leadership in consumer storage solutions."
+    },
+    {
+      "title": "SanDisk Corporation Stock (SNDK) Moved Up by 5.71% on May 28",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://www.tradingkey.com/news/market-movers/261934230-market-movers-sndk-20260528",
+      "sentiment": "positive",
+      "summary": "SNDK rose 5.71% on May 28, with the stock continuing to ride momentum from AI-related NAND demand and positive analyst sentiment."
+    },
+    {
+      "title": "Sandisk Has Climbed From $36 to $1,590 in a Year. What the AI Memory Boom Means for the Stock",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://www.fool.com/investing/2026/05/27/sandisk-has-climbed-from-36-to-more-than-1590-in-a/",
+      "sentiment": "neutral",
+      "summary": "Feature noting SNDK has climbed >4,000% over the past 12 months on the AI memory boom; piece weighs upside vs. valuation risk after the rally."
+    },
+    {
+      "title": "Veteran analyst has blunt message on Sandisk stock after massive rally",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://www.thestreet.com/investing/stocks/veteran-analyst-has-blunt-message-on-sandisk-stock-after-massive-rally-sndk",
+      "sentiment": "neutral",
+      "summary": "Commentary on SNDK following its massive rally; flags caution on valuation after the run-up while acknowledging the AI-driven demand backdrop."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 1641.6400146484375,
+  "market_cap": 252481191936.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-21",
+      "open": 1377.469970703125,
+      "high": 1546.0899658203125,
+      "low": 1377.469970703125,
+      "close": 1542.239990234375,
+      "volume": 13746100
+    },
+    {
+      "time": "2026-05-22",
+      "open": 1520.7149658203125,
+      "high": 1528.0,
+      "low": 1473.52001953125,
+      "close": 1478.68994140625,
+      "volume": 9657100
+    },
+    {
+      "time": "2026-05-26",
+      "open": 1535.2099609375,
+      "high": 1641.739990234375,
+      "low": 1520.0,
+      "close": 1589.550048828125,
+      "volume": 12919700
+    },
+    {
+      "time": "2026-05-27",
+      "open": 1645.989990234375,
+      "high": 1658.77001953125,
+      "low": 1528.280029296875,
+      "close": 1589.93994140625,
+      "volume": 10394200
+    },
+    {
+      "time": "2026-05-28",
+      "open": 1596.31005859375,
+      "high": 1697.9599609375,
+      "low": 1560.1800537109375,
+      "close": 1641.6400146484375,
+      "volume": 9947200
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 1566.6165870991465,
+      "sma_5": 1568.4119873046875,
+      "ema_10": 1505.5066008972906,
+      "sma_10": 1474.125,
+      "ema_20": 1397.4295106721179,
+      "sma_20": 1422.301495361328,
+      "ema_21": 1386.8875730544758,
+      "sma_21": 1405.2495175316221,
+      "ema_50": 1139.0893991245798,
+      "sma_50": 1059.7797973632812,
+      "ema_200": 614.454551520557,
+      "sma_200": 480.00387504577634,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 1641.6400146484375,
+    "dist_from_50sma_pct": 54.9,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 4.79,
+      "above_sma_5": true,
+      "pct_from_sma_5": 4.67,
+      "above_ema_10": true,
+      "pct_from_ema_10": 9.04,
+      "above_sma_10": true,
+      "pct_from_sma_10": 11.36,
+      "above_ema_20": true,
+      "pct_from_ema_20": 17.48,
+      "above_sma_20": true,
+      "pct_from_sma_20": 15.42,
+      "above_ema_21": true,
+      "pct_from_ema_21": 18.37,
+      "above_sma_21": true,
+      "pct_from_sma_21": 16.82,
+      "above_ema_50": true,
+      "pct_from_ema_50": 44.12,
+      "above_sma_50": true,
+      "pct_from_sma_50": 54.9,
+      "above_ema_200": true,
+      "pct_from_ema_200": 167.17,
+      "above_sma_200": true,
+      "pct_from_sma_200": 242.01,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 164064.0
+    },
+    "rsi": {
+      "rsi_7": 85.42,
+      "rsi_14": 66.09,
+      "rsi_21": 72.59
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 147.7937,
+      "signal_line": 145.4822,
+      "histogram": 2.3115,
+      "bullish_crossover": true
+    },
+    "bollinger": {
+      "upper": 1700.31,
+      "middle": 1422.3,
+      "lower": 1144.3,
+      "width": 0.3909,
+      "pct_b": 0.8945
+    },
+    "atr": {
+      "atr_14": 130.31,
+      "atr_pct": 7.94
+    },
+    "adx": {
+      "adx_14": 39.28,
+      "plus_di": 28.91,
+      "minus_di": 15.07,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 9947200,
+      "avg_volume_20": 14908970,
+      "relative_volume": 0.67,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 777.6,
+          "tests": 3,
+          "volume_confirmed": false
+        },
+        {
+          "price": 965.0,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 1600.0,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 558.58,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 1277.33,
+          "tests": 3,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 1277.33,
+      "recent_high": 1697.96,
+      "recent_low": 1048.0,
+      "prev_day_high": 1658.77,
+      "prev_day_low": 1528.28,
+      "prev_day_close": 1589.94
+    },
+    "fibonacci": {
+      "swing_high": 1697.96,
+      "swing_low": 886.0,
+      "fib_236": 1506.34,
+      "fib_382": 1387.79,
+      "fib_500": 1291.98,
+      "fib_618": 1196.17,
+      "fib_786": 1059.76,
+      "fib_ext_1272": 1918.81,
+      "fib_ext_1618": 2199.75,
+      "fib_ext_2000": 2509.92,
+      "fib_ext_low_1272": 665.15,
+      "fib_ext_low_1618": 384.21
+    },
+    "momentum": {
+      "roc_5d": 17.89,
+      "roc_10d": 13.43,
+      "roc_21d": 63.78
+    },
+    "z_score_50": 1.76,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 1607.028672750515,
+      "sma_24": 1606.094014485677,
+      "ema_48": 1549.4602489362487,
+      "sma_48": 1527.1360168457031,
+      "ema_120": 1443.3261167196376,
+      "sma_120": 1457.7787129720052,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 1706.0,
+    "dist_from_50sma_pct": 17.03,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 6.16,
+      "above_sma_24": true,
+      "pct_from_sma_24": 6.22,
+      "above_ema_48": true,
+      "pct_from_ema_48": 10.1,
+      "above_sma_48": true,
+      "pct_from_sma_48": 11.71,
+      "above_ema_120": true,
+      "pct_from_ema_120": 18.2,
+      "above_sma_120": true,
+      "pct_from_sma_120": 17.03,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 170500.0
+    },
+    "rsi": {
+      "rsi_21": 61.51
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 65.1745,
+      "signal_line": 55.326,
+      "histogram": 9.8485,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 1729.43,
+      "middle": 1527.14,
+      "lower": 1324.84,
+      "width": 0.2649,
+      "pct_b": 0.9421
+    },
+    "atr": {
+      "atr_24": 42.87,
+      "atr_pct": 2.51
+    },
+    "adx": {
+      "adx_24": 37.57,
+      "plus_di": 36.86,
+      "minus_di": 16.86,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1664213,
+      "avg_volume_20": 1331868,
+      "relative_volume": 1.25,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 1443.44,
+          "tests": 3,
+          "volume_confirmed": true
+        },
+        {
+          "price": 1546.09,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 1658.77,
+          "tests": 6,
+          "volume_confirmed": true
+        },
+        {
+          "price": 1697.96,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 1277.33,
+          "tests": 3,
+          "volume_confirmed": false
+        },
+        {
+          "price": 1377.47,
+          "tests": 10,
+          "volume_confirmed": true
+        },
+        {
+          "price": 1475.83,
+          "tests": 5,
+          "volume_confirmed": false
+        },
+        {
+          "price": 1528.36,
+          "tests": 12,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 1528.36,
+      "recent_high": 1706.34,
+      "recent_low": 1528.36,
+      "prev_day_high": 1648.0,
+      "prev_day_low": 1627.34,
+      "prev_day_close": 1642.48
+    },
+    "fibonacci": {
+      "swing_high": 1706.34,
+      "swing_low": 1473.52,
+      "fib_236": 1651.4,
+      "fib_382": 1617.4,
+      "fib_500": 1589.93,
+      "fib_618": 1562.46,
+      "fib_786": 1523.34,
+      "fib_ext_1272": 1769.67,
+      "fib_ext_1618": 1850.23,
+      "fib_ext_2000": 1939.16,
+      "fib_ext_low_1272": 1410.19,
+      "fib_ext_low_1618": 1329.64
+    },
+    "momentum": {
+      "roc_5d": 1.13,
+      "roc_10d": 6.68,
+      "roc_21d": 6.62
+    },
+    "z_score_120": 2.41,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 87,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 1543.36,
+    "recent_changes": "Barclays upgraded to overweight, PT $2,300 from $1,200 (~2026-05-27). Mizuho raised PT to $1,825 from $1,625, Outperform. Citi raised PT to $2,025 from $1,300, Buy (2026-05-19). High estimate $2,350, low $1,000 across 22 analysts."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-13",
+    "days_until_next": 76,
+    "notes": "Q3 FY2026 (reported Apr 30, 2026) was the major catalyst: revenue $5.95B (+251% YoY), beat guidance by $1.15B, non-GAAP EPS $23.41 vs $12-14 guide, plus $6B buyback. Street watches QLC Stargate SSD revenue ramp this fiscal Q4 and the $42B multi-year contract backlog. Next report estimated Aug 13, 2026 (no near-term earnings catalyst within trade horizon)."
+  }
+}

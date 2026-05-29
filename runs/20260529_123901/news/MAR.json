@@ -1,0 +1,42 @@
+{
+  "ticker": "MAR",
+  "researched_at": "2026-05-29T19:43:00Z",
+  "news_items": [
+    {
+      "headline": "Susquehanna raises Marriott price target to $385 amid strong luxury performance",
+      "url": "https://finance.yahoo.com/quote/MAR/news/",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "Susquehanna lifted its PT to $385 citing strong luxury segment performance, though it flagged elevated valuations and a cautious near-term outlook."
+    },
+    {
+      "headline": "Marriott International stock closed up 3.28% on May 27",
+      "url": "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "MAR shares rose 3.28% on May 27, 2026, trading near the top of its 52-week range and above its 200-day SMA."
+    },
+    {
+      "headline": "Marriott cash dividend of $0.73 goes ex on May 22",
+      "url": "https://finance.yahoo.com/quote/MAR/press-releases/",
+      "date": "2026-05-22",
+      "sentiment": "neutral",
+      "summary": "MAR's quarterly cash dividend of $0.73 per share had an ex-dividend date of May 22, 2026."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 377.67,
+    "recent_changes": "26 analysts rate MAR 'Buy'/'Moderate Buy', avg 12-month PT ~$377.67 (slightly below current price). In May 2026, Jefferies and Mizuho raised PTs after strong Q1 results, increased capital returns and an EBITDA beat; Susquehanna raised PT to $385 (2026-05-27)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 results already reported and beat on EBITDA (referenced in May analyst PT raises). 2026 catalyst: projected ~35% jump in co-branded credit card fees from renegotiated Chase/Amex royalty rates; 2026 guidance worldwide RevPAR +1.5-2.5%, net rooms +4.5-5%. No confirmed next earnings date surfaced; next report expected late July/early August 2026 (typical Q2 cadence) but unverified."
+  },
+  "raw_search_files": [
+    "MAR_news-this-week.json",
+    "MAR_analyst-rating.json",
+    "MAR_earnings-catalyst.json"
+  ]
+}

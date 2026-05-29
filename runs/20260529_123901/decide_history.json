@@ -1,0 +1,77 @@
+[
+  {
+    "decided_at": "2026-05-29T14:09:13+00:00",
+    "approved": [
+      "SYM"
+    ],
+    "judge_approved_count": 3,
+    "writer_rejected": [
+      {
+        "ticker": "FTAI",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "H",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "HLT",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "MAR",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "ORKA",
+        "reason": "expected_return_negative"
+      },
+      {
+        "ticker": "SCCO",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "SNX",
+        "reason": "expected_return_negative"
+      },
+      {
+        "ticker": "SNDK",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$101.00 > available=$64.60)"
+      },
+      {
+        "ticker": "TKO",
+        "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$107.40 > available=$64.60)"
+      }
+    ],
+    "judge_rejected": [
+      {
+        "ticker": "FTAI",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "H",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "HLT",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "MAR",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "ORKA",
+        "reason": "expected_return_negative"
+      },
+      {
+        "ticker": "SCCO",
+        "reason": "single_position_cap_exceeded"
+      },
+      {
+        "ticker": "SNX",
+        "reason": "expected_return_negative"
+      }
+    ]
+  }
+]

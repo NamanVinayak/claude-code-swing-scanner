@@ -1,18 +1,27 @@
-# b_premarket summary 20260529_123901
+# b_decide summary 20260529_123901
 
-- candidates in: 40
-- mechanical survivors: 39
-- final today_watchlist: 10
+- approved: 1
+- rejected: 16 (judge: 7, writer-budget: 9)
 
-## Today's setups
+## Approved trades
 
-- FTAI (breakout, conv=5, watch=265.0, invalidate=261.5)
-- H (breakout, conv=5, watch=185.75, invalidate=183.5)
-- HLT (breakout, conv=5, watch=339.5, invalidate=336.0)
-- MAR (breakout, conv=5, watch=386.5, invalidate=380.0)
-- SCCO (breakout, conv=5, watch=195.5, invalidate=192.0)
-- ORKA (range_break, conv=4, watch=57.5, invalidate=59.0)
-- SNDK (breakout, conv=4, watch=1670.0, invalidate=1628.0)
-- SNX (breakout, conv=4, watch=254.5, invalidate=244.5)
-- SYM (breakout, conv=4, watch=49.0, invalidate=50.1)
-- TKO (breakout, conv=4, watch=202.5, invalidate=199.5)
+- SYM short entry=48.4 stop=50.2 target=44.5 qty=103 conv=5
+
+## Rejections (with reasons)
+
+- FTAI (judge): single_position_cap_exceeded
+- H (judge): single_position_cap_exceeded
+- HLT (judge): single_position_cap_exceeded
+- MAR (judge): single_position_cap_exceeded
+- ORKA (judge): expected_return_negative
+- SCCO (judge): single_position_cap_exceeded
+- SNX (judge): expected_return_negative
+- FTAI (writer-budget): single_position_cap_exceeded
+- H (writer-budget): single_position_cap_exceeded
+- HLT (writer-budget): single_position_cap_exceeded
+- MAR (writer-budget): single_position_cap_exceeded
+- ORKA (writer-budget): expected_return_negative
+- SCCO (writer-budget): single_position_cap_exceeded
+- SNX (writer-budget): expected_return_negative
+- SNDK (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$101.00 > available=$64.60)
+- TKO (writer-budget): budget_check_failed: risk_budget_exceeded (trade_risk=$107.40 > available=$64.60)

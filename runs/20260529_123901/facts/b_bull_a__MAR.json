@@ -1,0 +1,398 @@
+{
+  "ticker": "MAR",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 386.5,
+  "invalidation_level": 380.0,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up on a trending Marriott, but premarket shows a minor gap down (-0.46%) with zero confirmed premarket volume, so the breakout needs intraday confirmation above yesterday's close.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Susquehanna raises Marriott price target to $385 amid strong luxury performance",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://finance.yahoo.com/quote/MAR/news/",
+      "sentiment": "positive",
+      "summary": "Susquehanna lifted its PT to $385 citing strong luxury segment performance, though it flagged elevated valuations and a cautious near-term outlook."
+    },
+    {
+      "title": "Marriott International stock closed up 3.28% on May 27",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527",
+      "sentiment": "positive",
+      "summary": "MAR shares rose 3.28% on May 27, 2026, trading near the top of its 52-week range and above its 200-day SMA."
+    },
+    {
+      "title": "Marriott cash dividend of $0.73 goes ex on May 22",
+      "source": "web_research",
+      "date": "2026-05-22",
+      "url": "https://finance.yahoo.com/quote/MAR/press-releases/",
+      "sentiment": "neutral",
+      "summary": "MAR's quarterly cash dividend of $0.73 per share had an ex-dividend date of May 22, 2026."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 385.760009765625,
+  "market_cap": 100738285568.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-21",
+      "open": 365.8977460185087,
+      "high": 370.41882060496573,
+      "low": 360.6880283099625,
+      "close": 369.8299865722656,
+      "volume": 908400
+    },
+    {
+      "time": "2026-05-22",
+      "open": 368.2099914550781,
+      "high": 370.9100036621094,
+      "low": 367.29998779296875,
+      "close": 369.1499938964844,
+      "volume": 820100
+    },
+    {
+      "time": "2026-05-26",
+      "open": 369.8500061035156,
+      "high": 374.57000732421875,
+      "low": 368.760009765625,
+      "close": 373.80999755859375,
+      "volume": 1105600
+    },
+    {
+      "time": "2026-05-27",
+      "open": 378.57000732421875,
+      "high": 386.29998779296875,
+      "low": 378.57000732421875,
+      "close": 385.8599853515625,
+      "volume": 1616800
+    },
+    {
+      "time": "2026-05-28",
+      "open": 384.8999938964844,
+      "high": 388.3699951171875,
+      "low": 381.6199951171875,
+      "close": 385.760009765625,
+      "volume": 1974100
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 377.9239642787735,
+      "sma_5": 376.8819946289062,
+      "ema_10": 370.9274722825577,
+      "sma_10": 367.51353454589844,
+      "ema_20": 364.4630631992737,
+      "sma_20": 360.2309280395508,
+      "ema_21": 364.01506557200537,
+      "sma_21": 359.8986336844308,
+      "ema_50": 353.9144896917523,
+      "sma_50": 351.37023071289065,
+      "ema_200": 317.0624036277261,
+      "sma_200": 308.8526553344727,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 385.760009765625,
+    "dist_from_50sma_pct": 9.79,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.07,
+      "above_sma_5": true,
+      "pct_from_sma_5": 2.36,
+      "above_ema_10": true,
+      "pct_from_ema_10": 4.0,
+      "above_sma_10": true,
+      "pct_from_sma_10": 4.96,
+      "above_ema_20": true,
+      "pct_from_ema_20": 5.84,
+      "above_sma_20": true,
+      "pct_from_sma_20": 7.09,
+      "above_ema_21": true,
+      "pct_from_ema_21": 5.97,
+      "above_sma_21": true,
+      "pct_from_sma_21": 7.19,
+      "above_ema_50": true,
+      "pct_from_ema_50": 9.0,
+      "above_sma_50": true,
+      "pct_from_sma_50": 9.79,
+      "above_ema_200": true,
+      "pct_from_ema_200": 21.67,
+      "above_sma_200": true,
+      "pct_from_sma_200": 24.9,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 38476.0
+    },
+    "rsi": {
+      "rsi_7": 95.75,
+      "rsi_14": 89.28,
+      "rsi_21": 65.79
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 7.17,
+      "signal_line": 4.2607,
+      "histogram": 2.9093,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 383.44,
+      "middle": 360.23,
+      "lower": 337.02,
+      "width": 0.1289,
+      "pct_b": 1.0499
+    },
+    "atr": {
+      "atr_14": 7.91,
+      "atr_pct": 2.05
+    },
+    "adx": {
+      "adx_14": 34.7,
+      "plus_di": 39.66,
+      "minus_di": 7.11,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1974100,
+      "avg_volume_20": 1400545,
+      "relative_volume": 1.41,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 332.8,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 364.28,
+          "tests": 14,
+          "volume_confirmed": false
+        },
+        {
+          "price": 379.25,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 315.92,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 345.58,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 345.58,
+      "recent_high": 388.37,
+      "recent_low": 344.7,
+      "prev_day_high": 386.3,
+      "prev_day_low": 378.57,
+      "prev_day_close": 385.86
+    },
+    "fibonacci": {
+      "swing_high": 388.37,
+      "swing_low": 344.7,
+      "fib_236": 378.06,
+      "fib_382": 371.69,
+      "fib_500": 366.53,
+      "fib_618": 361.38,
+      "fib_786": 354.05,
+      "fib_ext_1272": 400.25,
+      "fib_ext_1618": 415.36,
+      "fib_ext_2000": 432.04,
+      "fib_ext_low_1272": 332.82,
+      "fib_ext_low_1618": 317.71
+    },
+    "momentum": {
+      "roc_5d": 4.54,
+      "roc_10d": 10.37,
+      "roc_21d": 7.87
+    },
+    "z_score_50": 1.84,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 380.5927125614488,
+      "sma_24": 380.028128306071,
+      "ema_48": 374.7522422085837,
+      "sma_48": 373.4742711385091,
+      "ema_120": 365.8079593495254,
+      "sma_120": 362.0766047159831,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 382.0350036621094,
+    "dist_from_50sma_pct": 5.51,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 0.38,
+      "above_sma_24": true,
+      "pct_from_sma_24": 0.53,
+      "above_ema_48": true,
+      "pct_from_ema_48": 1.94,
+      "above_sma_48": true,
+      "pct_from_sma_48": 2.29,
+      "above_ema_120": true,
+      "pct_from_ema_120": 4.44,
+      "above_sma_120": true,
+      "pct_from_sma_120": 5.51,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 38103.5
+    },
+    "rsi": {
+      "rsi_21": 72.64
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 6.6238,
+      "signal_line": 5.918,
+      "histogram": 0.7058,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 390.44,
+      "middle": 373.47,
+      "lower": 356.51,
+      "width": 0.0909,
+      "pct_b": 0.7523
+    },
+    "atr": {
+      "atr_24": 2.46,
+      "atr_pct": 0.64
+    },
+    "adx": {
+      "adx_24": 41.13,
+      "plus_di": 33.86,
+      "minus_di": 13.33,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 113327,
+      "avg_volume_20": 163716,
+      "relative_volume": 0.69,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": true
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 371.14,
+          "tests": 19,
+          "volume_confirmed": false
+        },
+        {
+          "price": 388.37,
+          "tests": 7,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 354.36,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 361.4,
+          "tests": 16,
+          "volume_confirmed": false
+        },
+        {
+          "price": 381.61,
+          "tests": 8,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 388.37,
+      "nearest_support": 381.61,
+      "recent_high": 388.37,
+      "recent_low": 371.96,
+      "prev_day_high": 386.59,
+      "prev_day_low": 385.68,
+      "prev_day_close": 385.79
+    },
+    "fibonacci": {
+      "swing_high": 388.37,
+      "swing_low": 367.3,
+      "fib_236": 383.4,
+      "fib_382": 380.32,
+      "fib_500": 377.83,
+      "fib_618": 375.35,
+      "fib_786": 371.81,
+      "fib_ext_1272": 394.1,
+      "fib_ext_1618": 401.39,
+      "fib_ext_2000": 409.44,
+      "fib_ext_low_1272": 361.57,
+      "fib_ext_low_1618": 354.28
+    },
+    "momentum": {
+      "roc_5d": -1.1,
+      "roc_10d": -0.23,
+      "roc_21d": 2.77
+    },
+    "z_score_120": 1.79,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 67,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 377.67,
+    "recent_changes": "26 analysts rate MAR 'Buy'/'Moderate Buy', avg 12-month PT ~$377.67 (slightly below current price). In May 2026, Jefferies and Mizuho raised PTs after strong Q1 results, increased capital returns and an EBITDA beat; Susquehanna raised PT to $385 (2026-05-27)."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 results already reported and beat on EBITDA (referenced in May analyst PT raises). 2026 catalyst: projected ~35% jump in co-branded credit card fees from renegotiated Chase/Amex royalty rates; 2026 guidance worldwide RevPAR +1.5-2.5%, net rooms +4.5-5%. No confirmed next earnings date surfaced; next report expected late July/early August 2026 (typical Q2 cadence) but unverified."
+  }
+}

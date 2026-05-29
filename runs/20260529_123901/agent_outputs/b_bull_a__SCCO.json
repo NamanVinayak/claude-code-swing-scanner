@@ -1,0 +1,25 @@
+{
+  "ticker": "SCCO",
+  "setup_direction": "long",
+  "bull_strength": 5,
+  "entry_zone": {"low": 195.5, "high": 196.5},
+  "target": 204.5,
+  "stop": 192.5,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Full bullish daily MA stack with ema_aligned_uptrend = true: price 194.88 sits above ema_5/10/20/50/200 in order (pct_from_ema_20 = +7.45%, pct_from_ema_50 = +8.71%, pct_from_ema_200 = +25.36%); MACD line 2.4553 over signal 0.8848 with histogram +1.5705 (expanding, positive) confirms upside momentum into the breakout trigger at watch_level 195.5.",
+    "Price is pressing the 5-test pivot-high resistance at 194.93 / recent_high 195.89 after a +11.94% roc_5d thrust off the 179 base; a clean close above 195.5 opens the measured move to fib_ext_1272 = 204.73, which is the technical basis for the 204.5 target. Daily OBV trend = up (not diverging from price), so accumulation supports the push.",
+    "Risk/reward is acceptable on a tight structural stop: entry ~196.0, target 204.5 = +8.5 reward; stop 192.5 (just below invalidation_level 192.0 and below the 185-189 prior-bar shelf) = -3.5 risk, giving ~2.4:1. rsi_14 = 63.23 and rsi_21 = 63.43 are still inside the healthy 30-70 band, leaving room before exhaustion on the daily timeframe."
+  ],
+  "risks_acknowledged": [
+    "adx_14 = 8.59 (trend_strength 'weak') — the daily ADX does NOT confirm a strong trending breakout; this is a low-conviction structural read, the main reason bull_strength is capped at 5.",
+    "No volume confirmation on the breakout: relative_volume = 0.94 (below 1.0) and volume_bias_10d = 'down'; bollinger pct_b = 0.9308 means price is already pinned to the upper band, and rsi_7 = 84.78 is extremely overbought short-term, raising odds of a failed-breakout fade back toward the 192 invalidation.",
+    "Hostile fundamental/analyst backdrop (context-only, not technical): analyst_consensus_web rating 'Sell', avg PT $158.91 (~11% below current), and a BofA downgrade to Underperform — overhead from this could cap any extension above resistance even if the chart triggers.",
+    "Hourly rsi_divergence.bearish = true on 1h bars — near-term momentum is rolling under the daily strength, so an entry should require a confirmed close above 195.5 rather than anticipation."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261928988-market-movers-scco-20260526",
+    "https://simplywall.st/stocks/us/materials/nyse-scco/southern-copper/news/how-investors-are-reacting-to-southern-copper-scco-profit-ju",
+    "https://finance.yahoo.com/markets/stocks/articles/southern-copper-scco-valuation-check-192021389.html"
+  ]
+}

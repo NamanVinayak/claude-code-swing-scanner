@@ -1,0 +1,21 @@
+{
+  "ticker": "SCCO",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Analyst consensus directly contradicts the long: analyst_consensus_web shows a 'Sell' rating across 17 analysts with avg PT $158.91, ~11% BELOW the $194.88 current price. Even the most recent change is bearish — Bank of America downgraded SCCO to Underperform (from Neutral) with a $175 PT, still below current. A breakout long at $195.50 watch level is buying into a name the street says is overvalued by double digits.",
+    "Valuation is flagged as stretched by fresh news: the 2026-05-27 Yahoo article ('SCCO Valuation Check After Earnings Beats And Cuajone Mine Expansion Plan') explicitly 'flags stretched valuation against fundamentals.' The positive Q1 EPS/revenue beat, new CEO, and enhanced dividends (per the May 26/28 items) are already priced in per earnings_context_web — there is no near-term fundamental catalyst left to re-rate the stock higher (next quarterly report not until ~late July; earnings.days_until_next = 59), so the long depends purely on momentum, not a thesis upgrade.",
+    "The price is dangerously extended for a fresh long entry: daily rsi_7 = 84.78 (deeply overbought), price sits +25.36% above ema_200 and +10.72% above sma_50, and daily bollinger pct_b = 0.93 (pinned to the upper band at $197.39). Hourly rsi_divergence.bearish = true. roc_5d = 11.94% means the move has already happened — chasing a breakout here pays full price into exhaustion with the invalidation level only $2.88 (1.5%) below entry, a poor risk setup relative to atr_14 = $8.52 daily noise."
+  ],
+  "bull_acknowledgements": [
+    "Fundamentals are genuinely improving: Q1 2026 beat on EPS and revenue with strong YoY net income/operating cash flow growth, plus a new CEO, enhanced dividends, and reinstated Tia Maria permit (earnings_context_web) — this is a real reflation/supply-disruption tailwind, not a falling knife.",
+    "Copper near record highs on supply disruptions is a legitimate macro tailwind for a low-cost copper producer; the SCCO 4.0% pop on 2026-05-26 was driven by copper-price strength and Peru/Mexico expansion progress.",
+    "The longer-term trend is intact and aligned: daily moving_averages.ema_aligned_uptrend = true and price is above all major MAs, so momentum could carry it through resistance regardless of the valuation case."
+  ],
+  "web_sources_last_7d": [
+    "https://www.tradingkey.com/news/market-movers/261928988-market-movers-scco-20260526",
+    "https://simplywall.st/stocks/us/materials/nyse-scco/southern-copper/news/how-investors-are-reacting-to-southern-copper-scco-profit-ju",
+    "https://finance.yahoo.com/markets/stocks/articles/southern-copper-scco-valuation-check-192021389.html"
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "ticker": "HLT",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 339.5,
+  "invalidation_level": 336.0,
+  "catalyst_note": "TradingView flagged both breakout_up and trending_up signals; premarket is holding a small +0.43% gap above yesterday's $337.55 close with no adverse overnight news evident.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Hilton Domestic Operating Company to offer $1 billion in Senior Notes due 2031",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://public.com/stocks/hlt/news",
+      "sentiment": "neutral",
+      "summary": "Hilton's indirect subsidiary Hilton Domestic Operating Company announced intent to offer $1 billion aggregate principal amount of Senior Notes due 2031, a debt-financing/refinancing action."
+    },
+    {
+      "title": "Hilton launches AI travel planner",
+      "source": "web_research",
+      "date": "2026-05-26",
+      "url": "https://finance.yahoo.com/quote/HLT/news/",
+      "sentiment": "positive",
+      "summary": "Hilton rolled out an AI travel planner aimed at boosting customer engagement and bookings."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 337.54998779296875,
+  "market_cap": 76263342080.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-21",
+      "open": 320.44101089586036,
+      "high": 323.75947533738037,
+      "low": 316.342910158166,
+      "close": 322.6100158691406,
+      "volume": 981700
+    },
+    {
+      "time": "2026-05-22",
+      "open": 325.8500061035156,
+      "high": 325.8500061035156,
+      "low": 318.4100036621094,
+      "close": 321.0799865722656,
+      "volume": 1053700
+    },
+    {
+      "time": "2026-05-26",
+      "open": 322.0299987792969,
+      "high": 324.8399963378906,
+      "low": 321.7099914550781,
+      "close": 323.80999755859375,
+      "volume": 1228200
+    },
+    {
+      "time": "2026-05-27",
+      "open": 328.1099853515625,
+      "high": 337.6400146484375,
+      "low": 325.5299987792969,
+      "close": 336.7200012207031,
+      "volume": 2365400
+    },
+    {
+      "time": "2026-05-28",
+      "open": 335.25,
+      "high": 338.2799987792969,
+      "low": 333.739990234375,
+      "close": 337.54998779296875,
+      "volume": 2039900
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 330.21308572364114,
+      "sma_5": 328.3539978027344,
+      "ema_10": 325.6946342552957,
+      "sma_10": 323.1121032714844,
+      "ema_20": 322.8121478540061,
+      "sma_20": 319.77898559570315,
+      "ema_21": 322.64461801666766,
+      "sma_21": 319.5206458682106,
+      "ema_50": 318.06686609254103,
+      "sma_50": 317.5382287597656,
+      "ema_200": 293.88470195747544,
+      "sma_200": 291.2064031982422,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 337.54998779296875,
+    "dist_from_50sma_pct": 6.3,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.22,
+      "above_sma_5": true,
+      "pct_from_sma_5": 2.8,
+      "above_ema_10": true,
+      "pct_from_ema_10": 3.64,
+      "above_sma_10": true,
+      "pct_from_sma_10": 4.47,
+      "above_ema_20": true,
+      "pct_from_ema_20": 4.57,
+      "above_sma_20": true,
+      "pct_from_sma_20": 5.56,
+      "above_ema_21": true,
+      "pct_from_ema_21": 4.62,
+      "above_sma_21": true,
+      "pct_from_sma_21": 5.64,
+      "above_ema_50": true,
+      "pct_from_ema_50": 6.13,
+      "above_sma_50": true,
+      "pct_from_sma_50": 6.3,
+      "above_ema_200": true,
+      "pct_from_ema_200": 14.86,
+      "above_sma_200": true,
+      "pct_from_sma_200": 15.91,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 33655.0
+    },
+    "rsi": {
+      "rsi_7": 82.24,
+      "rsi_14": 68.65,
+      "rsi_21": 58.05
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.9041,
+      "signal_line": 0.9045,
+      "histogram": 1.9996,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 334.15,
+      "middle": 319.78,
+      "lower": 305.4,
+      "width": 0.0899,
+      "pct_b": 1.1181
+    },
+    "atr": {
+      "atr_14": 6.84,
+      "atr_pct": 2.03
+    },
+    "adx": {
+      "adx_14": 32.8,
+      "plus_di": 33.5,
+      "minus_di": 13.54,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 2039900,
+      "avg_volume_20": 1535960,
+      "relative_volume": 1.33,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 305.26,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 344.59,
+          "tests": 3,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 290.53,
+          "tests": 5,
+          "volume_confirmed": true
+        },
+        {
+          "price": 307.92,
+          "tests": 8,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 344.59,
+      "nearest_support": 307.92,
+      "recent_high": 338.28,
+      "recent_low": 307.92,
+      "prev_day_high": 337.64,
+      "prev_day_low": 325.53,
+      "prev_day_close": 336.72
+    },
+    "fibonacci": {
+      "swing_high": 344.59,
+      "swing_low": 307.92,
+      "fib_236": 335.93,
+      "fib_382": 330.58,
+      "fib_500": 326.25,
+      "fib_618": 321.93,
+      "fib_786": 315.76,
+      "fib_ext_1272": 354.56,
+      "fib_ext_1618": 367.25,
+      "fib_ext_2000": 381.26,
+      "fib_ext_low_1272": 297.94,
+      "fib_ext_low_1618": 285.25
+    },
+    "momentum": {
+      "roc_5d": 4.27,
+      "roc_10d": 8.44,
+      "roc_21d": 4.44
+    },
+    "z_score_50": 1.48,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 332.37438038159985,
+      "sma_24": 331.2778091430664,
+      "ema_48": 327.9317485477107,
+      "sma_48": 325.9083309173584,
+      "ema_120": 322.55422186304907,
+      "sma_120": 320.53762385050453,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 335.0050048828125,
+    "dist_from_50sma_pct": 4.51,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 0.79,
+      "above_sma_24": true,
+      "pct_from_sma_24": 1.13,
+      "above_ema_48": true,
+      "pct_from_ema_48": 2.16,
+      "above_sma_48": true,
+      "pct_from_sma_48": 2.79,
+      "above_ema_120": true,
+      "pct_from_ema_120": 3.86,
+      "above_sma_120": true,
+      "pct_from_sma_120": 4.51,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 33400.5
+    },
+    "rsi": {
+      "rsi_21": 78.02
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 4.9646,
+      "signal_line": 3.7968,
+      "histogram": 1.1678,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 340.97,
+      "middle": 325.91,
+      "lower": 310.85,
+      "width": 0.0924,
+      "pct_b": 0.802
+    },
+    "atr": {
+      "atr_24": 2.17,
+      "atr_pct": 0.65
+    },
+    "adx": {
+      "adx_24": 59.05,
+      "plus_di": 36.51,
+      "minus_di": 12.98,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 73536,
+      "avg_volume_20": 199574,
+      "relative_volume": 0.37,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "down",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 325.09,
+          "tests": 16,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 312.99,
+          "tests": 2,
+          "volume_confirmed": false
+        },
+        {
+          "price": 316.49,
+          "tests": 17,
+          "volume_confirmed": false
+        },
+        {
+          "price": 333.74,
+          "tests": 8,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 333.74,
+      "recent_high": 338.28,
+      "recent_low": 322.0,
+      "prev_day_high": 337.75,
+      "prev_day_low": 336.99,
+      "prev_day_close": 337.55
+    },
+    "fibonacci": {
+      "swing_high": 338.28,
+      "swing_low": 318.4,
+      "fib_236": 333.59,
+      "fib_382": 330.69,
+      "fib_500": 328.34,
+      "fib_618": 326.0,
+      "fib_786": 322.66,
+      "fib_ext_1272": 343.69,
+      "fib_ext_1618": 350.56,
+      "fib_ext_2000": 358.15,
+      "fib_ext_low_1272": 313.0,
+      "fib_ext_low_1618": 306.12
+    },
+    "momentum": {
+      "roc_5d": -0.79,
+      "roc_10d": 0.0,
+      "roc_21d": 3.86
+    },
+    "z_score_120": 2.09,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 61,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 325.19,
+    "recent_changes": "Consensus 'Buy' from 16 covering analysts (avg PT $325.19, ~4.44% upside); broader pool of 38 analysts splits 13 Buy / 12 Hold / 1 Sell, median PT $325.00 (high $383, low $234). Multiple analysts raised price targets in recent weeks following the latest earnings report."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Most recent earnings (already priced in): adjusted EPS $2.01 with slight revenue miss; stock up ~7.1% since report; dividend hike and cautious 2026 guidance. Hilton raised FY2026 guidance to net income $1,909M-$1,937M and diluted EPS $8.28-$8.40. Key catalysts: execution on record ~527,000-room pipeline, international unit growth, new brands (Spark, Outset), and 2026 World Cup demand. Key risk: sluggish RevPAR in core markets. Specific next earnings date not found in searches."
+  }
+}

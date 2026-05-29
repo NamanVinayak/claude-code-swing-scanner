@@ -1,0 +1,23 @@
+{
+  "ticker": "SNDK",
+  "approved": [
+    {
+      "ticker": "SNDK",
+      "direction": "long",
+      "entry_price": 1677.5,
+      "stop_loss": 1627.0,
+      "target_price": 1770.0,
+      "target_price_2": 1795.0,
+      "quantity": 2,
+      "expected_holding_days": 6,
+      "setup_type": "breakout",
+      "conviction": 4,
+      "rationale": "Catalyst bull (b_bull_b.bull_strength=7) edges past the bears on R:R asymmetry, but the technical bears dominate on conviction (b_bear_a.bear_strength=8, b_bear_b.bear_strength=7 vs avg bull 6) and they are right on the facts: daily AND hourly rsi_divergence.bearish=true, daily rsi_7=85.42, bollinger pct_b=0.8945 pinned to upper band 1700.31, price +54.9% above sma_50, z_score_50=1.76, and the breakout printed on relative_volume=0.67 (below avg) - so this is an extended/exhaustion-prone entry, not a clean base break. Expected return is positive but thin: combined_p_bull=(0.3846+0.5)/2=0.4423; expected_return_per_share = 0.4423*(1770-1677.5) - 0.5577*(1677.5-1627) = 40.91 - 28.16 = +$12.75, carried entirely by the conservative target(min 1770)/stop(max 1627) asymmetry against a 55.8% bear-weighted probability. Sizing: risk_dollars=$250 (1% x 1.0), risk_per_share=$50.50, Gate-3 qty=floor(250/50.5)=4 -> notional $6,710 exceeds 15% cap ($3,750); scaled down from 4 to 2 shares to fit small-account cap, using 40% of risk budget (M=floor(5000/1677.5)=2, risk_M=$101 >= $100 floor). Conviction held to 4 given majority-bear probability, divergence flags, and below-avg breakout volume; entry kept as a tight day-order since a low-conviction extended breakout that doesn't fill fast is suspect.",
+      "risk_usd": 101.0,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-29T20:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "SNDK long approved at 2 shares (small_scaled, 40% of risk budget) on positive but thin expected return (+$12.75/share). Strong-trend stack (adx_14=39.28, ema_aligned_uptrend, Barclays OW PT $2,300, earnings 87d out) and the conservative R:R clear the EV gate, but heavy extension/exhaustion evidence (rsi_7=85.42, dual bearish rsi divergence, pct_b 0.89, breakout on 0.67x volume) and majority-bear probability cap conviction at 4 with a tight same-day entry window."
+}

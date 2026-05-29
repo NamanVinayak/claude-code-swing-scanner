@@ -1,0 +1,11 @@
+{
+  "ticker": "ORKA",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "ORKA",
+      "reason": "expected_return_negative"
+    }
+  ],
+  "summary": "ORKA short rejected on negative probability-weighted expected return. Gate 0 (all 4 perspectives agree short) and Gate 1 (can_open_new_position=true, phase=full, daily_pnl=0) pass, but Gate 2 fails: bears dominate (b_bear_a.bear_strength=7 vs b_bull_a.bull_strength=4; b_bear_b.bear_strength=8 vs b_bull_b.bull_strength=3), giving combined_p_bull=0.318. With entry=57.15 (midpoint of b_bull_a zone), target=max(51.50,54.99)=54.99, stop=min(59.10,59.10)=59.10: expected_return_per_share = 0.318*(57.15-54.99) - 0.682*(59.10-57.15) = 0.687 - 1.330 = -$0.64 ≤ 0. Both bulls themselves flagged R:R below the 2:1 floor (price pinned at 3x-tested 54.99 support, bollinger.pct_b=0.19), a hostile Strong-Buy analyst tape (37 Buy/0 Sell, PT $137.25 vs $57.98), drying volume (relative_volume=0.36), and hourly bullish rsi_divergence — a relief bounce into the $59.10 stop is more likely than a flush. No trade."
+}

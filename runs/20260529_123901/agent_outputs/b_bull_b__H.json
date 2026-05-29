@@ -1,0 +1,25 @@
+{
+  "ticker": "H",
+  "setup_direction": "long",
+  "bull_strength": 8,
+  "entry_zone": {"low": 185.75, "high": 187.00},
+  "target": 195.00,
+  "stop": 182.50,
+  "expected_holding_days": 8,
+  "top_3_arguments": [
+    "Fresh investor-day catalyst stack within 24-48h: Hyatt's 2026-05-28 Investor Day delivered a three-year outlook through 2028 plus a board-approved additional $1B share buyback (tipranks, 2026-05-28); same day Mizuho raised PT to $221 from $219 (Outperform), stating all presented metrics exceeded expectations (investing.com, 2026-05-28) — ~19% upside from ~$185. Buyback authorization is a hard floor under the breakout.",
+    "Price confirms the narrative: stock printed a fresh 12-month high on 2026-05-27 after an analyst upgrade (thestockobserver, 2026-05-27) and closed 2026-05-28 at 185.46 on relative_volume 1.53 (1,363,800 vs 893,955 avg). Daily ADX_14 = 28.71 with plus_di 31.97 / minus_di 9.36 (strong directional trend), MACD histogram +1.4215, OBV trend up not diverging — momentum is real, not a thin pop.",
+    "No earnings risk in the holding window: earnings_context_web next_earnings_date 2026-08-06 (69 days out); Q1 already reported 2026-05-04 with EPS $0.63 beat vs $0.58 est (+8.6%) and FY RevPAR guide raised to 2-4%. The May 28 Investor Day is the near-term catalyst, not earnings, so an 8-day swing carries zero earnings-gap exposure. R:R math: entry mid 186.375, stop 182.50 (risk 3.875), target 195.00 (reward 8.625) = 2.23:1."
+  ],
+  "risks_acknowledged": [
+    "Stretched short-term: daily rsi_7 = 77.88 and hourly rsi_21 = 81.07, price closed above the daily upper Bollinger (pct_b 1.0666) and is 15.47% above the 50-SMA (z_score_50 = 2.07) — a near-term mean-reversion pullback toward the 185.75 watch level or fib_236 (181.03) is plausible before continuation.",
+    "Premarket gave no confirmation: catalyst_note flags effectively flat premarket (-0.17%) on zero premarket volume, so the breakout above 185.75 is unconfirmed at the open — a failure to clear the 188.5 recent high (the only overhead pivot) would invalidate.",
+    "Buyback/Investor Day are well-telegraphed; the Mizuho PT bump (only +$2 to $221) and the 12-month high may mean the good news is largely priced, capping near-term upside versus the $195 target.",
+    "New ticker with no wiki memory (wiki_context.new_ticker = true) and recent_insider_trades empty — no smart-money corroboration beyond the corporate buyback authorization."
+  ],
+  "web_sources_last_7d": [
+    "https://www.thestockobserver.com/2026/05/27/hyatt-hotels-nyseh-reaches-new-12-month-high-following-analyst-upgrade.html",
+    "https://www.tipranks.com/news/company-announcements/hyatt-hotels-unveils-strategy-and-expands-share-buyback",
+    "https://www.investing.com/news/analyst-ratings/mizuho-raises-hyatt-hotels-stock-price-target-on-growth-outlook-93CH-4716182"
+  ]
+}

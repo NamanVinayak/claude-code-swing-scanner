@@ -1,0 +1,11 @@
+{
+  "ticker": "H",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "H",
+      "reason": "single_position_cap_exceeded"
+    }
+  ],
+  "summary": "H long has positive expected return (+$2.99/share: combined_p_bull=0.5549 from bull_a strength 7 / bull_b strength 8 vs bear strength 6/6; entry mid 186.625, conservative target 195.00, stop 182.90) but fails Gate 4 position sizing. Gate 3 quantity = floor(250/3.725)=67 shares → notional $12,504 exceeds the 15% single-position cap ($3,750). The small_scaled exception also fails: at the 20% extended cap (M=floor(5000/186.625)=26 shares) risk used = 26 x 3.725 = $96.85, below the 40%-of-risk-budget floor ($100). The $186.63 price with a tight $3.73 ATR-scaled stop cannot fit a viable scaled position on a $25k account, so rejected with single_position_cap_exceeded despite a clean breakout thesis."
+}

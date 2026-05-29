@@ -1,0 +1,418 @@
+{
+  "ticker": "H",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 185.75,
+  "invalidation_level": 183.5,
+  "catalyst_note": "Stage 1 flagged tv_breakout_up and tv_trending_up; premarket is effectively flat (-0.17%) preserving the breakout setup, but zero premarket volume provides no early confirmation of follow-through.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_breakout_up",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Hyatt Hotels (NYSE:H) Reaches New 12-Month High Following Analyst Upgrade",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://www.thestockobserver.com/2026/05/27/hyatt-hotels-nyseh-reaches-new-12-month-high-following-analyst-upgrade.html",
+      "sentiment": "positive",
+      "summary": "Shares hit a fresh 12-month high after an analyst upgrade. Stock cited around $185 in late May."
+    },
+    {
+      "title": "Hyatt Hotels Unveils Strategy and Expands Share Buyback at Investor Day",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://www.tipranks.com/news/company-announcements/hyatt-hotels-unveils-strategy-and-expands-share-buyback",
+      "sentiment": "positive",
+      "summary": "At its May 28 Investor Day, Hyatt presented a three-year outlook through 2028 (RevPAR, EBITDA, rooms growth, FCF) and its board approved an additional $1 billion share repurchase program."
+    },
+    {
+      "title": "Mizuho raises Hyatt Hotels stock price target on growth outlook",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://www.investing.com/news/analyst-ratings/mizuho-raises-hyatt-hotels-stock-price-target-on-growth-outlook-93CH-4716182",
+      "sentiment": "positive",
+      "summary": "Mizuho raised its price target to $221 from $219 and maintained an Outperform rating after Investor Day, saying all presented metrics exceeded expectations (~19% upside from ~$185)."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 185.4600067138672,
+  "market_cap": 17578559488.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-21",
+      "open": 170.13999938964844,
+      "high": 177.14999389648438,
+      "low": 169.5,
+      "close": 175.52000427246094,
+      "volume": 619700
+    },
+    {
+      "time": "2026-05-22",
+      "open": 177.10000610351562,
+      "high": 177.6699981689453,
+      "low": 174.00999450683594,
+      "close": 174.14999389648438,
+      "volume": 779200
+    },
+    {
+      "time": "2026-05-26",
+      "open": 177.66000366210938,
+      "high": 180.0800018310547,
+      "low": 174.91000366210938,
+      "close": 179.52000427246094,
+      "volume": 1030900
+    },
+    {
+      "time": "2026-05-27",
+      "open": 181.8000030517578,
+      "high": 183.7100067138672,
+      "low": 179.0800018310547,
+      "close": 183.14999389648438,
+      "volume": 945600
+    },
+    {
+      "time": "2026-05-28",
+      "open": 186.49000549316406,
+      "high": 188.5,
+      "low": 181.61000061035156,
+      "close": 185.4600067138672,
+      "volume": 1363800
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 180.14990600517694,
+      "sma_5": 179.56000061035155,
+      "ema_10": 176.08059355649215,
+      "sma_10": 174.35499877929686,
+      "ema_20": 171.60286642691315,
+      "sma_20": 170.11349868774414,
+      "ema_21": 171.26044420088633,
+      "sma_21": 169.57999892461868,
+      "ema_50": 165.17633312143923,
+      "sma_50": 160.61539947509766,
+      "ema_200": 154.3046625180848,
+      "sma_200": 155.12002258300782,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 185.4600067138672,
+    "dist_from_50sma_pct": 15.47,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 2.95,
+      "above_sma_5": true,
+      "pct_from_sma_5": 3.29,
+      "above_ema_10": true,
+      "pct_from_ema_10": 5.33,
+      "above_sma_10": true,
+      "pct_from_sma_10": 6.37,
+      "above_ema_20": true,
+      "pct_from_ema_20": 8.08,
+      "above_sma_20": true,
+      "pct_from_sma_20": 9.02,
+      "above_ema_21": true,
+      "pct_from_ema_21": 8.29,
+      "above_sma_21": true,
+      "pct_from_sma_21": 9.36,
+      "above_ema_50": true,
+      "pct_from_ema_50": 12.28,
+      "above_sma_50": true,
+      "pct_from_sma_50": 15.47,
+      "above_ema_200": true,
+      "pct_from_ema_200": 20.19,
+      "above_sma_200": true,
+      "pct_from_sma_200": 19.56,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 18446.0
+    },
+    "rsi": {
+      "rsi_7": 77.88,
+      "rsi_14": 68.38,
+      "rsi_21": 65.89
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 5.2317,
+      "signal_line": 3.8103,
+      "histogram": 1.4215,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 183.66,
+      "middle": 170.11,
+      "lower": 156.57,
+      "width": 0.1592,
+      "pct_b": 1.0666
+    },
+    "atr": {
+      "atr_14": 5.65,
+      "atr_pct": 3.05
+    },
+    "adx": {
+      "adx_14": 28.71,
+      "plus_di": 31.97,
+      "minus_di": 9.36,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 1363800,
+      "avg_volume_20": 893955,
+      "relative_volume": 1.53,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 150.62,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 171.96,
+          "tests": 11,
+          "volume_confirmed": false
+        },
+        {
+          "price": 175.54,
+          "tests": 4,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 137.53,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 139.23,
+          "tests": 4,
+          "volume_confirmed": false
+        },
+        {
+          "price": 156.86,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 163.04,
+          "tests": 15,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 163.04,
+      "recent_high": 188.5,
+      "recent_low": 158.62,
+      "prev_day_high": 183.71,
+      "prev_day_low": 179.08,
+      "prev_day_close": 183.15
+    },
+    "fibonacci": {
+      "swing_high": 188.5,
+      "swing_low": 156.86,
+      "fib_236": 181.03,
+      "fib_382": 176.41,
+      "fib_500": 172.68,
+      "fib_618": 168.95,
+      "fib_786": 163.63,
+      "fib_ext_1272": 197.11,
+      "fib_ext_1618": 208.05,
+      "fib_ext_2000": 220.14,
+      "fib_ext_low_1272": 148.25,
+      "fib_ext_low_1618": 137.31
+    },
+    "momentum": {
+      "roc_5d": 7.08,
+      "roc_10d": 10.88,
+      "roc_21d": 14.23
+    },
+    "z_score_50": 2.07,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 182.0386645533162,
+      "sma_24": 181.41833368937174,
+      "ema_48": 178.38130644214058,
+      "sma_48": 176.8617706298828,
+      "ema_120": 172.70746070869652,
+      "sma_120": 171.42083333333332,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 186.68499755859375,
+    "dist_from_50sma_pct": 8.9,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 2.55,
+      "above_sma_24": true,
+      "pct_from_sma_24": 2.9,
+      "above_ema_48": true,
+      "pct_from_ema_48": 4.66,
+      "above_sma_48": true,
+      "pct_from_sma_48": 5.55,
+      "above_ema_120": true,
+      "pct_from_ema_120": 8.09,
+      "above_sma_120": true,
+      "pct_from_sma_120": 8.9,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 18568.5
+    },
+    "rsi": {
+      "rsi_21": 81.07
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 4.1254,
+      "signal_line": 3.3392,
+      "histogram": 0.7861,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 188.71,
+      "middle": 176.86,
+      "lower": 165.01,
+      "width": 0.134,
+      "pct_b": 0.9144
+    },
+    "atr": {
+      "atr_24": 2.04,
+      "atr_pct": 1.09
+    },
+    "adx": {
+      "adx_24": 54.93,
+      "plus_di": 36.23,
+      "minus_di": 11.29,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 44883,
+      "avg_volume_20": 122520,
+      "relative_volume": 0.37,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 173.75,
+          "tests": 13,
+          "volume_confirmed": false
+        },
+        {
+          "price": 177.67,
+          "tests": 8,
+          "volume_confirmed": false
+        },
+        {
+          "price": 183.33,
+          "tests": 6,
+          "volume_confirmed": false
+        },
+        {
+          "price": 188.5,
+          "tests": 1,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 163.04,
+          "tests": 1,
+          "volume_confirmed": false
+        },
+        {
+          "price": 169.5,
+          "tests": 14,
+          "volume_confirmed": false
+        },
+        {
+          "price": 174.01,
+          "tests": 12,
+          "volume_confirmed": true
+        }
+      ],
+      "nearest_resistance": 188.5,
+      "nearest_support": 174.01,
+      "recent_high": 188.5,
+      "recent_low": 177.37,
+      "prev_day_high": 186.3,
+      "prev_day_low": 184.89,
+      "prev_day_close": 185.45
+    },
+    "fibonacci": {
+      "swing_high": 188.5,
+      "swing_low": 174.01,
+      "fib_236": 185.08,
+      "fib_382": 182.96,
+      "fib_500": 181.25,
+      "fib_618": 179.54,
+      "fib_786": 177.11,
+      "fib_ext_1272": 192.44,
+      "fib_ext_1618": 197.46,
+      "fib_ext_2000": 202.99,
+      "fib_ext_low_1272": 170.06,
+      "fib_ext_low_1618": 165.05
+    },
+    "momentum": {
+      "roc_5d": 0.28,
+      "roc_10d": 3.61,
+      "roc_21d": 5.63
+    },
+    "z_score_120": 2.5,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": null,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "buy",
+    "avg_price_target": 182.79,
+    "recent_changes": "Mizuho raised PT to $221 (Outperform) on 2026-05-28 after Investor Day. Older context (outside 7-day window): Bernstein raised to $202 Outperform on 2026-05-15; JPMorgan raised to $186 Overweight on 2026-05-05. Consensus rating 'Buy' across ~15-23 analysts; high target $224, low $150."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": "2026-08-06",
+    "days_until_next": 69,
+    "notes": "Q1 2026 reported ~2026-05-04 (already priced in): EPS $0.63 beat $0.58 est (+8.6%), revenue $1.73B roughly in line; system-wide RevPAR +5.4%, record ~151,000-room pipeline, World of Hyatt ~66M members (+18% YoY); full-year RevPAR guide raised to 2-4%. Next near-term catalyst is the May 28 Investor Day three-year outlook through 2028, not earnings. Next earnings est. early Aug 2026 (date approximate)."
+  }
+}

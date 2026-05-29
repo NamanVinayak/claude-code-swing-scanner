@@ -1,0 +1,20 @@
+{
+  "ticker": "ORKA",
+  "researched_at": "2026-05-29T18:43:00Z",
+  "news_items": [],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 137.25,
+    "recent_changes": "Consensus Strong Buy (37 Buy / 0 Hold / 0 Sell). PT raises followed the Apr 27 trial data: Clear Street to $131 from $71, Barclays to $160 from $78 (Overweight), Wedbush to $165 from $85 (Outperform). No analyst-rating changes confirmed within the last 7 days specifically."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Clinical-stage biotech with no revenue; catalysts are clinical/regulatory, not earnings. Already priced in: Apr 27 2026 ORKA-001 EVERLAST-A interim Phase 2 data showed 63.5% PASI 100 at week 16 (vs Skyrizi/Bimzelx), supporting once-yearly dosing; stock surged ~32% premarket that day. Company guides to a clinical catalyst roughly every 6 months for ORKA-001/ORKA-002. An upsized ~US$700M equity offering completed post-data adds near-term share-supply overhang. No traditional earnings date found as a near-term catalyst."
+  },
+  "raw_search_files": [
+    "ORKA_news-this-week.json",
+    "ORKA_analyst-rating.json",
+    "ORKA_earnings-catalyst.json"
+  ]
+}

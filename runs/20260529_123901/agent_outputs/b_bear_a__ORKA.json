@@ -1,0 +1,17 @@
+{
+  "ticker": "ORKA",
+  "setup_direction": "short",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [59.0, 60.64, 61.83],
+  "top_3_arguments": [
+    "The short has almost no room before major support and the tape is deeply oversold, so a bounce is more likely than a flush. daily rsi.rsi_14 = 35.45 and rsi.rsi_21 = 32.56 (oversold); bollinger.pct_b = 0.19 (price pinned near the lower band, lower=55.01); nearest_support = 54.99 with 3 tests volume_confirmed sits only ~5% below the 57.98 close. Shorting into a 3x-tested, volume-confirmed support after a -21.64% roc_21d drop is selling the hole.",
+    "The decline is on collapsing, not expanding, volume — there is no distribution to fuel further downside. daily volume.relative_volume = 0.36 and the last two down days printed only 671,200 and 618,000 shares vs avg_volume_20 = 1,697,785; that is sellers exhausting, not piling in. The hourly tape is already turning: hourly rsi_divergence.bullish = true, hourly macd.histogram = +0.0221 (flipped positive), hourly volume.obv.trend = up and volume_bias_10d = up — early signs the down-leg is stalling at exactly the entry the short wants.",
+    "This is a pullback inside a powerful uptrend, not a Stage-4 breakdown — the structural backdrop fights the short. price_vs_ma shows above_ema_50 = true (+0.08%), above_ema_200 = true (+47.94%), above_sma_200 = true (+65.6%); moving_averages.ema_aligned_downtrend = false on the daily. Combined with a Strong Buy analyst consensus (37 Buy / 0 Hold / 0 Sell) and avg_price_target $137.25 vs the $57.98 close, the fundamental gravity is upward, raising the odds the watch_level 57.50 fails to break or reverses immediately on a relief bid."
+  ],
+  "bull_acknowledgements": [
+    "The short-side trend evidence is real on the intermediate frame: daily adx.adx_14 = 29.01 with minus_di 24.87 > plus_di 13.45 (strong downtrend), price below ema_5/10/20/21 and below sma_50 (-2.78%), and daily macd is firmly negative (macd_line -0.94, histogram -1.08, no bullish crossover).",
+    "Momentum is clearly down across all daily windows: roc_5d -4.43, roc_10d -8.23, roc_21d -21.64, and the hourly MAs are in ema_aligned_downtrend = true — so the short isn't fighting the very recent trend.",
+    "A ~US$700M post-data equity offering creates a real near-term share-supply overhang (per earnings_context_web), a legitimate fundamental tailwind for the short thesis."
+  ],
+  "web_sources_last_7d": []
+}

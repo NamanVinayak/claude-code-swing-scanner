@@ -1,0 +1,17 @@
+{
+  "ticker": "SNX",
+  "setup_direction": "long",
+  "bear_strength": 7,
+  "setup_invalidation_levels": [244.5, 240.5, 233.73],
+  "top_3_arguments": [
+    "Exhaustion + momentum rollover at the breakout: daily rsi_7 = 90.47 (extreme overbought) and daily_indicators.rsi_divergence.bearish = true (price higher highs, RSI not confirming, 60-bar lookback). Worse, daily MACD is already crossing DOWN: macd_line = 8.2922 is BELOW signal_line = 8.506 with histogram = -0.2138 and bullish_crossover = false. Buying a breakout the same day momentum rolls over is buying the exhaustion candle.",
+    "Severe overextension flags mean-reversion risk over continuation: daily bollinger.pct_b = 1.0344 and hourly bollinger.pct_b = 1.1177 (price above the upper band on BOTH timeframes), hourly z_score_120 = 3.69 (a 3.7-sigma stretch), and price is +17.94% above sma_50 (dist_from_50sma_pct = 17.94). The +3.16% overnight gap to $254 pushes it further into thin air with no nearby support; nearest_support is $221.56, a ~10% air pocket below the entry. Distribution is already visible: hourly volume.obv.trend = 'down' and diverging_from_price = true.",
+    "R:R is poor and the move is largely spent. From the $254.50 watch_level to invalidation $244.50 is ~$10 risk (~1.5x daily atr_14 of $6.82). The only mapped upside before the next extension is fib_ext_1272 = $264.01, roughly $9.50 above entry => ~1:1 R:R, below the 2:1 minimum. The last two daily bars confirm fading: 05-27 high $250.96 closed $246.76, 05-28 high $247.76 closed $246.22 — two consecutive failures to hold the highs, closing in the lower half of range. The 'breakout' is being sold."
+  ],
+  "bull_acknowledgements": [
+    "MA structure is genuinely clean: moving_averages.ema_aligned_uptrend = true and price is above all listed MAs (ema_5 through sma_200) in bullish order — the primary trend is up.",
+    "Hourly trend strength is real: adx_24 = 49.2 ('strong') with plus_di 45.16 vs minus_di 17.24, and daily relative_volume = 1.4 with volume_bias_10d 'up' shows participation behind the recent advance.",
+    "Fundamental/analyst backdrop is supportive: analyst_consensus_web rating 'buy' (avg PT $250, street-high $271), and a prior blowout earnings print — there is no earnings risk near-term (earnings.days_until_next = 25)."
+  ],
+  "web_sources_last_7d": []
+}

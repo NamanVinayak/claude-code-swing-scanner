@@ -1,0 +1,17 @@
+{
+  "ticker": "TKO",
+  "setup_direction": "long",
+  "bear_strength": 4,
+  "thesis_crack_level": "minor",
+  "top_3_arguments": [
+    "Catalyst is already spent, not pending. The fundamental fuel (Q1 2026 rev $1.597B +26% YoY, adj EBITDA $550M +32%, the $7.7B Paramount UFC media-rights deal, the $1B buyback authorization, reaffirmed FY guide) was all disclosed at the 2026-05-06 earnings release per earnings_context_web — that is context-only, already priced into the move from ~$188 to $200. earnings.days_until_next = 68 means there is no near-term fundamental catalyst for ~9 weeks to push price through resistance, and recent_news_7d is empty (news_source = 'none'). A breakout long that depends on price expansion needs incremental news; there is none in the window.",
+    "Valuation upside to the analyst case is thin and the consensus is already maximally bullish, leaving little re-rating room. analyst_consensus_web shows a Strong Buy (12 buy / 4 hold / 0 sell) with avg PT $238.15 — but the most recent action (Guggenheim $232 PT, 2026-05-07) is outside the 7-day window and already priced in; recent_changes explicitly notes 'no analyst-rating changes in last 7 days.' With sentiment pinned at Strong Buy there is no upgrade catalyst left to surprise the upside, and standalone forward-multiple data (P/E, EV/EBITDA vs peers) is not available in the facts bundle to confirm the stock is cheap — unconfirmed via web, so I cannot lean on a valuation tailwind for the long.",
+    "The breakout itself is unconfirmed by participation — internals are diverging from the long thesis. daily_indicators.volume.obv.trend = 'down' and is flagged diverging_from_price = true; volume_bias_10d = 'down'; and daily rsi_divergence.bearish = true. Price is stalling exactly at the swing-high resistance (support_resistance.recent_high = 202.5, the same level as the watch_level 202.5) with z_score_50 = 1.69 and pct_b = 1.16 (above the upper Bollinger band) — i.e. already extended into resistance on falling on-balance-volume. The premarket gap to ~$202 carries 'no volume confirmation available' (catalyst_note) and hourly relative_volume is only 0.35. A breakout on declining OBV into a tested ceiling, with no fresh fundamental driver, is the textbook setup for a failed breakout / drift back to the 20-EMA (~$190.5)."
+  ],
+  "bull_acknowledgements": [
+    "Fundamentals are genuinely strong, not a value trap: Q1 2026 revenue +26% YoY and adjusted EBITDA +32%, the structural $7.7B / 7-year Paramount UFC media-rights deal materially de-risks forward revenue, and the board added a $1B buyback — this is a high-quality compounder, not a deteriorating story.",
+    "Analyst support is real and one-sided in the bull's favor — Strong Buy consensus (12 buy / 4 hold / 0 sell), avg PT $238.15 vs current $200.54 implies ~19% headline upside; the long has a credible fundamental floor.",
+    "Trend strength is confirmed: daily adx_14 = 30.19 with plus_di 24.83 >> minus_di 6.57, price above all major MAs, and momentum positive (roc_10d 9.17) — if the breakout does take with volume, the fundamental backdrop will not fight it."
+  ],
+  "web_sources_last_7d": []
+}

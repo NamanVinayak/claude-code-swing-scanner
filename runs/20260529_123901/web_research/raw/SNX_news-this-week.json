@@ -1,0 +1,27 @@
+{
+  "query": "SNX news this week",
+  "fetched_at": "2026-05-29T19:30:00Z",
+  "note": "Query returned mixed results: most hits are for Synthetix (SNX crypto token), not the equity. Facts file says SNX = long breakout swing-stock setup = TD SYNNEX Corporation (NYSE: SNX). Stock-relevant links preserved below; crypto-only content excluded from structured summary.",
+  "results": [
+    {
+      "title": "TD SYNNEX Corporation (SNX) Stock Price, News, Quote & History - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SNX/"
+    },
+    {
+      "title": "SNX: TD Synnex Corp - Stock Price, Quote and News - CNBC",
+      "url": "https://www.cnbc.com/quotes/SNX"
+    },
+    {
+      "title": "TD SYNNEX Corporation (SNX) Latest Press Releases & Corporate News - Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/SNX/press-releases/"
+    },
+    {
+      "title": "TD SYNNEX (SNX) Stock Price, News & Analysis - NYSE",
+      "url": "https://www.marketbeat.com/stocks/NYSE/SNX/"
+    },
+    {
+      "title": "Latest Synthetix News (CRYPTO - not the equity) - CoinMarketCap",
+      "url": "https://coinmarketcap.com/cmc-ai/synthetix/latest-updates/"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "ticker": "MAR",
+  "setup_direction": "long",
+  "bull_strength": 5,
+  "entry_zone": {"low": 386.50, "high": 388.50},
+  "target": 401.00,
+  "stop": 381.00,
+  "expected_holding_days": 6,
+  "top_3_arguments": [
+    "Strong, confirmed daily uptrend: ema_aligned_uptrend=true, price above all MAs (pct_from_sma_50 = +9.79%, pct_from_sma_200 = +24.9%); adx_14 = 34.7 with plus_di = 39.66 vs minus_di = 7.11 (textbook directional strength). Breakout trigger above recent_high 388.37 targets fib_ext_1272 = 400.25.",
+    "Momentum and participation confirm: macd_line = 7.17 above signal_line = 4.26 with histogram = +2.91; roc_10d = +10.37%; relative_volume = 1.41 on the 2026-05-28 bar (1.97M vs avg 1.40M); volume.obv.trend = up, not diverging on the daily.",
+    "Recent base-to-breakout structure intact: 5-day closes 369.83 -> 369.15 -> 373.81 -> 385.86 -> 385.76 held the 379.25 pivot (4 tests) as flipped support; nearest_support 345.58 well below, leaving clean overhead room to fib_ext_1272 = 400.25."
+  ],
+  "risks_acknowledged": [
+    "Severely overbought on short timeframes: rsi_7 = 95.75, rsi_14 = 89.28, bollinger.pct_b = 1.05 (price outside upper band) and z_score_50 = 1.84 -- high odds of a near-term pullback before continuation; entry should require a hold above 388.37, not a chase.",
+    "Hourly internals are weakening into the breakout: hourly rsi_divergence.bearish = true and hourly volume.obv.diverging_from_price = true, plus premarket gap down -0.46% with zero confirmed premarket volume -- intraday confirmation above prev_day_close 385.86 is mandatory.",
+    "Analyst avg_price_target = $377.67 sits BELOW current $385.76 and Susquehanna's PT of $385 (2026-05-27) flagged elevated valuation; limited fundamental headroom caps upside beyond the technical fib extension.",
+    "Research gap: no daily nearest_resistance value in bundle and no intraday tape post-open, so the breakout's true overhead supply above 388.37 is unconfirmed; rsi_21 = 65.79 daily is the only RSI period not pinned, so the overbought read may resolve via time rather than price."
+  ],
+  "web_sources_last_7d": [
+    "https://finance.yahoo.com/quote/MAR/news/",
+    "https://www.tradingkey.com/news/market-movers/261931736-market-movers-mar-20260527",
+    "https://finance.yahoo.com/quote/MAR/press-releases/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "ticker": "FTAI",
+  "setup_direction": "long",
+  "bear_strength": 6,
+  "thesis_crack_level": "moderate",
+  "top_3_arguments": [
+    "Limited upside to consensus caps the breakout: at $262.78 the stock sits only ~3.4% below the analyst avg PT of $271.67 (analyst_consensus_web) and the watch_level is $265. Even a clean breakout has the consensus ceiling within one ATR (daily atr_14 = 16.41, atr_pct 6.24%) — reward/risk is thin when invalidation is at $261.50, a stop barely $1.28 below entry on a stock that moves $16/day.",
+    "Valuation is extended for a momentum chase: earnings_context_web flags ~49x P/E with 2026 consensus EPS ~$6.88, and Q1 2026 adjusted EPS of $1.29 MISSED the $1.54 estimate (context only — already priced in, outside 7-day window). A miss-on-adjusted at a 49x multiple leaves little margin for the beat-and-raise cadence the price implies; no fresh catalyst exists (recent_news_7d empty, news_source = none, earnings.days_until_next = 60).",
+    "Trend quality contradicts a breakout signal: daily adx_14 = 19.24 ('weak') with minus_di 26.57 > plus_di 20.78 (bearish DI cross), relative_volume = 0.57 and volume_bias_10d = 'down' — the move into $265 lacks participation, and hourly rsi_divergence.bearish = true. The TradingView strong_buy/trending_up source_reasons are not corroborated by volume or directional-movement internals."
+  ],
+  "bull_acknowledgements": [
+    "Trend structure is genuinely intact on the daily: price is above all major MAs (ema_5/10/20/50/200), ema_aligned_uptrend = true, and +21.65% above the 200EMA — the longer-term uptrend is real.",
+    "Fundamental momentum is strong in the core segment: Q1 2026 revenue $830.7M beat ~12% and Aerospace Products revenue +104% YoY (context only), with a third consecutive dividend raise to $0.45 — analyst rating is Strong Buy (11 Buy / 0 Hold / 0 Sell).",
+    "Daily MACD shows a fresh bullish crossover (macd_line 0.73 > signal 0.05, histogram +0.68) and roc_5d = +9.56%, so near-term momentum is on the bull's side."
+  ],
+  "web_sources_last_7d": []
+}

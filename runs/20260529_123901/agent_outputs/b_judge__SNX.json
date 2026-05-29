@@ -1,0 +1,11 @@
+{
+  "ticker": "SNX",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "SNX",
+      "reason": "expected_return_negative"
+    }
+  ],
+  "summary": "SNX long rejected on negative probability-weighted expected return. Both bears scored 7 vs both bulls at 4, giving combined_p_bull=4/(4+7)=0.364. With consensus entry $255.50, conservative target min(264.00,278.00)=$264.00 and conservative stop max(243.50,244.00)=$244.00: expected_return_per_share = 0.364*(264.00-255.50) - 0.636*(255.50-244.00) = 3.09 - 7.32 = -$4.23/share. The bears win decisively: daily rsi_7=90.47 (extreme overbought), rsi_divergence.bearish=true, macd_line 8.2922 below signal_line 8.506 (histogram -0.2138, no bullish crossover), bollinger pct_b=1.0344 (above upper band), hourly z_score_120=3.69 and price +17.94% above sma_50 flag mean-reversion risk into nearest_support $221.56. Bull_a itself conceded ~0.7:1 R:R and recent_news_7d is empty with no near-term catalyst (earnings 25 days out). Entry chases above the $250 analyst consensus PT. No trade."
+}

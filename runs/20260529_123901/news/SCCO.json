@@ -1,0 +1,42 @@
+{
+  "ticker": "SCCO",
+  "researched_at": "2026-05-29T19:45:00Z",
+  "news_items": [
+    {
+      "headline": "Southern Copper Corp Stock (SCCO) Moved Up by 4.00% on May 26: Facts Behind the Movement",
+      "url": "https://www.tradingkey.com/news/market-movers/261928988-market-movers-scco-20260526",
+      "date": "2026-05-26",
+      "sentiment": "positive",
+      "summary": "SCCO rose 4.00% on May 26, 2026, supported by copper-price strength and progress on its Peru/Mexico expansion projects."
+    },
+    {
+      "headline": "How Investors Are Reacting To Southern Copper (SCCO) Profit Jump, New CEO and Enhanced Dividends",
+      "url": "https://simplywall.st/stocks/us/materials/nyse-scco/southern-copper/news/how-investors-are-reacting-to-southern-copper-scco-profit-ju",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Simply Wall St coverage of investor reaction to SCCO's profit jump, a new CEO appointment, and enhanced dividend payouts."
+    },
+    {
+      "headline": "Southern Copper (SCCO) Valuation Check After Earnings Beats And Cuajone Mine Expansion Plan",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/southern-copper-scco-valuation-check-192021389.html",
+      "date": "2026-05-27",
+      "sentiment": "neutral",
+      "summary": "Valuation review following continued earnings beats and a new $318.6M upgrade plan for the Cuajone mine in Peru; flags stretched valuation against fundamentals."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "sell",
+    "avg_price_target": 158.91,
+    "recent_changes": "Consensus 'Sell' across 17 analysts (S&P Global), avg PT $158.91, ~11% below current price. Bank of America downgraded SCCO to Underperform from Neutral, raising PT to $175 from $162."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 results beat on EPS and revenue with strong YoY net income/operating cash flow growth (already priced in). Tailwinds: Tia Maria exploitation permit reinstated in Peru, copper near record highs on supply disruptions, new CEO and higher dividends. Sources gave conflicting near-term earnings-call dates (May 5 / May 18 references); next quarterly report not reliably confirmed, likely late July 2026."
+  },
+  "raw_search_files": [
+    "SCCO_news-this-week.json",
+    "SCCO_analyst-rating.json",
+    "SCCO_earnings-catalyst.json"
+  ]
+}

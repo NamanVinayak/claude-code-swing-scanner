@@ -1,0 +1,23 @@
+{
+  "ticker": "SYM",
+  "approved": [
+    {
+      "ticker": "SYM",
+      "direction": "short",
+      "entry_price": 48.40,
+      "stop_loss": 50.20,
+      "target_price": 44.50,
+      "target_price_2": 44.20,
+      "quantity": 103,
+      "expected_holding_days": 7,
+      "setup_type": "breakdown",
+      "conviction": 5,
+      "rationale": "Direction consensus is unanimous short across all 4 perspectives. Technicals strongly favor the short side (both bears acknowledge it): daily ema_aligned_downtrend=true, price -10.45% below sma_50 and -16.41% below sma_200, adx_14=31.7 with minus_di 36.73 > plus_di 20.41, roc_21d=-14.49, and the 2026-05-28 -8% breakdown printed relative_volume=3.59 (8.67M vs avg 2.41M) through the 48.76 pivot support. The decisive disagreement is timing: both bears (bear_a 7, bear_b 6) argue the move is already extended/oversold (daily rsi_14=34.65, hourly rsi_21=29.32, bollinger pct_b=0.27, sitting on 11-tested support) so bounce risk is high; this exactly offsets the bull conviction (bull_a 7, bull_b 6), yielding combined_p_bull=0.50. Expected_return_per_share = 0.5*(48.40-44.50) - 0.5*(50.20-48.40) = 1.95 - 0.90 = +$1.05, positive, so the trade clears Gate 2 but on a thin edge (conviction held to 5). Position sizing: risk_dollars=$250 (1% x 1.0 scaling), risk_per_share=|48.40-50.20|=$1.80, Gate-3 quantity=floor(250/1.80)=138; notional 138x48.40=$6679 exceeds the 15% cap ($3750), so scaled down from 138 to 103 shares to fit small-account cap (103x48.40=$4985 <= 20% extended cap), using 74% of risk budget (risk_M=$185.40). Earnings 59 days out (no squeeze risk). Tight intraday window set given oversold bounce risk and a noise-wide ATR (atr_pct=6.85%).",
+      "risk_usd": 185.40,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-29T18:00:00+00:00"
+    }
+  ],
+  "rejected": [],
+  "summary": "SYM short approved (small_scaled, 103 shares, $185 risk): unanimous direction consensus and a strong established downtrend outweigh the oversold-bounce concern, but only by a thin margin (combined_p_bull=0.50, expected return +$1.05/share), so conviction is held to 5 with a tight same-day entry window to avoid chasing the already-extended -8% breakdown."
+}

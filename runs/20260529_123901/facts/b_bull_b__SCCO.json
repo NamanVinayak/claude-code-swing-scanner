@@ -1,0 +1,398 @@
+{
+  "ticker": "SCCO",
+  "direction": "long",
+  "setup_type": "breakout",
+  "watch_level": 195.5,
+  "invalidation_level": 192.0,
+  "catalyst_note": "TradingView strong_buy and trending_up signals intact; overnight gap is negligible (-0.46%), preserving the breakout setup above prior close resistance near $195.",
+  "conviction": 5,
+  "source_reasons": [
+    "tv_strong_buy",
+    "tv_trending_up"
+  ],
+  "recent_news_7d": [
+    {
+      "title": "Southern Copper Corp Stock (SCCO) Moved Up by 4.00% on May 26: Facts Behind the Movement",
+      "source": "web_research",
+      "date": "2026-05-26",
+      "url": "https://www.tradingkey.com/news/market-movers/261928988-market-movers-scco-20260526",
+      "sentiment": "positive",
+      "summary": "SCCO rose 4.00% on May 26, 2026, supported by copper-price strength and progress on its Peru/Mexico expansion projects."
+    },
+    {
+      "title": "How Investors Are Reacting To Southern Copper (SCCO) Profit Jump, New CEO and Enhanced Dividends",
+      "source": "web_research",
+      "date": "2026-05-28",
+      "url": "https://simplywall.st/stocks/us/materials/nyse-scco/southern-copper/news/how-investors-are-reacting-to-southern-copper-scco-profit-ju",
+      "sentiment": "positive",
+      "summary": "Simply Wall St coverage of investor reaction to SCCO's profit jump, a new CEO appointment, and enhanced dividend payouts."
+    },
+    {
+      "title": "Southern Copper (SCCO) Valuation Check After Earnings Beats And Cuajone Mine Expansion Plan",
+      "source": "web_research",
+      "date": "2026-05-27",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/southern-copper-scco-valuation-check-192021389.html",
+      "sentiment": "neutral",
+      "summary": "Valuation review following continued earnings beats and a new $318.6M upgrade plan for the Cuajone mine in Peru; flags stretched valuation against fundamentals."
+    }
+  ],
+  "wiki_context": {
+    "slices": {
+      "thesis_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "catalysts_full": {
+        "missing": true,
+        "mode": "full"
+      },
+      "technicals_full": {
+        "missing": true,
+        "mode": "full"
+      }
+    },
+    "new_ticker": true
+  },
+  "current_price": 194.8800048828125,
+  "market_cap": 159231066112.0,
+  "recent_prices_5d": [
+    {
+      "time": "2026-05-21",
+      "open": 174.0800018310547,
+      "high": 181.8300018310547,
+      "low": 172.0,
+      "close": 179.1199951171875,
+      "volume": 1349800
+    },
+    {
+      "time": "2026-05-22",
+      "open": 178.75,
+      "high": 180.8300018310547,
+      "low": 177.0399932861328,
+      "close": 179.6699981689453,
+      "volume": 1041100
+    },
+    {
+      "time": "2026-05-26",
+      "open": 184.49000549316406,
+      "high": 190.0,
+      "low": 184.00999450683594,
+      "close": 189.8800048828125,
+      "volume": 1066300
+    },
+    {
+      "time": "2026-05-27",
+      "open": 187.55999755859375,
+      "high": 189.1999969482422,
+      "low": 185.11000061035156,
+      "close": 187.75,
+      "volume": 1026600
+    },
+    {
+      "time": "2026-05-28",
+      "open": 185.88999938964844,
+      "high": 195.88999938964844,
+      "low": 183.55999755859375,
+      "close": 194.8800048828125,
+      "volume": 1225900
+    }
+  ],
+  "daily_indicators": {
+    "timeframe": "daily",
+    "moving_averages": {
+      "ema_5": 187.44070441903173,
+      "sma_5": 186.26000061035157,
+      "ema_10": 183.9088784507379,
+      "sma_10": 181.15699920654296,
+      "ema_20": 181.36147314723306,
+      "sma_20": 179.25942153930663,
+      "ema_21": 181.2223808790551,
+      "sma_21": 178.62291463216147,
+      "ema_50": 179.2736664669817,
+      "sma_50": 176.00671905517578,
+      "ema_200": 155.45930999106287,
+      "sma_200": 150.6684220123291,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 194.8800048828125,
+    "dist_from_50sma_pct": 10.72,
+    "price_vs_ma": {
+      "above_ema_5": true,
+      "pct_from_ema_5": 3.97,
+      "above_sma_5": true,
+      "pct_from_sma_5": 4.63,
+      "above_ema_10": true,
+      "pct_from_ema_10": 5.97,
+      "above_sma_10": true,
+      "pct_from_sma_10": 7.58,
+      "above_ema_20": true,
+      "pct_from_ema_20": 7.45,
+      "above_sma_20": true,
+      "pct_from_sma_20": 8.71,
+      "above_ema_21": true,
+      "pct_from_ema_21": 7.54,
+      "above_sma_21": true,
+      "pct_from_sma_21": 9.1,
+      "above_ema_50": true,
+      "pct_from_ema_50": 8.71,
+      "above_sma_50": true,
+      "pct_from_sma_50": 10.72,
+      "above_ema_200": true,
+      "pct_from_ema_200": 25.36,
+      "above_sma_200": true,
+      "pct_from_sma_200": 29.34,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 19388.0
+    },
+    "rsi": {
+      "rsi_7": 84.78,
+      "rsi_14": 63.23,
+      "rsi_21": 63.43
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": false,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 2.4553,
+      "signal_line": 0.8848,
+      "histogram": 1.5705,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 197.39,
+      "middle": 179.26,
+      "lower": 161.13,
+      "width": 0.2023,
+      "pct_b": 0.9308
+    },
+    "atr": {
+      "atr_14": 8.52,
+      "atr_pct": 4.37
+    },
+    "adx": {
+      "adx_14": 8.59,
+      "plus_di": 29.79,
+      "minus_di": 23.91,
+      "trend_strength": "weak"
+    },
+    "volume": {
+      "current_volume": 1225900,
+      "avg_volume_20": 1303364,
+      "relative_volume": 0.94,
+      "volume_bias_10d": "down",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 194.93,
+          "tests": 5,
+          "volume_confirmed": false
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 149.09,
+          "tests": 1,
+          "volume_confirmed": true
+        },
+        {
+          "price": 163.39,
+          "tests": 7,
+          "volume_confirmed": false
+        },
+        {
+          "price": 165.23,
+          "tests": 8,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": 194.93,
+      "nearest_support": 165.23,
+      "recent_high": 195.89,
+      "recent_low": 163.39,
+      "prev_day_high": 189.2,
+      "prev_day_low": 185.11,
+      "prev_day_close": 187.75
+    },
+    "fibonacci": {
+      "swing_high": 195.89,
+      "swing_low": 163.39,
+      "fib_236": 188.22,
+      "fib_382": 183.48,
+      "fib_500": 179.64,
+      "fib_618": 175.81,
+      "fib_786": 170.35,
+      "fib_ext_1272": 204.73,
+      "fib_ext_1618": 215.97,
+      "fib_ext_2000": 228.39,
+      "fib_ext_low_1272": 154.55,
+      "fib_ext_low_1618": 143.31
+    },
+    "momentum": {
+      "roc_5d": 11.94,
+      "roc_10d": 1.56,
+      "roc_21d": 16.05
+    },
+    "z_score_50": 1.63,
+    "degraded_indicators": []
+  },
+  "hourly_indicators": {
+    "timeframe": "hourly",
+    "moving_averages": {
+      "ema_24": 188.8403372320974,
+      "sma_24": 188.97625096638998,
+      "ema_48": 185.22965391631863,
+      "sma_48": 182.19103209177652,
+      "ema_120": 180.52383646852488,
+      "sma_120": 181.31596450805665,
+      "ema_aligned_uptrend": true,
+      "ema_aligned_downtrend": false
+    },
+    "current_price": 190.85000610351562,
+    "dist_from_50sma_pct": 5.26,
+    "price_vs_ma": {
+      "above_ema_24": true,
+      "pct_from_ema_24": 1.06,
+      "above_sma_24": true,
+      "pct_from_sma_24": 0.99,
+      "above_ema_48": true,
+      "pct_from_ema_48": 3.03,
+      "above_sma_48": true,
+      "pct_from_sma_48": 4.75,
+      "above_ema_120": true,
+      "pct_from_ema_120": 5.72,
+      "above_sma_120": true,
+      "pct_from_sma_120": 5.26,
+      "above_ema_aligned_uptrend": true,
+      "pct_from_ema_aligned_uptrend": 18985.0
+    },
+    "rsi": {
+      "rsi_21": 55.25
+    },
+    "rsi_divergence": {
+      "bullish": false,
+      "bearish": true,
+      "lookback_bars": 60
+    },
+    "macd": {
+      "macd_line": 4.0076,
+      "signal_line": 2.8795,
+      "histogram": 1.1281,
+      "bullish_crossover": false
+    },
+    "bollinger": {
+      "upper": 198.02,
+      "middle": 182.19,
+      "lower": 166.36,
+      "width": 0.1738,
+      "pct_b": 0.7734
+    },
+    "atr": {
+      "atr_24": 2.46,
+      "atr_pct": 1.29
+    },
+    "adx": {
+      "adx_24": 48.14,
+      "plus_di": 31.77,
+      "minus_di": 21.8,
+      "trend_strength": "strong"
+    },
+    "volume": {
+      "current_volume": 72036,
+      "avg_volume_20": 119234,
+      "relative_volume": 0.6,
+      "volume_bias_10d": "up",
+      "obv": {
+        "trend": "up",
+        "diverging_from_price": false
+      }
+    },
+    "support_resistance": {
+      "pivot_highs": [
+        {
+          "price": 175.19,
+          "tests": 9,
+          "volume_confirmed": false
+        },
+        {
+          "price": 181.83,
+          "tests": 2,
+          "volume_confirmed": false
+        },
+        {
+          "price": 190.0,
+          "tests": 8,
+          "volume_confirmed": true
+        }
+      ],
+      "pivot_lows": [
+        {
+          "price": 165.23,
+          "tests": 2,
+          "volume_confirmed": true
+        },
+        {
+          "price": 172.0,
+          "tests": 12,
+          "volume_confirmed": false
+        },
+        {
+          "price": 185.11,
+          "tests": 6,
+          "volume_confirmed": false
+        }
+      ],
+      "nearest_resistance": null,
+      "nearest_support": 185.11,
+      "recent_high": 195.89,
+      "recent_low": 183.56,
+      "prev_day_high": 195.89,
+      "prev_day_low": 194.49,
+      "prev_day_close": 194.75
+    },
+    "fibonacci": {
+      "swing_high": 195.89,
+      "swing_low": 177.04,
+      "fib_236": 191.44,
+      "fib_382": 188.69,
+      "fib_500": 186.46,
+      "fib_618": 184.24,
+      "fib_786": 181.07,
+      "fib_ext_1272": 201.02,
+      "fib_ext_1618": 207.54,
+      "fib_ext_2000": 214.74,
+      "fib_ext_low_1272": 171.91,
+      "fib_ext_low_1618": 165.39
+    },
+    "momentum": {
+      "roc_5d": -1.47,
+      "roc_10d": 1.41,
+      "roc_21d": 1.47
+    },
+    "z_score_120": 1.27,
+    "degraded_indicators": []
+  },
+  "recent_insider_trades": [],
+  "earnings": {
+    "days_until_next": 59,
+    "days_since_last": null
+  },
+  "news_source": "web_research",
+  "analyst_consensus_web": {
+    "rating": "sell",
+    "avg_price_target": 158.91,
+    "recent_changes": "Consensus 'Sell' across 17 analysts (S&P Global), avg PT $158.91, ~11% below current price. Bank of America downgraded SCCO to Underperform from Neutral, raising PT to $175 from $162."
+  },
+  "earnings_context_web": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 results beat on EPS and revenue with strong YoY net income/operating cash flow growth (already priced in). Tailwinds: Tia Maria exploitation permit reinstated in Peru, copper near record highs on supply disruptions, new CEO and higher dividends. Sources gave conflicting near-term earnings-call dates (May 5 / May 18 references); next quarterly report not reliably confirmed, likely late July 2026."
+  }
+}

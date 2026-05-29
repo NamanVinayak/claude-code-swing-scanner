@@ -1,0 +1,20 @@
+{
+  "ticker": "TKO",
+  "researched_at": "2026-05-29T19:48:00Z",
+  "news_items": [],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 238.15,
+    "recent_changes": "no analyst-rating changes in last 7 days. Consensus Strong Buy (12 buy / 4 hold / 0 sell) with avg PT $238.15 (high $260, low $215). Most recent action was outside the 7-day window: Guggenheim's Curry Baker maintained Buy with $232 PT on 2026-05-07 (already priced in)."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Q1 2026 reported 2026-05-06 (outside 7-day window, already priced in): revenue $1.597B (+26% YoY), net income $249.8M, adjusted EBITDA $550M (+32%); WWE rev $475.7M, UFC rev $401.2M boosted by new 7-year $7.7B Paramount media-rights deal; board authorized additional $1B buyback; full-year 2026 guide reaffirmed at $5.675B-$5.775B revenue and $2.240B-$2.290B adjusted EBITDA. Next earnings (Q2 2026) expected ~early Aug 2026; exact date not confirmed in searches. No near-term earnings catalyst inside the next several days."
+  },
+  "raw_search_files": [
+    "TKO_news-this-week.json",
+    "TKO_analyst-rating.json",
+    "TKO_earnings-catalyst.json"
+  ]
+}

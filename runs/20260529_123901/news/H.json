@@ -1,0 +1,42 @@
+{
+  "ticker": "H",
+  "researched_at": "2026-05-29T20:14:00Z",
+  "news_items": [
+    {
+      "headline": "Hyatt Hotels (NYSE:H) Reaches New 12-Month High Following Analyst Upgrade",
+      "url": "https://www.thestockobserver.com/2026/05/27/hyatt-hotels-nyseh-reaches-new-12-month-high-following-analyst-upgrade.html",
+      "date": "2026-05-27",
+      "sentiment": "positive",
+      "summary": "Shares hit a fresh 12-month high after an analyst upgrade. Stock cited around $185 in late May."
+    },
+    {
+      "headline": "Hyatt Hotels Unveils Strategy and Expands Share Buyback at Investor Day",
+      "url": "https://www.tipranks.com/news/company-announcements/hyatt-hotels-unveils-strategy-and-expands-share-buyback",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "At its May 28 Investor Day, Hyatt presented a three-year outlook through 2028 (RevPAR, EBITDA, rooms growth, FCF) and its board approved an additional $1 billion share repurchase program."
+    },
+    {
+      "headline": "Mizuho raises Hyatt Hotels stock price target on growth outlook",
+      "url": "https://www.investing.com/news/analyst-ratings/mizuho-raises-hyatt-hotels-stock-price-target-on-growth-outlook-93CH-4716182",
+      "date": "2026-05-28",
+      "sentiment": "positive",
+      "summary": "Mizuho raised its price target to $221 from $219 and maintained an Outperform rating after Investor Day, saying all presented metrics exceeded expectations (~19% upside from ~$185)."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "buy",
+    "avg_price_target": 182.79,
+    "recent_changes": "Mizuho raised PT to $221 (Outperform) on 2026-05-28 after Investor Day. Older context (outside 7-day window): Bernstein raised to $202 Outperform on 2026-05-15; JPMorgan raised to $186 Overweight on 2026-05-05. Consensus rating 'Buy' across ~15-23 analysts; high target $224, low $150."
+  },
+  "earnings_context": {
+    "next_earnings_date": "2026-08-06",
+    "days_until_next": 69,
+    "notes": "Q1 2026 reported ~2026-05-04 (already priced in): EPS $0.63 beat $0.58 est (+8.6%), revenue $1.73B roughly in line; system-wide RevPAR +5.4%, record ~151,000-room pipeline, World of Hyatt ~66M members (+18% YoY); full-year RevPAR guide raised to 2-4%. Next near-term catalyst is the May 28 Investor Day three-year outlook through 2028, not earnings. Next earnings est. early Aug 2026 (date approximate)."
+  },
+  "raw_search_files": [
+    "H_news-this-week.json",
+    "H_analyst-rating.json",
+    "H_earnings-catalyst.json"
+  ]
+}

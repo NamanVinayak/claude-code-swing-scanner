@@ -1,0 +1,11 @@
+{
+  "ticker": "FTAI",
+  "approved": [],
+  "rejected": [
+    {
+      "ticker": "FTAI",
+      "reason": "single_position_cap_exceeded"
+    }
+  ],
+  "summary": "FTAI long rejected at Gate 4. Expected return cleared Gate 2 only thinly (+$0.65/share: combined_p_bull=0.40 from both bulls strength=4 vs both bears strength=6, entry 265.75, target 274.50, stop 261.00), and Gate 3 sized 52 shares at $4.75 risk/share ($250 budget). But notional $13,819 blew past the 15% standard cap ($3,750), and the small-scaled path failed: at the 20% extended cap (M=18 shares, notional $4,784) the risk used is only $85.50, below the required 40%-of-budget floor ($100). A $265 stock with a tight $4.75 stop is too high-priced relative to the account to fit even a minimum scaled position that uses meaningful risk. No trade approved."
+}

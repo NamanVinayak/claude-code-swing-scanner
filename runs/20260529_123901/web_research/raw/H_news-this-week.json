@@ -1,0 +1,17 @@
+{
+  "query": "H news this week",
+  "fetched_at": "2026-05-29T20:10:00Z",
+  "results": [
+    {"title": "Feds seize $40M in gold bars, cash, Rolexes from former CIA official who faked being a Navy pilot", "url": "https://www.foxnews.com/us/us-feds-seize-40m-gold-bars-cash-rolexes-senior-us-govt-official-faked-navy-pilot"},
+    {"title": "Social media erupts after Jill Biden reveals she was 'horrified' watching Joe's disastrous debate", "url": "https://www.foxnews.com/politics/social-media-erupts-after-jill-biden-reveals-she-was-horrified-watching-joes-disastrous-debate"},
+    {"title": "CBS News fires '60 Minutes' correspondents, top producer in sweeping shakeup of storied program", "url": "https://www.foxnews.com/media/cbs-news-fires-60-minutes-correspondents-top-producer-sweeping-shakeup-storied-program"},
+    {"title": "11 presumed dead in Washington state paper mill implosion", "url": "https://www.nbcnews.com/news/us-news/two-confirmed-dead-search-missing-longview-implosion-rcna347145"},
+    {"title": "Americans who get Ebola will go to Europe for treatment, not U.S., officials say", "url": "https://www.nbcnews.com/health/health-news/americans-ebola-go-europe-treatment-not-us-rcna347364"},
+    {"title": "Former AG Pam Bondi to testify before Congress over handling of the Epstein files", "url": "https://www.npr.org/2026/05/29/nx-s1-5836563/pam-bondi-epstein-congress"},
+    {"title": "Three people killed, five injured in gas explosion at Dallas apartment building", "url": "https://www.nbcnews.com/news/us-news/dallas-gas-explosion-apartment-rcna347419"},
+    {"title": "News: U.S. and World News Headlines : NPR", "url": "https://www.npr.org/sections/news"},
+    {"title": "Hawaii News Now - Breaking News, Latest News, Weather & Traffic", "url": "https://www.hawaiinewsnow.com/"},
+    {"title": "CBS News | Breaking news, top stories & today's latest headlines", "url": "https://www.cbsnews.com/"}
+  ],
+  "note": "Query 'H news this week' was interpreted as the literal letter H, returning generic headlines. Ticker H = Hyatt Hotels Corporation. No Hyatt-specific results in this raw response."
+}

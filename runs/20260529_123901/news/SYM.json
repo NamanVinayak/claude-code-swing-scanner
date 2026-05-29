@@ -1,0 +1,35 @@
+{
+  "ticker": "SYM",
+  "researched_at": "2026-05-29T19:48:00Z",
+  "news_items": [
+    {
+      "headline": "Symbotic shares fall ~8% on insider stock sales by executives",
+      "url": "https://www.investing.com/news/stock-market-news/symbotic-stock-falls-on-insider-selling-activity-93CH-4715041",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "SYM dropped roughly 8% after disclosures of insider stock sales by company executives, raising questions about confidence in the backlog growth story."
+    },
+    {
+      "headline": "Symbotic falls ~8.4% on competitive-position concerns versus Serve Robotics",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/SYM/news/",
+      "date": "2026-05-28",
+      "sentiment": "negative",
+      "summary": "Shares declined about 8.4% on worries about Symbotic's competitive positioning against Serve Robotics, even as the broader market rose and despite recent positive revenue growth."
+    }
+  ],
+  "analyst_consensus": {
+    "rating": "mixed",
+    "avg_price_target": 67.63,
+    "recent_changes": "Consensus is split across sources (Buy/Moderate Buy on some, Hold on others; one tally shows 7 Buy / 10 Hold / 3 Sell of 21 analysts). Average PT ~$67.63 (high $80, low $44). No clearly dated upgrades/downgrades within the last 7 days; ratings reflect post-Q2 (May 6) digestion."
+  },
+  "earnings_context": {
+    "next_earnings_date": null,
+    "days_until_next": null,
+    "notes": "Last earnings Q2 FY2026 reported ~2026-05-06 (older than 7-day window, already priced in): revenue $676.48M (+23% YoY) beat consensus $662.65M, net income ~$9M, first GAAP profitability, backlog ~$22.4-22.7B. Q3 2026 guidance $700M-$720M. Street focus: converting record backlog into profitable, scalable deployments amid next-gen storage transition and high customer concentration risks. Next earnings date not found in searches."
+  },
+  "raw_search_files": [
+    "SYM_news-this-week.json",
+    "SYM_analyst-rating.json",
+    "SYM_earnings-catalyst.json"
+  ]
+}

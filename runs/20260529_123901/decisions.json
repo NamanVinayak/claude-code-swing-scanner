@@ -1,0 +1,65 @@
+{
+  "run_id": "20260529_123901",
+  "mode": "b_swing",
+  "generated_at": "2026-05-29T14:09:13+00:00",
+  "decisions": {
+    "SYM": {
+      "action": "short",
+      "direction": "short",
+      "entry_price": 48.4,
+      "stop_loss": 50.2,
+      "target_price": 44.5,
+      "target_price_2": 44.2,
+      "quantity": 103,
+      "timeframe": "7d",
+      "confidence": 5,
+      "account_risk_pct": 1.0,
+      "entry_tolerance_pct": 0.5,
+      "setup_type": "breakdown",
+      "rationale": "Direction consensus is unanimous short across all 4 perspectives. Technicals strongly favor the short side (both bears acknowledge it): daily ema_aligned_downtrend=true, price -10.45% below sma_50 and -16.41% below sma_200, adx_14=31.7 with minus_di 36.73 > plus_di 20.41, roc_21d=-14.49, and the 2026-05-28 -8% breakdown printed relative_volume=3.59 (8.67M vs avg 2.41M) through the 48.76 pivot support. The decisive disagreement is timing: both bears (bear_a 7, bear_b 6) argue the move is already extended/oversold (daily rsi_14=34.65, hourly rsi_21=29.32, bollinger pct_b=0.27, sitting on 11-tested support) so bounce risk is high; this exactly offsets the bull conviction (bull_a 7, bull_b 6), yielding combined_p_bull=0.50. Expected_return_per_share = 0.5*(48.40-44.50) - 0.5*(50.20-48.40) = 1.95 - 0.90 = +$1.05, positive, so the trade clears Gate 2 but on a thin edge (conviction held to 5). Position sizing: risk_dollars=$250 (1% x 1.0 scaling), risk_per_share=|48.40-50.20|=$1.80, Gate-3 quantity=floor(250/1.80)=138; notional 138x48.40=$6679 exceeds the 15% cap ($3750), so scaled down from 138 to 103 shares to fit small-account cap (103x48.40=$4985 <= 20% extended cap), using 74% of risk budget (risk_M=$185.40). Earnings 59 days out (no squeeze risk). Tight intraday window set given oversold bounce risk and a noise-wide ATR (atr_pct=6.85%).",
+      "risk_usd": 185.4,
+      "expected_holding_days": 7,
+      "position_size_class": "small_scaled",
+      "entry_valid_until": "2026-05-29T18:00:00+00:00"
+    }
+  },
+  "rejected": [
+    {
+      "ticker": "FTAI",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "H",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "HLT",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "MAR",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "ORKA",
+      "reason": "expected_return_negative"
+    },
+    {
+      "ticker": "SCCO",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
+      "ticker": "SNX",
+      "reason": "expected_return_negative"
+    },
+    {
+      "ticker": "SNDK",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$101.00 > available=$64.60)"
+    },
+    {
+      "ticker": "TKO",
+      "reason": "budget_check_failed: risk_budget_exceeded (trade_risk=$107.40 > available=$64.60)"
+    }
+  ],
+  "summary": "approved=3, rejected=7, candidates=10"
+}

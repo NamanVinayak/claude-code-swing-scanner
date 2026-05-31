@@ -2,20 +2,19 @@
   "ticker": "H",
   "setup_direction": "long",
   "bull_strength": 8,
-  "entry_zone": {"low": 185.75, "high": 187.00},
-  "target": 195.00,
-  "stop": 182.50,
-  "expected_holding_days": 8,
+  "entry_zone": {"low": 185.75, "high": 187.50},
+  "target": 197.00,
+  "stop": 183.50,
+  "expected_holding_days": 10,
   "top_3_arguments": [
-    "Fresh investor-day catalyst stack within 24-48h: Hyatt's 2026-05-28 Investor Day delivered a three-year outlook through 2028 plus a board-approved additional $1B share buyback (tipranks, 2026-05-28); same day Mizuho raised PT to $221 from $219 (Outperform), stating all presented metrics exceeded expectations (investing.com, 2026-05-28) — ~19% upside from ~$185. Buyback authorization is a hard floor under the breakout.",
-    "Price confirms the narrative: stock printed a fresh 12-month high on 2026-05-27 after an analyst upgrade (thestockobserver, 2026-05-27) and closed 2026-05-28 at 185.46 on relative_volume 1.53 (1,363,800 vs 893,955 avg). Daily ADX_14 = 28.71 with plus_di 31.97 / minus_di 9.36 (strong directional trend), MACD histogram +1.4215, OBV trend up not diverging — momentum is real, not a thin pop.",
-    "No earnings risk in the holding window: earnings_context_web next_earnings_date 2026-08-06 (69 days out); Q1 already reported 2026-05-04 with EPS $0.63 beat vs $0.58 est (+8.6%) and FY RevPAR guide raised to 2-4%. The May 28 Investor Day is the near-term catalyst, not earnings, so an 8-day swing carries zero earnings-gap exposure. R:R math: entry mid 186.375, stop 182.50 (risk 3.875), target 195.00 (reward 8.625) = 2.23:1."
+    "Fresh multi-catalyst stack inside 7-day window: Investor Day on 2026-05-28 unveiled a three-year outlook through 2028 and an additional $1B share buyback authorization (tipranks, 2026-05-28); Mizuho raised PT to $221 (Outperform) same day citing 'all presented metrics exceeded expectations' (~19% upside vs spot 185.46, investing.com 2026-05-28); preceded by a fresh 12-month high on 2026-05-27 following an analyst upgrade (thestockobserver). analyst_consensus_web rating 'buy', high target $224.",
+    "Price/volume confirms the narrative: 2026-05-27 close $183.15 to 2026-05-28 close $185.46 on relative_volume 1.53 (1,363,800 vs 893,955 20d avg). daily_indicators show ema_aligned_uptrend=true, ADX_14 28.71 with +DI 31.97 / -DI 9.36 (strong directional trend), MACD histogram +1.4215, momentum roc_5d +7.08% / roc_10d +10.88% / roc_21d +14.23%, OBV trend up not diverging — the breakout above the 185.75 watch level is mechanically supported.",
+    "Clean catalyst runway with no earnings risk in the hold window: earnings_context_web next_earnings_date 2026-08-06 (69 days out); Q1 already reported 2026-05-04 with EPS $0.63 vs $0.58 est (+8.6%) and FY RevPAR guide RAISED to 2-4%, record ~151,000-room pipeline. R:R math from entry mid 186.625: reward 10.375 to $197 target vs risk 3.125 to $183.50 stop = 3.32:1, well above the 2:1 floor; $197 sits below the 1.272 daily Fib extension (197.11), a structurally clean first-leg target."
   ],
   "risks_acknowledged": [
-    "Stretched short-term: daily rsi_7 = 77.88 and hourly rsi_21 = 81.07, price closed above the daily upper Bollinger (pct_b 1.0666) and is 15.47% above the 50-SMA (z_score_50 = 2.07) — a near-term mean-reversion pullback toward the 185.75 watch level or fib_236 (181.03) is plausible before continuation.",
-    "Premarket gave no confirmation: catalyst_note flags effectively flat premarket (-0.17%) on zero premarket volume, so the breakout above 185.75 is unconfirmed at the open — a failure to clear the 188.5 recent high (the only overhead pivot) would invalidate.",
-    "Buyback/Investor Day are well-telegraphed; the Mizuho PT bump (only +$2 to $221) and the 12-month high may mean the good news is largely priced, capping near-term upside versus the $195 target.",
-    "New ticker with no wiki memory (wiki_context.new_ticker = true) and recent_insider_trades empty — no smart-money corroboration beyond the corporate buyback authorization."
+    "Stretched short-term: daily rsi_7 = 77.88, hourly rsi_21 = 81.07, daily Bollinger pct_b 1.0666 (price above upper band), price 15.47% above 50-SMA (z_score_50 = 2.07) — a near-term mean-reversion pullback toward 185.75 or daily fib_236 ($181.03) is plausible before continuation. Chasing entries above $187.50 worsens R:R.",
+    "Premarket gave no confirmation: catalyst_note flags effectively flat premarket (-0.17%) on zero premarket volume, so the breakout is unconfirmed at the open — failure to reclaim/clear the 188.5 recent high pivot (hourly nearest_resistance) would invalidate.",
+    "Mizuho PT bump was only +$2 ($219 -> $221) and consensus avg PT ($182.79) sits BELOW spot — much of the Investor Day enthusiasm may already be in the tape after the +7% 5-day move; recent_insider_trades is empty and wiki_context flagged new_ticker (all slices missing), so no insider/memory corroboration."
   ],
   "web_sources_last_7d": [
     "https://www.thestockobserver.com/2026/05/27/hyatt-hotels-nyseh-reaches-new-12-month-high-following-analyst-upgrade.html",

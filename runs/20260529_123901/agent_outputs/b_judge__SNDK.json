@@ -1,23 +1,12 @@
 {
   "ticker": "SNDK",
-  "approved": [
+  "approved": [],
+  "rejected": [
     {
       "ticker": "SNDK",
-      "direction": "long",
-      "entry_price": 1677.5,
-      "stop_loss": 1627.0,
-      "target_price": 1770.0,
-      "target_price_2": 1795.0,
-      "quantity": 2,
-      "expected_holding_days": 6,
-      "setup_type": "breakout",
-      "conviction": 4,
-      "rationale": "Catalyst bull (b_bull_b.bull_strength=7) edges past the bears on R:R asymmetry, but the technical bears dominate on conviction (b_bear_a.bear_strength=8, b_bear_b.bear_strength=7 vs avg bull 6) and they are right on the facts: daily AND hourly rsi_divergence.bearish=true, daily rsi_7=85.42, bollinger pct_b=0.8945 pinned to upper band 1700.31, price +54.9% above sma_50, z_score_50=1.76, and the breakout printed on relative_volume=0.67 (below avg) - so this is an extended/exhaustion-prone entry, not a clean base break. Expected return is positive but thin: combined_p_bull=(0.3846+0.5)/2=0.4423; expected_return_per_share = 0.4423*(1770-1677.5) - 0.5577*(1677.5-1627) = 40.91 - 28.16 = +$12.75, carried entirely by the conservative target(min 1770)/stop(max 1627) asymmetry against a 55.8% bear-weighted probability. Sizing: risk_dollars=$250 (1% x 1.0), risk_per_share=$50.50, Gate-3 qty=floor(250/50.5)=4 -> notional $6,710 exceeds 15% cap ($3,750); scaled down from 4 to 2 shares to fit small-account cap, using 40% of risk budget (M=floor(5000/1677.5)=2, risk_M=$101 >= $100 floor). Conviction held to 4 given majority-bear probability, divergence flags, and below-avg breakout volume; entry kept as a tight day-order since a low-conviction extended breakout that doesn't fill fast is suspect.",
-      "risk_usd": 101.0,
-      "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-29T20:00:00+00:00"
+      "reason": "single_position_cap_exceeded",
+      "detail": "Stock too high-priced for current $25k account. Gate 0 passes (all 4 perspectives echo direction=long). Gate 1 passes (can_open_new_position=true, phase=full). Gate 2 expected_return_per_share computation: p_bull = 7/(7+8) = 0.4667; p_catalyst = 7/(7+7) = 0.5000; combined_p_bull = 0.4833, combined_p_bear = 0.5167. Entry = midpoint of b_bull_a.entry_zone (1670+1675)/2 = $1672.50. Target = min(b_bull_a.target=1780, b_bull_b.target=1825) = $1780. Stop = max(b_bull_a.stop=1625, b_bull_b.stop=1628) = $1628. expected_return_per_share = 0.4833*(1780-1672.50) - 0.5167*(1672.50-1628) = 51.95 - 22.99 = +$28.96 (positive — EV gate would have passed). Gate 3 quantity: risk_dollars = $25000 * 1% * 1.0 = $250; risk_per_share = |1672.50 - 1628| = $44.50; quantity = floor(250/44.50) = 5 shares. Gate 4 — single-position cap: notional = 5 * $1672.50 = $8362.50, which exceeds 15% cap ($3750). Small-scaled exception path: M = floor($5000/$1672.50) = 2 shares; notional_M = $3345.00 (within 20% extended cap); risk_M = 2 * $44.50 = $89.00. Risk floor (40% of risk budget) = $100. Since risk_M ($89) < risk_floor ($100), the small-scaled exception fails. No viable quantity exists where notional <= 20% AND risk used >= 40% of budget. REJECT per Gate 4 reject path. Note: the technical bears (b_bear_a.bear_strength=8) make a strong case independently — daily rsi_7=85.42, dual bearish rsi_divergence on daily and hourly, bollinger pct_b=0.8945, z_score_50=1.76, dist_from_50sma_pct=54.9%, breakout printed on relative_volume=0.67 (below 20-day avg) — but the trade fails purely on Gate 4 capital math before that synthesis even matters."
     }
   ],
-  "rejected": [],
-  "summary": "SNDK long approved at 2 shares (small_scaled, 40% of risk budget) on positive but thin expected return (+$12.75/share). Strong-trend stack (adx_14=39.28, ema_aligned_uptrend, Barclays OW PT $2,300, earnings 87d out) and the conservative R:R clear the EV gate, but heavy extension/exhaustion evidence (rsi_7=85.42, dual bearish rsi divergence, pct_b 0.89, breakout on 0.67x volume) and majority-bear probability cap conviction at 4 with a tight same-day entry window."
+  "summary": "SNDK rejected on Gate 4 single_position_cap_exceeded. At $1672.50 entry the Gate-3 quantity (5 shares) blows past the 15% notional cap, and the small-scaled exception fails because 2 shares only uses $89 of risk budget ($100 floor required). Expected return was positive (+$28.96/share) but the $25k account cannot fit a viable position in a $1600+ stock under current capital rules."
 }

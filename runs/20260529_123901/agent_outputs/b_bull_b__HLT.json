@@ -1,24 +1,24 @@
 {
   "ticker": "HLT",
   "setup_direction": "long",
-  "bull_strength": 5,
+  "bull_strength": 6,
   "entry_zone": {"low": 339.50, "high": 341.50},
-  "target": 350.50,
-  "stop": 335.00,
-  "expected_holding_days": 7,
+  "target": 354.56,
+  "stop": 333.50,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Catalyst confirmed within 7 days: Hilton launched an AI travel planner 2026-05-26 (recent_news_7d, sentiment=positive) aimed at boosting bookings/engagement; price gapped +0.43% above the 2026-05-27 $336.72 close and printed a fresh recent_high of 338.28 on 2026-05-28 with relative_volume 1.33, confirming demand into the $339.50 breakout trigger.",
-    "Post-earnings smart-money tailwind: earnings_context_web notes Hilton RAISED FY2026 guidance (net income $1,909M-$1,937M, diluted EPS $8.28-$8.40) plus a dividend hike, and multiple analysts raised price targets in recent weeks; broader 38-analyst pool splits 13 Buy / 12 Hold with a high target of $383, leaving room above the $344.59 nearest_resistance.",
-    "Momentum + R:R math: daily ADX 32.8 with plus_di 33.5 vs minus_di 13.54 (trend_strength=strong), MACD histogram +1.9996, roc_10d +8.44, OBV trend up. Entry midpoint $340.50, stop $335.00 (risk $5.50), target $350.50 (reward $10.00) = 1.8:1 to first target; the $354.56 fib_ext_1272 extends reward to 2.6:1 if the breakout runs."
+    "Fresh catalyst within 7-day window: Hilton launched AI travel planner on 2026-05-26 (positive sentiment per recent_news_7d) aimed at boosting engagement/bookings; price gapped from $323.81 close (2026-05-26) to $336.72 close (2026-05-27) = +4.0% on relative_volume 1.33, then printed a fresh recent_high of $338.28 on 2026-05-28 — demand confirms ahead of the $339.50 breakout trigger.",
+    "Analyst tape is supportive (analyst_consensus_web): 'Buy' consensus from 16 covering analysts with multiple recent PT raises following the latest earnings report (adjusted EPS $2.01, stock +7.1% post-report per earnings_context_web), FY2026 guidance raised to diluted EPS $8.28-$8.40, plus ~527k-room pipeline and 2026 World Cup demand. Earnings.days_until_next = 61 days, so no near-term earnings landmine.",
+    "Technical confirmation aligns with catalyst: daily ema_aligned_uptrend = true, ADX 32.8 (strong), +DI 33.5 vs -DI 13.54, MACD histogram +1.9996, roc_10d +8.44, OBV trend up. R:R from $340.50 entry midpoint: target $354.56 (daily fib_ext_1272) = $14.06 reward; stop $333.50 (below fib_236 $335.93 and above $325.53 prev_day_low buffer) = $7.00 risk → 2.0:1 R:R."
   ],
   "risks_acknowledged": [
-    "Analyst consensus is a real headwind for the bull case: 16-analyst avg PT is $325.19 and the 38-analyst median is $325.00 — both BELOW the current $337.55, implying the catalyst (AI tool, raised guidance) may already be priced into the ~7.1% post-earnings run.",
-    "The $1B Senior Notes offering (2026-05-27, neutral) is a debt/refinancing action, not a growth catalyst — no fundamental tailwind there, and it adds leverage to a stock already +15.91% above its 200SMA.",
-    "Overbought/exhaustion signals: daily rsi_7 = 82.24, bollinger pct_b = 1.1181 (price outside the upper band), daily rsi_divergence.bearish = true, and z_score_50 = 1.48 — a breakout from here is chasing an extended move with elevated reversal risk.",
-    "No near-term earnings catalyst (earnings.days_until_next = 61) and zero insider buying in recent_insider_trades to corroborate conviction; the thesis rests on a single product-launch headline plus already-digested guidance."
+    "Daily rsi_7 = 82.24, bollinger pct_b = 1.1181 (price outside upper band), and daily rsi_divergence.bearish = true on 60-bar lookback — breakout from here risks being a blow-off rather than a fresh leg.",
+    "Analyst consensus avg PT $325.19 (16 analysts) and median $325.00 (38 analysts) both sit BELOW current $337.55 — the AI-tool and raised-guidance narrative may already be largely priced into the +7.1% post-earnings run.",
+    "Hourly OBV trend = down with relative_volume only 0.37 on the most recent hourly bar; intraday participation is thinning even as price holds near highs, raising risk of a failed breakout flush back to fib_500 $326.25.",
+    "Wiki memory is empty (new_ticker = true, all 3 slices missing) and recent_insider_trades is empty — no durable thesis history or smart-money corroboration; thesis rests narrowly on one product headline plus already-digested guidance."
   ],
   "web_sources_last_7d": [
-    "https://finance.yahoo.com/quote/HLT/news/",
-    "https://public.com/stocks/hlt/news"
+    "https://public.com/stocks/hlt/news",
+    "https://finance.yahoo.com/quote/HLT/news/"
   ]
 }

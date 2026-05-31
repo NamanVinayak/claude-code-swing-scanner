@@ -2,20 +2,20 @@
   "ticker": "SYM",
   "setup_direction": "short",
   "bull_strength": 7,
-  "entry_zone": {"low": 48.00, "high": 48.80},
+  "entry_zone": {"low": 48.40, "high": 49.00},
   "target": 44.50,
-  "stop": 50.30,
+  "stop": 50.20,
   "expected_holding_days": 7,
   "top_3_arguments": [
-    "Clean Stage-4 breakdown with both daily and hourly EMA stacks aligned_downtrend=true; price below every daily MA (pct_from_sma_20 = -7.65%, pct_from_sma_50 = -10.45%, pct_from_sma_200 = -16.41%) and below every hourly MA (pct_from_ema_120 = -8.56%). No overhead MA support left.",
-    "Distribution confirmed: 2026-05-28 bar printed relative_volume = 3.59 (8.67M vs avg_volume_20 2.41M) on a -8% candle that broke through the heavily-tested nearest_support 48.76 (11 tests); daily volume.obv.trend = down, momentum.roc_21d = -14.49%, z_score_50 = -1.21. Two negative catalysts (insider selling + competitive concerns vs Serve Robotics) on the same date corroborate the supply.",
-    "Trend strength favors continuation: daily adx_14 = 31.7 (strong) with minus_di 36.73 vastly > plus_di 20.41; hourly adx_24 = 46.52 with minus_di 34.42 > plus_di 14.29. Daily rsi_14 = 34.65 still above the 30 floor, leaving room to fall toward target 44.50 (next pivot_low 47.18, then 44.20). R:R = (48.40 entry mid - 44.50 target = 3.90 reward) vs (50.30 stop - 48.40 = 1.90 risk) = 2.05:1."
+    "Full Stage-4 breakdown on both timeframes: daily moving_averages.ema_aligned_downtrend = true and hourly ema_aligned_downtrend = true; price is below every daily MA (pct_from_ema_20 = -7.03%, pct_from_sma_50 = -10.45%, pct_from_sma_200 = -16.41%) and every hourly MA (pct_from_ema_120 = -8.56%). No overhead MA acts as support — the next chart structure is the 44.20 pivot_low (recent_low).",
+    "May 28 distribution candle was institutional in scale: daily volume.relative_volume = 3.59 (8.67M vs 20d avg 2.41M), wide-range bar from 50.25 high to 46.62 low closing 48.81, gapped down through the 11x-tested pivot_low at 48.76, with volume.obv.trend = down and volume_bias_10d = down. roc_21d = -14.49% and z_score_50 = -1.21 confirm a multi-week supply imbalance, not a one-day blip.",
+    "Trend strength confirms continuation, not exhaustion: daily adx_14 = 31.7 (strong) with minus_di 36.73 well above plus_di 20.41, and hourly adx_24 = 46.52 with minus_di 34.42 > plus_di 14.29. Daily rsi_14 = 34.65 still has room above the 30 floor; hourly macd histogram = -0.5723 with no bullish crossover. R:R using entry mid 48.70 → target 44.50 = 4.20 reward vs stop 50.20 - 48.70 = 1.50 risk = 2.8:1, comfortably above the 2:1 floor."
   ],
   "risks_acknowledged": [
-    "Shorting after a -8% gap-down candle risks chasing an extended move; hourly rsi_21 = 29.32 and bollinger pct_b = 0.16 are near-oversold, so a dead-cat bounce toward the 50.1 invalidation / 49.0 watch level is plausible before any further leg down.",
-    "Daily rsi_7 = 56.03 and macd histogram = +0.0527 (signal_line above macd_line ticking up) show very short-term momentum is no longer purely down — a fast snap-back is the main near-term threat.",
-    "Analyst consensus_web avg_price_target $67.63 (high $80) and last earnings beat ($676.48M rev +23% YoY, first GAAP profit, ~$22B backlog) mean a fundamental dip-buy could reverse the technical breakdown; this is purely a short-duration technical short, not a thesis on the business.",
-    "Research gap: no premarket volume confirmation available (Stage 1 noted premarket $49.20 vs close $49.55 with no volume), and no recent_insider_trades detail in the bundle to size the disclosed executive selling cited in the news."
+    "Hourly rsi_21 = 29.32 and hourly bollinger pct_b = 0.16 are near-oversold; a dead-cat reflex bounce toward the fib_786 = 49.10 / former-support-now-resistance 48.76 / watch_level 49.00 zone is the highest-probability counter-move before any further leg lower.",
+    "Daily macd histogram has ticked positive (+0.0527) with signal_line above macd_line — earliest hint that daily momentum is decelerating. If hourly MACD prints a bullish crossover on real volume, abandon the short.",
+    "Analyst consensus avg_price_target $67.63 and Q2 earnings (revenue $676.48M +23% YoY, first GAAP profit, ~$22B backlog) reported May 6 leave a dip-buy fundamentals story very much alive — this is a 1-2 week technical short into chart air, not a thesis on the business deteriorating.",
+    "Research gap: no recent_insider_trades returned in the bundle despite the May 28 news citing executive insider sales — magnitude and identity of the sellers cannot be confirmed from structured Form 4 data here."
   ],
   "web_sources_last_7d": [
     "https://www.investing.com/news/stock-market-news/symbotic-stock-falls-on-insider-selling-activity-93CH-4715041",

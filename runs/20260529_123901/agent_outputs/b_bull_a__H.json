@@ -2,20 +2,20 @@
   "ticker": "H",
   "setup_direction": "long",
   "bull_strength": 7,
-  "entry_zone": {"low": 185.75, "high": 187.50},
-  "target": 196.50,
-  "stop": 182.90,
-  "expected_holding_days": 8,
+  "entry_zone": {"low": 185.75, "high": 188.50},
+  "target": 197.11,
+  "stop": 183.30,
+  "expected_holding_days": 10,
   "top_3_arguments": [
-    "Confirmed breakout to fresh highs: daily recent_high = 188.5 and prev resistance 183.71 reclaimed, with current_price 185.46 on relative_volume 1.53 (1.36M vs avg_volume_20 893,955) and obv.trend = up, non-diverging. Watch_level 185.75 sits just above the breakout pivot.",
-    "Full bullish MA stack with strong trend: ema_aligned_uptrend = true, price above all MAs (pct_from_sma_50 = +15.47, pct_from_sma_200 = +19.56); adx_14 = 28.71 ('strong') with plus_di 31.97 vs minus_di 9.36; macd_line 5.23 > signal 3.81, histogram +1.42 expanding; roc_21d = +14.23.",
-    "Momentum healthy not yet exhausted on the daily: rsi_14 = 68.38 (below 70), rsi_21 = 65.89; fib extension 1.272 = 197.11 gives a structural upside target above entry, supporting R:R ~2.3:1 (reward 10.75 vs risk 4.60) against a stop below the 182.90 invalidation shelf."
+    "Clean breakout, no overhead supply: 2026-05-28 closed $185.46 on relative_volume 1.53 (1.36M vs avg_volume_20 893,955), bollinger.pct_b = 1.0666 above upper band ($183.66), recent_high pushed to $188.50; daily support_resistance.nearest_resistance = null — next structural level is fib_ext_1272 = $197.11.",
+    "Full bullish MA stack with strong directional trend: ema_aligned_uptrend = true; price above ema_5/10/20/50/200 (pct_from_ema_50 = +12.28%, pct_from_ema_200 = +20.19%); daily adx_14 = 28.71 'strong' with plus_di 31.97 vs minus_di 9.36; macd_line 5.23 > signal 3.81, histogram +1.42 expanding; momentum.roc_5d = +7.08%, roc_10d = +10.88%, roc_21d = +14.23%; obv.trend = up, non-diverging.",
+    "Catalyst-backed breakout with R:R ~2.6:1 from mid-entry: 2026-05-28 Investor Day delivered three-year outlook + additional $1B buyback; Mizuho raised PT to $221 (Outperform) same day; next earnings ~2026-08-06 (69 days out) so expected_holding_days = 10 carries no earnings blackout. R:R = ($197.11 − $187.125) / ($187.125 − $183.30) ≈ 2.6:1."
   ],
   "risks_acknowledged": [
-    "Chart is extended/overbought short-term: bollinger pct_b = 1.0666 (above upper band), z_score_50 = 2.07, daily rsi_7 = 77.88 and hourly rsi_21 = 81.07 — high risk of a pullback/shakeout before continuation, which could clip a tight stop.",
-    "Breakout fuel may already be priced in: the May 27 analyst upgrade and May 28 Investor Day (+$1B buyback, Mizuho PT $221) drove the run-up, so a 'sell-the-news' fade is plausible; premarket is flat (-0.17%) with zero premarket volume, giving no early follow-through confirmation.",
-    "Avg analyst price target in the researcher bundle is $182.79 (below current $185.46) despite the bullish individual revisions — research gap: consensus appears to lag the recent re-rating, so upside conviction leans on the newest (Mizuho $221) target, not the blended consensus.",
-    "Nearest daily support is far (163.04) and ATR is 3.05% (atr_14 = 5.65), so a failed breakout could give back several days of gains quickly if 182.90 fails."
+    "Short-term overbought: daily rsi_7 = 77.88, hourly rsi_21 = 81.07, z_score_50 = 2.07 and hourly z_score_120 = 2.5 indicate price is statistically extended — a 1–3 day pullback toward $183–$185 is plausible and could clip a tight stop before continuation.",
+    "Premarket is effectively flat (-0.17%) with zero premarket volume per catalyst_note, providing no early confirmation that buyers will defend the $185.75 watch level; sell-the-news fade post Investor Day is a credible scenario.",
+    "Research gap: analyst_consensus_web.avg_price_target = $182.79 sits BELOW current price — blended consensus has not yet caught up to the Mizuho $221 re-rating, so the bull case leans on the newest data points rather than the broad street.",
+    "New ticker in wiki (thesis/catalysts/technicals all missing) — no prior setup-history priors confirm whether H typically respects clean breakouts vs fakes them, raising base-rate uncertainty."
   ],
   "web_sources_last_7d": [
     "https://www.thestockobserver.com/2026/05/27/hyatt-hotels-nyseh-reaches-new-12-month-high-following-analyst-upgrade.html",

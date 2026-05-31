@@ -2,20 +2,20 @@
   "ticker": "SCCO",
   "setup_direction": "long",
   "bull_strength": 6,
-  "entry_zone": {"low": 195.5, "high": 196.5},
-  "target": 204.7,
-  "stop": 191.5,
-  "expected_holding_days": 7,
+  "entry_zone": {"low": 195.50, "high": 196.50},
+  "target": 205.00,
+  "stop": 191.50,
+  "expected_holding_days": 8,
   "top_3_arguments": [
-    "Fresh multi-catalyst stack within 7 days: TradingKey reports SCCO +4.00% on 2026-05-26 on copper-price strength + Peru/Mexico expansion (url 261928988); SimplyWall.st 2026-05-28 covers profit jump + new CEO + enhanced dividends; Yahoo 2026-05-27 notes earnings beats + $318.6M Cuajone mine upgrade plan. All three positive/neutral, all within the news window.",
-    "Price confirming the breakout: close 194.88 sits just under nearest_resistance 194.93 and recent_high 195.89 after a +11.94% roc_5d run; daily macd histogram +1.5705 (line 2.4553 > signal 0.8848), ema_aligned_uptrend true, price above all MAs (sma_200 by +29.34%); a push through watch_level 195.5 targets fib_ext_1272 204.73.",
-    "No near-term earnings risk: earnings.days_until_next = 59, so the catalyst can play out cleanly. R:R from entry midpoint 196.0 to stop 191.5 (4.5 risk) vs target 204.7 (8.7 reward) = ~1.9:1, just under 2:1 — acceptable given the multi-catalyst confirmation; tighten target to 205.5 to clear 2:1 if needed."
+    "Fresh multi-catalyst stack within last 7 days: TradingKey (2026-05-26) attributes a +4.00% move to copper-price strength and Peru/Mexico expansion progress; Simply Wall St (2026-05-28) covers Q1 profit jump, new CEO appointment and enhanced dividends; Yahoo Finance (2026-05-27) confirms continued earnings beats plus a new $318.6M Cuajone mine upgrade plan. Three independent sources, all positive-to-neutral, news_source='merged' with Finnhub.",
+    "Price action confirming breakout setup: 2026-05-28 close $194.88 (intraday high $195.89) is pressing 5-test pivot resistance at $194.93; daily MACD line 2.4553 > signal 0.8848 (histogram +1.5705), daily RSI_14=63.23 (room before overbought), momentum.roc_5d=+11.94%, roc_21d=+16.05%, full EMA stack aligned uptrend with price +29.34% over SMA200; hourly ADX_24=48.14 'strong' with plus_DI 31.77 > minus_DI 21.80. A push through watch_level 195.5 has confluence with fib_ext_1272 = $204.73 as a non-arbitrary target.",
+    "Clean earnings runway and acceptable math: earnings.days_until_next = 59 (no 3-day blackout risk; next quarterly likely late July per earnings_context_web). Entry midpoint $196.00, stop $191.50 = $4.50 risk; target $205.00 = $9.00 reward = 2.0:1 R:R, anchored just above the $204.73 fib-1.272 extension."
   ],
   "risks_acknowledged": [
-    "Analyst consensus is SELL across 17 analysts (avg PT $158.91, ~11% BELOW current price) and BofA downgraded to Underperform — smart-money flow contradicts the long catalyst thesis; the recent profit-beat/CEO/dividend news may already be priced in.",
-    "Stretched/overbought: daily rsi_7 = 84.78, BB %B = 0.9308 (price near upper band 197.39), z_score_50 = 1.63 — limited room before mean reversion, and hourly rsi_divergence flags bearish.",
-    "Weak trend conviction on the daily: adx_14 = 8.59 ('weak'), relative_volume 0.94 and volume_bias_10d 'down' — the breakout is not yet volume-confirmed (nearest pivot high 194.93 volume_confirmed=false).",
-    "Yahoo 2026-05-27 itself flags 'stretched valuation against fundamentals'; new-ticker with no wiki thesis/catalyst history to corroborate durability."
+    "analyst_consensus_web shows 'Sell' rating across 17 analysts with avg PT $158.91 (~11% BELOW current price); Bank of America downgraded to Underperform (PT $175). Smart-money positioning directly contradicts the long catalyst thesis — the profit jump / CEO / dividend news may already be priced in.",
+    "Short-term overbought signals: daily Bollinger pct_B=0.9308 (price hugging upper band $197.39), daily RSI_7=84.78, daily z_score_50=+1.63, and hourly rsi_divergence.bearish=true. A failed-breakout retrace toward $190 is realistic — exactly what the $191.50 stop respects.",
+    "Breakout not yet volume-confirmed: daily relative_volume=0.94 on 2026-05-28, volume_bias_10d='down', daily ADX_14=8.59 ('weak'), and nearest_resistance pivot at $194.93 carries volume_confirmed=false. Yahoo (2026-05-27) explicitly flags 'stretched valuation against fundamentals'.",
+    "recent_insider_trades is empty and wiki_context.new_ticker=true — first-touch ticker with no insider-buy corroboration and no prior thesis/catalyst/technicals history to lean on; case rests entirely on news flow and price structure."
   ],
   "web_sources_last_7d": [
     "https://www.tradingkey.com/news/market-movers/261928988-market-movers-scco-20260526",

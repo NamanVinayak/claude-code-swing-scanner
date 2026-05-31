@@ -1,20 +1,20 @@
 {
   "ticker": "HLT",
   "setup_direction": "long",
-  "bear_strength": 6,
-  "setup_invalidation_levels": [333.74, 326.25],
+  "bear_strength": 7,
+  "setup_invalidation_levels": [333.74, 325.53, 319.78],
   "top_3_arguments": [
-    "Extended and overbought into a breakout, not a fresh base: daily rsi_7 = 82.24 and bollinger.pct_b = 1.1181 (price is ABOVE the upper band at 334.15), with daily_indicators.rsi_divergence.bearish = true over a 60-bar lookback. Price sits +5.56% above sma_20 and +6.3% above sma_50, and z_score_50 = 1.48 (hourly z_score_120 = 2.09). Buying a watch-level break at 339.50 here is chasing a stretched move, not entering on a controlled pullback.",
-    "Limited upside room into hard overhead supply: nearest_resistance = 344.59 is only ~2.1% above the 337.55 current price (and ~1.5% above the 339.50 watch level). The breakout would be entering with the ceiling almost immediately overhead — poor R:R for a long. Worse, analyst_consensus_web.avg_price_target = 325.19 is BELOW the current price ($337.55), so the stock is already trading ~3.8% ABOVE the average target; the fundamental tailwind to push through 344.59 is thin.",
-    "No conviction on the intraday push to new highs: hourly volume.relative_volume = 0.37 (current 73,536 vs 199,574 avg) and hourly volume.obv.trend = 'down' while price made the recent high of 338.28. The breakout candle's strength on the hourly is not being confirmed by participation — classic low-volume drift into resistance that fades. Watch_level 339.50 marginally exceeding the recent_high 338.28 on thin tape is a fakeout risk."
+    "Stretched and overbought INTO the watch level, not basing under it: daily bollinger.pct_b = 1.1181 (already ABOVE the upper band at 334.15), rsi_7 = 82.24, hourly rsi_21 = 78.02, hourly z_score_120 = 2.09 and daily z_score_50 = 1.48. Price is +6.3% above sma_50 and +14.86% above ema_200. Critically, daily_indicators.rsi_divergence.bearish = true (60-bar lookback) — price made a new high while RSI failed to confirm. Buying the $339.50 watch break here is chasing extension, not entering on a controlled coil.",
+    "Intraday participation is NOT confirming the push to highs: hourly volume.relative_volume = 0.37 (current 73,536 vs 199,574 avg) and hourly OBV trend = 'down' while the recent_high of $338.28 prints. Daily relative_volume of 1.33 is modest for a true convicted breakout (typical 1.8–2.5x+), and the recent $1B Senior Notes due 2031 offering (news 2026-05-27) layers additional leverage onto an extended chart — a debt-financing headline at the top of a 60-day range is not the catalyst longs want above resistance.",
+    "Poor R:R into a hard ceiling that the analyst pool will not chase: nearest_resistance = $344.59 is only ~1.5% above watch_level $339.50 and is a 3-test pivot (also clustered with hourly fib_ext_1272 = $343.69). Meanwhile analyst_consensus_web.avg_price_target = $325.19 sits BELOW current $337.55 (i.e. -3.6% from spot per the 16-analyst consensus). Entry $339.50 to invalidation $336.00 = $3.50 risk vs ~$5 of headroom to $344.59 ≈ 1.4:1 — below the 2:1 minimum, and the trade is fighting the average sell-side target."
   ],
   "bull_acknowledgements": [
-    "The daily trend is genuinely strong and clean: adx_14 = 32.8 with plus_di 33.5 vs minus_di 13.54, full EMA stack aligned uptrend, price above all MAs through the 200, and macd_line 2.90 well above signal 0.90 (histogram +2.00).",
-    "The breakout move itself had real daily participation: daily volume.relative_volume = 1.33 (2.04M vs 1.54M avg) with volume_bias_10d 'up' and daily OBV trend 'up' not diverging from price.",
-    "No near-term earnings risk (earnings.days_until_next = 61) and recent news skews neutral-to-positive (AI travel planner launch), so there is no obvious fundamental landmine in the trade window."
+    "Daily trend structure is genuinely strong: ema_aligned_uptrend = true, price above ALL MAs (5/10/20/50/200) in bullish order, adx_14 = 32.8 with +DI 33.5 / -DI 13.54 (strong directional move), and MACD histogram +2.00 with macd_line 2.90 well above signal_line 0.90.",
+    "The breakout day had real daily participation: volume.relative_volume = 1.33 (2.04M vs 1.54M avg), volume_bias_10d = 'up', and daily OBV trend = 'up' not diverging from price — there IS accumulation on the daily timeframe.",
+    "No near-term earnings risk (earnings.days_until_next = 61), no insider selling in the bundle, analyst rating is 'Buy' with multiple recent PT raises, and recent news (AI travel planner, 2026-05-26) provides a soft positive narrative tailwind."
   ],
   "web_sources_last_7d": [
-    "https://finance.yahoo.com/quote/HLT/news/",
-    "https://public.com/stocks/hlt/news"
+    "https://public.com/stocks/hlt/news",
+    "https://finance.yahoo.com/quote/HLT/news/"
   ]
 }

@@ -1,21 +1,21 @@
 {
   "ticker": "ORKA",
   "setup_direction": "short",
-  "bull_strength": 4,
-  "entry_zone": {"low": 56.80, "high": 57.50},
-  "target": 51.50,
+  "bull_strength": 5,
+  "entry_zone": {"low": 57.30, "high": 57.50},
+  "target": 55.10,
   "stop": 59.10,
   "expected_holding_days": 6,
   "top_3_arguments": [
-    "Downtrend confirmed across momentum suite: daily_indicators.macd.macd_line = -0.9413 with histogram = -1.0752 (deeply negative), adx_14 = 29.01 'strong' with minus_di 24.87 > plus_di 13.45, and momentum.roc_21d = -21.64% / roc_10d = -8.23%. Trend energy is on the short side.",
-    "Price is below the short-term MA stack: price_vs_ma shows above_ema_5/10/20/21 all false (pct_from_sma_20 = -7.6%, pct_from_sma_21 = -7.98%) and only +0.08% above ema_50, so a break of the 57.5 area flips the last MA support to resistance. Hourly confirms with ema_aligned_downtrend = true and pct_from_sma_120 = -6.15%.",
-    "Weak demand under the price: daily volume.relative_volume = 0.36 with volume_bias_10d = 'down' and obv.trend = 'down'; bollinger.pct_b = 0.1919 (pinned to lower band, BB lower = 55.01). A breakdown below the 57.81/57.65 prior-day lows and the 57.5 watch_level opens air down to the 54.99 support (tested 3x, volume-confirmed)."
+    "Strong, established downtrend on both timeframes: daily adx_14 = 29.01 ('strong') with minus_di 24.87 > plus_di 13.45, macd_line = -0.9413 vs signal +0.1339 (histogram = -1.0752, no bullish crossover), and momentum cascade roc_5d = -4.43% / roc_10d = -8.23% / roc_21d = -21.64%. Hourly_indicators.moving_averages.ema_aligned_downtrend = true. Trend-follow short remains in force on a break of the 57.50 watch_level.",
+    "Inverted MA stack and weak demand: price 57.98 sits below sma_5/10/20/21/50 (pct_from_sma_20 = -7.60%, pct_from_sma_21 = -7.98%, pct_from_sma_50 = -2.78%) and only +0.08% above ema_50 — the last MA support. Daily volume.relative_volume = 0.36, volume_bias_10d = 'down', obv.trend = 'down'; bollinger.pct_b = 0.1919 is pinned to the lower band. Loss of ema_50 / 57.50 flips that level to resistance.",
+    "Compact, definable R:R into structural support: entry 57.30–57.50 (breakdown of watch_level and prior-day low 57.81), stop 59.10 just above invalidation_level 59.00 (risk ~$1.70), target 55.10 ~$0.11 above pivot_low 54.99 (tested 3x, volume_confirmed) and aligned with bollinger.lower 55.01 — reward ~$2.30 → ~1.35:1 base case, extending toward fib_ext_low_1272 = 45.20 on a high-volume breakdown of the 54.99 shelf."
   ],
   "risks_acknowledged": [
-    "Price is sitting directly on heavily-tested support at 54.99 (3 tests, volume_confirmed) which is also the recent_low and near BB lower 55.01 — short entry at 57.5 has only ~2.5 pts of clean downside before that floor, compressing R:R below 2:1 unless the support breaks decisively.",
-    "Oversold and possibly turning: daily rsi_14 = 35.45 / rsi_21 = 32.56 (stretched), and hourly rsi_divergence.bullish = true with hourly macd histogram now positive (+0.0221) — a near-term bounce is plausible before any further leg down.",
-    "Strong fundamental tailwind against the short: analyst_consensus_web rating 'buy' (37 Buy / 0 Sell), avg_price_target 137.25 (vs ~58 price) after Apr 27 EVERLAST-A Phase 2 data; biotex re-rate or follow-through could spike the name despite the chart.",
-    "Research gap: recent_news_7d is empty (news_source = 'none') so there is no fresh catalyst read for the next 6 days; the ~US$700M offering overhang is context-only (already priced) and ATR_pct = 5.52% means stops can be whipsawed on a single candle."
+    "Oversold/mean-reversion risk: daily rsi_14 = 35.45 and rsi_21 = 32.56 are stretched, bollinger pct_b = 0.19 is pinned to the lower band, and hourly rsi_divergence.bullish = true with hourly macd histogram now positive (+0.0221) — a bounce back toward the ema_50 (~57.93) or hourly mid-BB (58.97) is plausible before any further leg down.",
+    "Light, grinding volume: daily current_volume 618k vs avg_volume_20 1.70M (relative_volume 0.36) — the downtrend lacks capitulation thrust, so a 57.50 breakdown may stall before tagging 55.10.",
+    "Heavy structural support cluster at 54.99 / BB lower 55.01: pivot_low has 3 tests and is volume_confirmed; a higher-timeframe trend buyer can defend this floor (price still +65.6% above sma_200) and squeeze shorts on any reclaim of 57.50.",
+    "Research gap: news_source = 'none' and recent_news_7d is empty; analyst_consensus_web shows Strong Buy with $137.25 PT after Apr 27 EVERLAST-A Phase 2 data and a ~$700M equity offering overhang, but no fresh 7-day catalyst confirms current positioning — any post-data follow-through buy flow could override the chart."
   ],
   "web_sources_last_7d": []
 }

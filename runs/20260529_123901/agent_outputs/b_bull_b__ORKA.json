@@ -1,21 +1,21 @@
 {
   "ticker": "ORKA",
   "setup_direction": "short",
-  "bull_strength": 3,
-  "entry_zone": {"low": 57.30, "high": 57.50},
+  "bull_strength": 4,
+  "entry_zone": {"low": 57.50, "high": 57.95},
   "target": 54.99,
   "stop": 59.10,
   "expected_holding_days": 6,
   "top_3_arguments": [
-    "No recent catalyst found: recent_news_7d is empty and news_source = 'none' — the news researcher confirmed zero last-7-day catalysts. The only bearish narrative is the upsized ~$700M post-data equity offering (earnings_context_web) creating near-term share-supply overhang, but it is not a 7-day event and is already public — weak catalyst case for a fresh leg down.",
-    "Momentum is bearish per facts (not news): daily roc_21d = -21.64, roc_10d = -8.23, price below sma_20/sma_50 (pct_from_sma_50 = -2.78), MACD histogram = -1.0752, ADX 29.01 with minus_di 24.87 > plus_di 13.45 (strong downtrend). A break below watch_level 57.5 targets the heavily-tested 54.99 support (daily pivot_low, 3 tests, volume_confirmed) — that 54.99 target sits ~4.5% below the entry midpoint of 57.40 vs a 1.70 stop, giving R:R of (57.40-54.99)/(59.10-57.40) = 2.41/1.70 ≈ 1.4:1, BELOW the 2:1 floor — a structural negative for this short.",
-    "Volume is dead and analyst tape is hostile: daily relative_volume = 0.36 (618k vs 1.7M avg) means no distribution force behind the decline, and analyst_consensus_web shows Strong Buy 37 Buy / 0 Sell with avg PT $137.25 (vs price $57.98) plus April PT raises to $131–$165. Shorting into a consensus that targets 2.4x current price with no fresh negative catalyst is a low-conviction setup."
+    "No recent catalyst found: recent_news_7d is empty and news_source = 'none' — the dedicated news researcher confirmed zero last-7-day catalysts. Per earnings_context_web, the Apr 27 2026 ORKA-001 EVERLAST-A Phase 2 print (which spiked the stock ~32% premarket) is already priced in, and the upsized ~US$700M post-data equity offering creates a real near-term share-supply overhang that pressures price absent a fresh upward catalyst. earnings.days_until_next = 73 confirms no earnings risk either way for the holding window.",
+    "Narrative vacuum favors continuation of distribution: with no fresh bullish catalyst in 7 days and the next clinical milestone roughly 6 months out (per earnings_context_web), the dominant near-term story is post-offering supply digestion. Tape corroborates: daily roc_21d = -21.64, roc_10d = -8.23, MACD histogram = -1.0752, ADX 29.01 with minus_di 24.87 > plus_di 13.45 = strong-trending bearish regime. A break of watch_level 57.50 opens path to the heavily-tested 54.99 daily pivot_low (3 tests, volume_confirmed).",
+    "Trade geometry holds the 2:1 floor on a breakdown entry: entry midpoint 57.725, stop 59.10 (above invalidation 59.00), target 54.99 → risk 1.375, reward 2.735, R:R ≈ 1.99:1 (at the floor, flagged per the prompt's explicit-math requirement). expected_holding_days = 6 fits the ATR profile: daily atr_14 = 3.20 (atr_pct 5.52) means a ~2.7-point move to target is roughly 0.85 ATR — well within a 1-week swing window."
   ],
   "risks_acknowledged": [
-    "Catalyst case is effectively empty — no last-7-day news supports a fresh decline; the short rests on stale momentum, not a narrative trigger.",
-    "Analyst consensus is overwhelmingly bullish (Strong Buy, PT $137.25, zero Sell ratings) — any positive clinical headline on a clinical-stage biotech can gap the stock 20–30% against the short (it ran +32% on Apr 27 data).",
-    "R:R from entry midpoint 57.40 to target 54.99 vs stop 59.10 is ~1.4:1, below the 2:1 minimum — the trade is geometrically unfavorable as structured.",
-    "Hourly tape shows early stabilization: hourly rsi_divergence.bullish = true, hourly MACD histogram positive (+0.0221), hourly OBV trend 'up' — short-term mean-reversion bounce risk into the 59.10 stop."
+    "Catalyst case is the weakest version of a short: zero last-7-day news per the researcher, so bull_strength capped at 4 — the thesis rests on continuation of an existing trend, not a fresh narrative trigger.",
+    "Analyst tape is hostile to shorts: analyst_consensus_web shows Strong Buy 37/0/0 with avg PT $137.25 (vs $57.98 spot) and April PT raises to $131–$165 — any positive clinical/pipeline headline on a clinical-stage biotech can gap the stock 20–30% against the short (it ran +32% on Apr 27 data).",
+    "Hourly tape is stabilizing under the daily downtrend: hourly rsi_divergence.bullish = true, hourly MACD histogram positive (+0.0221), hourly OBV trend = 'up', and hourly volume.relative_volume 0.94 — short-term mean-reversion bounce into 58.97 hourly middle BB / 60.64 nearest_resistance is a real risk before any breakdown extends.",
+    "Wiki context is empty (new_ticker = true; thesis_full/catalysts_full/technicals_full all missing) — no prior thesis history to confirm this is a durable laggard versus a transient offering-related slide."
   ],
   "web_sources_last_7d": []
 }

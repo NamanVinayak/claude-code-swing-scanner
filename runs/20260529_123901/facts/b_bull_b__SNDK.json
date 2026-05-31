@@ -415,7 +415,7 @@
     "days_until_next": 87,
     "days_since_last": null
   },
-  "news_source": "web_research",
+  "news_source": "merged",
   "analyst_consensus_web": {
     "rating": "buy",
     "avg_price_target": 1543.36,

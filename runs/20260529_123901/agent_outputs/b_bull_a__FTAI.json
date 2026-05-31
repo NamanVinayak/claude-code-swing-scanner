@@ -1,21 +1,21 @@
 {
   "ticker": "FTAI",
   "setup_direction": "long",
-  "bull_strength": 4,
-  "entry_zone": {"low": 265.00, "high": 266.50},
-  "target": 274.50,
-  "stop": 260.50,
-  "expected_holding_days": 6,
+  "bull_strength": 6,
+  "entry_zone": {"low": 263.50, "high": 265.50},
+  "target": 275.00,
+  "stop": 258.50,
+  "expected_holding_days": 7,
   "top_3_arguments": [
-    "Daily trend structure is cleanly bullish: moving_averages.ema_aligned_uptrend = true, price above every MA (price_vs_ma.above_sma_200 = true, pct_from_sma_200 = +23.69%; above_ema_50 = true, pct_from_ema_50 = +5.16%), and macd shows a fresh bullish_crossover = true with histogram = +0.68 (line 0.73 over signal 0.05). roc_21d = +21.86% confirms a sustained intermediate uptrend.",
-    "Breakout trigger is structurally located: 28-May printed a daily range $246.47-$264.09 closing strong at $262.78, reclaiming the $257.96 pivot high (18 tests) and setting up a push through watch_level $265 toward fib_236 = $267.98. OBV trend = up and not diverging from price on both daily and hourly, so the advance has had real accumulation behind it even on a quiet tape.",
-    "No near-term event risk to cap the hold: earnings.days_until_next = 60 (Q2 report ~late-Jul/Aug per earnings_context_web), and analyst_consensus_web shows rating buy with avg_price_target $271.67 and a Strong Buy 11/0/0 split, giving a fundamental tailwind into the $274.50 target just under the $275.25 resistance shelf."
+    "Full bullish MA stack confirmed: price 262.78 above all MAs (ema_5/10/20/50/200, sma_5/10/20/50/200) with moving_averages.ema_aligned_uptrend = true; price_vs_ma.pct_from_sma_50 = +6.26%, pct_from_sma_200 = +23.69%, ema_200 = 216.00 — long-term trend is decisively up and momentum.roc_21d = +21.86% confirms sustained advance.",
+    "Daily MACD just turned: macd.macd_line = 0.7295 over signal_line = 0.0499, histogram = +0.6796 with bullish_crossover = true; daily volume.obv.trend = up and not diverging from price; momentum.roc_5d = +9.56% drives the tape into watch_level 265 with the 28-May bar (open 250.11 / high 264.09 / close 262.78) reclaiming the $257.96 pivot high (18 tests).",
+    "Reward-to-risk is clean: entry mid ~264.50 to target 275.00 = +$10.50 vs stop 258.50 = -$6.00 → ~1.75:1, and that ratio improves to >2:1 if filled at the low of the entry zone (263.50). Stop 258.50 sits below hourly nearest_support 250.05 cushion AND below daily fib_382 = 255.47 / sma_20 = 253.40, while target 275.00 stops just shy of pivot resistance 275.25 (12 tests) — a logical, structure-defined R:R."
   ],
   "risks_acknowledged": [
-    "Reward-to-risk is below the 2:1 minimum: from entry mid ~$265.75 to target $274.50 is +$8.75 vs stop $260.50 = -$5.25 (~1.67:1), because nearest_resistance $275.25 (12 tests) caps upside before a clean 2:1 target is reachable. This is the primary reason bull_strength is capped at 4.",
-    "Volume confirmation is weak/contradictory: daily relative_volume = 0.57, current_volume 769k vs avg_volume_20 1.35M, and volume_bias_10d = down. A breakout above $265 on sub-average volume is failure-prone.",
-    "Momentum signals are internally conflicting: daily rsi_14 = 46.02 (mid-range, not confirming strength) and rsi_7 = 80.64 (overbought short-term); daily adx_14 = 19.24 (weak trend) with minus_di 26.57 > plus_di 20.78; hourly rsi_divergence.bearish = true and hourly macd bullish_crossover = false — entry could fade before clearing resistance.",
-    "Research gap: recent_news_7d is empty (news_source = none), so this thesis rests entirely on technicals; an unseen catalyst could override the chart in either direction."
+    "Volume confirmation is weak: daily volume.relative_volume = 0.57, current_volume 769,100 vs avg_volume_20 1,351,375, volume_bias_10d = down — a breakout above 265 on sub-average volume is failure-prone and could fade back into the $250-258 range.",
+    "Momentum signals are internally conflicted: daily rsi_14 = 46.02 (mid-range, not confirming strength) while rsi_7 = 80.64 (short-term overbought); daily adx_14 = 19.24 with minus_di 26.57 > plus_di 20.78 means trend strength = 'weak'; hourly rsi_divergence.bearish = true and hourly macd.bullish_crossover = false — entry could rejection-fade at 264-265 before clearing pivot.",
+    "Research gap — news_source = 'none' with empty recent_news_7d and wiki_context all missing (new_ticker = true). Thesis rests entirely on technicals; analyst avg PT 271.67 sits BELOW the 275 target and ~49x P/E valuation concern noted in earnings_context_web could cap upside near the 275.25 resistance shelf.",
+    "Overhead supply: pivot_high 275.25 has 12 tests and recent_high is 288.21 — significant resistance band 275-288 means even a successful breakout above 265 may stall before the 275 target prints."
   ],
   "web_sources_last_7d": []
 }

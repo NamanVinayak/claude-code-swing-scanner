@@ -3,19 +3,19 @@
   "setup_direction": "long",
   "bull_strength": 5,
   "entry_zone": {"low": 386.50, "high": 388.50},
-  "target": 401.00,
-  "stop": 381.00,
-  "expected_holding_days": 6,
+  "target": 400.25,
+  "stop": 380.00,
+  "expected_holding_days": 7,
   "top_3_arguments": [
-    "Strong, confirmed daily uptrend: ema_aligned_uptrend=true, price above all MAs (pct_from_sma_50 = +9.79%, pct_from_sma_200 = +24.9%); adx_14 = 34.7 with plus_di = 39.66 vs minus_di = 7.11 (textbook directional strength). Breakout trigger above recent_high 388.37 targets fib_ext_1272 = 400.25.",
-    "Momentum and participation confirm: macd_line = 7.17 above signal_line = 4.26 with histogram = +2.91; roc_10d = +10.37%; relative_volume = 1.41 on the 2026-05-28 bar (1.97M vs avg 1.40M); volume.obv.trend = up, not diverging on the daily.",
-    "Recent base-to-breakout structure intact: 5-day closes 369.83 -> 369.15 -> 373.81 -> 385.86 -> 385.76 held the 379.25 pivot (4 tests) as flipped support; nearest_support 345.58 well below, leaving clean overhead room to fib_ext_1272 = 400.25."
+    "Confirmed daily uptrend with strong directional strength: daily_indicators.moving_averages.ema_aligned_uptrend = true; price ($385.76) above every MA (price_vs_ma.pct_from_ema_50 = +9.0%, pct_from_sma_200 = +24.9%); adx_14 = 34.7 with plus_di = 39.66 vs minus_di = 7.11 (trend_strength = 'strong').",
+    "Breakout confirmed by volume and momentum: 2026-05-27 cleared prior pivot_high at 379.25 with relative_volume = 1.41 (1.97M vs avg 1.40M), volume_bias_10d = 'up', obv.trend = 'up' (daily not diverging); macd_line = 7.17 over signal_line = 4.26 with histogram = +2.91 expanding; momentum.roc_10d = +10.37%, roc_21d = +7.87%.",
+    "Clean measured-move target with structural levels: fib_ext_1272 = 400.25 sits above the breakout pivot (recent_high 388.37); trigger 386.50 above prev_day_high 386.30 gives target 400.25, stop 380.00 (just under hourly nearest_support 381.61 and below invalidation_level 380.0) for R:R = 13.75/7.50 = 1.83:1 -- below the strict 2:1 bar so conviction capped."
   ],
   "risks_acknowledged": [
-    "Severely overbought on short timeframes: rsi_7 = 95.75, rsi_14 = 89.28, bollinger.pct_b = 1.05 (price outside upper band) and z_score_50 = 1.84 -- high odds of a near-term pullback before continuation; entry should require a hold above 388.37, not a chase.",
-    "Hourly internals are weakening into the breakout: hourly rsi_divergence.bearish = true and hourly volume.obv.diverging_from_price = true, plus premarket gap down -0.46% with zero confirmed premarket volume -- intraday confirmation above prev_day_close 385.86 is mandatory.",
-    "Analyst avg_price_target = $377.67 sits BELOW current $385.76 and Susquehanna's PT of $385 (2026-05-27) flagged elevated valuation; limited fundamental headroom caps upside beyond the technical fib extension.",
-    "Research gap: no daily nearest_resistance value in bundle and no intraday tape post-open, so the breakout's true overhead supply above 388.37 is unconfirmed; rsi_21 = 65.79 daily is the only RSI period not pinned, so the overbought read may resolve via time rather than price."
+    "Severely overbought near-term: daily rsi_7 = 95.75 and rsi_14 = 89.28; bollinger.pct_b = 1.05 (price above upper band); z_score_50 = 1.84 -- mean-reversion pullback risk is elevated and breakout must hold without immediate fade.",
+    "Hourly internals weakening into the level: hourly_indicators.rsi_divergence.bearish = true and hourly volume.obv.diverging_from_price = true; premarket gap-down (-0.46% per catalyst_note) with zero confirmed premarket volume means the long needs intraday reclaim above 386.30.",
+    "Analyst headroom is thin: analyst_consensus_web.avg_price_target = $377.67 is BELOW current $385.76; Susquehanna's raised PT of $385 (2026-05-27) also sits at/below price -- fundamental upside cap may slow follow-through past fib_ext_1272.",
+    "Research gap: R:R of 1.83:1 is under the 2:1 minimum; daily nearest_resistance is null in the bundle, so true overhead supply above 388.37 is unmapped beyond the fib extension."
   ],
   "web_sources_last_7d": [
     "https://finance.yahoo.com/quote/MAR/news/",

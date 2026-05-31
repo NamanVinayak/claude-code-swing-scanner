@@ -17,36 +17,20 @@
       "entry_valid_until": "2026-05-29T18:00:00+00:00"
     },
     {
-      "ticker": "SNDK",
-      "direction": "long",
-      "entry_price": 1677.5,
-      "stop_loss": 1627.0,
-      "target_price": 1770.0,
-      "target_price_2": 1795.0,
-      "quantity": 2,
-      "expected_holding_days": 6,
-      "setup_type": "breakout",
-      "conviction": 4,
-      "rationale": "Catalyst bull (b_bull_b.bull_strength=7) edges past the bears on R:R asymmetry, but the technical bears dominate on conviction (b_bear_a.bear_strength=8, b_bear_b.bear_strength=7 vs avg bull 6) and they are right on the facts: daily AND hourly rsi_divergence.bearish=true, daily rsi_7=85.42, bollinger pct_b=0.8945 pinned to upper band 1700.31, price +54.9% above sma_50, z_score_50=1.76, and the breakout printed on relative_volume=0.67 (below avg) - so this is an extended/exhaustion-prone entry, not a clean base break. Expected return is positive but thin: combined_p_bull=(0.3846+0.5)/2=0.4423; expected_return_per_share = 0.4423*(1770-1677.5) - 0.5577*(1677.5-1627) = 40.91 - 28.16 = +$12.75, carried entirely by the conservative target(min 1770)/stop(max 1627) asymmetry against a 55.8% bear-weighted probability. Sizing: risk_dollars=$250 (1% x 1.0), risk_per_share=$50.50, Gate-3 qty=floor(250/50.5)=4 -> notional $6,710 exceeds 15% cap ($3,750); scaled down from 4 to 2 shares to fit small-account cap, using 40% of risk budget (M=floor(5000/1677.5)=2, risk_M=$101 >= $100 floor). Conviction held to 4 given majority-bear probability, divergence flags, and below-avg breakout volume; entry kept as a tight day-order since a low-conviction extended breakout that doesn't fill fast is suspect.",
-      "risk_usd": 101.0,
-      "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-29T20:00:00+00:00"
-    },
-    {
       "ticker": "TKO",
       "direction": "long",
-      "entry_price": 202.875,
-      "stop_loss": 198.4,
+      "entry_price": 201.75,
+      "stop_loss": 197.3,
       "target_price": 208.5,
       "target_price_2": null,
       "quantity": 24,
-      "expected_holding_days": 6,
+      "expected_holding_days": 7,
       "setup_type": "breakout",
-      "conviction": 4,
-      "rationale": "Both bulls scored 4 while bear_a scored 6, so combined_p_bull=(4/(4+6)+4/(4+4))/2=0.45; expected_return_per_share=0.45*(208.50-202.875)-0.55*(202.875-198.40)=+$0.07, marginally positive so Gate 2 passes but conviction capped at 4. Key disagreement resolved in bears' favor on conviction: bear_a's thin-volume warning is supported by daily_indicators.volume.obv.trend='down'/diverging_from_price=true and relative_volume only 1.35, plus extension risk (bollinger.pct_b=1.1565, z_score_50=1.69, rsi_divergence.bearish=true) \u2014 but trend strength is real (adx_14=30.19, plus_di 24.83>>minus_di 6.57, price above all MAs), keeping EV positive. Sizing: risk_dollars=25000*1%=250, risk_per_share=|202.875-198.40|=4.475, Gate-3 qty=55 (notional $11,158 > 15% cap $3,750); scaled down from 55 to 24 shares to fit small-account cap, using 43% of risk budget (M=floor(5000/202.875)=24, risk_M=24*4.475=$107.40 >= 40%-floor $100).",
-      "risk_usd": 107.4,
+      "conviction": 5,
+      "rationale": "Gate 0: all 4 perspectives echo setup_direction=long. Gate 2: bull_a.bull_strength=5 / bear_a.bear_strength=6 -> p_bull=5/11=0.4545; bull_b.bull_strength=4 / bear_b.bear_strength=5 -> p_catalyst=4/9=0.4444; combined_p_bull=0.4495, combined_p_bear=0.5505. Entry mid=(200.75+202.75)/2=201.75, conservative target=min(208.50,208.50)=208.50, conservative stop=max(196.30,197.30)=197.30 -> expected_return_per_share=0.4495*(208.50-201.75)-0.5505*(201.75-197.30)=3.034-2.450=+$0.584, positive so Gate 2 passes. Key disagreement: bears flagged daily_indicators.volume.obv.trend='down' diverging_from_price=true, rsi_divergence.bearish=true, bollinger.pct_b=1.1565 and z_score_50=1.69 (stretched); bulls countered with daily adx_14=30.19, plus_di 24.83 vs minus_di 6.57 (strong trend), price above all MAs (sma_200=195.51, sma_50=191.09 reclaimed) and relative_volume=1.35 on the 2026-05-28 breakout bar. Sizing: risk_dollars=25000*0.01*1.0=$250, risk_per_share=|201.75-197.30|=4.45, Gate-3 qty=floor(250/4.45)=56 -> notional=56*201.75=$11,298 exceeds 15% cap ($3,750); scaled down from 56 to 24 shares to fit small-account cap, using 43% of risk budget (M=floor(5000/201.75)=24, risk_M=24*4.45=$106.80 >= 40%-of-budget floor $100, notional=$4,842=19.4% under the 20% extended cap). earnings.days_until_next=68 removes blackout risk.",
+      "risk_usd": 106.8,
       "position_size_class": "small_scaled",
-      "entry_valid_until": "2026-05-29T15:40:00+00:00"
+      "entry_valid_until": "2026-05-29T17:30:00+00:00"
     }
   ],
   "rejected": [
@@ -75,9 +59,13 @@
       "reason": "single_position_cap_exceeded"
     },
     {
+      "ticker": "SNDK",
+      "reason": "single_position_cap_exceeded"
+    },
+    {
       "ticker": "SNX",
       "reason": "expected_return_negative"
     }
   ],
-  "summary": "approved=3, rejected=7, candidates=10"
+  "summary": "approved=2, rejected=8, candidates=10"
 }

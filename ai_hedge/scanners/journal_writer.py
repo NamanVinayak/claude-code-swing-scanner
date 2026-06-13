@@ -368,10 +368,8 @@ def _replace_section(
         r"(##\s+" + re.escape(header) + r"\s*\n)(.*?)(?=\n##\s|\Z)",
         re.DOTALL,
     )
-    replacement = (
-        r"\1" + new_content.rstrip() + ("\n\n" if keep_blank_line_after else "\n")
-    )
-    new_text, count = pattern.subn(replacement, text, count=1)
+    suffix = new_content.rstrip() + ("\n\n" if keep_blank_line_after else "\n")
+    new_text, count = pattern.subn(lambda m: m.group(1) + suffix, text, count=1)
     if count == 0:
         # Section not found; append before "## Last updated" if it exists, else at end.
         if "## Last updated" in new_text:

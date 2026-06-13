@@ -1,7 +1,7 @@
 ---
 name: trade lessons
-last_updated: 2026-05-20
-last_run_id: 20260520_233859
+last_updated: 2026-06-13
+last_run_id: 20260613_224659
 target_words: 1500
 stale_after_days: 90
 word_count: 0
@@ -22,7 +22,7 @@ The "why" should reference: the thesis at the time, the macro regime, which scan
 
 | Setup Type | Trades | Wins | Win Rate | Avg P&L | Total P&L |
 |---|---|---|---|---|---|
-| _no data yet_ | — | — | — | — | — |
+| breakout | 3 | 1 | 33.3% | $+10.90 | $+32.69 |
 
 ## Lessons
 

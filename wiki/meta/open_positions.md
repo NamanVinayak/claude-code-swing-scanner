@@ -1,7 +1,7 @@
 ---
 name: open positions snapshot
-last_updated: 2026-05-03
-last_run_id: bootstrap
+last_updated: 2026-06-13
+last_run_id: 20260613_224659
 target_words: 600
 stale_after_days: 2
 word_count: 0
@@ -10,19 +10,21 @@ summary: Structured ledger view of currently-open and pending swing trades. Refr
 
 # Open Positions — Snapshot
 
-Snapshot taken: _pending_. Refreshed nightly by Stage 4 (b_journal).
+Snapshot taken: `2026-06-13T15:53:12.091355-07:00`. Refreshed nightly by Stage 4 (b_journal).
 
 ## Summary
 
-- Open positions: 0
+- Open positions: 1
 - Pending orders: 0
 - Net long count: 0
-- Net short count: 0
-- Tickers held: _none_
+- Net short count: 1
+- Tickers held: BSX
 
 ## Open positions
 
-_none_
+| Ticker | Dir | Qty | Entry | Current | Stop | Target | Days | Unreal $ | Unreal % | Run |
+|---|---|---|---|---|---|---|---|---|---|---|
+| BSX | short | 100 | 49.60 | 46.91 | 51.20 | 45.50 | 16 | +269.50 | +5.43% | 20260528_123903 |
 
 ## Pending orders
 

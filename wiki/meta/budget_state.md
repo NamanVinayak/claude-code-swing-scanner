@@ -1,7 +1,7 @@
 ---
 name: budget state
-last_updated: 2026-05-05
-last_run_id: bootstrap
+last_updated: 2026-06-13
+last_run_id: 20260613_224659
 target_words: 800
 stale_after_days: 2
 word_count: 0
@@ -12,7 +12,8 @@ summary: live capital state and the rules that guard it
 
 ## TL;DR
 
-Starting capital $25,000. No trades executed yet. System operating under FULL framework (scaling phase skipped — paper-trading does not need dollar-loss protection). All capital rules active.
+Account $25,000 starting → cash $20,039.50, deployed $4,960.50 (19.8%), open risk $159.50 (0.64% of account) across 1 position(s). Phase: `full` (size multiplier 1.0).
+
 
 ## Rules (locked)
 
@@ -48,27 +49,31 @@ The 60%-deployment cap and 4%-total-open-risk cap still apply to all classes, so
 | field | value |
 |---|---|
 | Starting capital | $25,000 |
-| Cash on hand | $25,000 |
-| Deployed | $0 |
-| Open risk | $0 (0.0% of account) |
-| Positions open | 0 |
+| Cash on hand | $20,039.50 |
+| Deployed | $4,960.50 |
+| Open risk | $159.50 (0.64% of account) |
+| Positions open | 1 |
+
 
 ## Today's status
 
 - Paused: no
-- Daily P&L: $0
-- Weekly P&L: $0
+- Daily P&L: +0.00
+- Weekly P&L: +0.00
+
 
 ## Scaling phase
 
 - Phase: full
 - Size multiplier: 1.0
 
+
 ## Volatility regime
 
-- VIX bucket: _pending (check at run time)_
+- VIX bucket: _not measured this run_
 - Size adjustment: none (default)
+
 
 ## Last updated
 
-_pending_
+2026-06-13 (run `20260613_224659`)

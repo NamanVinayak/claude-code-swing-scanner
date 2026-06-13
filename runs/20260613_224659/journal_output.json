@@ -1,0 +1,6 @@
+{
+  "lessons": [],
+  "pattern_notes": "Breakout remains the dominant setup (4/6 last 30d) but stays weak: only AVGO (+$293.26, clean target_hit in 4d) won; LAMR (-$123.84) and ROK (-$136.73) stopped out on extended/overbought entries, and CPAY/ALAB expired pre-Gate-7. The single breakdown sample (SYM, expired $0) and gap_and_go sample (ALAB, expired $0) are too thin to draw conclusions. Persistent signal: breakout longs entered already extended (high RSI/z-score) keep getting caught by mean-reversion stops before reaching target. With Gate 7 entry expiry now live, future expireds should shrink, isolating thesis quality more cleanly. No closed trades today to add new data.",
+  "sizing_notes": "",
+  "open_position_notes": "BSX short has been held 16 days vs a 7-day expected timeframe (entered 2026-05-28, breakout setup, conviction 7) — more than double the intended window with no resolution yet. Entry $49.605, stop $51.20 (3.2% adverse), targets $45.50/$43.12 (8.3%/13.1% favorable) — risk/reward still skewed favorably if thesis holds, but the time stretch alone warrants a fresh look at whether the original breakdown thesis is still intact or has gone stale."
+}

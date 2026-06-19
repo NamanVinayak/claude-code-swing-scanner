@@ -1,7 +1,7 @@
 ---
 name: scanner state
-last_updated: 2026-06-10
-last_run_id: 20260610_211035
+last_updated: 2026-06-19
+last_run_id: 20260619_211137
 target_words: 500
 stale_after_days: 3
 word_count: 0
@@ -12,50 +12,60 @@ summary: current market breadth + signal density across the universe
 
 ## TL;DR
 
-40 candidates from 1,664-ticker universe: 12 long, 28 short. No scanner errors (`errors[]` empty). Long side dominated by `tv_trending_up` (12 of 12) + `tv_strong_buy` (11 of 12); 1 name (PSA) on `tv_breakout_up`. Short side: 26 single-reason candidates (score=1), only 2 dual-confirmed (SMCI, LAZ — both `stage4_momentum_breakdown` + `bearish_episodic_pivot`). Zero congressional buys (`capitol_buys`=0).
+40 candidates from 1,652-ticker universe: 26 long, 14 short. No scanner errors (`errors[]` empty). Long side strongly bid — 7 names scored 3 (triple-confirmed: `tv_strong_buy` + `tv_breakout_up` + `tv_trending_up`); 19 scored 2. Short side all score=1 (single-reason, lowest conviction): 7 `sector_laggard_decline`, 5 `stage4_momentum_breakdown`, 1 `bearish_episodic_pivot`, 1 mixed. Zero congressional buys (`capitol_buys`=0).
 
 ## Sector breadth
 
 Sector labels not present in JSON. Notable groupings by ticker identity:
 
-**Longs (12)** — Semiconductors/Tech (AMAT, KLAC, CRDO), Retail (ROST, BURL, DRI), Energy (PSX), Insurance/Financials (ALL, AIZ), REITs (PSA, EXR), Media (TKO).
+**Longs (26) — dominant themes:**
+- Semiconductors/EDA: TSM, ASML, ARM, ALAB, TTMI, TER, CRDO, ENTG, SIMO, ACLS
+- Industrials/Capital Equipment: CAT, GEV, ETN, CMI, ROK, WAB, AME, NDSN, VSEC
+- Energy/Power: BE, TLN
+- Healthcare/Diagnostics: NTRA, ALGN
+- Financials/Services: ECG, TOL (homebuilder), APH (connector hardware)
 
-**Shorts (28)** — heavy mining/metals cluster (AU, AG, NXE, SSRM, HL), retail/consumer (CHWY, ACI, LMND, YUMC), semis (FORM, CELC, AXTI), financial/index (SLM, INTU, TYL), crypto-adjacent (MSTR, BMNR, CRCL, SMCI).
+**Shorts (14):**
+- Software/SaaS: INTU, ZS, VRSK, INSM
+- Crypto/Fintech: MSTR, FUTU, CRCL
+- Telecom: VG, CHTR
+- Media/Advertising: OMC
+- Mining/Metals: CDE
+- Space/Satellite: PL
+- Financials: FIG
 
 ## Signal density
 
-Hits across the 1,664-ticker universe (raw from diagnostic):
+Hits across the 1,652-ticker universe (raw from diagnostic):
 
 - `tv_strong_buy`: 400 hits (capped at config max)
 - `tv_strong_sell`: 400 hits (capped at config max)
-- `tv_oversold`: 377 hits
-- `tv_overbought`: 250 hits
-- `tv_trending_down`: 341 hits
-- `tv_trending_up`: 147 hits
-- `tv_breakout_down`: 11 hits
-- `tv_breakout_up`: 9 hits
+- `tv_trending_down`: 351 hits
+- `tv_overbought`: 318 hits
+- `tv_oversold`: 295 hits
+- `tv_trending_up`: 239 hits
+- `tv_breakout_up`: 51 hits
+- `tv_breakout_down`: 29 hits
 - `capitol_buys` (30-day): 0 tickers
-- Total signal hits: 1,935 across 1,664 unique tickers with any signal
+- Total signal hits: 2,083 across 1,652 unique tickers with any signal
 - Short setups added by setup-based screener: 48
 
-Dropped before scoring: 529 below min price ($5), 211 below min volume (500k), 551 below min market cap ($1B), 0 missing metadata, 28 conflicted (mixed long/short signals), 182 long singletons + 151 short singletons below the 2-reason threshold, 0 below-threshold drops.
+Dropped before scoring: 534 below min price ($5), 161 below min volume (500k), 516 below min market cap ($1B), 0 missing metadata, 68 conflicted, 209 long singletons + 138 short singletons below 2-reason threshold, 0 below-threshold drops.
 
 ## Anomalies
 
-1. **Short side outnumbers long 28:12.** Of the 48 setup-based shorts added, only 28 survived to candidates — 26 are single-reason `sector_laggard_decline`/`stage4_momentum_breakdown`/`bearish_episodic_pivot` (score=1, lowest conviction). Only SMCI and LAZ are dual-confirmed.
+1. **Long side dominates 26:14 with unusually strong conviction.** 7 longs hit score=3 (all three signals: `tv_strong_buy` + `tv_breakout_up` + `tv_trending_up`) — that trifecta concentration is a risk-on breadth signal. Lead names include TSM (+6.9%), BE (+15.4%), GEV (+5.8%), ALAB (+11.3%), ENTG (+13.6%).
 
-2. **`tv_strong_buy` and `tv_strong_sell` both hit the 400-count cap** simultaneously — true universe counts for both unknown. `tv_oversold` (377) is also near-capped while `tv_overbought` (250) is well below cap, a reversal from the prior run (2026-05-28: overbought capped at 400, oversold at 168).
+2. **`tv_strong_buy` and `tv_strong_sell` both capped at 400** simultaneously — true universe counts unknown for both. In a normal day one typically dominates; dual-cap suggests polarized market internals.
 
-3. **AXTI flagged `sector_laggard_decline` (a bearish setup) yet is +8.8% on the day** — same contradiction pattern as KTOS in the 2026-05-28 run. Stage 2 should drop or flag this.
+3. **`tv_overbought` (318) exceeds `tv_oversold` (295)** — consistent with a market that has run. Breakout entries on already-extended names (high RSI/z-score) have historically underperformed per `setup_patterns.md` (breakout win rate 25% last 90 days, only 1 of 4 closed trades profitable). Stage 2 should screen for extended entries.
 
-4. **SMCI: -28.0% on the day**, the largest single-day move in this candidate set, dual-confirmed short (`stage4_momentum_breakdown` + `bearish_episodic_pivot`). Stage 2 must verify whether the short opportunity remains or is already exhausted (cf. PLAB precedent from 2026-05-28).
+4. **All 14 short candidates are single-reason (score=1).** No dual-confirmed short exists in this output. `sector_laggard_decline` (7 names) and `stage4_momentum_breakdown` (5 names) have no empirical win rate in the database — sample size is still zero closed shorts.
 
-5. **Zero `capitol_buys` this run** vs. 5 tickers with congressional purchases on 2026-05-28 (none of which qualified into candidates either).
+5. **Zero `capitol_buys`** — 0 congressional purchases in the last 30 days for any universe ticker. Consistent with prior runs.
 
-6. **Macro regime page is still a bootstrap placeholder** (last_updated 2026-05-03, body pending). No calibration available for whether today's short-heavy output (28:12) conflicts with the macro backdrop.
-
-7. **Setup pattern history remains thin.** `wiki/meta/setup_patterns.md` reports only 4 resolved trades in the last 30 days (1 directional loss: ROK breakout stop_hit). Win rates for `sector_laggard_decline`, `stage4_momentum_breakdown`, and `bearish_episodic_pivot` — the dominant short setups in today's output — still cannot be empirically calibrated.
+6. **Macro regime page is a bootstrap placeholder** (last_updated 2026-05-03). No calibration available for whether long-heavy, overbought-skewed output conflicts with any macro backdrop.
 
 ## Last updated
 
-20260610_211035 — 2026-06-10T14:10:35-07:00
+20260619_211137 — 2026-06-19T14:11:41-07:00
